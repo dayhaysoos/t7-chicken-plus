@@ -1,0 +1,53 @@
+{
+  "name": "t7-chicken-plus",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "^4.0.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.8.2",
+    "jest": "^22.4.4",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.1",
+    "standard": "^11.0.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react-native": "^3.2.1",
+    "eslint-plugin-styled-components": "^0.0.0",
+    "eslint-plugin-styled-components-config": "^0.0.2",
+    "namespace-constants": "^0.5.0",
+    "prop-types": "^15.6.1",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-navigation": "^2.0.1",
+    "react-redux": "^5.0.7",
+    "react-router-native": "^4.2.0",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.4.0",
+    "redux-axios-middleware": "^4.0.0",
+    "redux-devtools": "^3.4.1",
+    "redux-thunk": "^2.2.0",
+    "selectorator": "^3.3.0",
+    "styled-components": "^3.2.6",
+    "stylelint": "^9.2.1"
+  }
+}
