@@ -10,12 +10,7 @@ import * as characterActions from '../redux/actions/characterActions';
 const MainContainer = styled.View`
   flex: 1;
   align-items: center;
-  background-color: blue;
   justify-content: center;
-`;
-
-const Text = styled.Text`
-  color: ${(props) => props.theme.yellow};
 `;
 
 const CustomButton = styled.Button`
@@ -48,13 +43,23 @@ class HomeScreen extends React.Component {
 
     render() {
         const { theme } = this.props;
-        console.log('this.props', this.props);
         return (
             <ThemeProvider theme={theme}>
                 <MainContainer>
-                    <Text>Home Screen</Text>
                     <CustomButton
-                        title="Go to Details"
+                        title="Character Select"
+                        onPress={() => this.props.navigation.navigate('CharacterSelect')}
+                    />
+                    <CustomButton
+                        title="Sponsors"
+                        onPress={() => this.props.navigation.navigate('Sponsors')}
+                    />
+                    <CustomButton
+                        title="Support"
+                        onPress={() => this.props.navigation.navigate('Support')}
+                    />
+                    <CustomButton
+                        title="About"
                         onPress={() => this.props.navigation.navigate('About')}
                     />
                 </MainContainer>
