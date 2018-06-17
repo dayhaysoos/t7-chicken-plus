@@ -48,6 +48,7 @@ class HomeScreen extends React.Component {
 
     render() {
         const { theme } = this.props;
+        TESTING BRANCH
         console.log('this.props', this.props);
         return (
             <ThemeProvider theme={theme}>
