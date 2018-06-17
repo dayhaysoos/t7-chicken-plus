@@ -2,7 +2,6 @@
 
 # expo
 .expo/
-
 # dependencies
 /node_modules
 
@@ -76,3 +75,5 @@ typings/
 
 # next.js build output
 .next
+/ios/
+/android/
