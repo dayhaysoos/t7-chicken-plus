@@ -55,7 +55,7 @@ class HomeScreen extends React.Component {
                     <Text>Home Screen</Text>
                     <CustomButton
                         title="Go to Details"
-                        onPress={() => this.props.navigation.navigate('Details')}
+                        onPress={() => this.props.navigation.navigate('About')}
                     />
                 </MainContainer>
             </ThemeProvider>
