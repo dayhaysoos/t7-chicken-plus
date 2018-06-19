@@ -4,8 +4,10 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 
 import { RootStack } from './Routes';
+import CodePush from 'react-native-code-push';
 
-export default class App extends Component {
+
+class App extends Component {
     render() {
         return (
             <Provider store={store}>
@@ -14,3 +16,5 @@ export default class App extends Component {
         );
     }
 }
+
+export default CodePush(App);
