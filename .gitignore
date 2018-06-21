@@ -77,3 +77,4 @@ typings/
 .next
 /ios/
 /android/
+.DS_Store
