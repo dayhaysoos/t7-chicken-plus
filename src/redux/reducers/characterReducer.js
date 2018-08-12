@@ -20,13 +20,13 @@ const getCharacterDataFail = (state, { payload: characterDataError }) => ({
     ...state,
     isLoadingCharacterData: false,
     characterDataError,
-    characterData: { ...initialData }
+    characterData: Object.values(initialData)
 });
 
 const getCharacterDataSuccess = (state, { payload: characterData }) => ({
     ...state,
     isLoadingCharacterData: false,
-    characterData
+    ...characterData
 });
 
 const characterDataReducer = handleActions(

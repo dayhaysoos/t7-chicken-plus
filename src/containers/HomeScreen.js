@@ -19,7 +19,7 @@ const CustomButton = styled.Button`
 `;
 
 
-export const mapDispatcthToProps = {
+export const mapDispatchToProps = {
     ...characterActions
 };
 
@@ -43,6 +43,7 @@ class HomeScreen extends React.Component {
 
     render() {
         const { theme } = this.props;
+        console.log('this.props', this.props);
         return (
             <ThemeProvider theme={theme}>
                 <MainContainer>
@@ -69,4 +70,4 @@ class HomeScreen extends React.Component {
 }
 
 
-export default connect(mapStateToProps, mapDispatcthToProps)(HomeScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(HomeScreen);
