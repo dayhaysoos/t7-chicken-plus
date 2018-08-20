@@ -1,6 +1,9 @@
 import React from 'react';
+import { AsyncStorage } from 'react-native';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+
+import { createPersistoid, getStoredState } from 'redux-persist';
 
 import styled, { ThemeProvider } from 'styled-components';
 
@@ -39,11 +42,22 @@ class HomeScreen extends React.Component {
         theme: PropTypes.object
     }
 
+    checkStorage = async () => {
+        try {
+            const value = await AsyncStorage.getAllKeys();
+            console.log('value', value);
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
     componentDidMount = createComponentDidMount(this);
 
     render() {
         const { theme } = this.props;
-        console.log('this.props', this.props);
+        createPersistoid({ key: 'testing' });
+        console.log('this props', this.props);
+        this.checkStorage();
         return (
             <ThemeProvider theme={theme}>
                 <MainContainer>

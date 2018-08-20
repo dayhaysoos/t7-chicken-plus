@@ -20,7 +20,6 @@ const CharacterCard = styled.TouchableOpacity`
     marginRight: 5;
     height: 150;
     width: 85;
-    background-color: orange;
     border-top-width: 2px;
     border-top-color: black;
     border-bottom-width: 2px;
@@ -68,7 +67,6 @@ class CharacterSelect extends Component {
             <ThemeProvider theme={theme}>
                 <View style={{ flex: 1, flexDirection: 'row' }} >
                     <FlatList
-                        style={{ backgroundColor: 'green' }}
                         contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
                         data={characterNames}
                         numColumns={4}
