@@ -7,12 +7,14 @@ import { FlatList, View } from 'react-native';
 
 import * as characterActions from '../redux/actions/characterActions';
 
-import { getCharacterNames, getCharacterMoveList } from '../selectors/characterSelect';
+import { GradientTheme } from '../common/GradientTheme';
+
+import { getCharacterMoveList } from '../selectors/characterSelect';
 
 // styles
 
 const Text = styled.Text`
-    color: ${(props) => props.theme.redPrimary};
+    color: ${(props) => props.theme.primaryGradient1};
 `;
 
 const CharacterCard = styled.TouchableOpacity`
@@ -21,7 +23,7 @@ const CharacterCard = styled.TouchableOpacity`
     height: 150;
     width: 85;
     border-top-width: 2px;
-    border-top-color: black;
+    border-top-color: white;
     border-bottom-width: 2px;
     border-bottom-color: black;
 `;
@@ -65,15 +67,17 @@ class CharacterSelect extends Component {
 
         return (
             <ThemeProvider theme={theme}>
-                <View style={{ flex: 1, flexDirection: 'row' }} >
-                    <FlatList
-                        contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                        data={characterNames}
-                        numColumns={4}
-                        keyExtractor={(item, index) => index}
-                        renderItem={this.renderCharacterCard}
-                    />
-                </View>
+                <GradientTheme theme={theme}>
+                    <View style={{ flex: 1, flexDirection: 'row' }} >
+                        <FlatList
+                            contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
+                            data={characterNames}
+                            numColumns={4}
+                            keyExtractor={(item, index) => index}
+                            renderItem={this.renderCharacterCard}
+                        />
+                    </View>
+                </GradientTheme>
             </ThemeProvider>
 
         );

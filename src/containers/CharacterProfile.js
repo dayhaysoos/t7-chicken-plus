@@ -7,18 +7,19 @@ import { connect } from 'react-redux';
 import characterActions from '../redux/actions/characterActions';
 import { getCharacterMoveList } from '../selectors/characterSelect';
 
+import { GradientTheme } from '../common/GradientTheme';
+
 export const mapDispatcthToProps = {
     ...characterActions
 };
 
-export const mapStateToProps = ({ characterData, settings: listView }) => ({
+export const mapStateToProps = ({ characterData, theme, settings: listView }) => ({
     moveList: getCharacterMoveList(characterData),
-    listView: false
+    listView: false,
+    theme
 });
 
 const { width } = Dimensions.get('window');
-
-console.log(width);
 
 const MainContainer = styled.View`
 
@@ -64,22 +65,23 @@ class CharacterProfile extends Component {
     )
 
     render() {
-        const { navigation, listView } = this.props;
-        console.log('list view', listView);
+        const { navigation, listView, theme } = this.props;
         const moveListObject = navigation.getParam('moveList');
         const moveListKey = Object.keys(moveListObject)[0];
         const moveListArray = moveListObject[moveListKey];
 
         return (
-            <MainContainer>
-                <FlatList
-                    contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                    data={moveListArray}
-                    numColumns={1}
-                    keyExtractor={(item, index) => index.toString()}
-                    renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
-                />
-            </MainContainer>
+            <GradientTheme theme={theme}>
+                <MainContainer>
+                    <FlatList
+                        contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
+                        data={moveListArray}
+                        numColumns={1}
+                        keyExtractor={(item, index) => index.toString()}
+                        renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
+                    />
+                </MainContainer>
+            </GradientTheme>
         );
     }
 }

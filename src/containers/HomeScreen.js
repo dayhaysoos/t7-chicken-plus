@@ -1,24 +1,32 @@
 import React from 'react';
-import { AsyncStorage } from 'react-native';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-
-import { createPersistoid, getStoredState } from 'redux-persist';
 
 import styled, { ThemeProvider } from 'styled-components';
 
 import * as characterActions from '../redux/actions/characterActions';
 
+import { GradientTheme } from '../common/GradientTheme';
+
 // styles
 const MainContainer = styled.View`
   flex: 1;
   align-items: center;
-  justify-content: center;
 `;
 
-const CustomButton = styled.Button`
-  color: ${(props) => props.theme.redPrimary};
-  font-size: 200;
+const CustomButtonWrapper = styled.TouchableOpacity`
+  background-color: transparent;
+  height: 75;
+  width: 100%;
+  padding-top: 25;
+  padding-left: 25;
+  border-bottom-width: 1;
+  border-bottom-color: ${({ theme }) => theme.primaryGradient1};
+`;
+
+const CustomButtonText = styled.Text`
+  color: ${({ theme }) => theme.primaryGradient1};
+  font-size: 24;
 `;
 
 
@@ -42,42 +50,39 @@ class HomeScreen extends React.Component {
         theme: PropTypes.object
     }
 
-    checkStorage = async () => {
-        try {
-            const value = await AsyncStorage.getAllKeys();
-            console.log('value', value);
-        } catch (error) {
-            console.log(error);
-        }
-    }
 
     componentDidMount = createComponentDidMount(this);
 
     render() {
         const { theme } = this.props;
-        createPersistoid({ key: 'testing' });
-        console.log('this props', this.props);
-        this.checkStorage();
         return (
             <ThemeProvider theme={theme}>
-                <MainContainer>
-                    <CustomButton
-                        title="Character Select"
-                        onPress={() => this.props.navigation.navigate('CharacterSelect')}
-                    />
-                    <CustomButton
-                        title="Sponsors"
-                        onPress={() => this.props.navigation.navigate('Sponsors')}
-                    />
-                    <CustomButton
-                        title="Support"
-                        onPress={() => this.props.navigation.navigate('Support')}
-                    />
-                    <CustomButton
-                        title="About"
-                        onPress={() => this.props.navigation.navigate('About')}
-                    />
-                </MainContainer>
+                <GradientTheme
+                    theme={theme}
+                >
+                    <MainContainer>
+                        <CustomButtonWrapper
+                            onPress={() => this.props.navigation.navigate('CharacterSelect')}
+                        >
+                            <CustomButtonText>Character Select</CustomButtonText>
+                        </CustomButtonWrapper>
+                        <CustomButtonWrapper
+                            onPress={() => this.props.navigation.navigate('Sponsors')}
+                        >
+                            <CustomButtonText>Sponsors</CustomButtonText>
+                        </CustomButtonWrapper>
+                        <CustomButtonWrapper
+                            onPress={() => this.props.navigation.navigate('Support')}
+                        >
+                            <CustomButtonText>Support Us!</CustomButtonText>
+                        </CustomButtonWrapper>
+                        <CustomButtonWrapper
+                            onPress={() => this.props.navigation.navigate('About')}
+                        >
+                            <CustomButtonText>About</CustomButtonText>
+                        </CustomButtonWrapper>
+                    </MainContainer>
+                </GradientTheme>
             </ThemeProvider>
         );
     }

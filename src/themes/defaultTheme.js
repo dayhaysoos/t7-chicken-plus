@@ -1,8 +1,17 @@
 export const defaultTheme = {
-    redPrimary: '#931a28',
-    redSecondary: '#320f1c',
-    yellow: '#f0aa23',
+    primary: '#19181C',
+    primaryGradient1: '#8E8E93',
+    primaryGradient2: '#323233',
+    secondary: '#FF412C',
+    secondaryGradient: '#791F16',
+    locations: [0, 1, 1]
 };
+
+export const gradientStart = { x: 0.3, y: 0.3 };
+
+export const gradientEnd = { x: 0.5, y: 0.9 };
+
+export const gradientLocations = [0, 1, 1];
 
 export const defaultSpreadSheetTheme = {
     maroon: '#3a050b',
