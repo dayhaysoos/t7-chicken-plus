@@ -5,26 +5,39 @@ import Sponsors from './containers/Sponsors';
 import CharacterSelect from './containers/CharacterSelect';
 import CharacterProfile from './containers/CharacterProfile';
 
+
 import { createStackNavigator } from 'react-navigation';
+
+const defaultNavOptions = {
+    headerStyle: {
+        backgroundColor: 'transparent'
+    }
+};
 
 export const RootStack = createStackNavigator({
     Home: {
-        screen: HomeScreen
+        screen: HomeScreen,
+        navigationOptions: defaultNavOptions
     },
     About: {
-        screen: About
+        screen: About,
+        navigationOptions: defaultNavOptions
     },
     Sponsors: {
-        screen: Sponsors
+        screen: Sponsors,
+        navigationOptions: defaultNavOptions
     },
     Support: {
-        screen: Support
+        screen: Support,
+        navigationOptions: defaultNavOptions
     },
     CharacterSelect: {
-        screen: CharacterSelect
+        screen: CharacterSelect,
+        navigationOptions: defaultNavOptions
     },
     CharacterProfile: {
-        screen: CharacterProfile
+        screen: CharacterProfile,
+        navigationOptions: defaultNavOptions
     },
-    initialRouteName: 'Home'
+    initialRouteName: 'Home',
 });
