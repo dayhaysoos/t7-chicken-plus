@@ -45,6 +45,17 @@ const SpreadsheetCell = styled.Text`
 `;
 
 class CharacterProfile extends Component {
+    state = {
+        moveListArray: []
+    }
+
+    componentDidMount () {
+        const moveListObject = this.props.navigation.getParam('moveList');
+        const moveListKey = Object.keys(moveListObject)[0];
+        const moveListArray = moveListObject[moveListKey];
+
+        this.setState({ moveListArray });
+    }
 
     renderListView = ({ item, key }) => (
         <ListViewCard>
@@ -52,8 +63,12 @@ class CharacterProfile extends Component {
         </ListViewCard>
     )
 
+    testFilters = () => {
+        this.filterMoveList((move) => move.speed < 15);
+    }
+
     renderSpreadsheetView = ({ item: { notation, hit_level, damage, speed, on_block, on_ch, on_hit }, key }) => (
-        <SpreadsheetRow key={key}>
+        <SpreadsheetRow key={key} onPress={this.testFilters}>
             <SpreadsheetCell>{notation}</SpreadsheetCell>
             <SpreadsheetCell>{hit_level}</SpreadsheetCell>
             <SpreadsheetCell>{damage}</SpreadsheetCell>
@@ -64,18 +79,19 @@ class CharacterProfile extends Component {
         </SpreadsheetRow>
     )
 
+    filterMoveList = (filterFunction) => {
+        this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
+    }
+
     render() {
         const { navigation, listView, theme } = this.props;
-        const moveListObject = navigation.getParam('moveList');
-        const moveListKey = Object.keys(moveListObject)[0];
-        const moveListArray = moveListObject[moveListKey];
 
         return (
             <GradientTheme theme={theme}>
                 <MainContainer>
                     <FlatList
                         contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                        data={moveListArray}
+                        data={this.state.moveListArray}
                         numColumns={1}
                         keyExtractor={(item, index) => index.toString()}
                         renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
