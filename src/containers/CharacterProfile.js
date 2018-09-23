@@ -73,7 +73,8 @@ class CharacterProfile extends Component {
     )
 
     testFilters = () => {
-        this.filterMoveList((move) => move.speed < 15);
+        // reset filters
+        this.filterMoveList((move) => move);
     }
 
     renderSpreadsheetView = ({ item: { notation, hit_level, damage, speed, on_block, on_ch, on_hit }, key }) => (

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FlatList, View, Text } from 'react-native';
+import { FlatList, View, Text, TouchableHighlight } from 'react-native';
 import styled from 'styled-components';
 
 class FilterMenu extends Component {
@@ -24,31 +24,73 @@ class FilterMenu extends Component {
     }
 
     crushProperties() {
-        return <Text>Crush Properties</Text>;
+        return (
+            <TouchableHighlight
+                // onPress={this.props.filterMoveList()}
+            >
+                <Text>Crush Properties</Text>
+            </TouchableHighlight>
+        );
     }
     hitLevel() {
-        return <Text>Hit Level</Text>;
+        return (
+            <TouchableHighlight
+                // onPress={this.props.filterMoveList()}
+            >
+                <Text>Hit Level</Text>
+            </TouchableHighlight>
+        );
     }
 
     onBlock() {
-        return <Text>On Block</Text>;
+        return (
+            <TouchableHighlight
+                // onPress={this.props.filterMoveList()}
+            >
+                <Text>On Block</Text>
+            </TouchableHighlight>
+        );
     }
     
     onCounterHit() {
-        return <Text>On Counter Hit</Text>;
+        return (
+            <TouchableHighlight
+                // onPress={this.props.filterMoveList()}
+            >
+                <Text>On Counterhit</Text>
+            </TouchableHighlight>
+        );
     }
 
     onHit() {
-        return <Text>On Hit</Text>;
+        return (
+            <TouchableHighlight
+                // onPress={this.props.filterMoveList()}
+            >
+                <Text>On Hit</Text>
+            </TouchableHighlight>
+        );
     }
     
     
     specialProperties() {
-        return <Text>Special Properties</Text>;
+        return (
+            <TouchableHighlight
+                // onPress={this.props.filterMoveList()}
+            >
+                <Text>Special Properties</Text>
+            </TouchableHighlight>
+        );
     }
     
     speed() {
-        return <Text>Speed</Text>;
+        return (
+            <TouchableHighlight
+                onPress={() => this.props.filterMoveList((move) => move.speed < 15)}
+            >
+                <View style={{backgroundColor: 'blue'}}><Text>Speed</Text></View>
+            </TouchableHighlight>
+        );
     }
 
     renderItem = ({ item }) => <View>{item}</View>;
