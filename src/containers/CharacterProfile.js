@@ -14,6 +14,7 @@ import DrawerSwitcher from '../components/DrawerSwitcher';
 
 // components
 import BottomMenuBar from '../components/BottomMenuBar';
+import FilterMenu from '../components/FilterMenu';
 
 export const mapDispatcthToProps = {
     ...characterActions
@@ -118,7 +119,7 @@ class CharacterProfile extends Component {
 
         return (
             <DrawerSwitcher
-                component={<Text>Hello</Text>}
+                component={<FilterMenu filterMoveList={this.filterMoveList} />}
                 side={side}
                 isOpen={isOpen}
                 onClose={this.onDrawerClose}
