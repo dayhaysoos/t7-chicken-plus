@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FlatList } from 'react-native';
-import { View, Text, Dimensions } from 'react-native';
+import { View, Text, Dimensions, TouchableHighlight } from 'react-native';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 
@@ -8,6 +8,12 @@ import characterActions from '../redux/actions/characterActions';
 import { getCharacterMoveList } from '../selectors/characterSelect';
 
 import { GradientTheme } from '../common/GradientTheme';
+
+import Drawer from 'react-native-drawer';
+import DrawerSwitcher from '../components/DrawerSwitcher';
+
+// components
+import BottomMenuBar from '../components/BottomMenuBar';
 
 export const mapDispatcthToProps = {
     ...characterActions
@@ -21,7 +27,7 @@ export const mapStateToProps = ({ characterData, theme, settings: listView }) =>
 
 const { width } = Dimensions.get('window');
 
-const MainContainer = styled.View`
+const MainContainer = styled(Drawer)`
 
 `;
 
@@ -46,10 +52,12 @@ const SpreadsheetCell = styled.Text`
 
 class CharacterProfile extends Component {
     state = {
-        moveListArray: []
+        moveListArray: [],
+        isRightDrawerOpen: false,
+        side: 'right',
     }
 
-    componentDidMount () {
+    componentDidMount() {
         const moveListObject = this.props.navigation.getParam('moveList');
         const moveListKey = Object.keys(moveListObject)[0];
         const moveListArray = moveListObject[moveListKey];
@@ -83,21 +91,52 @@ class CharacterProfile extends Component {
         this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
     }
 
+    openRightDrawer = () => {
+        this.setState({
+            isOpen: true,
+            side: 'right'
+        });
+    }
+
+    openLeftDrawer = () => {
+        this.setState({
+            isOpen: true,
+            side: 'left'
+        });
+    }
+
+    onDrawerClose = () => {
+        this.setState({
+            isOpen: false
+        });
+    }
+
     render() {
         const { navigation, listView, theme } = this.props;
 
+        const { isOpen, side } = this.state;
+
         return (
-            <GradientTheme theme={theme}>
-                <MainContainer>
-                    <FlatList
-                        contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                        data={this.state.moveListArray}
-                        numColumns={1}
-                        keyExtractor={(item, index) => index.toString()}
-                        renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
-                    />
-                </MainContainer>
-            </GradientTheme>
+            <DrawerSwitcher
+                component={<Text>Hello</Text>}
+                side={side}
+                isOpen={isOpen}
+                onClose={this.onDrawerClose}
+            >
+                <GradientTheme theme={theme}>
+                    <MainContainer
+                    >
+                        <FlatList
+                            contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
+                            data={this.state.moveListArray}
+                            numColumns={1}
+                            keyExtractor={(item, index) => index.toString()}
+                            renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
+                        />
+                        <BottomMenuBar onPressFilterMenu={this.openRightDrawer} />
+                    </MainContainer>
+                </GradientTheme>
+            </DrawerSwitcher>
         );
     }
 }
