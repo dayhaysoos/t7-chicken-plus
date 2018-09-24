@@ -38,6 +38,7 @@
     "prop-types": "^15.6.1",
     "react": "16.3.1",
     "react-native": "~0.55.2",
+    "react-native-accordion": "^1.0.1",
     "react-native-code-push": "^5.3.4",
     "react-native-drawer": "^2.5.0",
     "react-native-linear-gradient": "^2.4.0",
