@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FlatList, View, Text, TouchableHighlight } from 'react-native';
+import { FlatList, View, Text, TextInput, TouchableHighlight } from 'react-native';
 import Accordion from '@ercpereda/react-native-accordion';
 import styled from 'styled-components';
 
@@ -28,11 +28,18 @@ class FilterMenu extends Component {
         return {
             name: 'Crush Properties',
             component: (
-                <TouchableHighlight
-                    // onPress={this.props.filterMoveList()}
-                >
-                    <Text>Crush Properties</Text>
-                </TouchableHighlight>
+                <View>
+                    <TouchableHighlight
+                        // onPress={this.props.filterMoveList()}
+                    >
+                        <Text>Low Crush</Text>
+                    </TouchableHighlight>
+                    <TouchableHighlight
+                        // onPress={this.props.filterMoveList()}
+                    >
+                        <Text>High Crush</Text>
+                    </TouchableHighlight>
+                </View>
             )
         };
     }
@@ -41,11 +48,23 @@ class FilterMenu extends Component {
         return {
             name: 'Hit Level',
             component: (
-                <TouchableHighlight
-                    // onPress={this.props.filterMoveList()}
-                >
-                    <Text>Hit Level</Text>
-                </TouchableHighlight>
+                <View>
+                    <TouchableHighlight
+                        onPress={() => this.props.filterMoveList((move) => move.hit_level.includes('l'))}
+                    >
+                        <Text>Low</Text>
+                    </TouchableHighlight>
+                    <TouchableHighlight
+                        onPress={() => this.props.filterMoveList((move) => move.hit_level.includes('m'))}
+                    >
+                        <Text>Mid</Text>
+                    </TouchableHighlight>
+                    <TouchableHighlight
+                        onPress={() => this.props.filterMoveList((move) => move.hit_level.includes('h'))}
+                    >
+                        <Text>High</Text>
+                    </TouchableHighlight>
+                </View>
             )
         };
     }
@@ -53,39 +72,21 @@ class FilterMenu extends Component {
     onBlock() {
         return {
             name: 'On Block',
-            component: (
-                <TouchableHighlight
-                    // onPress={this.props.filterMoveList()}
-                >
-                    <Text>On Block</Text>
-                </TouchableHighlight>
-            )
+            component: <FrameEntryComponent property={'on_block'} filterMoveList={this.props.filterMoveList} />
         };
     }
     
     onCounterHit() {
         return {
             name: 'On Counter Hit',
-            component: (
-                <TouchableHighlight
-                    // onPress={this.props.filterMoveList()}
-                >
-                    <Text>On Counterhit</Text>
-                </TouchableHighlight>
-            )
+            component: <FrameEntryComponent property={'on_ch'} filterMoveList={this.props.filterMoveList} />
         };
     }
 
     onHit() {
         return {
             name: 'On Hit',
-            component: (
-                <TouchableHighlight
-                    // onPress={this.props.filterMoveList()}
-                >
-                    <Text>On Hit</Text>
-                </TouchableHighlight>
-            )
+            component: <FrameEntryComponent property={'on_hit'} filterMoveList={this.props.filterMoveList} />
         };
     }
     
@@ -104,15 +105,10 @@ class FilterMenu extends Component {
     }
     
     speed() {
+        // Looks like some speeds aren't just an int... need to know how to handle those
         return {
             name: 'Speed',
-            component: (
-                <TouchableHighlight
-                    onPress={() => this.props.filterMoveList((move) => move.speed < 15)}
-                >
-                    <View style={{backgroundColor: 'blue'}}><Text>Speed</Text></View>
-                </TouchableHighlight>
-            )
+            component: <FrameEntryComponent property={'speed'} filterMoveList={this.props.filterMoveList} />
         };
     }
 
@@ -139,6 +135,69 @@ class FilterMenu extends Component {
                     keyExtractor={(item, index) => index.toString()}
                     renderItem={this.renderItem}
                 />
+            </View>
+        );
+    }
+}
+
+class FrameEntryComponent extends Component {
+    state = {
+        selectedOperator: '=',
+        input: null
+    }
+
+    styles = {
+        operator: {
+            borderColor: 'green',
+        }
+    }
+
+    applyFilter() {
+        if (this.state.selectedOperator === '<') {
+            this.props.filterMoveList((move) => move[this.props.property] < this.state.input);
+        } else if (this.state.selectedOperator === '=') {
+            this.props.filterMoveList((move) => move.speed === this.state.input);
+        } else if (this.state.selectedOperator === '>') {
+            this.props.filterMoveList((move) => move.speed > this.state.input);
+        }
+    }
+
+    render() {
+        return (
+            <View>
+                <View style={{ backgroundColor: 'grey', flexDirection: 'row', justifyContent: 'space-around' }}>
+                    <TouchableHighlight
+                        style={[this.styles.operator, {
+                            borderWidth: this.state.selectedOperator === '<' ? 1 : 0
+                        }]}
+                        onPress={() => this.setState({ selectedOperator: '<' })}
+                    >
+                        <Text>{'<'}</Text>
+                    </TouchableHighlight>
+                    <TouchableHighlight
+                        style={[this.styles.operator, {
+                            borderWidth: this.state.selectedOperator === '=' ? 1 : 0
+                        }]}
+                        onPress={() => this.setState({ selectedOperator: '=' })}
+                    >
+                        <Text>=</Text>
+                    </TouchableHighlight>
+                    <TouchableHighlight
+                        style={[this.styles.operator, {
+                            borderWidth: this.state.selectedOperator === '>' ? 1 : 0
+                        }]}
+                        onPress={() => this.setState({ selectedOperator: '>' })}
+                    >
+                        <Text>{'>'}</Text>
+                    </TouchableHighlight>
+                    <TextInput
+                        style={{ backgroundColor: 'white', width: 50 }}
+                        onChangeText={(text) => this.setState({ input: text })}
+                    />
+                </View>
+                <TouchableHighlight onPress={() => this.applyFilter()} >
+                    <Text>Apply</Text>
+                </TouchableHighlight>
             </View>
         );
     }
