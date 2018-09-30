@@ -2,6 +2,7 @@ export const initialData = {
     'akuma': {
         'name': 'Akuma',
         'label': 'akuma',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage 1, 1, b or f+3, 2',
@@ -1868,6 +1869,7 @@ export const initialData = {
     'alisa': {
         'name': 'Alisa Bosconovich',
         'label': 'alisa',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage b+1+2 in rage WS+b+1+2 in rage DES b+1+2',
@@ -4526,6 +4528,7 @@ export const initialData = {
     'asuka': {
         'name': 'Asuka Kazama',
         'label': 'asuka',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d/f+1+2',
@@ -6476,6 +6479,7 @@ export const initialData = {
     'bob': {
         'name': 'Bob Richards',
         'label': 'bob',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d/f+1+2',
@@ -8954,6 +8958,7 @@ export const initialData = {
     'bryan': {
         'name': 'Bryan Fury',
         'label': 'bryan',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d/f+1+2 or FC+d/f+1+2',
@@ -11408,6 +11413,7 @@ export const initialData = {
     'claudio': {
         'name': 'Claudio',
         'label': 'claudio',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d/f+1+2',
@@ -12926,6 +12932,7 @@ export const initialData = {
     'devil-jin': {
         'name': 'Devil Jin',
         'label': 'devil-jin',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage b+1+2',
@@ -14912,6 +14919,7 @@ export const initialData = {
     'dragunov': {
         'name': 'Sergei Dragunov',
         'label': 'dragunov',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d+1+2',
@@ -17042,6 +17050,7 @@ export const initialData = {
     'eddy': {
         'name': 'Eddy Gordo',
         'label': 'eddy',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage b+3+4',
@@ -20084,6 +20093,7 @@ export const initialData = {
     'eliza': {
         'name': 'Eliza',
         'label': 'eliza',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage b+3+4',
@@ -21662,6 +21672,7 @@ export const initialData = {
     'feng': {
         'name': 'Feng Wei',
         'label': 'feng',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d+1+2',
@@ -24152,6 +24163,7 @@ export const initialData = {
     'geese': {
         'name': 'Geese Howard',
         'label': 'geese',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d/b+1+2 or FC+d/b+1+2',
@@ -25802,6 +25814,7 @@ export const initialData = {
     'gigas': {
         'name': 'Gigas',
         'label': 'gigas',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage 1+2',
@@ -27536,6 +27549,7 @@ export const initialData = {
     'heihachi': {
         'name': 'Heihachi Mishima',
         'label': 'heihachi',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d+1+2',
@@ -29294,6 +29308,7 @@ export const initialData = {
     'hwoarang': {
         'name': 'Hwoarang',
         'label': 'hwoarang',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage LFS or RFS d+3+4',
@@ -32264,6 +32279,7 @@ export const initialData = {
     'jack-7': {
         'name': 'Jack 7',
         'label': 'jack-7',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage b+1+2',
@@ -34742,6 +34758,7 @@ export const initialData = {
     'jin': {
         'name': 'Jin Kazama',
         'label': 'jin',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage b+1+2',
@@ -36728,6 +36745,7 @@ export const initialData = {
     'josie': {
         'name': 'Josie Rizal',
         'label': 'josie',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d/f+1+2',
@@ -38642,6 +38660,7 @@ export const initialData = {
     'katarina': {
         'name': 'Katarina Alves',
         'label': 'katarina',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage 3+4',
@@ -40268,6 +40287,7 @@ export const initialData = {
     'kazumi': {
         'name': 'Kazumi Mishima',
         'label': 'kazumi',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d+1+2',
@@ -41810,6 +41830,7 @@ export const initialData = {
     'kazuya': {
         'name': 'Kazuya Mishima',
         'label': 'kazuya',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d/f+1+2',
@@ -43688,6 +43709,7 @@ export const initialData = {
     'king': {
         'name': 'King',
         'label': 'king',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d/f+1+2',
@@ -46034,6 +46056,7 @@ export const initialData = {
     'kuma': {
         'name': 'Kuma',
         'label': 'kuma',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage b+1+2',
@@ -48548,6 +48571,7 @@ export const initialData = {
     'lars': {
         'name': 'Lars Alexanderson',
         'label': 'lars',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage 1+2',
@@ -50390,6 +50414,7 @@ export const initialData = {
     'law': {
         'name': 'Marshall Law',
         'label': 'law',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage 1+2',
@@ -53492,6 +53517,7 @@ export const initialData = {
     'lee': {
         'name': 'Lee Chaolan',
         'label': 'lee',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d+1+2 in rage HMS d+1+2',
@@ -56234,6 +56260,7 @@ export const initialData = {
     'leo': {
         'name': 'Leo Kliesen',
         'label': 'leo',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d/f+1+2',
@@ -58472,6 +58499,7 @@ export const initialData = {
     'lili': {
         'name': 'Lili Rochefort',
         'label': 'lili',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage 3+4',
@@ -60626,6 +60654,7 @@ export const initialData = {
     'ling': {
         'name': 'Ling Xiaoyu',
         'label': 'ling',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage b+1+2 or WS?b+1+2 AOP b+1+2',
@@ -63584,6 +63613,7 @@ export const initialData = {
     'lucky-chloe': {
         'name': 'Lucky Chloe',
         'label': 'lucky-chloe',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage 3+4',
@@ -65378,6 +65408,7 @@ export const initialData = {
     'master-raven': {
         'name': 'Master Raven',
         'label': 'master-raven',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d/b+3+4',
@@ -68096,6 +68127,7 @@ export const initialData = {
     'miguel': {
         'name': 'Miguel',
         'label': 'miguel',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage b+1+2 in rage SAV b+1+2',
@@ -70370,6 +70402,7 @@ export const initialData = {
     'nina': {
         'name': 'Nina Williams',
         'label': 'nina',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d+1+2',
@@ -73088,6 +73121,7 @@ export const initialData = {
     'paul': {
         'name': 'Paul Phoenix',
         'label': 'paul',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage 1+2',
@@ -74918,6 +74952,7 @@ export const initialData = {
     'shaheen': {
         'name': 'Shaheen',
         'label': 'shaheen',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage 1+2',
@@ -76316,6 +76351,7 @@ export const initialData = {
     'steve': {
         'name': 'Steve Fox',
         'label': 'steve',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage 1+2 or WS?1+2',
@@ -79286,6 +79322,7 @@ export const initialData = {
     'yoshimitsu': {
         'name': 'Yoshimitsu',
         'label': 'yoshimitsu',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage b+1+2',
@@ -84200,6 +84237,7 @@ export const initialData = {
     'noctis': {
         'name': 'Noctis Lucis Caelum',
         'label': 'noctis',
+        'starred': false,
         'data': [
             {
                 'notation': 'in rage d+1+2',

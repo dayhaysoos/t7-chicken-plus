@@ -6,7 +6,7 @@ import settings from './settingsReducer';
 const rootReducer = combineReducers({
     characterData: characterDataReducer,
     theme,
-    settings
+    settings,
 });
 
 export default rootReducer;

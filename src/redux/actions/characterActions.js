@@ -7,7 +7,9 @@ import * as characterApi from '../apis/characterApi';
 export const ACTION_TYPES = createConstants('character:character', [
     'GET_CHARACTER_DATA_PENDING',
     'GET_CHARACTER_DATA_FAIL',
-    'GET_CHARACTER_DATA_SUCCESS'
+    'GET_CHARACTER_DATA_SUCCESS',
+
+    'TOGGLE_CHARACTER_STAR',
 ]);
 
 export const getCharacterDataPending = createAction(ACTION_TYPES.GET_CHARACTER_DATA_PENDING);
@@ -21,9 +23,10 @@ export const getCharacterData = () => async dispatch => {
         const data = await characterApi.getFrameData();
 
         dispatch(getCharacterDataSuccess(data));
-    }
-    catch (error) {
+    } catch (error) {
         console.log('run this error');
         return dispatch(getCharacterDataFail(error));
     }
 };
+
+export const toggleCharacterStar = createAction(ACTION_TYPES.TOGGLE_CHARACTER_STAR);
