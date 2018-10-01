@@ -156,9 +156,9 @@ class FrameEntryComponent extends Component {
         if (this.state.selectedOperator === '<') {
             this.props.filterMoveList((move) => move[this.props.property] < this.state.input);
         } else if (this.state.selectedOperator === '=') {
-            this.props.filterMoveList((move) => move.speed === this.state.input);
+            this.props.filterMoveList((move) => move[this.props.property] === this.state.input);
         } else if (this.state.selectedOperator === '>') {
-            this.props.filterMoveList((move) => move.speed > this.state.input);
+            this.props.filterMoveList((move) => move[this.props.property] > this.state.input);
         }
     }
 
