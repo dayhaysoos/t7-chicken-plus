@@ -40,7 +40,7 @@ const toggleCharacterStar = (state, { payload: label }) => ({
     }),
 });
 
-const rehydrate = (state, { payload: { characterData: PERSISTED_CHAR_DATA } }) => ({
+const rehydrate = (state, { payload: { characterData: PERSISTED_CHAR_DATA } = {} }) => ({
     ..._.merge(state, PERSISTED_CHAR_DATA),
 });
 
