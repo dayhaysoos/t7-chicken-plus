@@ -78,7 +78,7 @@ class CharacterProfile extends Component {
     }
 
     renderSpreadsheetView = ({ item: { notation, hit_level, damage, speed, on_block, on_ch, on_hit }, key }) => (
-        <SpreadsheetRow key={key} onPress={this.testFilters}>
+        <SpreadsheetRow key={key}>
             <SpreadsheetCell>{notation}</SpreadsheetCell>
             <SpreadsheetCell>{hit_level}</SpreadsheetCell>
             <SpreadsheetCell>{damage}</SpreadsheetCell>
