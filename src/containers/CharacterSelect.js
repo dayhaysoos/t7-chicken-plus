@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
 
-import { FlatList, View } from 'react-native';
+import { Dimensions, FlatList, View } from 'react-native';
 
 import * as characterActions from '../redux/actions/characterActions';
 
@@ -48,7 +48,15 @@ class CharacterSelect extends Component {
     }
 
     state = {
-        charName: ''
+        charName: '',
+        screenWidth: Dimensions.get('window').width,
+    }
+
+    onLayout = () => {
+        const newWidth = Dimensions.get('window').width;
+        if (newWidth !== this.state.screenWidth) {
+            this.setState({ screenWidth: newWidth });
+        }
     }
 
     renderCharacterCard = ({ item }) => {
@@ -68,13 +76,14 @@ class CharacterSelect extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>
-                    <View style={{ flex: 1, flexDirection: 'row' }} >
+                    <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
                         <FlatList
                             contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
                             data={characterNames}
-                            numColumns={4}
+                            numColumns={Math.floor(this.state.screenWidth / 85)}
                             keyExtractor={(item, index) => index}
                             renderItem={this.renderCharacterCard}
+                            key={this.state.screenWidth}
                         />
                     </View>
                 </GradientTheme>
