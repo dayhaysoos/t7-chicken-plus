@@ -47,13 +47,18 @@ const SpreadsheetCell = styled.Text`
 class CharacterProfile extends Component {
 
     renderListView = ({ item, key }) => (
-        <ListViewCard>
+        <ListViewCard
+            onPress={(navigation) => this.props.navigation.navigate('CharacterMove')}
+        >
             <ListViewText key={key}>{item.notation}</ListViewText>
         </ListViewCard>
     )
 
-    renderSpreadsheetView = ({ item: { notation, hit_level, damage, speed, on_block, on_ch, on_hit }, key }) => (
-        <SpreadsheetRow key={key}>
+    renderSpreadsheetView = ({ item, item: { notation, hit_level, damage, speed, on_block, on_ch, on_hit }, key }) => (
+        <SpreadsheetRow
+            key={key}
+            onPress={(navigation) => this.props.navigation.navigate('CharacterMove', { ...item })}
+        >
             <SpreadsheetCell>{notation}</SpreadsheetCell>
             <SpreadsheetCell>{hit_level}</SpreadsheetCell>
             <SpreadsheetCell>{damage}</SpreadsheetCell>
