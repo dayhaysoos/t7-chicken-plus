@@ -15,6 +15,7 @@ import { getCharacterMoveList } from '../selectors/characterSelect';
 
 const Text = styled.Text`
     color: ${(props) => props.theme.primaryGradient1};
+    text-align: center;
 `;
 
 const CharacterCard = styled.TouchableOpacity`
@@ -22,10 +23,18 @@ const CharacterCard = styled.TouchableOpacity`
     marginRight: 5;
     height: 150;
     width: 85;
-    border-top-width: 2px;
-    border-top-color: white;
-    border-bottom-width: 2px;
-    border-bottom-color: black;
+`;
+
+const CharacerSelectBanner = styled.View`
+  flex-direction: row;
+  padding-bottom: 20;
+`;
+
+const BannerText = styled.Text`
+  padding-left: 20;
+  font-size: 65;
+  color: white;
+  flexWrap: wrap;
 `;
 
 export const mapDispatcthToProps = {
@@ -62,11 +71,13 @@ class CharacterSelect extends Component {
     renderCharacterCard = ({ item }) => {
         const name = Object.keys(item)[0];
         return (
-            <CharacterCard
-                onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item })}
-            >
-                <Text key={Math.random()}>{name}</Text>
-            </CharacterCard>
+            <View>
+                <CharacterCard
+                    onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item })}
+                >
+                </CharacterCard>
+                <Text key={Math.random()}>{name.split(' ')[0]}</Text>
+            </View>
         );
     }
 
@@ -76,6 +87,11 @@ class CharacterSelect extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>
+                    <CharacerSelectBanner>
+                        <BannerText>
+                            Select a Character
+                        </BannerText>
+                    </CharacerSelectBanner>
                     <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
                         <FlatList
                             contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}

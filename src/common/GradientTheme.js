@@ -17,6 +17,9 @@ export const GradientTheme = ({ theme, children }) => {
 };
 
 GradientTheme.propTypes = {
-    theme: PropTypes.object,
-    children: PropTypes.object
+    children: PropTypes.oneOfType([
+        PropTypes.object,
+        PropTypes.array
+    ]),
+    theme: PropTypes.object
 };
