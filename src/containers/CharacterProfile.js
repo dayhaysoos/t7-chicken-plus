@@ -39,7 +39,7 @@ const SpreadsheetRow = styled.TouchableOpacity`
 
 const SpreadsheetCell = styled.Text`
   height: 80;
-  width: ${width / 6}
+  flex: 1;
   border-width: 2;
   border-color: black;
 `;
