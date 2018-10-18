@@ -54,8 +54,10 @@ const SpreadsheetCell = styled.Text`
 class CharacterProfile extends Component {
     state = {
         moveListArray: [],
+        unFilteredMoveList: [],
         isRightDrawerOpen: false,
         side: 'right',
+        activeFilters: []
     }
 
     componentDidMount() {
@@ -63,7 +65,7 @@ class CharacterProfile extends Component {
         const moveListKey = Object.keys(moveListObject)[0];
         const moveListArray = moveListObject[moveListKey];
 
-        this.setState({ moveListArray });
+        this.setState({ moveListArray, unFilteredMoveList: moveListArray });
     }
 
     renderListView = ({ item, key }) => (
@@ -71,11 +73,6 @@ class CharacterProfile extends Component {
             <ListViewText key={key}>{item.notation}</ListViewText>
         </ListViewCard>
     )
-
-    testFilters = () => {
-        // reset filters
-        this.filterMoveList((move) => move);
-    }
 
     renderSpreadsheetView = ({ item: { notation, hit_level, damage, speed, on_block, on_ch, on_hit }, key }) => (
         <SpreadsheetRow key={key}>
@@ -91,6 +88,28 @@ class CharacterProfile extends Component {
 
     filterMoveList = (filterFunction) => {
         this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
+    }
+
+    resetFilters = () => {
+        this.setState({
+            activeFilters: [],
+            moveListArray: this.state.unFilteredMoveList
+        });
+    }
+
+    addToActiveFilters = (filter) => {
+        this.setState({ activeFilters: this.state.activeFilters.concat(filter) });
+    }
+
+    removeFromActiveFilters = (inputFilter) => {
+        const indexToRemove = this.state.activeFilters.findIndex(
+            filter => filter.toString() === inputFilter.toString()
+        );
+        const newActiveFilters = this.state.activeFilters;
+
+        newActiveFilters.splice(indexToRemove, 1);
+
+        this.setState({ activeFilters: newActiveFilters });
     }
 
     openRightDrawer = () => {
@@ -111,6 +130,8 @@ class CharacterProfile extends Component {
         this.setState({
             isOpen: false
         });
+
+        this.state.activeFilters.forEach(filter => this.filterMoveList(filter));
     }
 
     render() {
@@ -120,7 +141,15 @@ class CharacterProfile extends Component {
 
         return (
             <DrawerSwitcher
-                component={<FilterMenu filterMoveList={this.filterMoveList} />}
+                component={
+                    <FilterMenu
+                        filterMoveList={this.filterMoveList}
+                        resetFilters={this.resetFilters}
+                        addToActiveFilters={this.addToActiveFilters}
+                        removeFromActiveFilters={this.removeFromActiveFilters}
+                        noActiveFilters={this.state.activeFilters.length === 0}
+                    />
+                }
                 side={side}
                 isOpen={isOpen}
                 onClose={this.onDrawerClose}
