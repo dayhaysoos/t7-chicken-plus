@@ -3,6 +3,7 @@ import { FlatList, View, Text, TextInput, TouchableHighlight } from 'react-nativ
 import Accordion from '@ercpereda/react-native-accordion';
 import LinearGradient from 'react-native-linear-gradient';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const WhiteText = styled.Text`
   color: white;
@@ -11,7 +12,6 @@ const WhiteText = styled.Text`
 class FilterMenu extends Component {
     state = {
         filtersToDisplay: [],
-        noActiveFilters: true,
     }
 
     styles = {
@@ -29,22 +29,26 @@ class FilterMenu extends Component {
         this.setState({ filtersToDisplay: this.composeFiltersToDisplay() });
     }
 
-    componentDidUpdate(prevProps) {
-        if(this.props.noActiveFilters && !prevProps.noActiveFilters) {
-            this.setState({
-                filtersToDisplay: this.composeFiltersToDisplay(),
-                noActiveFilters: true
-            });
-        } else if (!this.props.noActiveFilters && prevProps.noActiveFilters) {
-            this.setState({
-                filtersToDisplay: this.composeFiltersToDisplay(),
-                noActiveFilters: false
-            });
-        }
+    resetFilters = () => {
+        this.props.setCharacterProfileState({
+            activeFilters: [],
+            moveListArray: this.props.unFilteredMoveList
+        });
     }
 
-    setNoActiveFilters = (input) => {
-        this.setState({ noActiveFilters: input });
+    addToActiveFilters = (filter) => {
+        this.props.setCharacterProfileState({ activeFilters: this.props.activeFilters.concat(filter) });
+    }
+
+    removeFromActiveFilters = (inputFilter) => {
+        const indexToRemove = this.props.activeFilters.findIndex(
+            filter => filter.toString() === inputFilter.toString()
+        );
+        const newActiveFilters = this.props.activeFilters;
+
+        newActiveFilters.splice(indexToRemove, 1);
+
+        this.props.setCharacterProfileState({ activeFilters: newActiveFilters });
     }
 
     composeFiltersToDisplay() {
@@ -89,26 +93,23 @@ class FilterMenu extends Component {
                     <FilterOption
                         text='High'
                         filter={(move) => move.hit_level.includes('h')}
-                        addToActiveFilters={this.props.addToActiveFilters}
-                        removeFromActiveFilters={this.props.removeFromActiveFilters}
-                        noActiveFilters={this.state.noActiveFilters}
-                        setNoActiveFilters={this.setNoActiveFilters}
+                        addToActiveFilters={this.addToActiveFilters}
+                        removeFromActiveFilters={this.removeFromActiveFilters}
+                        noActiveFilters={this.props.activeFilters.length}
                     />
                     <FilterOption
                         text='Mid'
                         filter={(move) => move.hit_level.includes('m')}
-                        addToActiveFilters={this.props.addToActiveFilters}
-                        removeFromActiveFilters={this.props.removeFromActiveFilters}
-                        noActiveFilters={this.state.noActiveFilters}
-                        setNoActiveFilters={this.setNoActiveFilters}
+                        addToActiveFilters={this.addToActiveFilters}
+                        removeFromActiveFilters={this.removeFromActiveFilters}
+                        noActiveFilters={this.props.activeFilters.length}
                     />
                     <FilterOption
                         text='Low'
                         filter={(move) => move.hit_level.includes('l')}
-                        addToActiveFilters={this.props.addToActiveFilters}
-                        removeFromActiveFilters={this.props.removeFromActiveFilters}
-                        noActiveFilters={this.state.noActiveFilters}
-                        setNoActiveFilters={this.setNoActiveFilters}
+                        addToActiveFilters={this.addToActiveFilters}
+                        removeFromActiveFilters={this.removeFromActiveFilters}
+                        noActiveFilters={this.props.activeFilters.length}
                     />
                 </View>
             )
@@ -165,16 +166,15 @@ class FilterMenu extends Component {
         return <View><Text style={{ color: 'white', fontSize: 20, padding: 10 }}>{filterName}</Text></View>;
     }
 
-    renderItem = ({ item }) => {
-        return (
-            <Accordion
-                header={() => this.renderHeader(item.name)}
-                content={item.component}
-                easing="easeOutCubic"
-                style={{ borderBottomWidth: 1, borderColor: this.styles.filterTouchable.borderColor }}
-            />
-        );
-    }
+    renderItem = ({ item }) => (
+        <Accordion
+            header={() => this.renderHeader(item.name)}
+            content={item.component}
+            easing="easeOutCubic"
+            style={{ borderBottomWidth: 1, borderColor: this.styles.filterTouchable.borderColor }}
+        />
+    );
+
 
     render() {
         return (
@@ -202,9 +202,8 @@ class FilterMenu extends Component {
                             height: 25
                         }}
                         onPress={() => {
-                            this.props.resetFilters();
+                            this.resetFilters();
                             this.setState({
-                                noActiveFilters: true,
                                 reset: true,
                                 filtersToDisplay: this.composeFiltersToDisplay(),
                             });
@@ -216,7 +215,6 @@ class FilterMenu extends Component {
                 <FlatList
                     contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
                     data={this.state.filtersToDisplay}
-                    extraData={this.state.noActiveFilters}
                     numColumns={1}
                     keyExtractor={(item, index) => index.toString()}
                     renderItem={this.renderItem}
@@ -226,11 +224,20 @@ class FilterMenu extends Component {
     }
 }
 
+FilterMenu.propTypes = {
+    activeFilters: PropTypes.arrayOf(PropTypes.func),
+    moveListArray: PropTypes.arrayOf(PropTypes.object),
+    setCharacterProfileState: PropTypes.func.isRequired,
+    unFilteredMoveList: PropTypes.arrayOf(PropTypes.object)
+};
+
+
 class FilterOption extends Component {
     state = {
         active: false
     }
 
+    // ^^^ shouldnt be controlling it's own state
     styles = {
         check: {
             color: '#2bbd27',
@@ -263,7 +270,6 @@ class FilterOption extends Component {
                     // If clicking the filter will make it active
                     if (!this.state.active) {
                         this.props.addToActiveFilters(this.props.filter);
-                        this.props.setNoActiveFilters(false);
                     } else {
                         this.props.removeFromActiveFilters(this.props.filter);
                     }
