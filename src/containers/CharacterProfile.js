@@ -4,7 +4,8 @@ import { View, Text, Dimensions, TouchableHighlight } from 'react-native';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 
-import characterActions from '../redux/actions/characterActions';
+import * as characterActions from '../redux/actions/characterActions';
+import * as settingsActions from '../redux/actions/settingsActions';
 import { getCharacterMoveList } from '../selectors/characterSelect';
 
 import { GradientTheme } from '../common/GradientTheme';
@@ -17,12 +18,13 @@ import BottomMenuBar from '../components/BottomMenuBar';
 import FilterMenu from '../components/FilterMenu';
 
 export const mapDispatcthToProps = {
-    ...characterActions
+    ...characterActions,
+    ...settingsActions
 };
 
-export const mapStateToProps = ({ characterData, theme, settings: listView }) => ({
+export const mapStateToProps = ({ characterData, theme, settings: { listView } }) => ({
     moveList: getCharacterMoveList(characterData),
-    listView: false,
+    listView,
     theme
 });
 
@@ -52,6 +54,9 @@ const SpreadsheetCell = styled.Text`
 `;
 
 class CharacterProfile extends Component {
+
+    static navigationOptions = ({ navigation }) => navigation.navigate
+
     state = {
         moveListArray: [],
         unFilteredMoveList: [],
@@ -70,7 +75,7 @@ class CharacterProfile extends Component {
 
     renderListView = ({ item, key }) => (
         <ListViewCard
-            onPress={(navigation) => this.props.navigation.navigate('CharacterMove')}
+            onPress={(navigation) => this.props.navigation.navigate('CharacterMove', { ...item })}
         >
             <ListViewText key={key}>{item.notation}</ListViewText>
         </ListViewCard>
@@ -140,7 +145,7 @@ class CharacterProfile extends Component {
     }
 
     render() {
-        const { navigation, listView, theme } = this.props;
+        const { navigation, toggleListView, listView, theme } = this.props;
 
         const { isOpen, side } = this.state;
 
@@ -169,7 +174,12 @@ class CharacterProfile extends Component {
                             keyExtractor={(item, index) => index.toString()}
                             renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
                         />
-                        <BottomMenuBar onPressFilterMenu={this.openRightDrawer} />
+                        <BottomMenuBar
+                            isListView={listView}
+                            navigation={navigation}
+                            onPressFilterMenu={this.openRightDrawer}
+                            toggleListView={toggleListView}
+                        />
                     </MainContainer>
                 </GradientTheme>
             </DrawerSwitcher>

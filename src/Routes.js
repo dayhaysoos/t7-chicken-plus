@@ -7,7 +7,7 @@ import CharacterProfile from './containers/CharacterProfile';
 import CharacterMove from './containers/CharacterMove';
 
 
-import { createStackNavigator } from 'react-navigation';
+import { createStackNavigator, createDrawerNavigator } from 'react-navigation';
 
 const defaultNavOptions = {
     headerStyle: {
@@ -45,4 +45,8 @@ export const RootStack = createStackNavigator({
         navigationOptions: defaultNavOptions
     },
     initialRouteName: 'Home',
+});
+
+export const DrawerStack = createDrawerNavigator({
+    Home: RootStack,
 });

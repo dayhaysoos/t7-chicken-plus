@@ -41,6 +41,7 @@
     "react-native": "~0.55.2",
     "react-native-code-push": "^5.3.4",
     "react-native-drawer": "^2.5.0",
+    "react-native-fontawesome": "^5.7.0",
     "react-native-linear-gradient": "^2.4.0",
     "react-navigation": "^2.0.1",
     "react-redux": "^5.0.7",

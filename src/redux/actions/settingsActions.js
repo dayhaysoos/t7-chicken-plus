@@ -3,7 +3,12 @@ import { createAction } from 'redux-actions';
 import createConstants from 'namespace-constants';
 
 export const ACTION_TYPES = createConstants('settings', [
-    'TOGGLE_MOVELIST_VIEW'
+    'TOGGLE_VIEW'
 ]);
 
-export const toggleMovelistView = createAction(ACTION_TYPES.TOGGLE_MOVELIST_VIEW);
+export const toggleView = createAction(ACTION_TYPES.TOGGLE_VIEW);
+
+export const toggleListView = () => dispatch => {
+    console.log('this fires');
+    dispatch(toggleView());
+};
