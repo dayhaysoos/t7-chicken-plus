@@ -118,9 +118,6 @@ class CharacterProfile extends Component {
         } else {
             this.setState({ moveListArray: this.state.unFilteredMoveList});
         }
-
-        // compose all the filters here
-
     }
 
     render() {
