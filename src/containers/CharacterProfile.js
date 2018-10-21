@@ -58,11 +58,11 @@ class CharacterProfile extends Component {
     static navigationOptions = ({ navigation }) => navigation.navigate
 
     state = {
+        activeFilters: [],
         moveListArray: [],
-        unFilteredMoveList: [],
         isRightDrawerOpen: false,
         side: 'right',
-        activeFilters: []
+        unFilteredMoveList: [],
     }
 
     componentDidMount() {
@@ -96,30 +96,8 @@ class CharacterProfile extends Component {
         </SpreadsheetRow>
     )
 
-    filterMoveList = (filterFunction) => {
-        this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
-    }
-
-    resetFilters = () => {
-        this.setState({
-            activeFilters: [],
-            moveListArray: this.state.unFilteredMoveList
-        });
-    }
-
-    addToActiveFilters = (filter) => {
-        this.setState({ activeFilters: this.state.activeFilters.concat(filter) });
-    }
-
-    removeFromActiveFilters = (inputFilter) => {
-        const indexToRemove = this.state.activeFilters.findIndex(
-            filter => filter.toString() === inputFilter.toString()
-        );
-        const newActiveFilters = this.state.activeFilters;
-
-        newActiveFilters.splice(indexToRemove, 1);
-
-        this.setState({ activeFilters: newActiveFilters });
+    setCharacterProfileState = (obj) => {
+        this.setState(obj);
     }
 
     openRightDrawer = () => {
@@ -136,12 +114,20 @@ class CharacterProfile extends Component {
         });
     }
 
+    filterMoveList(filterFunction)  {
+        this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
+    }
+
     onDrawerClose = () => {
         this.setState({
             isOpen: false
         });
 
-        this.state.activeFilters.forEach(filter => this.filterMoveList(filter));
+        if (this.state.activeFilters.length) {
+            this.state.activeFilters.forEach(filter => this.filterMoveList(filter));
+        } else {
+            this.setState({ moveListArray: this.state.unFilteredMoveList});
+        }
     }
 
     render() {
@@ -153,11 +139,10 @@ class CharacterProfile extends Component {
             <DrawerSwitcher
                 component={
                     <FilterMenu
-                        filterMoveList={this.filterMoveList}
-                        resetFilters={this.resetFilters}
-                        addToActiveFilters={this.addToActiveFilters}
-                        removeFromActiveFilters={this.removeFromActiveFilters}
-                        noActiveFilters={this.state.activeFilters.length === 0}
+                        activeFilters={this.state.activeFilters}
+                        moveListArray={this.state.moveListArray}
+                        setCharacterProfileState={this.setCharacterProfileState}
+                        unFilteredMoveList={this.state.unFilteredMoveList}
                     />
                 }
                 side={side}

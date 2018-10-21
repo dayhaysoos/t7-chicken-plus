@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import { FlatList, View, Text, TextInput, TouchableHighlight } from 'react-native';
+import { FlatList, View, Text, TouchableHighlight } from 'react-native';
 import Accordion from '@ercpereda/react-native-accordion';
 import LinearGradient from 'react-native-linear-gradient';
-import styled from 'styled-components';
+import PropTypes from 'prop-types';
+import FilterOption from './FilterOption';
+import FrameEntryComponent from './FrameEntryComponent';
 
-const WhiteText = styled.Text`
-  color: white;
-`;
 
 class FilterMenu extends Component {
     state = {
         filtersToDisplay: [],
-        noActiveFilters: true,
     }
 
     styles = {
@@ -29,24 +27,29 @@ class FilterMenu extends Component {
         this.setState({ filtersToDisplay: this.composeFiltersToDisplay() });
     }
 
-    componentDidUpdate(prevProps) {
-        if(this.props.noActiveFilters && !prevProps.noActiveFilters) {
-            this.setState({
-                filtersToDisplay: this.composeFiltersToDisplay(),
-                noActiveFilters: true
-            });
-        } else if (!this.props.noActiveFilters && prevProps.noActiveFilters) {
-            this.setState({
-                filtersToDisplay: this.composeFiltersToDisplay(),
-                noActiveFilters: false
-            });
-        }
+    resetFilters = () => {
+        this.props.setCharacterProfileState({
+            activeFilters: [],
+            moveListArray: this.props.unFilteredMoveList
+        });
     }
 
-    setNoActiveFilters = (input) => {
-        this.setState({ noActiveFilters: input });
+    addToActiveFilters = (filter) => {
+        this.props.setCharacterProfileState({ activeFilters: this.props.activeFilters.concat(filter) });
     }
 
+    removeFromActiveFilters = (inputFilter) => {
+        const indexToRemove = this.props.activeFilters.findIndex(
+            filter => filter.toString() === inputFilter.toString()
+        );
+        const newActiveFilters = this.props.activeFilters;
+
+        newActiveFilters.splice(indexToRemove, 1);
+
+        this.props.setCharacterProfileState({ activeFilters: newActiveFilters });
+    }
+
+    // Add filters that you want to display in the menu here
     composeFiltersToDisplay() {
         return [
             this.crushProperties(),
@@ -59,23 +62,50 @@ class FilterMenu extends Component {
         ];
     }
 
+    // Creates a filter option
+    filterOption({ text, filter }) {
+        return (
+            <FilterOption
+                text={text}
+                filter={filter}
+                addToActiveFilters={this.addToActiveFilters}
+                removeFromActiveFilters={this.removeFromActiveFilters}
+                noActiveFilters={!!this.props.activeFilters.length}
+            />
+        );
+    }
+
+    // Creates a frame entry component
+    frameEntryComponent({ property }) {
+        return (
+            <View style={this.styles.innerAccordion}>
+                <FrameEntryComponent
+                    property={property}
+                    addToActiveFilters={this.addToActiveFilters}
+                    removeFromActiveFilters={this.removeFromActiveFilters}
+                    noActiveFilters={!!this.props.activeFilters.length}
+                />
+            </View>
+        );
+    }
+
+    // Filter definitions
+
     crushProperties() {
+        // I can't find any crush properties in the properies array
+        // The filters for this need to be done
         return {
             name: 'Crush Properties',
             component: (
                 <View style={this.styles.innerAccordion}>
-                    <TouchableHighlight
-                        // onPress={this.props.filterMoveList()}
-                        style={this.styles.filterTouchable}
-                    >
-                        <WhiteText>Low Crush</WhiteText>
-                    </TouchableHighlight>
-                    <TouchableHighlight
-                        // onPress={this.props.filterMoveList()}
-                        style={this.styles.filterTouchable}
-                    >
-                        <WhiteText>High Crush</WhiteText>
-                    </TouchableHighlight>
+                    {this.filterOption({
+                        text: 'Low Crush',
+                        filter: (move) => move // filter goes here
+                    })}
+                    {this.filterOption({
+                        text: 'High Crush',
+                        filter: (move) => move // filter goes here
+                    })}
                 </View>
             )
         };
@@ -86,30 +116,18 @@ class FilterMenu extends Component {
             name: 'Hit Level',
             component: (
                 <View style={this.styles.innerAccordion}>
-                    <FilterOption
-                        text='High'
-                        filter={(move) => move.hit_level.includes('h')}
-                        addToActiveFilters={this.props.addToActiveFilters}
-                        removeFromActiveFilters={this.props.removeFromActiveFilters}
-                        noActiveFilters={this.state.noActiveFilters}
-                        setNoActiveFilters={this.setNoActiveFilters}
-                    />
-                    <FilterOption
-                        text='Mid'
-                        filter={(move) => move.hit_level.includes('m')}
-                        addToActiveFilters={this.props.addToActiveFilters}
-                        removeFromActiveFilters={this.props.removeFromActiveFilters}
-                        noActiveFilters={this.state.noActiveFilters}
-                        setNoActiveFilters={this.setNoActiveFilters}
-                    />
-                    <FilterOption
-                        text='Low'
-                        filter={(move) => move.hit_level.includes('l')}
-                        addToActiveFilters={this.props.addToActiveFilters}
-                        removeFromActiveFilters={this.props.removeFromActiveFilters}
-                        noActiveFilters={this.state.noActiveFilters}
-                        setNoActiveFilters={this.setNoActiveFilters}
-                    />
+                    {this.filterOption({
+                        text: 'High',
+                        filter: (move) => move.hit_level.includes('h')
+                    })}
+                    {this.filterOption({
+                        text: 'Mid',
+                        filter: (move) => move.hit_level.includes('m')
+                    })}
+                    {this.filterOption({
+                        text: 'Low',
+                        filter: (move) => move.hit_level.includes('l')
+                    })}
                 </View>
             )
         };
@@ -118,46 +136,45 @@ class FilterMenu extends Component {
     onBlock() {
         return {
             name: 'On Block',
-            component: <FrameEntryComponent property={'on_block'} filterMoveList={this.props.filterMoveList} />
+            component: this.frameEntryComponent({ property: 'on_block'})
         };
     }
     
     onCounterHit() {
         return {
             name: 'On Counter Hit',
-            component: <FrameEntryComponent property={'on_ch'} filterMoveList={this.props.filterMoveList} />
+            component: this.frameEntryComponent({ property: 'on_ch'})
         };
     }
 
     onHit() {
         return {
             name: 'On Hit',
-            component: <FrameEntryComponent property={'on_hit'} filterMoveList={this.props.filterMoveList} />
+            component: this.frameEntryComponent({ property: 'on_hit'})
         };
     }
     
     
     specialProperties() {
+        // I can't find any crush properties in the properies array
+        // The filters for this need to be done
         return {
             name: 'Special Properties',
             component: (
                 <View style={this.styles.innerAccordion}>
-                    <TouchableHighlight
-                        // onPress={this.props.filterMoveList()}
-                        style={this.styles.filterTouchable}
-                    >
-                        <WhiteText>Special Properties</WhiteText>
-                    </TouchableHighlight>
+                    {this.filterOption({
+                        text: 'Special Properties',
+                        filter: (move) => move // filter goes here
+                    })}
                 </View>
             )
         };
     }
     
     speed() {
-        // Looks like some speeds aren't just an int... need to know how to handle those
         return {
             name: 'Speed',
-            component: <FrameEntryComponent property={'speed'} filterMoveList={this.props.filterMoveList} />
+            component: this.frameEntryComponent({ property: 'speed'})
         };
     }
 
@@ -165,16 +182,15 @@ class FilterMenu extends Component {
         return <View><Text style={{ color: 'white', fontSize: 20, padding: 10 }}>{filterName}</Text></View>;
     }
 
-    renderItem = ({ item }) => {
-        return (
-            <Accordion
-                header={() => this.renderHeader(item.name)}
-                content={item.component}
-                easing="easeOutCubic"
-                style={{ borderBottomWidth: 1, borderColor: this.styles.filterTouchable.borderColor }}
-            />
-        );
-    }
+    renderItem = ({ item }) => (
+        <Accordion
+            header={() => this.renderHeader(item.name)}
+            content={item.component}
+            easing="easeOutCubic"
+            style={{ borderBottomWidth: 1, borderColor: this.styles.filterTouchable.borderColor }}
+        />
+    );
+
 
     render() {
         return (
@@ -202,12 +218,8 @@ class FilterMenu extends Component {
                             height: 25
                         }}
                         onPress={() => {
-                            this.props.resetFilters();
-                            this.setState({
-                                noActiveFilters: true,
-                                reset: true,
-                                filtersToDisplay: this.composeFiltersToDisplay(),
-                            });
+                            this.resetFilters();
+                            this.setState({ filtersToDisplay: this.composeFiltersToDisplay() });
                         }}
                     >
                         <Text style={{ color: 'white', fontSize: 14, paddingHorizontal: 5 }}>Reset</Text>
@@ -216,7 +228,6 @@ class FilterMenu extends Component {
                 <FlatList
                     contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
                     data={this.state.filtersToDisplay}
-                    extraData={this.state.noActiveFilters}
                     numColumns={1}
                     keyExtractor={(item, index) => index.toString()}
                     renderItem={this.renderItem}
@@ -226,122 +237,11 @@ class FilterMenu extends Component {
     }
 }
 
-class FilterOption extends Component {
-    state = {
-        active: false
-    }
-
-    styles = {
-        check: {
-            color: '#2bbd27',
-            fontSize: 20
-        },
-        filterTouchable: {
-            borderColor: '#4E4E52',
-            borderBottomWidth: 1,
-        },
-        innerContainer: {
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            padding: 10,
-        },
-        text: {
-            fontSize: 20
-        }
-    }
-
-    componentDidUpdate(prevProps) {
-        if (this.props.noActiveFilters && !prevProps.noActiveFilters) {
-            this.setState({ active: false });
-        }
-    }
-
-    render() {
-        return (
-            <TouchableHighlight
-                onPress={() => {
-                    // If clicking the filter will make it active
-                    if (!this.state.active) {
-                        this.props.addToActiveFilters(this.props.filter);
-                        this.props.setNoActiveFilters(false);
-                    } else {
-                        this.props.removeFromActiveFilters(this.props.filter);
-                    }
-
-                    this.setState({ active: !this.state.active });
-                }}
-                style={this.styles.filterTouchable}
-            >
-                <View style={this.styles.innerContainer}>
-                    <WhiteText style={this.styles.text}>{this.props.text}</WhiteText>
-                    {this.state.active && <Text style={this.styles.check}>✓</Text>}
-                </View>
-            </TouchableHighlight>
-        );
-    }
-}
-
-class FrameEntryComponent extends Component {
-    state = {
-        selectedOperator: '=',
-        input: null
-    }
-
-    styles = {
-        operator: {
-            borderColor: 'green',
-        }
-    }
-
-    applyFilter() {
-        if (this.state.selectedOperator === '<') {
-            this.props.filterMoveList((move) => move[this.props.property] < this.state.input);
-        } else if (this.state.selectedOperator === '=') {
-            this.props.filterMoveList((move) => move[this.props.property] === this.state.input);
-        } else if (this.state.selectedOperator === '>') {
-            this.props.filterMoveList((move) => move[this.props.property] > this.state.input);
-        }
-    }
-
-    render() {
-        return (
-            <View style={this.styles.innerAccordion}>
-                <View style={{ backgroundColor: 'grey', flexDirection: 'row', justifyContent: 'space-around' }}>
-                    <TouchableHighlight
-                        style={[this.styles.operator, {
-                            borderWidth: this.state.selectedOperator === '<' ? 1 : 0
-                        }]}
-                        onPress={() => this.setState({ selectedOperator: '<' })}
-                    >
-                        <Text>{'<'}</Text>
-                    </TouchableHighlight>
-                    <TouchableHighlight
-                        style={[this.styles.operator, {
-                            borderWidth: this.state.selectedOperator === '=' ? 1 : 0
-                        }]}
-                        onPress={() => this.setState({ selectedOperator: '=' })}
-                    >
-                        <Text>=</Text>
-                    </TouchableHighlight>
-                    <TouchableHighlight
-                        style={[this.styles.operator, {
-                            borderWidth: this.state.selectedOperator === '>' ? 1 : 0
-                        }]}
-                        onPress={() => this.setState({ selectedOperator: '>' })}
-                    >
-                        <Text>{'>'}</Text>
-                    </TouchableHighlight>
-                    <TextInput
-                        style={{ backgroundColor: 'white', width: 50 }}
-                        onChangeText={(text) => this.setState({ input: text })}
-                    />
-                </View>
-                <TouchableHighlight onPress={() => this.applyFilter()} >
-                    <Text>Apply</Text>
-                </TouchableHighlight>
-            </View>
-        );
-    }
-}
+FilterMenu.propTypes = {
+    activeFilters: PropTypes.arrayOf(PropTypes.func),
+    moveListArray: PropTypes.arrayOf(PropTypes.object),
+    setCharacterProfileState: PropTypes.func.isRequired,
+    unFilteredMoveList: PropTypes.arrayOf(PropTypes.object)
+};
 
 export default FilterMenu;
