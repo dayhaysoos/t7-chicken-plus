@@ -70,8 +70,22 @@ class FilterMenu extends Component {
                 filter={filter}
                 addToActiveFilters={this.addToActiveFilters}
                 removeFromActiveFilters={this.removeFromActiveFilters}
-                noActiveFilters={this.props.activeFilters.length}
+                noActiveFilters={!!this.props.activeFilters.length}
             />
+        );
+    }
+
+    // Creates a frame entry component
+    frameEntryComponent({ property }) {
+        return (
+            <View style={this.styles.innerAccordion}>
+                <FrameEntryComponent
+                    property={property}
+                    addToActiveFilters={this.addToActiveFilters}
+                    removeFromActiveFilters={this.removeFromActiveFilters}
+                    noActiveFilters={!!this.props.activeFilters.length}
+                />
+            </View>
         );
     }
 
@@ -122,21 +136,21 @@ class FilterMenu extends Component {
     onBlock() {
         return {
             name: 'On Block',
-            component: <FrameEntryComponent property={'on_block'} filterMoveList={this.props.filterMoveList} />
+            component: this.frameEntryComponent({ property: 'on_block'})
         };
     }
     
     onCounterHit() {
         return {
             name: 'On Counter Hit',
-            component: <FrameEntryComponent property={'on_ch'} filterMoveList={this.props.filterMoveList} />
+            component: this.frameEntryComponent({ property: 'on_ch'})
         };
     }
 
     onHit() {
         return {
             name: 'On Hit',
-            component: <FrameEntryComponent property={'on_hit'} filterMoveList={this.props.filterMoveList} />
+            component: this.frameEntryComponent({ property: 'on_hit'})
         };
     }
     
@@ -158,10 +172,9 @@ class FilterMenu extends Component {
     }
     
     speed() {
-        // Looks like some speeds aren't just an int... need to know how to handle those
         return {
             name: 'Speed',
-            component: <FrameEntryComponent property={'speed'} filterMoveList={this.props.filterMoveList} />
+            component: this.frameEntryComponent({ property: 'speed'})
         };
     }
 
@@ -206,10 +219,7 @@ class FilterMenu extends Component {
                         }}
                         onPress={() => {
                             this.resetFilters();
-                            this.setState({
-                                reset: true,
-                                filtersToDisplay: this.composeFiltersToDisplay(),
-                            });
+                            this.setState({ filtersToDisplay: this.composeFiltersToDisplay() });
                         }}
                     >
                         <Text style={{ color: 'white', fontSize: 14, paddingHorizontal: 5 }}>Reset</Text>

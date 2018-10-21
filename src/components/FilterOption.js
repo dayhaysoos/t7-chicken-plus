@@ -30,7 +30,6 @@ export default class FilterOption extends Component {
   componentDidUpdate(prevProps) {
       if (this.props.noActiveFilters && !prevProps.noActiveFilters) {
           this.setState({ active: false });
-          this.props.removeFromActiveFilters(this.props.filter);
       }
   }
 
@@ -61,7 +60,7 @@ export default class FilterOption extends Component {
 FilterOption.propTypes = {
     addToActiveFilters: PropTypes.func.isRequired,
     filter: PropTypes.func.isRequired,
-    noActiveFilters: PropTypes.func.isRequired,
+    noActiveFilters: PropTypes.bool.isRequired,
     removeFromActiveFilters: PropTypes.func.isRequired,
     text: PropTypes.string.isRequired
 };
