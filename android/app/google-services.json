@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "882547459850",
+    "firebase_url": "https://t7c-analytics.firebaseio.com",
+    "project_id": "t7c-analytics",
+    "storage_bucket": "t7c-analytics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882547459850:android:f466f63288457e2e",
+        "android_client_info": {
+          "package_name": "com.t7chickenplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882547459850-7t563obj29613d6cu7pkdgi476b76k9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZkFY1ewibyzSs5ys0hQ95_FvXfj_isA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
