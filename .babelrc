@@ -1,7 +1,6 @@
 {
   "presets": [
-    "react-native",
-    "babel-preset-react-native-stage-0"
+    "module:metro-react-native-babel-preset"
   ],
   "plugins": [
     "babel-plugin-styled-components"
