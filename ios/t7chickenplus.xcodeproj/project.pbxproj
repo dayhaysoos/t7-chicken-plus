@@ -43,7 +43,7 @@
 		62A29DEBD758FA80848C7B3E /* libPods-t7chickenplus-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9565B1D0652FC0AB7E8DC975 /* libPods-t7chickenplus-tvOSTests.a */; };
 		6610F64563C3425FAAA30F62 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8192C453BD6440E5B9FD5F3C /* libCodePush.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		83DFD9B9217DB73400C2F1BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83DFD9B8217DB73400C2F1BD /* GoogleService-Info.plist */; };
+		835270E0217E9505008E1D13 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 835270B5217E9505008E1D13 /* GoogleService-Info.plist */; };
 		AB32D5310C984267833735E9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9214D5F3C743DC88744EF4 /* libz.tbd */; };
 		ADAEF10005B2EDFC7B8E852C /* libPods-t7chickenplusTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 391AEB93FB0E3A3084FE8B65 /* libPods-t7chickenplusTests.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -395,7 +395,7 @@
 		7C68795C0FF0EFF7A5750EED /* Pods-t7chickenplusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplusTests/Pods-t7chickenplusTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8192C453BD6440E5B9FD5F3C /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCodePush.a; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		83DFD9B8217DB73400C2F1BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		835270B5217E9505008E1D13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89BD260D83A51A3F68926B13 /* Pods-t7chickenplus-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplus-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplus-tvOSTests/Pods-t7chickenplus-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9565B1D0652FC0AB7E8DC975 /* libPods-t7chickenplus-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-t7chickenplus-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
@@ -653,7 +653,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				83DFD9B8217DB73400C2F1BD /* GoogleService-Info.plist */,
+				835270B5217E9505008E1D13 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* t7chickenplus */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* t7chickenplusTests */,
@@ -1234,8 +1234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				835270E0217E9505008E1D13 /* GoogleService-Info.plist in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				83DFD9B9217DB73400C2F1BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
