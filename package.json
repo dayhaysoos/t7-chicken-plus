@@ -25,6 +25,11 @@
   "jest": {
     "preset": "react-native"
   },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
   "dependencies": {
     "@ercpereda/react-native-accordion": "^2.0.6",
     "axios": "^0.18.0",
@@ -43,6 +48,7 @@
     "react-native-code-push": "^5.4.2",
     "react-native-drawer": "^2.5.1",
     "react-native-firebase": "^5.0.0",
+    "react-native-fontawesome": "^5.7.0",
     "react-native-linear-gradient": "^2.4.0",
     "react-navigation": "^2.0.1",
     "react-redux": "^5.0.7",

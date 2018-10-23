@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -44,9 +43,12 @@
 		6610F64563C3425FAAA30F62 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8192C453BD6440E5B9FD5F3C /* libCodePush.a */; };
 		8312D8E9217E9FEA0030FBFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8312D8BE217E9FEA0030FBFA /* GoogleService-Info.plist */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		83833690217EE4FF00496FB3 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83833665217EE4FF00496FB3 /* fontawesome-webfont.ttf */; };
 		AB32D5310C984267833735E9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9214D5F3C743DC88744EF4 /* libz.tbd */; };
 		ADAEF10005B2EDFC7B8E852C /* libPods-t7chickenplusTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 391AEB93FB0E3A3084FE8B65 /* libPods-t7chickenplusTests.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		3289D0C1445449288AF25124 /* fontawesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BBC1ADD9F5A49D9B9B63629 /* fontawesome.ttf */; };
+		30DFCF0C6AF046A8AD2EFDF9 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3086181231524501BC3205C4 /* FontAwesome.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -396,6 +398,7 @@
 		8192C453BD6440E5B9FD5F3C /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCodePush.a; sourceTree = "<group>"; };
 		8312D8BE217E9FEA0030FBFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		83833665217EE4FF00496FB3 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
 		89BD260D83A51A3F68926B13 /* Pods-t7chickenplus-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplus-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplus-tvOSTests/Pods-t7chickenplus-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9565B1D0652FC0AB7E8DC975 /* libPods-t7chickenplus-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-t7chickenplus-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
@@ -407,6 +410,8 @@
 		F14DF94C13554295874880B1 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		F84B04F2DFA94100BA3A9314 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
 		FFBB47235A15C7EA4CD03E56 /* Pods-t7chickenplus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplus/Pods-t7chickenplus.debug.xcconfig"; sourceTree = "<group>"; };
+		7BBC1ADD9F5A49D9B9B63629 /* fontawesome.ttf */ = {isa = PBXFileReference; name = "fontawesome.ttf"; path = "../assets/fonts/fontawesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3086181231524501BC3205C4 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../assets/fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -653,6 +658,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				83833665217EE4FF00496FB3 /* fontawesome-webfont.ttf */,
 				8312D8BE217E9FEA0030FBFA /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* t7chickenplus */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -661,6 +667,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F8D98D8AB806CD0D4FEA6C54 /* Pods */,
 				83DFD97D217DB55900C2F1BD /* Recovered References */,
+				F4373A301FD54CF5AA596A09 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -737,6 +744,16 @@
 			);
 			name = Pods;
 			sourceTree = "<group>";
+		};
+		F4373A301FD54CF5AA596A09 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				7BBC1ADD9F5A49D9B9B63629 /* fontawesome.ttf */,
+				3086181231524501BC3205C4 /* FontAwesome.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -1234,8 +1251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				83833690217EE4FF00496FB3 /* fontawesome-webfont.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				8312D8E9217E9FEA0030FBFA /* GoogleService-Info.plist in Resources */,
+				3289D0C1445449288AF25124 /* fontawesome.ttf in Resources */,
+				30DFCF0C6AF046A8AD2EFDF9 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
