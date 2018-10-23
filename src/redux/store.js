@@ -18,7 +18,11 @@ let store = createStore(
     persistedReducer,
     {},
     compose(
-        applyMiddleware(thunk, logger)),
+        applyMiddleware(
+            thunk,
+            logger
+        ),
+    ),
 );
 
 

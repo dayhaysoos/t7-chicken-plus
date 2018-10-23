@@ -6,10 +6,13 @@ import styled, { ThemeProvider } from 'styled-components';
 import { Dimensions, FlatList, View } from 'react-native';
 
 import * as characterActions from '../redux/actions/characterActions';
+import * as settingsActions from '../redux/actions/settingsActions';
 
 import { GradientTheme } from '../common/GradientTheme';
 
 import { getCharacterMoveList } from '../selectors/characterSelect';
+
+import BottomMenuBar from '../components/BottomMenuBar';
 
 // styles
 
@@ -37,38 +40,82 @@ const BannerText = styled.Text`
   flexWrap: wrap;
 `;
 
+// list view styles
+
+const ListViewWrapper = styled.View`
+  background-color: transparent;
+`;
+
+const ListViewItem = styled.TouchableOpacity`
+  height: 125;
+  border-top-width: 1;
+  border-top-color: gray;
+  border-bottom-width: 1;
+  border-bottom-color: gray;
+  flex-direction: row;
+  align-items: center;
+`;
+
+const ListViewText = styled.Text`
+  color: white;
+  font-size: 21;
+`;
+
+const CharacterImage = styled.View`
+  background-color: pink;
+  width: 85;
+  height: 120;
+  margin-right: 20;
+`;
+
 export const mapDispatcthToProps = {
-    ...characterActions
+    ...characterActions,
+    ...settingsActions
 };
 
-export const mapStateToProps = ({ characterData, theme }) => ({
+export const mapStateToProps = ({ characterData, theme, settings: { listView } }) => ({
     ...characterData,
     theme,
-    characterNames: getCharacterMoveList(characterData)
+    characterNames: getCharacterMoveList(characterData),
+    listView
 });
 
 class CharacterSelect extends Component {
+
+    static navigationOptions = ({ navigation }) => navigation.navigate;
 
     static propTypes = {
         theme: PropTypes.object,
         characterData: PropTypes.array,
         characterNames: PropTypes.array,
-        navigation: PropTypes.object
+        navigation: PropTypes.object,
+        listView: PropTypes.bool,
+        toggleListView: PropTypes.func
     }
 
     state = {
         charName: '',
         screenWidth: Dimensions.get('window').width,
+        screenHeight: Dimensions.get('window').height
     }
 
     onLayout = () => {
-        const newWidth = Dimensions.get('window').width;
+        const { screenHeight, screenWidth } = this.state;
+        const { listView, toggleListView } = this.props;
+
+        const newWidth = screenWidth;
+        const newHeight = screenHeight;
+
+        if (newWidth > newHeight && !listView) {
+            toggleListView();
+        }
+
         if (newWidth !== this.state.screenWidth) {
             this.setState({ screenWidth: newWidth });
         }
     }
 
-    renderCharacterCard = ({ item }) => {
+    renderGridView = ({ item }) => {
         const name = Object.keys(item)[0];
         return (
             <View>
@@ -76,13 +123,27 @@ class CharacterSelect extends Component {
                     onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item })}
                 >
                 </CharacterCard>
-                <Text key={Math.random()}>{name.split(' ')[0]}</Text>
+                <Text key={name}>{name.split(' ')[0]}</Text>
             </View>
         );
     }
 
+    renderListView = ({ item }) => {
+        const name = Object.keys(item)[0];
+        return (
+            <ListViewWrapper>
+                <ListViewItem
+                    onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item })}
+                >
+                    <CharacterImage />
+                    <ListViewText key={name}>{name.split(' ')[0]}</ListViewText>
+                </ListViewItem>
+            </ListViewWrapper>
+        );
+    }
+
     render() {
-        const { theme, characterNames } = this.props;
+        const { theme, characterNames, navigation, listView, toggleListView } = this.props;
 
         return (
             <ThemeProvider theme={theme}>
@@ -96,12 +157,17 @@ class CharacterSelect extends Component {
                         <FlatList
                             contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
                             data={characterNames}
-                            numColumns={Math.floor(this.state.screenWidth / 85)}
-                            keyExtractor={(item, index) => index}
-                            renderItem={this.renderCharacterCard}
-                            key={this.state.screenWidth}
+                            numColumns={listView ? 1 : Math.floor(this.state.screenWidth / 85)}
+                            keyExtractor={(item, index) => `list-item-${index}`}
+                            renderItem={listView ? this.renderListView : this.renderGridView}
+                            key={listView ? 'listView' : 'gridView'}
                         />
                     </View>
+                    <BottomMenuBar
+                        navigation={navigation}
+                        toggleListView={toggleListView}
+                        isListView={listView}
+                    />
                 </GradientTheme>
             </ThemeProvider>
 

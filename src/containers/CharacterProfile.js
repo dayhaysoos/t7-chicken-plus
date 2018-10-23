@@ -1,27 +1,36 @@
 import React, { Component } from 'react';
 import { FlatList } from 'react-native';
-import { View, Text, Dimensions } from 'react-native';
+import { View, Text, Dimensions, TouchableHighlight } from 'react-native';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 
-import characterActions from '../redux/actions/characterActions';
+import * as characterActions from '../redux/actions/characterActions';
+import * as settingsActions from '../redux/actions/settingsActions';
 import { getCharacterMoveList } from '../selectors/characterSelect';
 
 import { GradientTheme } from '../common/GradientTheme';
 
+import Drawer from 'react-native-drawer';
+import DrawerSwitcher from '../components/DrawerSwitcher';
+
+// components
+import BottomMenuBar from '../components/BottomMenuBar';
+import FilterMenu from '../components/FilterMenu';
+
 export const mapDispatcthToProps = {
-    ...characterActions
+    ...characterActions,
+    ...settingsActions
 };
 
-export const mapStateToProps = ({ characterData, theme, settings: listView }) => ({
+export const mapStateToProps = ({ characterData, theme, settings: { listView } }) => ({
     moveList: getCharacterMoveList(characterData),
-    listView: false,
+    listView,
     theme
 });
 
 const { width } = Dimensions.get('window');
 
-const MainContainer = styled.View`
+const MainContainer = styled(Drawer)`
 
 `;
 
@@ -46,9 +55,27 @@ const SpreadsheetCell = styled.Text`
 
 class CharacterProfile extends Component {
 
+    static navigationOptions = ({ navigation }) => navigation.navigate
+
+    state = {
+        activeFilters: [],
+        moveListArray: [],
+        isRightDrawerOpen: false,
+        side: 'right',
+        unFilteredMoveList: [],
+    }
+
+    componentDidMount() {
+        const moveListObject = this.props.navigation.getParam('moveList');
+        const moveListKey = Object.keys(moveListObject)[0];
+        const moveListArray = moveListObject[moveListKey];
+
+        this.setState({ moveListArray, unFilteredMoveList: moveListArray });
+    }
+
     renderListView = ({ item, key }) => (
         <ListViewCard
-            onPress={(navigation) => this.props.navigation.navigate('CharacterMove')}
+            onPress={(navigation) => this.props.navigation.navigate('CharacterMove', { ...item })}
         >
             <ListViewText key={key}>{item.notation}</ListViewText>
         </ListViewCard>
@@ -69,24 +96,78 @@ class CharacterProfile extends Component {
         </SpreadsheetRow>
     )
 
+    setCharacterProfileState = (obj) => {
+        this.setState(obj);
+    }
+
+    openRightDrawer = () => {
+        this.setState({
+            isOpen: true,
+            side: 'right'
+        });
+    }
+
+    openLeftDrawer = () => {
+        this.setState({
+            isOpen: true,
+            side: 'left'
+        });
+    }
+
+    filterMoveList(filterFunction)  {
+        this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
+    }
+
+    onDrawerClose = () => {
+        this.setState({
+            isOpen: false
+        });
+
+        if (this.state.activeFilters.length) {
+            this.state.activeFilters.forEach(filter => this.filterMoveList(filter));
+        } else {
+            this.setState({ moveListArray: this.state.unFilteredMoveList});
+        }
+    }
+
     render() {
-        const { navigation, listView, theme } = this.props;
-        const moveListObject = navigation.getParam('moveList');
-        const moveListKey = Object.keys(moveListObject)[0];
-        const moveListArray = moveListObject[moveListKey];
+        const { navigation, toggleListView, listView, theme } = this.props;
+
+        const { isOpen, side } = this.state;
 
         return (
-            <GradientTheme theme={theme}>
-                <MainContainer>
-                    <FlatList
-                        contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                        data={moveListArray}
-                        numColumns={1}
-                        keyExtractor={(item, index) => index.toString()}
-                        renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
+            <DrawerSwitcher
+                component={
+                    <FilterMenu
+                        activeFilters={this.state.activeFilters}
+                        moveListArray={this.state.moveListArray}
+                        setCharacterProfileState={this.setCharacterProfileState}
+                        unFilteredMoveList={this.state.unFilteredMoveList}
                     />
-                </MainContainer>
-            </GradientTheme>
+                }
+                side={side}
+                isOpen={isOpen}
+                onClose={this.onDrawerClose}
+            >
+                <GradientTheme theme={theme}>
+                    <MainContainer
+                    >
+                        <FlatList
+                            contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
+                            data={this.state.moveListArray}
+                            numColumns={1}
+                            keyExtractor={(item, index) => index.toString()}
+                            renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
+                        />
+                        <BottomMenuBar
+                            isListView={listView}
+                            navigation={navigation}
+                            onPressFilterMenu={this.openRightDrawer}
+                            toggleListView={toggleListView}
+                        />
+                    </MainContainer>
+                </GradientTheme>
+            </DrawerSwitcher>
         );
     }
 }

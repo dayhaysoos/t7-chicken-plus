@@ -7,14 +7,22 @@ export const INITIAL_STATE = {
 };
 
 
-const toggleMovelistView = (state) => ({
-    ...state,
-    listView: !state.listView
-});
+// const toggleListView = (state) => ({
+//     ...state,
+//     listView: !state.listView
+// });
+
+const toggleListView = (state) => {
+    console.log('list view reducer', state);
+    return {
+        ...state,
+        listView: !state.listView
+    };
+};
 
 const settingsReducer = handleActions(
     {
-        [ACTION_TYPES.TOGGLE_MOVELIST_VIEW]: toggleMovelistView
+        [ACTION_TYPES.TOGGLE_VIEW]: toggleListView
     },
     INITIAL_STATE);
 
