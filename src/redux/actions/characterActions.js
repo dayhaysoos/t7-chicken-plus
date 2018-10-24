@@ -23,7 +23,6 @@ export const getCharacterData = () => async dispatch => {
         dispatch(getCharacterDataSuccess(data));
     }
     catch (error) {
-        console.log('run this error');
         return dispatch(getCharacterDataFail(error));
     }
 };

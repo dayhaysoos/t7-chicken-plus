@@ -1,16 +1,25 @@
 import React, { Component } from 'react';
+import { PersistGate } from 'redux-persist/integration/react';
 
 import { Provider } from 'react-redux';
-import store from './redux/store';
+import configureStore from './redux/store';
 
-import { RootStack } from './Routes';
+import { DrawerStack } from './Routes';
+import CodePush from 'react-native-code-push';
 
-export default class App extends Component {
+const { store, persistor } = configureStore;
+
+class App extends Component {
     render() {
+
         return (
             <Provider store={store}>
-                <RootStack />
+                <PersistGate loading={null} persistor={persistor}>
+                    <DrawerStack />
+                </PersistGate>
             </Provider>
         );
     }
 }
+
+export default CodePush(App);
