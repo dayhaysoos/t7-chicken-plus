@@ -28,7 +28,6 @@ const PropertyText = styled.Text`
 
 const PropertiesSection = ({ type, properties }) => (
     <MainContainer>
-        {console.log('properties', properties)}
         <Header>
             <HeaderTitle>
                 {`${type} properties`}

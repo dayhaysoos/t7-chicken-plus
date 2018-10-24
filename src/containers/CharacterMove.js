@@ -59,7 +59,6 @@ class CharacterMove extends Component {
             speed
         } = this.props.navigation.state.params;
 
-        console.log('wtf', theme);
         return (
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>

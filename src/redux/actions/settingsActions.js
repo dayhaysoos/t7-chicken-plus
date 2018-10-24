@@ -9,6 +9,5 @@ export const ACTION_TYPES = createConstants('settings', [
 export const toggleView = createAction(ACTION_TYPES.TOGGLE_VIEW);
 
 export const toggleListView = () => dispatch => {
-    console.log('this fires');
     dispatch(toggleView());
 };

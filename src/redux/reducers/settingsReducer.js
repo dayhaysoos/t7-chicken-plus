@@ -12,13 +12,10 @@ export const INITIAL_STATE = {
 //     listView: !state.listView
 // });
 
-const toggleListView = (state) => {
-    console.log('list view reducer', state);
-    return {
+const toggleListView = (state) => ({
         ...state,
         listView: !state.listView
-    };
-};
+    });
 
 const settingsReducer = handleActions(
     {
