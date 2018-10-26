@@ -1,10 +1,26 @@
+export const spreadsheetThemeColors = {
+    // light pink
+    damageColumn: '#C9500F',
+    hitLevelColumn: '#D82213',
+};
+
 export const defaultTheme = {
+    // matte black
     primary: '#19181C',
+    // gray
     primaryGradient1: '#8E8E93',
+    // metallic gray
     primaryGradient2: '#323233',
-    secondary: '#FF412C',
-    secondaryGradient: '#791F16',
-    locations: [0, 1, 1]
+    // light red red
+    icon: '#FF412C',
+    // blood red
+    iconGradient: '#791F16',
+    // light gray
+    text: '#EFEFEF',
+    // pinkish tan?
+    listViewText: '#AF8D89',
+    locations: [0, 1, 1],
+    spreadsheetThemeColors
 };
 
 export const gradientStart = { x: 0.3, y: 0.3 };
@@ -13,19 +29,7 @@ export const gradientEnd = { x: 0.5, y: 0.9 };
 
 export const gradientLocations = [0, 1, 1];
 
-export const defaultSpreadSheetTheme = {
-    maroon: '#3a050b',
-    darkMaroon: '#26090c',
-    lightPurple: '#3d1d2b',
-    orange: '#f25515',
-    betweenOrange: '#C34410',
-    darkOrange: '#83221c',
-    scarlet: '#d5221e',
-    betweenScarlet: '#AB1B18',
-    darkScarlet: '#7a151b',
-    green: '#1cb147',
-    betweenGreen: '#168F38'
-};
+
 
 // Come back to this for spreadsheet
 export const darkGreen = '#255317';

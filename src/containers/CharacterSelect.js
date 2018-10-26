@@ -133,7 +133,7 @@ class CharacterSelect extends Component {
         return (
             <ListViewWrapper>
                 <ListViewItem
-                    onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item })}
+                    onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item, name })}
                 >
                     <CharacterImage />
                     <ListViewText key={name}>{name.split(' ')[0]}</ListViewText>
