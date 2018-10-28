@@ -74,6 +74,7 @@ class BottomMenuBar extends Component {
                 {searchFunction && (
                     <React.Fragment>
                         <SearchBar
+                            autoCapitalize="none"
                             onChangeText={(searchText) => this.setState({searchText})}
                             onFocus={() => {
                                 if (this.state.searchText === '🔍 Search') {
@@ -87,7 +88,6 @@ class BottomMenuBar extends Component {
                             onPress={() => {
                                 searchFunction('');
                                 this.setState({ searchText: '🔍 Search' });
-
                             }}
                         >
                             <SearchClearText>✘</SearchClearText>

@@ -53,6 +53,12 @@ const SpreadsheetCell = styled.Text`
   border-color: black;
 `;
 
+const EmptyText = styled.Text`
+  color: white;
+  fontSize: 20;
+  marginLeft: 10;
+`;
+
 class CharacterProfile extends Component {
 
     static navigationOptions = ({ navigation }) => navigation.navigate
@@ -114,6 +120,22 @@ class CharacterProfile extends Component {
         });
     }
 
+    searchMoveList(input) {
+        if (input === '') {
+            this.setState({ moveListArray: this.state.unFilteredMoveList},
+                () => this.state.activeFilters.forEach(filter => this.filterMoveList(filter))
+            );
+        } else if (input.includes('+')) {
+            this.setState({ moveListArray: this.state.moveListArray.filter(
+                ({ notation }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
+            )});
+        } else {
+            this.setState({ moveListArray: this.state.moveListArray.filter(
+                ({ notation }) => notation.replace(/[ ,+]/g, '').includes(input.replace(/[ ,+]/g, ''))
+            )});
+        }
+    }
+
     filterMoveList(filterFunction)  {
         this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
     }
@@ -158,11 +180,13 @@ class CharacterProfile extends Component {
                             numColumns={1}
                             keyExtractor={(item, index) => index.toString()}
                             renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
+                            ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
                         />
                         <BottomMenuBar
                             isListView={listView}
                             navigation={navigation}
                             onPressFilterMenu={this.openRightDrawer}
+                            searchFunction={(input) => this.searchMoveList(input)}
                             toggleListView={toggleListView}
                         />
                     </MainContainer>
