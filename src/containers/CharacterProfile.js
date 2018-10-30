@@ -235,7 +235,7 @@ class CharacterProfile extends Component {
         const { isOpen, side, scrollY } = this.state;
 
         return (
-            <ThemeProvider>
+            <ThemeProvider theme={theme}>
                 <DrawerSwitcher
                     component={
                         <FilterMenu
@@ -265,6 +265,7 @@ class CharacterProfile extends Component {
                                 getItemLayout={(item, index) => (
                                     { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
                                 )}
+                                stickyHeaderIndices={listView ? [] : [0]}
                             />
                             <BottomMenuBar
                                 isListView={listView}
