@@ -103,6 +103,11 @@ const HeaderNotationRow = () => (
     </View>
 );
 
+const EmptyText = styled.Text`
+  fontSize: 20;
+  marginLeft: 10;
+`;
+
 class CharacterProfile extends Component {
 
     static navigationOptions = ({ navigation }) => navigation.navigate
@@ -188,6 +193,26 @@ class CharacterProfile extends Component {
         });
     }
 
+    searchMoveList(input) {
+        if (input === '') {
+            this.setState({ moveListArray: this.state.unFilteredMoveList },
+                () => this.state.activeFilters.forEach(filter => this.filterMoveList(filter))
+            );
+        } else if (input.includes('+')) {
+            this.setState({
+                moveListArray: this.state.moveListArray.filter(
+                    ({ notation }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
+                )
+            });
+        } else {
+            this.setState({
+                moveListArray: this.state.moveListArray.filter(
+                    ({ notation }) => notation.replace(/[ ,+]/g, '').includes(input.replace(/[ ,+]/g, ''))
+                )
+            });
+        }
+    }
+
     filterMoveList(filterFunction) {
         this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
     }
@@ -210,7 +235,7 @@ class CharacterProfile extends Component {
         const { isOpen, side, scrollY } = this.state;
 
         return (
-            <ThemeProvider theme={theme}>
+            <ThemeProvider>
                 <DrawerSwitcher
                     component={
                         <FilterMenu
@@ -225,28 +250,27 @@ class CharacterProfile extends Component {
                     onClose={this.onDrawerClose}
                 >
                     <GradientTheme theme={theme}>
-                        <MainContainer>
-                            <CharacterBanner />
-                            <ScrollView horizontal={true}>
-                                <FlatList
-                                    contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                                    data={this.state.moveListArray}
-                                    numColumns={1}
-                                    keyExtractor={(item, index) => index.toString()}
-                                    renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
-                                    ListHeaderComponent={listView ? null : <HeaderNotationRow />}
-                                    initialNumToRender={10}
-                                    initialScrollIndex={0}
-                                    getItemLayout={(item, index) => (
-                                        { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
-                                    )}
-                                    stickyHeaderIndices={listView ? [] : [0]}
-                                />
-                            </ScrollView>
+                        <MainContainer
+                        >
+                            <FlatList
+                                contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
+                                data={this.state.moveListArray}
+                                numColumns={1}
+                                keyExtractor={(item, index) => index.toString()}
+                                renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
+                                ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
+                                ListHeaderComponent={listView ? null : <HeaderNotationRow />}
+                                initialNumToRender={10}
+                                initialScrollIndex={0}
+                                getItemLayout={(item, index) => (
+                                    { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
+                                )}
+                            />
                             <BottomMenuBar
                                 isListView={listView}
                                 navigation={navigation}
                                 onPressFilterMenu={this.openRightDrawer}
+                                searchFunction={(input) => this.searchMoveList(input)}
                                 toggleListView={toggleListView}
                             />
                         </MainContainer>

@@ -40,6 +40,12 @@ const BannerText = styled.Text`
   flexWrap: wrap;
 `;
 
+const EmptyText = styled.Text`
+  color: white;
+  fontSize: 20;
+  marginLeft: 10;
+`;
+
 // list view styles
 
 const ListViewWrapper = styled.View`
@@ -94,6 +100,7 @@ class CharacterSelect extends Component {
     }
 
     state = {
+        characterNames: this.props.characterNames,
         charName: '',
         screenWidth: Dimensions.get('window').width,
         screenHeight: Dimensions.get('window').height
@@ -142,8 +149,15 @@ class CharacterSelect extends Component {
         );
     }
 
+    searchCharacters(input) {
+        this.setState({ characterNames: this.props.characterNames.filter(
+            character => Object.keys(character)[0].toLowerCase().includes(input.toLowerCase())
+        )});
+    }
+
     render() {
-        const { theme, characterNames, navigation, listView, toggleListView } = this.props;
+        const { theme, navigation, listView, toggleListView } = this.props;
+        const { characterNames } = this.state;
 
         return (
             <ThemeProvider theme={theme}>
@@ -161,16 +175,17 @@ class CharacterSelect extends Component {
                             keyExtractor={(item, index) => `list-item-${index}`}
                             renderItem={listView ? this.renderListView : this.renderGridView}
                             key={listView ? 'listView' : 'gridView'}
+                            ListEmptyComponent={() => <EmptyText>No results</EmptyText>}
                         />
                     </View>
                     <BottomMenuBar
                         navigation={navigation}
                         toggleListView={toggleListView}
                         isListView={listView}
+                        searchFunction={(input) => this.searchCharacters(input)}
                     />
                 </GradientTheme>
             </ThemeProvider>
-
         );
     }
 }
