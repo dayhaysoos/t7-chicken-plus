@@ -2,7 +2,7 @@
 
 The official code base for Tekken's #1 Frame data app
 
-Anyone that wants to contribute is free to do so. Just message @Dayhaysoos on Twitter first so we can talk about it. If you'd like to request an update/feature file an issue
+Anyone that wants to contribute, just shoot me an e-mail at ndejesus1227@gmail.com and we can talk about it. If you'd like to request an update/feature file an issue or submit a bug, file an issue.
 
 ## Setting Up
 
