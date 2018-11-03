@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import { FlatList, ScrollView } from 'react-native';
-import { View, Text, Dimensions } from 'react-native';
+import PropTypes from 'prop-types';
+import { FlatList } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components';
 import { connect } from 'react-redux';
 
 import CharacterBanner from '../components/CharacterProfile/CharacterBanner';
+import ListViewCard from '../components/CharacterProfile/ListViewCard';
+import SpreadSheetRow from '../components/CharacterProfile/SpreadSheetRow';
+import HeaderRow from '../components/CharacterProfile/HeaderRow';
+
 
 import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
@@ -30,78 +34,9 @@ export const mapStateToProps = ({ characterData, theme, settings: { listView } }
     theme
 });
 
-const { width } = Dimensions.get('window');
-
 const MainContainer = styled(Drawer)`
 
 `;
-
-// list view
-
-const ListViewCard = styled.TouchableOpacity`
-  height: 120;
-  width: ${width};
-  flex-direction: row;
-  border-bottom-width: 1;
-  border-bottom-color: ${({ theme: { primaryGradient1 } }) => primaryGradient1};
-`;
-
-const ListViewText = styled.Text`
-  color: ${({ theme: { text } }) => text};
-`;
-
-const MoveNameContainer = styled.View`
-  flex: 1;
-  padding-left: 20;
-  padding-top: 10;
-`;
-
-const MoveDetailContainer = styled.View`
-  flex: 3;
-  padding-left: 30;
-  padding-top: 10;
-`;
-
-const MoveDetailText = styled.Text`
-  color: ${({ theme: { listViewText } }) => listViewText};
-  justify-content: space-between;
-`;
-
-// spreadsheet 
-const SpreadsheetRow = styled.TouchableOpacity`
-  flex-direction: row;
-`;
-
-const NotationRow = styled.View`
-  flex-direction: row;
-`;
-
-const SpreadsheetCell = styled.Text`
-  height: 80;
-  width: 75;
-  border-width: 1;
-  color: ${({ theme: { text } }) => text};
-`;
-
-const NotationCell = styled(SpreadsheetCell)`
-  width: 200;
-`;
-
-const HeaderNotationCell = styled(NotationCell)``;
-
-const HeaderNotationRow = () => (
-    <View>
-        <NotationRow>
-            <HeaderNotationCell>Notation</HeaderNotationCell>
-            <SpreadsheetCell>Damage</SpreadsheetCell>
-            <SpreadsheetCell>Hit Level(s)</SpreadsheetCell>
-            <SpreadsheetCell>Speed</SpreadsheetCell>
-            <SpreadsheetCell>On Block</SpreadsheetCell>
-            <SpreadsheetCell>On Hit</SpreadsheetCell>
-            <SpreadsheetCell>Counter Hit</SpreadsheetCell>
-        </NotationRow>
-    </View>
-);
 
 const EmptyText = styled.Text`
   color: white;
@@ -112,6 +47,13 @@ const EmptyText = styled.Text`
 class CharacterProfile extends Component {
 
     static navigationOptions = ({ navigation }) => navigation.navigate
+
+    static propTypes = {
+        navigation: PropTypes.object,
+        toggleListView: PropTypes.func,
+        listView: PropTypes.bool,
+        theme: PropTypes.object
+    }
 
     state = {
         activeFilters: [],
@@ -127,53 +69,6 @@ class CharacterProfile extends Component {
         const moveListArray = moveListObject[moveListKey];
 
         this.setState({ moveListArray, unFilteredMoveList: moveListArray });
-    }
-
-    renderListView = ({ item, item: { notation, speed, on_block, on_hit } }, key) => {
-        const { theme } = this.props;
-
-        return (
-            <ThemeProvider theme={theme}>
-                <ListViewCard
-                    onPress={(navigation) => this.props.navigation.navigate('CharacterMove', { ...item })}
-                >
-                    <MoveNameContainer>
-                        <ListViewText key={key}>{notation}</ListViewText>
-                    </MoveNameContainer>
-                    <MoveDetailContainer>
-                        <MoveDetailText>
-                            Speed: {speed}
-                        </MoveDetailText>
-                        <MoveDetailText>
-                            On Block: {on_block}
-                        </MoveDetailText>
-                        <MoveDetailText>
-                            On Hit: {on_hit}
-                        </MoveDetailText>
-                    </MoveDetailContainer>
-                </ListViewCard>
-            </ThemeProvider>
-        );
-    }
-
-    renderSpreadsheetView = ({ item, item: { notation, hit_level, damage, speed, on_block, on_ch, on_hit }, key }) => {
-        const { theme } = this.props;
-        return (
-            <ThemeProvider theme={theme}>
-                <SpreadsheetRow
-                    key={key}
-                    onPress={(navigation) => this.props.navigation.navigate('CharacterMove', { ...item })}
-                >
-                    <NotationCell>{notation}</NotationCell>
-                    <SpreadsheetCell>{hit_level}</SpreadsheetCell>
-                    <SpreadsheetCell>{damage}</SpreadsheetCell>
-                    <SpreadsheetCell>{speed}</SpreadsheetCell>
-                    <SpreadsheetCell>{on_block}</SpreadsheetCell>
-                    <SpreadsheetCell>{on_hit}</SpreadsheetCell>
-                    <SpreadsheetCell>{on_ch}</SpreadsheetCell>
-                </SpreadsheetRow>
-            </ThemeProvider>
-        );
     }
 
     setCharacterProfileState = (obj) => {
@@ -235,9 +130,8 @@ class CharacterProfile extends Component {
     }
 
     render() {
-        const { name } = this.props.navigation.state.params;
         const { navigation, toggleListView, listView, theme } = this.props;
-        const { isOpen, side, scrollY } = this.state;
+        const { isOpen, side } = this.state;
 
         return (
             <ThemeProvider theme={theme}>
@@ -262,9 +156,13 @@ class CharacterProfile extends Component {
                                 data={this.state.moveListArray}
                                 numColumns={1}
                                 keyExtractor={(item, index) => index.toString()}
-                                renderItem={listView ? this.renderListView : this.renderSpreadsheetView}
+                                renderItem={({ item }) => (listView ?
+                                    <ListViewCard item={item} theme={theme} navigation={navigation} />
+                                    :
+                                    <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
+                                )}
                                 ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
-                                ListHeaderComponent={listView ? null : <HeaderNotationRow />}
+                                ListHeaderComponent={listView ? null : <HeaderRow />}
                                 initialNumToRender={10}
                                 initialScrollIndex={0}
                                 getItemLayout={(item, index) => (
