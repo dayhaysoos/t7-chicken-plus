@@ -1,10 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const SpreadsheetRow = styled.TouchableOpacity`
-  flex-direction: row;
-`;
-
 const NotationRow = styled.View`
   flex-direction: row;
 `;

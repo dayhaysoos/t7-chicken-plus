@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
-import { Dimensions } from 'react-native';
-
-const { width } = Dimensions.get('window');
 
 const SpreadsheetRow = styled.TouchableOpacity`
   flex-direction: row;
@@ -20,16 +18,20 @@ const NotationCell = styled(SpreadsheetCell)`
 `;
 
 class SpreadSheetRow extends Component {
-    constructor(props) {
-        super();
+
+    static propTypes = {
+        theme: PropTypes.object,
+        item: PropTypes.object,
+        navigation: PropTypes.object
     }
+
     render() {
-        const { theme, navigation, item, item: { notation, damage, speed, on_block, on_hit, on_ch, hit_level } } = this.props;
+        const { theme, item, navigation: { navigate }, item: { notation, damage, speed, on_block, on_hit, on_ch, hit_level } } = this.props;
 
         return (
             <ThemeProvider theme={theme}>
                 <SpreadsheetRow
-                    onPress={(navigation) => this.props.navigation.navigate('CharacterMove', { ...item })}
+                    onPress={() => navigate('CharacterMove', { ...item })}
                 >
                     <NotationCell>{notation}</NotationCell>
                     <SpreadsheetCell>{hit_level}</SpreadsheetCell>

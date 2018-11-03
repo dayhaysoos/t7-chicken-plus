@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
 import { Dimensions } from 'react-native';
 
@@ -34,16 +35,20 @@ const MoveDetailText = styled.Text`
 `;
 
 class ListViewCard extends Component {
-    constructor(props) {
-        super();
+
+    static propTypes = {
+        theme: PropTypes.object,
+        item: PropTypes.object,
+        navigation: PropTypes.object
     }
+
     render() {
-        const { theme, navigation, item, item: { notation, speed, on_block, on_hit } } = this.props;
+        const { theme, item, navigation: { navigate }, item: { notation, speed, on_block, on_hit } } = this.props;
 
         return (
             <ThemeProvider theme={theme}>
                 <CardContainer
-                    onPress={(navigation) => this.props.navigation.navigate('CharacterMove', { ...item })}
+                    onPress={() => navigate('CharacterMove', { ...item })}
                 >
                     <MoveNameContainer>
                         <ListViewText >{notation}</ListViewText>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { FlatList, ScrollView } from 'react-native';
-import { View, Text, Dimensions } from 'react-native';
+import PropTypes from 'prop-types';
+import { FlatList } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components';
 import { connect } from 'react-redux';
 
@@ -34,8 +34,6 @@ export const mapStateToProps = ({ characterData, theme, settings: { listView } }
     theme
 });
 
-const { width } = Dimensions.get('window');
-
 const MainContainer = styled(Drawer)`
 
 `;
@@ -48,6 +46,13 @@ const EmptyText = styled.Text`
 class CharacterProfile extends Component {
 
     static navigationOptions = ({ navigation }) => navigation.navigate
+
+    static propTypes = {
+        navigation: PropTypes.object,
+        toggleListView: PropTypes.func,
+        listView: PropTypes.bool,
+        theme: PropTypes.object
+    }
 
     state = {
         activeFilters: [],
@@ -120,9 +125,8 @@ class CharacterProfile extends Component {
     }
 
     render() {
-        const { name } = this.props.navigation.state.params;
         const { navigation, toggleListView, listView, theme } = this.props;
-        const { isOpen, side, scrollY } = this.state;
+        const { isOpen, side } = this.state;
 
         return (
             <ThemeProvider theme={theme}>
