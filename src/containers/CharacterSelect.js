@@ -51,6 +51,12 @@ const BannerText = styled.Text`
   flexWrap: wrap;
 `;
 
+const EmptyText = styled.Text`
+  color: white;
+  fontSize: 20;
+  marginLeft: 10;
+`;
+
 // list view styles
 
 const ListViewWrapper = styled.View`
@@ -108,6 +114,7 @@ class CharacterSelect extends Component {
     }
 
     state = {
+        characterNames: this.props.characterNames,
         charName: '',
         screenWidth: Dimensions.get('window').width,
         screenHeight: Dimensions.get('window').height,
@@ -144,12 +151,13 @@ class CharacterSelect extends Component {
     }
 
     renderListView = ({ item }) => {
+        console.log(item);
         const name = Object.keys(item)[0];
 
         return (
             <ListViewWrapper>
                 <ListViewItem
-                    onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item })}
+                    onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item, name })}
                 >
                     <CharacterImage />
                     <ListViewText key={name}>{name.split(' ')[0]}</ListViewText>
@@ -167,10 +175,15 @@ class CharacterSelect extends Component {
 
     toggleShowFavorites = () => this.setState((prevState) => ({showFavorites: !prevState.showFavorites}));
 
+    searchCharacters(input) {
+        this.setState({ characterNames: this.props.characterNames.filter(
+            character => Object.keys(character)[0].toLowerCase().includes(input.toLowerCase())
+        )});
+    }
 
     render() {
-        const { theme, characterNames, navigation, listView, toggleListView } = this.props;
-        const {showFavorites} =  this.state;
+        const { theme, navigation, listView, toggleListView } = this.props;
+        const { characterNames, showFavorites } = this.state;
 
         const data = showFavorites ? characterNames.filter(char => char.favorite) : characterNames;
 
@@ -190,6 +203,7 @@ class CharacterSelect extends Component {
                             keyExtractor={(item, index) => `list-item-${index}`}
                             renderItem={listView ? this.renderListView : this.renderGridView}
                             key={listView ? 'listView' : 'gridView'}
+                            ListEmptyComponent={() => <EmptyText>No results</EmptyText>}
                         />
                     </View>
                     <BottomMenuBar
@@ -197,10 +211,10 @@ class CharacterSelect extends Component {
                         toggleListView={toggleListView}
                         isListView={listView}
                         onPressFavoriteFilter={this.toggleShowFavorites}
+                        searchFunction={(input) => this.searchCharacters(input)}
                     />
                 </GradientTheme>
             </ThemeProvider>
-
         );
     }
 }
