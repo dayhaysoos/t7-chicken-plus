@@ -104,6 +104,7 @@ const HeaderNotationRow = () => (
 );
 
 const EmptyText = styled.Text`
+  color: white;
   fontSize: 20;
   marginLeft: 10;
 `;
@@ -193,12 +194,16 @@ class CharacterProfile extends Component {
         });
     }
 
-    searchMoveList(input) {
-        if (input === '') {
-            this.setState({ moveListArray: this.state.unFilteredMoveList },
-                () => this.state.activeFilters.forEach(filter => this.filterMoveList(filter))
-            );
-        } else if (input.includes('+')) {
+    async resetSearch() {
+        this.setState({ moveListArray: this.state.unFilteredMoveList },
+            () => this.state.activeFilters.forEach(filter => this.filterMoveList(filter))
+        );
+    }
+
+    async searchMoveList(input) {
+        await this.resetSearch();
+        
+        if (input.includes('+')) {
             this.setState({
                 moveListArray: this.state.moveListArray.filter(
                     ({ notation }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
