@@ -106,7 +106,7 @@ class BottomMenuBar extends Component {
                     )}
 
                     {onPressFavoriteFilter && (
-                        <MenuButton onPress={onPressFilterMenu}>
+                        <MenuButton onPress={onPressFavoriteFilter}>
                             <MenuIconText>
                                 <MenuIcon>Derp</MenuIcon>
                             </MenuIconText>

@@ -151,7 +151,7 @@ class CharacterSelect extends Component {
     }
 
     renderListView = ({ item }) => {
-        console.log(item);
+
         const name = Object.keys(item)[0];
 
         return (
@@ -182,8 +182,8 @@ class CharacterSelect extends Component {
     }
 
     render() {
-        const { theme, navigation, listView, toggleListView } = this.props;
-        const { characterNames, showFavorites } = this.state;
+        const { theme, navigation, listView, toggleListView, characterNames } = this.props;
+        const { showFavorites } = this.state;
 
         const data = showFavorites ? characterNames.filter(char => char.favorite) : characterNames;
 
