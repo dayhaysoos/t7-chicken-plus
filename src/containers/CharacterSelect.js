@@ -7,14 +7,25 @@ import { Dimensions, FlatList, View } from 'react-native';
 
 import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
+import * as favoriteActions from '../redux/actions/favoriteActions';
 
 import { GradientTheme } from '../common/GradientTheme';
 
-import { getCharacterMoveList } from '../selectors/characterSelect';
+import { getCharacterMoveList, getCharacterNames, getFavoriteCharacters } from '../selectors/characterSelect';
 
 import BottomMenuBar from '../components/BottomMenuBar';
 
+import FontAwesome, { Icons } from 'react-native-fontawesome';
+
+
 // styles
+const StarButton = styled.TouchableOpacity`
+`;
+
+const StarIcon = styled(FontAwesome)`
+    color: red;
+    font-size: 30;
+`;
 
 const Text = styled.Text`
     color: ${(props) => props.theme.primaryGradient1};
@@ -68,16 +79,19 @@ const CharacterImage = styled.View`
   margin-right: 20;
 `;
 
-export const mapDispatcthToProps = {
+export const mapDispatchToProps = {
     ...characterActions,
-    ...settingsActions
+    ...settingsActions,
+    ...favoriteActions
 };
 
-export const mapStateToProps = ({ characterData, theme, settings: { listView } }) => ({
+export const mapStateToProps = ({ characterData, theme, settings: { listView }, favorites }) => ({
     ...characterData,
     theme,
-    characterNames: getCharacterMoveList(characterData),
-    listView
+    //characterNames: getCharacterMoveList(characterData),
+    characterNames: getFavoriteCharacters({characterData, favorites}),
+    listView,
+    favorites,
 });
 
 class CharacterSelect extends Component {
@@ -96,7 +110,8 @@ class CharacterSelect extends Component {
     state = {
         charName: '',
         screenWidth: Dimensions.get('window').width,
-        screenHeight: Dimensions.get('window').height
+        screenHeight: Dimensions.get('window').height,
+        showFavorites: false
     }
 
     onLayout = () => {
@@ -130,6 +145,7 @@ class CharacterSelect extends Component {
 
     renderListView = ({ item }) => {
         const name = Object.keys(item)[0];
+
         return (
             <ListViewWrapper>
                 <ListViewItem
@@ -137,13 +153,26 @@ class CharacterSelect extends Component {
                 >
                     <CharacterImage />
                     <ListViewText key={name}>{name.split(' ')[0]}</ListViewText>
+
+                    <StarButton  onPress={() => this.props.toggleCharacterStar(item.label)}>
+                        <StarIcon>
+                            {item.favorite ? Icons.star: Icons.starO}
+                        </StarIcon>
+                    </StarButton>
+
                 </ListViewItem>
             </ListViewWrapper>
         );
     }
 
+    toggleShowFavorites = () => this.setState((prevState) => ({showFavorites: !prevState.showFavorites}));
+
+
     render() {
         const { theme, characterNames, navigation, listView, toggleListView } = this.props;
+        const {showFavorites} =  this.state;
+
+        const data = showFavorites ? characterNames.filter(char => char.favorite) : characterNames;
 
         return (
             <ThemeProvider theme={theme}>
@@ -156,7 +185,7 @@ class CharacterSelect extends Component {
                     <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
                         <FlatList
                             contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                            data={characterNames}
+                            data={data}
                             numColumns={listView ? 1 : Math.floor(this.state.screenWidth / 85)}
                             keyExtractor={(item, index) => `list-item-${index}`}
                             renderItem={listView ? this.renderListView : this.renderGridView}
@@ -167,6 +196,7 @@ class CharacterSelect extends Component {
                         navigation={navigation}
                         toggleListView={toggleListView}
                         isListView={listView}
+                        onPressFavoriteFilter={this.toggleShowFavorites}
                     />
                 </GradientTheme>
             </ThemeProvider>
@@ -175,4 +205,4 @@ class CharacterSelect extends Component {
     }
 }
 
-export default connect(mapStateToProps, mapDispatcthToProps)(CharacterSelect);
+export default connect(mapStateToProps, mapDispatchToProps)(CharacterSelect);

@@ -42,9 +42,9 @@ const BottomMenuBar = ({ isListView, onPressFilterMenu, navigation, onPressFavor
         )}
 
         {onPressFavoriteFilter && (
-            <MenuButton onPress={onPressFilterMenu}>
+            <MenuButton onPress={onPressFavoriteFilter}>
                 <MenuIconText>
-                    <MenuIcon>Derp</MenuIcon>
+                    <MenuIcon>{Icons.starHalfFull}</MenuIcon>
                 </MenuIconText>
                 <MenuLabelText>Toggle Favorites</MenuLabelText>
             </MenuButton>
