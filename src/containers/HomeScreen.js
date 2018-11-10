@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
+import MainMenuBanner from '../components/MainMenuBanner';
+
 import styled, { ThemeProvider } from 'styled-components';
 
 import * as characterActions from '../redux/actions/characterActions';
@@ -61,6 +63,7 @@ class HomeScreen extends React.Component {
                     theme={theme}
                 >
                     <MainContainer>
+                        <MainMenuBanner />
                         <CustomButtonWrapper
                             onPress={() => this.props.navigation.navigate('CharacterSelect')}
                         >

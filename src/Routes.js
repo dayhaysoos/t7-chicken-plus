@@ -49,4 +49,7 @@ export const RootStack = createStackNavigator({
 
 export const DrawerStack = createDrawerNavigator({
     Home: RootStack,
-});
+}, {
+    contentComponent: HomeScreen
+}
+);
