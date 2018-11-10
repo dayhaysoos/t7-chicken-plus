@@ -9,15 +9,17 @@ import storage from 'redux-persist/lib/storage';
 const persistConfig = {
     key: 'root',
     storage,
-    whitelist: ['characterData', 'settings'],
+    whitelist: ['settings'],
 };
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 let store = createStore(
     persistedReducer,
     {},
-    compose(
+    composeEnhancers(
         applyMiddleware(
             thunk,
             logger

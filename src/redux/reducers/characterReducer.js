@@ -34,7 +34,6 @@ const characterDataReducer = handleActions(
         [ACTION_TYPES.GET_CHARACTER_DATA_PENDING]: getCharacterDataPending,
         [ACTION_TYPES.GET_CHARACTER_DATA_FAIL]: getCharacterDataFail,
         [ACTION_TYPES.GET_CHARACTER_DATA_SUCCESS]: getCharacterDataSuccess
-
     },
     INITIAL_STATE);
 

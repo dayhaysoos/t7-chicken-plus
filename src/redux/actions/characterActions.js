@@ -7,7 +7,7 @@ import * as characterApi from '../apis/characterApi';
 export const ACTION_TYPES = createConstants('character:character', [
     'GET_CHARACTER_DATA_PENDING',
     'GET_CHARACTER_DATA_FAIL',
-    'GET_CHARACTER_DATA_SUCCESS'
+    'GET_CHARACTER_DATA_SUCCESS',
 ]);
 
 export const getCharacterDataPending = createAction(ACTION_TYPES.GET_CHARACTER_DATA_PENDING);
@@ -26,3 +26,4 @@ export const getCharacterData = () => async dispatch => {
         dispatch(getCharacterDataFail(error));
     }
 };
+
