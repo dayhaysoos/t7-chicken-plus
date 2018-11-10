@@ -152,7 +152,7 @@ class CharacterSelect extends Component {
 
     renderListView = ({ item }) => {
 
-        const name = Object.keys(item)[0];
+        const name = item.name;
 
         return (
             <ListViewWrapper>

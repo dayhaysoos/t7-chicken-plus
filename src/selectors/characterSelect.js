@@ -13,6 +13,7 @@ export const getFavoriteCharacters = createSelector(
         return characterData.map(character => {
             const newChar = {
                 [character.name]: character.data,
+                name: character.name,
                 label: character.label,
                 favorite: false,
             };
