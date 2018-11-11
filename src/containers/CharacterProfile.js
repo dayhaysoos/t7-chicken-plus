@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList, Animated, View, StyleSheet, Text, Platform } from 'react-native';
+import { FlatList, Animated, View, StyleSheet, Text, Platform, ScrollView } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components';
 import { connect } from 'react-redux';
 
@@ -24,6 +24,7 @@ import DrawerSwitcher from '../components/DrawerSwitcher';
 // components
 import BottomMenuBar from '../components/BottomMenuBar';
 import FilterMenu from '../components/FilterMenu';
+import { white } from 'ansi-colors';
 
 /*************** */
 const HEADER_MAX_HEIGHT = 300;
@@ -147,7 +148,8 @@ class CharacterProfile extends Component {
 
         const scrollY = Animated.add(
             this.state.scrollY,
-            Platform.OS === 'ios' ? HEADER_MAX_HEIGHT : 0,
+            //Platform.OS === 'ios' ? HEADER_MAX_HEIGHT : 0,
+            Platform.OS === 'ios' ? 0 : 0,
         );
         const headerTranslate = scrollY.interpolate({
             inputRange: [0, HEADER_SCROLL_DISTANCE],
@@ -187,6 +189,7 @@ class CharacterProfile extends Component {
                                 pointerEvents="none"
                                 style={[
                                     styles.header,
+                                    {zIndex: 999},
                                     { transform: [{ translateY: headerTranslate }] },
                                 ]}
                             >
@@ -201,37 +204,49 @@ class CharacterProfile extends Component {
                                     source={characterBanners.akuma}
                                 />
                             </Animated.View>
-                            <Animated.FlatList
-                                style={{flex: 1}}
-                                contentInset={{
-                                    top: HEADER_MAX_HEIGHT,
-                                }}
-                                contentOffset={{
-                                    y: -HEADER_MAX_HEIGHT,
-                                }}
+                            <ScrollView
+                                style={{borderColor: white, borderWidth: 1, flex: 1}}
+                                stickyHeaderIndices={[0]}
+                                contentContainerStyle={{paddingTop: HEADER_MAX_HEIGHT}}
                                 onScroll={Animated.event(
-                                    [{ nativeEvent: { contentOffset: { y: this.state.scrollY } } }],
-                                    { useNativeDriver: true },
+                                    [{nativeEvent: {contentOffset: {y: this.state.scrollY}}}]
                                 )}
-                                contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                                data={this.state.moveListArray}
-                                numColumns={1}
-                                keyExtractor={(item, index) => index.toString()}
-                                renderItem={({ item }) => (listView ?
-                                    <ListViewCard item={item} theme={theme} navigation={navigation} />
-                                    :
-                                    <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
-                                )}
-                                ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
-                                //ListHeaderComponent={listView ? <CharacterBanner name={name.toLowerCase()} /> : <HeaderRow />}
-                                ListHeaderComponent={listView ? null : <HeaderRow />}
-                                initialNumToRender={3}
-                                initialScrollIndex={0}
-                                getItemLayout={(item, index) => (
-                                    { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
-                                )}
+                            >
+                                <Animated.View >
+                                    <HeaderRow />
+                                </Animated.View>
+                                <Animated.FlatList
+                                    style={{flex: 1}}
+                                    // contentInset={{
+                                    //     top: HEADER_MAX_HEIGHT,
+                                    // }}
+                                    // contentOffset={{
+                                    //     y: -HEADER_MAX_HEIGHT,
+                                    // }}
+                                    // onScroll={Animated.event(
+                                    //     [{ nativeEvent: { contentOffset: { y: this.state.scrollY } } }],
+                                    //     { useNativeDriver: true },
+                                    // )}
+                                    contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
+                                    data={this.state.moveListArray}
+                                    numColumns={1}
+                                    keyExtractor={(item, index) => index.toString()}
+                                    renderItem={({ item }) => (listView ?
+                                        <ListViewCard item={item} theme={theme} navigation={navigation} />
+                                        :
+                                        <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
+                                    )}
+                                    ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
+                                    //ListHeaderComponent={listView ? <CharacterBanner name={name.toLowerCase()} /> : <HeaderRow />}
+                                    ListHeaderComponent={listView ? null : null}
+                                    initialNumToRender={3}
+                                    initialScrollIndex={0}
+                                    getItemLayout={(item, index) => (
+                                        { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
+                                    )}
                                 //stickyHeaderIndices={listView ? [] : [0]}
-                            />
+                                />
+                            </ScrollView>
                             <BottomMenuBar
                                 isListView={listView}
                                 navigation={navigation}

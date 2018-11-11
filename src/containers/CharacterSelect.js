@@ -52,7 +52,9 @@ export const mapStateToProps = ({ characterData, theme, settings: { listView }, 
 
 class CharacterSelect extends Component {
 
-    static navigationOptions = ({ navigation }) => navigation.navigate;
+    static navigationOptions = {
+        headerTransparent: true,
+    }
 
     static propTypes = {
         theme: PropTypes.object,
