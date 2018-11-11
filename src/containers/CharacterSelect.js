@@ -93,7 +93,7 @@ class CharacterSelect extends Component {
             name={item.name}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
-            onPress={() => this.props.navigation.navigate('CharacterProfile', { ...item })}
+            onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item, ...item })}
         />
     )
 
@@ -102,7 +102,7 @@ class CharacterSelect extends Component {
             name={item.name}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
-            onPress={() => this.props.navigation.navigate('CharacterProfile', { ...item })}
+            onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item, ...item })}
         />
     )
 
