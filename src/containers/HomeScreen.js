@@ -14,7 +14,6 @@ import { GradientTheme } from '../common/GradientTheme';
 const MainContainer = styled.View`
   flex: 1;
   align-items: center;
-  margin-top: 50;
 `;
 
 const CustomButtonWrapper = styled.TouchableOpacity`
@@ -48,12 +47,6 @@ export const createComponentDidMount = (instance) => () => {
 };
 
 class HomeScreen extends React.Component {
-
-    static navigationOptions = {
-        header: null
-    };
-
-
     static propTypes = {
         navigation: PropTypes.object,
         theme: PropTypes.object
