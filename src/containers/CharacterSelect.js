@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
 
-import { Dimensions, FlatList, View} from 'react-native';
+import { Dimensions, FlatList, View } from 'react-native';
 
 import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
@@ -45,7 +45,7 @@ export const mapDispatchToProps = {
 export const mapStateToProps = ({ characterData, theme, settings: { listView }, favorites }) => ({
     ...characterData,
     theme,
-    characterNames: getFavoriteCharacters({characterData, favorites}),
+    characterNames: getFavoriteCharacters({ characterData, favorites }),
     listView,
     favorites,
 });
@@ -93,7 +93,7 @@ class CharacterSelect extends Component {
             name={item.name}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
-            onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item })}
+            onPress={() => this.props.navigation.navigate('CharacterProfile', { ...item })}
         />
     )
 
@@ -102,11 +102,11 @@ class CharacterSelect extends Component {
             name={item.name}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
-            onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item })}
+            onPress={() => this.props.navigation.navigate('CharacterProfile', { ...item })}
         />
     )
 
-    toggleShowFavorites = () => this.setState((prevState) => ({showFavorites: !prevState.showFavorites}));
+    toggleShowFavorites = () => this.setState((prevState) => ({ showFavorites: !prevState.showFavorites }));
 
     searchCharacters(input) {
         this.setState({
