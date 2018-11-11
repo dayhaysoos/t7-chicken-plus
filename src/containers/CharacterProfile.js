@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { FlatList } from 'react-native';
-import styled, { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider, consolidateStreamedStyles } from 'styled-components';
 import { connect } from 'react-redux';
 
 import CharacterBanner from '../components/CharacterProfile/CharacterBanner';
@@ -13,6 +13,8 @@ import HeaderRow from '../components/CharacterProfile/HeaderRow';
 import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
 import { getCharacterMoveList } from '../selectors/characterSelect';
+
+import { characterBanners } from '../constants/characterBanners';
 
 import { GradientTheme } from '../common/GradientTheme';
 
@@ -97,7 +99,7 @@ class CharacterProfile extends Component {
 
     async searchMoveList(input) {
         await this.resetSearch();
-        
+
         if (input.includes('+')) {
             this.setState({
                 moveListArray: this.state.moveListArray.filter(
@@ -130,7 +132,7 @@ class CharacterProfile extends Component {
     }
 
     render() {
-        const { navigation, toggleListView, listView, theme } = this.props;
+        const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme } = this.props;
         const { isOpen, side } = this.state;
 
         return (
@@ -149,8 +151,8 @@ class CharacterProfile extends Component {
                     onClose={this.onDrawerClose}
                 >
                     <GradientTheme theme={theme}>
-                        <MainContainer
-                        >
+                        <MainContainer>
+                            < CharacterBanner name={name.toLowerCase()} img={characterBanners.akuma_banner} />
                             <FlatList
                                 contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
                                 data={this.state.moveListArray}

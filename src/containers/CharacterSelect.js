@@ -9,6 +9,8 @@ import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
 import * as favoriteActions from '../redux/actions/favoriteActions';
 
+import { characterPortraits } from '../constants/characterPortraits';
+
 import { GradientTheme } from '../common/GradientTheme';
 
 import { getCharacterMoveList, getCharacterNames, getFavoriteCharacters } from '../selectors/characterSelect';
@@ -176,9 +178,11 @@ class CharacterSelect extends Component {
     toggleShowFavorites = () => this.setState((prevState) => ({showFavorites: !prevState.showFavorites}));
 
     searchCharacters(input) {
-        this.setState({ characterNames: this.props.characterNames.filter(
-            character => Object.keys(character)[0].toLowerCase().includes(input.toLowerCase())
-        )});
+        this.setState({
+            characterNames: this.props.characterNames.filter(
+                character => Object.keys(character)[0].toLowerCase().includes(input.toLowerCase())
+            )
+        });
     }
 
     render() {

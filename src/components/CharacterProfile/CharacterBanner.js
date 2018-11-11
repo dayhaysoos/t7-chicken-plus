@@ -1,36 +1,33 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 
+import { characterBanners } from '../../constants/characterBanners';
+import { characterPortraits } from '../../constants/characterPortraits';
+
 import * as theme from '../../themes/defaultTheme';
 
 const Banner = styled.View`
-  height: 175; 
-  flex-direction: row;
 `;
 
 const PortraitContainer = styled.View`
-  width: 100;
 `;
 
-const NameContainer = styled.View`
- width: 230;
- flex-wrap: wrap;
+const PortraitImage = styled.Image`
+  position: absolute;
+  top: 67%;
 `;
 
-const NameText = styled.Text`
-  padding-top: 20;
-  font-size: 40;
-  color: ${({ theme: { defaultTheme } }) => defaultTheme.text}
+
+const BannerImage = styled.Image`
+
 `;
 
-const CharacterBanner = () => (
+
+const CharacterBanner = ({ name }) => (
     <ThemeProvider theme={theme}>
         <Banner>
-            <PortraitContainer>
-            </PortraitContainer>
-            <NameContainer>
-                <NameText>Kazuyer Meeshamer</NameText>
-            </NameContainer>
+            {name ? <BannerImage resizeMode={'contain'} source={characterBanners[name]} /> : null}
+            {name ? <PortraitImage source={characterPortraits[name]} /> : null}
         </Banner>
     </ThemeProvider>
 );
