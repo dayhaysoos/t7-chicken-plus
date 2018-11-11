@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList } from 'react-native';
-import styled, { ThemeProvider, consolidateStreamedStyles } from 'styled-components';
+import { FlatList, Animated, View, StyleSheet, Text, Platform } from 'react-native';
+import styled, { ThemeProvider } from 'styled-components';
 import { connect } from 'react-redux';
 
 import CharacterBanner from '../components/CharacterProfile/CharacterBanner';
@@ -24,6 +24,12 @@ import DrawerSwitcher from '../components/DrawerSwitcher';
 // components
 import BottomMenuBar from '../components/BottomMenuBar';
 import FilterMenu from '../components/FilterMenu';
+
+/*************** */
+const HEADER_MAX_HEIGHT = 300;
+const HEADER_MIN_HEIGHT = 0;
+const HEADER_SCROLL_DISTANCE = HEADER_MAX_HEIGHT - HEADER_MIN_HEIGHT;
+/*************** */
 
 export const mapDispatcthToProps = {
     ...characterActions,
@@ -62,7 +68,11 @@ class CharacterProfile extends Component {
         moveListArray: [],
         isRightDrawerOpen: false,
         side: 'right',
-        unFilteredMoveList: []
+        unFilteredMoveList: [],
+        ///
+
+        scrollY: new Animated.Value(0),
+
     }
 
     componentDidMount() {
@@ -135,6 +145,27 @@ class CharacterProfile extends Component {
         const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme } = this.props;
         const { isOpen, side } = this.state;
 
+        const scrollY = Animated.add(
+            this.state.scrollY,
+            Platform.OS === 'ios' ? HEADER_MAX_HEIGHT : 0,
+        );
+        const headerTranslate = scrollY.interpolate({
+            inputRange: [0, HEADER_SCROLL_DISTANCE],
+            outputRange: [0, -HEADER_SCROLL_DISTANCE],
+            extrapolate: 'clamp',
+        });
+
+        const imageOpacity = scrollY.interpolate({
+            inputRange: [0, HEADER_SCROLL_DISTANCE / 2, HEADER_SCROLL_DISTANCE],
+            outputRange: [1, 1, 0],
+            extrapolate: 'clamp',
+        });
+        const imageTranslate = scrollY.interpolate({
+            inputRange: [0, HEADER_SCROLL_DISTANCE],
+            outputRange: [0, 100],
+            extrapolate: 'clamp',
+        });
+
         return (
             <ThemeProvider theme={theme}>
                 <DrawerSwitcher
@@ -152,7 +183,36 @@ class CharacterProfile extends Component {
                 >
                     <GradientTheme theme={theme}>
                         <MainContainer>
-                            <FlatList
+                            <Animated.View
+                                pointerEvents="none"
+                                style={[
+                                    styles.header,
+                                    { transform: [{ translateY: headerTranslate }] },
+                                ]}
+                            >
+                                <Animated.Image
+                                    style={[
+                                        styles.backgroundImage,
+                                        {
+                                            opacity: imageOpacity,
+                                            transform: [{ translateY: imageTranslate }],
+                                        },
+                                    ]}
+                                    source={characterBanners.akuma}
+                                />
+                            </Animated.View>
+                            <Animated.FlatList
+                                style={{flex: 1}}
+                                contentInset={{
+                                    top: HEADER_MAX_HEIGHT,
+                                }}
+                                contentOffset={{
+                                    y: -HEADER_MAX_HEIGHT,
+                                }}
+                                onScroll={Animated.event(
+                                    [{ nativeEvent: { contentOffset: { y: this.state.scrollY } } }],
+                                    { useNativeDriver: true },
+                                )}
                                 contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
                                 data={this.state.moveListArray}
                                 numColumns={1}
@@ -163,13 +223,14 @@ class CharacterProfile extends Component {
                                     <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
                                 )}
                                 ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
-                                ListHeaderComponent={listView ? < CharacterBanner name={name.toLowerCase()} /> : <HeaderRow />}
-                                initialNumToRender={10}
+                                //ListHeaderComponent={listView ? <CharacterBanner name={name.toLowerCase()} /> : <HeaderRow />}
+                                ListHeaderComponent={listView ? null : <HeaderRow />}
+                                initialNumToRender={3}
                                 initialScrollIndex={0}
                                 getItemLayout={(item, index) => (
                                     { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
                                 )}
-                                stickyHeaderIndices={listView ? [] : [0]}
+                                //stickyHeaderIndices={listView ? [] : [0]}
                             />
                             <BottomMenuBar
                                 isListView={listView}
@@ -187,3 +248,27 @@ class CharacterProfile extends Component {
 }
 
 export default connect(mapStateToProps, mapDispatcthToProps)(CharacterProfile);
+
+const styles = StyleSheet.create({
+    header: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        overflow: 'hidden',
+        height: HEADER_MAX_HEIGHT,
+    },
+    title: {
+        color: 'white',
+        fontSize: 18,
+    },
+    backgroundImage: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        width: null,
+        height: HEADER_MAX_HEIGHT,
+        resizeMode: 'cover',
+    },
+});
