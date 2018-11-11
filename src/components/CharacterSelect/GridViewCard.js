@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 
+import { characterPortraits } from '../../constants/characterPortraits';
+
 const Container = styled.View`
     margin-vertical: 5;
     margin-horizontal: 5;
@@ -31,11 +33,18 @@ const Name = styled.Text`
   align-self: center;
 `;
 
-const GridViewCard = ({name, favorite, onPress, onStarPress}) => (
+const CharacterImage = styled.Image`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+`;
+
+const GridViewCard = ({ name, favorite, onPress, onStarPress }) => (
     <Container >
         <CharacterCard onPress={onPress}>
+            <CharacterImage source={characterPortraits[name.split(' ')[0].toLowerCase()]} />
             <StarButton onPress={onStarPress}>
-                <StarIcon>{favorite ? Icons.star: Icons.starO}</StarIcon>
+                <StarIcon>{favorite ? Icons.star : Icons.starO}</StarIcon>
             </StarButton>
         </CharacterCard>
         <Name>{name.split(' ')[0]}</Name>
