@@ -9,6 +9,7 @@ const MainContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
   background-color: transparent;
+  padding-bottom: 10;
 `;
 
 const OuterContainer = styled.View`
@@ -75,7 +76,7 @@ class BottomMenuBar extends Component {
                     <React.Fragment>
                         <SearchBar
                             autoCapitalize="none"
-                            onChangeText={(searchText) => this.setState({searchText})}
+                            onChangeText={(searchText) => this.setState({ searchText })}
                             onFocus={() => {
                                 if (this.state.searchText === '🔍 Search') {
                                     this.setState({ searchText: '' });
@@ -108,7 +109,7 @@ class BottomMenuBar extends Component {
                     {onPressFavoriteFilter && (
                         <MenuButton onPress={onPressFavoriteFilter}>
                             <MenuIconText>
-                                <MenuIcon>Derp</MenuIcon>
+                                <MenuIcon>{Icons.star}</MenuIcon>
                             </MenuIconText>
                             <MenuLabelText>Toggle Favorites</MenuLabelText>
                         </MenuButton>
