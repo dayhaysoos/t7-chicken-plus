@@ -152,7 +152,6 @@ class CharacterProfile extends Component {
                 >
                     <GradientTheme theme={theme}>
                         <MainContainer>
-                            < CharacterBanner name={name.toLowerCase()} img={characterBanners.akuma_banner} />
                             <FlatList
                                 contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
                                 data={this.state.moveListArray}
@@ -164,7 +163,7 @@ class CharacterProfile extends Component {
                                     <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
                                 )}
                                 ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
-                                ListHeaderComponent={listView ? null : <HeaderRow />}
+                                ListHeaderComponent={listView ? < CharacterBanner name={name.toLowerCase()} /> : <HeaderRow />}
                                 initialNumToRender={10}
                                 initialScrollIndex={0}
                                 getItemLayout={(item, index) => (
