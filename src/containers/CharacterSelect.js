@@ -9,8 +9,6 @@ import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
 import * as favoriteActions from '../redux/actions/favoriteActions';
 
-import { characterPortraits } from '../constants/characterPortraits';
-
 import { GradientTheme } from '../common/GradientTheme';
 import BottomMenuBar from '../components/BottomMenuBar';
 import GridViewCard from '../components/CharacterSelect/GridViewCard';
@@ -58,12 +56,10 @@ export const mapStateToProps = ({ characterData, theme, settings: { listView }, 
 
 class CharacterSelect extends Component {
 
-    static navigationOptions = {
+    static navigationOptions = () => ({
         headerTransparent: true,
         headerBackground: <Header />,
-        headerStyle: {
-        }
-    }
+    })
 
     static propTypes = {
         theme: PropTypes.object,
@@ -151,11 +147,6 @@ class CharacterSelect extends Component {
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>
                     <MainContainer>
-                        <CharacerSelectBanner>
-                            <BannerText>
-                                Select a Character
-                            </BannerText>
-                        </CharacerSelectBanner>
                         <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
                             <FlatList
                                 contentContainerStyle={{ flexDirection: 'column', justifyContent: 'center', alignItems: listView ? 'stretch' : 'center', paddingTop: 15 }}
@@ -165,6 +156,13 @@ class CharacterSelect extends Component {
                                 renderItem={listView ? this.renderListView : this.renderGridView}
                                 key={listView ? 'listView' : 'gridView'}
                                 ListEmptyComponent={() => <EmptyText>No results</EmptyText>}
+                                ListHeaderComponent={(
+                                    <CharacerSelectBanner>
+                                        <BannerText>
+                                            Select a Character
+                                        </BannerText>
+                                    </CharacerSelectBanner>
+                                )}
                             />
                         </View>
                         <BottomMenuBar

@@ -44,7 +44,6 @@ const HEADER_SCROLL_DISTANCE = HEADER_MAX_HEIGHT - HEADER_MIN_HEIGHT;
 
 const MainContainer = styled(Drawer)`
   flex: 1;
-  margin-top: 40;
 `;
 
 const EmptyText = styled.Text`
@@ -53,19 +52,11 @@ const EmptyText = styled.Text`
   marginLeft: 10;
 `;
 
-const StarIcon = styled(FontAwesome)`
-    color: red;
-    font-size: 30;
-    margin-right: 15;
-    margin-top: 10;
-`;
-
 class CharacterProfile extends Component {
 
     static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
-        headerTransparent: true,
         headerBackground: <Header title={name} />,
-        headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />
+        headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />,
     })
     static propTypes = {
         navigation: PropTypes.object,
