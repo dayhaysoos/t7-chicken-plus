@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList, ScrollView } from 'react-native';
-import styled, { ThemeProvider, consolidateStreamedStyles } from 'styled-components';
+import { FlatList, Animated, ScrollView } from 'react-native';
+import styled, { ThemeProvider } from 'styled-components';
 import { connect } from 'react-redux';
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 
@@ -16,8 +16,6 @@ import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
 import { getCharacterMoveList } from '../selectors/characterSelect';
 import * as favoriteActions from '../redux/actions/favoriteActions';
-
-import { characterBanners } from '../constants/characterBanners';
 
 import { GradientTheme } from '../common/GradientTheme';
 
@@ -39,6 +37,10 @@ export const mapStateToProps = ({ characterData, theme, settings: { listView } }
     listView,
     theme
 });
+
+const HEADER_MAX_HEIGHT = 300;
+const HEADER_MIN_HEIGHT = 0;
+const HEADER_SCROLL_DISTANCE = HEADER_MAX_HEIGHT - HEADER_MIN_HEIGHT;
 
 const MainContainer = styled(Drawer)`
   flex: 1;
@@ -77,7 +79,8 @@ class CharacterProfile extends Component {
         moveListArray: [],
         isRightDrawerOpen: false,
         side: 'right',
-        unFilteredMoveList: []
+        unFilteredMoveList: [],
+        scrollY: new Animated.Value(0),
     }
 
     componentDidMount() {
@@ -148,49 +151,81 @@ class CharacterProfile extends Component {
 
     render() {
         const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme } = this.props;
-        const { isOpen, side } = this.state;
+        const { isOpen, side, scrollY } = this.state;
+
+        const headerTranslate = scrollY.interpolate({
+            inputRange: [0, HEADER_SCROLL_DISTANCE],
+            outputRange: [0, -HEADER_SCROLL_DISTANCE],
+            extrapolate: 'clamp',
+        });
+        const imageOpacity = scrollY.interpolate({
+            inputRange: [0, HEADER_SCROLL_DISTANCE / 4, HEADER_SCROLL_DISTANCE],
+            outputRange: [1, 1, 0],
+            extrapolate: 'clamp',
+        });
+        const imageTranslate = scrollY.interpolate({
+            inputRange: [0, HEADER_SCROLL_DISTANCE],
+            outputRange: [0, 100],
+            extrapolate: 'clamp',
+        });
 
         return (
             <ThemeProvider theme={theme}>
-                <MainContainer>
-                    <DrawerSwitcher
-                        component={
-                            <FilterMenu
-                                activeFilters={this.state.activeFilters}
-                                moveListArray={this.state.moveListArray}
-                                setCharacterProfileState={this.setCharacterProfileState}
-                                unFilteredMoveList={this.state.unFilteredMoveList}
+                <DrawerSwitcher
+                    component={
+                        <FilterMenu
+                            activeFilters={this.state.activeFilters}
+                            moveListArray={this.state.moveListArray}
+                            setCharacterProfileState={this.setCharacterProfileState}
+                            unFilteredMoveList={this.state.unFilteredMoveList}
+                        />
+                    }
+                    side={side}
+                    isOpen={isOpen}
+                    onClose={this.onDrawerClose}
+                >
+                    <GradientTheme theme={theme}>
+                        <MainContainer>
+                            <CharacterBanner
+                                name={name.toLowerCase()}
+                                imageOpacity={imageOpacity}
+                                headerTranslate={headerTranslate}
+                                imageTranslate={imageTranslate}
                             />
-                        }
-                        side={side}
-                        isOpen={isOpen}
-                        onClose={this.onDrawerClose}
-                    >
-
-                        <GradientTheme theme={theme}>
-                            <ScrollView
-                                horizontal={true}
+                            <Animated.ScrollView
+                                stickyHeaderIndices={listView ? [] : [0]}
+                                contentContainerStyle={{ paddingTop: HEADER_MAX_HEIGHT }}
+                                onScroll={Animated.event(
+                                    [{ nativeEvent: { contentOffset: { y: this.state.scrollY } } }],
+                                    { useNativeDriver: true }
+                                )}
+                                scrollEventThrottle={16}
                             >
-                                <FlatList
-                                    contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', marginTop: 60 }}
-                                    data={this.state.moveListArray}
-                                    numColumns={1}
-                                    keyExtractor={(item, index) => index.toString()}
-                                    renderItem={({ item }) => (listView ?
-                                        <ListViewCard item={item} theme={theme} navigation={navigation} />
-                                        :
-                                        <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
-                                    )}
-                                    ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
-                                    ListHeaderComponent={listView ? < CharacterBanner name={name.toLowerCase()} /> : <HeaderRow />}
-                                    initialNumToRender={10}
-                                    initialScrollIndex={0}
-                                    getItemLayout={(item, index) => (
-                                        { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
-                                    )}
-                                    stickyHeaderIndices={listView ? [] : [0]}
-                                />
-                            </ScrollView>
+
+
+                                {!listView && <ScrollView horizontal={true}><HeaderRow /></ScrollView>}
+                                <ScrollView horizontal={!listView}>
+                                    <FlatList
+                                        scrollEnabled={false}
+                                        style={{ flex: 1 }}
+                                        contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', zIndex: 999 }}
+                                        data={this.state.moveListArray}
+                                        numColumns={1}
+                                        keyExtractor={(item, index) => index.toString()}
+                                        renderItem={({ item }) => (listView ?
+                                            <ListViewCard item={item} theme={theme} navigation={navigation} />
+                                            :
+                                            <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
+                                        )}
+                                        ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
+                                        initialNumToRender={5}
+                                        initialScrollIndex={0}
+                                        getItemLayout={(item, index) => (
+                                            { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
+                                        )}
+                                    />
+                                </ScrollView>
+                            </Animated.ScrollView>
                             <BottomMenuBar
                                 isListView={listView}
                                 navigation={navigation}
@@ -198,9 +233,9 @@ class CharacterProfile extends Component {
                                 searchFunction={(input) => this.searchMoveList(input)}
                                 toggleListView={toggleListView}
                             />
-                        </GradientTheme>
-                    </DrawerSwitcher>
-                </MainContainer>
+                        </MainContainer>
+                    </GradientTheme>
+                </DrawerSwitcher>
             </ThemeProvider>
         );
     }
