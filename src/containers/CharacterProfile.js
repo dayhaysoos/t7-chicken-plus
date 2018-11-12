@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { FlatList, Animated } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components';
 import { connect } from 'react-redux';
 
