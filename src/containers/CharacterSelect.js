@@ -15,8 +15,14 @@ import { GradientTheme } from '../common/GradientTheme';
 import BottomMenuBar from '../components/BottomMenuBar';
 import GridViewCard from '../components/CharacterSelect/GridViewCard';
 import ListViewCard from '../components/CharacterSelect/ListViewCard';
+import Header from '../components/Header';
 
 import { getFavoriteCharacters } from '../selectors/characterSelect';
+
+const MainContainer = styled.View`
+  flex: 1
+  margin-top: 80;
+`;
 
 const CharacerSelectBanner = styled.View`
   flex-direction: row;
@@ -54,6 +60,9 @@ class CharacterSelect extends Component {
 
     static navigationOptions = {
         headerTransparent: true,
+        headerBackground: <Header />,
+        headerStyle: {
+        }
     }
 
     static propTypes = {
@@ -95,7 +104,14 @@ class CharacterSelect extends Component {
             name={item.name}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
-            onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item, ...item })}
+            onPress={() => this.props.navigation.navigate('CharacterProfile',
+                {
+                    moveList: item,
+                    ...item,
+                    favorite: item.favorite,
+                    label: item.label,
+                    onStarPress: () => this.props.toggleCharacterStar(item.label)
+                })}
         />
     )
 
@@ -104,7 +120,14 @@ class CharacterSelect extends Component {
             name={item.name}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
-            onPress={() => this.props.navigation.navigate('CharacterProfile', { moveList: item, ...item })}
+            onPress={() => this.props.navigation.navigate('CharacterProfile',
+                {
+                    moveList: item,
+                    ...item,
+                    favorite: item.favorite,
+                    label: item.label,
+                    onStarPress: () => this.props.toggleCharacterStar(item.label)
+                })}
         />
     )
 
@@ -127,29 +150,31 @@ class CharacterSelect extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>
-                    <CharacerSelectBanner>
-                        <BannerText>
-                            Select a Character
-                        </BannerText>
-                    </CharacerSelectBanner>
-                    <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
-                        <FlatList
-                            contentContainerStyle={{ flexDirection: 'column', justifyContent: 'center', alignItems: listView ? 'stretch' : 'center', paddingTop: 15 }}
-                            data={data}
-                            numColumns={listView ? 1 : Math.floor(this.state.screenWidth / 85)} // should prolly be 1 : 4 I think
-                            keyExtractor={(item, index) => `list-item-${index}`}
-                            renderItem={listView ? this.renderListView : this.renderGridView}
-                            key={listView ? 'listView' : 'gridView'}
-                            ListEmptyComponent={() => <EmptyText>No results</EmptyText>}
+                    <MainContainer>
+                        <CharacerSelectBanner>
+                            <BannerText>
+                                Select a Character
+                            </BannerText>
+                        </CharacerSelectBanner>
+                        <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
+                            <FlatList
+                                contentContainerStyle={{ flexDirection: 'column', justifyContent: 'center', alignItems: listView ? 'stretch' : 'center', paddingTop: 15 }}
+                                data={data}
+                                numColumns={listView ? 1 : Math.floor(this.state.screenWidth / 85)} // should prolly be 1 : 4 I think
+                                keyExtractor={(item, index) => `list-item-${index}`}
+                                renderItem={listView ? this.renderListView : this.renderGridView}
+                                key={listView ? 'listView' : 'gridView'}
+                                ListEmptyComponent={() => <EmptyText>No results</EmptyText>}
+                            />
+                        </View>
+                        <BottomMenuBar
+                            navigation={navigation}
+                            toggleListView={toggleListView}
+                            isListView={listView}
+                            onPressFavoriteFilter={this.toggleShowFavorites}
+                            searchFunction={(input) => this.searchCharacters(input)}
                         />
-                    </View>
-                    <BottomMenuBar
-                        navigation={navigation}
-                        toggleListView={toggleListView}
-                        isListView={listView}
-                        onPressFavoriteFilter={this.toggleShowFavorites}
-                        searchFunction={(input) => this.searchCharacters(input)}
-                    />
+                    </MainContainer>
                 </GradientTheme>
             </ThemeProvider>
         );

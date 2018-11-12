@@ -3,16 +3,19 @@ import PropTypes from 'prop-types';
 import { FlatList, ScrollView } from 'react-native';
 import styled, { ThemeProvider, consolidateStreamedStyles } from 'styled-components';
 import { connect } from 'react-redux';
+import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 import CharacterBanner from '../components/CharacterProfile/CharacterBanner';
 import ListViewCard from '../components/CharacterProfile/ListViewCard';
 import SpreadSheetRow from '../components/CharacterProfile/SpreadSheetRow';
 import HeaderRow from '../components/CharacterProfile/HeaderRow';
-
+import Header from '../components/Header';
+import StarWrapper from '../components/StarWrapper';
 
 import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
 import { getCharacterMoveList } from '../selectors/characterSelect';
+import * as favoriteActions from '../redux/actions/favoriteActions';
 
 import { characterBanners } from '../constants/characterBanners';
 
@@ -27,7 +30,8 @@ import FilterMenu from '../components/FilterMenu';
 
 export const mapDispatcthToProps = {
     ...characterActions,
-    ...settingsActions
+    ...settingsActions,
+    ...favoriteActions
 };
 
 export const mapStateToProps = ({ characterData, theme, settings: { listView } }) => ({
@@ -37,7 +41,8 @@ export const mapStateToProps = ({ characterData, theme, settings: { listView } }
 });
 
 const MainContainer = styled(Drawer)`
-
+  flex: 1;
+  margin-top: 40;
 `;
 
 const EmptyText = styled.Text`
@@ -46,10 +51,20 @@ const EmptyText = styled.Text`
   marginLeft: 10;
 `;
 
+const StarIcon = styled(FontAwesome)`
+    color: red;
+    font-size: 30;
+    margin-right: 15;
+    margin-top: 10;
+`;
+
 class CharacterProfile extends Component {
 
-    static navigationOptions = ({ navigation }) => navigation.navigate
-
+    static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
+        headerTransparent: true,
+        headerBackground: <Header title={name} />,
+        headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />
+    })
     static propTypes = {
         navigation: PropTypes.object,
         toggleListView: PropTypes.func,
@@ -137,26 +152,27 @@ class CharacterProfile extends Component {
 
         return (
             <ThemeProvider theme={theme}>
-                <DrawerSwitcher
-                    component={
-                        <FilterMenu
-                            activeFilters={this.state.activeFilters}
-                            moveListArray={this.state.moveListArray}
-                            setCharacterProfileState={this.setCharacterProfileState}
-                            unFilteredMoveList={this.state.unFilteredMoveList}
-                        />
-                    }
-                    side={side}
-                    isOpen={isOpen}
-                    onClose={this.onDrawerClose}
-                >
-                    <GradientTheme theme={theme}>
-                        <MainContainer>
+                <MainContainer>
+                    <DrawerSwitcher
+                        component={
+                            <FilterMenu
+                                activeFilters={this.state.activeFilters}
+                                moveListArray={this.state.moveListArray}
+                                setCharacterProfileState={this.setCharacterProfileState}
+                                unFilteredMoveList={this.state.unFilteredMoveList}
+                            />
+                        }
+                        side={side}
+                        isOpen={isOpen}
+                        onClose={this.onDrawerClose}
+                    >
+
+                        <GradientTheme theme={theme}>
                             <ScrollView
                                 horizontal={true}
                             >
                                 <FlatList
-                                    contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
+                                    contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', marginTop: 60 }}
                                     data={this.state.moveListArray}
                                     numColumns={1}
                                     keyExtractor={(item, index) => index.toString()}
@@ -182,9 +198,9 @@ class CharacterProfile extends Component {
                                 searchFunction={(input) => this.searchMoveList(input)}
                                 toggleListView={toggleListView}
                             />
-                        </MainContainer>
-                    </GradientTheme>
-                </DrawerSwitcher>
+                        </GradientTheme>
+                    </DrawerSwitcher>
+                </MainContainer>
             </ThemeProvider>
         );
     }
