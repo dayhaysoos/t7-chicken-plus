@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList, Animated, View, StyleSheet, Text, Platform, ScrollView } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components';
 import { connect } from 'react-redux';
 
@@ -22,7 +21,6 @@ import DrawerSwitcher from '../components/DrawerSwitcher';
 // components
 import BottomMenuBar from '../components/BottomMenuBar';
 import FilterMenu from '../components/FilterMenu';
-import { white } from 'ansi-colors';
 
 export const mapDispatcthToProps = {
     ...characterActions,
