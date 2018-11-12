@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList, Animated } from 'react-native';
+import { FlatList, Animated, ScrollView } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components';
 import { connect } from 'react-redux';
 
@@ -186,26 +186,29 @@ class CharacterProfile extends Component {
                                 scrollEventThrottle={16}
                             >
 
-                                { !listView && <HeaderRow /> }
 
-                                <FlatList
-                                    style={{flex: 1}}
-                                    contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', zIndex: 999 }}
-                                    data={this.state.moveListArray}
-                                    numColumns={1}
-                                    keyExtractor={(item, index) => index.toString()}
-                                    renderItem={({ item }) => (listView ?
-                                        <ListViewCard item={item} theme={theme} navigation={navigation} />
-                                        :
-                                        <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
-                                    )}
-                                    ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
-                                    initialNumToRender={5}
-                                    initialScrollIndex={0}
-                                    getItemLayout={(item, index) => (
-                                        { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
-                                    )}
-                                />
+                                { !listView && <ScrollView horizontal={true}><HeaderRow /></ScrollView> }
+                                <ScrollView horizontal={!listView}>
+                                    <FlatList
+                                        scrollEnabled={false}
+                                        style={{flex: 1}}
+                                        contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', zIndex: 999 }}
+                                        data={this.state.moveListArray}
+                                        numColumns={1}
+                                        keyExtractor={(item, index) => index.toString()}
+                                        renderItem={({ item }) => (listView ?
+                                            <ListViewCard item={item} theme={theme} navigation={navigation} />
+                                            :
+                                            <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
+                                        )}
+                                        ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
+                                        initialNumToRender={5}
+                                        initialScrollIndex={0}
+                                        getItemLayout={(item, index) => (
+                                            { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
+                                        )}
+                                    />
+                                </ScrollView>
                             </Animated.ScrollView>
                             <BottomMenuBar
                                 isListView={listView}
