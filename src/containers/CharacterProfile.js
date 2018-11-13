@@ -32,10 +32,11 @@ export const mapDispatcthToProps = {
     ...favoriteActions
 };
 
-export const mapStateToProps = ({ characterData, theme, settings: { listView } }) => ({
+export const mapStateToProps = ({ favorites, characterData, theme, settings: { listView } }) => ({
     moveList: getCharacterMoveList(characterData),
     listView,
-    theme
+    theme,
+    favorites
 });
 
 const HEADER_MAX_HEIGHT = 300;
@@ -54,7 +55,7 @@ const EmptyText = styled.Text`
 
 class CharacterProfile extends Component {
 
-    static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
+    static navigationOptions = ({ navigation, navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
         headerTransparent: false,
         headerBackground: <Header title={name} />,
         headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />,
@@ -77,11 +78,22 @@ class CharacterProfile extends Component {
     }
 
     componentDidMount() {
-        const moveListObject = this.props.navigation.getParam('moveList');
+        const { navigation, favorites } = this.props;
+        const moveListObject = navigation.getParam('moveList');
         const moveListKey = Object.keys(moveListObject)[0];
         const moveListArray = moveListObject[moveListKey];
 
         this.setState({ moveListArray, unFilteredMoveList: moveListArray });
+    }
+
+    componentDidUpdate = (prev) => {
+        const { navigation, favorites } = this.props;
+        const label = navigation.getParam('label');
+
+        if (favorites !== prev.favorites) {
+            navigation.setParams({ favorite: favorites.characters[label] });
+        }
+
     }
 
     setCharacterProfileState = (obj) => {
@@ -198,7 +210,7 @@ class CharacterProfile extends Component {
                                 {!listView &&
                                     <ScrollView
                                         horizontal
-                                        style={{flex: 1}}
+                                        style={{ flex: 1 }}
                                     >
                                         <HeaderRow />
                                     </ScrollView>}

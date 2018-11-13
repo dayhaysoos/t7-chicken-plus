@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { TouchableHighlight } from 'react-native';
 import styled from 'styled-components';
 import FontAwesome, { Icons } from 'react-native-fontawesome';
@@ -15,5 +16,10 @@ const StarWrapper = ({ onStarPress, favorite }) => (
         <StarIcon >{favorite ? Icons.star : Icons.starO}</StarIcon>
     </TouchableHighlight>
 );
+
+StarWrapper.propTypes = {
+    onStarPress: PropTypes.func,
+    favorite: PropTypes.bool
+};
 
 export default StarWrapper;
