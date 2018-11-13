@@ -43,8 +43,8 @@ const HEADER_MIN_HEIGHT = 0;
 const HEADER_SCROLL_DISTANCE = HEADER_MAX_HEIGHT - HEADER_MIN_HEIGHT;
 
 const MainContainer = styled(Drawer)`
-  flex: 1;
-  margin-top: 40;
+    flex: 1;
+    margin-top: 40;
 `;
 
 const EmptyText = styled.Text`
@@ -53,20 +53,14 @@ const EmptyText = styled.Text`
   marginLeft: 10;
 `;
 
-const StarIcon = styled(FontAwesome)`
-    color: red;
-    font-size: 30;
-    margin-right: 15;
-    margin-top: 10;
-`;
-
 class CharacterProfile extends Component {
 
     static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
-        headerTransparent: true,
+        headerTransparent: false,
         headerBackground: <Header title={name} />,
         headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />
     })
+
     static propTypes = {
         navigation: PropTypes.object,
         toggleListView: PropTypes.func,
@@ -202,8 +196,14 @@ class CharacterProfile extends Component {
                                 scrollEventThrottle={16}
                             >
 
+                                {!listView &&
+                                    <ScrollView
+                                        horizontal
+                                        style={{flex: 1}}
+                                    >
+                                        <HeaderRow />
+                                    </ScrollView>}
 
-                                {!listView && <ScrollView horizontal={true}><HeaderRow /></ScrollView>}
                                 <ScrollView horizontal={!listView}>
                                     <FlatList
                                         scrollEnabled={false}
