@@ -11,7 +11,7 @@ import { createStackNavigator, createDrawerNavigator } from 'react-navigation';
 
 const defaultNavOptions = {
     headerStyle: {
-        backgroundColor: 'white'
+        backgroundColor: '#19181C',
     }
 };
 

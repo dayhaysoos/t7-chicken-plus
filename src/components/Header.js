@@ -6,12 +6,10 @@ const HeaderText = styled.Text`
   color: white;
   font-size: 20;
   text-align: center;
-  margin-top: 16;
 `;
 
 const HeaderContainer = styled.View`
-  width: 100%;
-  height: 300;
+  height: 100; 
 `;
 
 
