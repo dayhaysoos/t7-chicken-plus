@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList, ScrollView } from 'react-native';
-import styled, { ThemeProvider, consolidateStreamedStyles } from 'styled-components';
+import { FlatList, Animated, ScrollView } from 'react-native';
+import styled, { ThemeProvider } from 'styled-components';
 import { connect } from 'react-redux';
+import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 import CharacterBanner from '../components/CharacterProfile/CharacterBanner';
 import ListViewCard from '../components/CharacterProfile/ListViewCard';
 import SpreadSheetRow from '../components/CharacterProfile/SpreadSheetRow';
 import HeaderRow from '../components/CharacterProfile/HeaderRow';
-
+import Header from '../components/Header';
+import StarWrapper from '../components/StarWrapper';
 
 import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
 import { getCharacterMoveList } from '../selectors/characterSelect';
-
-import { characterBanners } from '../constants/characterBanners';
+import * as favoriteActions from '../redux/actions/favoriteActions';
 
 import { GradientTheme } from '../common/GradientTheme';
 
@@ -27,7 +28,8 @@ import FilterMenu from '../components/FilterMenu';
 
 export const mapDispatcthToProps = {
     ...characterActions,
-    ...settingsActions
+    ...settingsActions,
+    ...favoriteActions
 };
 
 export const mapStateToProps = ({ characterData, theme, settings: { listView } }) => ({
@@ -36,8 +38,12 @@ export const mapStateToProps = ({ characterData, theme, settings: { listView } }
     theme
 });
 
-const MainContainer = styled(Drawer)`
+const HEADER_MAX_HEIGHT = 300;
+const HEADER_MIN_HEIGHT = 0;
+const HEADER_SCROLL_DISTANCE = HEADER_MAX_HEIGHT - HEADER_MIN_HEIGHT;
 
+const MainContainer = styled(Drawer)`
+  flex: 1;
 `;
 
 const EmptyText = styled.Text`
@@ -48,7 +54,11 @@ const EmptyText = styled.Text`
 
 class CharacterProfile extends Component {
 
-    static navigationOptions = ({ navigation }) => navigation.navigate
+    static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
+        headerTransparent: false,
+        headerBackground: <Header title={name} />,
+        headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />,
+    })
 
     static propTypes = {
         navigation: PropTypes.object,
@@ -62,7 +72,8 @@ class CharacterProfile extends Component {
         moveListArray: [],
         isRightDrawerOpen: false,
         side: 'right',
-        unFilteredMoveList: []
+        unFilteredMoveList: [],
+        scrollY: new Animated.Value(0),
     }
 
     componentDidMount() {
@@ -133,7 +144,23 @@ class CharacterProfile extends Component {
 
     render() {
         const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme } = this.props;
-        const { isOpen, side } = this.state;
+        const { isOpen, side, scrollY } = this.state;
+
+        const headerTranslate = scrollY.interpolate({
+            inputRange: [0, HEADER_SCROLL_DISTANCE],
+            outputRange: [0, -HEADER_SCROLL_DISTANCE],
+            extrapolate: 'clamp',
+        });
+        const imageOpacity = scrollY.interpolate({
+            inputRange: [0, HEADER_SCROLL_DISTANCE / 4, HEADER_SCROLL_DISTANCE],
+            outputRange: [1, 1, 0],
+            extrapolate: 'clamp',
+        });
+        const imageTranslate = scrollY.interpolate({
+            inputRange: [0, HEADER_SCROLL_DISTANCE],
+            outputRange: [0, 100],
+            extrapolate: 'clamp',
+        });
 
         return (
             <ThemeProvider theme={theme}>
@@ -152,29 +179,52 @@ class CharacterProfile extends Component {
                 >
                     <GradientTheme theme={theme}>
                         <MainContainer>
-                            <ScrollView
-                                horizontal={true}
+                            <CharacterBanner
+                                name={name.toLowerCase()}
+                                imageOpacity={imageOpacity}
+                                headerTranslate={headerTranslate}
+                                imageTranslate={imageTranslate}
+                            />
+                            <Animated.ScrollView
+                                stickyHeaderIndices={listView ? [] : [0]}
+                                contentContainerStyle={{ paddingTop: HEADER_MAX_HEIGHT }}
+                                onScroll={Animated.event(
+                                    [{ nativeEvent: { contentOffset: { y: this.state.scrollY } } }],
+                                    { useNativeDriver: true }
+                                )}
+                                scrollEventThrottle={16}
                             >
-                                <FlatList
-                                    contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                                    data={this.state.moveListArray}
-                                    numColumns={1}
-                                    keyExtractor={(item, index) => index.toString()}
-                                    renderItem={({ item }) => (listView ?
-                                        <ListViewCard item={item} theme={theme} navigation={navigation} />
-                                        :
-                                        <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
-                                    )}
-                                    ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
-                                    ListHeaderComponent={listView ? < CharacterBanner name={name.toLowerCase()} /> : <HeaderRow />}
-                                    initialNumToRender={10}
-                                    initialScrollIndex={0}
-                                    getItemLayout={(item, index) => (
-                                        { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
-                                    )}
-                                    stickyHeaderIndices={listView ? [] : [0]}
-                                />
-                            </ScrollView>
+
+                                {!listView &&
+                                    <ScrollView
+                                        horizontal
+                                        style={{flex: 1}}
+                                    >
+                                        <HeaderRow />
+                                    </ScrollView>}
+
+                                <ScrollView horizontal={!listView}>
+                                    <FlatList
+                                        scrollEnabled={false}
+                                        style={{ flex: 1 }}
+                                        contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', zIndex: 999 }}
+                                        data={this.state.moveListArray}
+                                        numColumns={1}
+                                        keyExtractor={(item, index) => index.toString()}
+                                        renderItem={({ item }) => (listView ?
+                                            <ListViewCard item={item} theme={theme} navigation={navigation} />
+                                            :
+                                            <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
+                                        )}
+                                        ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
+                                        initialNumToRender={5}
+                                        initialScrollIndex={0}
+                                        getItemLayout={(item, index) => (
+                                            { length: listView ? 120 : 100, offset: listView ? 120 : 100 * index, index }
+                                        )}
+                                    />
+                                </ScrollView>
+                            </Animated.ScrollView>
                             <BottomMenuBar
                                 isListView={listView}
                                 navigation={navigation}
