@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import { Text } from 'react-native';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
+
+import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 import { Dimensions, FlatList, View } from 'react-native';
 
@@ -53,6 +56,12 @@ export const mapStateToProps = ({ characterData, theme, settings: { listView }, 
     listView,
     favorites,
 });
+
+const BackButton = () => (
+    <Text>
+        <FontAwesome>{Icons.chevronLeft}</FontAwesome>
+    </Text>
+);
 
 class CharacterSelect extends Component {
 

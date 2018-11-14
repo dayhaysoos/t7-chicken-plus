@@ -1,3 +1,5 @@
+import React from 'react';
+import { Text } from 'react-native';
 import HomeScreen from './containers/HomeScreen';
 import About from './containers/About';
 import Support from './containers/Support';
@@ -6,13 +8,22 @@ import CharacterSelect from './containers/CharacterSelect';
 import CharacterProfile from './containers/CharacterProfile';
 import CharacterMove from './containers/CharacterMove';
 
+import FontAwesome, { Icons } from 'react-native-fontawesome';
+
 
 import { createStackNavigator, createDrawerNavigator } from 'react-navigation';
+
+const BackButton = () => (
+    <Text style={{ color: 'red', fontSize: 18, marginLeft: 15 }}>
+        <FontAwesome>{Icons.chevronLeft}</FontAwesome>
+    </Text>
+);
 
 const defaultNavOptions = {
     headerStyle: {
         backgroundColor: '#19181C',
-    }
+    },
+    headerBackImage: <BackButton />
 };
 
 export const RootStack = createStackNavigator({
