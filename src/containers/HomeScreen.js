@@ -1,4 +1,5 @@
 import React from 'react';
+import { StatusBar } from 'react-native';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
@@ -70,6 +71,9 @@ class HomeScreen extends React.Component {
                     theme={theme}
                 >
                     <MainContainer>
+                        <StatusBar
+                            barStyle="light-content"
+                        />
                         <MainMenuBanner />
                         <CustomButtonWrapper
                             onPress={() => this.props.navigation.navigate('CharacterSelect')}
