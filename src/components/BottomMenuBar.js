@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Text } from 'react-native';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import FontAwesome, { Icons } from 'react-native-fontawesome';
+
+import SearchBar from '../components/SearchBar';
 
 const MainContainer = styled.View`
   flex-direction: row;
@@ -36,64 +37,34 @@ const MenuLabelText = styled.Text`
   text-align: center;
 `;
 
-const SearchBar = styled.TextInput`
-  backgroundColor: #474550;
-  border: 1px solid #797979;
-  borderRadius: 10;
-  color: #797979;
-  marginHorizontal: 50;
-  paddingLeft: 10;
-  paddingVertical: 5;
+const SearchBarContainer = styled.View`
+    width: 85%;
+    align-self: center;
 `;
 
-const SearchClearTouchable = styled.TouchableOpacity`
-  position: absolute;
-  right: 55;
-`;
-
-const SearchClearText = styled.Text`
-  color: #797979;
-  fontSize: 20;
-`;
 
 class BottomMenuBar extends Component {
-    state = {
-        searchText: '🔍 Search'
-    }
     render() {
         const {
             isListView,
             navigation,
             onPressFavoriteFilter,
             onPressFilterMenu,
-            searchFunction,
+            handleSearchTextChange,
             toggleListView
         } = this.props;
 
         return (
             <OuterContainer>
-                {searchFunction && (
-                    <React.Fragment>
+                {handleSearchTextChange && (
+                    <SearchBarContainer>
                         <SearchBar
-                            autoCapitalize="none"
-                            onChangeText={(searchText) => this.setState({ searchText })}
-                            onFocus={() => {
-                                if (this.state.searchText === '🔍 Search') {
-                                    this.setState({ searchText: '' });
-                                }
-                            }}
-                            onSubmitEditing={() => searchFunction(this.state.searchText)}
-                            value={this.state.searchText}
+                            onClosePress={() => handleSearchTextChange('')}
+                            onChangeText={handleSearchTextChange}
+                            autoCorrect={false}
+                            autoCapitalize={'none'}
                         />
-                        <SearchClearTouchable
-                            onPress={() => {
-                                searchFunction('');
-                                this.setState({ searchText: '🔍 Search' });
-                            }}
-                        >
-                            <SearchClearText>✘</SearchClearText>
-                        </SearchClearTouchable>
-                    </ React.Fragment>
+                    </SearchBarContainer>
                 )}
 
                 <MainContainer>
@@ -145,7 +116,7 @@ BottomMenuBar.propTypes = {
     toggleListView: PropTypes.func,
     navigation: PropTypes.object,
     isListView: PropTypes.bool,
-    searchFunction: PropTypes.func
+    handleSearchTextChange: PropTypes.func
 };
 
 export default BottomMenuBar;

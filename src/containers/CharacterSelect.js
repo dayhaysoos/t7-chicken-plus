@@ -72,11 +72,12 @@ class CharacterSelect extends Component {
     }
 
     state = {
-        characterNames: this.props.characterNames,
-        charName: '',
+        // characterNames: this.props.characterNames,
+        // charName: '',
         screenWidth: Dimensions.get('window').width,
         screenHeight: Dimensions.get('window').height,
-        showFavorites: false
+        showFavorites: false,
+        searchTerm: ''
     }
 
     onLayout = () => {
@@ -102,14 +103,16 @@ class CharacterSelect extends Component {
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
             onPress={() => this.props.navigation.navigate('CharacterProfile',
                 {
-                    moveList: item,
-                    ...item,
+                    moveList: item.moveList,
+                    //...item,
                     favorite: item.favorite,
                     label: item.label,
+                    name: item.name,
                     onStarPress: () => this.props.toggleCharacterStar(item.label)
                 })}
         />
     )
+
 
     renderListView = ({ item }) => (
         <ListViewCard
@@ -118,10 +121,11 @@ class CharacterSelect extends Component {
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
             onPress={() => this.props.navigation.navigate('CharacterProfile',
                 {
-                    moveList: item,
-                    ...item,
+                    moveList: item.moveList,
+                    //...item,
                     favorite: item.favorite,
                     label: item.label,
+                    name: item.name,
                     onStarPress: () => this.props.toggleCharacterStar(item.label)
                 })}
         />
@@ -129,19 +133,23 @@ class CharacterSelect extends Component {
 
     toggleShowFavorites = () => this.setState((prevState) => ({ showFavorites: !prevState.showFavorites }));
 
-    searchCharacters(input) {
-        this.setState({
-            characterNames: this.props.characterNames.filter(
-                character => Object.keys(character)[0].toLowerCase().includes(input.toLowerCase())
-            )
-        });
-    }
+    // searchCharacters(input) {
+    //     this.setState({
+    //         characterNames: this.props.characterNames.filter(
+    //             character => Object.keys(character)[0].toLowerCase().includes(input.toLowerCase())
+    //         )
+    //     });
+    // }
 
     render() {
         const { theme, navigation, listView, toggleListView, characterNames } = this.props;
-        const { showFavorites } = this.state;
+        const { showFavorites, searchTerm } = this.state;
 
         const data = showFavorites ? characterNames.filter(char => char.favorite) : characterNames;
+
+        const searchedData= data.filter(({name}) => name.toLowerCase().includes(searchTerm.toLowerCase()));
+
+        console.log(characterNames);
 
         return (
             <ThemeProvider theme={theme}>
@@ -150,7 +158,7 @@ class CharacterSelect extends Component {
                         <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
                             <FlatList
                                 contentContainerStyle={{ flexDirection: 'column', justifyContent: 'center', alignItems: listView ? 'stretch' : 'center', paddingTop: 15 }}
-                                data={data}
+                                data={searchedData}
                                 numColumns={listView ? 1 : Math.floor(this.state.screenWidth / 85)} // should prolly be 1 : 4 I think
                                 keyExtractor={(item, index) => `list-item-${index}`}
                                 renderItem={listView ? this.renderListView : this.renderGridView}
@@ -170,7 +178,7 @@ class CharacterSelect extends Component {
                             toggleListView={toggleListView}
                             isListView={listView}
                             onPressFavoriteFilter={this.toggleShowFavorites}
-                            searchFunction={(input) => this.searchCharacters(input)}
+                            handleSearchTextChange={searchTerm => this.setState({ searchTerm })}
                         />
                     </MainContainer>
                 </GradientTheme>
