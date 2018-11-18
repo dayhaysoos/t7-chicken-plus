@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { FlatList, Animated, ScrollView } from 'react-native';
 import styled, { ThemeProvider } from 'styled-components';
 import { connect } from 'react-redux';
-import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 import CharacterBanner from '../components/CharacterProfile/CharacterBanner';
 import ListViewCard from '../components/CharacterProfile/ListViewCard';
@@ -55,9 +54,14 @@ const EmptyText = styled.Text`
 
 class CharacterProfile extends Component {
 
-    static navigationOptions = ({ navigation, navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
+    static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
         headerTransparent: false,
-        headerBackground: <Header title={name} />,
+        title:name,
+        headerTitleStyle: {
+            fontWeight: 'bold',
+            color: '#FFFFFF'
+        },
+        //headerBackground: <Header title={name} />,
         headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />,
     })
 
@@ -65,7 +69,8 @@ class CharacterProfile extends Component {
         navigation: PropTypes.object,
         toggleListView: PropTypes.func,
         listView: PropTypes.bool,
-        theme: PropTypes.object
+        theme: PropTypes.object,
+        favorites: PropTypes.object
     }
 
     state = {
@@ -75,14 +80,12 @@ class CharacterProfile extends Component {
         side: 'right',
         unFilteredMoveList: [],
         scrollY: new Animated.Value(0),
+        searchTerm: ''
     }
 
     componentDidMount() {
-        const { navigation, favorites } = this.props;
-        const moveListObject = navigation.getParam('moveList');
-        const moveListKey = Object.keys(moveListObject)[0];
-        const moveListArray = moveListObject[moveListKey];
-
+        const { navigation } = this.props;
+        const moveListArray = navigation.getParam('moveList');
         this.setState({ moveListArray, unFilteredMoveList: moveListArray });
     }
 
@@ -93,7 +96,6 @@ class CharacterProfile extends Component {
         if (favorites !== prev.favorites) {
             navigation.setParams({ favorite: favorites.characters[label] });
         }
-
     }
 
     setCharacterProfileState = (obj) => {
@@ -120,21 +122,15 @@ class CharacterProfile extends Component {
         );
     }
 
-    async searchMoveList(input) {
-        await this.resetSearch();
-
+    searchMoveList(input, moveList) {
         if (input.includes('+')) {
-            this.setState({
-                moveListArray: this.state.moveListArray.filter(
-                    ({ notation }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
-                )
-            });
+            return moveList.filter(
+                ({ notation }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
+            );
         } else {
-            this.setState({
-                moveListArray: this.state.moveListArray.filter(
-                    ({ notation }) => notation.replace(/[ ,+]/g, '').includes(input.replace(/[ ,+]/g, ''))
-                )
-            });
+            return moveList.filter(
+                ({ notation }) => notation.replace(/[ ,+]/g, '').includes(input.replace(/[ ,+]/g, ''))
+            );
         }
     }
 
@@ -157,6 +153,8 @@ class CharacterProfile extends Component {
     render() {
         const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme } = this.props;
         const { isOpen, side, scrollY } = this.state;
+
+        const data = this.searchMoveList(this.state.searchTerm, this.state.moveListArray);
 
         const headerTranslate = scrollY.interpolate({
             inputRange: [0, HEADER_SCROLL_DISTANCE],
@@ -220,7 +218,7 @@ class CharacterProfile extends Component {
                                         scrollEnabled={false}
                                         style={{ flex: 1 }}
                                         contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', zIndex: 999 }}
-                                        data={this.state.moveListArray}
+                                        data={data}
                                         numColumns={1}
                                         keyExtractor={(item, index) => index.toString()}
                                         renderItem={({ item }) => (listView ?
@@ -243,6 +241,7 @@ class CharacterProfile extends Component {
                                 onPressFilterMenu={this.openRightDrawer}
                                 searchFunction={(input) => this.searchMoveList(input)}
                                 toggleListView={toggleListView}
+                                handleSearchTextChange={(searchTerm) => this.setState({searchTerm})}
                             />
                         </MainContainer>
                     </GradientTheme>
