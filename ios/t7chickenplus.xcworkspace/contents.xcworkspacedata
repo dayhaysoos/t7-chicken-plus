@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../Downloads/match_Development_t7chickenplus.mobileprovision">
+   </FileRef>
+   <FileRef
+      location = "group:../../../Downloads/match_AppStore_t7chickenplus.mobileprovision">
+   </FileRef>
+   <FileRef
       location = "group:t7chickenplus.xcodeproj">
    </FileRef>
    <FileRef
