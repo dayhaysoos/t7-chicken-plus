@@ -73,6 +73,9 @@ class CharacterProfile extends Component {
         favorites: PropTypes.object
     }
 
+    headerIsScrolling = false;
+    dataIsScrolling = false;
+
     state = {
         activeFilters: [],
         moveListArray: [],
@@ -207,13 +210,37 @@ class CharacterProfile extends Component {
 
                                 {!listView &&
                                     <ScrollView
+                                        bounces={false}
                                         horizontal
+                                        scrollEventThrottle={300}
                                         style={{ flex: 1 }}
+                                        ref={scrollView => { this._headerScrollView = scrollView; }}
+                                        onScroll={e => {
+                                            if (!this.headerIsScrolling) {
+                                                this.dataIsScrolling = true;
+                                                const scrollX = e.nativeEvent.contentOffset.x;
+                                                this._dataScrollView.scrollTo({ x: scrollX, animated: true });
+                                            }
+                                            this.headerIsScrolling = false;
+                                        }}
                                     >
                                         <HeaderRow />
                                     </ScrollView>}
 
-                                <ScrollView horizontal={!listView}>
+                                <ScrollView
+                                    bounces={false}
+                                    horizontal={!listView}
+                                    scrollEventThrottle={300}
+                                    ref={scrollView => { this._dataScrollView = scrollView; }}
+                                    onScroll={e => {
+                                        if (!this.dataIsScrolling) {
+                                            this.headerIsScrolling = true;
+                                            const scrollX = e.nativeEvent.contentOffset.x;
+                                            this._headerScrollView.scrollTo({ x: scrollX, animated: true });
+                                        }
+                                        this.dataIsScrolling = false;
+                                    }}
+                                >
                                     <FlatList
                                         scrollEnabled={false}
                                         style={{ flex: 1 }}
