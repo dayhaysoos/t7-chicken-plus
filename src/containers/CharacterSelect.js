@@ -19,6 +19,7 @@ import ListViewCard from '../components/CharacterSelect/ListViewCard';
 import Header from '../components/Header';
 
 import { getFavoriteCharacters } from '../selectors/characterSelect';
+import firebase from 'react-native-firebase';
 
 const MainContainer = styled.View`
   flex: 1
@@ -89,6 +90,10 @@ class CharacterSelect extends Component {
         searchTerm: ''
     }
 
+    componentDidMount = () => {
+        firebase.analytics().logEvent('Screen_Character_Select', {});
+    }
+
     onLayout = () => {
         const { screenHeight, screenWidth } = this.state;
         const { listView, toggleListView } = this.props;
@@ -156,9 +161,7 @@ class CharacterSelect extends Component {
 
         const data = showFavorites ? characterNames.filter(char => char.favorite) : characterNames;
 
-        const searchedData= data.filter(({name}) => name.toLowerCase().includes(searchTerm.toLowerCase()));
-
-        console.log(characterNames);
+        const searchedData = data.filter(({ name }) => name.toLowerCase().includes(searchTerm.toLowerCase()));
 
         return (
             <ThemeProvider theme={theme}>
@@ -195,5 +198,7 @@ class CharacterSelect extends Component {
         );
     }
 }
+
+CharacterSelect.screenName = 'Character Select';
 
 export default connect(mapStateToProps, mapDispatchToProps)(CharacterSelect);

@@ -11,6 +11,8 @@ import * as characterActions from '../redux/actions/characterActions';
 
 import { GradientTheme } from '../common/GradientTheme';
 
+import firebase from 'react-native-firebase';
+
 // styles
 const MainContainer = styled.View`
   flex: 1;
@@ -46,7 +48,10 @@ export const mapStateToProps = ({ characterData, theme }) => ({
 export const createComponentDidMount = (instance) => () => {
     const { getCharacterData } = instance.props;
     getCharacterData();
+
+    firebase.analytics().logEvent(`Screen_${HomeScreen.screenName}`, {});
 };
+
 
 class HomeScreen extends React.Component {
 
@@ -101,6 +106,8 @@ class HomeScreen extends React.Component {
         );
     }
 }
+
+HomeScreen.screenName = 'Home';
 
 
 export default connect(mapStateToProps, mapDispatchToProps)(HomeScreen);
