@@ -6,6 +6,8 @@ import styled, { ThemeProvider } from 'styled-components';
 import MoveHeader from '../components/MoveHeader';
 import { GradientTheme } from '../common/GradientTheme';
 
+import firebase from 'react-native-firebase';
+
 const HeaderTitle = styled.Text`
   background-color: ${(props) => props.theme.primaryGradient2}
   color: white;
@@ -42,6 +44,20 @@ const mapDispatchToProps = {};
 
 class CharacterMove extends Component {
     static navigationProps = (navigation) => navigation;
+
+    componentDidMount = () => {
+        const { navigation } = this.props;
+
+        const moveName = navigation.getParam('move_name');
+        const notation = navigation.getParam('notation');
+        const name = navigation.getParam('name');
+
+        firebase.analytics().logEvent('Screen_Character_Move', {
+            moveName,
+            notation,
+            character: name
+        });
+    }
     render() {
 
         const { theme } = this.props;
@@ -56,7 +72,8 @@ class CharacterMove extends Component {
             on_hit,
             preview_url,
             properties,
-            speed
+            speed,
+            name
         } = this.props.navigation.state.params;
 
         return (

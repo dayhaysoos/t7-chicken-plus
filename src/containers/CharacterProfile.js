@@ -25,6 +25,8 @@ import DrawerSwitcher from '../components/DrawerSwitcher';
 import BottomMenuBar from '../components/BottomMenuBar';
 import FilterMenu from '../components/FilterMenu';
 
+import firebase from 'react-native-firebase';
+
 export const mapDispatcthToProps = {
     ...characterActions,
     ...settingsActions,
@@ -56,7 +58,7 @@ class CharacterProfile extends Component {
 
     static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
         headerTransparent: false,
-        title:name,
+        title: name,
         headerTitleStyle: {
             fontWeight: 'bold',
             color: '#FFFFFF'
@@ -87,9 +89,18 @@ class CharacterProfile extends Component {
     }
 
     componentDidMount() {
-        const { navigation } = this.props;
+        const { navigation, listView } = this.props;
         const moveListArray = navigation.getParam('moveList');
+        const charName = navigation.getParam('name');
+        const isFavorite = navigation.getParam('favorite');
+
         this.setState({ moveListArray, unFilteredMoveList: moveListArray });
+
+        firebase.analytics().logEvent('Screen_Character_Profile', {
+            character: charName,
+            listView: listView ? 'ListView' : 'SpreadsheetView',
+            isFavorite: isFavorite
+        });
     }
 
     componentDidUpdate = (prev) => {
@@ -98,6 +109,9 @@ class CharacterProfile extends Component {
 
         if (favorites !== prev.favorites) {
             navigation.setParams({ favorite: favorites.characters[label] });
+            firebase.analytics().logEvent('Screen_Character_Profile', {
+                favoriteToggled: true
+            });
         }
     }
 
@@ -249,9 +263,9 @@ class CharacterProfile extends Component {
                                         numColumns={1}
                                         keyExtractor={(item, index) => index.toString()}
                                         renderItem={({ item }) => (listView ?
-                                            <ListViewCard item={item} theme={theme} navigation={navigation} />
+                                            <ListViewCard item={item} name={name} theme={theme} navigation={navigation} />
                                             :
-                                            <SpreadSheetRow item={item} theme={theme} navigation={navigation} />
+                                            <SpreadSheetRow item={item} name={name} theme={theme} navigation={navigation} />
                                         )}
                                         ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
                                         initialNumToRender={5}
@@ -268,7 +282,7 @@ class CharacterProfile extends Component {
                                 onPressFilterMenu={this.openRightDrawer}
                                 searchFunction={(input) => this.searchMoveList(input)}
                                 toggleListView={toggleListView}
-                                handleSearchTextChange={(searchTerm) => this.setState({searchTerm})}
+                                handleSearchTextChange={(searchTerm) => this.setState({ searchTerm })}
                             />
                         </MainContainer>
                     </GradientTheme>

@@ -7,6 +7,7 @@ import { Linking } from 'react-native';
 
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 
+import firebase from 'react-native-firebase';
 
 const Container = styled.View`
   flex-direction: column;
@@ -43,6 +44,10 @@ const TouchableSocial = styled.TouchableHighlight`
 `;
 
 const onIconPress = (url) => async () => {
+
+    firebase.analytics().logEvent('Go_To_Social', {
+        url
+    });
 
     try {
         await Linking.openURL(url);

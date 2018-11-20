@@ -49,7 +49,7 @@ export const createComponentDidMount = (instance) => () => {
     const { getCharacterData } = instance.props;
     getCharacterData();
 
-    firebase.analytics().logEvent(`Screen_${HomeScreen.screenName}`, {});
+    firebase.analytics().logEvent('Screen_Home', {});
 };
 
 

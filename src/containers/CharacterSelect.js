@@ -90,8 +90,14 @@ class CharacterSelect extends Component {
         searchTerm: ''
     }
 
-    componentDidMount = () => {
-        firebase.analytics().logEvent('Screen_Character_Select', {});
+    componentDidUpdate = () => {
+        const { listView } = this.props;
+        const { showFavorites } = this.state;
+
+        firebase.analytics().logEvent('Screen_Character_Select', {
+            listView: listView ? 'ListView' : 'GridView',
+            favoritesOnly: showFavorites
+        });
     }
 
     onLayout = () => {

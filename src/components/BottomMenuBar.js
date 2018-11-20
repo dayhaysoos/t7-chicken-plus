@@ -6,6 +6,8 @@ import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 import SearchBar from '../components/SearchBar';
 
+import firebase from 'react-native-firebase';
+
 const MainContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
