@@ -5,6 +5,7 @@ const AdBanner = () => (
     <AdMobBanner
         adSize='fullBanner'
         adUnitID={'ca-app-pub-2131722019779391~1691902228'}
+        testDevices={[AdMobBanner.simulatorId]}
     />
 );
 

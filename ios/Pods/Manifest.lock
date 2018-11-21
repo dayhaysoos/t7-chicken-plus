@@ -49,16 +49,10 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
-  - React (0.11.0):
-    - React/Core (= 0.11.0)
-  - React/Core (0.11.0)
-  - RNIap (2.3.19):
-    - React
 
 DEPENDENCIES:
   - Firebase/Core
   - Google-Mobile-Ads-SDK
-  - RNIap (from `../node_modules/react-native-iap`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -70,11 +64,6 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - nanopb
-    - React
-
-EXTERNAL SOURCES:
-  RNIap:
-    :path: "../node_modules/react-native-iap"
 
 SPEC CHECKSUMS:
   Firebase: 6691d47562a780c26281ce8464518faafc90c610
@@ -85,9 +74,7 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 2b3a023a61239c8d002e6e4fcf4abce8eddce0e0
   GoogleUtilities: 8208aee3e97a1ae93d44c57e96c476a5a3b03f0a
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
-  RNIap: ef7dbcbb0ad7bb2400c14797ef3fad4e02ff0681
 
-PODFILE CHECKSUM: 4ec2164500785c5651517fda0a4b9ee90e830135
+PODFILE CHECKSUM: d17226acd2c100f66532b685072021567cec34dd
 
 COCOAPODS: 1.5.3
