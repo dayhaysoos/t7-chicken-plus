@@ -85,20 +85,20 @@ class HomeScreen extends React.Component {
                         >
                             <CustomButtonText>Character Select</CustomButtonText>
                         </CustomButtonWrapper>
-                        <CustomButtonWrapper
+                        {/* <CustomButtonWrapper
                             onPress={() => this.props.navigation.navigate('Sponsors')}
                         >
                             <CustomButtonText>Sponsors</CustomButtonText>
-                        </CustomButtonWrapper>
-                        <CustomButtonWrapper
+                        </CustomButtonWrapper> */}
+                        {/* <CustomButtonWrapper
                             onPress={() => this.props.navigation.navigate('Support')}
                         >
                             <CustomButtonText>Support Us!</CustomButtonText>
-                        </CustomButtonWrapper>
+                        </CustomButtonWrapper> */}
                         <CustomButtonWrapper
                             onPress={() => this.props.navigation.navigate('About')}
                         >
-                            <CustomButtonText>About</CustomButtonText>
+                            <CustomButtonText>About T7 Chicken+</CustomButtonText>
                         </CustomButtonWrapper>
                     </MainContainer>
                 </GradientTheme>

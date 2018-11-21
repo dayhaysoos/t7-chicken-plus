@@ -42,10 +42,10 @@ export default class FilterOption extends Component {
                     const { filter } = this.props;
                     // If clicking the filter will make it active
                     if (!this.state.active) {
-                        firebase.analytics().logEvent('Add_Filter', filter);
+                        firebase.analytics().logEvent('Add_Filter', { filter: filter });
                         this.props.addToActiveFilters(filter);
                     } else {
-                        firebase.analytics().logEvent('Remove_Filter', filter);
+                        firebase.analytics().logEvent('Remove_Filter', { filter: filter });
                         this.props.removeFromActiveFilters(filter);
                     }
 
