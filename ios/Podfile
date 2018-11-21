@@ -10,6 +10,8 @@ target 't7chickenplus' do
 
   pod 'RNIap', :path => '../node_modules/react-native-iap'
 
+  pod 'Google-Mobile-Ads-SDK'
+
   target 't7chickenplusTests' do
     inherit! :search_paths
     # Pods for testing
