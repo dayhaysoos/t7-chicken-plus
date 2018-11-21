@@ -2945,6 +2945,13 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
+dooboolab-welcome@^1.0.5:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/dooboolab-welcome/-/dooboolab-welcome-1.1.0.tgz#4a0aa9d2cbc4e2b1008bf7683bc056b41caa3d0d"
+  integrity sha512-K9TKEeefzDXZiUyLZG+bIr8cy9UoYIfFMseowp/o3czVl7TfkVm3gQpeB85w+TO8xeqzWHiIcEelZbBgt5WUwQ==
+  dependencies:
+    chalk "^2.4.1"
+
 dot-prop@^4.1.1:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.0.tgz#1f19e0c2e1aa0e32797c49799f2837ac6af69c57"
@@ -7016,6 +7023,13 @@ react-native-fontawesome@^5.7.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/react-native-fontawesome/-/react-native-fontawesome-5.7.0.tgz#7bfe57c21c6522d05eaf206474903c3f299bfc0d"
   integrity sha1-e/5XwhxlItBeryBkdJA8Pymb/A0=
+
+react-native-iap@^2.3.19:
+  version "2.3.19"
+  resolved "https://registry.yarnpkg.com/react-native-iap/-/react-native-iap-2.3.19.tgz#43ff96c655c3542b7972b384102886c52f508663"
+  integrity sha512-ecIdqQ9KqHjPPy8TFDD55ruULQSWKXXltt5tH0eNVUHcmekf8r8edEjHOLvIGUUKuJnYhLN+2AdTn+lJWeFMvA==
+  dependencies:
+    dooboolab-welcome "^1.0.5"
 
 react-native-linear-gradient@^2.4.0:
   version "2.4.3"

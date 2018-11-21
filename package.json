@@ -49,6 +49,7 @@
     "react-native-drawer": "^2.5.1",
     "react-native-firebase": "^5.0.0",
     "react-native-fontawesome": "^5.7.0",
+    "react-native-iap": "^2.3.19",
     "react-native-linear-gradient": "^2.4.0",
     "react-navigation": "^2.0.1",
     "react-redux": "^5.0.7",

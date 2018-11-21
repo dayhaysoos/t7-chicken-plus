@@ -8,6 +8,8 @@ target 't7chickenplus' do
   # Pods for t7chickenplus
   pod 'Firebase/Core'
 
+  pod 'RNIap', :path => '../node_modules/react-native-iap'
+
   target 't7chickenplusTests' do
     inherit! :search_paths
     # Pods for testing
