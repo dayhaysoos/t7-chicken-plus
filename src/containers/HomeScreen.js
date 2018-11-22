@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 import MainMenuBanner from '../components/MainMenuBanner';
+import AdBanner from '../components/AdBanner';
 
 import styled, { ThemeProvider } from 'styled-components';
 
@@ -76,6 +77,7 @@ class HomeScreen extends React.Component {
                     theme={theme}
                 >
                     <MainContainer>
+                        <AdBanner />
                         <StatusBar
                             barStyle="light-content"
                         />
@@ -90,15 +92,21 @@ class HomeScreen extends React.Component {
                         >
                             <CustomButtonText>Sponsors</CustomButtonText>
                         </CustomButtonWrapper> */}
-                        {/* <CustomButtonWrapper
+                        <CustomButtonWrapper
                             onPress={() => this.props.navigation.navigate('Support')}
                         >
                             <CustomButtonText>Support Us!</CustomButtonText>
-                        </CustomButtonWrapper> */}
+                        </CustomButtonWrapper>
                         <CustomButtonWrapper
                             onPress={() => this.props.navigation.navigate('About')}
                         >
                             <CustomButtonText>About T7 Chicken+</CustomButtonText>
+                        </CustomButtonWrapper>
+                        <CustomButtonWrapper
+                            disabled={true}
+                            onPress={() => this.props.navigation.navigate('RemoveAds')}
+                        >
+                            <CustomButtonText>Ad Removal Coming Soon</CustomButtonText>
                         </CustomButtonWrapper>
                     </MainContainer>
                 </GradientTheme>

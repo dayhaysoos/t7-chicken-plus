@@ -7,6 +7,7 @@ import Sponsors from './containers/Sponsors';
 import CharacterSelect from './containers/CharacterSelect';
 import CharacterProfile from './containers/CharacterProfile';
 import CharacterMove from './containers/CharacterMove';
+import RemoveAds from './containers/RemoveAds';
 
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 
@@ -14,7 +15,7 @@ import FontAwesome, { Icons } from 'react-native-fontawesome';
 import { createStackNavigator, createDrawerNavigator } from 'react-navigation';
 
 const BackButton = () => (
-    <Text style={{ color: 'red', fontSize: 18, marginLeft: 15 }}>
+    <Text style={{ color: 'red', fontSize: 32, marginLeft: 15 }}>
         <FontAwesome>{Icons.chevronLeft}</FontAwesome>
     </Text>
 );
@@ -41,6 +42,10 @@ export const RootStack = createStackNavigator({
     },
     Support: {
         screen: Support,
+        navigationOptions: defaultNavOptions
+    },
+    RemoveAds: {
+        screen: RemoveAds,
         navigationOptions: defaultNavOptions
     },
     CharacterSelect: {

@@ -6,6 +6,8 @@ import styled, { ThemeProvider } from 'styled-components';
 import MoveHeader from '../components/MoveHeader';
 import { GradientTheme } from '../common/GradientTheme';
 
+import AdBanner from '../components/AdBanner';
+
 import firebase from 'react-native-firebase';
 
 const HeaderTitle = styled.Text`
@@ -43,7 +45,15 @@ const mapStateToProps = ({ theme }) => ({
 const mapDispatchToProps = {};
 
 class CharacterMove extends Component {
-    static navigationProps = (navigation) => navigation;
+
+    static navigationOptions = ({ navigation: { state: { params: { name } } } }) => ({
+        headerTransparent: false,
+        title: name,
+        headerTitleStyle: {
+            fontWeight: 'bold',
+            color: '#FFFFFF'
+        },
+    })
 
     componentDidMount = () => {
         const { navigation } = this.props;
@@ -79,6 +89,7 @@ class CharacterMove extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>
+                    <AdBanner />
                     <ScrollView>
                         <MoveHeader
                             moveName={move_name}

@@ -8,6 +8,8 @@ target 't7chickenplus' do
   # Pods for t7chickenplus
   pod 'Firebase/Core'
 
+  pod 'Google-Mobile-Ads-SDK'
+
   target 't7chickenplusTests' do
     inherit! :search_paths
     # Pods for testing

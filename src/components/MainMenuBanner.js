@@ -1,10 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import { Alert } from 'react-native';
-
 import { Linking } from 'react-native';
-
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 import firebase from 'react-native-firebase';
