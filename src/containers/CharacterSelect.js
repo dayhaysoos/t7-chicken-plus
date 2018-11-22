@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import { Text } from 'react-native';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
-
-import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 import { Dimensions, FlatList, View } from 'react-native';
 
@@ -17,6 +14,7 @@ import BottomMenuBar from '../components/BottomMenuBar';
 import GridViewCard from '../components/CharacterSelect/GridViewCard';
 import ListViewCard from '../components/CharacterSelect/ListViewCard';
 import Header from '../components/Header';
+import AdBanner from '../components/AdBanner';
 
 import { getFavoriteCharacters } from '../selectors/characterSelect';
 import firebase from 'react-native-firebase';
@@ -58,11 +56,6 @@ export const mapStateToProps = ({ characterData, theme, settings: { listView }, 
     favorites,
 });
 
-const BackButton = () => (
-    <Text>
-        <FontAwesome>{Icons.chevronLeft}</FontAwesome>
-    </Text>
-);
 
 class CharacterSelect extends Component {
 
@@ -173,6 +166,7 @@ class CharacterSelect extends Component {
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>
                     <MainContainer>
+                        <AdBanner />
                         <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
                             <FlatList
                                 contentContainerStyle={{ flexDirection: 'column', justifyContent: 'center', alignItems: listView ? 'stretch' : 'center', paddingTop: 15 }}

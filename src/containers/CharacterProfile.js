@@ -26,6 +26,7 @@ import BottomMenuBar from '../components/BottomMenuBar';
 import FilterMenu from '../components/FilterMenu';
 
 import firebase from 'react-native-firebase';
+import AdBanner from '../components/AdBanner';
 
 export const mapDispatcthToProps = {
     ...characterActions,
@@ -59,11 +60,11 @@ class CharacterProfile extends Component {
     static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
         headerTransparent: false,
         title: name,
+        headerBackTitle: null,
         headerTitleStyle: {
             fontWeight: 'bold',
             color: '#FFFFFF'
         },
-        //headerBackground: <Header title={name} />,
         headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />,
     })
 
@@ -205,6 +206,7 @@ class CharacterProfile extends Component {
                     onClose={this.onDrawerClose}
                 >
                     <GradientTheme theme={theme}>
+                        <AdBanner />
                         <MainContainer>
                             <CharacterBanner
                                 name={name.toLowerCase()}
