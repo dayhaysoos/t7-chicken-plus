@@ -6,6 +6,7 @@ import com.facebook.react.ReactApplication;
 import com.sbugert.rnadmob.RNAdMobPackage;
 import com.dooboolab.RNIap.RNIapPackage;
 import io.invertase.firebase.RNFirebasePackage;
+import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 import com.BV.LinearGradient.LinearGradientPackage;
 import com.microsoft.codepush.react.CodePush;
 import com.facebook.react.ReactNativeHost;
@@ -36,6 +37,7 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
             new RNAdMobPackage(),
             new RNIapPackage(),
+            new RNFirebaseAnalyticsPackage(),
             new RNFirebasePackage(),
             new LinearGradientPackage(),
             new CodePush(null, getApplicationContext(), BuildConfig.DEBUG)
