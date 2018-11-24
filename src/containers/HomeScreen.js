@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 import MainMenuBanner from '../components/MainMenuBanner';
-import AdBanner from '../components/AdBanner';
 
 import styled, { ThemeProvider } from 'styled-components';
 
@@ -77,7 +76,6 @@ class HomeScreen extends React.Component {
                     theme={theme}
                 >
                     <MainContainer>
-                        <AdBanner />
                         <StatusBar
                             barStyle="light-content"
                         />

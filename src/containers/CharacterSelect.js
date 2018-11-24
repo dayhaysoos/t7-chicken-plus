@@ -109,20 +109,28 @@ class CharacterSelect extends Component {
         }
     }
 
+    navigateToCharacterProfile = (item) => {
+        const { navigation, updateSelectedCharacterMoves, toggleCharacterStar } = this.props;
+        const { moveList, favorite, label, name } = item;
+
+        updateSelectedCharacterMoves(moveList);
+
+        navigation.navigate('CharacterProfile', {
+            moveList,
+            favorite,
+            label,
+            name,
+            onStarPress: () => toggleCharacterStar(label)
+        });
+
+    }
+
     renderGridView = ({ item }) => (
         <GridViewCard
             name={item.name}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
-            onPress={() => this.props.navigation.navigate('CharacterProfile',
-                {
-                    moveList: item.moveList,
-                    //...item,
-                    favorite: item.favorite,
-                    label: item.label,
-                    name: item.name,
-                    onStarPress: () => this.props.toggleCharacterStar(item.label)
-                })}
+            onPress={() => this.navigateToCharacterProfile(item)}
         />
     )
 
@@ -132,15 +140,7 @@ class CharacterSelect extends Component {
             name={item.name}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
-            onPress={() => this.props.navigation.navigate('CharacterProfile',
-                {
-                    moveList: item.moveList,
-                    //...item,
-                    favorite: item.favorite,
-                    label: item.label,
-                    name: item.name,
-                    onStarPress: () => this.props.toggleCharacterStar(item.label)
-                })}
+            onPress={() => this.navigateToCharacterProfile(item)}
         />
     )
 

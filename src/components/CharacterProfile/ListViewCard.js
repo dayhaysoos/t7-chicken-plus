@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
 import { Dimensions } from 'react-native';
+
+import * as characterActions from '../../redux/actions/characterActions';
 
 const { width } = Dimensions.get('window');
 
@@ -34,6 +37,14 @@ const MoveDetailText = styled.Text`
   justify-content: space-between;
 `;
 
+export const mapStateToProps = ({ moveData }) => ({
+    moveData
+});
+
+export const mapDispatchToProps = {
+    ...characterActions
+};
+
 class ListViewCard extends Component {
 
     static propTypes = {
@@ -42,13 +53,19 @@ class ListViewCard extends Component {
         navigation: PropTypes.object
     }
 
+    navigateToCharacterMove = (item, name) => {
+        const { updateMoveData, navigation, index } = this.props;
+        updateMoveData(index);
+        navigation.navigate('CharacterMove', { name });
+    }
+
     render() {
-        const { name, theme, item, navigation: { navigate }, item: { notation, speed, on_block, on_hit } } = this.props;
+        const { name, theme, item, item: { notation, speed, on_block, on_hit } } = this.props;
 
         return (
             <ThemeProvider theme={theme}>
                 <CardContainer
-                    onPress={() => navigate('CharacterMove', { ...item, name })}
+                    onPress={() => this.navigateToCharacterMove(item, name)}
                 >
                     <MoveNameContainer>
                         <ListViewText >{notation}</ListViewText>
@@ -70,4 +87,4 @@ class ListViewCard extends Component {
     }
 }
 
-export default ListViewCard;
+export default connect(mapStateToProps, mapDispatchToProps)(ListViewCard);

@@ -53,7 +53,9 @@ class BottomMenuBar extends Component {
             onPressFavoriteFilter,
             onPressFilterMenu,
             handleSearchTextChange,
-            toggleListView
+            toggleListView,
+            onPressPreviousAttack,
+            onPressNextAttack,
         } = this.props;
 
         return (
@@ -106,6 +108,24 @@ class BottomMenuBar extends Component {
                         </MenuButton>
                     )}
 
+                    {onPressPreviousAttack && (
+                        <MenuButton onPress={onPressPreviousAttack}>
+                            <MenuIconText>
+                                <MenuIcon>{Icons.arrowLeft}</MenuIcon>
+                            </MenuIconText>
+                            <MenuLabelText>Previous</MenuLabelText>
+                        </MenuButton>
+                    )}
+
+                    {onPressNextAttack && (
+                        <MenuButton onPress={onPressNextAttack}>
+                            <MenuIconText>
+                                <MenuIcon>{Icons.arrowRight}</MenuIcon>
+                            </MenuIconText>
+                            <MenuLabelText>Next</MenuLabelText>
+                        </MenuButton>
+                    )}
+
                 </MainContainer>
             </OuterContainer>
         );
@@ -118,7 +138,9 @@ BottomMenuBar.propTypes = {
     toggleListView: PropTypes.func,
     navigation: PropTypes.object,
     isListView: PropTypes.bool,
-    handleSearchTextChange: PropTypes.func
+    handleSearchTextChange: PropTypes.func,
+    onPressPreviousAttack: PropTypes.func,
+    onPressNextAttack: PropTypes.func
 };
 
 export default BottomMenuBar;
