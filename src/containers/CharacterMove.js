@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, Text } from 'react-native';
 import { connect } from 'react-redux';
 import styled, { ThemeProvider } from 'styled-components';
 
 import MoveHeader from '../components/MoveHeader';
 import { GradientTheme } from '../common/GradientTheme';
+import BottomMenuBar from '../components/BottomMenuBar';
+import firebase from 'react-native-firebase';
 
+import * as characterActions from '../redux/actions/characterActions';
 import AdBanner from '../components/AdBanner';
 
-import firebase from 'react-native-firebase';
 
 const HeaderTitle = styled.Text`
   background-color: ${(props) => props.theme.primaryGradient2}
@@ -38,11 +40,16 @@ const PropertyTextWrapper = styled.View`
   padding-left: 10;
 `;
 
-const mapStateToProps = ({ theme }) => ({
-    theme
+const mapStateToProps = ({ theme, characterData: { moveData, selectedCharacterMoves, currentIndex } }) => ({
+    theme,
+    moveData,
+    selectedCharacterMoves,
+    currentIndex
 });
 
-const mapDispatchToProps = {};
+const mapDispatchToProps = {
+    ...characterActions
+};
 
 class CharacterMove extends Component {
 
@@ -68,9 +75,21 @@ class CharacterMove extends Component {
             character: name
         });
     }
+
+    nextAttack = () => {
+        const { incrementMoveIndex } = this.props;
+        incrementMoveIndex();
+    }
+
+    previousAttack = () => {
+        const { decrementMoveIndex } = this.props;
+        decrementMoveIndex();
+    }
+
     render() {
 
-        const { theme } = this.props;
+        const { theme, navigation, currentIndex, selectedCharacterMoves, moveData } = this.props;
+        console.log('thisprops', this.props);
         const {
             damage,
             hit_level,
@@ -95,34 +114,13 @@ class CharacterMove extends Component {
                             moveName={move_name}
                             notation={notation}
                         />
-                        <PropertyContainer>
-                            <HeaderTitle>Special Properties</HeaderTitle>
-                            <PropertyTextWrapper>
-                                <PropertyText>{properties[0] ? properties[0] : 'No Property'}</PropertyText>
-                            </PropertyTextWrapper>
-                        </PropertyContainer>
-                        <PropertyContainer>
-                            <HeaderTitle>General Properties</HeaderTitle>
-                            <PropertyTextWrapper>
-                                <PropertyText>Damage: {damage}</PropertyText>
-                            </PropertyTextWrapper>
-                            <PropertyTextWrapper>
-                                <PropertyText>Orientation: {hit_level}</PropertyText>
-                            </PropertyTextWrapper>
-                        </PropertyContainer>
-                        <PropertyContainer>
-                            <HeaderTitle>Frame Properties</HeaderTitle>
-                            <PropertyTextWrapper>
-                                <PropertyText>Speed {speed}</PropertyText>
-                            </PropertyTextWrapper>
-                            <PropertyTextWrapper>
-                                <PropertyText>On Hit: {on_hit}</PropertyText>
-                            </PropertyTextWrapper>
-                            <PropertyTextWrapper>
-                                <PropertyText>On Block:{on_block}</PropertyText>
-                            </PropertyTextWrapper>
-                        </PropertyContainer>
+                        <Text>Welp</Text>
                     </ScrollView>
+                    <BottomMenuBar
+                        navigation={navigation}
+                        onPressPreviousAttack={currentIndex <= 0 ? null : this.previousAttack}
+                        onPressNextAttack={currentIndex >= selectedCharacterMoves.length - 1 ? null : this.nextAttack}
+                    />
                 </GradientTheme >
             </ThemeProvider>
         );

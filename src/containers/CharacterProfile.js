@@ -168,6 +168,7 @@ class CharacterProfile extends Component {
         }
     }
 
+
     render() {
         const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme } = this.props;
         const { isOpen, side, scrollY } = this.state;
@@ -264,10 +265,10 @@ class CharacterProfile extends Component {
                                         data={data}
                                         numColumns={1}
                                         keyExtractor={(item, index) => index.toString()}
-                                        renderItem={({ item }) => (listView ?
-                                            <ListViewCard item={item} name={name} theme={theme} navigation={navigation} />
+                                        renderItem={({ item, index }) => (listView ?
+                                            <ListViewCard index={index} item={item} name={name} theme={theme} navigation={navigation} />
                                             :
-                                            <SpreadSheetRow item={item} name={name} theme={theme} navigation={navigation} />
+                                            <SpreadSheetRow index={index} item={item} name={name} theme={theme} navigation={navigation} />
                                         )}
                                         ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
                                         initialNumToRender={5}
