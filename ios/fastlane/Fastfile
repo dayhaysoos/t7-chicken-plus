@@ -19,6 +19,11 @@ TEAM = "Nick DeJesus"
 
 
 default_platform(:ios)
+lane :ios_icon do
+appicon(
+  appicon_devices: [:iphone, :ios_marketing],
+)
+end
 
 platform :ios do
   desc "Push a new release build to the App Store"
