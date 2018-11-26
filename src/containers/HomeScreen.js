@@ -3,6 +3,8 @@ import { StatusBar } from 'react-native';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
+import SplashScreen from 'react-native-splash-screen';
+
 import MainMenuBanner from '../components/MainMenuBanner';
 
 import styled, { ThemeProvider } from 'styled-components';
@@ -50,6 +52,9 @@ export const createComponentDidMount = (instance) => () => {
     getCharacterData();
 
     firebase.analytics().logEvent('Screen_Home', {});
+    setTimeout(() => {
+        SplashScreen.hide();
+    }, 200);
 };
 
 
