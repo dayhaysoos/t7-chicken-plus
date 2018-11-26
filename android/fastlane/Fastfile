@@ -60,4 +60,12 @@ lane :bumpup do
   increment_version_code(app_project_dir: '**/app')
 end
 
+lane :android_icon do
+  android_appicon(
+    appicon_path: 'app/res/drawable',
+    appicon_icon_types: [:launcher],
+    appicon_image_file: 'fastlane/metadata/app_icon.png'
+  )
+end
+
 end

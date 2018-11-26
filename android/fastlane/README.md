@@ -46,6 +46,11 @@ fastlane android show_version
 fastlane android bumpup
 ```
 
+### android android_icon
+```
+fastlane android android_icon
+```
+
 
 ----
 
