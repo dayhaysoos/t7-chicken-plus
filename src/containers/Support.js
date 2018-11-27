@@ -6,7 +6,6 @@ class Support extends Component {
     render() {
         return (
             <View>
-                <AdBanner />
                 <Text>Support Page</Text>
             </View>
         );
