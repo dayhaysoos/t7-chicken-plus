@@ -108,7 +108,7 @@ class CharacterMove extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>
-                    <AdBanner />
+                    {/* <AdBanner /> */}
                     <ScrollView>
                         <MoveHeader
                             moveName={move_name}

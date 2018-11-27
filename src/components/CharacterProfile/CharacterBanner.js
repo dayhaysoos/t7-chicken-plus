@@ -19,6 +19,8 @@ const Banner = styled(Animated.View)`
 
 const PortraitImage = styled.Image`
   position: absolute;
+  height: 101;
+  width: 64;
   top: 67%;
 `;
 
@@ -29,22 +31,23 @@ const BannerImage = styled(Animated.Image)`
     right: 0;
     width: null;
     height: ${HEADER_MAX_HEIGHT};
-    resizeMode: cover;
+    resizeMode: contain;
 `;
 
-const CharacterBanner = ({name, headerTranslate = 0, imageOpacity = 1, imageTranslate = 0}) => (
+const CharacterBanner = ({ name, headerTranslate = 0, imageOpacity = 1, imageTranslate = 0 }) => (
     <Banner
         pointerEvents="none"
         style={{ transform: [{ translateY: headerTranslate }] }}
     >
         <BannerImage
-            source={characterBanners[name]}
+            source={characterBanners[name.split(' ')[0].toLowerCase()]}
             style={{
                 opacity: imageOpacity,
                 transform: [{ translateY: imageTranslate }]
             }}
         />
-        <PortraitImage source={characterPortraits[name]} />
+        {console.log('bread', characterPortraits[name.split(' ')[0].toLowerCase()])}
+        <PortraitImage source={characterPortraits[name.split(' ')[0].toLowerCase()]} />
     </Banner>
 );
 
