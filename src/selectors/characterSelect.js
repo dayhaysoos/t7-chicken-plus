@@ -1,8 +1,8 @@
 import createSelector from 'selectorator';
 
-export const getCharacterNames = createSelector(['characterData'], (characterData) => characterData.map(character => ({ key: character.name })));
+export const getCharacterNames = createSelector(['characterData'], (characterData) => characterData.map(character => ({ key: character.displayName })));
 
-export const getCharacterMoveList = createSelector(['characterData'], (characterData) => characterData.map(character => ({ [character.name]: character.data })));
+export const getCharacterMoveList = createSelector(['characterData'], (characterData) => characterData.map(character => ({ [character.label]: character.moveList })));
 
 export const getFavoriteCharacters = createSelector(
     ['characterData.characterData', 'favorites'],
@@ -13,8 +13,8 @@ export const getFavoriteCharacters = createSelector(
         return characterData.map(character => {
             const newChar = {
                 //[character.name]: character.data,
-                moveList: character.data,
-                name: character.name,
+                moveList: character.movelist,
+                name: character.displayName,
                 label: character.label,
                 favorite: false,
             };

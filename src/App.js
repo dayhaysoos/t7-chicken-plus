@@ -15,7 +15,6 @@ const { store, persistor } = configureStore;
 class App extends Component {
 
     componentDidMount = () => {
-        console.log('is this running tho?', SplashScreen);
         // SplashScreen.hide();
     }
     render() {

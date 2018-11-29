@@ -89,7 +89,6 @@ class CharacterMove extends Component {
     render() {
 
         const { theme, navigation, currentIndex, selectedCharacterMoves, moveData } = this.props;
-        console.log('thisprops', this.props);
         const {
             damage,
             hit_level,

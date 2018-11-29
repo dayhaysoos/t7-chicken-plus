@@ -60,7 +60,7 @@ class ListViewCard extends Component {
     }
 
     render() {
-        const { name, theme, item, item: { notation, speed, on_block, on_hit } } = this.props;
+        const { name, theme, item, item: { notation, speed, on_block, on_hit, move_name } } = this.props;
 
         return (
             <ThemeProvider theme={theme}>
@@ -68,6 +68,7 @@ class ListViewCard extends Component {
                     onPress={() => this.navigateToCharacterMove(item, name)}
                 >
                     <MoveNameContainer>
+                        {move_name ? <ListViewText >{move_name}</ListViewText> : null}
                         <ListViewText >{notation}</ListViewText>
                     </MoveNameContainer>
                     <MoveDetailContainer>

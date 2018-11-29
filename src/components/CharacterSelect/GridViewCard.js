@@ -39,23 +39,24 @@ const CharacterImage = styled.Image`
   height: 100%;
 `;
 
-const GridViewCard = ({ name, favorite, onPress, onStarPress }) => (
+const GridViewCard = ({ label, favorite, onPress, onStarPress, displayName }) => (
     <Container >
         <CharacterCard onPress={onPress}>
-            <CharacterImage source={characterPortraits[name.split(' ')[0].toLowerCase()]} />
+            <CharacterImage source={characterPortraits[label]} />
             <StarButton onPress={onStarPress}>
                 <StarIcon>{favorite ? Icons.star : Icons.starO}</StarIcon>
             </StarButton>
         </CharacterCard>
-        <Name>{name.split(' ')[0]}</Name>
+        <Name>{displayName}</Name>
     </Container>
 );
 
 GridViewCard.propTypes = {
-    name: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
     favorite: PropTypes.bool,
     onPress: PropTypes.func,
     onStarPress: PropTypes.func,
+    displayName: PropTypes.string,
 };
 
 export default GridViewCard;

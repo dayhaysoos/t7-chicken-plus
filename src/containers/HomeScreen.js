@@ -105,12 +105,12 @@ class HomeScreen extends React.Component {
                         >
                             <CustomButtonText>About T7 Chicken+</CustomButtonText>
                         </CustomButtonWrapper>
-                        <CustomButtonWrapper
+                        {/* <CustomButtonWrapper
                             disabled={true}
                             onPress={() => this.props.navigation.navigate('RemoveAds')}
                         >
                             <CustomButtonText>Ad Removal Coming Soon</CustomButtonText>
-                        </CustomButtonWrapper>
+                        </CustomButtonWrapper> */}
                     </MainContainer>
                 </GradientTheme>
             </ThemeProvider>

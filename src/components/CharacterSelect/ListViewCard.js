@@ -40,12 +40,12 @@ const CharacterContainer = styled.View`
 
 const StarButton = styled.TouchableOpacity``;
 
-const ListViewCard = ({ name, favorite, onPress, onStarPress }) => (
+const ListViewCard = ({ label, favorite, onPress, onStarPress, displayName }) => (
     <ListViewWrapper>
         <ListViewItem onPress={onPress}>
             <CharacterContainer>
-                <CharacterImage source={characterPortraits[name.split(' ')[0].toLowerCase()]} />
-                <ListViewText key={name}>{name.split(' ')[0]}</ListViewText>
+                <CharacterImage source={characterPortraits[label]} />
+                <ListViewText key={label}>{displayName}</ListViewText>
             </CharacterContainer>
 
             <StarButton onPress={onStarPress}>
@@ -57,10 +57,11 @@ const ListViewCard = ({ name, favorite, onPress, onStarPress }) => (
 );
 
 ListViewCard.propTypes = {
-    name: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
     favorite: PropTypes.bool,
     onPress: PropTypes.func,
     onStarPress: PropTypes.func,
+    displayName: PropTypes.string,
 };
 
 export default ListViewCard;

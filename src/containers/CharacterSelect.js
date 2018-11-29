@@ -49,9 +49,9 @@ export const mapDispatchToProps = {
 };
 
 export const mapStateToProps = ({ characterData, theme, settings: { listView }, favorites }) => ({
-    ...characterData,
+    // ...characterData,
     theme,
-    characterNames: getFavoriteCharacters({ characterData, favorites }),
+    characterData: getFavoriteCharacters({ characterData, favorites }),
     listView,
     favorites,
 });
@@ -67,7 +67,7 @@ class CharacterSelect extends Component {
     static propTypes = {
         theme: PropTypes.object,
         characterData: PropTypes.array,
-        characterNames: PropTypes.array,
+        // characterNames: PropTypes.array,
         navigation: PropTypes.object,
         listView: PropTypes.bool,
         toggleListView: PropTypes.func,
@@ -127,7 +127,8 @@ class CharacterSelect extends Component {
 
     renderGridView = ({ item }) => (
         <GridViewCard
-            name={item.name}
+            label={item.label}
+            displayName={item.displayName}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
             onPress={() => this.navigateToCharacterProfile(item)}
@@ -136,13 +137,13 @@ class CharacterSelect extends Component {
 
 
     renderListView = ({ item }) => (
-        <ListViewCard
-            name={item.name}
-            favorite={item.favorite}
-            onStarPress={() => this.props.toggleCharacterStar(item.label)}
-            onPress={() => this.navigateToCharacterProfile(item)}
-        />
-    )
+            <ListViewCard
+                label={item.label}
+                displayName={item.displayName}
+                favorite={item.favorite}
+                onStarPress={() => this.props.toggleCharacterStar(item.label)}
+                onPress={() => this.navigateToCharacterProfile(item)}
+            />)
 
     toggleShowFavorites = () => this.setState((prevState) => ({ showFavorites: !prevState.showFavorites }));
 
@@ -155,12 +156,12 @@ class CharacterSelect extends Component {
     // }
 
     render() {
-        const { theme, navigation, listView, toggleListView, characterNames } = this.props;
+        const { theme, navigation, listView, toggleListView, characterData, } = this.props;
         const { showFavorites, searchTerm } = this.state;
 
-        const data = showFavorites ? characterNames.filter(char => char.favorite) : characterNames;
+        const data = showFavorites ? characterData.filter(char => char.favorite) : characterData;
 
-        const searchedData = data.filter(({ name }) => name.toLowerCase().includes(searchTerm.toLowerCase()));
+        const searchedData = data.filter(({ label }) => label.includes(searchTerm.toLowerCase()));
 
         return (
             <ThemeProvider theme={theme}>

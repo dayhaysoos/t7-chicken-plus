@@ -25,7 +25,6 @@ class RemoveAds extends Component {
     async componentDidMount() {
         try {
             const purchaseHistory = await RNiap.getPurchaseHistory();
-            console.log('history', purchaseHistory);
             const supportItems = await RNiap.getProducts([
                 'support.1',
                 'support.3',
@@ -42,7 +41,6 @@ class RemoveAds extends Component {
 
 
     render() {
-        console.log('state', this.state.supportItems);
         return (
             <GradientTheme theme={defaultTheme}>
                 <Text>hi</Text>

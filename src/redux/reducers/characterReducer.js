@@ -1,8 +1,7 @@
 import { handleActions } from 'redux-actions';
 import { ACTION_TYPES } from '../actions/characterActions';
 
-import { initialData } from '../../utils/initialData';
-
+import { characterMoves } from '../../constants/characterMoves';
 
 export const INITIAL_STATE = {
     isLoadingCharacterData: false,
@@ -23,7 +22,7 @@ const getCharacterDataFail = (state, { payload: characterDataError }) => ({
     ...state,
     isLoadingCharacterData: false,
     characterDataError,
-    characterData: Object.values(initialData)
+    characterData: Object.values(characterMoves)
 });
 
 const getCharacterDataSuccess = (state, { payload: characterData }) => ({
@@ -45,12 +44,12 @@ const updateSelectedCharacterMoves = (state, { payload: selectedCharacterMoves }
 
 const incrementMoveIndex = (state) => ({
     ...state,
-    currentIndex: state.currentIndex+1
+    currentIndex: state.currentIndex + 1
 });
 
 const decrementMoveIndex = (state) => ({
     ...state,
-    currentIndex: state.currentIndex-1
+    currentIndex: state.currentIndex - 1
 });
 
 const characterDataReducer = handleActions(

@@ -46,7 +46,6 @@ const CharacterBanner = ({ name, headerTranslate = 0, imageOpacity = 1, imageTra
                 transform: [{ translateY: imageTranslate }]
             }}
         />
-        {console.log('bread', characterPortraits[name.split(' ')[0].toLowerCase()])}
         <PortraitImage source={characterPortraits[name.split(' ')[0].toLowerCase()]} />
     </Banner>
 );
