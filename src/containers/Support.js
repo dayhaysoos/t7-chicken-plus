@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 import AdBanner from '../components/AdBanner';
 
 class Support extends Component {
@@ -7,6 +7,7 @@ class Support extends Component {
         return (
             <View>
                 <Text>Support Page</Text>
+                <Image style={{ width: 50, height: 50 }} source={{ uri: 'https://gfycat.com/WindyTatteredBantamrooster' }}></Image>
             </View>
         );
     }

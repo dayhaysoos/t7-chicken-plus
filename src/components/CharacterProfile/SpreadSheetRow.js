@@ -43,7 +43,7 @@ class SpreadSheetRow extends Component {
     }
 
     render() {
-        const { name, theme, item, navigation: { navigate }, item: { notation, damage, speed, on_block, on_hit, on_ch, hit_level } } = this.props;
+        const { name, theme, item, navigation: { navigate }, item: { notation, damage, speed, on_block, on_hit, on_ch, hit_level, move_name } } = this.props;
 
         return (
             <ThemeProvider theme={theme}>

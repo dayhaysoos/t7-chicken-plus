@@ -44,12 +44,14 @@ const updateSelectedCharacterMoves = (state, { payload: selectedCharacterMoves }
 
 const incrementMoveIndex = (state) => ({
     ...state,
-    currentIndex: state.currentIndex + 1
+    currentIndex: state.currentIndex + 1,
+    moveData: state.selectedCharacterMoves[state.currentIndex + 1]
 });
 
 const decrementMoveIndex = (state) => ({
     ...state,
-    currentIndex: state.currentIndex - 1
+    currentIndex: state.currentIndex - 1,
+    moveData: state.selectedCharacterMoves[state.currentIndex - 1]
 });
 
 const characterDataReducer = handleActions(

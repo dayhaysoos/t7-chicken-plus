@@ -128,7 +128,7 @@ class CharacterSelect extends Component {
     renderGridView = ({ item }) => (
         <GridViewCard
             label={item.label}
-            displayName={item.displayName}
+            displayName={item.name}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
             onPress={() => this.navigateToCharacterProfile(item)}
@@ -137,13 +137,13 @@ class CharacterSelect extends Component {
 
 
     renderListView = ({ item }) => (
-            <ListViewCard
-                label={item.label}
-                displayName={item.displayName}
-                favorite={item.favorite}
-                onStarPress={() => this.props.toggleCharacterStar(item.label)}
-                onPress={() => this.navigateToCharacterProfile(item)}
-            />)
+        <ListViewCard
+            label={item.label}
+            displayName={item.name}
+            favorite={item.favorite}
+            onStarPress={() => this.props.toggleCharacterStar(item.label)}
+            onPress={() => this.navigateToCharacterProfile(item)}
+        />)
 
     toggleShowFavorites = () => this.setState((prevState) => ({ showFavorites: !prevState.showFavorites }));
 
