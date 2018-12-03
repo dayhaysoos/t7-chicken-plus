@@ -78,7 +78,9 @@ const ModalView = styled.TouchableHighlight`
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 2);
+  opacity: 0.6;
+
 `;
 
 const mapStateToProps = ({ theme, characterData: { moveData, selectedCharacterMoves, currentIndex } }) => ({
