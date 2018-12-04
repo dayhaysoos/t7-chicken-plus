@@ -42,7 +42,7 @@ public class MainApplication extends Application implements ReactApplication {
             new RNFirebaseAnalyticsPackage(),
             new RNFirebasePackage(),
             new LinearGradientPackage(),
-            new CodePush(null, getApplicationContext(), BuildConfig.DEBUG)
+            new CodePush("ZFTE0MjwY8sgvigH4Z0VXxz4A1DV49811cfd-9167-45ec-81da-4173a98555d0", getApplicationContext(), BuildConfig.DEBUG)
       );
     }
 
