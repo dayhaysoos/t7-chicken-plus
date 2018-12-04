@@ -9,7 +9,7 @@ const BannerWrapper = styled.View`
 const AdBanner = () => (
     <BannerWrapper>
         <AdMobBanner
-            adSize='fullBanner'
+            // adSize='fullBanner'
             adUnitID={'ca-app-pub-3940256099942544/6300978111'} //test ad unit id
             testDevices={[AdMobBanner.simulatorId]}
         />
