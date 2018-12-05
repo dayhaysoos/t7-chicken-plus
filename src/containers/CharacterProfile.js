@@ -13,7 +13,7 @@ import StarWrapper from '../components/StarWrapper';
 
 import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
-import { getCharacterMoveList } from '../selectors/characterSelect';
+import { getCharacterMoveList, getFavoriteMoves } from '../selectors/characterSelect';
 import * as favoriteActions from '../redux/actions/favoriteActions';
 
 import { GradientTheme } from '../common/GradientTheme';
@@ -34,11 +34,16 @@ export const mapDispatcthToProps = {
     ...favoriteActions
 };
 
-export const mapStateToProps = ({ favorites, characterData, theme, settings: { listView } }) => ({
+export const mapStateToProps = ({  favorites, characterData, theme, settings: { listView } }, ownProps) => ({
     moveList: getCharacterMoveList(characterData),
     listView,
     theme,
-    favorites
+    favorites,
+    favoriteMoves: getFavoriteMoves({
+        moves: favorites.moves,
+        label: ownProps.navigation.getParam('label'),
+        moveList: ownProps.navigation.getParam('moveList')
+    })
 });
 
 const HEADER_MAX_HEIGHT = 300;
@@ -91,7 +96,8 @@ class CharacterProfile extends Component {
 
     componentDidMount() {
         const { navigation, listView } = this.props;
-        const moveListArray = navigation.getParam('moveList');
+        //const moveListArray = navigation.getParam('moveList');
+        const moveListArray = this.props.favoriteMoves;
         const charName = navigation.getParam('name');
         const isFavorite = navigation.getParam('favorite');
 
@@ -170,6 +176,7 @@ class CharacterProfile extends Component {
 
 
     render() {
+        console.log(' - - - - RENDER -- - - - - ');
         const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme } = this.props;
         const { isOpen, side, scrollY } = this.state;
 
@@ -190,7 +197,6 @@ class CharacterProfile extends Component {
             outputRange: [0, 100],
             extrapolate: 'clamp',
         });
-
         return (
             <ThemeProvider theme={theme}>
                 <DrawerSwitcher
@@ -262,11 +268,13 @@ class CharacterProfile extends Component {
                                         scrollEnabled={false}
                                         style={{ flex: 1 }}
                                         contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', zIndex: 999 }}
-                                        data={data}
+                                        // data={data}
+                                        data={this.props.favoriteMoves}
                                         numColumns={1}
                                         keyExtractor={(item, index) => index.toString()}
                                         renderItem={({ item, index }) => (listView ?
-                                            <ListViewCard index={index} item={item} name={name} theme={theme} navigation={navigation} />
+                                            <ListViewCard index={index} item={item} name={name} theme={theme} navigation={navigation}
+                                                onStarPress={() => this.props.toggleMoveStar(item.id)}/>
                                             :
                                             <SpreadSheetRow index={index} item={item} name={name} theme={theme} navigation={navigation} />
                                         )}
