@@ -32,8 +32,13 @@ const PropertyText = styled.Text`
   font-size: 18;
   border-bottom-width: 1;
   border-bottom-color: gray;
+  margin-bottom: 10;
+  height: 35;
 `;
 
+const LastPropertyText = styled(PropertyText)`
+  border-bottom-width: 0;
+`;
 
 
 const PropertyTextWrapper = styled.View`
@@ -78,9 +83,7 @@ const ModalView = styled.TouchableHighlight`
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 2);
-  opacity: 0.6;
-
+  background-color: black;
 `;
 
 const mapStateToProps = ({ theme, characterData: { moveData, selectedCharacterMoves, currentIndex } }) => ({
@@ -178,10 +181,14 @@ class CharacterMove extends Component {
                                     animationType="fade"
                                     transparent={true}
                                     visible={modalVisible}
+                                    onRequestClose={() => 'closed'}
                                 >
                                     <ModalView onPress={() => this.toggleModal(false)}>
                                         <GifContainer>
-                                            <GifImage source={{ uri: this.gifParser(preview_url) }} />
+                                            <GifImage
+                                                loadingIndicatorSource={require('../../assets/images/loading-animations.gif')}
+                                                source={{ uri: this.gifParser(preview_url) }}
+                                            />
                                         </GifContainer>
 
                                     </ModalView>
@@ -205,9 +212,9 @@ class CharacterMove extends Component {
                             <PropertyText>
                                 Damage: {damage}
                             </PropertyText>
-                            <PropertyText>
+                            <LastPropertyText>
                                 Hit Level: {hit_level ? hit_level : '-'}
-                            </PropertyText>
+                            </LastPropertyText>
                         </PropertyTextWrapper>
                         <HeaderTitle>
                             Frame Properties
@@ -219,9 +226,9 @@ class CharacterMove extends Component {
                             <PropertyText>
                                 On Hit: {on_hit}
                             </PropertyText>
-                            <PropertyText>
+                            <LastPropertyText>
                                 On Block: {on_block}
-                            </PropertyText>
+                            </LastPropertyText>
                         </PropertyTextWrapper>
                     </ScrollView>
                     <BottomMenuBar
