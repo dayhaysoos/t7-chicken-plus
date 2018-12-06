@@ -13,6 +13,8 @@ import * as characterActions from '../redux/actions/characterActions';
 import Button from '../common/Button';
 import AdBanner from '../components/AdBanner';
 
+import { checkMoveProperty } from '../utils/CharacterMove';
+
 
 const HeaderTitle = styled.Text`
   background-color: ${(props) => props.theme.primaryGradient2}
@@ -112,6 +114,21 @@ class CharacterMove extends Component {
         modalVisible: false,
     }
 
+    componentDidUpdate = (prev) => {
+        const { navigation, moveData } = this.props;
+        const { notation, move_name } = moveData;
+
+        const name = navigation.getParam('name');
+
+        if (prev.moveData !== moveData) {
+            firebase.analytics().logEvent('Screen_Character_Move_PrevOrNextBtn', {
+                move_name,
+                notation: `${name} ${notation}`,
+                character: name
+            });
+        }
+    }
+
     componentDidMount = () => {
         const { navigation } = this.props;
 
@@ -121,13 +138,13 @@ class CharacterMove extends Component {
 
         firebase.analytics().logEvent('Screen_Character_Move', {
             moveName,
-            notation,
-            character: name
+            notation: `${name} ${notation}`,
+            // character: name
         });
     }
 
     nextAttack = () => {
-        const { incrementMoveIndex } = this.props;
+        const { incrementMoveIndex, notation, moveName } = this.props;
         incrementMoveIndex();
     }
 
@@ -138,16 +155,14 @@ class CharacterMove extends Component {
 
     toggleModal = (isVisible) => {
         const { modalVisible } = this.state;
+
+
+
         this.setState({
             modalVisible: isVisible
         });
     }
 
-    gifParser = (previewUrl) => {
-        const giantAdded = previewUrl.replace(/gfycat/, 'giant.gfycat');
-        const typeAdded = giantAdded.replace(/$/, '.gif');
-        return typeAdded;
-    }
 
     render() {
 
@@ -163,7 +178,13 @@ class CharacterMove extends Component {
             preview_url,
             notation,
             hit_level,
-            damage } = moveData;
+            damage,
+            crush,
+            jail,
+            range,
+            tracking,
+
+        } = moveData;
 
         const { modalVisible } = this.state;
 
@@ -187,7 +208,7 @@ class CharacterMove extends Component {
                                         <GifContainer>
                                             <GifImage
                                                 loadingIndicatorSource={require('../../assets/images/loading-animations.gif')}
-                                                source={{ uri: this.gifParser(preview_url) }}
+                                                source={{ uri: preview_url }}
                                             />
                                         </GifContainer>
 
@@ -205,20 +226,24 @@ class CharacterMove extends Component {
                         {/* <HeaderTitle>
                             Special Properties
                         </HeaderTitle> */}
+
                         <HeaderTitle>
                             General Properties
                         </HeaderTitle>
+
                         <PropertyTextWrapper>
                             <PropertyText>
                                 Damage: {damage}
                             </PropertyText>
                             <LastPropertyText>
-                                Hit Level: {hit_level ? hit_level : '-'}
+                                Hit Level: {checkMoveProperty(hit_level, '-')}
                             </LastPropertyText>
                         </PropertyTextWrapper>
+
                         <HeaderTitle>
                             Frame Properties
                         </HeaderTitle>
+
                         <PropertyTextWrapper>
                             <PropertyText>
                                 Speed: {speed}
@@ -228,6 +253,22 @@ class CharacterMove extends Component {
                             </PropertyText>
                             <LastPropertyText>
                                 On Block: {on_block}
+                            </LastPropertyText>
+                        </PropertyTextWrapper>
+
+                        <HeaderTitle>Extra Properties (by Sneaky Coyote)</HeaderTitle>
+                        <PropertyTextWrapper>
+                            <PropertyText>
+                                Range: {range}
+                            </PropertyText>
+                            <PropertyText>
+                                Crush: {checkMoveProperty(crush, 'N/A')}
+                            </PropertyText>
+                            <PropertyText>
+                                Jail: {checkMoveProperty(jail, '-')}
+                            </PropertyText>
+                            <LastPropertyText>
+                                Tracking: {checkMoveProperty(tracking, 'N/A')}
                             </LastPropertyText>
                         </PropertyTextWrapper>
                     </ScrollView>
