@@ -13,7 +13,7 @@ import StarWrapper from '../components/StarWrapper';
 
 import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
-import { getCharacterMoveList } from '../selectors/characterSelect';
+import { getCharacterMoveList, getFavoriteMoves } from '../selectors/characterSelect';
 import * as favoriteActions from '../redux/actions/favoriteActions';
 
 import { GradientTheme } from '../common/GradientTheme';
@@ -28,17 +28,24 @@ import FilterMenu from '../components/FilterMenu';
 import firebase from 'react-native-firebase';
 import AdBanner from '../components/AdBanner';
 
+import filterMoves from '../utils/filterFuncs';
+
 export const mapDispatcthToProps = {
     ...characterActions,
     ...settingsActions,
     ...favoriteActions
 };
 
-export const mapStateToProps = ({ favorites, characterData, theme, settings: { listView } }) => ({
+export const mapStateToProps = ({  favorites, characterData, theme, settings: { listView } }, ownProps) => ({
     moveList: getCharacterMoveList(characterData),
     listView,
     theme,
-    favorites
+    favorites,
+    favoriteMoves: getFavoriteMoves({
+        moves: favorites.moves,
+        label: ownProps.navigation.getParam('label'),
+        moveList: ownProps.navigation.getParam('moveList')
+    })
 });
 
 const HEADER_MAX_HEIGHT = 300;
@@ -80,18 +87,40 @@ class CharacterProfile extends Component {
     dataIsScrolling = false;
 
     state = {
-        activeFilters: [],
-        moveListArray: [],
+        // activeFilters: [],
         isRightDrawerOpen: false,
+        moveListArray: [],
         side: 'right',
         unFilteredMoveList: [],
         scrollY: new Animated.Value(0),
-        searchTerm: ''
+        searchTerm: '',
+        filters: {
+            hitLevel: {
+                high: false,
+                mid: false,
+                low: false
+            }
+        }
+    }
+
+    toggleHitLevelChange = (level) => {
+        this.setState((prevState) => {
+            const newState =  {
+                ...prevState,
+                filters: {
+                    ...prevState.filters
+                }
+            };
+
+            newState.filters.hitLevel[level] = !prevState.filters.hitLevel[level];
+            return newState;
+        });
     }
 
     componentDidMount() {
         const { navigation, listView } = this.props;
-        const moveListArray = navigation.getParam('moveList');
+        //const moveListArray = navigation.getParam('moveList');
+        const moveListArray = this.props.favoriteMoves;
         const charName = navigation.getParam('name');
         const isFavorite = navigation.getParam('favorite');
 
@@ -134,6 +163,13 @@ class CharacterProfile extends Component {
         });
     }
 
+    sortByFav(a, b) {
+        if (a.favorite && !b.favorite) return -1;
+        else if(!a.favorite && b.favorite) return 1;
+
+        return 0;
+    }
+
     async resetSearch() {
         this.setState({ moveListArray: this.state.unFilteredMoveList },
             () => this.state.activeFilters.forEach(filter => this.filterMoveList(filter))
@@ -160,20 +196,17 @@ class CharacterProfile extends Component {
         this.setState({
             isOpen: false
         });
-
-        if (this.state.activeFilters.length) {
-            this.state.activeFilters.forEach(filter => this.filterMoveList(filter));
-        } else {
-            this.setState({ moveListArray: this.state.unFilteredMoveList });
-        }
     }
 
 
     render() {
-        const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme } = this.props;
-        const { isOpen, side, scrollY } = this.state;
+        const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
+        const { isOpen, side, scrollY, searchTerm } = this.state;
 
-        const data = this.searchMoveList(this.state.searchTerm, this.state.moveListArray);
+        //TODO: make changes to filter moves to get the filters working.
+        const filteredData = filterMoves(favoriteMoves, this.state.filters);
+        const searchedData = this.searchMoveList(searchTerm, filteredData);
+        const data = searchedData.sort(this.sortByFav);
 
         const headerTranslate = scrollY.interpolate({
             inputRange: [0, HEADER_SCROLL_DISTANCE],
@@ -190,16 +223,13 @@ class CharacterProfile extends Component {
             outputRange: [0, 100],
             extrapolate: 'clamp',
         });
-
         return (
             <ThemeProvider theme={theme}>
                 <DrawerSwitcher
                     component={
                         <FilterMenu
-                            activeFilters={this.state.activeFilters}
-                            moveListArray={this.state.moveListArray}
-                            setCharacterProfileState={this.setCharacterProfileState}
-                            unFilteredMoveList={this.state.unFilteredMoveList}
+                            toggleHitLevelChange={this.toggleHitLevelChange}
+                            activeFilters={this.state.filters}
                         />
                     }
                     side={side}
@@ -266,7 +296,8 @@ class CharacterProfile extends Component {
                                         numColumns={1}
                                         keyExtractor={(item, index) => index.toString()}
                                         renderItem={({ item, index }) => (listView ?
-                                            <ListViewCard index={index} item={item} name={name} theme={theme} navigation={navigation} />
+                                            <ListViewCard index={index} item={item} name={name} theme={theme} navigation={navigation}
+                                                onStarPress={() => this.props.toggleMoveStar(item.id)}/>
                                             :
                                             <SpreadSheetRow index={index} item={item} name={name} theme={theme} navigation={navigation} />
                                         )}

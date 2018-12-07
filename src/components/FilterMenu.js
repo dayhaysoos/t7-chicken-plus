@@ -7,180 +7,79 @@ import FilterOption from './FilterOption';
 import FrameEntryComponent from './FrameEntryComponent';
 
 
+
 class FilterMenu extends Component {
-    state = {
-        filtersToDisplay: [],
-    }
+  styles =  {
+      innerAccordion: {
+          backgroundColor: '#19181C'
+      },
+      filterTouchable: {
+          borderColor: '#4E4E52',
+          borderBottomWidth: 1,
+          padding: 10,
+      }
+  }
 
-    styles = {
-        innerAccordion: {
-            backgroundColor: '#19181C'
-        },
-        filterTouchable: {
-            borderColor: '#4E4E52',
-            borderBottomWidth: 1,
-            padding: 10,
-        }
-    }
+  composeFiltersToDisplay() {
+      return [
+          this.hitLevel(),
+      ];
+  }
 
-    componentDidMount() {
-        this.setState({ filtersToDisplay: this.composeFiltersToDisplay() });
-    }
+  hitLevel = () => ({
+      name: 'Hit Level',
+      component: (
+          <View style={this.styles.innerAccordion}>
+              <FilterOption
+                  text='High'
+                  active={this.props.activeFilters.hitLevel.high}
+                  onPress={() => this.props.toggleHitLevelChange('high')}
+              />
+              <FilterOption
+                  text='Mid'
+                  active={this.props.activeFilters.hitLevel.mid}
+                  onPress={() => this.props.toggleHitLevelChange('mid')}
+              />
+              <FilterOption
+                  text='Low'
+                  active={this.props.activeFilters.hitLevel.low}
+                  onPress={() => this.props.toggleHitLevelChange('low')}
+              />
+          </View>
+      )
+  })
 
-    resetFilters = () => {
-        this.props.setCharacterProfileState({
-            activeFilters: [],
-            moveListArray: this.props.unFilteredMoveList
-        });
-    }
+  onBlock() {
+      return {
+          name: 'On Block',
+          component: this.frameEntryComponent({ property: 'on_block'})
+      };
+  }
 
-    addToActiveFilters = (filter) => {
-        this.props.setCharacterProfileState({ activeFilters: this.props.activeFilters.concat(filter) });
-    }
+  onCounterHit() {
+      return {
+          name: 'On Counter Hit',
+          component: this.frameEntryComponent({ property: 'on_ch'})
+      };
+  }
 
-    removeFromActiveFilters = (inputFilter) => {
-        const indexToRemove = this.props.activeFilters.findIndex(
-            filter => filter.toString() === inputFilter.toString()
-        );
-        const newActiveFilters = this.props.activeFilters;
+  onHit() {
+      return {
+          name: 'On Hit',
+          component: this.frameEntryComponent({ property: 'on_hit'})
+      };
+  }
 
-        newActiveFilters.splice(indexToRemove, 1);
+  speed() {
+      return {
+          name: 'Speed',
+          component: this.frameEntryComponent({ property: 'speed'})
+      };
+  }
 
-        this.props.setCharacterProfileState({ activeFilters: newActiveFilters });
-    }
-
-    // Add filters that you want to display in the menu here
-    composeFiltersToDisplay() {
-        return [
-            this.crushProperties(),
-            this.hitLevel(),
-            this.onBlock(),
-            this.onCounterHit(),
-            this.onHit(),
-            this.specialProperties(),
-            this.speed(),
-        ];
-    }
-
-    // Creates a filter option
-    filterOption({ text, filter }) {
-        return (
-            <FilterOption
-                text={text}
-                filter={filter}
-                addToActiveFilters={this.addToActiveFilters}
-                removeFromActiveFilters={this.removeFromActiveFilters}
-                noActiveFilters={!!this.props.activeFilters.length}
-            />
-        );
-    }
-
-    // Creates a frame entry component
-    frameEntryComponent({ property }) {
-        return (
-            <View style={this.styles.innerAccordion}>
-                <FrameEntryComponent
-                    property={property}
-                    addToActiveFilters={this.addToActiveFilters}
-                    removeFromActiveFilters={this.removeFromActiveFilters}
-                    noActiveFilters={!!this.props.activeFilters.length}
-                />
-            </View>
-        );
-    }
-
-    // Filter definitions
-
-    crushProperties() {
-        // I can't find any crush properties in the properies array
-        // The filters for this need to be done
-        return {
-            name: 'Crush Properties',
-            component: (
-                <View style={this.styles.innerAccordion}>
-                    {this.filterOption({
-                        text: 'Low Crush',
-                        filter: (move) => move // filter goes here
-                    })}
-                    {this.filterOption({
-                        text: 'High Crush',
-                        filter: (move) => move // filter goes here
-                    })}
-                </View>
-            )
-        };
-    }
-
-    hitLevel() {
-        return {
-            name: 'Hit Level',
-            component: (
-                <View style={this.styles.innerAccordion}>
-                    {this.filterOption({
-                        text: 'High',
-                        filter: (move) => move.hit_level.includes('h')
-                    })}
-                    {this.filterOption({
-                        text: 'Mid',
-                        filter: (move) => move.hit_level.includes('m')
-                    })}
-                    {this.filterOption({
-                        text: 'Low',
-                        filter: (move) => move.hit_level.includes('l')
-                    })}
-                </View>
-            )
-        };
-    }
-
-    onBlock() {
-        return {
-            name: 'On Block',
-            component: this.frameEntryComponent({ property: 'on_block'})
-        };
-    }
-    
-    onCounterHit() {
-        return {
-            name: 'On Counter Hit',
-            component: this.frameEntryComponent({ property: 'on_ch'})
-        };
-    }
-
-    onHit() {
-        return {
-            name: 'On Hit',
-            component: this.frameEntryComponent({ property: 'on_hit'})
-        };
-    }
-    
-    
-    specialProperties() {
-        // I can't find any crush properties in the properies array
-        // The filters for this need to be done
-        return {
-            name: 'Special Properties',
-            component: (
-                <View style={this.styles.innerAccordion}>
-                    {this.filterOption({
-                        text: 'Special Properties',
-                        filter: (move) => move // filter goes here
-                    })}
-                </View>
-            )
-        };
-    }
-    
-    speed() {
-        return {
-            name: 'Speed',
-            component: this.frameEntryComponent({ property: 'speed'})
-        };
-    }
-
-    renderHeader(filterName) {
-        return <View><Text style={{ color: 'white', fontSize: 20, padding: 10 }}>{filterName}</Text></View>;
-    }
+  renderHeader(filterName) {
+      return <View><Text style={{ color: 'white', fontSize: 20, padding: 10 }}>{filterName}</Text></View>;
+  }
 
     renderItem = ({ item }) => (
         <Accordion
@@ -227,7 +126,7 @@ class FilterMenu extends Component {
                 </View>
                 <FlatList
                     contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                    data={this.state.filtersToDisplay}
+                    data={this.composeFiltersToDisplay()}
                     numColumns={1}
                     keyExtractor={(item, index) => index.toString()}
                     renderItem={this.renderItem}
@@ -236,12 +135,5 @@ class FilterMenu extends Component {
         );
     }
 }
-
-FilterMenu.propTypes = {
-    activeFilters: PropTypes.arrayOf(PropTypes.func),
-    moveListArray: PropTypes.arrayOf(PropTypes.object),
-    setCharacterProfileState: PropTypes.func.isRequired,
-    unFilteredMoveList: PropTypes.arrayOf(PropTypes.object)
-};
 
 export default FilterMenu;

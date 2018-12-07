@@ -38,24 +38,12 @@ export default class FilterOption extends Component {
     render() {
         return (
             <TouchableHighlight
-                onPress={() => {
-                    const { filter } = this.props;
-                    // If clicking the filter will make it active
-                    if (!this.state.active) {
-                        firebase.analytics().logEvent('Add_Filter', { filter: filter });
-                        this.props.addToActiveFilters(filter);
-                    } else {
-                        firebase.analytics().logEvent('Remove_Filter', { filter: filter });
-                        this.props.removeFromActiveFilters(filter);
-                    }
-
-                    this.setState({ active: !this.state.active });
-                }}
+                onPress={this.props.onPress}
                 style={this.styles.filterTouchable}
             >
                 <View style={this.styles.innerContainer}>
                     <Text style={this.styles.text}>{this.props.text}</Text>
-                    {this.state.active && <Text style={this.styles.check}>✓</Text>}
+                    {this.props.active && <Text style={this.styles.check}>✓</Text>}
                 </View>
             </TouchableHighlight>
         );

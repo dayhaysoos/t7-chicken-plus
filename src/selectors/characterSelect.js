@@ -30,3 +30,23 @@ export const getFavoriteCharacters = createSelector(
 
     }
 );
+
+const getStarredMoveIDsForALabel = createSelector(['moves', 'label'],
+    (moves, label) => moves[label]
+);
+
+export const getFavoriteMoves = createSelector(
+    [getStarredMoveIDsForALabel, 'moveList'],
+    (starredIDs, moveList) => {
+        const ids = Object.keys(starredIDs);
+
+        return moveList.map(move => {
+            const newMove = { ...move, favorite: false };
+
+            if (ids.includes(move.id)) {
+                newMove.favorite = true;
+            }
+            return newMove;
+        });
+    }
+);

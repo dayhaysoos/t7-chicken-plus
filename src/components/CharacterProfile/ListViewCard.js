@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
 import { Dimensions } from 'react-native';
+import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 import * as characterActions from '../../redux/actions/characterActions';
 
@@ -45,6 +46,14 @@ export const mapDispatchToProps = {
     ...characterActions
 };
 
+const StarButton = styled.TouchableOpacity``;
+const StarIcon = styled(FontAwesome)`
+    color: red;
+    font-size: 30;
+    margin-right: 15;
+    margin-top: 10;
+`;
+
 class ListViewCard extends Component {
 
     static propTypes = {
@@ -82,6 +91,9 @@ class ListViewCard extends Component {
                             On Hit: {on_hit}
                         </MoveDetailText>
                     </MoveDetailContainer>
+                    <StarButton onPress={this.props.onStarPress}>
+                        <StarIcon>{item.favorite ? Icons.star : Icons.starO}</StarIcon>
+                    </StarButton>
                 </CardContainer>
             </ThemeProvider>
         );
