@@ -20,41 +20,22 @@ const HeaderTitle = styled.Text`
   background-color: ${(props) => props.theme.primaryGradient2}
   color: white;
   padding-top: 20;
-  padding-bottom: 10;
-  padding-left: 10;
+  padding-bottom: 20;
   font-size: 18;
-`;
-
-const PropertyContainer = styled.View`
+  padding-left: 20
 `;
 
 const PropertyText = styled.Text`
   color: white;
-  padding-left: 10;
   font-size: 18;
   border-bottom-width: 1;
   border-bottom-color: gray;
-  margin-bottom: 10;
   height: 35;
-`;
-
-const LastPropertyText = styled(PropertyText)`
-  border-bottom-width: 0;
-`;
-
-
-const PropertyTextWrapper = styled.View`
-  border-bottom-width: 1;
-  border-bottom-color: white;
-  padding-top: 10;
-  padding-bottom: 10;
-  padding-left: 10;
-  margin-bottom: 10;
+  padding-left: 20;
 `;
 
 const NotationWrapper = styled.View`
-  border-bottom-width: 0;
-  margin-bottom: 20;
+
 `;
 
 const GifButtonContainer = styled.View`
@@ -218,11 +199,12 @@ class CharacterMove extends Component {
                                 null
                         }
                         <NotationWrapper>
-                            <PropertyText>{move_name ? move_name : '-'}</PropertyText>
+                            <PropertyText>{move_name === '-' ? '' : move_name}</PropertyText>
                             <PropertyText>
                                 {notation}
                             </PropertyText>
                         </NotationWrapper>
+
                         {/* <HeaderTitle>
                             Special Properties
                         </HeaderTitle> */}
@@ -231,46 +213,43 @@ class CharacterMove extends Component {
                             General Properties
                         </HeaderTitle>
 
-                        <PropertyTextWrapper>
-                            <PropertyText>
-                                Damage: {damage}
-                            </PropertyText>
-                            <LastPropertyText>
-                                Hit Level: {checkMoveProperty(hit_level, '-')}
-                            </LastPropertyText>
-                        </PropertyTextWrapper>
+                        {checkMoveProperty(damage) && (
+                            <PropertyText>Damage: {damage}</PropertyText>
+                        )}
+
+                        {checkMoveProperty(hit_level) && (
+                            <PropertyText>Hit Level: {hit_level}</PropertyText>
+                        )}
+
+                        {checkMoveProperty(damage) && (
+                            <PropertyText>Damage: {damage}</PropertyText>
+                        )}
+                        {checkMoveProperty(range) && (
+                            <PropertyText>Range: {range}</PropertyText>
+                        )}
+                        {checkMoveProperty(crush) && (
+                            <PropertyText>Crush: {crush}</PropertyText>
+                        )}
+                        {checkMoveProperty(jail) && (
+                            <PropertyText>Jail: {jail}</PropertyText>
+                        )}
+                        {checkMoveProperty(tracking) && (
+                            <PropertyText>Tracking: {tracking}</PropertyText>
+                        )}
 
                         <HeaderTitle>
                             Frame Properties
                         </HeaderTitle>
 
-                        <PropertyTextWrapper>
-                            <PropertyText>
-                                Speed: {speed}
-                            </PropertyText>
-                            <PropertyText>
-                                On Hit: {on_hit}
-                            </PropertyText>
-                            <LastPropertyText>
-                                On Block: {on_block}
-                            </LastPropertyText>
-                        </PropertyTextWrapper>
-
-                        <HeaderTitle>Extra Properties (by Sneaky Coyote)</HeaderTitle>
-                        <PropertyTextWrapper>
-                            <PropertyText>
-                                Range: {range}
-                            </PropertyText>
-                            <PropertyText>
-                                Crush: {checkMoveProperty(crush, 'N/A')}
-                            </PropertyText>
-                            <PropertyText>
-                                Jail: {checkMoveProperty(jail, '-')}
-                            </PropertyText>
-                            <LastPropertyText>
-                                Tracking: {checkMoveProperty(tracking, 'N/A')}
-                            </LastPropertyText>
-                        </PropertyTextWrapper>
+                        <PropertyText>
+                            Speed: {speed}
+                        </PropertyText>
+                        <PropertyText>
+                            On Hit: {on_hit}
+                        </PropertyText>
+                        <PropertyText>
+                            On Block: {on_block}
+                        </PropertyText>
                     </ScrollView>
                     <BottomMenuBar
                         navigation={navigation}
@@ -278,7 +257,7 @@ class CharacterMove extends Component {
                         onPressNextAttack={currentIndex >= selectedCharacterMoves.length - 1 ? null : this.nextAttack}
                     />
                 </GradientTheme >
-            </ThemeProvider>
+            </ThemeProvider >
         );
     }
 }

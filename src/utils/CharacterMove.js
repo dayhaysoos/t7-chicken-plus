@@ -4,4 +4,4 @@
  * @param {String} trueResult what to return if true
  * @returns {String} based off bool
  */
-export const checkMoveProperty = (property, trueResult) => property === '-' ? trueResult : property;
+export const checkMoveProperty = (property) => property === '-' || !property ? null : property;
