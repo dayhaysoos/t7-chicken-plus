@@ -13,41 +13,29 @@ import * as characterActions from '../redux/actions/characterActions';
 import Button from '../common/Button';
 import AdBanner from '../components/AdBanner';
 
+import { checkMoveProperty } from '../utils/CharacterMove';
+
 
 const HeaderTitle = styled.Text`
   background-color: ${(props) => props.theme.primaryGradient2}
   color: white;
   padding-top: 20;
-  padding-bottom: 10;
-  padding-left: 10;
+  padding-bottom: 20;
   font-size: 18;
-`;
-
-const PropertyContainer = styled.View`
+  padding-left: 20
 `;
 
 const PropertyText = styled.Text`
   color: white;
-  padding-left: 10;
   font-size: 18;
   border-bottom-width: 1;
   border-bottom-color: gray;
-`;
-
-
-
-const PropertyTextWrapper = styled.View`
-  border-bottom-width: 1;
-  border-bottom-color: white;
-  padding-top: 10;
-  padding-bottom: 10;
-  padding-left: 10;
-  margin-bottom: 10;
+  height: 35;
+  padding-left: 20;
 `;
 
 const NotationWrapper = styled.View`
-  border-bottom-width: 0;
-  margin-bottom: 20;
+
 `;
 
 const GifButtonContainer = styled.View`
@@ -78,9 +66,7 @@ const ModalView = styled.TouchableHighlight`
   flex: 1;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 2);
-  opacity: 0.6;
-
+  background-color: black;
 `;
 
 const mapStateToProps = ({ theme, characterData: { moveData, selectedCharacterMoves, currentIndex } }) => ({
@@ -109,6 +95,21 @@ class CharacterMove extends Component {
         modalVisible: false,
     }
 
+    componentDidUpdate = (prev) => {
+        const { navigation, moveData } = this.props;
+        const { notation, move_name } = moveData;
+
+        const name = navigation.getParam('name');
+
+        if (prev.moveData !== moveData) {
+            firebase.analytics().logEvent('Screen_Character_Move_PrevOrNextBtn', {
+                move_name,
+                notation: `${name} ${notation}`,
+                character: name
+            });
+        }
+    }
+
     componentDidMount = () => {
         const { navigation } = this.props;
 
@@ -118,13 +119,13 @@ class CharacterMove extends Component {
 
         firebase.analytics().logEvent('Screen_Character_Move', {
             moveName,
-            notation,
-            character: name
+            notation: `${name} ${notation}`,
+            // character: name
         });
     }
 
     nextAttack = () => {
-        const { incrementMoveIndex } = this.props;
+        const { incrementMoveIndex, notation, moveName } = this.props;
         incrementMoveIndex();
     }
 
@@ -135,16 +136,14 @@ class CharacterMove extends Component {
 
     toggleModal = (isVisible) => {
         const { modalVisible } = this.state;
+
+
+
         this.setState({
             modalVisible: isVisible
         });
     }
 
-    gifParser = (previewUrl) => {
-        const giantAdded = previewUrl.replace(/gfycat/, 'giant.gfycat');
-        const typeAdded = giantAdded.replace(/$/, '.gif');
-        return typeAdded;
-    }
 
     render() {
 
@@ -160,7 +159,13 @@ class CharacterMove extends Component {
             preview_url,
             notation,
             hit_level,
-            damage } = moveData;
+            damage,
+            crush,
+            jail,
+            range,
+            tracking,
+
+        } = moveData;
 
         const { modalVisible } = this.state;
 
@@ -178,10 +183,14 @@ class CharacterMove extends Component {
                                     animationType="fade"
                                     transparent={true}
                                     visible={modalVisible}
+                                    onRequestClose={() => 'closed'}
                                 >
                                     <ModalView onPress={() => this.toggleModal(false)}>
                                         <GifContainer>
-                                            <GifImage source={{ uri: this.gifParser(preview_url) }} />
+                                            <GifImage
+                                                loadingIndicatorSource={require('../../assets/images/loading-animations.gif')}
+                                                source={{ uri: preview_url }}
+                                            />
                                         </GifContainer>
 
                                     </ModalView>
@@ -190,39 +199,57 @@ class CharacterMove extends Component {
                                 null
                         }
                         <NotationWrapper>
-                            <PropertyText>{move_name ? move_name : '-'}</PropertyText>
+                            <PropertyText>{move_name === '-' ? '' : move_name}</PropertyText>
                             <PropertyText>
                                 {notation}
                             </PropertyText>
                         </NotationWrapper>
+
                         {/* <HeaderTitle>
                             Special Properties
                         </HeaderTitle> */}
+
                         <HeaderTitle>
                             General Properties
                         </HeaderTitle>
-                        <PropertyTextWrapper>
-                            <PropertyText>
-                                Damage: {damage}
-                            </PropertyText>
-                            <PropertyText>
-                                Hit Level: {hit_level ? hit_level : '-'}
-                            </PropertyText>
-                        </PropertyTextWrapper>
+
+                        {checkMoveProperty(damage) && (
+                            <PropertyText>Damage: {damage}</PropertyText>
+                        )}
+
+                        {checkMoveProperty(hit_level) && (
+                            <PropertyText>Hit Level: {hit_level}</PropertyText>
+                        )}
+
+                        {checkMoveProperty(damage) && (
+                            <PropertyText>Damage: {damage}</PropertyText>
+                        )}
+                        {checkMoveProperty(range) && (
+                            <PropertyText>Range: {range}</PropertyText>
+                        )}
+                        {checkMoveProperty(crush) && (
+                            <PropertyText>Crush: {crush}</PropertyText>
+                        )}
+                        {checkMoveProperty(jail) && (
+                            <PropertyText>Jail: {jail}</PropertyText>
+                        )}
+                        {checkMoveProperty(tracking) && (
+                            <PropertyText>Tracking: {tracking}</PropertyText>
+                        )}
+
                         <HeaderTitle>
                             Frame Properties
                         </HeaderTitle>
-                        <PropertyTextWrapper>
-                            <PropertyText>
-                                Speed: {speed}
-                            </PropertyText>
-                            <PropertyText>
-                                On Hit: {on_hit}
-                            </PropertyText>
-                            <PropertyText>
-                                On Block: {on_block}
-                            </PropertyText>
-                        </PropertyTextWrapper>
+
+                        <PropertyText>
+                            Speed: {speed}
+                        </PropertyText>
+                        <PropertyText>
+                            On Hit: {on_hit}
+                        </PropertyText>
+                        <PropertyText>
+                            On Block: {on_block}
+                        </PropertyText>
                     </ScrollView>
                     <BottomMenuBar
                         navigation={navigation}
@@ -230,7 +257,7 @@ class CharacterMove extends Component {
                         onPressNextAttack={currentIndex >= selectedCharacterMoves.length - 1 ? null : this.nextAttack}
                     />
                 </GradientTheme >
-            </ThemeProvider>
+            </ThemeProvider >
         );
     }
 }
