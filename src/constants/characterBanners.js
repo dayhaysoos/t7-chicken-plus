@@ -1,4 +1,4 @@
-import akuma_banner from '../../assets/images/characterBanners/akuma_banner.jpg';
+import akuma_banner from '../../assets/images/characterBanners/akuma_banner.png';
 import asuka_banner from '../../assets/images/characterBanners/asuka_banner.png';
 import bob_banner from '../../assets/images/characterBanners/bob_banner.png';
 import bryan_banner from '../../assets/images/characterBanners/bryan_banner.png';
