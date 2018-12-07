@@ -28,6 +28,8 @@ import FilterMenu from '../components/FilterMenu';
 import firebase from 'react-native-firebase';
 import AdBanner from '../components/AdBanner';
 
+import filterMoves from '../utils/filterFuncs';
+
 export const mapDispatcthToProps = {
     ...characterActions,
     ...settingsActions,
@@ -85,13 +87,34 @@ class CharacterProfile extends Component {
     dataIsScrolling = false;
 
     state = {
-        activeFilters: [],
-        moveListArray: [],
+        // activeFilters: [],
         isRightDrawerOpen: false,
+        moveListArray: [],
         side: 'right',
         unFilteredMoveList: [],
         scrollY: new Animated.Value(0),
-        searchTerm: ''
+        searchTerm: '',
+        filters: {
+            hitLevel: {
+                high: false,
+                mid: false,
+                low: false
+            }
+        }
+    }
+
+    toggleHitLevelChange = (level) => {
+        this.setState((prevState) => {
+            const newState =  {
+                ...prevState,
+                filters: {
+                    ...prevState.filters
+                }
+            };
+
+            newState.filters.hitLevel[level] = !prevState.filters.hitLevel[level];
+            return newState;
+        });
     }
 
     componentDidMount() {
@@ -166,21 +189,16 @@ class CharacterProfile extends Component {
         this.setState({
             isOpen: false
         });
-
-        if (this.state.activeFilters.length) {
-            this.state.activeFilters.forEach(filter => this.filterMoveList(filter));
-        } else {
-            this.setState({ moveListArray: this.state.unFilteredMoveList });
-        }
     }
 
 
     render() {
-        console.log(' - - - - RENDER -- - - - - ');
-        const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme } = this.props;
-        const { isOpen, side, scrollY } = this.state;
+        const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
+        const { isOpen, side, scrollY, searchTerm } = this.state;
 
-        const data = this.searchMoveList(this.state.searchTerm, this.state.moveListArray);
+        //TODO: make changes to filter moves to get the filters working.
+        const filteredData = filterMoves(favoriteMoves, this.state.filters);
+        const data = this.searchMoveList(searchTerm, filteredData);
 
         const headerTranslate = scrollY.interpolate({
             inputRange: [0, HEADER_SCROLL_DISTANCE],
@@ -202,10 +220,8 @@ class CharacterProfile extends Component {
                 <DrawerSwitcher
                     component={
                         <FilterMenu
-                            activeFilters={this.state.activeFilters}
-                            moveListArray={this.state.moveListArray}
-                            setCharacterProfileState={this.setCharacterProfileState}
-                            unFilteredMoveList={this.state.unFilteredMoveList}
+                            toggleHitLevelChange={this.toggleHitLevelChange}
+                            activeFilters={this.state.filters}
                         />
                     }
                     side={side}
@@ -268,8 +284,7 @@ class CharacterProfile extends Component {
                                         scrollEnabled={false}
                                         style={{ flex: 1 }}
                                         contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', zIndex: 999 }}
-                                        // data={data}
-                                        data={this.props.favoriteMoves}
+                                        data={data}
                                         numColumns={1}
                                         keyExtractor={(item, index) => index.toString()}
                                         renderItem={({ item, index }) => (listView ?
