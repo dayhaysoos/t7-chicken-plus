@@ -10,7 +10,7 @@ const persistConfig = {
     storage,
     whitelist: [
         'settings',
-        //'favorites'
+        'favorites'
     ],
 };
 
