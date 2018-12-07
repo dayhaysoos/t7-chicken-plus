@@ -163,6 +163,13 @@ class CharacterProfile extends Component {
         });
     }
 
+    sortByFav(a, b) {
+        if (a.favorite && !b.favorite) return -1;
+        else if(!a.favorite && b.favorite) return 1;
+
+        return 0;
+    }
+
     async resetSearch() {
         this.setState({ moveListArray: this.state.unFilteredMoveList },
             () => this.state.activeFilters.forEach(filter => this.filterMoveList(filter))
@@ -198,7 +205,8 @@ class CharacterProfile extends Component {
 
         //TODO: make changes to filter moves to get the filters working.
         const filteredData = filterMoves(favoriteMoves, this.state.filters);
-        const data = this.searchMoveList(searchTerm, filteredData);
+        const searchedData = this.searchMoveList(searchTerm, filteredData);
+        const data = searchedData.sort(this.sortByFav);
 
         const headerTranslate = scrollY.interpolate({
             inputRange: [0, HEADER_SCROLL_DISTANCE],
