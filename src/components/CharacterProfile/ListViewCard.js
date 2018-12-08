@@ -63,13 +63,14 @@ class ListViewCard extends Component {
     }
 
     navigateToCharacterMove = (item, name) => {
-        const { updateMoveData, navigation, index } = this.props;
-        updateMoveData(index);
-        navigation.navigate('CharacterMove', { name });
+        const { updateMoveData, navigation, id } = this.props;
+        updateMoveData(id);
+        navigation.navigate('CharacterMove', { name, id });
     }
 
     render() {
-        const { name, theme, item, item: { notation, speed, on_block, on_hit, move_name } } = this.props;
+        const { name, theme, item, item: { move: { notation, speed, on_block, on_hit, move_name } } } = this.props;
+        console.log('ertem', item);
 
         return (
             <ThemeProvider theme={theme}>

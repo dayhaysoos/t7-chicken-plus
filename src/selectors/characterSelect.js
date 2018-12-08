@@ -2,21 +2,32 @@ import createSelector from 'selectorator';
 
 export const getCharacterNames = createSelector(['characterData'], (characterData) => characterData.map(character => ({ key: character.displayName })));
 
-export const getCharacterMoveList = createSelector(['characterData'], (characterData) => characterData.map(character => ({ [character.label]: character.moveList })));
+//const indexMoveById = createSelector(['movelist'], (movelist) => movelist.map(move => ({ [move.id]: { ...move } })));
+
+const indexMoveById = createSelector(['movelist'], (movelist) => movelist.reduce((result, move) => ({ ...result, [move.id]: move }), {}));
+
+export const getCharacterMoveList = createSelector(['characterData'], (characterData) => characterData.map(character => {
+    const movelist = indexMoveById(character);
+    return {
+        displayName: character.displayName,
+        moveList: movelist,
+        label: character.label
+    };
+}));
+
 
 export const getFavoriteCharacters = createSelector(
-    ['characterData.characterData', 'favorites'],
+    ['characterData', 'favorites'],
     (characterData, favorites) => {
 
         const favLabels = Object.keys(favorites.characters);
 
         return characterData.map(character => {
             const newChar = {
-                //[character.name]: character.data,
-                moveList: character.movelist,
-                name: character.displayName,
+                displayName: character.displayName,
                 label: character.label,
                 favorite: false,
+                moveList: character.moveList
             };
 
             const isFavorite = favLabels.includes(character.label);
@@ -40,8 +51,8 @@ export const getFavoriteMoves = createSelector(
     (starredIDs, moveList) => {
         const ids = Object.keys(starredIDs);
 
-        return moveList.map(move => {
-            const newMove = { ...move, favorite: false };
+        return Object.keys(moveList).map((move) => {
+            const newMove = { move: { ...moveList[move] }, favorite: false };
 
             if (ids.includes(move.id)) {
                 newMove.favorite = true;

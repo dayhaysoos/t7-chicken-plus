@@ -16,7 +16,7 @@ import ListViewCard from '../components/CharacterSelect/ListViewCard';
 import Header from '../components/Header';
 import AdBanner from '../components/AdBanner';
 
-import { getFavoriteCharacters } from '../selectors/characterSelect';
+import { getFavoriteCharacters, getCharacterMoveList } from '../selectors/characterSelect';
 import firebase from 'react-native-firebase';
 
 const MainContainer = styled.View`
@@ -50,7 +50,8 @@ export const mapDispatchToProps = {
 
 export const mapStateToProps = ({ characterData, theme, settings: { listView }, favorites }) => ({
     theme,
-    characterData: getFavoriteCharacters({ characterData, favorites }),
+    //characterData: getFavoriteCharacters({ characterData, favorites }),
+    characterData: getFavoriteCharacters({ characterData: getCharacterMoveList(characterData), favorites }),
     listView,
     favorites,
 });
@@ -127,7 +128,7 @@ class CharacterSelect extends Component {
     renderGridView = ({ item }) => (
         <GridViewCard
             label={item.label}
-            displayName={item.name}
+            displayName={item.displayName}
             favorite={item.favorite}
             onStarPress={() => this.props.toggleCharacterStar(item.label)}
             onPress={() => this.navigateToCharacterProfile(item)}
@@ -137,7 +138,7 @@ class CharacterSelect extends Component {
 
     renderListView = ({ item }) => (<ListViewCard
         label={item.label}
-        displayName={item.name}
+        displayName={item.displayName}
         favorite={item.favorite}
         onStarPress={() => this.props.toggleCharacterStar(item.label)}
         onPress={() => this.navigateToCharacterProfile(item)}

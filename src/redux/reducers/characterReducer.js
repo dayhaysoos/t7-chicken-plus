@@ -31,10 +31,10 @@ const getCharacterDataSuccess = (state, { payload: characterData }) => ({
     ...characterData
 });
 
-const updateMoveData = (state, { payload: index }) => ({
+const updateMoveData = (state, { payload: id }) => ({
     ...state,
-    currentIndex: index,
-    moveData: state.selectedCharacterMoves[index]
+    currentAttack: id,
+    moveData: state.selectedCharacterMoves[id]
 });
 
 const updateSelectedCharacterMoves = (state, { payload: selectedCharacterMoves }) => ({

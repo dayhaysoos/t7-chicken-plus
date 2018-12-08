@@ -154,6 +154,7 @@ class CharacterMove extends Component {
             speed,
             on_block,
             on_hit,
+            on_ch,
             move_name,
             id,
             preview_url,
@@ -220,9 +221,6 @@ class CharacterMove extends Component {
                             <PropertyText>Hit Level: {hit_level}</PropertyText>
                         )}
 
-                        {checkMoveProperty(damage) && (
-                            <PropertyText>Damage: {damage}</PropertyText>
-                        )}
                         {checkMoveProperty(range) && (
                             <PropertyText>Range: {range}</PropertyText>
                         )}
@@ -240,15 +238,18 @@ class CharacterMove extends Component {
                             Frame Properties
                         </HeaderTitle>
 
-                        <PropertyText>
-                            Speed: {speed}
-                        </PropertyText>
-                        <PropertyText>
-                            On Hit: {on_hit}
-                        </PropertyText>
-                        <PropertyText>
-                            On Block: {on_block}
-                        </PropertyText>
+                        {checkMoveProperty(speed) && (
+                            <PropertyText>Speed: {speed}</PropertyText>
+                        )}
+                        {checkMoveProperty(on_hit) && (
+                            <PropertyText>On Hit: {on_hit}</PropertyText>
+                        )}
+                        {checkMoveProperty(on_block) && (
+                            <PropertyText>On Block: {on_block}</PropertyText>
+                        )}
+                        {checkMoveProperty(on_ch) && (
+                            <PropertyText>On Counter: {on_ch}</PropertyText>
+                        )}
                     </ScrollView>
                     <BottomMenuBar
                         navigation={navigation}

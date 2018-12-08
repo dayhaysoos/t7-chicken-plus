@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { FlatList, Animated, ScrollView } from 'react-native';
-import styled, { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider, consolidateStreamedStyles } from 'styled-components';
 import { connect } from 'react-redux';
 
 import CharacterBanner from '../components/CharacterProfile/CharacterBanner';
@@ -36,17 +36,21 @@ export const mapDispatcthToProps = {
     ...favoriteActions
 };
 
-export const mapStateToProps = ({ favorites, characterData, theme, settings: { listView } }, ownProps) => ({
-    moveList: getCharacterMoveList(characterData),
-    listView,
-    theme,
-    favorites,
-    favoriteMoves: getFavoriteMoves({
-        moves: favorites.moves,
-        label: ownProps.navigation.getParam('label'),
-        moveList: ownProps.navigation.getParam('moveList')
-    })
-});
+export const mapStateToProps = ({ favorites, theme, settings: { listView } }, ownProps) => {
+
+    console.log('own props', ownProps);
+
+    return {
+        listView,
+        theme,
+        favorites,
+        favoriteMoves: getFavoriteMoves({
+            moves: favorites.moves,
+            label: ownProps.navigation.getParam('label'),
+            moveList: ownProps.navigation.getParam('moveList')
+        })
+    };
+};
 
 const HEADER_MAX_HEIGHT = 300;
 const HEADER_MIN_HEIGHT = 0;
@@ -232,16 +236,18 @@ class CharacterProfile extends Component {
     }
 
     searchMoveList(input, moveList) {
+        const mappedMoveList = Object.keys(moveList).map(move => moveList[move]);
         if (input.includes('+')) {
-            return moveList.filter(
-                ({ notation }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
+            return mappedMoveList.filter(
+                ({ notation  }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
             );
         } else {
-            return moveList.filter(
-                ({ notation }) => notation.replace(/[ ,+]/g, '').includes(input.replace(/[ ,+]/g, ''))
+            return mappedMoveList.filter(
+                ({ move: { notation } }) => notation.replace(/[ ,+]/g, '').includes(input.replace(/[ ,+]/g, ''))
             );
         }
     }
+
 
     filterMoveList(filterFunction) {
         this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
@@ -255,9 +261,8 @@ class CharacterProfile extends Component {
 
 
     render() {
-        const { navigation, navigation: { state: { params: { name, label } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
+        const { navigation, navigation: { state: { params: { label } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
         const { isOpen, side, scrollY, searchTerm } = this.state;
-
 
         const filteredData = filterMoves(favoriteMoves, this.state.filters);
         const searchedData = this.searchMoveList(searchTerm, filteredData);
@@ -355,11 +360,11 @@ class CharacterProfile extends Component {
                                         data={data}
                                         numColumns={1}
                                         keyExtractor={(item, index) => index.toString()}
-                                        renderItem={({ item, index }) => (listView ?
-                                            <ListViewCard index={index} item={item} name={name} theme={theme} navigation={navigation}
+                                        renderItem={({ item }) => (listView ?
+                                            <ListViewCard item={item} name={name} theme={theme} navigation={navigation}
                                                 onStarPress={() => this.props.toggleMoveStar(item.id)} />
                                             :
-                                            <SpreadSheetRow index={index} item={item} name={name} theme={theme} navigation={navigation} />
+                                            <SpreadSheetRow item={item} name={name} theme={theme} navigation={navigation} />
                                         )}
                                         ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
                                         initialNumToRender={5}
