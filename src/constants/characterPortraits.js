@@ -2,6 +2,7 @@ import akuma_portrait from '../../assets/images/characterPortraits/akuma_portrai
 import alisa_portrait from '../../assets/images/characterPortraits/alisa_portrait.png';
 import anna_portrait from '../../assets/images/characterPortraits/anna_portrait.png';
 import asuka_portrait from '../../assets/images/characterPortraits/asuka_portrait.png';
+import armorking_portrait from '../../assets/images/characterPortraits/armorking_portrait.png';
 import bob_portrait from '../../assets/images/characterPortraits/bob_portrait.png';
 import bryan_portrait from '../../assets/images/characterPortraits/bryan_portrait.png';
 import claudio_portrait from '../../assets/images/characterPortraits/claudio_portrait.png';
@@ -28,8 +29,8 @@ import lee_portrait from '../../assets/images/characterPortraits/lee_portrait.pn
 import lei_portrait from '../../assets/images/characterPortraits/lei_portrait.png';
 import leo_portrait from '../../assets/images/characterPortraits/leo_portrait.png';
 import lili_portrait from '../../assets/images/characterPortraits/lili_portrait.png';
-import lucky_portrait from '../../assets/images/characterPortraits/lucky_portrait.png';
-import master_portrait from '../../assets/images/characterPortraits/master_portrait.png';
+import luckychloe_portrait from '../../assets/images/characterPortraits/luckychloe_portrait.png';
+import masterraven_portrait from '../../assets/images/characterPortraits/masterraven_portrait.png';
 import miguel_portrait from '../../assets/images/characterPortraits/miguel_portrait.png';
 import nina_portrait from '../../assets/images/characterPortraits/nina_portrait.png';
 import noctis_portrait from '../../assets/images/characterPortraits/noctis_portrait.png';
@@ -44,6 +45,7 @@ export const characterPortraits = {
     alisa: alisa_portrait,
     anna: anna_portrait,
     asuka: asuka_portrait,
+    armorking: armorking_portrait,
     bob: bob_portrait,
     bryan: bryan_portrait,
     claudio: claudio_portrait,
@@ -70,8 +72,8 @@ export const characterPortraits = {
     lei: lei_portrait,
     leo: leo_portrait,
     lili: lili_portrait,
-    lucky: lucky_portrait,
-    master: master_portrait,
+    luckychloe: luckychloe_portrait,
+    masterraven: masterraven_portrait,
     miguel: miguel_portrait,
     nina: nina_portrait,
     noctis: noctis_portrait,

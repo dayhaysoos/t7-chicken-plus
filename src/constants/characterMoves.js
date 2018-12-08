@@ -1,6 +1,7 @@
 import akuma from '../../assets/character-data/akuma.json';
 import alisa from '../../assets/character-data/alisa.json';
 import anna from '../../assets/character-data/anna.json';
+import armorking from '../../assets/character-data/armorking.json';
 import asuka from '../../assets/character-data/asuka.json';
 import bob from '../../assets/character-data/bob.json';
 import bryan from '../../assets/character-data/bryan.json';
@@ -27,8 +28,8 @@ import lee from '../../assets/character-data/lee.json';
 import lei from '../../assets/character-data/lei.json';
 import leo from '../../assets/character-data/leo.json';
 import lili from '../../assets/character-data/lili.json';
-import lucky from '../../assets/character-data/lucky.json';
-import master from '../../assets/character-data/master.json';
+import luckychloe from '../../assets/character-data/luckychloe.json';
+import masterraven from '../../assets/character-data/masterraven.json';
 import miguel from '../../assets/character-data/miguel.json';
 import nina from '../../assets/character-data/nina.json';
 import paul from '../../assets/character-data/paul.json';
@@ -40,6 +41,7 @@ export const characterMoves = {
     akuma: akuma,
     alisa: alisa,
     anna: anna,
+    armorking: armorking,
     asuka: asuka,
     bob: bob,
     bryan: bryan,
@@ -66,8 +68,8 @@ export const characterMoves = {
     lei: lei,
     leo: leo,
     lili: lili,
-    lucky: lucky,
-    master: master,
+    luckychloe: luckychloe,
+    masterraven: masterraven,
     miguel: miguel,
     nina: nina,
     paul: paul,
