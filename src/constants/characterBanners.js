@@ -48,7 +48,7 @@ export const characterBanners = {
     bob: bob_banner,
     bryan: bryan_banner,
     claudio: claudio_banner,
-    devil: devil_banner,
+    deviljin: devil_banner,
     dragunov: dragunov_banner,
     eddy: eddy_banner,
     eliza: eliza_banner,

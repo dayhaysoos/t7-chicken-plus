@@ -40,13 +40,13 @@ const CharacterBanner = ({ name, headerTranslate = 0, imageOpacity = 1, imageTra
         style={{ transform: [{ translateY: headerTranslate }] }}
     >
         <BannerImage
-            source={characterBanners[name.split(' ')[0].toLowerCase()]}
+            source={characterBanners[name]}
             style={{
                 opacity: imageOpacity,
                 transform: [{ translateY: imageTranslate }]
             }}
         />
-        <PortraitImage source={characterPortraits[name.split(' ')[0].toLowerCase()]} />
+        <PortraitImage source={characterPortraits[name]} />
     </Banner>
 );
 

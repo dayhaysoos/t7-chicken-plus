@@ -4,11 +4,10 @@ import { ACTION_TYPES } from '../actions/favoriteActions';
 export const INITIAL_STATE = {
     characters: {},
     moves: {
-        akuma: {
-            akuma_1: true
-        },
+        akuma: {},
         alisa: {},
         anna: {},
+        armorking: {},
         asuka: {},
         bob: {},
         bryan: {},
@@ -35,8 +34,8 @@ export const INITIAL_STATE = {
         lei: {},
         leo: {},
         lili: {},
-        lucky: {},
-        master: {},
+        luckychloe: {},
+        masterraven: {},
         miguel: {},
         nina: {},
         noctis: {},
@@ -50,7 +49,7 @@ export const INITIAL_STATE = {
 
 const toggleCharacterStar = (state, { payload: label }) => {
 
-    const newState = {...state};
+    const newState = { ...state };
 
     if (newState.characters[label]) delete newState.characters[label];
     else newState.characters[label] = true;
@@ -58,13 +57,13 @@ const toggleCharacterStar = (state, { payload: label }) => {
     return newState;
 };
 
-const toggleMoveStar = (state, {payload: moveID}) => {
+const toggleMoveStar = (state, { payload: moveID }) => {
     const label = moveID.split('_')[0];
-    const newState = {...state, moves: {...state.moves}};
+    const newState = { ...state, moves: { ...state.moves } };
 
-    newState.moves[label] = {...state.moves[label]};
+    newState.moves[label] = { ...state.moves[label] };
 
-    if(newState.moves[label][moveID]) delete newState.moves[label][moveID];
+    if (newState.moves[label][moveID]) delete newState.moves[label][moveID];
     else newState.moves[label][moveID] = true;
 
 

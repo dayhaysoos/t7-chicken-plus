@@ -49,7 +49,6 @@ export const mapDispatchToProps = {
 };
 
 export const mapStateToProps = ({ characterData, theme, settings: { listView }, favorites }) => ({
-    // ...characterData,
     theme,
     characterData: getFavoriteCharacters({ characterData, favorites }),
     listView,
@@ -136,24 +135,15 @@ class CharacterSelect extends Component {
     )
 
 
-    renderListView = ({ item }) => (
-        <ListViewCard
-            label={item.label}
-            displayName={item.name}
-            favorite={item.favorite}
-            onStarPress={() => this.props.toggleCharacterStar(item.label)}
-            onPress={() => this.navigateToCharacterProfile(item)}
-        />)
+    renderListView = ({ item }) => (<ListViewCard
+        label={item.label}
+        displayName={item.name}
+        favorite={item.favorite}
+        onStarPress={() => this.props.toggleCharacterStar(item.label)}
+        onPress={() => this.navigateToCharacterProfile(item)}
+    />)
 
     toggleShowFavorites = () => this.setState((prevState) => ({ showFavorites: !prevState.showFavorites }));
-
-    // searchCharacters(input) {
-    //     this.setState({
-    //         characterNames: this.props.characterNames.filter(
-    //             character => Object.keys(character)[0].toLowerCase().includes(input.toLowerCase())
-    //         )
-    //     });
-    // }
 
     render() {
         const { theme, navigation, listView, toggleListView, characterData, } = this.props;

@@ -36,7 +36,7 @@ export const mapDispatcthToProps = {
     ...favoriteActions
 };
 
-export const mapStateToProps = ({  favorites, characterData, theme, settings: { listView } }, ownProps) => ({
+export const mapStateToProps = ({ favorites, characterData, theme, settings: { listView } }, ownProps) => ({
     moveList: getCharacterMoveList(characterData),
     listView,
     theme,
@@ -70,7 +70,7 @@ const FILTERS_INITIAL_STATE = {
     },
     onBlock: {
         active: false,
-        value:'',
+        value: '',
         operator: ''
     }
 };
@@ -106,14 +106,14 @@ class CharacterProfile extends Component {
         unFilteredMoveList: [],
         scrollY: new Animated.Value(0),
         searchTerm: '',
-        filters: {...FILTERS_INITIAL_STATE}
+        filters: { ...FILTERS_INITIAL_STATE }
     }
 
-    resetFilters = () => this.setState({filters: {...FILTERS_INITIAL_STATE}})
+    resetFilters = () => this.setState({ filters: { ...FILTERS_INITIAL_STATE } })
 
     toggleHitLevelChange = (level) => {
         this.setState((prevState) => {
-            const newState =  {
+            const newState = {
                 ...prevState,
                 filters: {
                     ...prevState.filters
@@ -126,7 +126,7 @@ class CharacterProfile extends Component {
     }
 
     onBlockChange = (operator, value) => {
-        if(!this.state.filters.onBlock.active) return;
+        if (!this.state.filters.onBlock.active) return;
         this.setState(prevState => {
             const newState = {
                 ...prevState,
@@ -145,7 +145,7 @@ class CharacterProfile extends Component {
     }
 
     turnOnBlockFilter = (operator, value) => {
-        if (!operator || !value ) return;
+        if (!operator || !value) return;
 
         this.setState(prevState => ({
             ...prevState,
@@ -165,7 +165,8 @@ class CharacterProfile extends Component {
                     active: false,
                     value: '',
                     operator: ''
-                }}
+                }
+            }
         }));
     }
 
@@ -219,7 +220,7 @@ class CharacterProfile extends Component {
 
     sortByFav(a, b) {
         if (a.favorite && !b.favorite) return -1;
-        else if(!a.favorite && b.favorite) return 1;
+        else if (!a.favorite && b.favorite) return 1;
 
         return 0;
     }
@@ -254,7 +255,7 @@ class CharacterProfile extends Component {
 
 
     render() {
-        const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
+        const { navigation, navigation: { state: { params: { name, label } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
         const { isOpen, side, scrollY, searchTerm } = this.state;
 
 
@@ -277,6 +278,7 @@ class CharacterProfile extends Component {
             outputRange: [0, 100],
             extrapolate: 'clamp',
         });
+
         return (
             <ThemeProvider theme={theme}>
                 <DrawerSwitcher
@@ -298,7 +300,7 @@ class CharacterProfile extends Component {
                         {/* <AdBanner /> */}
                         <MainContainer>
                             <CharacterBanner
-                                name={name.toLowerCase()}
+                                name={label}
                                 imageOpacity={imageOpacity}
                                 headerTranslate={headerTranslate}
                                 imageTranslate={imageTranslate}
@@ -355,7 +357,7 @@ class CharacterProfile extends Component {
                                         keyExtractor={(item, index) => index.toString()}
                                         renderItem={({ item, index }) => (listView ?
                                             <ListViewCard index={index} item={item} name={name} theme={theme} navigation={navigation}
-                                                onStarPress={() => this.props.toggleMoveStar(item.id)}/>
+                                                onStarPress={() => this.props.toggleMoveStar(item.id)} />
                                             :
                                             <SpreadSheetRow index={index} item={item} name={name} theme={theme} navigation={navigation} />
                                         )}

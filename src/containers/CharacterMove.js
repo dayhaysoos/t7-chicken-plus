@@ -188,7 +188,6 @@ class CharacterMove extends Component {
                                     <ModalView onPress={() => this.toggleModal(false)}>
                                         <GifContainer>
                                             <GifImage
-                                                loadingIndicatorSource={require('../../assets/images/loading-animations.gif')}
                                                 source={{ uri: preview_url }}
                                             />
                                         </GifContainer>
