@@ -32,29 +32,35 @@ export default class FrameEntryComponent extends Component {
   }
 
   componentDidUpdate(prevProps) {
-      if (this.props.noActiveFilters && !prevProps.noActiveFilters) {
-          this.setState({ activeFilter: false });
-      }
+      //   if (this.props.noActiveFilters && !prevProps.noActiveFilters) {
+      //       this.setState({ activeFilter: false });
+      //   }
   }
 
-  applyFilter() {
-      if (this.state.selectedOperator === '<') {
-          this.props.addToActiveFilters((move) => move[this.props.property] < this.state.input);
-      } else if (this.state.selectedOperator === '=') {
-          this.props.addToActiveFilters((move) => move[this.props.property] === this.state.input);
-      } else if (this.state.selectedOperator === '>') {
-          this.props.addToActiveFilters((move) => move[this.props.property] > this.state.input);
-      }
+  applyFilter = () => {
+      this.props.turnOn(this.state.selectedOperator, this.state.input);
+      //   if (this.state.selectedOperator === '<') {
+      //       this.props.addToActiveFilters((move) => move[this.props.property] < this.state.input);
+      //   } else if (this.state.selectedOperator === '=') {
+      //       this.props.addToActiveFilters((move) => move[this.props.property] === this.state.input);
+      //   } else if (this.state.selectedOperator === '>') {
+      //       this.props.addToActiveFilters((move) => move[this.props.property] > this.state.input);
+      //   }
   }
 
-  removeFilter() {
-      if (this.state.selectedOperator === '<') {
-          this.props.removeFromActiveFilters((move) => move[this.props.property] < this.state.input);
-      } else if (this.state.selectedOperator === '=') {
-          this.props.removeFromActiveFilters((move) => move[this.props.property] === this.state.input);
-      } else if (this.state.selectedOperator === '>') {
-          this.props.removeFromActiveFilters((move) => move[this.props.property] > this.state.input);
-      }
+  onChange = () => {
+      this.props.onChange(this.state.selectedOperator, this.state.input);
+  }
+
+  removeFilter = () => {
+      this.props.turnOff();
+      //   if (this.state.selectedOperator === '<') {
+      //       this.props.removeFromActiveFilters((move) => move[this.props.property] < this.state.input);
+      //   } else if (this.state.selectedOperator === '=') {
+      //       this.props.removeFromActiveFilters((move) => move[this.props.property] === this.state.input);
+      //   } else if (this.state.selectedOperator === '>') {
+      //       this.props.removeFromActiveFilters((move) => move[this.props.property] > this.state.input);
+      //   }
   }
 
   render() {
@@ -65,7 +71,9 @@ export default class FrameEntryComponent extends Component {
                       style={[this.styles.operator, {
                           borderWidth: this.state.selectedOperator === '<' ? 1 : 0
                       }]}
-                      onPress={() => this.setState({ selectedOperator: '<' })}
+                      onPress={() => {
+                          this.setState({ selectedOperator: '<' }, this.onChange);
+                      }}
                   >
                       <Text style={this.styles.operatorText}>{'<'}</Text>
                   </TouchableHighlight>
@@ -73,7 +81,7 @@ export default class FrameEntryComponent extends Component {
                       style={[this.styles.operator, {
                           borderWidth: this.state.selectedOperator === '=' ? 1 : 0
                       }]}
-                      onPress={() => this.setState({ selectedOperator: '=' })}
+                      onPress={() => this.setState({ selectedOperator: '=' }, this.onChange)}
                   >
                       <Text style={this.styles.operatorText}>=</Text>
                   </TouchableHighlight>
@@ -81,13 +89,13 @@ export default class FrameEntryComponent extends Component {
                       style={[this.styles.operator, {
                           borderWidth: this.state.selectedOperator === '>' ? 1 : 0
                       }]}
-                      onPress={() => this.setState({ selectedOperator: '>' })}
+                      onPress={() => this.setState({ selectedOperator: '>' }, this.onChange)}
                   >
                       <Text style={this.styles.operatorText}>{'>'}</Text>
                   </TouchableHighlight>
                   <TextInput
                       style={{ backgroundColor: 'white', width: 50, marginVertical: 10, paddingLeft: 5 }}
-                      onChangeText={(text) => this.setState({ input: text })}
+                      onChangeText={(text) => this.setState({ input: text }, this.onChange)}
                   />
               </View>
               <TouchableHighlight
@@ -101,7 +109,8 @@ export default class FrameEntryComponent extends Component {
                       if (this.state.activeFilter) {
                           this.removeFilter();
                           this.setState({ activeFilter: false });
-                      } else if (this.state.input) {
+                      //} else if (this.state.input) {
+                      } else {
                           this.applyFilter();
                           this.setState({ activeFilter: true });
                       }

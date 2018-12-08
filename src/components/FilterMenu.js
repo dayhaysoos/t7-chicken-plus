@@ -23,6 +23,7 @@ class FilterMenu extends Component {
   composeFiltersToDisplay() {
       return [
           this.hitLevel(),
+          this.onBlock()
       ];
   }
 
@@ -49,10 +50,28 @@ class FilterMenu extends Component {
       )
   })
 
+  frameEntryComponent({ property, onChange, turnOn, turnOff }) {
+      return (
+          <View style={this.styles.innerAccordion}>
+              <FrameEntryComponent
+                  //   property={property}
+                  //   addToActiveFilters={this.addToActiveFilters}
+                  //   removeFromActiveFilters={this.removeFromActiveFilters}
+                  //   noActiveFilters={!!this.props.activeFilters.length}
+
+                  onChange={onChange}
+                  turnOn={turnOn}
+                  turnOff={turnOff}
+              />
+          </View>
+      );
+  }
+
   onBlock() {
+      const {onBlockChange, turnOnBlockFilter, turnOffBlockFilter} = this.props;
       return {
           name: 'On Block',
-          component: this.frameEntryComponent({ property: 'on_block'})
+          component: this.frameEntryComponent({ property: 'on_block', onChange: onBlockChange, turnOn: turnOnBlockFilter, turnOff: turnOffBlockFilter})
       };
   }
 
@@ -110,16 +129,13 @@ class FilterMenu extends Component {
                     <TouchableHighlight
                         style={{
                             justifyContent: 'center',
-                            backgroundColor: '#19181C',
+                            backgroundColor: '#474648',
                             borderColor: '#FF412C',
                             borderRadius: 5,
                             borderWidth: 1,
                             height: 25
                         }}
-                        onPress={() => {
-                            this.resetFilters();
-                            this.setState({ filtersToDisplay: this.composeFiltersToDisplay() });
-                        }}
+                        onPress={this.props.resetFilters}
                     >
                         <Text style={{ color: 'white', fontSize: 14, paddingHorizontal: 5 }}>Reset</Text>
                     </TouchableHighlight>

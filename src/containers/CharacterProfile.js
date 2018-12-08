@@ -62,6 +62,19 @@ const EmptyText = styled.Text`
   marginLeft: 10;
 `;
 
+const FILTERS_INITIAL_STATE = {
+    hitLevel: {
+        high: false,
+        mid: false,
+        low: false
+    },
+    onBlock: {
+        active: false,
+        value:'',
+        operator: ''
+    }
+};
+
 class CharacterProfile extends Component {
 
     static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
@@ -87,21 +100,16 @@ class CharacterProfile extends Component {
     dataIsScrolling = false;
 
     state = {
-        // activeFilters: [],
         isRightDrawerOpen: false,
         moveListArray: [],
         side: 'right',
         unFilteredMoveList: [],
         scrollY: new Animated.Value(0),
         searchTerm: '',
-        filters: {
-            hitLevel: {
-                high: false,
-                mid: false,
-                low: false
-            }
-        }
+        filters: {...FILTERS_INITIAL_STATE}
     }
+
+    resetFilters = () => this.setState({filters: {...FILTERS_INITIAL_STATE}})
 
     toggleHitLevelChange = (level) => {
         this.setState((prevState) => {
@@ -116,6 +124,52 @@ class CharacterProfile extends Component {
             return newState;
         });
     }
+
+    onBlockChange = (operator, value) => {
+        if(!this.state.filters.onBlock.active) return;
+        this.setState(prevState => {
+            const newState = {
+                ...prevState,
+                filters: {
+                    ...prevState.filters,
+                    onBlock: {
+                        ...prevState.filters.onBlock,
+                        active: true,
+                        value,
+                        operator
+                    }
+                }
+            };
+            return newState;
+        });
+    }
+
+    turnOnBlockFilter = (operator, value) => {
+        if (!operator || !value ) return;
+
+        this.setState(prevState => ({
+            ...prevState,
+            filters: {
+                ...prevState.filters,
+                onBlock: {
+                    active: true,
+                }
+            }
+        }), () => this.onBlockChange(operator, value));
+    }
+
+    turnOffBlockFilter = () => {
+        this.setState(prevState => ({
+            filters: {
+                ...prevState.filters, onBlock: {
+                    active: false,
+                    value: '',
+                    operator: ''
+                }}
+        }));
+    }
+
+
 
     componentDidMount() {
         const { navigation, listView } = this.props;
@@ -203,10 +257,10 @@ class CharacterProfile extends Component {
         const { navigation, navigation: { state: { params: { name } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
         const { isOpen, side, scrollY, searchTerm } = this.state;
 
-        //TODO: make changes to filter moves to get the filters working.
+
         const filteredData = filterMoves(favoriteMoves, this.state.filters);
         const searchedData = this.searchMoveList(searchTerm, filteredData);
-        const data = searchedData.sort(this.sortByFav);
+        const data = [...searchedData].sort(this.sortByFav);
 
         const headerTranslate = scrollY.interpolate({
             inputRange: [0, HEADER_SCROLL_DISTANCE],
@@ -228,7 +282,11 @@ class CharacterProfile extends Component {
                 <DrawerSwitcher
                     component={
                         <FilterMenu
+                            resetFilters={this.resetFilters}
                             toggleHitLevelChange={this.toggleHitLevelChange}
+                            onBlockChange={this.onBlockChange}
+                            turnOnBlockFilter={this.turnOnBlockFilter}
+                            turnOffBlockFilter={this.turnOffBlockFilter}
                             activeFilters={this.state.filters}
                         />
                     }

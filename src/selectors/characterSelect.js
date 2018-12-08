@@ -32,16 +32,12 @@ export const getFavoriteCharacters = createSelector(
 );
 
 const getStarredMoveIDsForALabel = createSelector(['moves', 'label'],
-    (moves, label) => {
-        console.log('here');
-        return moves[label];
-    }
+    (moves, label) => moves[label]
 );
 
 export const getFavoriteMoves = createSelector(
     [getStarredMoveIDsForALabel, 'moveList'],
     (starredIDs, moveList) => {
-        console.log('here - - - -');
         const ids = Object.keys(starredIDs);
 
         return moveList.map(move => {
