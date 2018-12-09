@@ -256,7 +256,7 @@ class CharacterProfile extends Component {
 
 
     render() {
-        const { navigation, navigation: { state: { params: { label } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
+        const { navigation, navigation: { state: { params: { label, name } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
         const { isOpen, side, scrollY, searchTerm } = this.state;
 
         const filteredData = filterMoves(favoriteMoves, this.state.filters);
