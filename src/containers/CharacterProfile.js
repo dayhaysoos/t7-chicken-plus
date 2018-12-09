@@ -36,21 +36,16 @@ export const mapDispatcthToProps = {
     ...favoriteActions
 };
 
-export const mapStateToProps = ({ favorites, theme, settings: { listView } }, ownProps) => {
-
-    console.log('own props', ownProps);
-
-    return {
-        listView,
-        theme,
-        favorites,
-        favoriteMoves: getFavoriteMoves({
-            moves: favorites.moves,
-            label: ownProps.navigation.getParam('label'),
-            moveList: ownProps.navigation.getParam('moveList')
-        })
-    };
-};
+export const mapStateToProps = ({ favorites, theme, settings: { listView } }, ownProps) => ({
+    listView,
+    theme,
+    favorites,
+    favoriteMoves: getFavoriteMoves({
+        moves: favorites.moves,
+        label: ownProps.navigation.getParam('label'),
+        moveList: ownProps.navigation.getParam('moveList')
+    })
+});
 
 const HEADER_MAX_HEIGHT = 300;
 const HEADER_MIN_HEIGHT = 0;
@@ -239,11 +234,11 @@ class CharacterProfile extends Component {
         const mappedMoveList = Object.keys(moveList).map(move => moveList[move]);
         if (input.includes('+')) {
             return mappedMoveList.filter(
-                ({ notation  }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
+                ({ notation }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
             );
         } else {
             return mappedMoveList.filter(
-                ({ move: { notation } }) => notation.replace(/[ ,+]/g, '').includes(input.replace(/[ ,+]/g, ''))
+                ({ notation }) => notation.replace(/[ ,+]/g, '').includes(input.replace(/[ ,+]/g, ''))
             );
         }
     }
@@ -263,6 +258,8 @@ class CharacterProfile extends Component {
     render() {
         const { navigation, navigation: { state: { params: { label } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
         const { isOpen, side, scrollY, searchTerm } = this.state;
+
+        console.log('fave moves', favoriteMoves);
 
         const filteredData = filterMoves(favoriteMoves, this.state.filters);
         const searchedData = this.searchMoveList(searchTerm, filteredData);

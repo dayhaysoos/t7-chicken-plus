@@ -125,7 +125,7 @@ class CharacterMove extends Component {
     }
 
     nextAttack = () => {
-        const { incrementMoveIndex, notation, moveName } = this.props;
+        const { incrementMoveIndex } = this.props;
         incrementMoveIndex();
     }
 
@@ -149,8 +149,9 @@ class CharacterMove extends Component {
 
         const { theme, navigation, currentIndex, selectedCharacterMoves, moveData } = this.props;
 
+        console.log('prawps', moveData);
+
         const {
-            properties,
             speed,
             on_block,
             on_hit,

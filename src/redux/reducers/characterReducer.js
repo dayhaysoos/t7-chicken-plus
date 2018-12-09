@@ -10,7 +10,7 @@ export const INITIAL_STATE = {
     characterDataError: [],
     selectedCharacterMoves: [],
     moveData: [],
-    currentIndex: null,
+    currentAttack: null,
 };
 
 const getCharacterDataPending = (state) => ({
@@ -42,17 +42,27 @@ const updateSelectedCharacterMoves = (state, { payload: selectedCharacterMoves }
     selectedCharacterMoves
 });
 
-const incrementMoveIndex = (state) => ({
-    ...state,
-    currentIndex: state.currentIndex + 1,
-    moveData: state.selectedCharacterMoves[state.currentIndex + 1]
-});
+const incrementMoveIndex = (state) => {
+    const currentAttackNumber = parseInt(state.currentAttack.split('_')[1]);
+    const currentAttackCharacter = state.currentAttack.split('_')[0];
+    console.log('show me state', state.selectedCharacterMoves);
+    return {
+        ...state,
+        currentAttack: `${currentAttackCharacter}_${currentAttackNumber + 1}`,
+        moveData: state.selectedCharacterMoves[`${currentAttackCharacter}_${currentAttackNumber + 1}`]
+    };
+};
 
-const decrementMoveIndex = (state) => ({
-    ...state,
-    currentIndex: state.currentIndex - 1,
-    moveData: state.selectedCharacterMoves[state.currentIndex - 1]
-});
+const decrementMoveIndex = (state) => {
+    const currentAttackNumber = parseInt(state.currentAttack.split('_')[1]);
+    const currentAttackCharacter = state.currentAttack.split('_')[0];
+
+    return {
+        ...state,
+        currentAttack: `${currentAttackCharacter}_${currentAttackNumber - 1}`,
+        moveData: state.selectedCharacterMoves[`${currentAttackCharacter}_${currentAttackNumber - 1}`]
+    };
+};
 
 const characterDataReducer = handleActions(
     {

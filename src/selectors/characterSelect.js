@@ -52,9 +52,11 @@ export const getFavoriteMoves = createSelector(
         const ids = Object.keys(starredIDs);
 
         return Object.keys(moveList).map((move) => {
-            const newMove = { move: { ...moveList[move] }, favorite: false };
+            const newMove = { ...moveList[move], favorite: false };
 
-            if (ids.includes(move.id)) {
+            console.log('starred', move);
+
+            if (ids.includes(move)) {
                 newMove.favorite = true;
             }
             return newMove;
