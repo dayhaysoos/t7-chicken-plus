@@ -149,8 +149,6 @@ class CharacterMove extends Component {
 
         const { theme, navigation, currentIndex, selectedCharacterMoves, moveData } = this.props;
 
-        console.log('prawps', moveData);
-
         const {
             speed,
             on_block,

@@ -66,7 +66,6 @@ const toggleMoveStar = (state, { payload: moveID }) => {
     if (newState.moves[label][moveID]) delete newState.moves[label][moveID];
     else newState.moves[label][moveID] = true;
 
-    console.log(newState);
     return newState;
 };
 

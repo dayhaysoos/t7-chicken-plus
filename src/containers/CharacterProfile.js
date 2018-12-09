@@ -259,8 +259,6 @@ class CharacterProfile extends Component {
         const { navigation, navigation: { state: { params: { label } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
         const { isOpen, side, scrollY, searchTerm } = this.state;
 
-        console.log('fave moves', favoriteMoves);
-
         const filteredData = filterMoves(favoriteMoves, this.state.filters);
         const searchedData = this.searchMoveList(searchTerm, filteredData);
         const data = [...searchedData].sort(this.sortByFav);

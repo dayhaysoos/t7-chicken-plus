@@ -45,7 +45,6 @@ const updateSelectedCharacterMoves = (state, { payload: selectedCharacterMoves }
 const incrementMoveIndex = (state) => {
     const currentAttackNumber = parseInt(state.currentAttack.split('_')[1]);
     const currentAttackCharacter = state.currentAttack.split('_')[0];
-    console.log('show me state', state.selectedCharacterMoves);
     return {
         ...state,
         currentAttack: `${currentAttackCharacter}_${currentAttackNumber + 1}`,
