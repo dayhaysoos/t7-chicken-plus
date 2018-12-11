@@ -175,7 +175,7 @@ class CharacterMove extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>
-                    <AdBanner />
+                    <AdBanner screen={'character-move'} />
                     <ScrollView>
                         <GifButtonContainer>
                             {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'play'} text={'Play gif'} /> : null}
@@ -190,7 +190,7 @@ class CharacterMove extends Component {
                                 >
                                     <ModalView onPress={() => this.toggleModal(false)}>
                                         <GifContainer>
-                                            <Banner size={'LARGE_BANNER'} unitId={'ca-app-pub-3940256099942544/2934735716'} />
+                                            <AdBanner screen={'gif'} />
                                             <GifImage
                                                 source={{ uri: preview_url }}
                                             />

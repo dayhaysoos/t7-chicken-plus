@@ -6,7 +6,6 @@ import com.facebook.react.ReactApplication;
 import com.dooboolab.RNIap.RNIapPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
-import com.sbugert.rnadmob.RNAdMobPackage;
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 import io.invertase.firebase.admob.RNFirebaseAdMobPackage;
@@ -41,7 +40,6 @@ public class MainApplication extends Application implements ReactApplication {
             new RNIapPackage(),
             new RNGestureHandlerPackage(),
             new SplashScreenReactPackage(),
-            new RNAdMobPackage(),
             new RNFirebaseAnalyticsPackage(),
             new RNFirebasePackage(),
             new RNFirebaseAdMobPackage(),

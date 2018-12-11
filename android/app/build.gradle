@@ -157,7 +157,6 @@ dependencies {
         exclude group: 'com.google.android.gms'
     }
     compile project(':react-native-splash-screen')
-    compile project(':react-native-admob')
     compile project(':react-native-firebase')
     compile project(':react-native-linear-gradient')
     compile project(':react-native-code-push')
