@@ -3,11 +3,13 @@ package com.t7chickenplus;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.dooboolab.RNIap.RNIapPackage;
+import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 import com.sbugert.rnadmob.RNAdMobPackage;
-import com.dooboolab.RNIap.RNIapPackage;
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
+import io.invertase.firebase.admob.RNFirebaseAdMobPackage;
 import com.BV.LinearGradient.LinearGradientPackage;
 import com.microsoft.codepush.react.CodePush;
 import com.facebook.react.ReactNativeHost;
@@ -37,10 +39,12 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
             new RNIapPackage(),
+            new RNGestureHandlerPackage(),
             new SplashScreenReactPackage(),
             new RNAdMobPackage(),
             new RNFirebaseAnalyticsPackage(),
             new RNFirebasePackage(),
+            new RNFirebaseAdMobPackage(),
             new LinearGradientPackage(),
             new CodePush("ZFTE0MjwY8sgvigH4Z0VXxz4A1DV49811cfd-9167-45ec-81da-4173a98555d0", getApplicationContext(), BuildConfig.DEBUG)
       );

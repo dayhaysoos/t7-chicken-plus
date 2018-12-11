@@ -15,6 +15,8 @@ import AdBanner from '../components/AdBanner';
 
 import { checkMoveProperty } from '../utils/CharacterMove';
 
+const Banner = firebase.admob.Banner;
+
 
 const HeaderTitle = styled.Text`
   background-color: ${(props) => props.theme.primaryGradient2}
@@ -59,6 +61,7 @@ const GifButton = styled(Button)`
 const GifImage = styled.Image`
   height: 300;
   width: 400;
+  margin-top: 100;
   resizeMode: cover;
 `;
 
@@ -187,6 +190,7 @@ class CharacterMove extends Component {
                                 >
                                     <ModalView onPress={() => this.toggleModal(false)}>
                                         <GifContainer>
+                                            <Banner size={'LARGE_BANNER'} unitId={'ca-app-pub-3940256099942544/2934735716'} />
                                             <GifImage
                                                 source={{ uri: preview_url }}
                                             />

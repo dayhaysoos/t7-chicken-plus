@@ -95,11 +95,11 @@ class HomeScreen extends React.Component {
                         >
                             <CustomButtonText>Sponsors</CustomButtonText>
                         </CustomButtonWrapper> */}
-                        <CustomButtonWrapper
+                        {/* <CustomButtonWrapper
                             onPress={() => this.props.navigation.navigate('Support')}
                         >
                             <CustomButtonText>Support Us!</CustomButtonText>
-                        </CustomButtonWrapper>
+                        </CustomButtonWrapper> */}
                         <CustomButtonWrapper
                             onPress={() => this.props.navigation.navigate('About')}
                         >
