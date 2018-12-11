@@ -36,6 +36,7 @@ export const INITIAL_STATE = {
         lili: {},
         luckychloe: {},
         masterraven: {},
+        marduk: {},
         miguel: {},
         nina: {},
         noctis: {},

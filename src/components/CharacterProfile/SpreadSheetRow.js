@@ -36,19 +36,20 @@ class SpreadSheetRow extends Component {
         navigation: PropTypes.object
     }
 
-    navigateToCharacterMove = (item, name) => {
-        const { updateMoveData, navigation, index } = this.props;
-        updateMoveData(index);
-        navigation.navigate('CharacterMove', { name });
+    navigateToCharacterMove = (item, name, id) => {
+        const { updateMoveData, navigation } = this.props;
+
+        updateMoveData(id);
+        navigation.navigate('CharacterMove', { name, id });
     }
 
     render() {
-        const { name, theme, item, navigation: { navigate }, item: { notation, damage, speed, on_block, on_hit, on_ch, hit_level, move_name } } = this.props;
+        const { name, theme, item, navigation: { navigate }, item: { notation, damage, speed, on_block, on_hit, on_ch, hit_level, move_name, id } } = this.props;
 
         return (
             <ThemeProvider theme={theme}>
                 <SpreadsheetRow
-                    onPress={() => this.navigateToCharacterMove(item, name)}
+                    onPress={() => this.navigateToCharacterMove(item, name, id)}
                 >
                     <NotationCell>{notation}</NotationCell>
                     <SpreadsheetCell>{hit_level}</SpreadsheetCell>

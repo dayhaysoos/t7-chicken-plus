@@ -31,6 +31,7 @@ import leo_portrait from '../../assets/images/characterPortraits/leo_portrait.pn
 import lili_portrait from '../../assets/images/characterPortraits/lili_portrait.png';
 import luckychloe_portrait from '../../assets/images/characterPortraits/luckychloe_portrait.png';
 import masterraven_portrait from '../../assets/images/characterPortraits/masterraven_portrait.png';
+import marduk from '../../assets/images/characterPortraits/marduk_portrait.png';
 import miguel_portrait from '../../assets/images/characterPortraits/miguel_portrait.png';
 import nina_portrait from '../../assets/images/characterPortraits/nina_portrait.png';
 import noctis_portrait from '../../assets/images/characterPortraits/noctis_portrait.png';
@@ -74,6 +75,7 @@ export const characterPortraits = {
     lili: lili_portrait,
     luckychloe: luckychloe_portrait,
     masterraven: masterraven_portrait,
+    marduk: marduk,
     miguel: miguel_portrait,
     nina: nina_portrait,
     noctis: noctis_portrait,

@@ -30,6 +30,7 @@ import leo from '../../assets/character-data/leo.json';
 import lili from '../../assets/character-data/lili.json';
 import luckychloe from '../../assets/character-data/luckychloe.json';
 import masterraven from '../../assets/character-data/masterraven.json';
+import marduk from '../../assets/character-data/marduk.json';
 import miguel from '../../assets/character-data/miguel.json';
 import nina from '../../assets/character-data/nina.json';
 import paul from '../../assets/character-data/paul.json';
@@ -70,6 +71,7 @@ export const characterMoves = {
     lili: lili,
     luckychloe: luckychloe,
     masterraven: masterraven,
+    marduk: marduk,
     miguel: miguel,
     nina: nina,
     paul: paul,

@@ -158,7 +158,7 @@ class CharacterSelect extends Component {
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>
                     <MainContainer>
-                        {/* <AdBanner /> */}
+                        <AdBanner />
                         <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
                             <FlatList
                                 contentContainerStyle={{ flexDirection: 'column', justifyContent: 'center', alignItems: listView ? 'stretch' : 'center', paddingTop: 15 }}
