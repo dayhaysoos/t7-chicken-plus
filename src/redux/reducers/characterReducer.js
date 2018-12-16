@@ -8,7 +8,7 @@ export const INITIAL_STATE = {
     allCharacterData: [],
     characterData: [],
     characterDataError: [],
-    selectedCharacterMoves: [],
+    selectedCharacterMoves: {},
     moveData: [],
     currentAttack: null,
 };
@@ -37,9 +37,9 @@ const updateMoveData = (state, { payload: id }) => ({
     moveData: state.selectedCharacterMoves[id]
 });
 
-const updateSelectedCharacterMoves = (state, { payload: selectedCharacterMoves }) => ({
+const updateSelectedCharacterMoves = (state, { payload: moveList }) => ({
     ...state,
-    selectedCharacterMoves
+    selectedCharacterMoves: moveList
 });
 
 const incrementMoveIndex = (state) => {

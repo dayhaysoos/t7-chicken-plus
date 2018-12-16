@@ -136,25 +136,25 @@ class FilterMenu extends Component {
     onBlock() {
         return {
             name: 'On Block',
-            component: this.frameEntryComponent({ property: 'on_block'})
+            component: this.frameEntryComponent({ property: 'on_block' })
         };
     }
-    
+
     onCounterHit() {
         return {
             name: 'On Counter Hit',
-            component: this.frameEntryComponent({ property: 'on_ch'})
+            component: this.frameEntryComponent({ property: 'on_ch' })
         };
     }
 
     onHit() {
         return {
             name: 'On Hit',
-            component: this.frameEntryComponent({ property: 'on_hit'})
+            component: this.frameEntryComponent({ property: 'on_hit' })
         };
     }
-    
-    
+
+
     specialProperties() {
         // I can't find any crush properties in the properies array
         // The filters for this need to be done
@@ -170,11 +170,11 @@ class FilterMenu extends Component {
             )
         };
     }
-    
+
     speed() {
         return {
             name: 'Speed',
-            component: this.frameEntryComponent({ property: 'speed'})
+            component: this.frameEntryComponent({ property: 'speed' })
         };
     }
 
@@ -240,7 +240,7 @@ class FilterMenu extends Component {
 FilterMenu.propTypes = {
     activeFilters: PropTypes.arrayOf(PropTypes.func),
     moveListArray: PropTypes.arrayOf(PropTypes.object),
-    setCharacterProfileState: PropTypes.func.isRequired,
+    setCharacterProfileState: PropTypes.func,
     unFilteredMoveList: PropTypes.arrayOf(PropTypes.object)
 };
 

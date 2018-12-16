@@ -72,11 +72,16 @@ const ModalView = styled.TouchableHighlight`
   background-color: black;
 `;
 
-const mapStateToProps = ({ theme, characterData: { moveData, selectedCharacterMoves, currentIndex } }) => ({
+const ModalText = styled.Text`
+  color: white;
+  font-size: 16;
+`;
+
+const mapStateToProps = ({ theme, characterData: { moveData, selectedCharacterMoves, currentAttack } }) => ({
     theme,
     moveData,
     selectedCharacterMoves,
-    currentIndex
+    currentAttack
 });
 
 const mapDispatchToProps = {
@@ -150,7 +155,7 @@ class CharacterMove extends Component {
 
     render() {
 
-        const { theme, navigation, currentIndex, selectedCharacterMoves, moveData } = this.props;
+        const { theme, navigation, currentAttack, selectedCharacterMoves, moveData } = this.props;
 
         const {
             speed,
@@ -186,14 +191,15 @@ class CharacterMove extends Component {
                                     animationType="fade"
                                     transparent={true}
                                     visible={modalVisible}
-                                    onRequestClose={() => 'closed'}
+                                    onRequestClose={() => this.toggleModal(false)}
                                 >
                                     <ModalView onPress={() => this.toggleModal(false)}>
                                         <GifContainer>
-                                            <AdBanner screen={'gif'} />
+                                            <AdBanner size={'large'} screen={'gif'} />
                                             <GifImage
                                                 source={{ uri: preview_url }}
                                             />
+                                            <ModalText>Tap screen to exit</ModalText>
                                         </GifContainer>
 
                                     </ModalView>
@@ -256,8 +262,8 @@ class CharacterMove extends Component {
                     </ScrollView>
                     <BottomMenuBar
                         navigation={navigation}
-                        onPressPreviousAttack={currentIndex <= 0 ? null : this.previousAttack}
-                        onPressNextAttack={currentIndex >= selectedCharacterMoves.length - 1 ? null : this.nextAttack}
+                        onPressPreviousAttack={currentAttack.split('_')[1] <= 1 ? null : this.previousAttack}
+                        onPressNextAttack={currentAttack.split('_')[1] >= Object.keys(selectedCharacterMoves).length ? null : this.nextAttack}
                     />
                 </GradientTheme >
             </ThemeProvider >

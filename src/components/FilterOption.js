@@ -51,9 +51,9 @@ export default class FilterOption extends Component {
 }
 
 FilterOption.propTypes = {
-    addToActiveFilters: PropTypes.func.isRequired,
-    filter: PropTypes.func.isRequired,
-    noActiveFilters: PropTypes.bool.isRequired,
-    removeFromActiveFilters: PropTypes.func.isRequired,
-    text: PropTypes.string.isRequired
+    addToActiveFilters: PropTypes.func,
+    filter: PropTypes.func,
+    noActiveFilters: PropTypes.bool,
+    removeFromActiveFilters: PropTypes.func,
+    text: PropTypes.string,
 };

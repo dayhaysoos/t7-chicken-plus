@@ -8,7 +8,7 @@ export const defaultTheme = {
     // matte black
     primary: '#434755',
     // gray
-    primaryGradient1: '#8E8E93',
+    primaryGradient1: 'white',
     // metallic gray
     primaryGradient2: '#19181C',
     // light red red

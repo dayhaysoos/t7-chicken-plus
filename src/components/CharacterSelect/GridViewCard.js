@@ -10,8 +10,6 @@ const Container = styled.View`
     margin-vertical: 5;
     margin-horizontal: 5;
     margin-bottom: 8;
-    border-color: white;
-    border-width: 1;
 `;
 const CharacterCard = styled.TouchableOpacity`
     margin-left: 5;
@@ -52,7 +50,7 @@ const GridViewCard = ({ label, favorite, onPress, onStarPress, displayName }) =>
 );
 
 GridViewCard.propTypes = {
-    label: PropTypes.string.isRequired,
+    label: PropTypes.string,
     favorite: PropTypes.bool,
     onPress: PropTypes.func,
     onStarPress: PropTypes.func,

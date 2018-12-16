@@ -43,7 +43,7 @@ export const INITIAL_STATE = {
         panda: {},
         paul: {},
         steve: {},
-        xiayou: {},
+        xiaoyu: {},
         yoshimitsu: {}
     }
 };

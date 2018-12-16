@@ -11,9 +11,9 @@ const ListViewWrapper = styled.View`
 const ListViewItem = styled.TouchableOpacity`
   height: 125;
   border-top-width: 1;
-  border-top-color: gray;
+  border-top-color: white;
   border-bottom-width: 1;
-  border-bottom-color: gray;
+  border-bottom-color: white;
   flex-direction: row;
   justify-content: space-between;
 `;
@@ -42,6 +42,7 @@ const StarButton = styled.TouchableOpacity``;
 
 const ListViewCard = ({ label, favorite, onPress, onStarPress, displayName }) => (
     <ListViewWrapper>
+        {console.log('label', onPress)}
         <ListViewItem onPress={onPress}>
             <CharacterContainer>
                 <CharacterImage source={characterPortraits[label]} />
@@ -57,7 +58,7 @@ const ListViewCard = ({ label, favorite, onPress, onStarPress, displayName }) =>
 );
 
 ListViewCard.propTypes = {
-    label: PropTypes.string.isRequired,
+    label: PropTypes.string,
     favorite: PropTypes.bool,
     onPress: PropTypes.func,
     onStarPress: PropTypes.func,

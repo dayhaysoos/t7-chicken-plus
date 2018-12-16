@@ -112,7 +112,6 @@ class CharacterSelect extends Component {
     navigateToCharacterProfile = (item) => {
         const { navigation, updateSelectedCharacterMoves, toggleCharacterStar } = this.props;
         const { moveList, favorite, label, name } = item;
-
         updateSelectedCharacterMoves(moveList);
 
         navigation.navigate('CharacterProfile', {

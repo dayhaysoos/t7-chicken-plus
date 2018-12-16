@@ -9,96 +9,96 @@ import FrameEntryComponent from './FrameEntryComponent';
 
 
 class FilterMenu extends Component {
-  styles =  {
-      innerAccordion: {
-          backgroundColor: '#19181C'
-      },
-      filterTouchable: {
-          borderColor: '#4E4E52',
-          borderBottomWidth: 1,
-          padding: 10,
-      }
-  }
+    styles = {
+        innerAccordion: {
+            backgroundColor: '#19181C'
+        },
+        filterTouchable: {
+            borderColor: '#4E4E52',
+            borderBottomWidth: 1,
+            padding: 10,
+        }
+    }
 
-  composeFiltersToDisplay() {
-      return [
-          this.hitLevel(),
-          this.onBlock()
-      ];
-  }
+    composeFiltersToDisplay() {
+        return [
+            this.hitLevel(),
+            this.onBlock()
+        ];
+    }
 
-  hitLevel = () => ({
-      name: 'Hit Level',
-      component: (
-          <View style={this.styles.innerAccordion}>
-              <FilterOption
-                  text='High'
-                  active={this.props.activeFilters.hitLevel.high}
-                  onPress={() => this.props.toggleHitLevelChange('high')}
-              />
-              <FilterOption
-                  text='Mid'
-                  active={this.props.activeFilters.hitLevel.mid}
-                  onPress={() => this.props.toggleHitLevelChange('mid')}
-              />
-              <FilterOption
-                  text='Low'
-                  active={this.props.activeFilters.hitLevel.low}
-                  onPress={() => this.props.toggleHitLevelChange('low')}
-              />
-          </View>
-      )
-  })
+    hitLevel = () => ({
+        name: 'Hit Level',
+        component: (
+            <View style={this.styles.innerAccordion}>
+                <FilterOption
+                    text='High'
+                    active={this.props.activeFilters.hitLevel.high}
+                    onPress={() => this.props.toggleHitLevelChange('high')}
+                />
+                <FilterOption
+                    text='Mid'
+                    active={this.props.activeFilters.hitLevel.mid}
+                    onPress={() => this.props.toggleHitLevelChange('mid')}
+                />
+                <FilterOption
+                    text='Low'
+                    active={this.props.activeFilters.hitLevel.low}
+                    onPress={() => this.props.toggleHitLevelChange('low')}
+                />
+            </View>
+        )
+    })
 
-  frameEntryComponent({ property, onChange, turnOn, turnOff }) {
-      return (
-          <View style={this.styles.innerAccordion}>
-              <FrameEntryComponent
-                  //   property={property}
-                  //   addToActiveFilters={this.addToActiveFilters}
-                  //   removeFromActiveFilters={this.removeFromActiveFilters}
-                  //   noActiveFilters={!!this.props.activeFilters.length}
+    frameEntryComponent({ property, onChange, turnOn, turnOff }) {
+        return (
+            <View style={this.styles.innerAccordion}>
+                <FrameEntryComponent
+                    //   property={property}
+                    //   addToActiveFilters={this.addToActiveFilters}
+                    //   removeFromActiveFilters={this.removeFromActiveFilters}
+                    //   noActiveFilters={!!this.props.activeFilters.length}
 
-                  onChange={onChange}
-                  turnOn={turnOn}
-                  turnOff={turnOff}
-              />
-          </View>
-      );
-  }
+                    onChange={onChange}
+                    turnOn={turnOn}
+                    turnOff={turnOff}
+                />
+            </View>
+        );
+    }
 
-  onBlock() {
-      const {onBlockChange, turnOnBlockFilter, turnOffBlockFilter} = this.props;
-      return {
-          name: 'On Block',
-          component: this.frameEntryComponent({ property: 'on_block', onChange: onBlockChange, turnOn: turnOnBlockFilter, turnOff: turnOffBlockFilter})
-      };
-  }
+    onBlock() {
+        const { onBlockChange, turnOnBlockFilter, turnOffBlockFilter } = this.props;
+        return {
+            name: 'On Block',
+            component: this.frameEntryComponent({ property: 'on_block', onChange: onBlockChange, turnOn: turnOnBlockFilter, turnOff: turnOffBlockFilter })
+        };
+    }
 
-  onCounterHit() {
-      return {
-          name: 'On Counter Hit',
-          component: this.frameEntryComponent({ property: 'on_ch'})
-      };
-  }
+    onCounterHit() {
+        return {
+            name: 'On Counter Hit',
+            component: this.frameEntryComponent({ property: 'on_ch' })
+        };
+    }
 
-  onHit() {
-      return {
-          name: 'On Hit',
-          component: this.frameEntryComponent({ property: 'on_hit'})
-      };
-  }
+    onHit() {
+        return {
+            name: 'On Hit',
+            component: this.frameEntryComponent({ property: 'on_hit' })
+        };
+    }
 
-  speed() {
-      return {
-          name: 'Speed',
-          component: this.frameEntryComponent({ property: 'speed'})
-      };
-  }
+    speed() {
+        return {
+            name: 'Speed',
+            component: this.frameEntryComponent({ property: 'speed' })
+        };
+    }
 
-  renderHeader(filterName) {
-      return <View><Text style={{ color: 'white', fontSize: 20, padding: 10 }}>{filterName}</Text></View>;
-  }
+    renderHeader(filterName) {
+        return <View><Text style={{ color: 'white', fontSize: 20, padding: 10 }}>{filterName}</Text></View>;
+    }
 
     renderItem = ({ item }) => (
         <Accordion
@@ -125,7 +125,7 @@ class FilterMenu extends Component {
                     justifyContent: 'space-between',
                     padding: 10,
                 }}>
-                    <Text style={{ color: 'white', fontSize: 34 }}>Filters</Text>
+                    <Text style={{ color: 'white', fontSize: 14 }}>Filters Coming Soon</Text>
                     <TouchableHighlight
                         style={{
                             justifyContent: 'center',
@@ -140,13 +140,13 @@ class FilterMenu extends Component {
                         <Text style={{ color: 'white', fontSize: 14, paddingHorizontal: 5 }}>Reset</Text>
                     </TouchableHighlight>
                 </View>
-                <FlatList
+                {/* <FlatList
                     contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
                     data={this.composeFiltersToDisplay()}
                     numColumns={1}
                     keyExtractor={(item, index) => index.toString()}
                     renderItem={this.renderItem}
-                />
+                /> */}
             </LinearGradient>
         );
     }

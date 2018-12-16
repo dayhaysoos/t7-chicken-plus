@@ -297,8 +297,8 @@ class CharacterProfile extends Component {
                     onClose={this.onDrawerClose}
                 >
                     <GradientTheme theme={theme}>
-                        <AdBanner screen={'character-profile'} />
                         <MainContainer>
+                            <AdBanner screen={'character-profile'} />
                             <CharacterBanner
                                 name={label}
                                 imageOpacity={imageOpacity}
