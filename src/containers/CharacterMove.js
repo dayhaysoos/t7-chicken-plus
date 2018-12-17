@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView, Modal, Text, } from 'react-native';
+import { ScrollView, Modal, ActivityIndicator, } from 'react-native';
 import { connect } from 'react-redux';
 import styled, { ThemeProvider } from 'styled-components';
 
@@ -101,6 +101,7 @@ class CharacterMove extends Component {
 
     state = {
         modalVisible: false,
+        loadingGif: true,
     }
 
     componentDidUpdate = (prev) => {
@@ -198,7 +199,10 @@ class CharacterMove extends Component {
                                             <AdBanner size={'large'} screen={'gif'} />
                                             <GifImage
                                                 source={{ uri: preview_url }}
+                                                onLoadStart={() => this.setState({ loadingGif: true })}
+                                                onLoadEnd={() => this.setState({ loadingGif: false })}
                                             />
+                                            <ActivityIndicator animating={this.state.loadingGif} size="large" color="red" />
                                             <ModalText>Tap screen to exit</ModalText>
                                         </GifContainer>
 

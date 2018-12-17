@@ -7,6 +7,9 @@ const Banner = firebase.admob.Banner;
 
 const appUnitSwitcher = (screen) => {
 
+    // uncomment below line before working on dev, I need to set up environment variables
+    // screen = 'test';
+
     if (screen === 'test') return 'ca-app-pub-3940256099942544/2934735716';
 
     if (Platform.OS === 'ios' && screen === 'character-select') return 'ca-app-pub-2131722019779391/1529634550';
