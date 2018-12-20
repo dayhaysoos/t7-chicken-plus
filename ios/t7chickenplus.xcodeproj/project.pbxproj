@@ -38,7 +38,6 @@
 		2DCD954D1E0B4F2C00145EB5 /* t7chickenplusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* t7chickenplusTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		30DFCF0C6AF046A8AD2EFDF9 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3086181231524501BC3205C4 /* FontAwesome.ttf */; };
-		3289D0C1445449288AF25124 /* fontawesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BBC1ADD9F5A49D9B9B63629 /* fontawesome.ttf */; };
 		38D2AE77DE517C67C68C9EEA /* libPods-t7chickenplus-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CC993133EAA8821D979BBA /* libPods-t7chickenplus-tvOS.a */; };
 		39FB5AC27F07ACBF1929B5CC /* libPods-t7chickenplus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A325C1826625573428B95 /* libPods-t7chickenplus.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
@@ -416,7 +415,6 @@
 		714A4256DB444917B61D06C8 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
 		75CC993133EAA8821D979BBA /* libPods-t7chickenplus-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-t7chickenplus-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
-		7BBC1ADD9F5A49D9B9B63629 /* fontawesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = fontawesome.ttf; path = ../assets/fonts/fontawesome.ttf; sourceTree = "<group>"; };
 		8192C453BD6440E5B9FD5F3C /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCodePush.a; sourceTree = "<group>"; };
 		8312D8BE217E9FEA0030FBFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -754,7 +752,6 @@
 				8192C453BD6440E5B9FD5F3C /* libCodePush.a */,
 				F84B04F2DFA94100BA3A9314 /* libBVLinearGradient.a */,
 				F14DF94C13554295874880B1 /* libRNFirebase.a */,
-				911BB7D7FBAD4007834F2DBB /* libRNAdMobManager.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -797,7 +794,6 @@
 		F4373A301FD54CF5AA596A09 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7BBC1ADD9F5A49D9B9B63629 /* fontawesome.ttf */,
 				3086181231524501BC3205C4 /* FontAwesome.ttf */,
 			);
 			name = Resources;
@@ -1335,7 +1331,6 @@
 				83833690217EE4FF00496FB3 /* fontawesome-webfont.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				8312D8E9217E9FEA0030FBFA /* GoogleService-Info.plist in Resources */,
-				3289D0C1445449288AF25124 /* fontawesome.ttf in Resources */,
 				30DFCF0C6AF046A8AD2EFDF9 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1542,9 +1537,7 @@
 				INFOPLIST_FILE = t7chickenplusTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1570,9 +1563,7 @@
 				INFOPLIST_FILE = t7chickenplusTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1668,9 +1659,7 @@
 				);
 				INFOPLIST_FILE = "t7chickenplus-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1705,9 +1694,7 @@
 				);
 				INFOPLIST_FILE = "t7chickenplus-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1741,9 +1728,7 @@
 				);
 				INFOPLIST_FILE = "t7chickenplus-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1777,9 +1762,7 @@
 				);
 				INFOPLIST_FILE = "t7chickenplus-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",

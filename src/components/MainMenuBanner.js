@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Alert } from 'react-native';
 import { Linking } from 'react-native';
 import FontAwesome, { Icons } from 'react-native-fontawesome';
+import discordPng from '../../assets/images/discord.png';
 
 import firebase from 'react-native-firebase';
 
@@ -34,9 +35,22 @@ const SocialIcon = styled(FontAwesome)`
   padding-top: 12;
 `;
 
-const TouchableSocial = styled.TouchableHighlight`
+const IconPngWrapper = styled.TouchableHighlight`
   height: 40;
   width: 50;
+  background-color: #7289DA;
+  margin-left: 10;
+  justify-content: center;
+  align-items: center;
+`;
+
+const IconPng = styled.Image`
+  padding-top: 12;
+  resize-mode: contain;
+`;
+
+
+const TouchableSocial = styled.TouchableHighlight`
   margin-left: 10;
 `;
 
@@ -58,8 +72,8 @@ const onIconPress = (url) => async () => {
 const MainMenuBanner = () => (
     <Container >
         <GiantText>T7 Chicken Plus</GiantText>
+        {console.log(discordPng)}
         <SocialIconsWrapper>
-
             <TouchableSocial onPress={onIconPress('https://www.twitter.com/t7chicken')}>
                 <SocialIcon color={'#1DA1F2'}>{Icons.twitter}</SocialIcon>
             </TouchableSocial>
@@ -67,8 +81,9 @@ const MainMenuBanner = () => (
             <TouchableSocial onPress={onIconPress('https://www.twitch.tv/t7chicken')}>
                 <SocialIcon color={'#6441a5'}>{Icons.twitch}</SocialIcon>
             </TouchableSocial>
-
-
+            <IconPngWrapper onPress={onIconPress('https://www.twitch.tv/t7chicken')}>
+                <IconPng source={discordPng} />
+            </IconPngWrapper>
         </SocialIconsWrapper>
     </Container>
 );
