@@ -21,15 +21,15 @@ const HeaderNotationCell = styled(NotationCell)`
 `;
 
 const HeaderRow = () => (
-  <NotationRow>
-    <HeaderNotationCell>Notation</HeaderNotationCell>
-    <SpreadsheetCell>Hit Level(s)</SpreadsheetCell>
-    <SpreadsheetCell>Damage</SpreadsheetCell>
-    <SpreadsheetCell>Speed</SpreadsheetCell>
-    <SpreadsheetCell>On Block</SpreadsheetCell>
-    <SpreadsheetCell>On Hit</SpreadsheetCell>
-    <SpreadsheetCell>Counter Hit</SpreadsheetCell>
-  </NotationRow>
+    <NotationRow>
+        <HeaderNotationCell>Notation</HeaderNotationCell>
+        <SpreadsheetCell>Hit Level(s)</SpreadsheetCell>
+        <SpreadsheetCell>Damage</SpreadsheetCell>
+        <SpreadsheetCell>Speed</SpreadsheetCell>
+        <SpreadsheetCell>On Block</SpreadsheetCell>
+        <SpreadsheetCell>On Hit</SpreadsheetCell>
+        <SpreadsheetCell>Counter Hit</SpreadsheetCell>
+    </NotationRow>
 );
 
 export default HeaderRow;
