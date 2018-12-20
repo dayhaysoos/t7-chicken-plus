@@ -434,6 +434,7 @@
 		83932D9021A53B4200FFB44A /* RNIap.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNIap.xcodeproj; path = "../node_modules/react-native-iap/ios/RNIap.xcodeproj"; sourceTree = "<group>"; };
 		8397BBFC21AB2862009B463A /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
 		83C1353621CB7131006D0582 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
+		83C135B921CBE91D006D0582 /* t7chickenplus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = t7chickenplus.entitlements; path = t7chickenplus/t7chickenplus.entitlements; sourceTree = "<group>"; };
 		9B3354DD838D11DE0F3179F8 /* Pods-t7chickenplus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplus.release.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplus/Pods-t7chickenplus.release.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		BFA084EA275046195D41E89A /* Pods-t7chickenplusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplusTests/Pods-t7chickenplusTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -595,6 +596,7 @@
 		13B07FAE1A68108700A75B9A /* t7chickenplus */ = {
 			isa = PBXGroup;
 			children = (
+				83C135B921CBE91D006D0582 /* t7chickenplus.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -916,8 +918,14 @@
 						DevelopmentTeam = XPMM36ENSK;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 0;
+							};
 							com.apple.InAppPurchase = {
 								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
 							};
 						};
 					};
