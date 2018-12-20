@@ -12,6 +12,8 @@ target 't7chickenplus' do
 
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 't7chickenplusTests' do
     inherit! :search_paths
     # Pods for testing

@@ -12,7 +12,7 @@ import RemoveAds from './containers/RemoveAds';
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 
-import { createStackNavigator, createDrawerNavigator } from 'react-navigation';
+import { createStackNavigator, createDrawerNavigator, createAppContainer } from 'react-navigation';
 
 const BackButton = () => (
     <Text style={{ color: 'red', fontSize: 32, marginLeft: 15 }}>
@@ -27,7 +27,7 @@ const defaultNavOptions = {
     headerBackImage: <BackButton />
 };
 
-export const RootStack = createStackNavigator({
+const RootStack = createStackNavigator({
     Home: {
         screen: HomeScreen,
         navigationOptions: defaultNavOptions
@@ -63,9 +63,11 @@ export const RootStack = createStackNavigator({
     initialRouteName: 'Home',
 });
 
-export const DrawerStack = createDrawerNavigator({
+const DrawerStack = createDrawerNavigator({
     Home: RootStack,
 }, {
     contentComponent: HomeScreen
 }
 );
+
+export default createAppContainer(DrawerStack);
