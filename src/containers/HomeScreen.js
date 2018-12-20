@@ -2,41 +2,23 @@ import React from 'react';
 import { StatusBar } from 'react-native';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-
 import SplashScreen from 'react-native-splash-screen';
-
 import MainMenuBanner from '../components/MainMenuBanner';
-
 import styled, { ThemeProvider } from 'styled-components';
-
 import * as characterActions from '../redux/actions/characterActions';
-
 import { GradientTheme } from '../common/GradientTheme';
-
 import firebase from 'react-native-firebase';
+import characterSelectBackground from '../../assets/images/mainMenu/character-select-background.png';
+import aboutTheTeam from '../../assets/images/mainMenu/about-the-team.png';
+import removeAds from '../../assets/images/mainMenu/remove-ads.png';
+
+import MenuItem from '../components/HomeScreen/MenuItem';
+
 
 // styles
 const MainContainer = styled.View`
   flex: 1;
-  align-items: center;
-  margin-top: 50;
 `;
-
-const CustomButtonWrapper = styled.TouchableOpacity`
-  background-color: transparent;
-  height: 75;
-  width: 100%;
-  padding-top: 25;
-  padding-left: 25;
-  border-bottom-width: 1;
-  border-bottom-color: ${({ theme }) => theme.primaryGradient1};
-`;
-
-const CustomButtonText = styled.Text`
-  color: ${({ theme }) => theme.primaryGradient1};
-  font-size: 24;
-`;
-
 
 export const mapDispatchToProps = {
     ...characterActions
@@ -58,6 +40,8 @@ export const createComponentDidMount = (instance) => () => {
 };
 
 
+
+
 class HomeScreen extends React.Component {
 
     static navigationOptions = {
@@ -74,7 +58,7 @@ class HomeScreen extends React.Component {
     componentDidMount = createComponentDidMount(this);
 
     render() {
-        const { theme } = this.props;
+        const { theme, navigation } = this.props;
         return (
             <ThemeProvider theme={theme}>
                 <GradientTheme
@@ -85,34 +69,25 @@ class HomeScreen extends React.Component {
                             barStyle="light-content"
                         />
                         <MainMenuBanner />
-                        <CustomButtonWrapper
-                            onPress={() => this.props.navigation.navigate('CharacterSelect')}
-                        >
-                            <CustomButtonText>Character Select</CustomButtonText>
-                        </CustomButtonWrapper>
-                        {/* <CustomButtonWrapper
-                            onPress={() => this.props.navigation.navigate('Sponsors')}
-                        >
-                            <CustomButtonText>Sponsors</CustomButtonText>
-                        </CustomButtonWrapper> */}
-                        {/* <CustomButtonWrapper
-                            onPress={() => this.props.navigation.navigate('Support')}
-                        >
-                            <CustomButtonText>Support Us!</CustomButtonText>
-                        </CustomButtonWrapper> */}
-                        <CustomButtonWrapper
-                            onPress={() => this.props.navigation.navigate('About')}
-                        >
-                            <CustomButtonText>About T7 Chicken+</CustomButtonText>
-                        </CustomButtonWrapper>
-                        <CustomButtonWrapper
-                            onPress={() => this.props.navigation.navigate('RemoveAds')}
-                        >
-                            <CustomButtonText>Ad Removal Coming Soon</CustomButtonText>
-                        </CustomButtonWrapper>
+                        <MenuItem
+                            navigateTo={() => navigation.navigate('CharacterSelect')}
+                            text={'Character Select'}
+                            imageUrl={characterSelectBackground}
+                        />
+                        <MenuItem
+                            navigateTo={() => navigation.navigate('RemoveAds')}
+                            text={'Ad Removal coming soon'}
+                            imageUrl={removeAds}
+                        />
+                        <MenuItem
+                            navigateTo={() => navigation.navigate('About')}
+                            text={'About the team'}
+                            imageUrl={aboutTheTeam}
+                        />
+
                     </MainContainer>
                 </GradientTheme>
-            </ThemeProvider>
+            </ThemeProvider >
         );
     }
 }

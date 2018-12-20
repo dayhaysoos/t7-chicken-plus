@@ -9,18 +9,18 @@ import firebase from 'react-native-firebase';
 
 const Container = styled.View`
   flex-direction: column;
-  padding-top: 50;
 `;
 
 const GiantText = styled.Text`
   color: white;
   font-size: 32;
   margin-bottom: 10;
+  margin-left: 10;
+  margin-top: 20;
 `;
 
 
 const SocialIconsWrapper = styled.View`
-  height: 40;
   flex-direction: row;
   justify-content: flex-end;
 `;
@@ -72,7 +72,6 @@ const onIconPress = (url) => async () => {
 const MainMenuBanner = () => (
     <Container >
         <GiantText>T7 Chicken Plus</GiantText>
-        {console.log(discordPng)}
         <SocialIconsWrapper>
             <TouchableSocial onPress={onIconPress('https://www.twitter.com/t7chicken')}>
                 <SocialIcon color={'#1DA1F2'}>{Icons.twitter}</SocialIcon>
