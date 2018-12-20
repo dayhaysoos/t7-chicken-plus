@@ -16,7 +16,6 @@ const GiantText = styled.Text`
   font-size: 32;
   margin-bottom: 10;
   margin-left: 10;
-  margin-top: 20;
 `;
 
 

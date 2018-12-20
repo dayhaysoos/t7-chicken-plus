@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { PersistGate } from 'redux-persist/integration/react';
-import { StatusBar } from 'react-native';
+import { StatusBar, SafeAreaView } from 'react-native';
 
 import { Provider } from 'react-redux';
 import configureStore from './redux/store';
@@ -19,14 +19,16 @@ class App extends Component {
     }
     render() {
         return (
-            <Provider store={store}>
-                <React.Fragment>
-                    <StatusBar translucent={false} barStyle="light-content" />
-                    <PersistGate loading={null} persistor={persistor}>
-                        <DrawerStack />
-                    </PersistGate>
-                </React.Fragment>
-            </Provider>
+            <SafeAreaView style={{ flex: 1, backgroundColor: 'black' }}>
+                <Provider store={store}>
+                    <React.Fragment>
+                        <StatusBar translucent={false} barStyle="light-content" />
+                        <PersistGate loading={null} persistor={persistor}>
+                            <DrawerStack />
+                        </PersistGate>
+                    </React.Fragment>
+                </Provider>
+            </SafeAreaView>
         );
     }
 }

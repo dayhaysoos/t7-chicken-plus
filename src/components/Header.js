@@ -9,7 +9,6 @@ const HeaderText = styled.Text`
 `;
 
 const HeaderContainer = styled.View`
-  height: 100; 
 `;
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { ImageBackground, Text } from 'react-native';
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 import styled from 'styled-components';
-import { black } from 'ansi-colors';
+
 
 const ButtonWrapper = styled.TouchableOpacity`
   flex: 3;
