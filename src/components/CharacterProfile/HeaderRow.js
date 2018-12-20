@@ -10,14 +10,12 @@ const SpreadsheetCell = styled.Text`
   width: 75;
   border-width: 1;
   color: ${({ theme: { text } }) => text};
-  background-color: ${({ theme: { primaryGradient2 } }) => primaryGradient2}
+  background-color: ${({ theme: { primaryGradient2 } }) => primaryGradient2};
 `;
 
-const NotationCell = styled(SpreadsheetCell)`
+
+const HeaderNotationCell = styled(SpreadsheetCell)`
   width: 200;
-`;
-
-const HeaderNotationCell = styled(NotationCell)`
 `;
 
 const HeaderRow = () => (
