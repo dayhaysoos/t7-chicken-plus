@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ScrollView, Modal, ActivityIndicator, } from 'react-native';
 import { connect } from 'react-redux';
-import styled, { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components/native';
 
 import MoveHeader from '../components/MoveHeader';
 import { GradientTheme } from '../common/GradientTheme';

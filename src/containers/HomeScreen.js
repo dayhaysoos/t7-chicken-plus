@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import SplashScreen from 'react-native-splash-screen';
 import MainMenuBanner from '../components/MainMenuBanner';
-import styled, { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components/native';
 import * as characterActions from '../redux/actions/characterActions';
 import { GradientTheme } from '../common/GradientTheme';
 import firebase from 'react-native-firebase';

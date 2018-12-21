@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 import { Alert } from 'react-native';
 import { Linking } from 'react-native';
 import FontAwesome, { Icons } from 'react-native-fontawesome';

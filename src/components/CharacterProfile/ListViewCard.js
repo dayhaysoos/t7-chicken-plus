@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import styled, { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components/native';
 import { Dimensions } from 'react-native';
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 

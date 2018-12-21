@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 import { Animated } from 'react-native';
 import PropTypes from 'prop-types';
 

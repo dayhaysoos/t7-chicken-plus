@@ -1,7 +1,7 @@
 import React from 'react';
 import { ImageBackground, Text } from 'react-native';
 import FontAwesome, { Icons } from 'react-native-fontawesome';
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 
 
 const ButtonWrapper = styled.TouchableOpacity`
