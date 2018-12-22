@@ -21,8 +21,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "test": "jest",
-    "codepush:android": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus-Android -d Production",
-    "codepush:ios": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus-IOS -d Production"
+    "codepush:android": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus-Android -d Production --mandatory",
+    "codepush:ios": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus-IOS -d Production --mandatory"
   },
   "jest": {
     "preset": "react-native",
