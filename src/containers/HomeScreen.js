@@ -4,9 +4,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import SplashScreen from 'react-native-splash-screen';
 import MainMenuBanner from '../components/MainMenuBanner';
-import styled, { ThemeProvider } from 'styled-components/native';
+import styled from 'styled-components/native';
 import * as characterActions from '../redux/actions/characterActions';
-import { GradientTheme } from '../common/GradientTheme';
 import firebase from 'react-native-firebase';
 import characterSelectBackground from '../../assets/images/mainMenu/character-select-background.png';
 import aboutTheTeam from '../../assets/images/mainMenu/about-the-team.png';
@@ -18,6 +17,7 @@ import MenuItem from '../components/HomeScreen/MenuItem';
 // styles
 const MainContainer = styled.View`
   flex: 1;
+  background-color: black;
 `;
 
 export const mapDispatchToProps = {
@@ -58,36 +58,31 @@ class HomeScreen extends React.Component {
     componentDidMount = createComponentDidMount(this);
 
     render() {
-        const { theme, navigation } = this.props;
+        const { navigation } = this.props;
         return (
-            <ThemeProvider theme={theme}>
-                <GradientTheme
-                    theme={theme}
-                >
-                    <MainContainer>
-                        <StatusBar
-                            barStyle="light-content"
-                        />
-                        <MainMenuBanner />
-                        <MenuItem
-                            navigateTo={() => navigation.navigate('CharacterSelect')}
-                            text={'Character Select'}
-                            imageUrl={characterSelectBackground}
-                        />
-                        <MenuItem
-                            navigateTo={() => navigation.navigate('RemoveAds')}
-                            text={'Ad Removal coming soon'}
-                            imageUrl={removeAds}
-                        />
-                        <MenuItem
-                            navigateTo={() => navigation.navigate('About')}
-                            text={'About the team'}
-                            imageUrl={aboutTheTeam}
-                        />
+            <MainContainer>
+                <StatusBar
+                    barStyle="light-content"
+                />
+                <MainMenuBanner />
+                <MenuItem
+                    navigateTo={() => navigation.navigate('CharacterSelect')}
+                    text={'Character Select'}
+                    imageUrl={characterSelectBackground}
+                />
+                <MenuItem
+                    navigateTo={() => navigation.navigate('RemoveAds')}
+                    text={'Ad Removal coming soon'}
+                    imageUrl={removeAds}
+                />
+                <MenuItem
+                    navigateTo={() => navigation.navigate('About')}
+                    text={'About the team'}
+                    imageUrl={aboutTheTeam}
+                />
 
-                    </MainContainer>
-                </GradientTheme>
-            </ThemeProvider >
+            </MainContainer>
+
         );
     }
 }

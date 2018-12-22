@@ -61,6 +61,11 @@ const EmptyText = styled.Text`
   marginLeft: 10;
 `;
 
+const Text = styled.Text`
+    color: white;
+    text-align: center;
+`;
+
 const FILTERS_INITIAL_STATE = {
     hitLevel: {
         high: false,
@@ -348,6 +353,7 @@ class CharacterProfile extends Component {
                                         this.dataIsScrolling = false;
                                     }}
                                 >
+                                    <Text>Star an attack to move it to the top</Text>
                                     <FlatList
                                         scrollEnabled={false}
                                         style={{ flex: 1 }}

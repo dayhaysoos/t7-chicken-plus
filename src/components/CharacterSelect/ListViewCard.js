@@ -42,7 +42,6 @@ const StarButton = styled.TouchableOpacity``;
 
 const ListViewCard = ({ label, favorite, onPress, onStarPress, displayName }) => (
     <ListViewWrapper>
-        {console.log('label', onPress)}
         <ListViewItem onPress={onPress}>
             <CharacterContainer>
                 <CharacterImage source={characterPortraits[label]} />
