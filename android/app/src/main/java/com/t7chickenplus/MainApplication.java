@@ -44,7 +44,7 @@ public class MainApplication extends Application implements ReactApplication {
             new RNFirebasePackage(),
             new RNFirebaseAdMobPackage(),
             new LinearGradientPackage(),
-            new CodePush("ZFTE0MjwY8sgvigH4Z0VXxz4A1DV49811cfd-9167-45ec-81da-4173a98555d0", getApplicationContext(), BuildConfig.DEBUG)
+            new CodePush("XybHZshAtSxHCqD3lQKJ_WVKyWtu49811cfd-9167-45ec-81da-4173a98555d0", getApplicationContext(), BuildConfig.DEBUG)
       );
     }
 

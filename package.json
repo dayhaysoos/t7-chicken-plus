@@ -20,7 +20,9 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "jest"
+    "test": "jest",
+    "codepush:android": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus-Android -d Production",
+    "codepush:ios": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus-IOS -d Production"
   },
   "jest": {
     "preset": "react-native",
@@ -53,7 +55,7 @@
     "react": "16.6.1",
     "react-native": "0.57.3",
     "react-native-admob": "^2.0.0-beta.5",
-    "react-native-code-push": "^5.4.2",
+    "react-native-code-push": "^5.5.1",
     "react-native-drawer": "^2.5.1",
     "react-native-firebase": "^5.1.1",
     "react-native-fontawesome": "^5.7.0",
