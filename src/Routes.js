@@ -66,8 +66,8 @@ const RootStack = createStackNavigator({
 const DrawerStack = createDrawerNavigator({
     Home: RootStack,
 }, {
-    contentComponent: HomeScreen
-}
+        contentComponent: HomeScreen
+    }
 );
 
 export default createAppContainer(DrawerStack);
