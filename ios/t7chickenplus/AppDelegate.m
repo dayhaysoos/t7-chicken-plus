@@ -12,7 +12,6 @@
 #import <React/RCTRootView.h>
 #import <Firebase.h>
 #import "RNSplashScreen.h"
-@import GoogleMobileAds;
 
 @implementation AppDelegate
 
@@ -36,7 +35,6 @@
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];
   rootViewController.view = rootView;
-  [GADMobileAds configureWithApplicationID:@"ca-app-pub-2131722019779391~6195514163"];
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
   [RNSplashScreen show];
