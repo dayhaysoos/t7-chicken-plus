@@ -5,15 +5,6 @@
       location = "group:../node_modules/react-native-iap/ios/RNIap.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../../../Downloads/match_Development_t7chickenplus.mobileprovision">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Library/MobileDevice/Provisioning Profiles/23706e8a-30ff-470e-85ab-45c47142469c.mobileprovision">
-   </FileRef>
-   <FileRef
-      location = "group:../../../Downloads/match_AppStore_t7chickenplus.mobileprovision">
-   </FileRef>
-   <FileRef
       location = "group:t7chickenplus.xcodeproj">
    </FileRef>
    <FileRef

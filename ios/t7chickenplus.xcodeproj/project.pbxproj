@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -1609,7 +1610,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = XPMM36ENSK;
 				HEADER_SEARCH_PATHS = (
@@ -1641,9 +1642,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = XPMM36ENSK;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1661,8 +1662,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = t7chickenplus;
 				PRODUCT_NAME = t7chickenplus;
-				PROVISIONING_PROFILE = "0d06cf49-7a1e-4e68-97c4-94130ae43192";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development t7chickenplus";
+				PROVISIONING_PROFILE = "b3bd6dd5-6c93-448e-8cd8-799853a489e0";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore t7chickenplus";
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
