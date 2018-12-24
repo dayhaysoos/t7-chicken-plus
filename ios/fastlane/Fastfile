@@ -40,18 +40,23 @@ platform :ios do
   end
 end
 
-
-  lane :beta do
-  match(
-    type: "appstore",
-    git_url: "https://github.com/ndejesus1227/t7-chicken-plus-codesign"
-  )
-  gym(scheme: "t7chickenplus")
-  pilot
-  end
-
 desc 'Fetch certificates and provisioning profiles'
   lane :certificates do
   match(app_identifier: 't7chickenplus', type: 'development', readonly: true)
   match(app_identifier: 't7chickenplus', type: 'appstore', readonly: true)
 end
+
+desc 'Build the iOS application.'
+private_lane :build do
+  certificates
+  increment_build_number(xcodeproj: './ios/t7chickenplus.xcodeproj')
+  gym(scheme: 't7chickenplus', project: './ios/t7chickenplus.xcodeproj')
+end
+
+desc 'Ship to Testflight.'
+  lane :beta do
+    build
+    pilot
+    commit_version_bump(message: 'Bump build', xcodeproj: './ios/t7chickenplus.xcodeproj')
+    push_to_git_remote
+  end
