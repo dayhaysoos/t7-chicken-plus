@@ -24,14 +24,12 @@ fastlane ios_icon
 ```
 fastlane beta
 ```
-Submit a new Beta Build to Apple TestFlight
 
-This will also make sure the profile is up to date
-### betaTest
+### certificates
 ```
-fastlane betaTest
+fastlane certificates
 ```
-
+Fetch certificates and provisioning profiles
 
 ----
 

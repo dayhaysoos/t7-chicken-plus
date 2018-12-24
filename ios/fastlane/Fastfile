@@ -17,6 +17,12 @@ APP_ID = "org.t7chickenplus"
 APP_PROFILE = "match Appstore org.t7chickenplus"
 TEAM = "Nick DeJesus"
 
+before_all do
+  ensure_git_branch(branch: 'develop')
+  ensure_git_status_clean
+  git_pull
+end
+
 
 default_platform(:ios)
 lane :ios_icon do
@@ -35,29 +41,17 @@ platform :ios do
 end
 
 
-  desc "Submit a new Beta Build to Apple TestFlight"
-  desc "This will also make sure the profile is up to date"
   lane :beta do
-    match(
-      type: "appstore",
-      git_url: "https://github.com/ndejesus1227/t7-chicken-plus-codesign"
-    ) # more information: https://codesigning.guide   
-    gym(
-      scheme: "t7chickenplus",
-        export_options: {
-          method: "app-store",
-          export_xcargs: "-allowProvisioningUpdates",
-          export_team_id: "Nick DeJesus",
-          provisioningProfiles: { 
-            "org.t7chickenplus" => "t7chickenplus",
-            }
-        }
-      )
-      pilot
-    end
-
-  lane :betaTest do
-  increment_build_number
-  build_app
-  upload_to_testflight
+  match(
+    type: "appstore",
+    git_url: "https://github.com/ndejesus1227/t7-chicken-plus-codesign"
+  )
+  gym(scheme: "t7chickenplus")
+  pilot
   end
+
+desc 'Fetch certificates and provisioning profiles'
+  lane :certificates do
+  match(app_identifier: 't7chickenplus', type: 'development', readonly: true)
+  match(app_identifier: 't7chickenplus', type: 'appstore', readonly: true)
+end
