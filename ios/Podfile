@@ -8,8 +8,6 @@ target 't7chickenplus' do
   # Pods for t7chickenplus
   pod 'Firebase/Core'
 
-  pod 'Google-Mobile-Ads-SDK'
-
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
