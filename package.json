@@ -13,7 +13,7 @@
     "jest": "^23.6.0",
     "jest-react-native": "^18.0.0",
     "metro-react-native-babel-preset": "^0.48.1",
-    "react-test-renderer": "16.6.1",
+    "react-test-renderer": "16.7.0",
     "standard": "^11.0.1"
   },
   "scripts": {
@@ -52,8 +52,8 @@
     "jest-styled-components": "^7.0.0-2",
     "namespace-constants": "^0.5.0",
     "prop-types": "^15.6.1",
-    "react": "16.6.1",
-    "react-native": "0.57.3",
+    "react": "16.7.0",
+    "react-native": "0.57.8",
     "react-native-code-push": "^5.5.1",
     "react-native-drawer": "^2.5.1",
     "react-native-firebase": "^5.1.1",
