@@ -43,7 +43,6 @@
 		830C1BBA21D08CEB000BA974 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9214D5F3C743DC88744EF4 /* libz.tbd */; };
 		830C1BBB21D08DBB000BA974 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DFD9AF217DB55A00C2F1BD /* libBVLinearGradient.a */; };
 		830C1E5F21D0BC7C000BA974 /* libPods-t7chickenplus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 830C1E5E21D0BC7C000BA974 /* libPods-t7chickenplus.a */; };
-		830C1F5D21D18956000BA974 /* libFirebaseCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 830C1F5C21D18956000BA974 /* libFirebaseCore.a */; };
 		8312D8E9217E9FEA0030FBFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8312D8BE217E9FEA0030FBFA /* GoogleService-Info.plist */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		83833690217EE4FF00496FB3 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83833665217EE4FF00496FB3 /* fontawesome-webfont.ttf */; };
@@ -422,7 +421,6 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		8192C453BD6440E5B9FD5F3C /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCodePush.a; sourceTree = "<group>"; };
 		830C1E5E21D0BC7C000BA974 /* libPods-t7chickenplus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-t7chickenplus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		830C1F5C21D18956000BA974 /* libFirebaseCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8312D8BE217E9FEA0030FBFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		83833665217EE4FF00496FB3 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
@@ -457,7 +455,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830C1F5D21D18956000BA974 /* libFirebaseCore.a in Frameworks */,
 				830C1E5F21D0BC7C000BA974 /* libPods-t7chickenplus.a in Frameworks */,
 				830C1BBB21D08DBB000BA974 /* libBVLinearGradient.a in Frameworks */,
 				830C1BBA21D08CEB000BA974 /* libz.tbd in Frameworks */,
@@ -629,7 +626,6 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				830C1F5C21D18956000BA974 /* libFirebaseCore.a */,
 				830C1E5E21D0BC7C000BA974 /* libPods-t7chickenplus.a */,
 				83932D3321A538AC00FFB44A /* GoogleMobileAds.framework */,
 				838726D021A3AF0300DAAD07 /* StoreKit.framework */,
@@ -1618,7 +1614,7 @@
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = XPMM36ENSK;
 				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
+					"$(inherited)/**",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
@@ -1651,7 +1647,7 @@
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = XPMM36ENSK;
 				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
+					"$(inherited)/**",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
