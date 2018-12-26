@@ -111,15 +111,15 @@ android {
             abiFilters "armeabi-v7a", "x86"
         }
     }
-    signingConfigs {
-        release {
-            if(project.hasProperty('T7CHICKEN_RELEASE_STORE_FILE')) {
-                storeFile file(T7CHICKEN_RELEASE_STORE_FILE)
-                storePassword T7CHICKEN_RELEASE_STORE_PASSWORD
-                keyAlias T7CHICKEN_RELEASE_KEY_ALIAS
-                keyPassword T7CHICKEN_RELEASE_KEY_PASSWORD
-            }
-        }
+    // signingConfigs {
+    //     release {
+    //         if(project.hasProperty('T7CHICKEN_RELEASE_STORE_FILE')) {
+    //             storeFile file(T7CHICKEN_RELEASE_STORE_FILE)
+    //             storePassword T7CHICKEN_RELEASE_STORE_PASSWORD
+    //             keyAlias T7CHICKEN_RELEASE_KEY_ALIAS
+    //             keyPassword T7CHICKEN_RELEASE_KEY_PASSWORD
+    //         }
+    //     }
     }
     splits {
         abi {
