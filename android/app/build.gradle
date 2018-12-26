@@ -152,6 +152,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-admob')
     compile project(':react-native-gesture-handler')
     compile project(':react-native-iap')
     compile (project(':react-native-iap')) {
