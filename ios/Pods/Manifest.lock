@@ -49,23 +49,10 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
-  - React (0.11.0):
-    - React/Core (= 0.11.0)
-  - react-native-splash-screen (3.1.1):
-    - React
-  - React/Core (0.11.0)
-  - RNFirebase (5.1.1):
-    - Firebase/Core
-    - React
-  - RNGestureHandler (1.0.12):
-    - React
 
 DEPENDENCIES:
   - Firebase/Core
   - Google-Mobile-Ads-SDK
-  - react-native-splash-screen (from `../node_modules/react-native-splash-screen`)
-  - RNFirebase (from `../node_modules/react-native-firebase/ios`)
-  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -77,15 +64,6 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - nanopb
-    - React
-
-EXTERNAL SOURCES:
-  react-native-splash-screen:
-    :path: "../node_modules/react-native-splash-screen"
-  RNFirebase:
-    :path: "../node_modules/react-native-firebase/ios"
-  RNGestureHandler:
-    :path: "../node_modules/react-native-gesture-handler"
 
 SPEC CHECKSUMS:
   Firebase: 6691d47562a780c26281ce8464518faafc90c610
@@ -96,11 +74,7 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 2b3a023a61239c8d002e6e4fcf4abce8eddce0e0
   GoogleUtilities: 8208aee3e97a1ae93d44c57e96c476a5a3b03f0a
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
-  react-native-splash-screen: 8e3f866dc79bfe533baeffd0a38c33f7a7eae7f8
-  RNFirebase: 2b25fd2e60269f26bb0a76c71dcc942b35a77df0
-  RNGestureHandler: 282af6ea58ed8483612365159c58a3ca5f55e7da
 
-PODFILE CHECKSUM: 8cbaa537f28d713e323862934f57da62a61dffda
+PODFILE CHECKSUM: 84e598d8f0a8c96ae4474ab63984b01374989b0c
 
 COCOAPODS: 1.5.3
