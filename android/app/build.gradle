@@ -149,7 +149,6 @@ android {
             }
         }
     }
-}
 
 dependencies {
     compile project(':react-native-gesture-handler')
