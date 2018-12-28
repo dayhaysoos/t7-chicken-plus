@@ -20,18 +20,16 @@ or alternatively using `brew cask install fastlane`
 fastlane ios_icon
 ```
 
+### certificates
+```
+fastlane certificates
+```
+Fetch certificates and provisioning profiles
 ### beta
 ```
 fastlane beta
 ```
-Submit a new Beta Build to Apple TestFlight
-
-This will also make sure the profile is up to date
-### betaTest
-```
-fastlane betaTest
-```
-
+Ship to Testflight.
 
 ----
 

@@ -33,4 +33,10 @@ class App extends Component {
     }
 }
 
-export default CodePush(App);
+let codePushOptions = {
+    checkFrequency: CodePush.CheckFrequency.ON_APP_START,
+    installMode: CodePush.InstallMode.IMMEDIATE,
+    updateDialog: true
+};
+
+export default CodePush(codePushOptions)(App);

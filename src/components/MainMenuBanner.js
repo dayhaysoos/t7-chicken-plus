@@ -79,7 +79,7 @@ const MainMenuBanner = () => (
             <TouchableSocial onPress={onIconPress('https://www.twitch.tv/t7chicken')}>
                 <SocialIcon color={'#6441a5'}>{Icons.twitch}</SocialIcon>
             </TouchableSocial>
-            <IconPngWrapper onPress={onIconPress('https://www.twitch.tv/t7chicken')}>
+            <IconPngWrapper onPress={onIconPress('https://discord.gg/79KyRwT')}>
                 <IconPng source={discordPng} />
             </IconPngWrapper>
         </SocialIconsWrapper>
