@@ -310,6 +310,7 @@ class CharacterProfile extends Component {
                                 headerTranslate={headerTranslate}
                                 imageTranslate={imageTranslate}
                             />
+
                             <Animated.ScrollView
                                 stickyHeaderIndices={listView ? [] : [0]}
                                 contentContainerStyle={{ paddingTop: HEADER_MAX_HEIGHT }}
@@ -339,6 +340,7 @@ class CharacterProfile extends Component {
                                         <HeaderRow />
                                     </ScrollView>}
 
+
                                 <ScrollView
                                     bounces={false}
                                     horizontal={!listView}
@@ -353,7 +355,6 @@ class CharacterProfile extends Component {
                                         this.dataIsScrolling = false;
                                     }}
                                 >
-                                    <Text>Star an attack to move it to the top</Text>
                                     <FlatList
                                         scrollEnabled={false}
                                         style={{ flex: 1 }}

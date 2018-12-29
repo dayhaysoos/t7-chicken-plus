@@ -70,7 +70,7 @@ const onIconPress = (url) => async () => {
 
 const MainMenuBanner = () => (
     <Container >
-        <GiantText>T7 Chicken Plus</GiantText>
+        <GiantText>T7 Chicken Plus (Beta)</GiantText>
         <SocialIconsWrapper>
             <TouchableSocial onPress={onIconPress('https://www.twitter.com/t7chicken')}>
                 <SocialIcon color={'#1DA1F2'}>{Icons.twitter}</SocialIcon>
