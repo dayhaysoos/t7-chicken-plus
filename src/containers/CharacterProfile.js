@@ -64,6 +64,8 @@ const EmptyText = styled.Text`
 const Text = styled.Text`
     color: white;
     text-align: center;
+    font-size: 18;
+    margin-bottom: 15;
 `;
 
 const FILTERS_INITIAL_STATE = {
@@ -339,8 +341,7 @@ class CharacterProfile extends Component {
                                     >
                                         <HeaderRow />
                                     </ScrollView>}
-
-
+                                {listView ? <Text>Star an attack to move it to the top</Text> : null}
                                 <ScrollView
                                     bounces={false}
                                     horizontal={!listView}
@@ -357,7 +358,7 @@ class CharacterProfile extends Component {
                                 >
                                     <FlatList
                                         scrollEnabled={false}
-                                        style={{ flex: 1 }}
+                                        style={{ flex: 1, width: '100%' }}
                                         contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', zIndex: 999 }}
                                         data={data}
                                         numColumns={1}

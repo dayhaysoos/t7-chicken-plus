@@ -81,21 +81,21 @@ class BottomMenuBar extends Component {
                         </MenuButton>
                     )}
 
-                    {onPressFavoriteFilter && (
-                        <MenuButton onPress={onPressFavoriteFilter}>
-                            <MenuIconText>
-                                <MenuIcon>{Icons.star}</MenuIcon>
-                            </MenuIconText>
-                            <MenuLabelText>Toggle Favorites</MenuLabelText>
-                        </MenuButton>
-                    )}
-
                     {toggleListView && (
                         <MenuButton onPress={toggleListView}>
                             <MenuIconText>
                                 <MenuIcon>{isListView ? Icons.th : Icons.list}</MenuIcon>
                             </MenuIconText>
                             <MenuLabelText>Switch View</MenuLabelText>
+                        </MenuButton>
+                    )}
+
+                    {onPressFavoriteFilter && (
+                        <MenuButton onPress={onPressFavoriteFilter}>
+                            <MenuIconText>
+                                <MenuIcon>{Icons.star}</MenuIcon>
+                            </MenuIconText>
+                            <MenuLabelText>Toggle Favorites</MenuLabelText>
                         </MenuButton>
                     )}
 

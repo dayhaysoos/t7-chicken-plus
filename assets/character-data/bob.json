@@ -5677,27 +5677,6 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "COMMAND",
-      "range": "RANGE",
-      "pushback": "GAP",
-      "tracking": "TRACKING",
-      "crush": "CRUSH",
-      "jail": "JAIL",
-      "natural": "NC / NCc",
-      "damage": "DAMAGE",
-      "speed": "START UP",
-      "on_block": "ON BLOCK",
-      "on_hit": "ON HIT",
-      "on_ch": "ON CH",
-      "in_air": "AIR",
-      "active_frames": "ACTIVE",
-      "notes": "NOTES",
-      "id": "bob_271"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
       "notation": "f, n, d, D/F",
       "range": "-",
       "pushback": "-",
@@ -5713,7 +5692,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_272"
+      "id": "bob_271"
     },
     {
       "properties": [],
@@ -5734,7 +5713,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_273"
+      "id": "bob_272"
     }
   ]
 }

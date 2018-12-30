@@ -4480,27 +4480,6 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "COMMAND",
-      "range": "RANGE",
-      "pushback": "PUSHBACK",
-      "tracking": "TRACKING",
-      "crush": "CRUSH",
-      "jail": "JAIL",
-      "natural": "NC / NCc",
-      "damage": "DAMAGE",
-      "speed": "START UP",
-      "on_block": "ON BLOCK",
-      "on_hit": "ON HIT",
-      "on_ch": "ON CH",
-      "in_air": "OC / OCc",
-      "active_frames": "",
-      "notes": "",
-      "id": "asuka_214"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
       "notation": "u/b, b",
       "range": "-",
       "pushback": "-",
@@ -4516,7 +4495,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "asuka_215"
+      "id": "asuka_214"
     },
     {
       "properties": [],
@@ -4537,7 +4516,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "asuka_216"
+      "id": "asuka_215"
     }
   ]
 }

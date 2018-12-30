@@ -6,7 +6,7 @@ const NotationRow = styled.View`
 `;
 
 const SpreadsheetCell = styled.Text`
-  height: 80;
+  height: 40;
   width: 75;
   border-width: 1;
   color: ${({ theme: { text } }) => text};
@@ -15,18 +15,18 @@ const SpreadsheetCell = styled.Text`
 
 
 const HeaderNotationCell = styled(SpreadsheetCell)`
-  width: 200;
+  width: 150;
 `;
 
 const HeaderRow = () => (
     <NotationRow>
         <HeaderNotationCell>Notation</HeaderNotationCell>
-        <SpreadsheetCell>Hit Level(s)</SpreadsheetCell>
-        <SpreadsheetCell>Damage</SpreadsheetCell>
         <SpreadsheetCell>Speed</SpreadsheetCell>
         <SpreadsheetCell>On Block</SpreadsheetCell>
         <SpreadsheetCell>On Hit</SpreadsheetCell>
         <SpreadsheetCell>Counter Hit</SpreadsheetCell>
+        <SpreadsheetCell>Hit Level(s)</SpreadsheetCell>
+        <SpreadsheetCell>Damage</SpreadsheetCell>
     </NotationRow>
 );
 
