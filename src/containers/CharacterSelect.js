@@ -149,8 +149,6 @@ class CharacterSelect extends Component {
         const { theme, navigation, listView, toggleListView, characterData, } = this.props;
         const { showFavorites, searchTerm } = this.state;
 
-        console.log('char data', characterData);
-
         const data = showFavorites ? characterData.filter(char => char.favorite) : characterData;
 
         const searchedData = data.filter(({ label }) => label.includes(searchTerm.toLowerCase()));
