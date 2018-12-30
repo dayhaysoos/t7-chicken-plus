@@ -33,7 +33,9 @@ import masterraven from '../../assets/character-data/masterraven.json';
 import marduk from '../../assets/character-data/marduk.json';
 import miguel from '../../assets/character-data/miguel.json';
 import nina from '../../assets/character-data/nina.json';
+import noctis from '../../assets/character-data/noctis.json';
 import paul from '../../assets/character-data/paul.json';
+import shaheen from '../../assets/character-data/shaheen.json';
 import steve from '../../assets/character-data/steve.json';
 import xiaoyu from '../../assets/character-data/xiaoyu.json';
 import yoshimitsu from '../../assets/character-data/yoshimitsu.json';
@@ -74,7 +76,9 @@ export const characterMoves = {
     marduk: marduk,
     miguel: miguel,
     nina: nina,
+    noctis: noctis,
     paul: paul,
+    shaheen: shaheen,
     steve: steve,
     xiaoyu: xiaoyu,
     yoshimitsu: yoshimitsu,

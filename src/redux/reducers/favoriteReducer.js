@@ -42,6 +42,7 @@ export const INITIAL_STATE = {
         noctis: {},
         panda: {},
         paul: {},
+        shaheen: {},
         steve: {},
         xiaoyu: {},
         yoshimitsu: {}
