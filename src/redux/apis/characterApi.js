@@ -12,7 +12,7 @@ export const BLOB_FETCH_ERROR = 'BLOB_FETCH_ERROR';
 export const BLOB_FETCH_OFFLINE = 'BLOB_FETCH_OFFLINE';
 export const BLOB_SHOW_SPREADSHEETPROMPT = 'BLOB_SHOW_SPREADSHEETPROMPT';
 
-const CHAR_DATA_API = 'http://localhost:8000/';
+const CHAR_DATA_API = 'http://localhost:8000DERP/';
 const CHAR_METADATA_API = 'http://api.tekkenchicken.com/api/metadata/';
 
 export const checkIfDataOutdated = async (localTimeStamp) => {
