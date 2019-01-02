@@ -11,6 +11,7 @@ export const INITIAL_STATE = {
         asuka: {},
         bob: {},
         bryan: {},
+        claudio: {},
         deviljin: {},
         dragunov: {},
         eddy: {},
