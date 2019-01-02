@@ -10,14 +10,22 @@ const SpreadsheetRow = styled.TouchableOpacity`
 `;
 
 const SpreadsheetCell = styled.Text`
-  height: 80;
+  flex-wrap: wrap;
+  min-height: 40;
+  max-height: 100%;
   width: 75;
   border-width: 1;
   color: ${({ theme: { text } }) => text};
+  padding-top: 10;
+  padding-left: 10;
+  padding-bottom: 5;
+  padding-right: 5;
 `;
 
 const NotationCell = styled(SpreadsheetCell)`
-  width: 200;
+  width: 150;
+  min-height: 40;
+  max-height: 100%;
 `;
 
 
@@ -52,12 +60,12 @@ class SpreadSheetRow extends Component {
                     onPress={() => this.navigateToCharacterMove(item, name, id)}
                 >
                     <NotationCell>{notation}</NotationCell>
-                    <SpreadsheetCell>{hit_level}</SpreadsheetCell>
-                    <SpreadsheetCell>{damage}</SpreadsheetCell>
                     <SpreadsheetCell>{speed}</SpreadsheetCell>
                     <SpreadsheetCell>{on_block}</SpreadsheetCell>
                     <SpreadsheetCell>{on_hit}</SpreadsheetCell>
                     <SpreadsheetCell>{on_ch}</SpreadsheetCell>
+                    <SpreadsheetCell>{hit_level}</SpreadsheetCell>
+                    <SpreadsheetCell>{damage}</SpreadsheetCell>
                 </SpreadsheetRow>
             </ThemeProvider>
         );

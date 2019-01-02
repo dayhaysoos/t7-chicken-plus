@@ -6057,28 +6057,6 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "COMMAND",
-      "hit_level": "HIT LEVEL",
-      "range": "RANGE",
-      "pushback": "PUSHBACK",
-      "tracking": "TRACKING",
-      "crush": "CRUSH",
-      "jail": "JAIL",
-      "natural": "NC / NCc",
-      "damage": "DAMAGE",
-      "speed": "START UP",
-      "on_block": "ON BLOCK",
-      "on_hit": "ON HIT",
-      "on_ch": "ON CH",
-      "in_air": "",
-      "active_frames": "ACTIVE",
-      "notes": "",
-      "id": "master raven_276"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
       "notation": "d, d/f, n + (x) or d, d/b, n + (x)",
       "hit_level": "-",
       "range": "-",
@@ -6095,7 +6073,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_277"
+      "id": "master raven_276"
     },
     {
       "properties": [],
@@ -6117,7 +6095,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_278"
+      "id": "master raven_277"
     },
     {
       "properties": [],
@@ -6139,7 +6117,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_279"
+      "id": "master raven_278"
     },
     {
       "properties": [],
@@ -6161,7 +6139,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_280"
+      "id": "master raven_279"
     },
     {
       "properties": [],
@@ -6183,7 +6161,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_281"
+      "id": "master raven_280"
     },
     {
       "properties": [],
@@ -6205,7 +6183,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_282"
+      "id": "master raven_281"
     },
     {
       "properties": [],
@@ -6227,7 +6205,7 @@
       "in_air": "-",
       "active_frames": "8",
       "notes": "-",
-      "id": "master raven_283"
+      "id": "master raven_282"
     }
   ]
 }
