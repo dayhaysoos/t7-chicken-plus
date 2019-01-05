@@ -31,6 +31,13 @@ const getCharacterDataSuccess = (state, { payload: characterData }) => ({
     ...characterData
 });
 
+/**
+ * @function updateMoveData
+ * @describe updates currentAttack with move id and updates moveData with selected attack
+ * @param {Object} state 
+ * @param {String} param1 character move id
+ * @returns {Object} updated state
+ */
 const updateMoveData = (state, { payload: id }) => ({
     ...state,
     currentAttack: id,

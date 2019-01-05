@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 
 const NotationRow = styled.View`
   flex-direction: row;
@@ -19,15 +19,15 @@ const HeaderNotationCell = styled(SpreadsheetCell)`
 `;
 
 const HeaderRow = () => (
-    <NotationRow>
-        <HeaderNotationCell>Notation</HeaderNotationCell>
-        <SpreadsheetCell>Speed</SpreadsheetCell>
-        <SpreadsheetCell>On Block</SpreadsheetCell>
-        <SpreadsheetCell>On Hit</SpreadsheetCell>
-        <SpreadsheetCell>Counter Hit</SpreadsheetCell>
-        <SpreadsheetCell>Hit Level(s)</SpreadsheetCell>
-        <SpreadsheetCell>Damage</SpreadsheetCell>
-    </NotationRow>
+  <NotationRow>
+    <HeaderNotationCell>Notation</HeaderNotationCell>
+    <SpreadsheetCell>Speed</SpreadsheetCell>
+    <SpreadsheetCell>On Block</SpreadsheetCell>
+    <SpreadsheetCell>On Hit</SpreadsheetCell>
+    <SpreadsheetCell>Counter Hit</SpreadsheetCell>
+    <SpreadsheetCell>Hit Level(s)</SpreadsheetCell>
+    <SpreadsheetCell>Damage</SpreadsheetCell>
+  </NotationRow>
 );
 
 export default HeaderRow;

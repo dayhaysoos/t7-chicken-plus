@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Container = styled.View`
@@ -45,7 +45,7 @@ class SearchBar extends React.Component {
         this.input.setNativeProps({ text: '' });
     }
 
-    render (){
+    render() {
         return (
             <Container>
                 <SearchIcon>🔍</SearchIcon>

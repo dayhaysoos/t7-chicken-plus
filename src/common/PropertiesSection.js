@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 
 const MainContainer = styled.View`
   flex: 1;
@@ -27,19 +27,19 @@ const PropertyText = styled.Text`
 
 
 const PropertiesSection = ({ type, properties }) => (
-    <MainContainer>
-        <Header>
-            <HeaderTitle>
-                {`${type} properties`}
-            </HeaderTitle>
+  <MainContainer>
+    <Header>
+      <HeaderTitle>
+        {`${type} properties`}
+      </HeaderTitle>
 
-        </Header>
-    </MainContainer>
+    </Header>
+  </MainContainer>
 );
 
 PropertiesSection.propTypes = {
-    type: PropTypes.string,
-    properties: PropTypes.array,
+  type: PropTypes.string,
+  properties: PropTypes.array,
 };
 
 export default PropertiesSection;

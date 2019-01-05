@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { TouchableHighlight } from 'react-native';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 const StarIcon = styled(FontAwesome)`
