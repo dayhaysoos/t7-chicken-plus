@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
-import characterDataReducer from './characterReducer';
+import characterData from './characterReducer';
 import theme from './themeReducer';
 import settings from './settingsReducer';
 import favorites from './favoriteReducer';
 
 const rootReducer = combineReducers({
-    characterData: characterDataReducer,
+    characterData,
     theme,
     settings,
     favorites

@@ -44,11 +44,23 @@ const updateMoveData = (state, { payload: id }) => ({
     moveData: state.selectedCharacterMoves[id]
 });
 
+/**
+ * @function updateSelectedCharacterMoves
+ * @description update selectedCharacter with the movelist of the selected character
+ * @param {Object} state
+ * @param {Array<Object>} moveList 
+ */
 const updateSelectedCharacterMoves = (state, { payload: moveList }) => ({
     ...state,
     selectedCharacterMoves: moveList
 });
 
+/**
+ * @function incrementMoveIndex
+ * @description increment the move index to reference correct attack
+ * @param {Object} state
+ * @returns the expected attack after incrementing
+ */
 const incrementMoveIndex = (state) => {
     const currentAttackNumber = parseInt(state.currentAttack.split('_')[1]);
     const currentAttackCharacter = state.currentAttack.split('_')[0];
@@ -59,6 +71,12 @@ const incrementMoveIndex = (state) => {
     };
 };
 
+/**
+ * @function decrementMoveIndex
+ * @description decrement the move index to reference correct attack
+ * @param {Object} state
+ * @returns the expected attack for decrementing
+ */
 const decrementMoveIndex = (state) => {
     const currentAttackNumber = parseInt(state.currentAttack.split('_')[1]);
     const currentAttackCharacter = state.currentAttack.split('_')[0];
