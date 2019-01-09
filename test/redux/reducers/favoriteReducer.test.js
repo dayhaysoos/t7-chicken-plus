@@ -57,11 +57,9 @@ describe('Favorite Reducer', () => {
 
         expect(INITIAL_STATE).toEqual(state);
     });
-});
 
-describe('toggleCharacterStar - adding starred character', () => {
+
     it('adds character name to character object in favorite reducer', () => {
-
         const result = favoriteReducer({ ...INITIAL_STATE }, favoriteActions.toggleCharacterStar('feng'));
 
         expect(result).toEqual({
@@ -71,9 +69,7 @@ describe('toggleCharacterStar - adding starred character', () => {
             }
         });
     });
-});
 
-describe('toggleCharacterStar - removing starred character', () => {
     it('removes character name from character object in favorite reducer if the name is already there', () => {
         const newState = {
             ...INITIAL_STATE,
@@ -88,9 +84,7 @@ describe('toggleCharacterStar - removing starred character', () => {
             characters: {}
         });
     });
-});
 
-describe('toggleMoveStar - adding starred move', () => {
     it('adds character move to character name object', () => {
         const result = favoriteReducer({ ...INITIAL_STATE }, favoriteActions.toggleMoveStar('feng_1'));
 
@@ -104,10 +98,8 @@ describe('toggleMoveStar - adding starred move', () => {
             }
         });
     });
-});
 
 
-describe('toggleMoveStar - adding starred move', () => {
     it('adds character move to character name object', () => {
         const result = favoriteReducer({ ...INITIAL_STATE }, favoriteActions.toggleMoveStar('feng_1'));
 
@@ -138,4 +130,5 @@ describe('toggleMoveStar - adding starred move', () => {
             ...INITIAL_STATE
         });
     });
+
 });
