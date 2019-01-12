@@ -36,7 +36,7 @@ describe('Settings Reducer', () => {
 
         expect(result).toEqual({
             ...INITIAL_STATE,
-            listView: false
+            listView: true
         });
     });
 
