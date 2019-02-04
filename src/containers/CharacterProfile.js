@@ -28,7 +28,11 @@ import FilterMenu from '../components/FilterMenu';
 import firebase from 'react-native-firebase';
 import AdBanner from '../components/AdBanner';
 
-import filterMoves from '../utils/filterFuncs';
+// filters
+import * as filters from '../utils/filterFuncs';
+
+//selectors
+import { filterMoves } from '../selectors/characterProfile';
 
 export const mapDispatcthToProps = {
     ...characterActions,
@@ -36,15 +40,22 @@ export const mapDispatcthToProps = {
     ...favoriteActions
 };
 
-export const mapStateToProps = ({ favorites, theme, settings: { listView } }, ownProps) => ({
+export const mapStateToProps = ({
+    characterData: { selectedCharacterMoves },
+    favorites,
+    filter: { activeFilters },
+    theme,
+    settings: { listView } }, ownProps
+) => ({
     listView,
     theme,
     favorites,
-    favoriteMoves: getFavoriteMoves({
-        moves: favorites.moves,
-        label: ownProps.navigation.getParam('label'),
-        moveList: ownProps.navigation.getParam('moveList')
-    })
+    selectedCharacterMoves: filterMoves(selectedCharacterMoves, activeFilters),
+    // favoriteMoves: getFavoriteMoves({
+    //     moves: favorites.moves,
+    //     label: ownProps.navigation.getParam('label'),
+    //     moveList: ownProps.navigation.getParam('moveList')
+    // })
 });
 
 const HEADER_MAX_HEIGHT = 300;
@@ -181,11 +192,8 @@ class CharacterProfile extends Component {
     componentDidMount() {
         const { navigation, listView } = this.props;
         //const moveListArray = navigation.getParam('moveList');
-        const moveListArray = this.props.favoriteMoves;
         const charName = navigation.getParam('name');
         const isFavorite = navigation.getParam('favorite');
-
-        this.setState({ moveListArray, unFilteredMoveList: moveListArray });
 
         firebase.analytics().logEvent('Screen_Character_Profile', {
             character: charName,
@@ -238,21 +246,7 @@ class CharacterProfile extends Component {
     }
 
     searchMoveList(input, moveList) {
-        const mappedMoveList = Object.keys(moveList).map(move => moveList[move]);
-        if (input.includes('+')) {
-            return mappedMoveList.filter(
-                ({ notation }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
-            );
-        } else {
-            return mappedMoveList.filter(
-                ({ notation }) => notation.replace(/[ ,+]/g, '').includes(input.replace(/[ ,+]/g, ''))
-            );
-        }
-    }
-
-
-    filterMoveList(filterFunction) {
-        this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
+        return [];
     }
 
     onDrawerClose = () => {
@@ -261,14 +255,30 @@ class CharacterProfile extends Component {
         });
     }
 
+    // filterMoves = (characterMoves) => {
+    //     const { activeFilters } = this.props;
+
+    //     const filteredMoves = activeFilters.map((activeFilter) => {
+    //         const { filterProperty, filterType } = activeFilter;
+    //         console.log('active?', activeFilter);
+    //         return filters[filterProperty].filters[filterType].filterFunction(characterMoves);
+    //     });
+
+    //     console.log('filtered move result', filteredMoves);
+
+    // }
+
 
     render() {
-        const { navigation, navigation: { state: { params: { label, name } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
+        const { selectedCharacterMoves, navigation, navigation: { state: { params: { label, name } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
+
         const { isOpen, side, scrollY, searchTerm } = this.state;
 
-        const filteredData = filterMoves(favoriteMoves, this.state.filters);
-        const searchedData = this.searchMoveList(searchTerm, filteredData);
-        const data = [...searchedData].sort(this.sortByFav);
+        // const data = [...searchedData].sort(this.sortByFav);
+
+        const data = Object.keys(selectedCharacterMoves).map(move => selectedCharacterMoves[move]);
+
+        //this.filterMoves(data);
 
         const headerTranslate = scrollY.interpolate({
             inputRange: [0, HEADER_SCROLL_DISTANCE],
@@ -286,18 +296,12 @@ class CharacterProfile extends Component {
             extrapolate: 'clamp',
         });
 
+
         return (
             <ThemeProvider theme={theme}>
                 <DrawerSwitcher
                     component={
-                        <FilterMenu
-                            resetFilters={this.resetFilters}
-                            toggleHitLevelChange={this.toggleHitLevelChange}
-                            onBlockChange={this.onBlockChange}
-                            turnOnBlockFilter={this.turnOnBlockFilter}
-                            turnOffBlockFilter={this.turnOffBlockFilter}
-                            activeFilters={this.state.filters}
-                        />
+                        <FilterMenu />
                     }
                     side={side}
                     isOpen={isOpen}
@@ -360,7 +364,7 @@ class CharacterProfile extends Component {
                                         scrollEnabled={false}
                                         style={{ flex: 1, width: '100%' }}
                                         contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', zIndex: 999 }}
-                                        data={data}
+                                        data={selectedCharacterMoves}
                                         numColumns={1}
                                         keyExtractor={(item, index) => index.toString()}
                                         renderItem={({ item }) => (listView ?
@@ -382,7 +386,6 @@ class CharacterProfile extends Component {
                                 isListView={listView}
                                 navigation={navigation}
                                 onPressFilterMenu={this.openRightDrawer}
-                                searchFunction={(input) => this.searchMoveList(input)}
                                 toggleListView={toggleListView}
                                 handleSearchTextChange={(searchTerm) => this.setState({ searchTerm })}
                             />
