@@ -126,68 +126,6 @@ class CharacterProfile extends Component {
         filters: { ...FILTERS_INITIAL_STATE }
     }
 
-    resetFilters = () => this.setState({ filters: { ...FILTERS_INITIAL_STATE } })
-
-    toggleHitLevelChange = (level) => {
-        this.setState((prevState) => {
-            const newState = {
-                ...prevState,
-                filters: {
-                    ...prevState.filters
-                }
-            };
-
-            newState.filters.hitLevel[level] = !prevState.filters.hitLevel[level];
-            return newState;
-        });
-    }
-
-    onBlockChange = (operator, value) => {
-        if (!this.state.filters.onBlock.active) return;
-        this.setState(prevState => {
-            const newState = {
-                ...prevState,
-                filters: {
-                    ...prevState.filters,
-                    onBlock: {
-                        ...prevState.filters.onBlock,
-                        active: true,
-                        value,
-                        operator
-                    }
-                }
-            };
-            return newState;
-        });
-    }
-
-    turnOnBlockFilter = (operator, value) => {
-        if (!operator || !value) return;
-
-        this.setState(prevState => ({
-            ...prevState,
-            filters: {
-                ...prevState.filters,
-                onBlock: {
-                    active: true,
-                }
-            }
-        }), () => this.onBlockChange(operator, value));
-    }
-
-    turnOffBlockFilter = () => {
-        this.setState(prevState => ({
-            filters: {
-                ...prevState.filters, onBlock: {
-                    active: false,
-                    value: '',
-                    operator: ''
-                }
-            }
-        }));
-    }
-
-
 
     componentDidMount() {
         const { navigation, listView } = this.props;
@@ -212,10 +150,6 @@ class CharacterProfile extends Component {
                 favoriteToggled: true
             });
         }
-    }
-
-    setCharacterProfileState = (obj) => {
-        this.setState(obj);
     }
 
     openRightDrawer = () => {
@@ -255,28 +189,12 @@ class CharacterProfile extends Component {
         });
     }
 
-    // filterMoves = (characterMoves) => {
-    //     const { activeFilters } = this.props;
-
-    //     const filteredMoves = activeFilters.map((activeFilter) => {
-    //         const { filterProperty, filterType } = activeFilter;
-    //         console.log('active?', activeFilter);
-    //         return filters[filterProperty].filters[filterType].filterFunction(characterMoves);
-    //     });
-
-    //     console.log('filtered move result', filteredMoves);
-
-    // }
 
 
     render() {
         const { selectedCharacterMoves, navigation, navigation: { state: { params: { label, name } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
 
         const { isOpen, side, scrollY, searchTerm } = this.state;
-
-        // const data = [...searchedData].sort(this.sortByFav);
-
-        const data = Object.keys(selectedCharacterMoves).map(move => selectedCharacterMoves[move]);
 
         //this.filterMoves(data);
 

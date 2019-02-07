@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
-import { FlatList, View, Text, TouchableHighlight } from 'react-native';
+import { FlatList, View, Text } from 'react-native';
 import Accordion from '@ercpereda/react-native-accordion';
 import LinearGradient from 'react-native-linear-gradient';
 import PropTypes from 'prop-types';
@@ -11,8 +11,9 @@ import filters from '../utils/filterFuncs';
 //redux
 import * as filterActions from '../redux/actions/filterActions';
 
-export const mapStateToProps = ({ characterData: { selectedCharacterMoves } }) => ({
-    selectedCharacterMoves
+export const mapStateToProps = ({ characterData: { selectedCharacterMoves }, filter: { activeFilters } }) => ({
+    selectedCharacterMoves,
+    activeFilters
 });
 
 export const mapDispatchToProps = {
@@ -30,11 +31,20 @@ const InnerAccordion = styled.View`
     background-color: #19181C;
 `;
 
-const FilterAccordion = styled(Accordion)`
-  border-color: #4E4E52;
-  border-bottom-width: 1;
+const ResetButton = styled.TouchableHighlight`
+  justify-content: center;
+  background-color: #474648;
+  border-color: #FF412C;
+  border-radius: 5;
+  border-width: 1;
+  height: 25;
 `;
 
+const ResetText = styled.Text`
+  color: white;
+  fontSize: 14;
+  padding-horizontal: 5;
+`;
 class FilterMenu extends Component {
     styles = {
         innerAccordion: {
@@ -51,29 +61,57 @@ class FilterMenu extends Component {
         return <View><Text style={{ color: 'white', fontSize: 20, padding: 10 }}>{filterName}</Text></View>;
     }
 
+    isFilterActive = (filterType) => {
+        const { activeFilters } = this.props;
+
+
+        for (filter in activeFilters) {
+            if (activeFilters[filter].filterType === filterType) {
+                return true;
+            }
+        }
+    }
+
+    toggleFilters = (item, filter) => {
+        const { applyFilter, removeFilter } = this.props;
+
+        const isActive = this.isFilterActive(filter);
+
+        if (isActive) {
+            removeFilter({
+                filterType: filter,
+                filterProperty: item.filterProperty
+            });
+        } else {
+            applyFilter({
+                filterType: filter,
+                filterProperty: item.filterProperty
+            });
+        }
+    }
+
     renderItem = ({ item }) => {
         const { applyFilter } = this.props;
         return (
-            <FilterAccordion
+            <Accordion
+                style={{
+                    borderColor: '#4E4E52',
+                    borderBottomWidth: 1,
+                }}
                 key={item.label}
                 header={() => this.renderHeader(item.label)}
                 content={
                     <InnerAccordion>
                         {Object.keys(item.filters)
                             .map(
-                                (filter) => {
-                                    console.log('fitter');
-                                    return (
-                                        <FilterOption
-                                            key={item.filters[filter].filterLabel}
-                                            text={item.filters[filter].filterLabel}
-                                            onPress={() => applyFilter({
-                                                filterType: item.filters[filter].filterType,
-                                                filterProperty: item.filterProperty
-                                            })}
-                                        />
-                                    );
-                                }
+                                (filter) => (
+                                    <FilterOption
+                                        key={item.filters[filter].filterLabel}
+                                        text={item.filters[filter].filterLabel}
+                                        isFilterActive={this.isFilterActive(filter)}
+                                        toggleFilters={() => this.toggleFilters(item, filter)}
+                                    />
+                                )
                             )
                         }
                     </InnerAccordion>
@@ -83,6 +121,8 @@ class FilterMenu extends Component {
     };
 
     render() {
+        const { resetFilters } = this.props;
+
         return (
             <LinearGradient
                 start={{ x: 0, y: 0 }}
@@ -91,19 +131,11 @@ class FilterMenu extends Component {
                 style={{ flex: 1 }}
             >
                 <MainContainer>
-                    <TouchableHighlight
-                        style={{
-                            justifyContent: 'center',
-                            backgroundColor: '#474648',
-                            borderColor: '#FF412C',
-                            borderRadius: 5,
-                            borderWidth: 1,
-                            height: 25
-                        }}
-                        onPress={this.props.resetFilters}
+                    <ResetButton
+                        onPress={() => resetFilters()}
                     >
-                        <Text style={{ color: 'white', fontSize: 14, paddingHorizontal: 5 }}>Reset</Text>
-                    </TouchableHighlight>
+                        <ResetText>Reset</ResetText>
+                    </ResetButton>
                 </MainContainer>
                 <FlatList
                     contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
@@ -112,7 +144,7 @@ class FilterMenu extends Component {
                     keyExtractor={(item, index) => index.toString()}
                     renderItem={this.renderItem}
                 />
-            </LinearGradient>
+            </LinearGradient >
         );
     }
 }

@@ -16,11 +16,22 @@ const applyFilter = (state, { payload: filter }) => ({
     activeFilters: [...state.activeFilters, filter]
 });
 
+/**
+ * @function removeFilter
+ * @description remove applied filter
+ * @param {Object} state 
+ * @param {Object} filter filter to be removed 
+ */
 const removeFilter = (state, { payload: filter }) => ({
     ...state,
     activeFilters: state.activeFilters.filter(activeFilter => activeFilter.filterType !== filter.filterType)
 });
 
+/**
+ * @function resetFilters
+ * @description 
+ * @param {Object} state 
+ */
 const resetFilters = (state) => ({
     ...state,
     activeFilters: []
