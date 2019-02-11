@@ -15,6 +15,7 @@ import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
 import { getCharacterMoveList, getFavoriteMoves } from '../selectors/characterSelect';
 import * as favoriteActions from '../redux/actions/favoriteActions';
+import * as searchActions from '../redux/actions/searchActions';
 
 import { GradientTheme } from '../common/GradientTheme';
 
@@ -32,25 +33,27 @@ import AdBanner from '../components/AdBanner';
 import * as filters from '../utils/filterFuncs';
 
 //selectors
-import { filterMoves } from '../selectors/characterProfile';
+import { filterMoves, searchMoves } from '../selectors/characterProfile';
 
 export const mapDispatcthToProps = {
     ...characterActions,
     ...settingsActions,
-    ...favoriteActions
+    ...favoriteActions,
+    ...searchActions
 };
 
 export const mapStateToProps = ({
     characterData: { selectedCharacterMoves },
     favorites,
     filter: { activeFilters },
+    search: { profileInput },
     theme,
     settings: { listView } }, ownProps
 ) => ({
     listView,
     theme,
     favorites,
-    selectedCharacterMoves: filterMoves(selectedCharacterMoves, activeFilters),
+    selectedCharacterMoves: searchMoves(filterMoves(selectedCharacterMoves, activeFilters), profileInput),
     // favoriteMoves: getFavoriteMoves({
     //     moves: favorites.moves,
     //     label: ownProps.navigation.getParam('label'),
@@ -192,7 +195,15 @@ class CharacterProfile extends Component {
 
 
     render() {
-        const { selectedCharacterMoves, navigation, navigation: { state: { params: { label, name } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
+        const { selectedCharacterMoves,
+            navigation,
+            navigation: { state: { params: { label, name } } },
+            toggleListView,
+            listView,
+            theme,
+            favoriteMoves,
+            searchProfileMoves
+        } = this.props;
 
         const { isOpen, side, scrollY, searchTerm } = this.state;
 
@@ -305,7 +316,7 @@ class CharacterProfile extends Component {
                                 navigation={navigation}
                                 onPressFilterMenu={this.openRightDrawer}
                                 toggleListView={toggleListView}
-                                handleSearchTextChange={(searchTerm) => this.setState({ searchTerm })}
+                                handleSearchTextChange={(searchTerm) => searchProfileMoves(searchTerm)}
                             />
                         </MainContainer>
                     </GradientTheme>
