@@ -14,6 +14,7 @@ import feng_banner from '../../assets/images/characterBanners/feng_banner.png';
 import geese_banner from '../../assets/images/characterBanners/geese_banner.png';
 import gigas_banner from '../../assets/images/characterBanners/gigas_banner.png';
 import heihachi_banner from '../../assets/images/characterBanners/heihachi_banner.png';
+import hwoarang_banner from '../../assets/images/characterBanners/hwoarang_banner.png';
 import jack_banner from '../../assets/images/characterBanners/jack_banner.png';
 import jin_banner from '../../assets/images/characterBanners/jin_banner.png';
 import josie_banner from '../../assets/images/characterBanners/josie_banner.png';
@@ -32,6 +33,7 @@ import luckychloe_banner from '../../assets/images/characterBanners/luckychloe_b
 import masterraven_banner from '../../assets/images/characterBanners/masterraven_banner.png';
 import marduk_banner from '../../assets/images/characterBanners/marduk_banner.png';
 import miguel_banner from '../../assets/images/characterBanners/miguel_banner.png';
+import nina_banner from '../../assets/images/characterBanners/nina_banner.png';
 import noctis_banner from '../../assets/images/characterBanners/noctis_banner.png';
 import paul_banner from '../../assets/images/characterBanners/paul_banner.png';
 import shaheen_banner from '../../assets/images/characterBanners/shaheen_banner.png';
@@ -56,6 +58,7 @@ export const characterBanners = {
     geese: geese_banner,
     gigas: gigas_banner,
     heihachi: heihachi_banner,
+    hwoarang: hwoarang_banner,
     jack: jack_banner,
     jin: jin_banner,
     josie: josie_banner,
@@ -74,10 +77,11 @@ export const characterBanners = {
     masterraven: masterraven_banner,
     marduk: marduk_banner,
     miguel: miguel_banner,
+    nina: nina_banner,
     noctis: noctis_banner,
     paul: paul_banner,
     shaheen: shaheen_banner,
     steve: steve_banner,
     xiaoyu: xiaoyu_banner,
-    yoshi: yoshi_banner,
+    yoshimitsu: yoshi_banner,
 };
