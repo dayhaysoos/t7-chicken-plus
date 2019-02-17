@@ -50,10 +50,21 @@ const updateMoveData = (state, { payload: id }) => ({
  * @param {Object} state
  * @param {Array<Object>} moveList 
  */
-const updateSelectedCharacterMoves = (state, { payload: moveList }) => ({
-    ...state,
-    selectedCharacterMoves: moveList
-});
+const updateSelectedCharacterMoves = (state, { payload: label }) => {
+
+    const getMovelist = () => {
+        for (character in state.characterData) {
+            if (state.characterData[character].label === label) {
+                return state.characterData[character].movelist;
+            }
+        }
+    };
+
+    return {
+        ...state,
+        selectedCharacterMoves: getMovelist(),
+    };
+};
 
 /**
  * @function incrementMoveIndex

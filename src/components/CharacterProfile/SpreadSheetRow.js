@@ -45,10 +45,10 @@ class SpreadSheetRow extends Component {
     }
 
     navigateToCharacterMove = (item, name, id) => {
-        const { updateMoveData, navigation } = this.props;
+        const { updateMoveData, navigation, selectedCharacterMoves } = this.props;
 
         updateMoveData(id);
-        navigation.navigate('CharacterMove', { name, id });
+        navigation.navigate('CharacterMove', { name, id, item, selectedCharacterMoves });
     }
 
     render() {

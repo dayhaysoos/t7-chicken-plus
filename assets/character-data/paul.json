@@ -500,7 +500,7 @@
       "jail": "-",
       "natural": "-",
       "damage": "-",
-      "speed": "20",
+      "speed": "20~21",
       "on_block": "+3 (OC)",
       "on_hit": "+8 (OC)",
       "on_ch": "KND",

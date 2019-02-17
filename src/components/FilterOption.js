@@ -36,14 +36,15 @@ export default class FilterOption extends Component {
     }
 
     render() {
+        const { isFilterActive } = this.props;
         return (
             <TouchableHighlight
-                onPress={this.props.onPress}
+                onPress={this.props.toggleFilters}
                 style={this.styles.filterTouchable}
             >
                 <View style={this.styles.innerContainer}>
                     <Text style={this.styles.text}>{this.props.text}</Text>
-                    {this.props.active && <Text style={this.styles.check}>✓</Text>}
+                    {isFilterActive && <Text style={this.styles.check}>✓</Text>}
                 </View>
             </TouchableHighlight>
         );

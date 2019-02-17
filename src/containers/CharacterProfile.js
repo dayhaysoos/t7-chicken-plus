@@ -15,6 +15,7 @@ import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
 import { getCharacterMoveList, getFavoriteMoves } from '../selectors/characterSelect';
 import * as favoriteActions from '../redux/actions/favoriteActions';
+import * as searchActions from '../redux/actions/searchActions';
 
 import { GradientTheme } from '../common/GradientTheme';
 
@@ -28,23 +29,36 @@ import FilterMenu from '../components/FilterMenu';
 import firebase from 'react-native-firebase';
 import AdBanner from '../components/AdBanner';
 
-import filterMoves from '../utils/filterFuncs';
+// filters
+import * as filters from '../utils/filterFuncs';
+
+//selectors
+import { filterMoves, searchMoves } from '../selectors/characterProfile';
 
 export const mapDispatcthToProps = {
     ...characterActions,
     ...settingsActions,
-    ...favoriteActions
+    ...favoriteActions,
+    ...searchActions
 };
 
-export const mapStateToProps = ({ favorites, theme, settings: { listView } }, ownProps) => ({
+export const mapStateToProps = ({
+    characterData: { selectedCharacterMoves },
+    favorites,
+    filter: { activeFilters },
+    search: { profileInput },
+    theme,
+    settings: { listView } }, ownProps
+) => ({
     listView,
     theme,
     favorites,
-    favoriteMoves: getFavoriteMoves({
-        moves: favorites.moves,
-        label: ownProps.navigation.getParam('label'),
-        moveList: ownProps.navigation.getParam('moveList')
-    })
+    selectedCharacterMoves: searchMoves(filterMoves(selectedCharacterMoves, activeFilters), profileInput),
+    // favoriteMoves: getFavoriteMoves({
+    //     moves: favorites.moves,
+    //     label: ownProps.navigation.getParam('label'),
+    //     moveList: ownProps.navigation.getParam('moveList')
+    // })
 });
 
 const HEADER_MAX_HEIGHT = 300;
@@ -115,77 +129,12 @@ class CharacterProfile extends Component {
         filters: { ...FILTERS_INITIAL_STATE }
     }
 
-    resetFilters = () => this.setState({ filters: { ...FILTERS_INITIAL_STATE } })
-
-    toggleHitLevelChange = (level) => {
-        this.setState((prevState) => {
-            const newState = {
-                ...prevState,
-                filters: {
-                    ...prevState.filters
-                }
-            };
-
-            newState.filters.hitLevel[level] = !prevState.filters.hitLevel[level];
-            return newState;
-        });
-    }
-
-    onBlockChange = (operator, value) => {
-        if (!this.state.filters.onBlock.active) return;
-        this.setState(prevState => {
-            const newState = {
-                ...prevState,
-                filters: {
-                    ...prevState.filters,
-                    onBlock: {
-                        ...prevState.filters.onBlock,
-                        active: true,
-                        value,
-                        operator
-                    }
-                }
-            };
-            return newState;
-        });
-    }
-
-    turnOnBlockFilter = (operator, value) => {
-        if (!operator || !value) return;
-
-        this.setState(prevState => ({
-            ...prevState,
-            filters: {
-                ...prevState.filters,
-                onBlock: {
-                    active: true,
-                }
-            }
-        }), () => this.onBlockChange(operator, value));
-    }
-
-    turnOffBlockFilter = () => {
-        this.setState(prevState => ({
-            filters: {
-                ...prevState.filters, onBlock: {
-                    active: false,
-                    value: '',
-                    operator: ''
-                }
-            }
-        }));
-    }
-
-
 
     componentDidMount() {
         const { navigation, listView } = this.props;
         //const moveListArray = navigation.getParam('moveList');
-        const moveListArray = this.props.favoriteMoves;
         const charName = navigation.getParam('name');
         const isFavorite = navigation.getParam('favorite');
-
-        this.setState({ moveListArray, unFilteredMoveList: moveListArray });
 
         firebase.analytics().logEvent('Screen_Character_Profile', {
             character: charName,
@@ -204,10 +153,6 @@ class CharacterProfile extends Component {
                 favoriteToggled: true
             });
         }
-    }
-
-    setCharacterProfileState = (obj) => {
-        this.setState(obj);
     }
 
     openRightDrawer = () => {
@@ -238,21 +183,7 @@ class CharacterProfile extends Component {
     }
 
     searchMoveList(input, moveList) {
-        const mappedMoveList = Object.keys(moveList).map(move => moveList[move]);
-        if (input.includes('+')) {
-            return mappedMoveList.filter(
-                ({ notation }) => notation.replace(/[ ,]/g, '').includes(input.replace(/[ ,]/g, ''))
-            );
-        } else {
-            return mappedMoveList.filter(
-                ({ notation }) => notation.replace(/[ ,+]/g, '').includes(input.replace(/[ ,+]/g, ''))
-            );
-        }
-    }
-
-
-    filterMoveList(filterFunction) {
-        this.setState({ moveListArray: this.state.moveListArray.filter(filterFunction) });
+        return [];
     }
 
     onDrawerClose = () => {
@@ -262,13 +193,21 @@ class CharacterProfile extends Component {
     }
 
 
+
     render() {
-        const { navigation, navigation: { state: { params: { label, name } } }, toggleListView, listView, theme, favoriteMoves } = this.props;
+        const { selectedCharacterMoves,
+            navigation,
+            navigation: { state: { params: { label, name } } },
+            toggleListView,
+            listView,
+            theme,
+            favoriteMoves,
+            searchProfileMoves
+        } = this.props;
+
         const { isOpen, side, scrollY, searchTerm } = this.state;
 
-        const filteredData = filterMoves(favoriteMoves, this.state.filters);
-        const searchedData = this.searchMoveList(searchTerm, filteredData);
-        const data = [...searchedData].sort(this.sortByFav);
+        //this.filterMoves(data);
 
         const headerTranslate = scrollY.interpolate({
             inputRange: [0, HEADER_SCROLL_DISTANCE],
@@ -286,18 +225,12 @@ class CharacterProfile extends Component {
             extrapolate: 'clamp',
         });
 
+
         return (
             <ThemeProvider theme={theme}>
                 <DrawerSwitcher
                     component={
-                        <FilterMenu
-                            resetFilters={this.resetFilters}
-                            toggleHitLevelChange={this.toggleHitLevelChange}
-                            onBlockChange={this.onBlockChange}
-                            turnOnBlockFilter={this.turnOnBlockFilter}
-                            turnOffBlockFilter={this.turnOffBlockFilter}
-                            activeFilters={this.state.filters}
-                        />
+                        <FilterMenu />
                     }
                     side={side}
                     isOpen={isOpen}
@@ -360,14 +293,14 @@ class CharacterProfile extends Component {
                                         scrollEnabled={false}
                                         style={{ flex: 1, width: '100%' }}
                                         contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column', zIndex: 999 }}
-                                        data={data}
+                                        data={selectedCharacterMoves}
                                         numColumns={1}
                                         keyExtractor={(item, index) => index.toString()}
                                         renderItem={({ item }) => (listView ?
-                                            <ListViewCard item={item} name={name} theme={theme} navigation={navigation}
+                                            <ListViewCard selectedCharacterMoves={selectedCharacterMoves} item={item} name={name} theme={theme} navigation={navigation}
                                                 onStarPress={() => this.props.toggleMoveStar(item.id)} />
                                             :
-                                            <SpreadSheetRow item={item} name={name} theme={theme} navigation={navigation} />
+                                            <SpreadSheetRow selectedCharacterMoves={selectedCharacterMoves} item={item} name={name} theme={theme} navigation={navigation} />
                                         )}
                                         ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
                                         initialNumToRender={5}
@@ -382,9 +315,8 @@ class CharacterProfile extends Component {
                                 isListView={listView}
                                 navigation={navigation}
                                 onPressFilterMenu={this.openRightDrawer}
-                                searchFunction={(input) => this.searchMoveList(input)}
                                 toggleListView={toggleListView}
-                                handleSearchTextChange={(searchTerm) => this.setState({ searchTerm })}
+                                handleSearchTextChange={(searchTerm) => searchProfileMoves(searchTerm)}
                             />
                         </MainContainer>
                     </GradientTheme>

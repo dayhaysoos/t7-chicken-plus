@@ -16,7 +16,7 @@ const persistConfig = {
             ...state.favorites,
             moves: {
                 ...state.favorites.moves,
-                claudio: {},
+                shaheen: {},
             }
         }
     })
