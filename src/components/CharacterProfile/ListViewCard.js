@@ -63,9 +63,9 @@ class ListViewCard extends Component {
     }
 
     navigateToCharacterMove = (item, name, id) => {
-        const { updateMoveData, navigation } = this.props;
+        const { updateMoveData, navigation, selectedCharacterMoves } = this.props;
         updateMoveData(id);
-        navigation.navigate('CharacterMove', { name, id });
+        navigation.navigate('CharacterMove', { name, id, item, selectedCharacterMoves });
     }
 
     render() {
@@ -91,9 +91,6 @@ class ListViewCard extends Component {
                             On Hit: {on_hit}
                         </MoveDetailText>
                     </MoveDetailContainer>
-                    <StarButton onPress={this.props.onStarPress}>
-                        <StarIcon>{item.favorite ? Icons.star : Icons.starO}</StarIcon>
-                    </StarButton>
                 </CardContainer>
             </ThemeProvider>
         );

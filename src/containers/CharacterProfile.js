@@ -297,10 +297,10 @@ class CharacterProfile extends Component {
                                         numColumns={1}
                                         keyExtractor={(item, index) => index.toString()}
                                         renderItem={({ item }) => (listView ?
-                                            <ListViewCard item={item} name={name} theme={theme} navigation={navigation}
+                                            <ListViewCard selectedCharacterMoves={selectedCharacterMoves} item={item} name={name} theme={theme} navigation={navigation}
                                                 onStarPress={() => this.props.toggleMoveStar(item.id)} />
                                             :
-                                            <SpreadSheetRow item={item} name={name} theme={theme} navigation={navigation} />
+                                            <SpreadSheetRow selectedCharacterMoves={selectedCharacterMoves} item={item} name={name} theme={theme} navigation={navigation} />
                                         )}
                                         ListEmptyComponent={() => <EmptyText>No results for this combination of Search and Filters</EmptyText>}
                                         initialNumToRender={5}
