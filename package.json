@@ -8,6 +8,8 @@
     "babel-preset-react-native": "^4.0.0",
     "babel-preset-react-native-stage-0": "^1.0.1",
     "babel-preset-stage-2": "^6.24.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.8.2",
     "jest": "^23.6.0",
@@ -22,7 +24,7 @@
     "ios": "react-native run-ios",
     "test": "jest",
     "codepush:android": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus-Android -d Production --mandatory",
-    "codepush:ios": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus-IOS -d Production --mandatory --debug"
+    "codepush:ios": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus -d Production --mandatory --plist-file ios/t7chickenplus/Info.plist"
   },
   "jest": {
     "preset": "react-native",
@@ -31,6 +33,9 @@
     },
     "transform": {
       "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "globals": {
+      "window": true
     }
   },
   "rnpm": {
@@ -49,7 +54,7 @@
     "eslint-plugin-react-native": "^3.2.1",
     "eslint-plugin-styled-components": "^0.0.0",
     "eslint-plugin-styled-components-config": "^0.0.2",
-    "jest-styled-components": "^7.0.0-2",
+    "jest-styled-components": "^6.3.1",
     "namespace-constants": "^0.5.0",
     "prop-types": "^15.6.1",
     "react": "16.7.0",

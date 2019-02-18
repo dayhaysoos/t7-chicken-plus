@@ -11,6 +11,7 @@ export const INITIAL_STATE = {
         asuka: {},
         bob: {},
         bryan: {},
+        claudio: {},
         deviljin: {},
         dragunov: {},
         eddy: {},
@@ -49,6 +50,13 @@ export const INITIAL_STATE = {
     }
 };
 
+/**
+ * @function toggleCharacterStar
+ * @description toggle star state for character
+ * @param {Object} state 
+ * @param {String} param1 character label
+ * @returns toggles start on character name
+ */
 const toggleCharacterStar = (state, { payload: label }) => {
 
     const newState = { ...state };
@@ -59,6 +67,13 @@ const toggleCharacterStar = (state, { payload: label }) => {
     return newState;
 };
 
+/**
+ * @function toggleMoveStar
+ * @description add character moves to their object
+ * @param {Object} state 
+ * @param {String} moveId 
+ * @returns character move to their respective object
+ */
 const toggleMoveStar = (state, { payload: moveID }) => {
     const label = moveID.split('_')[0];
     const newState = { ...state, moves: { ...state.moves } };

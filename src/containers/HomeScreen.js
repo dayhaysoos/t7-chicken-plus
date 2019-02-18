@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import SplashScreen from 'react-native-splash-screen';
 import MainMenuBanner from '../components/MainMenuBanner';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 import * as characterActions from '../redux/actions/characterActions';
 import firebase from 'react-native-firebase';
 import characterSelectBackground from '../../assets/images/mainMenu/character-select-background.png';

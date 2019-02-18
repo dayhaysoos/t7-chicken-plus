@@ -4,7 +4,7 @@ import createConstants from 'namespace-constants';
 
 import * as characterApi from '../apis/characterApi';
 
-export const ACTION_TYPES = createConstants('character:character', [
+export const ACTION_TYPES = createConstants('character', [
     'GET_CHARACTER_DATA_PENDING',
     'GET_CHARACTER_DATA_FAIL',
     'GET_CHARACTER_DATA_SUCCESS',
@@ -18,6 +18,11 @@ export const getCharacterDataPending = createAction(ACTION_TYPES.GET_CHARACTER_D
 export const getCharacterDataFail = createAction(ACTION_TYPES.GET_CHARACTER_DATA_FAIL);
 export const getCharacterDataSuccess = createAction(ACTION_TYPES.GET_CHARACTER_DATA_SUCCESS);
 
+/**
+ * @function getCharacterData
+ * @description fetch character data, default to local if failed
+ * @returns {Object} action
+ */
 export const getCharacterData = () => async dispatch => {
     dispatch(getCharacterDataPending());
 
@@ -31,8 +36,16 @@ export const getCharacterData = () => async dispatch => {
     }
 };
 
+/**
+ * @function updateMoveData
+ * @description updates move data state for specific character
+ * @returns {Object} action
+ */
 export const updateMoveData = createAction(ACTION_TYPES.UPDATE_MOVE_DATA);
 
+/**
+ * 
+ */
 export const updateSelectedCharacterMoves = createAction(ACTION_TYPES.UPDATE_SELECTED_CHARACTER_MOVES);
 
 export const incrementMoveIndex = createAction(ACTION_TYPES.INCREMENT_MOVE_INDEX);

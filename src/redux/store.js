@@ -1,26 +1,26 @@
 import { createStore, applyMiddleware, compose } from 'redux';
-import { createMigrate, persistStore, persistReducer } from 'redux-persist';
+import { persistStore, persistReducer } from 'redux-persist';
 import thunk from 'redux-thunk';
 // import logger from 'redux-logger';
 import rootReducer from './reducers/index';
 
 import storage from 'redux-persist/lib/storage';
 
-const migrations = {
-    0: (state) => ({
-        ...state,
-        shaheen: {}
-    }),
-    1: (state) => ({
-        shaheen: state.favorites.moves.shaheen
-    })
-};
-
 const persistConfig = {
     key: 'root',
-    version: 1,
+    version: 2.1,
     storage,
-    migrate: createMigrate(migrations, { debug: false }),
+    migrate: (state) => (Promise.resolve({
+        ...state,
+        favorites: {
+            ...state.favorites,
+            moves: {
+                ...state.favorites.moves,
+                shaheen: {},
+            }
+        }
+    })
+    ),
     whitelist: [
         'settings',
         'favorites'

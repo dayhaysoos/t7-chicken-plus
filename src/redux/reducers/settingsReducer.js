@@ -13,9 +13,9 @@ export const INITIAL_STATE = {
 // });
 
 const toggleListView = (state) => ({
-        ...state,
-        listView: !state.listView
-    });
+    ...state,
+    listView: !state.listView
+});
 
 const settingsReducer = handleActions(
     {

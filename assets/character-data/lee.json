@@ -391,7 +391,7 @@
       "natural": "-",
       "damage": "-",
       "speed": "25",
-      "on_block": "-",
+      "on_block": "-10",
       "on_hit": "+1",
       "on_ch": "-",
       "in_air": "-",
@@ -2909,7 +2909,7 @@
     },
     {
       "properties": [],
-      "preview_url": "fknerror",
+      "preview_url": "https://giant.gfycat.com/PotableEarnestAtlasmoth.gif",
       "move_name": "Silver Heel",
       "notation": "b+4",
       "hit_level": "-",

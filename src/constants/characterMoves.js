@@ -5,6 +5,7 @@ import armorking from '../../assets/character-data/armorking.json';
 import asuka from '../../assets/character-data/asuka.json';
 import bob from '../../assets/character-data/bob.json';
 import bryan from '../../assets/character-data/bryan.json';
+import claudio from '../../assets/character-data/claudio.json';
 import deviljin from '../../assets/character-data/deviljin.json';
 import dragunov from '../../assets/character-data/dragunov.json';
 import eddy from '../../assets/character-data/eddy.json';
@@ -48,6 +49,7 @@ export const characterMoves = {
     asuka: asuka,
     bob: bob,
     bryan: bryan,
+    claudio: claudio,
     deviljin: deviljin,
     dragunov: dragunov,
     eddy: eddy,

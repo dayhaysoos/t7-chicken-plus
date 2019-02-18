@@ -102,45 +102,43 @@ class CharacterMove extends Component {
     state = {
         modalVisible: false,
         loadingGif: true,
-    }
-
-    componentDidUpdate = (prev) => {
-        const { navigation, moveData } = this.props;
-        const { notation, move_name } = moveData;
-
-        const name = navigation.getParam('name');
-
-        if (prev.moveData !== moveData) {
-            firebase.analytics().logEvent('Screen_Character_Move_PrevOrNextBtn', {
-                move_name,
-                notation: `${name} ${notation}`,
-                character: name
-            });
-        }
+        selectedIndex: 0,
     }
 
     componentDidMount = () => {
         const { navigation } = this.props;
 
-        const moveName = navigation.getParam('move_name');
-        const notation = navigation.getParam('notation');
-        const name = navigation.getParam('name');
+        const item = navigation.getParam('item');
+
+        const { notation, move_name, name, id } = item;
+
+        const selectedCharacterMoves = navigation.getParam('selectedCharacterMoves');
+
+        const selectedIndex = selectedCharacterMoves.findIndex((move) => move.id === id);
+
+        this.setState({
+            selectedIndex
+        });
 
         firebase.analytics().logEvent('Screen_Character_Move', {
-            moveName,
+            move_name,
             notation: `${name} ${notation}`,
             // character: name
         });
     }
 
     nextAttack = () => {
-        const { incrementMoveIndex } = this.props;
-        incrementMoveIndex();
+        const { selectedIndex } = this.state;
+        this.setState({
+            selectedIndex: selectedIndex + 1
+        });
     }
 
     previousAttack = () => {
-        const { decrementMoveIndex } = this.props;
-        decrementMoveIndex();
+        const { selectedIndex } = this.state;
+        this.setState({
+            selectedIndex: selectedIndex - 1
+        });
     }
 
     toggleModal = (isVisible) => {
@@ -156,7 +154,10 @@ class CharacterMove extends Component {
 
     render() {
 
-        const { theme, navigation, currentAttack, selectedCharacterMoves, moveData } = this.props;
+        const { theme, navigation } = this.props;
+        const { selectedIndex } = this.state;
+
+        const selectedCharacterMoves = navigation.getParam('selectedCharacterMoves');
 
         const {
             speed,
@@ -174,7 +175,7 @@ class CharacterMove extends Component {
             range,
             tracking,
 
-        } = moveData;
+        } = selectedCharacterMoves[this.state.selectedIndex];
 
         const { modalVisible } = this.state;
 
@@ -266,8 +267,8 @@ class CharacterMove extends Component {
                     </ScrollView>
                     <BottomMenuBar
                         navigation={navigation}
-                        onPressPreviousAttack={currentAttack.split('_')[1] <= 1 ? null : this.previousAttack}
-                        onPressNextAttack={currentAttack.split('_')[1] >= Object.keys(selectedCharacterMoves).length ? null : this.nextAttack}
+                        onPressPreviousAttack={selectedIndex <= 0 ? null : this.previousAttack}
+                        onPressNextAttack={selectedCharacterMoves.length - 1 <= selectedIndex ? null : this.nextAttack}
                     />
                 </GradientTheme >
             </ThemeProvider >
