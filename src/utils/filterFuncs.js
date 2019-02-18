@@ -1,6 +1,9 @@
 import {
     HIT_LEVEL_FILTER,
     CRUSH_FILTER,
+    ON_BLOCK_FILTER,
+    ON_HIT_FILTER,
+    SPEED_FILTER,
 } from '../constants/filters';
 
 // hit level filters
@@ -63,9 +66,127 @@ export const crush = {
     }
 };
 
+// on_block filters
+const filterAllPlusOnBlock = (moves) => moves.filter(move => move.on_block.includes('+'));
+const filterAllNegativeOnBlock = (moves) => moves.filter(move => parseInt(move.on_block) > -10);
+const filterAllPunishableOnBlock = moves => moves.filter(move => parseInt(move.on_block) <= -10);
+const filterAllNeutralOnBlock = moves => moves.filter(move => parseInt(move.on_block) === 0);
+
+
+export const on_block = {
+    label: 'On Block',
+    filterProperty: 'on_block',
+    filters: {
+        [ON_BLOCK_FILTER.FILTER_ALL_PLUS_ON_BLOCK]: {
+            filterFunction: filterAllPlusOnBlock,
+            filterLabel: 'All + On Block',
+            filterType: ON_BLOCK_FILTER.FILTER_ALL_PLUS_ON_BLOCK
+        },
+        [ON_BLOCK_FILTER.FILTER_ALL_NEGATIVE_ON_BLOCK]: {
+            filterFunction: filterAllNegativeOnBlock,
+            filterLabel: 'All - On Block (Safe)',
+            filterType: ON_BLOCK_FILTER.FILTER_ALL_NEGATIVE_ON_BLOCK
+        },
+        [ON_BLOCK_FILTER.FILTER_ALL_PUNISHABLE_ON_BLOCK]: {
+            filterFunction: filterAllPunishableOnBlock,
+            filterLabel: 'All Punishable On Block',
+            filterType: ON_BLOCK_FILTER.FILTER_ALL_PUNISHABLE_ON_BLOCK
+        },
+        [ON_BLOCK_FILTER.FILTER_ALL_NEUTRAL_ON_BLOCK]: {
+            filterFunction: filterAllNeutralOnBlock,
+            filterLabel: 'Neutral On Block',
+            filterType: ON_BLOCK_FILTER.FILTER_ALL_NEUTRAL_ON_BLOCK
+        }
+    }
+};
+
+// on_hit filters
+const filterAllPlusOnHit = (moves) => moves.filter(move => move.on_hit.includes('+'));
+const filterAllNegativeOnHit = (moves) => moves.filter(move => parseInt(move.on_hit) > -10);
+const filterAllNeutralOnHit = moves => moves.filter(move => parseInt(move.on_hit) === 0);
+
+
+export const on_hit = {
+    label: 'On Hit',
+    filterProperty: 'on_hit',
+    filters: {
+        [ON_HIT_FILTER.FILTER_ALL_PLUS_ON_HIT]: {
+            filterFunction: filterAllPlusOnHit,
+            filterLabel: 'All + On Hit',
+            filterType: ON_HIT_FILTER.FILTER_ALL_PLUS_ON_HIT
+        },
+        [ON_HIT_FILTER.FILTER_ALL_NEGATIVE_ON_HIT]: {
+            filterFunction: filterAllNegativeOnHit,
+            filterLabel: 'All - On Hit (Safe)',
+            filterType: ON_HIT_FILTER.FILTER_ALL_NEGATIVE_ON_HIT
+        },
+        [ON_HIT_FILTER.FILTER_ALL_NEUTRAL_ON_HIT]: {
+            filterFunction: filterAllNeutralOnHit,
+            filterLabel: 'Neutral On Hit',
+            filterType: ON_HIT_FILTER.FILTER_ALL_NEUTRAL_ON_HIT
+        }
+    }
+};
+
+// speed filters
+const filter10FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 10);
+const filter11FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 11);
+const filter12FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 12);
+const filter13FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 13);
+const filter14FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 14);
+const filter15FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 15);
+const filter16FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 16);
+
+export const speed = {
+    label: 'Speed',
+    filterProperty: 'speed',
+    filters: {
+        [SPEED_FILTER.FILTER_10_FRAME_ATTACKS]: {
+            filterFunction: filter10FrameAttacks,
+            filterLabel: '10 Frame Attacks',
+            filterType: SPEED_FILTER.FILTER_10_FRAME_ATTACKS
+        },
+        [SPEED_FILTER.FILTER_11_FRAME_ATTACKS]: {
+            filterFunction: filter11FrameAttacks,
+            filterLabel: '11 Frame Attacks',
+            filterType: SPEED_FILTER.FILTER_11_FRAME_ATTACKS
+        },
+        [SPEED_FILTER.FILTER_12_FRAME_ATTACKS]: {
+            filterFunction: filter12FrameAttacks,
+            filterLabel: '12 Frame Attacks',
+            filterType: SPEED_FILTER.FILTER_12_FRAME_ATTACKS
+        },
+        [SPEED_FILTER.FILTER_13_FRAME_ATTACKS]: {
+            filterFunction: filter13FrameAttacks,
+            filterLabel: '13 Frame Attacks',
+            filterType: SPEED_FILTER.FILTER_13_FRAME_ATTACKS
+        },
+        [SPEED_FILTER.FILTER_14_FRAME_ATTACKS]: {
+            filterFunction: filter14FrameAttacks,
+            filterLabel: '14 Frame Attacks',
+            filterType: SPEED_FILTER.FILTER_14_FRAME_ATTACKS
+        },
+        [SPEED_FILTER.FILTER_15_FRAME_ATTACKS]: {
+            filterFunction: filter15FrameAttacks,
+            filterLabel: '15 Frame Attacks',
+            filterType: SPEED_FILTER.FILTER_15_FRAME_ATTACKS
+        },
+        [SPEED_FILTER.FILTER_16_FRAME_ATTACKS]: {
+            filterFunction: filter16FrameAttacks,
+            filterLabel: '16 Frame Attacks',
+            filterType: SPEED_FILTER.FILTER_16_FRAME_ATTACKS
+        },
+    }
+};
+
+export
+
 const filters = [
+    speed,
+    on_block,
+    on_hit,
     hit_level,
-    crush
+    crush,
 ];
 
 export default filters;
