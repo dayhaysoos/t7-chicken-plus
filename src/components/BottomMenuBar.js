@@ -11,12 +11,12 @@ import firebase from 'react-native-firebase';
 const MainContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
-  background-color: transparent;
   padding-bottom: 10;
 `;
 
 const OuterContainer = styled.View`
   flex-direction: column;
+  background-color: transparent;
 `;
 
 const MenuButton = styled.TouchableOpacity`
@@ -42,6 +42,7 @@ const MenuLabelText = styled.Text`
 const SearchBarContainer = styled.View`
     width: 85%;
     align-self: center;
+    margin-bottom: 20;
 `;
 
 
