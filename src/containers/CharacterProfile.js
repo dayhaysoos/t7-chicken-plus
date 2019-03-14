@@ -207,8 +207,6 @@ class CharacterProfile extends Component {
 
         const { isOpen, side, scrollY, searchTerm } = this.state;
 
-        //this.filterMoves(data);
-
         const headerTranslate = scrollY.interpolate({
             inputRange: [0, HEADER_SCROLL_DISTANCE],
             outputRange: [0, -HEADER_SCROLL_DISTANCE],

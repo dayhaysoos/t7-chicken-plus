@@ -102,7 +102,7 @@ export const on_block = {
 
 // on_hit filters
 const filterAllPlusOnHit = (moves) => moves.filter(move => move.on_hit.includes('+'));
-const filterAllNegativeOnHit = (moves) => moves.filter(move => parseInt(move.on_hit) > -10);
+const filterAllNegativeOnHit = (moves) => moves.filter(move => parseInt(move.on_hit) < 0);
 const filterAllNeutralOnHit = moves => moves.filter(move => parseInt(move.on_hit) === 0);
 
 
@@ -133,7 +133,7 @@ const filter10FrameAttacks = moves => moves.filter(move => parseInt(move.speed) 
 const filter11FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 11);
 const filter12FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 12);
 const filter13FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 13);
-const filter14FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 14);
+export const filter14FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 14);
 const filter15FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 15);
 const filter16FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 16);
 
