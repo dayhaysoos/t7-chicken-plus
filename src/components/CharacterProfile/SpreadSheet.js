@@ -1,12 +1,13 @@
 import React from "react"
-import { Animated, ActivityIndicator, FlatList, ScrollView, StyleSheet, Text, View } from "react-native"
+import { Animated, ActivityIndicator, FlatList, ScrollView, StyleSheet, Text, View, Dimensions, TouchableOpacity } from "react-native"
 import HeaderRow from '../CharacterProfile/HeaderRow';
 import SpreadSheetRow from '../CharacterProfile/SpreadSheetRow';
 import styled, { ThemeProvider } from 'styled-components';
 
+const { height } = Dimensions.get('window');
 
 const NUM_COLS = 7
-const NUM_ROWS_STEP = 20
+const NUM_ROWS_STEP = 40
 const CELL_WIDTH = 150
 const CELL_HEIGHT = 60
 
@@ -20,11 +21,12 @@ const SpreadsheetCell = styled.View`
   width: 75;
 `;
 
+
 const SpreadsheetCellText = styled.Text`
   color: ${({ theme: { text } }) => text};
 `;
 
-const NotationCell = styled.View`
+const NotationCell = styled.TouchableOpacity`
   border-width: 1;
   background-color: ${({ theme: { primaryGradient2 } }) => primaryGradient2};
   height: 40;
@@ -79,29 +81,44 @@ class Sheet extends React.Component {
         }
     }
 
-    formatCell(value) {
+    navigateToCharacterMove = (item, name, id) => {
+        const { updateMoveData, navigation, selectedCharacterMoves } = this.props;
+        updateMoveData(id);
+        navigation.navigate('CharacterMove', { name, id, item, selectedCharacterMoves });
+    }
+
+    formatCell(value, id) {
         return (
-            <SpreadsheetCell key={value}>
+            <SpreadsheetCell key={id}>
                 <SpreadsheetCellText>{value}</SpreadsheetCellText>
             </SpreadsheetCell>
         )
     }
 
-    formatNotationCell(notation, id) {
+    formatNotationCell(notation, id, item) {
+        const { name } = this.props;
         return (
-            <NotationCell key={id}>
+            <NotationCell
+                onPress={() => this.navigateToCharacterMove(item, name, id)}
+                key={id}
+            >
                 <NotationCellText>{notation}</NotationCellText>
             </NotationCell>
 
         )
     }
 
+
     formatNotationColumn() {
-        const { selectedCharacterMoves } = this.props;
+        const { selectedCharacterMoves, name, updateMoveData } = this.props;
 
-        const notations = selectedCharacterMoves.map((move, k) => this.formatNotationCell(move.notation, move.id))
+        const notations = selectedCharacterMoves.map((move, k) => this.formatNotationCell(move.notation, move.id, move))
 
-        return <View style={styles.identity} >{notations}</View>
+        return (
+            <View
+                style={styles.identity} >{notations}
+            </View>
+        )
     }
 
     formatColumn = (section) => {
@@ -111,7 +128,7 @@ class Sheet extends React.Component {
         let cells = []
 
         for (let i = 0; i < this.state.count; i++) {
-            cells.push(this.formatCell(selectedCharacterMoves[i][item.key]))
+            cells.push(this.formatCell(selectedCharacterMoves[i][item.key], `move-${i}`))
         }
 
         return <View style={styles.column}>{cells}</View>
@@ -158,6 +175,7 @@ class Sheet extends React.Component {
                     onScroll={this.scrollEvent}
                     scrollEventThrottle={16}
                     extraData={this.state}
+                    bounces={false}
                 />
             </View>
         )
@@ -185,16 +203,16 @@ class Sheet extends React.Component {
 
         return (
             <ThemeProvider theme={this.props.theme}>
-                <View style={styles.container}>
+                <View style={{ height: 475 }}>
                     {this.formatHeader()}
                     <FlatList
                         data={data}
                         renderItem={this.formatRowForSheet}
                         onEndReached={this.handleScrollEndReached}
                         onEndReachedThreshold={.005}
+                        bounces={false}
                     />
                     {this.state.loading && <ActivityIndicator />}
-                    <Text>Testing</Text>
                 </View>
             </ThemeProvider>
         )

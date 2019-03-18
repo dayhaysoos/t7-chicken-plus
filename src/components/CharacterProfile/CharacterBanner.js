@@ -9,10 +9,6 @@ import { characterPortraits } from '../../constants/characterPortraits';
 const HEADER_MAX_HEIGHT = 300;
 
 const Banner = styled(Animated.View)`
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
     overflow: hidden;
     height: ${HEADER_MAX_HEIGHT};
 `;

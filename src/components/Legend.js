@@ -40,8 +40,8 @@ const LegendHeader = styled.Text`
 
 const renderCharacterLegend = (label) => (
 
-  legend[label].map(item => (
-    <LegendItemWrapper>
+  legend[label].map((item, key) => (
+    <LegendItemWrapper key={item.notation}>
       <LegendItem>
         {item.notation}
       </LegendItem>
@@ -54,8 +54,8 @@ const renderCharacterLegend = (label) => (
 
 const renderGeneralLegend = (label) => (
 
-  legend.general.map(item => (
-    <LegendItemWrapper>
+  legend.general.map((item, key) => (
+    <LegendItemWrapper key={item.notation}>
       <LegendItem>
         {item.notation}
       </LegendItem>

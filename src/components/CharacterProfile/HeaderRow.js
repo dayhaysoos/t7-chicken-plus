@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import theme from '../../themes/defaultTheme'
 
 const NotationRow = styled.View`
   flex-direction: row;
@@ -20,7 +21,6 @@ const HeaderNotationCell = styled(SpreadsheetCell)`
 
 const HeaderRow = () => (
   <NotationRow>
-    <HeaderNotationCell>Notation</HeaderNotationCell>
     <SpreadsheetCell>Speed</SpreadsheetCell>
     <SpreadsheetCell>On Block</SpreadsheetCell>
     <SpreadsheetCell>On Hit</SpreadsheetCell>
