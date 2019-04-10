@@ -3,7 +3,6 @@ import { Animated, ActivityIndicator, FlatList, ScrollView, StyleSheet, Text, Vi
 import HeaderRow from '../CharacterProfile/HeaderRow';
 import SpreadSheetRow from '../CharacterProfile/SpreadSheetRow';
 import styled, { ThemeProvider } from 'styled-components';
-
 const { height } = Dimensions.get('window');
 
 const NUM_COLS = 7
@@ -53,6 +52,31 @@ const styles = StyleSheet.create({
 })
 
 class Sheet extends React.Component {
+
+    static getDerivedStateFromProps(props, state) {
+        if (props.selectedCharacterMoves.length < state.count && props.selectedCharacterMoves.length > 40) {
+            return {
+                ...state,
+                count: 15
+            }
+        } else if (props.selectedCharacterMoves.length < state.count && props.selectedCharacterMoves.length < 40) {
+            return {
+                ...state,
+                count: props.selectedCharacterMoves.length
+            }
+        } else if (props.selectedCharacterMoves.length > state.count && props.selectedCharacterMoves.length < 40) {
+            return {
+                ...state,
+                count: props.selectedCharacterMoves.length
+            }
+        } else {
+            return {
+                ...state,
+            }
+        }
+    }
+
+
     constructor(props: {}) {
         super(props)
 
@@ -63,7 +87,12 @@ class Sheet extends React.Component {
             { useNativeDriver: false },
         )
 
-        this.state = { count: NUM_ROWS_STEP, loading: false }
+        this.state = {
+            count: 15,
+            loading: false,
+            steps: 40,
+            hasRendered: false,
+        }
     }
 
     handleScroll = e => {
@@ -73,11 +102,49 @@ class Sheet extends React.Component {
         }
     }
 
-    scrollLoad = () => this.setState({ loading: false, count: this.state.count + NUM_ROWS_STEP })
+    scrollLoad = () => {
+
+        this.setState({
+            loading: false,
+            count: this.state.count + this.state.steps
+        })
+
+    }
 
     handleScrollEndReached = () => {
-        if (!this.state.loading) {
-            this.setState({ loading: true }, () => setTimeout(this.scrollLoad, 500))
+        const { selectedCharacterMoves } = this.props;
+        const { count, steps } = this.state;
+
+        const remainingSteps = selectedCharacterMoves.length - count;
+
+        if (steps > remainingSteps) {
+            this.setState({
+                steps: remainingSteps
+            })
+        }
+
+        if (!this.state.loading && steps > 0 && count < selectedCharacterMoves.length) {
+            this.setState({ loading: true }, () => setTimeout(this.scrollLoad, 200))
+        }
+
+        if (!this.state.loading && steps === 0 && remainingSteps <= 40 && count !== selectedCharacterMoves.length) {
+            this.setState({
+                loading: true,
+                steps: remainingSteps
+            },
+                () => setTimeout(this.scrollLoad, 200))
+        }
+
+        if (!this.state.loading && steps === 0 && remainingSteps > 40) {
+            this.setState({
+                loading: true,
+                steps: 40
+            },
+                () => setTimeout(this.scrollLoad, 200))
+        }
+
+        if (!this.state.loading && steps <= 0) {
+            return null
         }
     }
 
@@ -88,6 +155,7 @@ class Sheet extends React.Component {
     }
 
     formatCell(value, id) {
+
         return (
             <SpreadsheetCell key={id}>
                 <SpreadsheetCellText>{value}</SpreadsheetCellText>
@@ -110,9 +178,16 @@ class Sheet extends React.Component {
 
 
     formatNotationColumn() {
+        const { count } = this.state;
         const { selectedCharacterMoves, name, updateMoveData } = this.props;
 
-        const notations = selectedCharacterMoves.map((move, k) => this.formatNotationCell(move.notation, move.id, move))
+        let notations = [];
+
+        for (let i = 0; i < count; i++) {
+            notations.push(this.formatNotationCell(selectedCharacterMoves[i].notation, selectedCharacterMoves[i].id, selectedCharacterMoves[i]))
+        }
+
+        // const notations = selectedCharacterMoves.map((move, k) => this.formatNotationCell(move.notation, move.id, move))
 
         return (
             <View
@@ -122,12 +197,12 @@ class Sheet extends React.Component {
     }
 
     formatColumn = (section) => {
+        const { count } = this.state;
         const { selectedCharacterMoves } = this.props;
-        const columnData = ['speed', 'on_block', 'on_hit', 'on_ch', 'hit_level', 'damage'];
         let { item, index } = section
         let cells = []
 
-        for (let i = 0; i < this.state.count; i++) {
+        for (let i = 0; i < count; i++) {
             cells.push(this.formatCell(selectedCharacterMoves[i][item.key], `move-${i}`))
         }
 
@@ -162,7 +237,6 @@ class Sheet extends React.Component {
             data.push({ key: `${columnData[i]}` })
         }
 
-
         return (
             <View>
                 {this.formatNotationColumn(selectedCharacterMoves)}
@@ -189,6 +263,7 @@ class Sheet extends React.Component {
     }
 
     componentDidMount() {
+
         this.listener = this.scrollPosition.addListener(position => {
             this.headerScrollView.scrollTo({ x: position.value, animated: false })
         })
@@ -199,8 +274,6 @@ class Sheet extends React.Component {
 
         let data = [{ key: "body", render: body }]
 
-        const { selectedCharacterMoves } = this.props;
-
         return (
             <ThemeProvider theme={this.props.theme}>
                 <View style={{ height: 475 }}>
@@ -210,9 +283,9 @@ class Sheet extends React.Component {
                         renderItem={this.formatRowForSheet}
                         onEndReached={this.handleScrollEndReached}
                         onEndReachedThreshold={.005}
-                        bounces={false}
+                        bounces={true}
                     />
-                    {this.state.loading && <ActivityIndicator />}
+                    {this.state.loading && <ActivityIndicator color={'red'} />}
                 </View>
             </ThemeProvider>
         )
