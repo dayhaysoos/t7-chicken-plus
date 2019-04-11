@@ -17,6 +17,7 @@ const MainContainer = styled.View`
 const OuterContainer = styled.View`
   flex-direction: column;
   background-color: transparent;
+  z-index: 2000;
 `;
 
 const MenuButton = styled.TouchableOpacity`
