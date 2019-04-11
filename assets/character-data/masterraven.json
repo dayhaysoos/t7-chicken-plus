@@ -23,7 +23,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_1"
+      "id": "masterraven_1"
     },
     {
       "properties": [],
@@ -45,7 +45,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_2"
+      "id": "masterraven_2"
     },
     {
       "properties": [],
@@ -67,7 +67,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_3"
+      "id": "masterraven_3"
     },
     {
       "properties": [],
@@ -89,7 +89,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_4"
+      "id": "masterraven_4"
     },
     {
       "properties": [],
@@ -111,7 +111,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_5"
+      "id": "masterraven_5"
     },
     {
       "properties": [],
@@ -133,7 +133,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_6"
+      "id": "masterraven_6"
     },
     {
       "properties": [],
@@ -155,7 +155,7 @@
       "in_air": "S!",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_7"
+      "id": "masterraven_7"
     },
     {
       "properties": [],
@@ -177,7 +177,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_8"
+      "id": "masterraven_8"
     },
     {
       "properties": [],
@@ -199,7 +199,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_9"
+      "id": "masterraven_9"
     },
     {
       "properties": [],
@@ -221,7 +221,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_10"
+      "id": "masterraven_10"
     },
     {
       "properties": [],
@@ -243,7 +243,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_11"
+      "id": "masterraven_11"
     },
     {
       "properties": [],
@@ -265,7 +265,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_12"
+      "id": "masterraven_12"
     },
     {
       "properties": [],
@@ -287,7 +287,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_13"
+      "id": "masterraven_13"
     },
     {
       "properties": [],
@@ -309,7 +309,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_14"
+      "id": "masterraven_14"
     },
     {
       "properties": [],
@@ -331,7 +331,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_15"
+      "id": "masterraven_15"
     },
     {
       "properties": [],
@@ -353,7 +353,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_16"
+      "id": "masterraven_16"
     },
     {
       "properties": [],
@@ -375,7 +375,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_17"
+      "id": "masterraven_17"
     },
     {
       "properties": [],
@@ -397,7 +397,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_18"
+      "id": "masterraven_18"
     },
     {
       "properties": [],
@@ -419,7 +419,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_19"
+      "id": "masterraven_19"
     },
     {
       "properties": [],
@@ -441,7 +441,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_20"
+      "id": "masterraven_20"
     },
     {
       "properties": [],
@@ -463,7 +463,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_21"
+      "id": "masterraven_21"
     },
     {
       "properties": [],
@@ -485,7 +485,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_22"
+      "id": "masterraven_22"
     },
     {
       "properties": [],
@@ -500,14 +500,14 @@
       "jail": "-",
       "natural": "-",
       "damage": "-",
-      "speed": "15",
+      "speed": "14",
       "on_block": "-9",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_23"
+      "id": "masterraven_23"
     },
     {
       "properties": [],
@@ -529,7 +529,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_24"
+      "id": "masterraven_24"
     },
     {
       "properties": [],
@@ -551,7 +551,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_25"
+      "id": "masterraven_25"
     },
     {
       "properties": [],
@@ -573,7 +573,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_26"
+      "id": "masterraven_26"
     },
     {
       "properties": [],
@@ -595,7 +595,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_27"
+      "id": "masterraven_27"
     },
     {
       "properties": [],
@@ -617,7 +617,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_28"
+      "id": "masterraven_28"
     },
     {
       "properties": [],
@@ -639,7 +639,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_29"
+      "id": "masterraven_29"
     },
     {
       "properties": [],
@@ -661,7 +661,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_30"
+      "id": "masterraven_30"
     },
     {
       "properties": [],
@@ -683,7 +683,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_31"
+      "id": "masterraven_31"
     },
     {
       "properties": [],
@@ -705,7 +705,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_32"
+      "id": "masterraven_32"
     },
     {
       "properties": [],
@@ -727,7 +727,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_33"
+      "id": "masterraven_33"
     },
     {
       "properties": [],
@@ -749,7 +749,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_34"
+      "id": "masterraven_34"
     },
     {
       "properties": [],
@@ -771,7 +771,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_35"
+      "id": "masterraven_35"
     },
     {
       "properties": [],
@@ -793,7 +793,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_36"
+      "id": "masterraven_36"
     },
     {
       "properties": [],
@@ -815,7 +815,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_37"
+      "id": "masterraven_37"
     },
     {
       "properties": [],
@@ -837,7 +837,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_38"
+      "id": "masterraven_38"
     },
     {
       "properties": [],
@@ -853,13 +853,13 @@
       "natural": "-",
       "damage": "-",
       "speed": "23",
-      "on_block": "-15",
+      "on_block": "-17",
       "on_hit": "LAUNCH",
       "on_ch": "LAUNCH",
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_39"
+      "id": "masterraven_39"
     },
     {
       "properties": [],
@@ -881,7 +881,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_40"
+      "id": "masterraven_40"
     },
     {
       "properties": [],
@@ -903,7 +903,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_41"
+      "id": "masterraven_41"
     },
     {
       "properties": [],
@@ -925,7 +925,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_42"
+      "id": "masterraven_42"
     },
     {
       "properties": [],
@@ -947,7 +947,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_43"
+      "id": "masterraven_43"
     },
     {
       "properties": [],
@@ -969,7 +969,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_44"
+      "id": "masterraven_44"
     },
     {
       "properties": [],
@@ -991,7 +991,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_45"
+      "id": "masterraven_45"
     },
     {
       "properties": [],
@@ -1013,7 +1013,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_46"
+      "id": "masterraven_46"
     },
     {
       "properties": [],
@@ -1035,7 +1035,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_47"
+      "id": "masterraven_47"
     },
     {
       "properties": [],
@@ -1057,7 +1057,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_48"
+      "id": "masterraven_48"
     },
     {
       "properties": [],
@@ -1079,7 +1079,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_49"
+      "id": "masterraven_49"
     },
     {
       "properties": [],
@@ -1101,7 +1101,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_50"
+      "id": "masterraven_50"
     },
     {
       "properties": [],
@@ -1123,7 +1123,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_51"
+      "id": "masterraven_51"
     },
     {
       "properties": [],
@@ -1145,7 +1145,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_52"
+      "id": "masterraven_52"
     },
     {
       "properties": [],
@@ -1167,7 +1167,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_53"
+      "id": "masterraven_53"
     },
     {
       "properties": [],
@@ -1189,7 +1189,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_54"
+      "id": "masterraven_54"
     },
     {
       "properties": [],
@@ -1211,7 +1211,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_55"
+      "id": "masterraven_55"
     },
     {
       "properties": [],
@@ -1233,7 +1233,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_56"
+      "id": "masterraven_56"
     },
     {
       "properties": [],
@@ -1248,14 +1248,14 @@
       "jail": "-",
       "natural": "-",
       "damage": "-",
-      "speed": "16",
+      "speed": "15",
       "on_block": "-9",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_57"
+      "id": "masterraven_57"
     },
     {
       "properties": [],
@@ -1277,7 +1277,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_58"
+      "id": "masterraven_58"
     },
     {
       "properties": [],
@@ -1299,7 +1299,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_59"
+      "id": "masterraven_59"
     },
     {
       "properties": [],
@@ -1321,7 +1321,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_60"
+      "id": "masterraven_60"
     },
     {
       "properties": [],
@@ -1343,7 +1343,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_61"
+      "id": "masterraven_61"
     },
     {
       "properties": [],
@@ -1365,7 +1365,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_62"
+      "id": "masterraven_62"
     },
     {
       "properties": [],
@@ -1387,7 +1387,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_63"
+      "id": "masterraven_63"
     },
     {
       "properties": [],
@@ -1409,7 +1409,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_64"
+      "id": "masterraven_64"
     },
     {
       "properties": [],
@@ -1431,7 +1431,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_65"
+      "id": "masterraven_65"
     },
     {
       "properties": [],
@@ -1453,7 +1453,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_66"
+      "id": "masterraven_66"
     },
     {
       "properties": [],
@@ -1475,7 +1475,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_67"
+      "id": "masterraven_67"
     },
     {
       "properties": [],
@@ -1497,7 +1497,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_68"
+      "id": "masterraven_68"
     },
     {
       "properties": [],
@@ -1519,7 +1519,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_69"
+      "id": "masterraven_69"
     },
     {
       "properties": [],
@@ -1541,7 +1541,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_70"
+      "id": "masterraven_70"
     },
     {
       "properties": [],
@@ -1563,7 +1563,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_71"
+      "id": "masterraven_71"
     },
     {
       "properties": [],
@@ -1585,7 +1585,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_72"
+      "id": "masterraven_72"
     },
     {
       "properties": [],
@@ -1607,7 +1607,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_73"
+      "id": "masterraven_73"
     },
     {
       "properties": [],
@@ -1629,7 +1629,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_74"
+      "id": "masterraven_74"
     },
     {
       "properties": [],
@@ -1651,7 +1651,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_75"
+      "id": "masterraven_75"
     },
     {
       "properties": [],
@@ -1673,7 +1673,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_76"
+      "id": "masterraven_76"
     },
     {
       "properties": [],
@@ -1695,7 +1695,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_77"
+      "id": "masterraven_77"
     },
     {
       "properties": [],
@@ -1717,7 +1717,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_78"
+      "id": "masterraven_78"
     },
     {
       "properties": [],
@@ -1739,7 +1739,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_79"
+      "id": "masterraven_79"
     },
     {
       "properties": [],
@@ -1761,7 +1761,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_80"
+      "id": "masterraven_80"
     },
     {
       "properties": [],
@@ -1783,7 +1783,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_81"
+      "id": "masterraven_81"
     },
     {
       "properties": [],
@@ -1805,7 +1805,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_82"
+      "id": "masterraven_82"
     },
     {
       "properties": [],
@@ -1827,7 +1827,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_83"
+      "id": "masterraven_83"
     },
     {
       "properties": [],
@@ -1849,7 +1849,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_84"
+      "id": "masterraven_84"
     },
     {
       "properties": [],
@@ -1871,7 +1871,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_85"
+      "id": "masterraven_85"
     },
     {
       "properties": [],
@@ -1893,7 +1893,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_86"
+      "id": "masterraven_86"
     },
     {
       "properties": [],
@@ -1915,7 +1915,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_87"
+      "id": "masterraven_87"
     },
     {
       "properties": [],
@@ -1937,7 +1937,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_88"
+      "id": "masterraven_88"
     },
     {
       "properties": [],
@@ -1959,7 +1959,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_89"
+      "id": "masterraven_89"
     },
     {
       "properties": [],
@@ -1981,7 +1981,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_90"
+      "id": "masterraven_90"
     },
     {
       "properties": [],
@@ -2003,7 +2003,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_91"
+      "id": "masterraven_91"
     },
     {
       "properties": [],
@@ -2025,7 +2025,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_92"
+      "id": "masterraven_92"
     },
     {
       "properties": [],
@@ -2047,7 +2047,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_93"
+      "id": "masterraven_93"
     },
     {
       "properties": [],
@@ -2069,7 +2069,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_94"
+      "id": "masterraven_94"
     },
     {
       "properties": [],
@@ -2091,7 +2091,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_95"
+      "id": "masterraven_95"
     },
     {
       "properties": [],
@@ -2113,7 +2113,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_96"
+      "id": "masterraven_96"
     },
     {
       "properties": [],
@@ -2135,7 +2135,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_97"
+      "id": "masterraven_97"
     },
     {
       "properties": [],
@@ -2157,7 +2157,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_98"
+      "id": "masterraven_98"
     },
     {
       "properties": [],
@@ -2179,7 +2179,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_99"
+      "id": "masterraven_99"
     },
     {
       "properties": [],
@@ -2201,7 +2201,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_100"
+      "id": "masterraven_100"
     },
     {
       "properties": [],
@@ -2223,7 +2223,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_101"
+      "id": "masterraven_101"
     },
     {
       "properties": [],
@@ -2245,7 +2245,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_102"
+      "id": "masterraven_102"
     },
     {
       "properties": [],
@@ -2267,7 +2267,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_103"
+      "id": "masterraven_103"
     },
     {
       "properties": [],
@@ -2289,7 +2289,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_104"
+      "id": "masterraven_104"
     },
     {
       "properties": [],
@@ -2311,7 +2311,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_105"
+      "id": "masterraven_105"
     },
     {
       "properties": [],
@@ -2333,7 +2333,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_106"
+      "id": "masterraven_106"
     },
     {
       "properties": [],
@@ -2355,7 +2355,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_107"
+      "id": "masterraven_107"
     },
     {
       "properties": [],
@@ -2377,7 +2377,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_108"
+      "id": "masterraven_108"
     },
     {
       "properties": [],
@@ -2399,7 +2399,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_109"
+      "id": "masterraven_109"
     },
     {
       "properties": [],
@@ -2421,7 +2421,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_110"
+      "id": "masterraven_110"
     },
     {
       "properties": [],
@@ -2443,7 +2443,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_111"
+      "id": "masterraven_111"
     },
     {
       "properties": [],
@@ -2465,7 +2465,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_112"
+      "id": "masterraven_112"
     },
     {
       "properties": [],
@@ -2487,7 +2487,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_113"
+      "id": "masterraven_113"
     },
     {
       "properties": [],
@@ -2509,7 +2509,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_114"
+      "id": "masterraven_114"
     },
     {
       "properties": [],
@@ -2531,7 +2531,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_115"
+      "id": "masterraven_115"
     },
     {
       "properties": [],
@@ -2553,7 +2553,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_116"
+      "id": "masterraven_116"
     },
     {
       "properties": [],
@@ -2575,7 +2575,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_117"
+      "id": "masterraven_117"
     },
     {
       "properties": [],
@@ -2597,7 +2597,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_118"
+      "id": "masterraven_118"
     },
     {
       "properties": [],
@@ -2619,7 +2619,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_119"
+      "id": "masterraven_119"
     },
     {
       "properties": [],
@@ -2641,7 +2641,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_120"
+      "id": "masterraven_120"
     },
     {
       "properties": [],
@@ -2663,7 +2663,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_121"
+      "id": "masterraven_121"
     },
     {
       "properties": [],
@@ -2685,7 +2685,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_122"
+      "id": "masterraven_122"
     },
     {
       "properties": [],
@@ -2707,7 +2707,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_123"
+      "id": "masterraven_123"
     },
     {
       "properties": [],
@@ -2729,7 +2729,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_124"
+      "id": "masterraven_124"
     },
     {
       "properties": [],
@@ -2751,7 +2751,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_125"
+      "id": "masterraven_125"
     },
     {
       "properties": [],
@@ -2773,7 +2773,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_126"
+      "id": "masterraven_126"
     },
     {
       "properties": [],
@@ -2795,7 +2795,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_127"
+      "id": "masterraven_127"
     },
     {
       "properties": [],
@@ -2817,7 +2817,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_128"
+      "id": "masterraven_128"
     },
     {
       "properties": [],
@@ -2839,7 +2839,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_129"
+      "id": "masterraven_129"
     },
     {
       "properties": [],
@@ -2861,7 +2861,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_130"
+      "id": "masterraven_130"
     },
     {
       "properties": [],
@@ -2883,7 +2883,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_131"
+      "id": "masterraven_131"
     },
     {
       "properties": [],
@@ -2905,7 +2905,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_132"
+      "id": "masterraven_132"
     },
     {
       "properties": [],
@@ -2927,7 +2927,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_133"
+      "id": "masterraven_133"
     },
     {
       "properties": [],
@@ -2949,12 +2949,12 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_134"
+      "id": "masterraven_134"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/AdeptSpiffyDipper.gif",
+      "move_name": "Rising Uppercut",
       "notation": "WS 1",
       "hit_level": "mid",
       "range": "1.5",
@@ -2971,12 +2971,12 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_135"
+      "id": "masterraven_135"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ExcitablePeacefulAmericangoldfinch.gif",
+      "move_name": "Jackknife Elbow",
       "notation": "WS 2",
       "hit_level": "mid",
       "range": "1",
@@ -2993,12 +2993,12 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_136"
+      "id": "masterraven_136"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/TallEnergeticHackee.gif",
+      "move_name": "Trident Kick",
       "notation": "WS 3",
       "hit_level": "-",
       "range": "-",
@@ -3015,12 +3015,12 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_137"
+      "id": "masterraven_137"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/OffensiveHalfIcefish.gif",
+      "move_name": "Shadow Snap Kick",
       "notation": "WS 4",
       "hit_level": "mid",
       "range": "1.5",
@@ -3037,12 +3037,12 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_138"
+      "id": "masterraven_138"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/SereneWastefulFlounder.gif",
+      "move_name": "Spinning Middle Kick",
       "notation": "WS 3+4",
       "hit_level": "-",
       "range": "-",
@@ -3059,7 +3059,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_139"
+      "id": "masterraven_139"
     },
     {
       "properties": [],
@@ -3081,7 +3081,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_140"
+      "id": "masterraven_140"
     },
     {
       "properties": [],
@@ -3103,7 +3103,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_141"
+      "id": "masterraven_141"
     },
     {
       "properties": [],
@@ -3125,7 +3125,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_142"
+      "id": "masterraven_142"
     },
     {
       "properties": [],
@@ -3147,7 +3147,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_143"
+      "id": "masterraven_143"
     },
     {
       "properties": [],
@@ -3169,7 +3169,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_144"
+      "id": "masterraven_144"
     },
     {
       "properties": [],
@@ -3191,7 +3191,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_145"
+      "id": "masterraven_145"
     },
     {
       "properties": [],
@@ -3213,7 +3213,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_146"
+      "id": "masterraven_146"
     },
     {
       "properties": [],
@@ -3235,7 +3235,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_147"
+      "id": "masterraven_147"
     },
     {
       "properties": [],
@@ -3257,7 +3257,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_148"
+      "id": "masterraven_148"
     },
     {
       "properties": [],
@@ -3279,7 +3279,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_149"
+      "id": "masterraven_149"
     },
     {
       "properties": [],
@@ -3301,7 +3301,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_150"
+      "id": "masterraven_150"
     },
     {
       "properties": [],
@@ -3323,7 +3323,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_151"
+      "id": "masterraven_151"
     },
     {
       "properties": [],
@@ -3345,7 +3345,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_152"
+      "id": "masterraven_152"
     },
     {
       "properties": [],
@@ -3367,7 +3367,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_153"
+      "id": "masterraven_153"
     },
     {
       "properties": [],
@@ -3389,7 +3389,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_154"
+      "id": "masterraven_154"
     },
     {
       "properties": [],
@@ -3411,7 +3411,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_155"
+      "id": "masterraven_155"
     },
     {
       "properties": [],
@@ -3433,7 +3433,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_156"
+      "id": "masterraven_156"
     },
     {
       "properties": [],
@@ -3455,7 +3455,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_157"
+      "id": "masterraven_157"
     },
     {
       "properties": [],
@@ -3477,7 +3477,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_158"
+      "id": "masterraven_158"
     },
     {
       "properties": [],
@@ -3499,7 +3499,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_159"
+      "id": "masterraven_159"
     },
     {
       "properties": [],
@@ -3521,7 +3521,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_160"
+      "id": "masterraven_160"
     },
     {
       "properties": [],
@@ -3543,7 +3543,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_161"
+      "id": "masterraven_161"
     },
     {
       "properties": [],
@@ -3565,7 +3565,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_162"
+      "id": "masterraven_162"
     },
     {
       "properties": [],
@@ -3587,7 +3587,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_163"
+      "id": "masterraven_163"
     },
     {
       "properties": [],
@@ -3609,7 +3609,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_164"
+      "id": "masterraven_164"
     },
     {
       "properties": [],
@@ -3631,7 +3631,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_165"
+      "id": "masterraven_165"
     },
     {
       "properties": [],
@@ -3653,7 +3653,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_166"
+      "id": "masterraven_166"
     },
     {
       "properties": [],
@@ -3675,7 +3675,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_167"
+      "id": "masterraven_167"
     },
     {
       "properties": [],
@@ -3697,7 +3697,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_168"
+      "id": "masterraven_168"
     },
     {
       "properties": [],
@@ -3719,7 +3719,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_169"
+      "id": "masterraven_169"
     },
     {
       "properties": [],
@@ -3741,7 +3741,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_170"
+      "id": "masterraven_170"
     },
     {
       "properties": [],
@@ -3763,7 +3763,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_171"
+      "id": "masterraven_171"
     },
     {
       "properties": [],
@@ -3785,7 +3785,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_172"
+      "id": "masterraven_172"
     },
     {
       "properties": [],
@@ -3807,7 +3807,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_173"
+      "id": "masterraven_173"
     },
     {
       "properties": [],
@@ -3829,7 +3829,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_174"
+      "id": "masterraven_174"
     },
     {
       "properties": [],
@@ -3851,7 +3851,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_175"
+      "id": "masterraven_175"
     },
     {
       "properties": [],
@@ -3873,7 +3873,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_176"
+      "id": "masterraven_176"
     },
     {
       "properties": [],
@@ -3895,7 +3895,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_177"
+      "id": "masterraven_177"
     },
     {
       "properties": [],
@@ -3917,7 +3917,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_178"
+      "id": "masterraven_178"
     },
     {
       "properties": [],
@@ -3939,7 +3939,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_179"
+      "id": "masterraven_179"
     },
     {
       "properties": [],
@@ -3961,7 +3961,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_180"
+      "id": "masterraven_180"
     },
     {
       "properties": [],
@@ -3983,7 +3983,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_181"
+      "id": "masterraven_181"
     },
     {
       "properties": [],
@@ -4005,7 +4005,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_182"
+      "id": "masterraven_182"
     },
     {
       "properties": [],
@@ -4027,7 +4027,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_183"
+      "id": "masterraven_183"
     },
     {
       "properties": [],
@@ -4049,7 +4049,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_184"
+      "id": "masterraven_184"
     },
     {
       "properties": [],
@@ -4071,7 +4071,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_185"
+      "id": "masterraven_185"
     },
     {
       "properties": [],
@@ -4093,7 +4093,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_186"
+      "id": "masterraven_186"
     },
     {
       "properties": [],
@@ -4115,7 +4115,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_187"
+      "id": "masterraven_187"
     },
     {
       "properties": [],
@@ -4137,7 +4137,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_188"
+      "id": "masterraven_188"
     },
     {
       "properties": [],
@@ -4159,7 +4159,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_189"
+      "id": "masterraven_189"
     },
     {
       "properties": [],
@@ -4181,7 +4181,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_190"
+      "id": "masterraven_190"
     },
     {
       "properties": [],
@@ -4203,7 +4203,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_191"
+      "id": "masterraven_191"
     },
     {
       "properties": [],
@@ -4225,7 +4225,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_192"
+      "id": "masterraven_192"
     },
     {
       "properties": [],
@@ -4247,7 +4247,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_193"
+      "id": "masterraven_193"
     },
     {
       "properties": [],
@@ -4269,7 +4269,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_194"
+      "id": "masterraven_194"
     },
     {
       "properties": [],
@@ -4291,7 +4291,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_195"
+      "id": "masterraven_195"
     },
     {
       "properties": [],
@@ -4313,7 +4313,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_196"
+      "id": "masterraven_196"
     },
     {
       "properties": [],
@@ -4335,7 +4335,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_197"
+      "id": "masterraven_197"
     },
     {
       "properties": [],
@@ -4357,7 +4357,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_198"
+      "id": "masterraven_198"
     },
     {
       "properties": [],
@@ -4379,7 +4379,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_199"
+      "id": "masterraven_199"
     },
     {
       "properties": [],
@@ -4401,7 +4401,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_200"
+      "id": "masterraven_200"
     },
     {
       "properties": [],
@@ -4423,7 +4423,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_201"
+      "id": "masterraven_201"
     },
     {
       "properties": [],
@@ -4445,7 +4445,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_202"
+      "id": "masterraven_202"
     },
     {
       "properties": [],
@@ -4467,7 +4467,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_203"
+      "id": "masterraven_203"
     },
     {
       "properties": [],
@@ -4489,7 +4489,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_204"
+      "id": "masterraven_204"
     },
     {
       "properties": [],
@@ -4511,7 +4511,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_205"
+      "id": "masterraven_205"
     },
     {
       "properties": [],
@@ -4533,7 +4533,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_206"
+      "id": "masterraven_206"
     },
     {
       "properties": [],
@@ -4555,7 +4555,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_207"
+      "id": "masterraven_207"
     },
     {
       "properties": [],
@@ -4577,7 +4577,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_208"
+      "id": "masterraven_208"
     },
     {
       "properties": [],
@@ -4599,7 +4599,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_209"
+      "id": "masterraven_209"
     },
     {
       "properties": [],
@@ -4621,7 +4621,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_210"
+      "id": "masterraven_210"
     },
     {
       "properties": [],
@@ -4643,7 +4643,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_211"
+      "id": "masterraven_211"
     },
     {
       "properties": [],
@@ -4665,7 +4665,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_212"
+      "id": "masterraven_212"
     },
     {
       "properties": [],
@@ -4687,7 +4687,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_213"
+      "id": "masterraven_213"
     },
     {
       "properties": [],
@@ -4709,7 +4709,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_214"
+      "id": "masterraven_214"
     },
     {
       "properties": [],
@@ -4731,7 +4731,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_215"
+      "id": "masterraven_215"
     },
     {
       "properties": [],
@@ -4753,7 +4753,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_216"
+      "id": "masterraven_216"
     },
     {
       "properties": [],
@@ -4775,7 +4775,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_217"
+      "id": "masterraven_217"
     },
     {
       "properties": [],
@@ -4797,7 +4797,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_218"
+      "id": "masterraven_218"
     },
     {
       "properties": [],
@@ -4819,7 +4819,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_219"
+      "id": "masterraven_219"
     },
     {
       "properties": [],
@@ -4841,7 +4841,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_220"
+      "id": "masterraven_220"
     },
     {
       "properties": [],
@@ -4863,7 +4863,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_221"
+      "id": "masterraven_221"
     },
     {
       "properties": [],
@@ -4885,7 +4885,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_222"
+      "id": "masterraven_222"
     },
     {
       "properties": [],
@@ -4907,7 +4907,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_223"
+      "id": "masterraven_223"
     },
     {
       "properties": [],
@@ -4929,7 +4929,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_224"
+      "id": "masterraven_224"
     },
     {
       "properties": [],
@@ -4951,7 +4951,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_225"
+      "id": "masterraven_225"
     },
     {
       "properties": [],
@@ -4973,7 +4973,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_226"
+      "id": "masterraven_226"
     },
     {
       "properties": [],
@@ -4995,7 +4995,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_227"
+      "id": "masterraven_227"
     },
     {
       "properties": [],
@@ -5017,7 +5017,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_228"
+      "id": "masterraven_228"
     },
     {
       "properties": [],
@@ -5039,7 +5039,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_229"
+      "id": "masterraven_229"
     },
     {
       "properties": [],
@@ -5061,7 +5061,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_230"
+      "id": "masterraven_230"
     },
     {
       "properties": [],
@@ -5083,7 +5083,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_231"
+      "id": "masterraven_231"
     },
     {
       "properties": [],
@@ -5105,7 +5105,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_232"
+      "id": "masterraven_232"
     },
     {
       "properties": [],
@@ -5127,7 +5127,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_233"
+      "id": "masterraven_233"
     },
     {
       "properties": [],
@@ -5149,7 +5149,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_234"
+      "id": "masterraven_234"
     },
     {
       "properties": [],
@@ -5171,7 +5171,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_235"
+      "id": "masterraven_235"
     },
     {
       "properties": [],
@@ -5193,7 +5193,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_236"
+      "id": "masterraven_236"
     },
     {
       "properties": [],
@@ -5215,7 +5215,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_237"
+      "id": "masterraven_237"
     },
     {
       "properties": [],
@@ -5237,7 +5237,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_238"
+      "id": "masterraven_238"
     },
     {
       "properties": [],
@@ -5259,7 +5259,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_239"
+      "id": "masterraven_239"
     },
     {
       "properties": [],
@@ -5281,7 +5281,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_240"
+      "id": "masterraven_240"
     },
     {
       "properties": [],
@@ -5303,7 +5303,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_241"
+      "id": "masterraven_241"
     },
     {
       "properties": [],
@@ -5325,7 +5325,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_242"
+      "id": "masterraven_242"
     },
     {
       "properties": [],
@@ -5347,7 +5347,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_243"
+      "id": "masterraven_243"
     },
     {
       "properties": [],
@@ -5369,7 +5369,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_244"
+      "id": "masterraven_244"
     },
     {
       "properties": [],
@@ -5391,7 +5391,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_245"
+      "id": "masterraven_245"
     },
     {
       "properties": [],
@@ -5413,7 +5413,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_246"
+      "id": "masterraven_246"
     },
     {
       "properties": [],
@@ -5435,7 +5435,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_247"
+      "id": "masterraven_247"
     },
     {
       "properties": [],
@@ -5457,7 +5457,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_248"
+      "id": "masterraven_248"
     },
     {
       "properties": [],
@@ -5479,7 +5479,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_249"
+      "id": "masterraven_249"
     },
     {
       "properties": [],
@@ -5501,7 +5501,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_250"
+      "id": "masterraven_250"
     },
     {
       "properties": [],
@@ -5523,7 +5523,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_251"
+      "id": "masterraven_251"
     },
     {
       "properties": [],
@@ -5545,7 +5545,7 @@
       "in_air": "",
       "active_frames": "-",
       "notes": "",
-      "id": "master raven_252"
+      "id": "masterraven_252"
     },
     {
       "properties": [],
@@ -5567,7 +5567,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_253"
+      "id": "masterraven_253"
     },
     {
       "properties": [],
@@ -5589,7 +5589,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_254"
+      "id": "masterraven_254"
     },
     {
       "properties": [],
@@ -5611,7 +5611,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_255"
+      "id": "masterraven_255"
     },
     {
       "properties": [],
@@ -5633,7 +5633,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_256"
+      "id": "masterraven_256"
     },
     {
       "properties": [],
@@ -5655,7 +5655,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_257"
+      "id": "masterraven_257"
     },
     {
       "properties": [],
@@ -5677,7 +5677,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_258"
+      "id": "masterraven_258"
     },
     {
       "properties": [],
@@ -5699,7 +5699,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_259"
+      "id": "masterraven_259"
     },
     {
       "properties": [],
@@ -5721,7 +5721,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_260"
+      "id": "masterraven_260"
     },
     {
       "properties": [],
@@ -5743,7 +5743,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_261"
+      "id": "masterraven_261"
     },
     {
       "properties": [],
@@ -5765,7 +5765,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_262"
+      "id": "masterraven_262"
     },
     {
       "properties": [],
@@ -5787,7 +5787,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_263"
+      "id": "masterraven_263"
     },
     {
       "properties": [],
@@ -5809,7 +5809,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_264"
+      "id": "masterraven_264"
     },
     {
       "properties": [],
@@ -5831,7 +5831,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_265"
+      "id": "masterraven_265"
     },
     {
       "properties": [],
@@ -5853,7 +5853,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_266"
+      "id": "masterraven_266"
     },
     {
       "properties": [],
@@ -5875,7 +5875,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_267"
+      "id": "masterraven_267"
     },
     {
       "properties": [],
@@ -5897,7 +5897,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_268"
+      "id": "masterraven_268"
     },
     {
       "properties": [],
@@ -5919,7 +5919,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_269"
+      "id": "masterraven_269"
     },
     {
       "properties": [],
@@ -5941,7 +5941,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_270"
+      "id": "masterraven_270"
     },
     {
       "properties": [],
@@ -5963,7 +5963,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_271"
+      "id": "masterraven_271"
     },
     {
       "properties": [],
@@ -5985,7 +5985,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_272"
+      "id": "masterraven_272"
     },
     {
       "properties": [],
@@ -6007,7 +6007,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_273"
+      "id": "masterraven_273"
     },
     {
       "properties": [],
@@ -6029,7 +6029,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_274"
+      "id": "masterraven_274"
     },
     {
       "properties": [],
@@ -6051,7 +6051,29 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_275"
+      "id": "masterraven_275"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "COMMAND",
+      "hit_level": "HIT LEVEL",
+      "range": "RANGE",
+      "pushback": "PUSHBACK",
+      "tracking": "TRACKING",
+      "crush": "CRUSH",
+      "jail": "JAIL",
+      "natural": "NC / NCc",
+      "damage": "DAMAGE",
+      "speed": "START UP",
+      "on_block": "ON BLOCK",
+      "on_hit": "ON HIT",
+      "on_ch": "ON CH",
+      "in_air": "",
+      "active_frames": "ACTIVE",
+      "notes": "",
+      "id": "masterraven_276"
     },
     {
       "properties": [],
@@ -6073,7 +6095,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_276"
+      "id": "masterraven_277"
     },
     {
       "properties": [],
@@ -6095,7 +6117,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_277"
+      "id": "masterraven_278"
     },
     {
       "properties": [],
@@ -6117,7 +6139,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_278"
+      "id": "masterraven_279"
     },
     {
       "properties": [],
@@ -6139,7 +6161,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_279"
+      "id": "masterraven_280"
     },
     {
       "properties": [],
@@ -6161,7 +6183,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_280"
+      "id": "masterraven_281"
     },
     {
       "properties": [],
@@ -6183,7 +6205,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "master raven_281"
+      "id": "masterraven_282"
     },
     {
       "properties": [],
@@ -6205,7 +6227,7 @@
       "in_air": "-",
       "active_frames": "8",
       "notes": "-",
-      "id": "master raven_282"
+      "id": "masterraven_283"
     }
   ]
 }
