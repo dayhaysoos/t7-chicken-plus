@@ -17,6 +17,7 @@ import heihachi_portrait from '../../assets/images/characterPortraits/heihachi_p
 import hwoarang_portrait from '../../assets/images/characterPortraits/hwoarang_portrait.png';
 import jack7_portrait from '../../assets/images/characterPortraits/jack7_portrait.png';
 import jin_portrait from '../../assets/images/characterPortraits/jin_portrait.png';
+import julia_portrait from '../../assets/images/characterPortraits/julia_portrait.png';
 import josie_portrait from '../../assets/images/characterPortraits/josie_portrait.png';
 import katarina_portrait from '../../assets/images/characterPortraits/katarina_portrait.png';
 import kazumi_portrait from '../../assets/images/characterPortraits/kazumi_portrait.png';
@@ -62,6 +63,7 @@ export const characterPortraits = {
     jack: jack7_portrait,
     jin: jin_portrait,
     josie: josie_portrait,
+    julia: julia_portrait,
     katarina: katarina_portrait,
     kazumi: kazumi_portrait,
     kazuya: kazuya_portrait,
