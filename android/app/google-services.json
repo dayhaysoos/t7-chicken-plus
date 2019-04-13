@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "882547459850-mi603vb72cvltvouk6r5m8kpmbsh7qlg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.t7chickenplus",
+            "certificate_hash": "ff4bd1805b7ceec4132dbe09f4e9c5595e08cad2"
+          }
+        },
+        {
           "client_id": "882547459850-7t563obj29613d6cu7pkdgi476b76k9o.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -25,15 +33,20 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882547459850-7t563obj29613d6cu7pkdgi476b76k9o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "882547459850-so5sfsk6f25gfml0e8q7tsg84ccp5qhd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dayhaysoos.t7-chicken-plus"
+              }
+            }
+          ]
         }
       },
       "admob_app_id": "ca-app-pub-2131722019779391~1691902228"

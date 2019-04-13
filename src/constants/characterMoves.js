@@ -18,6 +18,7 @@ import hwoarang from '../../assets/character-data/hwoarang.json';
 import jack from '../../assets/character-data/jack.json';
 import jin from '../../assets/character-data/jin.json';
 import josie from '../../assets/character-data/josie.json';
+import julia from '../../assets/character-data/julia.json';
 import katarina from '../../assets/character-data/katarina.json';
 import kazumi from '../../assets/character-data/kazumi.json';
 import kazuya from '../../assets/character-data/kazuya.json';
@@ -62,6 +63,7 @@ export const characterMoves = {
     jack: jack,
     jin: jin,
     josie: josie,
+    julia: julia,
     katarina: katarina,
     kazumi: kazumi,
     kazuya: kazuya,
