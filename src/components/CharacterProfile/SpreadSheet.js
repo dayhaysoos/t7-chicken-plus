@@ -15,9 +15,11 @@ const white = "#fff"
 
 const SpreadsheetCell = styled.View`
   border-width: 1;
-  background-color: ${({ theme: { primaryGradient2 } }) => primaryGradient2};
-  height: 40;
+  background-color: ${({ index, theme: { primaryGradient2, primary } }) => index % 2 === 0 ? primary : primaryGradient2};
+  height: 50;
   width: 75;
+  justify-content: center;
+  align-items: center;
 `;
 
 
@@ -27,9 +29,11 @@ const SpreadsheetCellText = styled.Text`
 
 const NotationCell = styled.TouchableOpacity`
   border-width: 1;
-  background-color: ${({ theme: { primaryGradient2 } }) => primaryGradient2};
-  height: 40;
+  background-color: ${({ index, theme: { primaryGradient2, primary } }) => index % 2 === 0 ? primary : primaryGradient2};
+  height: 50;
   width: 150;
+  justify-content: center;
+  align-items: center;
 `;
 
 const NotationCellText = styled.Text`
@@ -154,19 +158,20 @@ class Sheet extends React.Component {
         navigation.navigate('CharacterMove', { name, id, item, selectedCharacterMoves });
     }
 
-    formatCell(value, id) {
+    formatCell(value, id, i) {
 
         return (
-            <SpreadsheetCell key={id}>
+            <SpreadsheetCell index={i} key={id}>
                 <SpreadsheetCellText>{value}</SpreadsheetCellText>
             </SpreadsheetCell>
         )
     }
 
-    formatNotationCell(notation, id, item) {
+    formatNotationCell(notation, id, item, i) {
         const { name } = this.props;
         return (
             <NotationCell
+                index={i}
                 onPress={() => this.navigateToCharacterMove(item, name, id)}
                 key={id}
             >
@@ -184,10 +189,8 @@ class Sheet extends React.Component {
         let notations = [];
 
         for (let i = 0; i < count; i++) {
-            notations.push(this.formatNotationCell(selectedCharacterMoves[i].notation, selectedCharacterMoves[i].id, selectedCharacterMoves[i]))
+            notations.push(this.formatNotationCell(selectedCharacterMoves[i].notation, selectedCharacterMoves[i].id, selectedCharacterMoves[i], i))
         }
-
-        // const notations = selectedCharacterMoves.map((move, k) => this.formatNotationCell(move.notation, move.id, move))
 
         return (
             <View
@@ -203,7 +206,7 @@ class Sheet extends React.Component {
         let cells = []
 
         for (let i = 0; i < count; i++) {
-            cells.push(this.formatCell(selectedCharacterMoves[i][item.key], `move-${i}`))
+            cells.push(this.formatCell(selectedCharacterMoves[i][item.key], `move-${i}`, i))
         }
 
         return <View style={styles.column}>{cells}</View>

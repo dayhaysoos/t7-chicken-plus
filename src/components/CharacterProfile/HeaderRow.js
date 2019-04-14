@@ -7,16 +7,11 @@ const NotationRow = styled.View`
 `;
 
 const SpreadsheetCell = styled.Text`
-  height: 40;
+  height: 50;
   width: 75;
   border-width: 1;
   color: ${({ theme: { text } }) => text};
   background-color: ${({ theme: { primaryGradient2 } }) => primaryGradient2};
-`;
-
-
-const HeaderNotationCell = styled(SpreadsheetCell)`
-  width: 150;
 `;
 
 const HeaderRow = () => (
