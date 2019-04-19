@@ -1878,7 +1878,7 @@
       "jail": "-",
       "natural": "-",
       "damage": "4",
-      "speed": "i33",
+      "speed": "33",
       "on_block": "-2",
       "on_hit": "+3",
       "on_ch": "+3",

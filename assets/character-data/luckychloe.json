@@ -3733,6 +3733,29 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
+      "notation": "(During Rage) 3+4, 3:3:3:3:3:3",
+      "hit_level": "low",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "damage": "65 [67]",
+      "speed": "20",
+      "on_block": "-27",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "luckychloe_163"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
       "notation": "(During Rage) d/f+3+4, B",
       "hit_level": "mid, mid, mid",
       "range": "-",
@@ -3750,7 +3773,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_163"
+      "id": "luckychloe_164"
     },
     {
       "properties": [],
@@ -3773,7 +3796,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_164"
+      "id": "luckychloe_165"
     },
     {
       "properties": [],
@@ -3796,7 +3819,7 @@
       "on_whiff": "",
       "active_frames": "",
       "notes": "",
-      "id": "luckychloe_165"
+      "id": "luckychloe_166"
     },
     {
       "properties": [],
@@ -3819,7 +3842,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_166"
+      "id": "luckychloe_167"
     },
     {
       "properties": [],
@@ -3842,7 +3865,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_167"
+      "id": "luckychloe_168"
     },
     {
       "properties": [],
@@ -3865,7 +3888,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_168"
+      "id": "luckychloe_169"
     },
     {
       "properties": [],
@@ -3888,7 +3911,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_169"
+      "id": "luckychloe_170"
     },
     {
       "properties": [],
@@ -3911,7 +3934,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_170"
+      "id": "luckychloe_171"
     },
     {
       "properties": [],
@@ -3934,7 +3957,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_171"
+      "id": "luckychloe_172"
     },
     {
       "properties": [],
@@ -3957,7 +3980,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_172"
+      "id": "luckychloe_173"
     },
     {
       "properties": [],
@@ -3980,7 +4003,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_173"
+      "id": "luckychloe_174"
     },
     {
       "properties": [],
@@ -4003,14 +4026,14 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_174"
+      "id": "luckychloe_175"
     },
     {
       "properties": [],
       "preview_url": null,
       "move_name": null,
       "notation": "WR f, f, F (Mid Screen)",
-      "hit_level": "-",
+      "hit_level": "mid throw",
       "range": "-",
       "pushback": "-",
       "tracking": "-",
@@ -4026,7 +4049,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_175"
+      "id": "luckychloe_176"
     },
     {
       "properties": [],
@@ -4049,7 +4072,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_176"
+      "id": "luckychloe_177"
     },
     {
       "properties": [],
@@ -4072,7 +4095,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_177"
+      "id": "luckychloe_178"
     },
     {
       "properties": [],
@@ -4095,7 +4118,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_178"
+      "id": "luckychloe_179"
     },
     {
       "properties": [],
@@ -4118,7 +4141,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_179"
+      "id": "luckychloe_180"
     },
     {
       "properties": [],
@@ -4141,7 +4164,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_180"
+      "id": "luckychloe_181"
     },
     {
       "properties": [],
@@ -4164,7 +4187,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "luckychloe_181"
+      "id": "luckychloe_182"
     }
   ]
 }

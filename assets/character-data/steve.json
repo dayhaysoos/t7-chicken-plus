@@ -4845,7 +4845,7 @@
       "jail": "-",
       "natural": "-",
       "damage": "10 [12]",
-      "speed": "i12",
+      "speed": "12",
       "on_block": "-2",
       "on_hit": "+9",
       "on_ch": "+9",
