@@ -17,7 +17,7 @@ const SpreadsheetCell = styled.View`
   border-width: 1;
   background-color: ${({ index, theme: { primaryGradient2, primary } }) => index % 2 === 0 ? primary : primaryGradient2};
   height: 50;
-  width: 75;
+  width: 80;
   justify-content: center;
   align-items: center;
 `;

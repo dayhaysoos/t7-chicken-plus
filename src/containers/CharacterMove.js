@@ -148,9 +148,6 @@ class CharacterMove extends Component {
     }
 
     toggleModal = (isVisible) => {
-        const { modalVisible } = this.state;
-
-
 
         this.setState({
             modalVisible: isVisible

@@ -8,7 +8,9 @@ const NotationRow = styled.View`
 
 const SpreadsheetCell = styled.Text`
   height: 50;
-  width: 75;
+  width: 80;
+  padding-top: 15;
+  text-align: center;
   border-width: 1;
   color: ${({ theme: { text } }) => text};
   background-color: ${({ theme: { primaryGradient2 } }) => primaryGradient2};
