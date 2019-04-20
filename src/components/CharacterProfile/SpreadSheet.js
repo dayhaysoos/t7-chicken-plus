@@ -279,7 +279,7 @@ class Sheet extends React.Component {
 
         return (
             <ThemeProvider theme={this.props.theme}>
-                <View style={{ height: Platform.OS === 'ios' ? 430 : 520 }}>
+                <View style={{ height: '70%' }}>
                     {this.formatHeader()}
                     <FlatList
                         data={data}
