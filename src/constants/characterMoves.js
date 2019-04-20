@@ -35,6 +35,7 @@ import masterraven from '../../assets/character-data/masterraven.json';
 import marduk from '../../assets/character-data/marduk.json';
 import miguel from '../../assets/character-data/miguel.json';
 import nina from '../../assets/character-data/nina.json';
+import negan from '../../assets/character-data/negan.json';
 import noctis from '../../assets/character-data/noctis.json';
 import paul from '../../assets/character-data/paul.json';
 import shaheen from '../../assets/character-data/shaheen.json';
@@ -80,6 +81,7 @@ export const characterMoves = {
     marduk: marduk,
     miguel: miguel,
     nina: nina,
+    negan: negan,
     noctis: noctis,
     paul: paul,
     shaheen: shaheen,

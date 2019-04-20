@@ -8,19 +8,23 @@ import storage from 'redux-persist/lib/storage';
 
 const persistConfig = {
     key: 'root',
-    version: 2.2,
+    version: 2.5,
     storage,
-    migrate: (state) => (Promise.resolve({
-        ...state,
-        favorites: {
-            ...state.favorites,
-            julia: {},
-            moves: {
-                ...state.favorites.moves,
-            }
-        }
-    })
-    ),
+    migrate: (state) => {
+        return (
+            Promise.resolve({
+                ...state,
+                favorites: {
+                    ...state.favorites,
+                    moves: {
+                        ...state.favorites.moves,
+                        julia: {},
+                        negan: {},
+                    }
+                }
+            })
+        )
+    },
     whitelist: [
         'settings',
         'favorites'
