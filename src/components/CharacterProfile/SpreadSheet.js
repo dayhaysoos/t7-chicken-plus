@@ -1,5 +1,5 @@
 import React from "react"
-import { Animated, ActivityIndicator, FlatList, ScrollView, StyleSheet, Text, View, Dimensions, TouchableOpacity } from "react-native"
+import { Animated, ActivityIndicator, FlatList, ScrollView, StyleSheet, Text, View, Dimensions, TouchableOpacity, Platform } from "react-native"
 import HeaderRow from '../CharacterProfile/HeaderRow';
 import SpreadSheetRow from '../CharacterProfile/SpreadSheetRow';
 import styled, { ThemeProvider } from 'styled-components';
@@ -279,7 +279,7 @@ class Sheet extends React.Component {
 
         return (
             <ThemeProvider theme={this.props.theme}>
-                <View style={{ height: 430 }}>
+                <View style={{ height: Platform.OS === 'ios' ? 430 : 520 }}>
                     {this.formatHeader()}
                     <FlatList
                         data={data}

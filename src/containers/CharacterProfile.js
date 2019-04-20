@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList, Animated, ScrollView, Dimensions, View } from 'react-native';
-import styled, { ThemeProvider, consolidateStreamedStyles } from 'styled-components/native';
+import { FlatList, Animated, ScrollView, Dimensions, View, Platform } from 'react-native';
+import styled, { ThemeProvider } from 'styled-components/native';
 import { connect } from 'react-redux';
 
 import CharacterBanner from '../components/CharacterProfile/CharacterBanner';
