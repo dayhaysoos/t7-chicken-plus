@@ -11,7 +11,7 @@ import firebase from 'react-native-firebase';
 const MainContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 10;
+  height: 50;
 `;
 
 const OuterContainer = styled.View`
