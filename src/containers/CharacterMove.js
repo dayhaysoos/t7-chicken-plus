@@ -166,6 +166,10 @@ class CharacterMove extends Component {
         });
     }
 
+    renderGeneralProperties = (moves) => {
+
+        return moves.map(move => <PropertyText>{checkMoveProperty(move)}</PropertyText>)
+    }
 
     render() {
 
@@ -189,8 +193,14 @@ class CharacterMove extends Component {
             jail,
             range,
             tracking,
+            in_air,
+            natural,
+            on_whiff,
+            pushback,
 
         } = selectedCharacterMoves[this.state.selectedIndex];
+
+        console.log('props', this.props)
 
         const { modalVisible, isDrawerOpen } = this.state;
 
@@ -268,10 +278,18 @@ class CharacterMove extends Component {
                                 {checkMoveProperty(jail) && (
                                     <PropertyText>Jail: {jail}</PropertyText>
                                 )}
+                                {checkMoveProperty(in_air) && (
+                                    <PropertyText>In Air: {in_air}</PropertyText>
+                                )}
                                 {checkMoveProperty(tracking) && (
                                     <PropertyText>Tracking: {tracking}</PropertyText>
                                 )}
-
+                                {checkMoveProperty(natural) && (
+                                    <PropertyText>Natural: {natural}</PropertyText>
+                                )}
+                                {checkMoveProperty(pushback) && (
+                                    <PropertyText>Push Back: {pushback}</PropertyText>
+                                )}
                                 <HeaderTitle>
                                     Frame Properties
                                 </HeaderTitle>
@@ -282,12 +300,16 @@ class CharacterMove extends Component {
                                 {checkMoveProperty(on_hit) && (
                                     <PropertyText>On Hit: {on_hit}</PropertyText>
                                 )}
-                                {checkMoveProperty(on_block) && (
-                                    <PropertyText>On Block: {on_block}</PropertyText>
-                                )}
                                 {checkMoveProperty(on_ch) && (
                                     <PropertyText>On Counter: {on_ch}</PropertyText>
                                 )}
+                                {checkMoveProperty(on_block) && (
+                                    <PropertyText>On Block: {on_block}</PropertyText>
+                                )}
+                                {checkMoveProperty(on_whiff) && (
+                                    <PropertyText>On Whiff: {on_whiff}</PropertyText>
+                                )}
+
                             </ScrollView>
                             <BottomMenuBar
                                 navigation={navigation}

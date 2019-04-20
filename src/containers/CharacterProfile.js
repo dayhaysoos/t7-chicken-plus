@@ -179,19 +179,6 @@ class CharacterProfile extends Component {
         });
     }
 
-    sortByFav(a, b) {
-        if (a.favorite && !b.favorite) return -1;
-        else if (!a.favorite && b.favorite) return 1;
-
-        return 0;
-    }
-
-    async resetSearch() {
-        this.setState({ moveListArray: this.state.unFilteredMoveList },
-            () => this.state.activeFilters.forEach(filter => this.filterMoveList(filter))
-        );
-    }
-
     searchMoveList(input, moveList) {
         return [];
     }
