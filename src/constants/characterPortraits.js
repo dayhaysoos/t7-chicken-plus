@@ -35,6 +35,7 @@ import masterraven_portrait from '../../assets/images/characterPortraits/masterr
 import marduk from '../../assets/images/characterPortraits/marduk_portrait.png';
 import miguel_portrait from '../../assets/images/characterPortraits/miguel_portrait.png';
 import nina_portrait from '../../assets/images/characterPortraits/nina_portrait.png';
+import negan_portrait from '../../assets/images/characterPortraits/negan_portrait.png';
 import noctis_portrait from '../../assets/images/characterPortraits/noctis_portrait.png';
 import paul_portrait from '../../assets/images/characterPortraits/paul_portrait.png';
 import shaheen_portrait from '../../assets/images/characterPortraits/shaheen_portrait.png';
@@ -80,6 +81,7 @@ export const characterPortraits = {
     marduk: marduk,
     miguel: miguel_portrait,
     nina: nina_portrait,
+    negan: negan_portrait,
     noctis: noctis_portrait,
     paul: paul_portrait,
     shaheen: shaheen_portrait,

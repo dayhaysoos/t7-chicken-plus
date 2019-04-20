@@ -64,6 +64,7 @@ export const mapStateToProps = ({
 const HEADER_MAX_HEIGHT = 300;
 const HEADER_MIN_HEIGHT = 0;
 const HEADER_SCROLL_DISTANCE = HEADER_MAX_HEIGHT - HEADER_MIN_HEIGHT;
+const { height } = Dimensions.get('screen');
 
 const MainContainer = styled(Drawer)`
   flex: 1;
@@ -233,7 +234,6 @@ class CharacterProfile extends Component {
 
         const { isOpen, side, scrollY, searchTerm } = this.state;
 
-
         return (
             <GradientTheme theme={theme}>
                 <DrawerSwitcher
@@ -244,7 +244,7 @@ class CharacterProfile extends Component {
                     isOpen={isOpen}
                     onClose={this.onDrawerClose}
                 >
-                    <View style={{ height: 650 }}>
+                    <View style={{ flex: 1 }}>
                         <AdBanner screen={'character-profile'} />
                         {
                             listView ?
