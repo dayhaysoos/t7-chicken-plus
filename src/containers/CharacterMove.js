@@ -200,8 +200,6 @@ class CharacterMove extends Component {
 
         } = selectedCharacterMoves[this.state.selectedIndex];
 
-        console.log('props', this.props)
-
         const { modalVisible, isDrawerOpen } = this.state;
 
         return (
