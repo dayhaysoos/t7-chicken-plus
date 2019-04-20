@@ -56,6 +56,17 @@ describe('Character Reducers', () => {
 
         const updateSelectedCharacterMovesAction = characterActions.updateSelectedCharacterMoves;
 
+        const state = {
+            characterData: {
+                akuma: {
+                    movelist: [{
+                        speed: 'speed',
+                        notation: 'notation'
+                    }]
+                }
+            }
+        };
+
         const selectedCharacterMoves = [{
             speed: 'speed',
             notation: 'notation',

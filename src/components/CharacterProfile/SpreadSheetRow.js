@@ -11,9 +11,6 @@ const SpreadsheetRow = styled.TouchableOpacity`
 
 const SpreadsheetCell = styled.Text`
   flex-wrap: wrap;
-  min-height: 40;
-  max-height: 100%;
-  width: 75;
   border-width: 1;
   color: ${({ theme: { text } }) => text};
   padding-top: 10;

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 import { FlatList, View, Text } from 'react-native';
-import Accordion from '@ercpereda/react-native-accordion';
+import Accordion from 'react-native-collapsible/Accordion';
 import LinearGradient from 'react-native-linear-gradient';
 import PropTypes from 'prop-types';
 import FilterOption from './FilterOption';
@@ -45,6 +45,12 @@ const ResetText = styled.Text`
   fontSize: 14;
   padding-horizontal: 5;
 `;
+
+const AccordionSectionTitle = styled.Text`
+  color: white;
+  font-size: 20;
+  padding: 10px;
+`;
 class FilterMenu extends Component {
     styles = {
         innerAccordion: {
@@ -57,9 +63,9 @@ class FilterMenu extends Component {
         }
     }
 
-    renderHeader(filterName) {
-        return <View><Text style={{ color: 'white', fontSize: 20, padding: 10 }}>{filterName}</Text></View>;
-    }
+    state = {
+        activeSections: [],
+    };
 
     isFilterActive = (filterType) => {
         const { activeFilters } = this.props;
@@ -72,7 +78,7 @@ class FilterMenu extends Component {
         }
     }
 
-    toggleFilters = (item, filter) => {
+    toggleFilters = (filterProperty, filter) => {
         const { applyFilter, removeFilter } = this.props;
 
         const isActive = this.isFilterActive(filter);
@@ -80,49 +86,69 @@ class FilterMenu extends Component {
         if (isActive) {
             removeFilter({
                 filterType: filter,
-                filterProperty: item.filterProperty
+                filterProperty: filterProperty
             });
         } else {
             applyFilter({
                 filterType: filter,
-                filterProperty: item.filterProperty
+                filterProperty: filterProperty
             });
         }
     }
 
-    renderItem = ({ item }) => {
-        const { applyFilter } = this.props;
+    handleSections = () => {
+        return filters.map(filterCategory => {
+            return ({
+                title: filterCategory.label,
+
+                filterProperties: Object.keys(filterCategory.filters).map((prop) => {
+                    return {
+                        filterLabel: filterCategory.filters[prop].filterLabel,
+                        filterFunction: filterCategory.filters[prop].filterFunction,
+                        filterType: filterCategory.filters[prop].filterType,
+                        filterProperty: filterCategory.filterProperty
+                    }
+                })
+            })
+        })
+    }
+
+    renderSectionHeader = (section) => {
         return (
-            <Accordion
-                style={{
-                    borderColor: '#4E4E52',
-                    borderBottomWidth: 1,
-                }}
-                key={item.label}
-                header={() => this.renderHeader(item.label)}
-                content={
-                    <InnerAccordion>
-                        {Object.keys(item.filters)
-                            .map(
-                                (filter) => (
-                                    <FilterOption
-                                        key={item.filters[filter].filterLabel}
-                                        text={item.filters[filter].filterLabel}
-                                        isFilterActive={this.isFilterActive(filter)}
-                                        toggleFilters={() => this.toggleFilters(item, filter)}
-                                    />
-                                )
-                            )
-                        }
-                    </InnerAccordion>
-                }
-            />
-        );
-    };
+            <AccordionSectionTitle>
+                {section.title}
+            </AccordionSectionTitle>
+        )
+    }
+
+    renderSectionTitle = (section) => {
+
+        return (
+            <Text>Test</Text>
+        )
+    }
+
+    renderContent = (section) => {
+        const { title, filterProperties } = section;
+        return filterProperties.map(prop => {
+            return (
+                <FilterOption
+                    key={prop.filterLabel}
+                    text={prop.filterLabel}
+                    isFilterActive={this.isFilterActive(prop.filterType)}
+                    toggleFilters={() => this.toggleFilters(prop.filterProperty, prop.filterType)}
+                />
+            )
+        })
+    }
+
+    updateSections = (activeSections) => {
+        this.setState({ activeSections })
+    }
 
     render() {
         const { resetFilters } = this.props;
-
+        const sections = this.handleSections();
         return (
             <LinearGradient
                 start={{ x: 0, y: 0 }}
@@ -137,12 +163,12 @@ class FilterMenu extends Component {
                         <ResetText>Reset</ResetText>
                     </ResetButton>
                 </MainContainer>
-                <FlatList
-                    contentContainerStyle={{ justifyContent: 'center', flexDirection: 'column' }}
-                    data={filters}
-                    numColumns={1}
-                    keyExtractor={(item, index) => index.toString()}
-                    renderItem={this.renderItem}
+                <Accordion
+                    activeSections={this.state.activeSections}
+                    sections={sections}
+                    renderHeader={this.renderSectionHeader}
+                    renderContent={this.renderContent}
+                    onChange={this.updateSections}
                 />
             </LinearGradient >
         );

@@ -4,6 +4,7 @@ import {
     ON_BLOCK_FILTER,
     ON_HIT_FILTER,
     SPEED_FILTER,
+    GIF_FILTER
 } from '../constants/filters';
 
 // hit level filters
@@ -40,9 +41,10 @@ export const hit_level = {
 };
 
 // crush filters
-const filterHighCrush = (moves) => moves.filter(move => move.crush.includes('H'));
-const filterLowCrush = (moves) => moves.filter(move => move.crush.includes('L'));
-const filterAllCrush = (moves) => moves.filter(move => move.crush.includes('A'));
+const filterHighCrush = (moves) => moves.filter(move => move.crush.includes('h'));
+const filterMidCrush = (moves) => moves.filter(move => move.crush.includes('m'));
+const filterLowCrush = (moves) => moves.filter(move => move.crush.includes('l'));
+const filterAllCrush = (moves) => moves.filter(move => move.crush.includes('a'));
 
 export const crush = {
     label: 'Crush',
@@ -53,16 +55,21 @@ export const crush = {
             filterLabel: 'High Crush',
             filterType: CRUSH_FILTER.FILTER_HIGH_CRUSH
         },
+        [CRUSH_FILTER.FILTER_MID_CRUSH]: {
+            filterFunction: filterMidCrush,
+            filterLabel: 'Mid Crush',
+            filterType: CRUSH_FILTER.FILTER_MID_CRUSH
+        },
         [CRUSH_FILTER.FILTER_LOW_CRUSH]: {
             filterFunction: filterLowCrush,
             filterLabel: 'Low Crush',
             filterType: CRUSH_FILTER.FILTER_LOW_CRUSH
         },
-        [CRUSH_FILTER.FILTER_ALL_CRUSH]: {
-            filterFunction: filterAllCrush,
-            filterLabel: 'All Crush',
-            filterType: CRUSH_FILTER.FILTER_ALL_CRUSH
-        }
+        // [CRUSH_FILTER.FILTER_ALL_CRUSH]: {
+        //     filterFunction: filterAllCrush,
+        //     filterLabel: 'All Crush',
+        //     filterType: CRUSH_FILTER.FILTER_ALL_CRUSH
+        // }
     }
 };
 
@@ -102,7 +109,7 @@ export const on_block = {
 
 // on_hit filters
 const filterAllPlusOnHit = (moves) => moves.filter(move => move.on_hit.includes('+'));
-const filterAllNegativeOnHit = (moves) => moves.filter(move => parseInt(move.on_hit) > -10);
+const filterAllNegativeOnHit = (moves) => moves.filter(move => parseInt(move.on_hit) < 0);
 const filterAllNeutralOnHit = moves => moves.filter(move => parseInt(move.on_hit) === 0);
 
 
@@ -133,7 +140,7 @@ const filter10FrameAttacks = moves => moves.filter(move => parseInt(move.speed) 
 const filter11FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 11);
 const filter12FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 12);
 const filter13FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 13);
-const filter14FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 14);
+export const filter14FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 14);
 const filter15FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 15);
 const filter16FrameAttacks = moves => moves.filter(move => parseInt(move.speed) === 16);
 
@@ -179,7 +186,26 @@ export const speed = {
     }
 };
 
-export
+//gif filters
+const filterGifs = moves => moves.filter(move => move.preview_url);
+const filterNoGifs = moves => moves.filter(move => !move.preview_url)
+
+export const preview_url = {
+    label: 'Has Gif',
+    filterProperty: 'preview_url',
+    filters: {
+        [GIF_FILTER.HAS_GIF]: {
+            filterFunction: filterGifs,
+            filterLabel: 'Has Gif',
+            filterType: GIF_FILTER.HAS_GIF,
+        },
+        [GIF_FILTER.HAS_NO_GIF]: {
+            filterFunction: filterNoGifs,
+            filterLabel: `Doesn't have Gif`,
+            filterType: GIF_FILTER.HAS_NO_GIF,
+        },
+    }
+};
 
 const filters = [
     speed,
@@ -187,6 +213,7 @@ const filters = [
     on_hit,
     hit_level,
     crush,
+    preview_url
 ];
 
 export default filters;

@@ -22,6 +22,7 @@ export default class FilterOption extends Component {
             flexDirection: 'row',
             justifyContent: 'space-between',
             padding: 10,
+            backgroundColor: '#19181C'
         },
         text: {
             color: 'white',

@@ -8,6 +8,7 @@ import { Dimensions, FlatList, View } from 'react-native';
 import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
 import * as favoriteActions from '../redux/actions/favoriteActions';
+import * as searchActions from '../redux/actions/searchActions';
 
 import { GradientTheme } from '../common/GradientTheme';
 import BottomMenuBar from '../components/BottomMenuBar';
@@ -45,7 +46,8 @@ const EmptyText = styled.Text`
 export const mapDispatchToProps = {
     ...characterActions,
     ...settingsActions,
-    ...favoriteActions
+    ...favoriteActions,
+    ...searchActions
 };
 
 export const mapStateToProps = ({ characterData, theme, settings: { listView }, favorites }) => ({
@@ -110,8 +112,9 @@ class CharacterSelect extends Component {
     }
 
     navigateToCharacterProfile = (item) => {
-        const { navigation, updateSelectedCharacterMoves, toggleCharacterStar } = this.props;
+        const { navigation, updateSelectedCharacterMoves, toggleCharacterStar, resetSearchBar } = this.props;
         const { favorite, label, name } = item;
+        resetSearchBar();
         updateSelectedCharacterMoves(label);
 
         navigation.navigate('CharacterProfile', {
@@ -175,14 +178,14 @@ class CharacterSelect extends Component {
                                 )}
                             />
                         </View>
-                        <BottomMenuBar
-                            navigation={navigation}
-                            toggleListView={toggleListView}
-                            isListView={listView}
-                            onPressFavoriteFilter={this.toggleShowFavorites}
-                            handleSearchTextChange={searchTerm => this.setState({ searchTerm })}
-                        />
                     </MainContainer>
+                    <BottomMenuBar
+                        navigation={navigation}
+                        toggleListView={toggleListView}
+                        isListView={listView}
+                        onPressFavoriteFilter={this.toggleShowFavorites}
+                        handleSearchTextChange={searchTerm => this.setState({ searchTerm })}
+                    />
                 </GradientTheme>
             </ThemeProvider>
         );

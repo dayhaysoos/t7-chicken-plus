@@ -5,7 +5,10 @@ import styled, { ThemeProvider } from 'styled-components/native';
 
 import MoveHeader from '../components/MoveHeader';
 import { GradientTheme } from '../common/GradientTheme';
+import Legend from '../components/Legend';
 import BottomMenuBar from '../components/BottomMenuBar';
+import Drawer from 'react-native-drawer';
+import DrawerSwitcher from '../components/DrawerSwitcher';
 import firebase from 'react-native-firebase';
 
 import * as characterActions from '../redux/actions/characterActions';
@@ -15,8 +18,9 @@ import AdBanner from '../components/AdBanner';
 
 import { checkMoveProperty } from '../utils/CharacterMove';
 
-const Banner = firebase.admob.Banner;
-
+const MainContainer = styled(Drawer)`
+  flex: 1;
+`;
 
 const HeaderTitle = styled.Text`
   background-color: ${(props) => props.theme.primaryGradient2}
@@ -77,10 +81,11 @@ const ModalText = styled.Text`
   font-size: 16;
 `;
 
-const mapStateToProps = ({ theme, characterData: { moveData, selectedCharacterMoves, currentAttack } }) => ({
+const mapStateToProps = ({ theme, characterData: { moveData, selectedCharacterMoves, selectedCharacterLabel, currentAttack } }) => ({
     theme,
     moveData,
     selectedCharacterMoves,
+    selectedCharacterLabel,
     currentAttack
 });
 
@@ -103,6 +108,7 @@ class CharacterMove extends Component {
         modalVisible: false,
         loadingGif: true,
         selectedIndex: 0,
+        isDrawerOpen: false,
     }
 
     componentDidMount = () => {
@@ -142,19 +148,28 @@ class CharacterMove extends Component {
     }
 
     toggleModal = (isVisible) => {
-        const { modalVisible } = this.state;
-
-
 
         this.setState({
             modalVisible: isVisible
         });
     }
 
+    onDrawerClose = () => {
+        this.setState({
+            isDrawerOpen: false
+        });
+    }
+
+    openRightDrawer = () => {
+        this.setState({
+            isDrawerOpen: true,
+        });
+    }
+
 
     render() {
 
-        const { theme, navigation } = this.props;
+        const { theme, navigation, selectedCharacterLabel } = this.props;
         const { selectedIndex } = this.state;
 
         const selectedCharacterMoves = navigation.getParam('selectedCharacterMoves');
@@ -177,100 +192,112 @@ class CharacterMove extends Component {
 
         } = selectedCharacterMoves[this.state.selectedIndex];
 
-        const { modalVisible } = this.state;
+        const { modalVisible, isDrawerOpen } = this.state;
 
         return (
             <ThemeProvider theme={theme}>
-                <GradientTheme theme={theme}>
-                    <AdBanner screen={'character-move'} />
-                    <ScrollView>
-                        <GifButtonContainer>
-                            {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'play'} text={'Play gif'} /> : null}
-                        </GifButtonContainer>
-                        {
-                            modalVisible ?
-                                <Modal
-                                    animationType="fade"
-                                    transparent={true}
-                                    visible={modalVisible}
-                                    onRequestClose={() => this.toggleModal(false)}
-                                >
-                                    <ModalView onPress={() => this.toggleModal(false)}>
-                                        <GifContainer>
-                                            <AdBanner size={'large'} screen={'gif'} />
-                                            <GifImage
-                                                source={{ uri: preview_url }}
-                                                onLoadStart={() => this.setState({ loadingGif: true })}
-                                                onLoadEnd={() => this.setState({ loadingGif: false })}
-                                            />
-                                            <ActivityIndicator animating={this.state.loadingGif} size="large" color="red" />
-                                            <ModalText>Tap screen to exit</ModalText>
-                                        </GifContainer>
+                <DrawerSwitcher
+                    component={
+                        <Legend label={selectedCharacterLabel} />
+                    }
+                    isOpen={isDrawerOpen}
+                    side='right'
+                    onClose={this.onDrawerClose}
+                >
+                    <GradientTheme theme={theme}>
+                        <MainContainer>
+                            <AdBanner screen={'character-move'} />
+                            <ScrollView>
+                                <GifButtonContainer>
+                                    {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'play'} text={'Play gif'} /> : null}
+                                </GifButtonContainer>
+                                {
+                                    modalVisible ?
+                                        <Modal
+                                            animationType="fade"
+                                            transparent={true}
+                                            visible={modalVisible}
+                                            onRequestClose={() => this.toggleModal(false)}
+                                        >
+                                            <ModalView onPress={() => this.toggleModal(false)}>
+                                                <GifContainer>
+                                                    <AdBanner size={'large'} screen={'gif'} />
+                                                    <GifImage
+                                                        source={{ uri: preview_url }}
+                                                        onLoadStart={() => this.setState({ loadingGif: true })}
+                                                        onLoadEnd={() => this.setState({ loadingGif: false })}
+                                                    />
+                                                    <ActivityIndicator animating={this.state.loadingGif} size="large" color="red" />
+                                                    <ModalText>Tap screen to exit</ModalText>
+                                                </GifContainer>
 
-                                    </ModalView>
-                                </Modal>
-                                :
-                                null
-                        }
-                        <NotationWrapper>
-                            <PropertyText>{move_name === '-' ? '' : move_name}</PropertyText>
-                            <PropertyText>
-                                {notation}
-                            </PropertyText>
-                        </NotationWrapper>
+                                            </ModalView>
+                                        </Modal>
+                                        :
+                                        null
+                                }
+                                <NotationWrapper>
+                                    <PropertyText>{move_name === '-' ? '' : move_name}</PropertyText>
+                                    <PropertyText>
+                                        {notation}
+                                    </PropertyText>
+                                </NotationWrapper>
 
-                        {/* <HeaderTitle>
+                                {/* <HeaderTitle>
                             Special Properties
                         </HeaderTitle> */}
 
-                        <HeaderTitle>
-                            General Properties
-                        </HeaderTitle>
+                                <HeaderTitle>
+                                    General Properties
+                                </HeaderTitle>
 
-                        {checkMoveProperty(damage) && (
-                            <PropertyText>Damage: {damage}</PropertyText>
-                        )}
+                                {checkMoveProperty(damage) && (
+                                    <PropertyText>Damage: {damage}</PropertyText>
+                                )}
 
-                        {checkMoveProperty(hit_level) && (
-                            <PropertyText>Hit Level: {hit_level}</PropertyText>
-                        )}
+                                {checkMoveProperty(hit_level) && (
+                                    <PropertyText>Hit Level: {hit_level}</PropertyText>
+                                )}
 
-                        {checkMoveProperty(range) && (
-                            <PropertyText>Range: {range}</PropertyText>
-                        )}
-                        {checkMoveProperty(crush) && (
-                            <PropertyText>Crush: {crush}</PropertyText>
-                        )}
-                        {checkMoveProperty(jail) && (
-                            <PropertyText>Jail: {jail}</PropertyText>
-                        )}
-                        {checkMoveProperty(tracking) && (
-                            <PropertyText>Tracking: {tracking}</PropertyText>
-                        )}
+                                {checkMoveProperty(range) && (
+                                    <PropertyText>Range: {range}</PropertyText>
+                                )}
+                                {checkMoveProperty(crush) && (
+                                    <PropertyText>Crush: {crush}</PropertyText>
+                                )}
+                                {checkMoveProperty(jail) && (
+                                    <PropertyText>Jail: {jail}</PropertyText>
+                                )}
+                                {checkMoveProperty(tracking) && (
+                                    <PropertyText>Tracking: {tracking}</PropertyText>
+                                )}
 
-                        <HeaderTitle>
-                            Frame Properties
-                        </HeaderTitle>
+                                <HeaderTitle>
+                                    Frame Properties
+                                </HeaderTitle>
 
-                        {checkMoveProperty(speed) && (
-                            <PropertyText>Speed: {speed}</PropertyText>
-                        )}
-                        {checkMoveProperty(on_hit) && (
-                            <PropertyText>On Hit: {on_hit}</PropertyText>
-                        )}
-                        {checkMoveProperty(on_block) && (
-                            <PropertyText>On Block: {on_block}</PropertyText>
-                        )}
-                        {checkMoveProperty(on_ch) && (
-                            <PropertyText>On Counter: {on_ch}</PropertyText>
-                        )}
-                    </ScrollView>
-                    <BottomMenuBar
-                        navigation={navigation}
-                        onPressPreviousAttack={selectedIndex <= 0 ? null : this.previousAttack}
-                        onPressNextAttack={selectedCharacterMoves.length - 1 <= selectedIndex ? null : this.nextAttack}
-                    />
-                </GradientTheme >
+                                {checkMoveProperty(speed) && (
+                                    <PropertyText>Speed: {speed}</PropertyText>
+                                )}
+                                {checkMoveProperty(on_hit) && (
+                                    <PropertyText>On Hit: {on_hit}</PropertyText>
+                                )}
+                                {checkMoveProperty(on_block) && (
+                                    <PropertyText>On Block: {on_block}</PropertyText>
+                                )}
+                                {checkMoveProperty(on_ch) && (
+                                    <PropertyText>On Counter: {on_ch}</PropertyText>
+                                )}
+                            </ScrollView>
+                            <BottomMenuBar
+                                navigation={navigation}
+                                onPressPreviousAttack={selectedIndex <= 0 ? null : this.previousAttack}
+                                onPressNextAttack={selectedCharacterMoves.length - 1 <= selectedIndex ? null : this.nextAttack}
+                                onPressOpenLegendDrawer={this.openRightDrawer}
+                            />
+                        </MainContainer>
+                    </GradientTheme >
+                </DrawerSwitcher>
             </ThemeProvider >
         );
     }

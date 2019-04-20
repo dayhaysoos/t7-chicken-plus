@@ -11,6 +11,7 @@ export const HIT_LEVEL_FILTER = constants([
 export const CRUSH_FILTER = constants([
     'FILTER_HIGH_CRUSH',
     'FILTER_LOW_CRUSH',
+    'FILTER_MID_CRUSH',
     'FILTER_ALL_CRUSH',
 ]);
 
@@ -38,3 +39,8 @@ export const SPEED_FILTER = constants([
     'FILTER_15_FRAME_ATTACKS',
     'FILTER_16_FRAME_ATTACKS',
 ]);
+
+export const GIF_FILTER = constants([
+    'HAS_GIF',
+    'HAS_NO_GIF',
+])

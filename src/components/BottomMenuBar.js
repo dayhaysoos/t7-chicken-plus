@@ -11,12 +11,13 @@ import firebase from 'react-native-firebase';
 const MainContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
-  background-color: transparent;
   padding-bottom: 10;
 `;
 
 const OuterContainer = styled.View`
   flex-direction: column;
+  background-color: transparent;
+  z-index: 2000;
 `;
 
 const MenuButton = styled.TouchableOpacity`
@@ -27,6 +28,10 @@ const MenuButton = styled.TouchableOpacity`
 const MenuIconText = styled.Text`
   color: red;
   text-align: center;
+`;
+
+const FadedMenuIconText = styled.Text`
+  opacity: 0.7;
 `;
 
 const MenuIcon = styled(FontAwesome)`
@@ -42,6 +47,17 @@ const MenuLabelText = styled.Text`
 const SearchBarContainer = styled.View`
     width: 85%;
     align-self: center;
+    margin-bottom: 20;
+`;
+
+const LegendIcon = styled(FontAwesome)`
+  font-size: 30;
+`;
+
+const LegendLabelText = styled.Text`
+  color: white;
+  font-size: 12;
+  text-align: center;
 `;
 
 
@@ -56,6 +72,7 @@ class BottomMenuBar extends Component {
             toggleListView,
             onPressPreviousAttack,
             onPressNextAttack,
+            onPressOpenLegendDrawer,
         } = this.props;
 
         return (
@@ -123,6 +140,15 @@ class BottomMenuBar extends Component {
                                 <MenuIcon>{Icons.arrowRight}</MenuIcon>
                             </MenuIconText>
                             <MenuLabelText>Next</MenuLabelText>
+                        </MenuButton>
+                    )}
+
+                    {onPressOpenLegendDrawer && (
+                        <MenuButton onPress={onPressOpenLegendDrawer}>
+                            <MenuIconText>
+                                <MenuIcon>{Icons.book}</MenuIcon>
+                            </MenuIconText>
+                            <MenuLabelText>Legend</MenuLabelText>
                         </MenuButton>
                     )}
 

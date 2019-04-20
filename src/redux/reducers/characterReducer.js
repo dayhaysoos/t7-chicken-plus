@@ -9,6 +9,7 @@ export const INITIAL_STATE = {
     characterData: [],
     characterDataError: [],
     selectedCharacterMoves: {},
+    selectedCharacterLabel: '',
     moveData: [],
     currentAttack: null,
 };
@@ -63,6 +64,7 @@ const updateSelectedCharacterMoves = (state, { payload: label }) => {
     return {
         ...state,
         selectedCharacterMoves: getMovelist(),
+        selectedCharacterLabel: label
     };
 };
 
