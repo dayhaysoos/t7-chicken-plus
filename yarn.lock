@@ -3039,7 +3039,7 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-dooboolab-welcome@^1.0.5:
+dooboolab-welcome@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/dooboolab-welcome/-/dooboolab-welcome-1.1.0.tgz#4a0aa9d2cbc4e2b1008bf7683bc056b41caa3d0d"
   integrity sha512-K9TKEeefzDXZiUyLZG+bIr8cy9UoYIfFMseowp/o3czVl7TfkVm3gQpeB85w+TO8xeqzWHiIcEelZbBgt5WUwQ==
@@ -7505,7 +7505,7 @@ react-native-fontawesome@^5.7.0:
   resolved "https://registry.yarnpkg.com/react-native-fontawesome/-/react-native-fontawesome-5.7.0.tgz#7bfe57c21c6522d05eaf206474903c3f299bfc0d"
   integrity sha1-e/5XwhxlItBeryBkdJA8Pymb/A0=
 
-react-native-gesture-handler@^1.0.0, react-native-gesture-handler@^1.0.12:
+react-native-gesture-handler@^1.0.0:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.0.12.tgz#99a22f90212df299245357dbd3a9a01c788f310b"
   integrity sha512-Qp5FjRmqUFeCevSu2IYQG1Xw+YXZ9YOzqze/ZxaIvWzYAoKsRchlgHhNoxvCqElp/befrnVFIjAEQyUxcmBKJw==
@@ -7514,12 +7514,21 @@ react-native-gesture-handler@^1.0.0, react-native-gesture-handler@^1.0.12:
     invariant "^2.2.2"
     prop-types "^15.5.10"
 
-react-native-iap@^2.3.21:
-  version "2.3.21"
-  resolved "https://registry.yarnpkg.com/react-native-iap/-/react-native-iap-2.3.21.tgz#2813eadda8d84cf101e20cb4528724260504b043"
-  integrity sha512-3EOcETnGq5ZpDN0Bc2qcTPjqMmTseX37iIRYXTHcBSJywwC6oZCvWHlBKQN4ydOOW/Sdi/75CVisAT0sMAcY5g==
+react-native-gesture-handler@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.1.0.tgz#2a7d545ad2e0ca23adce22b2af441ad360ecccee"
+  integrity sha512-E9IKHpmL+sz/iCYkUriTUjBaQBORWV+oheYPQleADkxjo2sYsQfnlyTz4EQYFONkUwJ6WmfTNkYt2/yc5U4Ziw==
   dependencies:
-    dooboolab-welcome "^1.0.5"
+    hoist-non-react-statics "^2.3.1"
+    invariant "^2.2.2"
+    prop-types "^15.5.10"
+
+react-native-iap@^2.4.9:
+  version "2.4.9"
+  resolved "https://registry.yarnpkg.com/react-native-iap/-/react-native-iap-2.4.9.tgz#4a931f26979972e8af17cc87000707c5bf9bd7da"
+  integrity sha512-Oeo+xpxGZ5cu9A8LCq9dtR+3+kEZ8onc1kwapP+Hyv4FLkdsJZRWZouaZqykrYnDWgni0YbVA4ME9IggP5qYDA==
+  dependencies:
+    dooboolab-welcome "^1.1.0"
 
 react-native-linear-gradient@^2.5.3:
   version "2.5.3"
