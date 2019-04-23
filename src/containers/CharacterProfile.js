@@ -192,19 +192,22 @@ class CharacterProfile extends Component {
     renderMoveList = (selectedCharacterMoves) => {
         const { navigation, theme } = this.props;
         const name = navigation.getParam('name');
+
         return (
-            selectedCharacterMoves.map((move, key) => {
-                return (
+            <FlatList
+                initialNumToRender={10}
+                data={selectedCharacterMoves}
+                keyExtractor={(item) => item.id}
+                renderItem={({ item }) => (
                     <ListViewCard
-                        key={move.id}
                         selectedCharacterMoves={selectedCharacterMoves}
-                        item={move}
-                        name={name}
+                        item={item}
+                        name={item.name}
                         theme={theme}
                         navigation={navigation}
                     />
-                )
-            })
+                )}
+            />
         )
     }
 
