@@ -27,7 +27,8 @@ const persistConfig = {
     },
     whitelist: [
         'settings',
-        'favorites'
+        'favorites',
+        'payment'
     ],
 };
 
