@@ -66,7 +66,7 @@
     "react-native-firebase": "^5.1.1",
     "react-native-fontawesome": "^5.7.0",
     "react-native-gesture-handler": "^1.1.0",
-    "react-native-iap": "^2.4.9",
+    "react-native-iap": "2.3.21",
     "react-native-linear-gradient": "^2.5.3",
     "react-native-splash-screen": "^3.1.1",
     "react-navigation": "^3.0.9",
