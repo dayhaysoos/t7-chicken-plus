@@ -13,28 +13,33 @@ import * as characterActions from '../../redux/actions/characterActions';
 const { width } = Dimensions.get('window');
 
 const CardContainer = styled.TouchableOpacity`
-  height: 120;
+  height: 100;
   width: ${width};
+  padding-top: 10;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   border-bottom-width: 1;
   border-bottom-color: ${({ theme: { primaryGradient1 } }) => primaryGradient1};
 `;
 
 const ListViewText = styled.Text`
   color: ${({ theme: { text } }) => text};
+  font-size: 16;
+`;
+
+const MoveNameText = styled(ListViewText)`
+  font-weight: 900;
+  margin-bottom: 15;
 `;
 
 const MoveNameContainer = styled.View`
   width: 33%;
   padding-left: 20;
-  padding-top: 10;
 `;
 
 const MoveDetailContainer = styled.View`
   width: 33%;
   padding-left: 30;
-  padding-top: 10;
 `;
 
 const MoveDetailText = styled.Text`
@@ -44,17 +49,14 @@ const MoveDetailText = styled.Text`
 
 const MoveGifContainer = styled.View`
   width: 33%;
-  padding-top: 10;
   padding-left: 20;
   justify-content: center;
   align-items: center;
 `;
 
 const GifButtonContainer = styled.View`
-  flex: 1;
   justify-content: center;
-  align-items: center;
-  height: 40;
+  height: 60;
 `;
 
 const GifContainer = styled.View`
@@ -64,6 +66,7 @@ const GifContainer = styled.View`
 `;
 
 const GifButton = styled(Button)`
+  padding-left: 10;
 `;
 
 const GifImage = styled.Image`
@@ -128,7 +131,7 @@ class ListViewCard extends Component {
                     onPress={() => this.navigateToCharacterMove(item, name, id)}
                 >
                     <MoveNameContainer>
-                        {move_name ? <ListViewText >{move_name}</ListViewText> : null}
+                        {move_name ? <MoveNameText >{move_name}</MoveNameText> : null}
                         <ListViewText >{notation}</ListViewText>
                     </MoveNameContainer>
                     <MoveDetailContainer>
@@ -144,7 +147,7 @@ class ListViewCard extends Component {
                     </MoveDetailContainer>
                     <MoveGifContainer>
                         <GifButtonContainer>
-                            {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'play'} text={'Play gif'} /> : null}
+                            {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'play'} text={'Play'} /> : null}
                         </GifButtonContainer>
                         {
                             modalVisible ?

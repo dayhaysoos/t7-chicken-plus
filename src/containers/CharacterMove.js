@@ -45,21 +45,18 @@ const NotationWrapper = styled.View`
 `;
 
 const GifButtonContainer = styled.View`
-  flex: 1;
+  padding-top: 20;
   justify-content: flex-end;
   align-items: flex-end;
   height: 40;
 `;
 
 const GifContainer = styled.View`
-  flex: 1;
   justify-content: center;
   align-items: center;
 `;
 
 const GifButton = styled(Button)`
-  position: absolute;
-  top: 0;
 `;
 
 const GifImage = styled.Image`
@@ -217,7 +214,7 @@ class CharacterMove extends Component {
                             <AdBanner screen={'character-move'} />
                             <ScrollView>
                                 <GifButtonContainer>
-                                    {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'play'} text={'Play gif'} /> : null}
+                                    {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'play'} text={'Play'} /> : null}
                                 </GifButtonContainer>
                                 {
                                     modalVisible ?
@@ -254,6 +251,26 @@ class CharacterMove extends Component {
                                 {/* <HeaderTitle>
                             Special Properties
                         </HeaderTitle> */}
+                                <HeaderTitle>
+                                    Frame Properties
+                                </HeaderTitle>
+
+                                {checkMoveProperty(speed) && (
+                                    <PropertyText>Speed: {speed}</PropertyText>
+                                )}
+                                {checkMoveProperty(on_hit) && (
+                                    <PropertyText>On Hit: {on_hit}</PropertyText>
+                                )}
+                                {checkMoveProperty(on_ch) && (
+                                    <PropertyText>On Counter: {on_ch}</PropertyText>
+                                )}
+                                {checkMoveProperty(on_block) && (
+                                    <PropertyText>On Block: {on_block}</PropertyText>
+                                )}
+                                {checkMoveProperty(on_whiff) && (
+                                    <PropertyText>On Whiff: {on_whiff}</PropertyText>
+                                )}
+
 
                                 <HeaderTitle>
                                     General Properties
@@ -288,26 +305,6 @@ class CharacterMove extends Component {
                                 {checkMoveProperty(pushback) && (
                                     <PropertyText>Push Back: {pushback}</PropertyText>
                                 )}
-                                <HeaderTitle>
-                                    Frame Properties
-                                </HeaderTitle>
-
-                                {checkMoveProperty(speed) && (
-                                    <PropertyText>Speed: {speed}</PropertyText>
-                                )}
-                                {checkMoveProperty(on_hit) && (
-                                    <PropertyText>On Hit: {on_hit}</PropertyText>
-                                )}
-                                {checkMoveProperty(on_ch) && (
-                                    <PropertyText>On Counter: {on_ch}</PropertyText>
-                                )}
-                                {checkMoveProperty(on_block) && (
-                                    <PropertyText>On Block: {on_block}</PropertyText>
-                                )}
-                                {checkMoveProperty(on_whiff) && (
-                                    <PropertyText>On Whiff: {on_whiff}</PropertyText>
-                                )}
-
                             </ScrollView>
                             <BottomMenuBar
                                 navigation={navigation}
