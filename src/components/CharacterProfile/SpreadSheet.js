@@ -288,7 +288,7 @@ class Sheet extends React.Component {
                         onEndReachedThreshold={.005}
                         bounces={true}
                     />
-                    {this.state.loading && <ActivityIndicator color={'red'} />}
+                    {this.state.loading && <ActivityIndicator color={'#FF412C'} />}
                 </View>
             </ThemeProvider>
         )

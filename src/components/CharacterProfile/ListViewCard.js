@@ -165,7 +165,7 @@ class ListViewCard extends Component {
                                                 onLoadStart={() => this.setState({ loadingGif: true })}
                                                 onLoadEnd={() => this.setState({ loadingGif: false })}
                                             />
-                                            <ActivityIndicator animating={this.state.loadingGif} size="large" color="red" />
+                                            <ActivityIndicator animating={this.state.loadingGif} size="large" color="#FF412C" />
                                             <ModalText>Tap screen to exit</ModalText>
                                         </GifContainer>
 

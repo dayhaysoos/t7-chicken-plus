@@ -18,7 +18,7 @@ const CharacterCard = styled.TouchableOpacity`
     width: ${(Dimensions.get('window').width / 4) - 20};
 `;
 const StarIcon = styled(FontAwesome)`
-    color: red;
+    color: #FF412C
     font-size: 30;
 `;
 const StarButton = styled.TouchableOpacity`

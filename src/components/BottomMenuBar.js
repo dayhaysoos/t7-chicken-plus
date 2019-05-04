@@ -26,7 +26,7 @@ const MenuButton = styled.TouchableOpacity`
 `;
 
 const MenuIconText = styled.Text`
-  color: red;
+  color: #FF412C
   text-align: center;
 `;
 

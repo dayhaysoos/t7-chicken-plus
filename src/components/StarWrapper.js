@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 
 const StarIcon = styled(FontAwesome)`
-    color: red;
+    color: #FF412C
     font-size: 30;
     margin-right: 15;
     margin-top: 10;

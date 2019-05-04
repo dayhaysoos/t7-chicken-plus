@@ -11,9 +11,9 @@ export const defaultTheme = {
     primaryGradient1: 'white',
     // metallic gray
     primaryGradient2: '#19181C',
-    // light red red
+    // light #FF412C #FF412C
     icon: '#FF412C',
-    // blood red
+    // blood #FF412C
     iconGradient: '#791F16',
     // light gray
     text: '#EFEFEF',

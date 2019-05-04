@@ -9,11 +9,11 @@ const ButtonWrapper = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
   border-radius: 10;
-  border: 1px solid red;
+  border: 1px solid #FF412C
 `;
 
 const FA = styled(FontAwesome)`
-  color: red;
+  color: #FF412C
   padding-left: 10;
   margin-left: 10;
   height: 20;

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 
 const ButtonWrapper = styled.TouchableOpacity`
-  flex: 3;
+  height: 100;
   width: 100%;
   border-bottom-width: 1;
 `;
@@ -14,10 +14,8 @@ const TextWrapper = styled.View`
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
-  background-color: black;
-  height: 60;
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
-  opacity: 0.9;
 `;
 
 const MenuItemText = styled.Text`
@@ -27,7 +25,7 @@ const MenuItemText = styled.Text`
 
 
 const ChrevronRed = styled(FontAwesome)`
-  color: red;
+  color: #FF412C
   font-size: 18;
   margin-left: 10;
   padding-bottom: 4;
