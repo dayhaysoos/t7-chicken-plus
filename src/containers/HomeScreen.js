@@ -71,15 +71,15 @@ class HomeScreen extends React.Component {
                     imageUrl={characterSelectBackground}
                 />
                 <MenuItem
-                    navigateTo={() => navigation.navigate('RemoveAds')}
+                    navigateTo={null}
                     text={'Ad Removal coming soon'}
                     imageUrl={removeAds}
                 />
-                <MenuItem
+                {/* <MenuItem
                     navigateTo={() => navigation.navigate('Sponsors')}
                     text={'Sponsors'}
                     imageUrl={aboutTheTeam}
-                />
+                /> */}
                 <MenuItem
                     navigateTo={() => navigation.navigate('About')}
                     text={'About the team'}

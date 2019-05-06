@@ -311,6 +311,7 @@ class CharacterMove extends Component {
                                 onPressPreviousAttack={selectedIndex <= 0 ? null : this.previousAttack}
                                 onPressNextAttack={selectedCharacterMoves.length - 1 <= selectedIndex ? null : this.nextAttack}
                                 onPressOpenLegendDrawer={this.openRightDrawer}
+                                isCharacterMoveScreen={true}
                             />
                         </MainContainer>
                     </GradientTheme >

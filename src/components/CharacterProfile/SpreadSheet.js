@@ -3,7 +3,9 @@ import { Animated, ActivityIndicator, FlatList, ScrollView, StyleSheet, Text, Vi
 import HeaderRow from '../CharacterProfile/HeaderRow';
 import SpreadSheetRow from '../CharacterProfile/SpreadSheetRow';
 import styled, { ThemeProvider } from 'styled-components';
-const { height } = Dimensions.get('window');
+const { height } = Dimensions.get('screen');
+
+const majorVersionIOS = parseInt(Platform.Version, 10);
 
 const NUM_COLS = 7
 const NUM_ROWS_STEP = 40
@@ -172,7 +174,7 @@ class Sheet extends React.Component {
         return (
             <NotationCell
                 index={i}
-                onPress={() => this.navigateToCharacterMove(item, name, id)}
+                onPress={notation === 'Notation' ? null : () => this.navigateToCharacterMove(item, name, id)}
                 key={id}
             >
                 <NotationCellText>{notation}</NotationCellText>
@@ -279,7 +281,7 @@ class Sheet extends React.Component {
 
         return (
             <ThemeProvider theme={this.props.theme}>
-                <View style={{ height: '70%' }}>
+                <View style={{ flex: 1 }}>
                     {this.formatHeader()}
                     <FlatList
                         data={data}
