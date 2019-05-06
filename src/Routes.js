@@ -15,7 +15,7 @@ import FontAwesome, { Icons } from 'react-native-fontawesome';
 import { createStackNavigator, createDrawerNavigator, createAppContainer } from 'react-navigation';
 
 const BackButton = () => (
-    <Text style={{ color: 'red', fontSize: 32, marginLeft: 15 }}>
+    <Text style={{ color: '#FF412C', fontSize: 32, marginLeft: 15 }}>
         <FontAwesome>{Icons.chevronLeft}</FontAwesome>
     </Text>
 );
@@ -23,8 +23,10 @@ const BackButton = () => (
 const defaultNavOptions = {
     headerStyle: {
         backgroundColor: '#19181C',
+        borderBottomWidth: 0
     },
-    headerBackImage: <BackButton />
+    headerBackImage: <BackButton />,
+    headerBackTitle: null
 };
 
 const RootStack = createStackNavigator({

@@ -11,6 +11,7 @@ const HEADER_MAX_HEIGHT = 300;
 const Banner = styled(Animated.View)`
     overflow: hidden;
     height: ${HEADER_MAX_HEIGHT};
+    background-color: #0d0808;
 `;
 
 const PortraitImage = styled.Image`

@@ -232,7 +232,7 @@ class CharacterMove extends Component {
                                                         onLoadStart={() => this.setState({ loadingGif: true })}
                                                         onLoadEnd={() => this.setState({ loadingGif: false })}
                                                     />
-                                                    <ActivityIndicator animating={this.state.loadingGif} size="large" color="red" />
+                                                    <ActivityIndicator animating={this.state.loadingGif} size="large" color="#FF412C" />
                                                     <ModalText>Tap screen to exit</ModalText>
                                                 </GifContainer>
 
@@ -311,6 +311,7 @@ class CharacterMove extends Component {
                                 onPressPreviousAttack={selectedIndex <= 0 ? null : this.previousAttack}
                                 onPressNextAttack={selectedCharacterMoves.length - 1 <= selectedIndex ? null : this.nextAttack}
                                 onPressOpenLegendDrawer={this.openRightDrawer}
+                                isCharacterMoveScreen={true}
                             />
                         </MainContainer>
                     </GradientTheme >
