@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components/native';
 import { Dimensions } from 'react-native';
-import FontAwesome, { Icons } from 'react-native-fontawesome';
 import Button from '../../common/Button';
 import AdBanner from '../../components/AdBanner';
 
@@ -18,8 +17,9 @@ const CardContainer = styled.TouchableOpacity`
   padding-top: 10;
   flex-direction: row;
   align-items: flex-start;
-  border-bottom-width: 1;
-  border-bottom-color: ${({ theme: { primaryGradient1 } }) => primaryGradient1};
+  border-bottom-width: 2;
+  border-bottom-color: #141414;
+  background-color: #19181c;
 `;
 
 const ListViewText = styled.Text`
