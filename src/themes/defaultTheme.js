@@ -6,11 +6,11 @@ export const spreadsheetThemeColors = {
 
 export const defaultTheme = {
     // matte black
-    primary: '#434755',
+    primary: '#131517',
     // gray
     primaryGradient1: 'white',
     // metallic gray
-    primaryGradient2: '#19181C',
+    primaryGradient2: '#0e0f10',
     // light #FF412C #FF412C
     icon: '#FF412C',
     // blood #FF412C
