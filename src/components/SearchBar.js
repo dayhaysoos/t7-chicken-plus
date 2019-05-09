@@ -12,8 +12,6 @@ const Container = styled(Animated.View)`
   padding-right: 10;
   height: 40;
   width: 100%;
-  position: absolute;
-  bottom: 15;
   opacity: ${({ opacity }) => opacity._value}
 `;
 
@@ -36,51 +34,62 @@ const SearchClearText = styled.Text`
 class SearchBar extends React.Component {
 
   state = {
-    fadeAnim: new Animated.Value(0)
+      fadeAnim: new Animated.Value(0)
   }
 
   componentDidMount = () => {
-    const { fadeAnim } = this.state;
-    Animated.timing(
-      fadeAnim,
-      {
-        toValue: 1,
-        duration: 500
-      }
-    ).start()
+      const { fadeAnim } = this.state;
+      Animated.timing(
+          fadeAnim,
+          {
+              toValue: 1,
+              duration: 500
+          }
+      ).start();
+  }
+
+  componentWillUnmount = () => {
+      const { fadeAnim } = this.state;
+      Animated.timing(
+          fadeAnim,
+          {
+              toValue: 0,
+              duration: 500
+          }
+      ).start();
   }
 
   onClosePress = () => {
-    this.props.onClosePress();
-    this.input.setNativeProps({ text: '' });
+      this.props.onClosePress();
+      this.input.setNativeProps({ text: '' });
   }
 
   render() {
 
-    const { fadeAnim } = this.state;
-    return (
-      <Container opacity={fadeAnim}>
+      const { fadeAnim } = this.state;
+      return (
+          <Container opacity={fadeAnim}>
 
-        <Input
-          ref={input => this.input = input}
-          placeholder={'Search'}
-          placeholderTextColor="#797979"
-          {...this.props}
-        />
+              <Input
+                  ref={input => this.input = input}
+                  placeholder={'Search'}
+                  placeholderTextColor="#797979"
+                  {...this.props}
+              />
 
-        <SearchClearTouchable onPress={this.onClosePress}>
-          <SearchClearText>✘</SearchClearText>
-        </SearchClearTouchable>
-      </Container>
-    );
+              <SearchClearTouchable onPress={this.onClosePress}>
+                  <SearchClearText>✘</SearchClearText>
+              </SearchClearTouchable>
+          </Container>
+      );
   }
 }
 
 
 SearchBar.propTypes = {
-  value: PropTypes.string,
-  onChangeText: PropTypes.func,
-  onClosePress: PropTypes.func
+    value: PropTypes.string,
+    onChangeText: PropTypes.func,
+    onClosePress: PropTypes.func
 };
 
 export default SearchBar;

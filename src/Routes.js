@@ -8,6 +8,8 @@ import CharacterSelect from './containers/CharacterSelect';
 import CharacterProfile from './containers/CharacterProfile';
 import CharacterMove from './containers/CharacterMove';
 import RemoveAds from './containers/RemoveAds';
+import WhatsNew from './containers/WhatsNew';
+import Receipt from './containers/Receipt';
 
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 
@@ -62,14 +64,22 @@ const RootStack = createStackNavigator({
         screen: CharacterMove,
         navigationOptions: defaultNavOptions
     },
-    initialRouteName: 'Home',
+    WhatsNew: {
+        screen: WhatsNew,
+        navigationOptions: defaultNavOptions
+    },
+    Receipt: {
+        screen: Receipt,
+        navigationOptions: defaultNavOptions
+    },
+    initialRouteName: 'Home'
 });
 
 const DrawerStack = createDrawerNavigator({
     Home: RootStack,
 }, {
-        contentComponent: HomeScreen
-    }
+    contentComponent: HomeScreen
+}
 );
 
 export default createAppContainer(DrawerStack);

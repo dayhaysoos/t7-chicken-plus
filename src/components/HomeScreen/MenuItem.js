@@ -35,7 +35,6 @@ const MenuItem = ({ text, imageUrl, navigateTo }) => (
     <ButtonWrapper onPress={navigateTo}>
         <ImageBackground
             style={{
-                backgroundColor: 'black',
                 height: '100%',
                 width: '100%',
                 justifyContent: 'flex-end',
