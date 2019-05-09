@@ -17,7 +17,7 @@ import MenuItem from '../components/HomeScreen/MenuItem';
 // styles
 const MainContainer = styled.View`
   flex: 1;
-  background-color: black;
+  background-color: #000000;
 `;
 
 export const mapDispatchToProps = {

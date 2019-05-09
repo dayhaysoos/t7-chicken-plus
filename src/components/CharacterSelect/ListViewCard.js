@@ -9,7 +9,7 @@ const ListViewWrapper = styled.View`
   background-color: transparent;
 `;
 const ListViewItem = styled.TouchableOpacity`
-  height: 125;
+  height: 103;
   border-top-width: 1;
   border-top-color: white;
   border-bottom-width: 1;
@@ -23,8 +23,8 @@ const ListViewText = styled.Text`
   margin: auto;
 `;
 const CharacterImage = styled.Image`
-  width: 85;
-  height: 120;
+  width: 64;
+  height: 101;
   margin-right: 20;
 `;
 const StarIcon = styled(FontAwesome)`

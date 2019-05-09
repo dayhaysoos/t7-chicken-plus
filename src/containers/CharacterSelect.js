@@ -26,15 +26,17 @@ const MainContainer = styled.View`
 `;
 
 const CharacerSelectBanner = styled.View`
-  flex-direction: row;
   padding-bottom: 20;
 `;
 
 const BannerText = styled.Text`
-  padding-left: 20;
-  font-size: 65;
+  font-size: 36;
   color: white;
-  flexWrap: wrap;
+  text-align: left;
+  padding-right: 10;
+  align-items: flex-start;
+  height: 90;
+  width: 343;
 `;
 
 const EmptyText = styled.Text`
@@ -172,7 +174,7 @@ class CharacterSelect extends Component {
                                 ListHeaderComponent={(
                                     <CharacerSelectBanner>
                                         <BannerText>
-                                            Select a Character
+                                            SELECT A CHARACTER
                                         </BannerText>
                                     </CharacerSelectBanner>
                                 )}

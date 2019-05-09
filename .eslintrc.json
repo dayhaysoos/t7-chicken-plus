@@ -43,7 +43,7 @@
     "react/display-name": 1,
     "styled-components-config/rule-name": 4,
     "arrow-body-style": [
-      4,
+      1,
       "as-needed"
     ]
   }

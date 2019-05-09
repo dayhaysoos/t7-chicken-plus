@@ -14,12 +14,13 @@ const Container = styled.View`
 const CharacterCard = styled.TouchableOpacity`
     margin-left: 5;
     margin-right: 5;
-    height: 150;
-    width: ${(Dimensions.get('window').width / 4) - 20};
+    height: 95;
+    width: 64;
 `;
 const StarIcon = styled(FontAwesome)`
     color: #FF412C
     font-size: 30;
+    opacity: ${({favorite}) => favorite ? 1 : 0.6}}
 `;
 const StarButton = styled.TouchableOpacity`
     position: absolute;
@@ -42,7 +43,7 @@ const GridViewCard = ({ label, favorite, onPress, onStarPress, displayName }) =>
         <CharacterCard onPress={onPress}>
             <CharacterImage source={characterPortraits[label]} />
             <StarButton onPress={onStarPress}>
-                <StarIcon>{favorite ? Icons.star : Icons.starO}</StarIcon>
+                <StarIcon favorite={favorite}>{favorite ? Icons.star : Icons.starO}</StarIcon>
             </StarButton>
         </CharacterCard>
         <Name>{displayName}</Name>

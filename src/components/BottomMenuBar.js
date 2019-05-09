@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Animated } from 'react-native';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import LinearGradient from 'react-native-linear-gradient';
@@ -51,7 +52,7 @@ const MenuIcon = styled(FontAwesome)`
 
 const MainMenuIcon = styled(MenuIcon)`
   font-size: 40;
-`
+`;
 
 const MenuLabelText = styled.Text`
   color: white;
@@ -59,29 +60,55 @@ const MenuLabelText = styled.Text`
   text-align: center;
 `;
 
-const SearchBarContainer = styled.View`
+const SearchBarContainer = styled(Animated.View)`
     width: 100%;
     align-self: center;
+    opacity: ${({ opacity }) => opacity._value}
 `;
 
 
 class BottomMenuBar extends Component {
 
     state = {
-        showSearch: false
+        showSearch: false,
+        fadeAnim: new Animated.Value(0)
     }
 
 
-    renderNavButton = (navButtonFunction, icon, label) => {
-        const { isCharacterMoveScreen } = this.props;
-        return (
-            <MenuButton onPress={navButtonFunction ? navButtonFunction : null}>
+    renderNavButton = (navButtonFunction, icon, label) => (
+        <MenuButton onPress={navButtonFunction ? navButtonFunction : null}>
             <MenuIconText>
                 <MenuIcon style={{opacity: navButtonFunction ? 1 : 0.3}}>{icon}</MenuIcon>
             </MenuIconText>
             <MenuLabelText>Next</MenuLabelText>
         </MenuButton>
-        )
+    )
+
+    handleFade = (fromValue) => {
+        const { fadeAnim } = this.state;
+        Animated.timing(
+            fadeAnim,
+            {
+                toValue: fromValue === 0 ? 1 : 0,
+                duration: 500
+            }
+        ).start();
+    }
+
+    handleSearchBar = async () => {
+        const { showSearch } = this.state;
+
+        if(!showSearch) {
+            this.handleFade(0);
+            this.setState({showSearch: true});
+        }
+
+        if(showSearch) {
+            this.handleFade(1);
+            setTimeout(() => {
+                this.setState({showSearch: false});
+            }, 500);
+        }
     }
 
     render() {
@@ -98,12 +125,12 @@ class BottomMenuBar extends Component {
             isCharacterMoveScreen,
         } = this.props;
 
-        const { showSearch } = this.state;
+        const { showSearch, fadeAnim } = this.state;
 
         return (
             <OuterContainer>
                 {handleSearchTextChange && showSearch && (
-                    <SearchBarContainer>
+                    <SearchBarContainer opacity={fadeAnim}>
                         <SearchBar
                             onClosePress={() => handleSearchTextChange('')}
                             onChangeText={handleSearchTextChange}
@@ -147,7 +174,7 @@ class BottomMenuBar extends Component {
                     
                     
                     {handleSearchTextChange && (
-                        <MenuButton onPress={() => this.setState({ showSearch: !showSearch })}>
+                        <MenuButton onPress={() => this.handleSearchBar()}>
                             <MenuIconText>
                                 <MenuIcon>{Icons.search}</MenuIcon>
                             </MenuIconText>
@@ -173,27 +200,10 @@ class BottomMenuBar extends Component {
                         </MenuButton>
                     )}
 
-                    {/* {onPressPreviousAttack && isCharacterMoveScreen && (
-                        <MenuButton onPress={onPressPreviousAttack ? onPressPreviousAttack : null}>
-                            <MenuIconText>
-                                <MenuIcon style={{opacity: onPressPreviousAttack ? 1 : 5}}>{Icons.arrowLeft}</MenuIcon>
-                            </MenuIconText>
-                            <MenuLabelText>Previous</MenuLabelText>
-                        </MenuButton>
-                    )} */}
-
                     {isCharacterMoveScreen && this.renderNavButton(onPressPreviousAttack, Icons.arrowLeft, 'Previous')}
 
                     {isCharacterMoveScreen && this.renderNavButton(onPressNextAttack, Icons.arrowRight, 'Next')}
 
-                    {/* {onPressNextAttack && isCharacterMoveScreen && (
-                        <MenuButton onPress={onPressNextAttack}>
-                            <MenuIconText>
-                                <MenuIcon>{Icons.arrowRight}</MenuIcon>
-                            </MenuIconText>
-                            <MenuLabelText>Next</MenuLabelText>
-                        </MenuButton>
-                    )} */}
 
                     {onPressOpenLegendDrawer && (
                         <MenuButton onPress={onPressOpenLegendDrawer}>
