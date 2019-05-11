@@ -54,7 +54,6 @@ export const mapDispatchToProps = {
 
 export const mapStateToProps = ({ characterData, theme, settings: { listView }, favorites }) => ({
     theme,
-    //characterData: getFavoriteCharacters({ characterData, favorites }),
     characterData: getFavoriteCharacters({ characterData: getCharacterMoveList(characterData), favorites }),
     listView,
     favorites,

@@ -9,13 +9,14 @@ import { characterPortraits } from '../../constants/characterPortraits';
 const Container = styled.View`
     margin-vertical: 5;
     margin-horizontal: 5;
-    margin-bottom: 8;
+    margin-bottom: 12;
 `;
 const CharacterCard = styled.TouchableOpacity`
     margin-left: 5;
     margin-right: 5;
     height: 95;
     width: 64;
+    margin-bottom: 10;
 `;
 const StarIcon = styled(FontAwesome)`
     color: #FF412C
@@ -29,7 +30,8 @@ const StarButton = styled.TouchableOpacity`
 `;
 const Name = styled.Text`
   color: white;
-  align-self: center;
+  text-align: center;
+  flex-wrap: wrap;
 `;
 
 const CharacterImage = styled.Image`
