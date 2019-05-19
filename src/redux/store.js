@@ -11,6 +11,7 @@ const persistConfig = {
     version: 2.5,
     storage,
     migrate: (state) => {
+        console.log('my great', state);
         return (
             Promise.resolve({
                 ...state,
@@ -23,7 +24,7 @@ const persistConfig = {
                     }
                 }
             })
-        )
+        );
     },
     whitelist: [
         'settings',

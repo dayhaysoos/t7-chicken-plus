@@ -10,6 +10,9 @@ import CharacterMove from './containers/CharacterMove';
 import RemoveAds from './containers/RemoveAds';
 import WhatsNew from './containers/WhatsNew';
 import Receipt from './containers/Receipt';
+import AdRemoval from './containers/AdRemoval';
+import ApplePayment from './containers/ApplePayment';
+import AndroidPayment from './containers/AndroidPayment';
 
 import FontAwesome, { Icons } from 'react-native-fontawesome';
 
@@ -71,6 +74,18 @@ const RootStack = createStackNavigator({
     Receipt: {
         screen: Receipt,
         navigationOptions: defaultNavOptions
+    },
+    AdRemoval: {
+        screen: AdRemoval,
+        navigationsOptions: defaultNavOptions
+    },
+    ApplePayment: {
+        screen: ApplePayment,
+        navigationsOptions: defaultNavOptions
+    },
+    AndroidPayment: {
+        screen: AndroidPayment,
+        navigationsOptions: defaultNavOptions
     },
     initialRouteName: 'Home'
 });

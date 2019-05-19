@@ -13,6 +13,15 @@ import removeAds from '../../assets/images/mainMenu/remove-ads.png';
 
 import MenuItem from '../components/HomeScreen/MenuItem';
 
+import Stripe from 'tipsi-stripe';
+
+Stripe.setOptions({
+    publishableKey: 'pk_test_yNV17SRP9KHKMwl24gvfCRDL00lSTnaRri',
+    merchantId: 'merchant.com.apps.humblemagnificent', // Optional
+    androidPayMode: 'test', // Android only
+});
+
+
 
 // styles
 const MainContainer = styled.View`
@@ -71,7 +80,7 @@ class HomeScreen extends React.Component {
                     imageUrl={characterSelectBackground}
                 />
                 <MenuItem
-                    navigateTo={null}
+                    navigateTo={() => navigation.navigate('RemoveAds')}
                     text={'Ad Removal coming soon'}
                     imageUrl={removeAds}
                 />
