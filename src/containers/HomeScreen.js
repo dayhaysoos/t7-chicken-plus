@@ -6,6 +6,7 @@ import SplashScreen from 'react-native-splash-screen';
 import MainMenuBanner from '../components/MainMenuBanner';
 import styled from 'styled-components';
 import * as characterActions from '../redux/actions/characterActions';
+import * as paidActions from '../redux/actions/paidActions';
 import firebase from 'react-native-firebase';
 import characterSelectBackground from '../../assets/images/mainMenu/character-select-background.png';
 import aboutTheTeam from '../../assets/images/mainMenu/about-the-team.png';
@@ -30,7 +31,8 @@ const MainContainer = styled.View`
 `;
 
 export const mapDispatchToProps = {
-    ...characterActions
+    ...characterActions,
+    ...paidActions
 };
 
 export const mapStateToProps = ({ characterData, theme }) => ({
@@ -39,7 +41,8 @@ export const mapStateToProps = ({ characterData, theme }) => ({
 });
 
 export const createComponentDidMount = (instance) => () => {
-    const { getCharacterData } = instance.props;
+    const { getCharacterData, getPurchaseHistory } = instance.props;
+    // getPurchaseHistory();
     getCharacterData();
 
     firebase.analytics().logEvent('Screen_Home', {});
@@ -80,7 +83,7 @@ class HomeScreen extends React.Component {
                     imageUrl={characterSelectBackground}
                 />
                 <MenuItem
-                    navigateTo={() => navigation.navigate('RemoveAds')}
+                    navigateTo={() => null}
                     text={'Ad Removal coming soon'}
                     imageUrl={removeAds}
                 />

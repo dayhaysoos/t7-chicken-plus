@@ -130,7 +130,6 @@ class RemoveAds extends Component {
           const availablePurchases = await RNIap.getAvailablePurchases();
           const products = await RNIap.getProducts(items);
 
-          console.log('confirmation', confirmation);
           this.setState({
               products,
               purchaseHistory,
@@ -198,7 +197,6 @@ class RemoveAds extends Component {
           });
           try {
               const products = await RNIap.getProducts(submissionItems);
-              console.log('show me products', products);
               this.setState({
                   products,
                   promoMessage: 'Promo Applied!',
@@ -215,7 +213,6 @@ class RemoveAds extends Component {
   render() {
       const { products, purchaseHistory, availablePurchases, err } = this.state;
 
-      console.log('availablePurchases', this.state.promoInput);
       return (
           <GradientTheme theme={defaultTheme}>
               {/* <WhySubscribeContainer>

@@ -5,6 +5,7 @@ import settings from './settingsReducer';
 import favorites from './favoriteReducer';
 import filter from './filterReducer';
 import search from './searchReducer';
+import paid from './paidReducer';
 
 const rootReducer = combineReducers({
     characterData,
@@ -12,7 +13,8 @@ const rootReducer = combineReducers({
     settings,
     favorites,
     filter,
-    search
+    search,
+    paid
 });
 
 export default rootReducer;

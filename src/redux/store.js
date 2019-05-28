@@ -10,22 +10,19 @@ const persistConfig = {
     key: 'root',
     version: 2.5,
     storage,
-    migrate: (state) => {
-        console.log('my great', state);
-        return (
-            Promise.resolve({
-                ...state,
-                favorites: {
-                    ...state.favorites,
-                    moves: {
-                        ...state.favorites.moves,
-                        julia: {},
-                        negan: {},
-                    }
+    migrate: (state) => (
+        Promise.resolve({
+            ...state,
+            favorites: {
+                ...state.favorites,
+                moves: {
+                    ...state.favorites.moves,
+                    julia: {},
+                    negan: {},
                 }
-            })
-        );
-    },
+            }
+        })
+    ),
     whitelist: [
         'settings',
         'favorites'

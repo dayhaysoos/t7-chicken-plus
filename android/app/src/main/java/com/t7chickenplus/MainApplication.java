@@ -3,6 +3,7 @@ package com.t7chickenplus;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.sbugert.rnadmob.RNAdMobPackage;
 import com.gettipsi.stripe.StripeReactPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.dooboolab.RNIap.RNIapPackage;
@@ -38,6 +39,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNAdMobPackage(),
             new StripeReactPackage(),
             new RNGestureHandlerPackage(),
             new RNIapPackage(),
