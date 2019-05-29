@@ -16,6 +16,7 @@ import MenuItem from '../components/HomeScreen/MenuItem';
 
 import Stripe from 'tipsi-stripe';
 
+
 Stripe.setOptions({
     publishableKey: 'pk_test_yNV17SRP9KHKMwl24gvfCRDL00lSTnaRri',
     merchantId: 'merchant.com.apps.humblemagnificent', // Optional
@@ -42,7 +43,7 @@ export const mapStateToProps = ({ characterData, theme }) => ({
 
 export const createComponentDidMount = (instance) => () => {
     const { getCharacterData, getPurchaseHistory } = instance.props;
-    // getPurchaseHistory();
+    getPurchaseHistory();
     getCharacterData();
 
     firebase.analytics().logEvent('Screen_Home', {});
@@ -83,7 +84,7 @@ class HomeScreen extends React.Component {
                     imageUrl={characterSelectBackground}
                 />
                 <MenuItem
-                    navigateTo={() => null}
+                    navigateTo={() => navigation.navigate('RemoveAds')}
                     text={'Ad Removal coming soon'}
                     imageUrl={removeAds}
                 />
