@@ -6,14 +6,14 @@ import FontAwesome, { Icons } from 'react-native-fontawesome';
 import { characterPortraits } from '../../constants/characterPortraits';
 
 const ListViewWrapper = styled.View`
-  background-color: transparent;
+  background-color: #0e0f10;
 `;
 const ListViewItem = styled.TouchableOpacity`
   height: 103;
   border-top-width: 1;
-  border-top-color: white;
+  border-top-color: #141414;
   border-bottom-width: 1;
-  border-bottom-color: white;
+  border-bottom-color: #141414;
   flex-direction: row;
   justify-content: space-between;
 `;

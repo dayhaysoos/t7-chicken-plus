@@ -49,10 +49,12 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - Stripe (14.0.0)
 
 DEPENDENCIES:
   - Firebase/Core
   - Google-Mobile-Ads-SDK
+  - Stripe (~> 14.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -64,6 +66,7 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - nanopb
+    - Stripe
 
 SPEC CHECKSUMS:
   Firebase: 8bb9268bff82374f2cbaaabb143e725743c316ae
@@ -74,7 +77,8 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 98b71f5e04142793729a5ef23e5b96651ff4b70f
   GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
 
-PODFILE CHECKSUM: 84e598d8f0a8c96ae4474ab63984b01374989b0c
+PODFILE CHECKSUM: 824333bcae4ce869e3d05bcb585264397b7da9af
 
 COCOAPODS: 1.5.3

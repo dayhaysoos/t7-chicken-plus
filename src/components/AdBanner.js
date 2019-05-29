@@ -2,7 +2,13 @@ import React from 'react';
 import { Platform } from 'react-native';
 import firebase from 'react-native-firebase';
 
+import { connect } from 'react-redux';
+
 const Banner = firebase.admob.Banner;
+
+const mapStateToProps = state => {
+    state.payment;
+};
 
 
 const appUnitSwitcher = (screen) => {
