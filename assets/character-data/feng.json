@@ -1,6 +1,6 @@
 {
-  "displayName": "Feng",
   "fullname": "Feng Wei",
+  "displayName": "Feng",
   "label": "feng",
   "movelist": [
     {
@@ -15,6 +15,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "26",
       "on_block": "+4",
@@ -38,6 +39,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "10",
       "on_block": "+1",
@@ -61,6 +63,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 21",
       "speed": "10",
       "on_block": "-11",
@@ -84,6 +87,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "25",
       "on_block": "-11",
@@ -107,6 +111,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 21, 5",
       "speed": "10",
       "on_block": "-14",
@@ -130,6 +135,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25], 5",
       "speed": "25",
       "on_block": "-14",
@@ -153,6 +159,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "16",
       "on_block": "-14",
@@ -176,6 +183,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 21, 5, 5",
       "speed": "10",
       "on_block": "-14",
@@ -199,6 +207,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25], 5, 5",
       "speed": "25",
       "on_block": "-14",
@@ -222,6 +231,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6], 5",
       "speed": "16",
       "on_block": "-14",
@@ -245,6 +255,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "18",
       "on_block": "-14",
@@ -268,6 +279,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 9",
       "speed": "10",
       "on_block": "-1",
@@ -291,6 +303,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "9 [10]",
       "speed": "10",
       "on_block": "-1",
@@ -314,6 +327,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 9, 10",
       "speed": "10",
       "on_block": "-13",
@@ -337,6 +351,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "9 [10], 10",
       "speed": "10",
       "on_block": "-13",
@@ -360,6 +375,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "17",
       "on_block": "-13",
@@ -383,6 +399,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 17",
       "speed": "10",
       "on_block": "-5",
@@ -406,6 +423,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "16",
       "on_block": "-5",
@@ -429,6 +447,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "10",
       "on_block": "-3",
@@ -452,6 +471,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9], 10",
       "speed": "10",
       "on_block": "-12",
@@ -475,6 +495,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "17",
       "on_block": "-12",
@@ -498,6 +519,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9], 10, 20",
       "speed": "10",
       "on_block": "-13",
@@ -521,6 +543,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 20",
       "speed": "17",
       "on_block": "-13",
@@ -544,6 +567,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "24",
       "on_block": "-13",
@@ -567,6 +591,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "16",
       "on_block": "-11",
@@ -590,6 +615,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 18",
       "speed": "16",
       "on_block": "-10",
@@ -613,6 +639,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "17",
       "on_block": "-10",
@@ -636,6 +663,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "24",
       "on_block": "-3 (OC)",
@@ -659,6 +687,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 20",
       "speed": "24",
       "on_block": "-12",
@@ -682,6 +711,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "24",
       "on_block": "-12",
@@ -705,6 +735,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "27 [32]",
       "speed": "34",
       "on_block": "-26",
@@ -725,9 +756,9 @@
       "range": "-",
       "pushback": "-",
       "tracking": "-",
-      "crush": "",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "27 [32], 14",
       "speed": "18",
       "on_block": "-26",
@@ -751,6 +782,7 @@
       "crush": "low, high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "27",
       "on_block": "-4",
@@ -774,6 +806,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "24 [28]",
       "speed": "21",
       "on_block": "-13",
@@ -797,6 +830,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 10",
       "speed": "21",
       "on_block": "-31",
@@ -820,9 +854,10 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "41",
-      "on_block": "-2",
+      "on_block": "-31",
       "on_hit": "+6",
       "on_ch": "+6",
       "in_air": "-",
@@ -843,6 +878,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "38",
       "on_block": "+2",
@@ -866,6 +902,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "18",
       "on_block": "-7",
@@ -889,6 +926,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "18",
       "on_block": "-10",
@@ -912,6 +950,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "21",
       "on_block": "-2",
@@ -935,6 +974,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15]",
       "speed": "15",
       "on_block": "-13",
@@ -958,6 +998,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10, 7",
       "speed": "24",
       "on_block": "-10",
@@ -981,6 +1022,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10, 7, 10",
       "speed": "24",
       "on_block": "-6",
@@ -1004,6 +1046,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "57",
       "on_block": "-6",
@@ -1027,6 +1070,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-8",
@@ -1050,6 +1094,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 10",
       "speed": "16",
       "on_block": "-5",
@@ -1073,6 +1118,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "19",
       "on_block": "-5",
@@ -1096,6 +1142,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 10, 20",
       "speed": "16",
       "on_block": "-19",
@@ -1119,6 +1166,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 20",
       "speed": "19",
       "on_block": "-19",
@@ -1142,6 +1190,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "13",
       "on_block": "-19",
@@ -1165,6 +1214,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-3",
@@ -1188,6 +1238,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 20",
       "speed": "21",
       "on_block": "-16",
@@ -1211,6 +1262,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "23",
       "on_block": "-16",
@@ -1234,6 +1286,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "18",
       "on_block": "-9",
@@ -1257,6 +1310,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 21",
       "speed": "18",
       "on_block": "-10",
@@ -1280,6 +1334,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "21",
       "on_block": "-10",
@@ -1303,6 +1358,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 15",
       "speed": "18",
       "on_block": "-12",
@@ -1326,6 +1382,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "31",
       "on_block": "-12",
@@ -1349,6 +1406,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "31",
       "on_block": "-12",
@@ -1372,6 +1430,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "28 [33]",
       "speed": "19",
       "on_block": "-9",
@@ -1395,6 +1454,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "18",
       "on_block": "-10",
@@ -1418,6 +1478,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "32",
       "on_block": "+8 (OC)",
@@ -1441,6 +1502,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15]",
       "speed": "19",
       "on_block": "-15",
@@ -1464,6 +1526,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15], 14",
       "speed": "19",
       "on_block": "-14",
@@ -1487,6 +1550,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "20",
       "on_block": "-14",
@@ -1500,8 +1564,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/WelcomeSharpArrowcrab.gif",
+      "move_name": "Severing Sword",
       "notation": "f, f, f+3 (or WR 3)",
       "hit_level": "mid",
       "range": "-",
@@ -1510,6 +1574,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "20",
       "on_block": "+6",
@@ -1533,6 +1598,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "14",
       "on_block": "0",
@@ -1556,6 +1622,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "20",
       "on_block": "-9",
@@ -1579,6 +1646,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 21",
       "speed": "20",
       "on_block": "-6",
@@ -1602,6 +1670,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "13",
       "on_block": "-6",
@@ -1625,6 +1694,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "18",
       "on_block": "-7",
@@ -1648,6 +1718,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "15",
       "on_block": "-6",
@@ -1671,6 +1742,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [27]",
       "speed": "23",
       "on_block": "-8",
@@ -1694,6 +1766,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "20",
       "on_block": "-12",
@@ -1717,6 +1790,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "14",
       "on_block": "-11",
@@ -1740,6 +1814,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 22",
       "speed": "14",
       "on_block": "-10",
@@ -1763,6 +1838,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "26",
       "on_block": "-10",
@@ -1786,6 +1862,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-12",
@@ -1809,6 +1886,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 18",
       "speed": "16",
       "on_block": "-12",
@@ -1832,6 +1910,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "23",
       "on_block": "-12",
@@ -1855,6 +1934,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 23",
       "speed": "16",
       "on_block": "-2",
@@ -1878,6 +1958,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [27]",
       "speed": "24",
       "on_block": "-2",
@@ -1901,6 +1982,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "20",
       "on_block": "-11",
@@ -1924,6 +2006,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6], 10",
       "speed": "20",
       "on_block": "-16",
@@ -1947,6 +2030,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "28",
       "on_block": "-16",
@@ -1970,6 +2054,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "20",
       "on_block": "-17",
@@ -1993,6 +2078,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6], 10, 21",
       "speed": "20",
       "on_block": "-8",
@@ -2016,6 +2102,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 21",
       "speed": "28",
       "on_block": "-8",
@@ -2039,6 +2126,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "28",
       "on_block": "-8",
@@ -2062,6 +2150,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-15",
@@ -2085,6 +2174,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "30",
       "on_block": "-26",
@@ -2108,6 +2198,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "21",
       "on_block": "0",
@@ -2131,6 +2222,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 15",
       "speed": "21",
       "on_block": "-11",
@@ -2154,6 +2246,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "29",
       "on_block": "-11",
@@ -2177,6 +2270,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "10",
       "on_block": "-10",
@@ -2200,6 +2294,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "25",
       "on_block": "-15",
@@ -2223,6 +2318,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "17",
       "on_block": "-11",
@@ -2246,6 +2342,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 8",
       "speed": "17",
       "on_block": "-11",
@@ -2269,6 +2366,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "22",
       "on_block": "-11",
@@ -2292,6 +2390,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 8, 12",
       "speed": "17",
       "on_block": "-12",
@@ -2315,6 +2414,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9], 12",
       "speed": "22",
       "on_block": "-12",
@@ -2338,6 +2438,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "24",
       "on_block": "-12",
@@ -2361,6 +2462,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 8, 12, 14",
       "speed": "17",
       "on_block": "-6",
@@ -2384,6 +2486,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [10], 12, 14",
       "speed": "22",
       "on_block": "-6",
@@ -2407,6 +2510,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 14",
       "speed": "24",
       "on_block": "-6",
@@ -2430,6 +2534,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "24",
       "on_block": "-6",
@@ -2453,6 +2558,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "23",
       "on_block": "-8",
@@ -2476,6 +2582,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 15",
       "speed": "23",
       "on_block": "-6",
@@ -2499,6 +2606,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "17",
       "on_block": "-6",
@@ -2522,6 +2630,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "12",
       "on_block": "-9",
@@ -2545,6 +2654,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "13",
       "on_block": "-19",
@@ -2568,6 +2678,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15], 21",
       "speed": "16",
       "on_block": "-10",
@@ -2591,6 +2702,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "32",
       "on_block": "-10",
@@ -2606,7 +2718,7 @@
       "properties": [],
       "preview_url": "https://giant.gfycat.com/WelcomeRegularHuia.gif",
       "move_name": "Landslide",
-      "notation": "+2~+3",
+      "notation": "qcf+1",
       "hit_level": "low",
       "range": "-",
       "pushback": "-",
@@ -2614,10 +2726,11 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [27]",
       "speed": "22",
       "on_block": "-14",
-      "on_hit": "+5",
+      "on_hit": "LAUNCH",
       "on_ch": "LAUNCH",
       "in_air": "-",
       "on_whiff": "-",
@@ -2637,6 +2750,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "22",
       "on_block": "-14",
@@ -2660,6 +2774,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [27]",
       "speed": "16",
       "on_block": "+5",
@@ -2683,6 +2798,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "10",
       "on_block": "-5",
@@ -2706,6 +2822,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "11",
       "on_block": "-4",
@@ -2729,6 +2846,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-17",
@@ -2752,6 +2870,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "12",
       "on_block": "-15",
@@ -2775,6 +2894,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "21",
       "on_block": "-13",
@@ -2798,6 +2918,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "18",
       "on_block": "-14",
@@ -2821,6 +2942,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "18",
       "on_block": "-13",
@@ -2834,8 +2956,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/FavorableKlutzyCicada.gif",
+      "move_name": "Sweep Kick",
       "notation": "SS 4 (close)",
       "hit_level": "low",
       "range": "-",
@@ -2844,6 +2966,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "20",
       "on_block": "-31",
@@ -2867,6 +2990,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "20",
       "on_block": "-31",
@@ -2890,6 +3014,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "24 [28]",
       "speed": "22",
       "on_block": "+1",
@@ -2913,6 +3038,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "8",
       "on_block": "+13",
@@ -2936,6 +3062,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "12",
       "on_block": "-",
@@ -2950,7 +3077,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Shunjingozan",
       "notation": "WR 4 ",
       "hit_level": "low",
       "range": "-",
@@ -2959,6 +3086,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "14",
       "on_block": "-40",
@@ -2982,6 +3110,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "24 [28]",
       "speed": "18",
       "on_block": "0",
@@ -3005,6 +3134,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13]",
       "speed": "14",
       "on_block": "-1",
@@ -3028,6 +3158,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 12",
       "speed": "14",
       "on_block": "-10",
@@ -3051,6 +3182,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "9",
       "on_block": "-10",
@@ -3074,6 +3206,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 12, 20",
       "speed": "14",
       "on_block": "-12",
@@ -3097,6 +3230,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 20",
       "speed": "9",
       "on_block": "-12",
@@ -3120,6 +3254,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "17",
       "on_block": "-12",
@@ -3143,6 +3278,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "15",
       "on_block": "-9",
@@ -3166,6 +3302,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19]",
       "speed": "15",
       "on_block": "-12",
@@ -3189,6 +3326,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "11",
       "on_block": "-7",
@@ -3212,6 +3350,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "23",
       "on_block": "-10",
@@ -3225,8 +3364,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/EllipticalGracefulChevrotain.gif",
+      "move_name": "Spring Up",
       "notation": "While down (facing up) 3+4",
       "hit_level": "mid",
       "range": "-",
@@ -3235,6 +3374,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "30",
       "on_block": "-5",
@@ -3248,8 +3388,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/SilverGleamingCapeghostfrog.gif",
+      "move_name": "Thunder Stomp",
       "notation": "(While enemy is down) d+3+4",
       "hit_level": "low",
       "range": "-",
@@ -3258,6 +3398,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "19 [22]",
       "speed": "24",
       "on_block": "-",
@@ -3272,7 +3413,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "10 Hit Combo 1",
       "notation": "1, 1, 2, 1, 3, 4, 2, 2, 2, 2",
       "hit_level": "-",
       "range": "-",
@@ -3281,6 +3422,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "83 [84]",
       "speed": "10",
       "on_block": "-",
@@ -3295,7 +3437,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "10 Hit Combo 2",
       "notation": "1, 1, 2, 1, 3, 4, 2, 4, 2, 1+2",
       "hit_level": "-",
       "range": "-",
@@ -3304,6 +3446,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "110 [111]",
       "speed": "10",
       "on_block": "-",
@@ -3327,6 +3470,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "22",
       "on_block": "-12",
@@ -3350,6 +3494,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "22",
       "on_block": "-12",
@@ -3373,6 +3518,7 @@
       "crush": "mid, high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "13",
       "on_block": "-18",
@@ -3396,6 +3542,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "19",
       "on_block": "+2",
@@ -3419,6 +3566,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-20",
@@ -3442,6 +3590,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "21",
       "on_block": "-19",
@@ -3465,6 +3614,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-19",
@@ -3488,6 +3638,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "4",
       "speed": "33",
       "on_block": "-2",
@@ -3501,6 +3652,12 @@
     },
     {
       "properties": [],
+      "preview_url": null,
+      "move_name": "INTO DECEPTIVE STEP",
+      "id": "feng_153"
+    },
+    {
+      "properties": [],
       "preview_url": "https://giant.gfycat.com/UnnaturalVacantCamel.gif",
       "move_name": "Deceptive Step",
       "notation": "b+3+4",
@@ -3511,6 +3668,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3520,7 +3678,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_153"
+      "id": "feng_154"
     },
     {
       "properties": [],
@@ -3534,6 +3692,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-35",
@@ -3543,7 +3702,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_154"
+      "id": "feng_155"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING DECEPTIVE STEP",
+      "id": "feng_156"
     },
     {
       "properties": [],
@@ -3557,6 +3722,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3566,7 +3732,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_155"
+      "id": "feng_157"
     },
     {
       "properties": [],
@@ -3580,6 +3746,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "20",
       "on_block": "-13",
@@ -3589,7 +3756,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_156"
+      "id": "feng_158"
     },
     {
       "properties": [],
@@ -3603,6 +3770,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "14",
       "on_block": "-9",
@@ -3612,7 +3780,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_157"
+      "id": "feng_159"
     },
     {
       "properties": [],
@@ -3626,6 +3794,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "22",
       "on_block": "-12",
@@ -3635,7 +3804,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_158"
+      "id": "feng_160"
     },
     {
       "properties": [],
@@ -3649,6 +3818,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "31",
       "on_block": "-7",
@@ -3658,7 +3828,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_159"
+      "id": "feng_161"
     },
     {
       "properties": [],
@@ -3672,6 +3842,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36], 20",
       "speed": "31",
       "on_block": "-33",
@@ -3681,7 +3852,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_160"
+      "id": "feng_162"
     },
     {
       "properties": [],
@@ -3695,6 +3866,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "39",
       "on_block": "-5",
@@ -3704,7 +3876,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_161"
+      "id": "feng_163"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "INTO SHIFTING CLOUDS",
+      "id": "feng_164"
     },
     {
       "properties": [],
@@ -3718,6 +3896,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3727,7 +3906,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_162"
+      "id": "feng_165"
     },
     {
       "properties": [],
@@ -3741,6 +3920,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "-",
       "on_block": "-",
@@ -3750,7 +3930,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_163"
+      "id": "feng_166"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING SHIFTING CLOUDS",
+      "id": "feng_167"
     },
     {
       "properties": [],
@@ -3764,6 +3950,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3773,7 +3960,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_164"
+      "id": "feng_168"
     },
     {
       "properties": [],
@@ -3787,6 +3974,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "15",
       "on_block": "-13",
@@ -3796,7 +3984,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_165"
+      "id": "feng_169"
     },
     {
       "properties": [],
@@ -3810,6 +3998,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "20",
       "on_block": "+8",
@@ -3819,7 +4008,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_166"
+      "id": "feng_170"
     },
     {
       "properties": [],
@@ -3833,6 +4022,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "20",
       "on_block": "-14",
@@ -3842,7 +4032,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_167"
+      "id": "feng_171"
     },
     {
       "properties": [],
@@ -3856,6 +4046,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "20",
       "on_block": "-14",
@@ -3865,7 +4056,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_168"
+      "id": "feng_172"
     },
     {
       "properties": [],
@@ -3879,6 +4070,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "15",
       "on_block": "-9",
@@ -3888,7 +4080,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_169"
+      "id": "feng_173"
     },
     {
       "properties": [],
@@ -3902,6 +4094,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 8",
       "speed": "15",
       "on_block": "-11",
@@ -3911,7 +4104,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_170"
+      "id": "feng_174"
     },
     {
       "properties": [],
@@ -3925,6 +4118,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "10",
       "on_block": "-11",
@@ -3934,7 +4128,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_171"
+      "id": "feng_175"
     },
     {
       "properties": [],
@@ -3948,6 +4142,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 8, 18",
       "speed": "15",
       "on_block": "-11",
@@ -3957,7 +4152,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_172"
+      "id": "feng_176"
     },
     {
       "properties": [],
@@ -3971,6 +4166,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9], 18",
       "speed": "10",
       "on_block": "-11",
@@ -3980,7 +4176,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_173"
+      "id": "feng_177"
     },
     {
       "properties": [],
@@ -3994,6 +4190,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "13",
       "on_block": "-11",
@@ -4003,7 +4200,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_174"
+      "id": "feng_178"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "TO ZHUAN SHEN HUAN WU",
+      "id": "feng_179"
     },
     {
       "properties": [],
@@ -4017,6 +4220,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4026,7 +4230,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_175"
+      "id": "feng_180"
     },
     {
       "properties": [],
@@ -4040,6 +4244,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 9, 10",
       "speed": "10",
       "on_block": "-11",
@@ -4049,7 +4254,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_176"
+      "id": "feng_181"
     },
     {
       "properties": [],
@@ -4063,6 +4268,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9], 10",
       "speed": "10",
       "on_block": "-13",
@@ -4072,7 +4278,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_177"
+      "id": "feng_182"
     },
     {
       "properties": [],
@@ -4086,6 +4292,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 18, 23",
       "speed": "16",
       "on_block": "-12",
@@ -4095,7 +4302,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_178"
+      "id": "feng_183"
     },
     {
       "properties": [],
@@ -4109,6 +4316,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 18",
       "speed": "16",
       "on_block": "-17",
@@ -4118,7 +4326,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_179"
+      "id": "feng_184"
     },
     {
       "properties": [],
@@ -4132,6 +4340,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "27 [32]",
       "speed": "34",
       "on_block": "-7",
@@ -4141,7 +4350,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_180"
+      "id": "feng_185"
     },
     {
       "properties": [],
@@ -4155,6 +4364,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "18",
       "on_block": "-5",
@@ -4164,7 +4374,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_181"
+      "id": "feng_186"
     },
     {
       "properties": [],
@@ -4178,6 +4388,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "15",
       "on_block": "+1",
@@ -4187,7 +4398,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_182"
+      "id": "feng_187"
     },
     {
       "properties": [],
@@ -4201,6 +4412,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "18",
       "on_block": "-11",
@@ -4210,7 +4422,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_183"
+      "id": "feng_188"
     },
     {
       "properties": [],
@@ -4224,6 +4436,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 20",
       "speed": "18",
       "on_block": "-5",
@@ -4233,7 +4446,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_184"
+      "id": "feng_189"
     },
     {
       "properties": [],
@@ -4247,6 +4460,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "29",
       "on_block": "-5",
@@ -4256,7 +4470,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_185"
+      "id": "feng_190"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "EXIT ZHUAN SHEN HUAN WU",
+      "id": "feng_191"
     },
     {
       "properties": [],
@@ -4270,6 +4490,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "-",
       "on_block": "-",
@@ -4279,7 +4500,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_186"
+      "id": "feng_192"
     },
     {
       "properties": [],
@@ -4293,6 +4514,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "12",
       "on_block": "-1",
@@ -4302,7 +4524,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_187"
+      "id": "feng_193"
     },
     {
       "properties": [],
@@ -4316,6 +4538,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 17",
       "speed": "16",
       "on_block": "-13",
@@ -4325,7 +4548,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_188"
+      "id": "feng_194"
     },
     {
       "properties": [],
@@ -4339,6 +4562,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "28",
       "on_block": "-13",
@@ -4348,7 +4572,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_189"
+      "id": "feng_195"
     },
     {
       "properties": [],
@@ -4362,6 +4586,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "32",
       "on_block": "+8 (OC)",
@@ -4371,7 +4596,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_190"
+      "id": "feng_196"
     },
     {
       "properties": [],
@@ -4385,6 +4610,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "10",
       "on_block": "-8",
@@ -4394,12 +4620,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_191"
+      "id": "feng_197"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ThoroughGentleGoose.gif",
+      "move_name": "Reverse Sweep Kick",
       "notation": "BT d+3 (close)",
       "hit_level": "low",
       "range": "-",
@@ -4408,6 +4634,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "18",
       "on_block": "-26",
@@ -4417,7 +4644,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_192"
+      "id": "feng_198"
     },
     {
       "properties": [],
@@ -4431,6 +4658,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "18",
       "on_block": "-26",
@@ -4440,7 +4668,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_193"
+      "id": "feng_199"
     },
     {
       "properties": [],
@@ -4454,6 +4682,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "16",
       "on_block": "-5",
@@ -4463,12 +4692,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_194"
+      "id": "feng_200"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/RelievedAliveEyelashpitviper.gif",
+      "move_name": "Pao Lau Impaler",
       "notation": "BT 1+4 (or 2+3)",
       "hit_level": "high throw",
       "range": "-",
@@ -4477,8 +4706,9 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "50",
-      "speed": "12",
+      "speed": "I12",
       "on_block": "-6",
       "on_hit": "KND",
       "on_ch": "KND",
@@ -4486,7 +4716,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_195"
+      "id": "feng_201"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "STAY IN ZHUAN SHEN HUAN WU",
+      "id": "feng_202"
     },
     {
       "properties": [],
@@ -4500,8 +4736,9 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
-      "speed": "16",
+      "speed": "I16",
       "on_block": "-6",
       "on_hit": "+5",
       "on_ch": "+5",
@@ -4509,7 +4746,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_196"
+      "id": "feng_203"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "POWER CRUSHES",
+      "id": "feng_204"
     },
     {
       "properties": [],
@@ -4523,6 +4766,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "23",
       "on_block": "-12",
@@ -4532,7 +4776,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_197"
+      "id": "feng_205"
     },
     {
       "properties": [],
@@ -4546,6 +4790,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "28 [33]",
       "speed": "16",
       "on_block": "+1",
@@ -4555,12 +4800,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_198"
+      "id": "feng_206"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "RAGE MOVES",
+      "id": "feng_207"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/LiveOddballHornedviper.gif",
+      "move_name": "Rage Art",
       "notation": "(During Rage) d+1+2",
       "hit_level": "mid",
       "range": "-",
@@ -4569,6 +4820,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "55 [57]",
       "speed": "21",
       "on_block": "-22",
@@ -4578,12 +4830,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_199"
+      "id": "feng_208"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/LateMiniatureJaguar.gif",
+      "move_name": "Rage Drive",
       "notation": "(During Rage) b+1+2*",
       "hit_level": "mid",
       "range": "-",
@@ -4592,6 +4844,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35 [42]",
       "speed": "13",
       "on_block": "+3",
@@ -4601,7 +4854,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_200"
+      "id": "feng_209"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "UNBLOCKABLE MOVES",
+      "id": "feng_210"
     },
     {
       "properties": [],
@@ -4615,6 +4874,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "70 [84]",
       "speed": "79",
       "on_block": "!",
@@ -4624,12 +4884,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_201"
+      "id": "feng_211"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "THROWS",
+      "id": "feng_212"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/KlutzyBlackandwhiteAmericanindianhorse.gif",
+      "move_name": "Neck Twister",
       "notation": "Approach enemy... 1+3",
       "hit_level": "high throw",
       "range": "-",
@@ -4638,6 +4904,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "-6",
@@ -4647,12 +4914,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_202"
+      "id": "feng_213"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/HarshSickDingo.gif",
+      "move_name": "Serpent Slayer",
       "notation": "Approach enemy... 2+4",
       "hit_level": "high throw",
       "range": "-",
@@ -4661,6 +4928,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "-3",
@@ -4670,12 +4938,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_203"
+      "id": "feng_214"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/KlutzyBlackandwhiteAmericanindianhorse.gif",
+      "move_name": "Neck Twister",
       "notation": "Approach enemy... f+1+3",
       "hit_level": "high throw",
       "range": "-",
@@ -4684,6 +4952,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "-6",
@@ -4693,12 +4962,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_204"
+      "id": "feng_215"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/HarshSickDingo.gif",
+      "move_name": "Serpent Slayer",
       "notation": "Approach enemy... f+2+4",
       "hit_level": "high throw",
       "range": "-",
@@ -4707,6 +4976,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "-3",
@@ -4716,12 +4986,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_205"
+      "id": "feng_216"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/DeficientUnrealisticAmericanmarten.gif",
+      "move_name": "Avalanche",
       "notation": "Approach enemy... d/f+1+2",
       "hit_level": "high throw",
       "range": "-",
@@ -4730,6 +5000,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-",
@@ -4739,12 +5010,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_206"
+      "id": "feng_217"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/LiveReadyCavy.gif",
+      "move_name": "Jaws of Death",
       "notation": "Approach from left side... 1+3 (or 2+4)",
       "hit_level": "high throw",
       "range": "-",
@@ -4753,6 +5024,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-3",
@@ -4762,12 +5034,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_207"
+      "id": "feng_218"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ImprobableOddballAquaticleech.gif",
+      "move_name": "Wandering Soul",
       "notation": "Approach from right side... 1+3 (or 2+4)",
       "hit_level": "high throw",
       "range": "-",
@@ -4776,6 +5048,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-3",
@@ -4785,12 +5058,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_208"
+      "id": "feng_219"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/TameSoulfulHairstreakbutterfly.gif",
+      "move_name": "Violent Storm",
       "notation": "Approach from behind... 1+3 (or 2+4)",
       "hit_level": "high throw",
       "range": "-",
@@ -4799,6 +5072,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "50",
       "speed": "12",
       "on_block": "-",
@@ -4808,7 +5082,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_209"
+      "id": "feng_220"
     },
     {
       "properties": [],
@@ -4822,6 +5096,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5",
       "speed": "16",
       "on_block": "-5 (BT)",
@@ -4831,7 +5106,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_210"
+      "id": "feng_221"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING TACKLE",
+      "id": "feng_222"
     },
     {
       "properties": [],
@@ -4845,6 +5126,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5",
       "speed": "-",
       "on_block": "-",
@@ -4854,7 +5136,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_211"
+      "id": "feng_223"
     },
     {
       "properties": [],
@@ -4868,6 +5150,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5",
       "speed": "-",
       "on_block": "-",
@@ -4877,7 +5160,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_212"
+      "id": "feng_224"
     },
     {
       "properties": [],
@@ -4891,6 +5174,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5, 5",
       "speed": "-",
       "on_block": "-",
@@ -4900,7 +5184,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_213"
+      "id": "feng_225"
     },
     {
       "properties": [],
@@ -4914,6 +5198,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5, 5, 15",
       "speed": "-",
       "on_block": "-",
@@ -4923,7 +5208,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_214"
+      "id": "feng_226"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "THROWS",
+      "id": "feng_227"
     },
     {
       "properties": [],
@@ -4937,6 +5228,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4946,7 +5238,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_215"
+      "id": "feng_228"
     },
     {
       "properties": [],
@@ -4960,6 +5252,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4969,7 +5262,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_216"
+      "id": "feng_229"
     },
     {
       "properties": [],
@@ -4983,6 +5276,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4992,12 +5286,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_217"
+      "id": "feng_230"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/UniformUnsightlyGordonsetter.gif",
+      "move_name": "Shifting Clouds",
       "notation": "Time with enemy punch... f+3+4",
       "hit_level": "-",
       "range": "-",
@@ -5006,6 +5300,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5015,12 +5310,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_218"
+      "id": "feng_231"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/AnxiousFrighteningAgouti.gif",
+      "move_name": "Attack Reversal",
       "notation": "Time with enemy punch... b+1+3 (or b+2+4)",
       "hit_level": "-",
       "range": "-",
@@ -5029,6 +5324,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5038,7 +5334,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_219"
+      "id": "feng_232"
     }
   ]
 }

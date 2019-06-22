@@ -1,6 +1,6 @@
 {
-  "displayName": "Eddy",
   "fullname": "Eddy Gordo",
+  "displayName": "Eddy",
   "label": "eddy",
   "movelist": [
     {
@@ -15,6 +15,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "35",
       "on_block": "+1",
@@ -37,6 +38,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "10",
       "on_block": "+1",
@@ -59,6 +61,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 12",
       "speed": "10",
       "on_block": "-4",
@@ -81,6 +84,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "10",
       "on_block": "-4",
@@ -103,6 +107,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "10",
       "on_block": "0",
@@ -125,6 +130,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "18",
       "on_block": "-9",
@@ -147,6 +153,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20], 23",
       "speed": "18",
       "on_block": "-4",
@@ -169,6 +176,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [7]",
       "speed": "53",
       "on_block": "-4",
@@ -191,6 +199,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10, 10",
       "speed": "29",
       "on_block": "-24",
@@ -213,6 +222,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "24",
       "on_block": "-6",
@@ -235,6 +245,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10, 10, 7",
       "speed": "29",
       "on_block": "-24",
@@ -257,6 +268,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 15",
       "speed": "24",
       "on_block": "-14",
@@ -279,6 +291,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "24",
       "on_block": "-14",
@@ -301,6 +314,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10, 12",
       "speed": "29",
       "on_block": "-24",
@@ -323,6 +337,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "22",
       "on_block": "-16",
@@ -345,6 +360,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "12",
       "on_block": "-9",
@@ -367,6 +383,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19]",
       "speed": "19",
       "on_block": "-27",
@@ -379,8 +396,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/BossyShabbyAfricanclawedfrog.gif",
-      "move_name": "Satellite Moon to Roundhouse",
+      "preview_url": null,
+      "move_name": "Satellite Moon Roundhouse",
       "notation": "4~3, 4",
       "hit_level": "mid, mid",
       "range": "-",
@@ -389,6 +406,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19], 28",
       "speed": "19",
       "on_block": "-2",
@@ -411,6 +429,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "28 [33]",
       "speed": "16",
       "on_block": "-2",
@@ -433,6 +452,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 15",
       "speed": "12",
       "on_block": "0",
@@ -455,6 +475,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "27",
       "on_block": "0",
@@ -477,6 +498,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 17",
       "speed": "12",
       "on_block": "-23",
@@ -499,6 +521,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "16",
       "on_block": "-23",
@@ -521,6 +544,7 @@
       "crush": "low*, high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "36",
       "on_block": "-9",
@@ -543,6 +567,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "38",
       "on_block": "-24",
@@ -565,6 +590,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "20",
       "on_block": "-1",
@@ -587,6 +613,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "26",
       "on_block": "-10",
@@ -609,6 +636,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30], 17",
       "speed": "26",
       "on_block": "-23",
@@ -631,6 +659,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "21",
       "on_block": "-23",
@@ -653,6 +682,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "22",
       "on_block": "-8",
@@ -675,6 +705,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-3",
@@ -697,6 +728,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 20",
       "speed": "17",
       "on_block": "-10",
@@ -719,6 +751,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13]",
       "speed": "12",
       "on_block": "-9",
@@ -741,6 +774,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 11",
       "speed": "12",
       "on_block": "-9",
@@ -763,6 +797,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13]",
       "speed": "17",
       "on_block": "-9",
@@ -785,6 +820,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 11, 21",
       "speed": "12",
       "on_block": "-14",
@@ -807,6 +843,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 21",
       "speed": "17",
       "on_block": "-14",
@@ -829,6 +866,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "20",
       "on_block": "-14",
@@ -851,6 +889,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "23",
       "on_block": "-23",
@@ -873,6 +912,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 17",
       "speed": "23",
       "on_block": "-11",
@@ -895,6 +935,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "23",
       "on_block": "-11",
@@ -917,6 +958,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 17, 7, 21",
       "speed": "23",
       "on_block": "-14",
@@ -939,6 +981,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20], 7, 21",
       "speed": "23",
       "on_block": "-14",
@@ -961,6 +1004,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 21",
       "speed": "24",
       "on_block": "-14",
@@ -973,8 +1017,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/GlisteningClassicFanworms.gif",
-      "move_name": "Reversão",
+      "preview_url": null,
+      "move_name": "Reversao",
       "notation": "f+3+4",
       "hit_level": "mid, mid",
       "range": "-",
@@ -983,6 +1027,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 11",
       "speed": "17",
       "on_block": "-4",
@@ -1005,6 +1050,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13]",
       "speed": "27",
       "on_block": "-4",
@@ -1027,6 +1073,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "19 [22]",
       "speed": "18",
       "on_block": "-4",
@@ -1049,8 +1096,9 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "19 [22], 18",
-      "speed": "18",
+      "speed": "I18",
       "on_block": "-15",
       "on_hit": "+4",
       "on_ch": "-",
@@ -1071,6 +1119,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "36",
       "on_block": "-15",
@@ -1093,6 +1142,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "24",
       "on_block": "-14",
@@ -1105,8 +1155,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/EvergreenBeautifulHind.gif",
-      "move_name": "Mão Esquerda",
+      "preview_url": null,
+      "move_name": "Mao Esquerda",
       "notation": "d/f+1",
       "hit_level": "mid",
       "range": "-",
@@ -1115,6 +1165,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "13",
       "on_block": "-2",
@@ -1127,8 +1178,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/MeatyNippyGenet.gif",
-      "move_name": "Combinação Mão",
+      "preview_url": null,
+      "move_name": "Combinacao Mao",
       "notation": "d/f+1, 1",
       "hit_level": "mid, high",
       "range": "-",
@@ -1137,6 +1188,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 8",
       "speed": "13",
       "on_block": "-4",
@@ -1159,6 +1211,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "10",
       "on_block": "-4",
@@ -1181,6 +1234,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "15",
       "on_block": "-9",
@@ -1203,6 +1257,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "18",
       "on_block": "-14",
@@ -1225,6 +1280,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "15",
       "on_block": "-23",
@@ -1247,6 +1303,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13]",
       "speed": "17",
       "on_block": "-9",
@@ -1259,8 +1316,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ExemplaryFarDuiker.gif",
-      "move_name": "Relógio",
+      "preview_url": null,
+      "move_name": "Relogio",
       "notation": "d+3~4",
       "hit_level": "low",
       "range": "-",
@@ -1269,6 +1326,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "22",
       "on_block": "-13",
@@ -1291,6 +1349,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13]",
       "speed": "15",
       "on_block": "-16",
@@ -1313,6 +1372,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 24",
       "speed": "15",
       "on_block": "-13",
@@ -1335,6 +1395,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "24 [28]",
       "speed": "21",
       "on_block": "-13",
@@ -1357,6 +1418,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15]",
       "speed": "18",
       "on_block": "-18",
@@ -1379,6 +1441,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15], 22",
       "speed": "18",
       "on_block": "-23",
@@ -1401,6 +1464,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "27",
       "on_block": "-23",
@@ -1423,6 +1487,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "23",
       "on_block": "-18",
@@ -1445,6 +1510,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 25",
       "speed": "23",
       "on_block": "-15",
@@ -1467,6 +1533,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "35",
       "on_block": "-15",
@@ -1489,6 +1556,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 17",
       "speed": "23",
       "on_block": "-3",
@@ -1511,6 +1579,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "24",
       "on_block": "-3",
@@ -1533,6 +1602,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15",
       "speed": "23",
       "on_block": "-7",
@@ -1555,6 +1625,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "34",
       "on_block": "-7",
@@ -1577,6 +1648,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15, 15",
       "speed": "23",
       "on_block": "-14",
@@ -1599,6 +1671,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 15",
       "speed": "34",
       "on_block": "-14",
@@ -1621,6 +1694,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "34",
       "on_block": "-14",
@@ -1643,6 +1717,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15, 11",
       "speed": "23",
       "on_block": "-14",
@@ -1665,6 +1740,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 11",
       "speed": "34",
       "on_block": "-14",
@@ -1687,6 +1763,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13]",
       "speed": "20",
       "on_block": "-14",
@@ -1709,6 +1786,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15, 11, 12",
       "speed": "23",
       "on_block": "-14",
@@ -1731,6 +1809,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 11, 12",
       "speed": "34",
       "on_block": "-14",
@@ -1753,6 +1832,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 12",
       "speed": "20",
       "on_block": "-14",
@@ -1775,6 +1855,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "10",
       "on_block": "-14",
@@ -1797,6 +1878,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "18",
       "on_block": "-17",
@@ -1819,6 +1901,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21], 11",
       "speed": "18",
       "on_block": "-15",
@@ -1841,6 +1924,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "19 [22]",
       "speed": "31",
       "on_block": "-15",
@@ -1853,8 +1937,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/DiligentUnrealisticAntelope.gif",
+      "move_name": "Barbed Wire",
       "notation": "d/b+4, 4, 4",
       "hit_level": "mid, mid, mid",
       "range": "-",
@@ -1863,6 +1947,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21], 11, 11",
       "speed": "18",
       "on_block": "-15",
@@ -1885,6 +1970,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "19 [22], 11",
       "speed": "31",
       "on_block": "-15",
@@ -1907,6 +1993,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "19 [22]",
       "speed": "31",
       "on_block": "-15",
@@ -1929,6 +2016,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21], 11, 11...",
       "speed": "31",
       "on_block": "-13",
@@ -1951,6 +2039,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "30",
       "on_block": "-7",
@@ -1973,6 +2062,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 12",
       "speed": "30",
       "on_block": "-10",
@@ -1995,6 +2085,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "41",
       "on_block": "-10",
@@ -2017,6 +2108,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 12, 10",
       "speed": "30",
       "on_block": "-6",
@@ -2039,6 +2131,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-6",
@@ -2061,6 +2154,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 12, 10, 25",
       "speed": "30",
       "on_block": "-6",
@@ -2083,6 +2177,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 25",
       "speed": "21",
       "on_block": "-6",
@@ -2105,6 +2200,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "44",
       "on_block": "-6",
@@ -2127,6 +2223,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19]",
       "speed": "14",
       "on_block": "-8",
@@ -2149,6 +2246,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19], 10",
       "speed": "14",
       "on_block": "-23",
@@ -2171,6 +2269,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "25",
       "on_block": "-23",
@@ -2193,6 +2292,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "14",
       "on_block": "-11",
@@ -2215,6 +2315,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 23",
       "speed": "14",
       "on_block": "-9",
@@ -2237,6 +2338,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [27]",
       "speed": "25",
       "on_block": "-9",
@@ -2259,6 +2361,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "13",
       "on_block": "-8",
@@ -2271,8 +2374,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/CleverAmusedBirdofparadise.gif",
-      "move_name": "Bênção Fake-out",
+      "preview_url": null,
+      "move_name": "Bencao Fake-out",
       "notation": "b+3, f",
       "hit_level": "mid, mid",
       "range": "-",
@@ -2281,6 +2384,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15",
       "speed": "13",
       "on_block": "-14",
@@ -2303,6 +2407,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "20",
       "on_block": "-6",
@@ -2325,6 +2430,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20], 12",
       "speed": "20",
       "on_block": "-21",
@@ -2347,6 +2453,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "22",
       "on_block": "-21",
@@ -2359,8 +2466,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/NimbleNippyHydra.gif",
-      "move_name": "Armada to Macaco",
+      "preview_url": null,
+      "move_name": "Armada to Macacao",
       "notation": "b+4, 4",
       "hit_level": "high, mid, mid",
       "range": "-",
@@ -2369,6 +2476,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20], 7, 17",
       "speed": "20",
       "on_block": "-9",
@@ -2391,6 +2499,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 17",
       "speed": "29",
       "on_block": "-9",
@@ -2413,6 +2522,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20], 7, 17, 8",
       "speed": "20",
       "on_block": "-13",
@@ -2435,6 +2545,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 17, 8",
       "speed": "29",
       "on_block": "-13",
@@ -2457,6 +2568,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "27",
       "on_block": "-13",
@@ -2479,6 +2591,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "24 [28]",
       "speed": "22",
       "on_block": "-8",
@@ -2491,8 +2604,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ConcreteMiserlyCuscus.gif",
-      "move_name": "Fruit Picker (cancel)",
+      "preview_url": null,
+      "move_name": null,
       "notation": "b, B+2+3, b, b",
       "hit_level": "-",
       "range": "-",
@@ -2501,6 +2614,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -2523,6 +2637,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "8",
       "on_block": "-8",
@@ -2545,6 +2660,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "10",
       "on_block": "-8",
@@ -2557,8 +2673,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/BronzeHealthyAmericancrocodile.gif",
-      "move_name": "Passo Para Trás",
+      "preview_url": null,
+      "move_name": "Passo para Tras",
       "notation": "BT 3+4",
       "hit_level": "mid",
       "range": "-",
@@ -2567,6 +2683,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "47",
       "on_block": "+1",
@@ -2589,6 +2706,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "10",
       "on_block": "-5",
@@ -2611,6 +2729,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "11",
       "on_block": "-4",
@@ -2633,6 +2752,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-15",
@@ -2655,6 +2775,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "13",
       "on_block": "-14",
@@ -2677,6 +2798,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "19 [22]",
       "speed": "18",
       "on_block": "-10",
@@ -2699,6 +2821,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13]",
       "speed": "19",
       "on_block": "-14",
@@ -2721,6 +2844,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 12",
       "speed": "19",
       "on_block": "-14",
@@ -2743,6 +2867,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "10",
       "on_block": "-14",
@@ -2765,6 +2890,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "22",
       "on_block": "-17",
@@ -2787,6 +2913,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "14",
       "on_block": "0 (OC)",
@@ -2809,6 +2936,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 7",
       "speed": "21",
       "on_block": "-12",
@@ -2821,8 +2949,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/WellwornFearlessGuineapig.gif",
+      "move_name": "Twister Sweep",
       "notation": "SS 4, n, 3",
       "hit_level": "low, low",
       "range": "-",
@@ -2831,6 +2959,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 25",
       "speed": "21",
       "on_block": "-45",
@@ -2853,6 +2982,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "38",
       "on_block": "-45",
@@ -2875,6 +3005,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "50 [60]",
       "speed": "34",
       "on_block": "-12",
@@ -2897,6 +3028,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 18",
       "speed": "21",
       "on_block": "-16",
@@ -2919,6 +3051,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "23",
       "on_block": "-16",
@@ -2941,6 +3074,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [27]",
       "speed": "23",
       "on_block": "-28",
@@ -2963,6 +3097,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "6 [7], 6",
       "speed": "13",
       "on_block": "-12",
@@ -2985,6 +3120,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "6 [7], 6",
       "speed": "13",
       "on_block": "-12",
@@ -3007,6 +3143,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "6 [7], 6, 17",
       "speed": "13",
       "on_block": "-34",
@@ -3029,6 +3166,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "38",
       "on_block": "-34",
@@ -3051,6 +3189,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "6 [7], 6, 17, 10",
       "speed": "13",
       "on_block": "-13",
@@ -3073,6 +3212,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30], 14",
       "speed": "38",
       "on_block": "-13",
@@ -3095,6 +3235,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "31",
       "on_block": "-13",
@@ -3107,8 +3248,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/HideousElasticDoe.gif",
-      "move_name": "Wheel Kicks São Paulo Special",
+      "preview_url": null,
+      "move_name": "Wheel Kicks Sao Paulo Special",
       "notation": "SS 3+4, 3+4, 3+4, u/f+3+4",
       "hit_level": "high, mid, mid, mid, mid",
       "range": "-",
@@ -3117,6 +3258,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "6 [7], 6, 17, 10, 8",
       "speed": "13",
       "on_block": "-6",
@@ -3139,6 +3281,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30], 14, 10",
       "speed": "38",
       "on_block": "-6",
@@ -3161,6 +3304,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24], 14",
       "speed": "31",
       "on_block": "-6",
@@ -3183,6 +3327,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "24",
       "on_block": "-6",
@@ -3205,6 +3350,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "8",
       "on_block": "+13",
@@ -3227,6 +3373,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "12",
       "on_block": "-",
@@ -3249,6 +3396,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "14",
       "on_block": "-40",
@@ -3271,6 +3419,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "24 [28]",
       "speed": "18",
       "on_block": "0",
@@ -3293,6 +3442,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "13",
       "on_block": "-6",
@@ -3315,6 +3465,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 20",
       "speed": "13",
       "on_block": "-9",
@@ -3337,6 +3488,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "23",
       "on_block": "-9",
@@ -3359,6 +3511,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "15",
       "on_block": "-12",
@@ -3381,6 +3534,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "19",
       "on_block": "-13",
@@ -3403,6 +3557,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "11",
       "on_block": "-3",
@@ -3416,7 +3571,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "10 Hit Combo 1",
       "notation": "4~3, 4, 2, 4, 4, 3+4, 3+4, 3+4, 3+4, u/f+3+4",
       "hit_level": "-",
       "range": "-",
@@ -3425,6 +3580,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "89 [92]*",
       "speed": "19",
       "on_block": "-",
@@ -3438,7 +3594,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "10 Hit Combo 2",
       "notation": "4~3, 4, 2, 4, 3",
       "hit_level": "mid, mid, high, high, low",
       "range": "-",
@@ -3447,6 +3603,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "43 [46]*",
       "speed": "19",
       "on_block": "-",
@@ -3469,6 +3626,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "22",
       "on_block": "-12",
@@ -3491,6 +3649,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "22",
       "on_block": "-12",
@@ -3513,6 +3672,7 @@
       "crush": "mid, high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "13",
       "on_block": "-18",
@@ -3535,6 +3695,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-5",
@@ -3557,6 +3718,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "19",
       "on_block": "+2",
@@ -3579,6 +3741,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-20",
@@ -3601,6 +3764,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "21",
       "on_block": "-19",
@@ -3623,6 +3787,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-19",
@@ -3636,7 +3801,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Handspring Kickup",
       "notation": "(Upon Landing) f",
       "hit_level": "mid",
       "range": "-",
@@ -3645,6 +3810,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "4",
       "speed": "33",
       "on_block": "-2",
@@ -3654,6 +3820,12 @@
       "active_frames": "-",
       "notes": "-",
       "id": "eddy_166"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "INTO BACK SUMMY",
+      "id": "eddy_167"
     },
     {
       "properties": [],
@@ -3667,6 +3839,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3675,7 +3848,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_167"
+      "id": "eddy_168"
     },
     {
       "properties": [],
@@ -3689,6 +3862,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 12",
       "speed": "10",
       "on_block": "-26",
@@ -3697,7 +3871,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_168"
+      "id": "eddy_169"
     },
     {
       "properties": [],
@@ -3711,6 +3885,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "10",
       "on_block": "-26",
@@ -3719,7 +3894,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_169"
+      "id": "eddy_170"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING BACK SUMMY",
+      "id": "eddy_171"
     },
     {
       "properties": [],
@@ -3733,6 +3914,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "27 [32]",
       "speed": "-",
       "on_block": "-",
@@ -3741,7 +3923,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_170"
+      "id": "eddy_172"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "INTO HANDSTAND",
+      "id": "eddy_173"
     },
     {
       "properties": [],
@@ -3755,6 +3943,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3763,7 +3952,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_171"
+      "id": "eddy_174"
     },
     {
       "properties": [],
@@ -3777,6 +3966,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]. 12",
       "speed": "10",
       "on_block": "-28",
@@ -3785,7 +3975,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_172"
+      "id": "eddy_175"
     },
     {
       "properties": [],
@@ -3799,6 +3989,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 15",
       "speed": "10",
       "on_block": "-16",
@@ -3807,7 +3998,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_173"
+      "id": "eddy_176"
     },
     {
       "properties": [],
@@ -3821,6 +4012,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "19",
       "on_block": "-16",
@@ -3829,7 +4021,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_174"
+      "id": "eddy_177"
     },
     {
       "properties": [],
@@ -3843,6 +4035,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10",
       "speed": "29",
       "on_block": "-24",
@@ -3851,7 +4044,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_175"
+      "id": "eddy_178"
     },
     {
       "properties": [],
@@ -3865,6 +4058,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "12",
       "on_block": "-4",
@@ -3873,7 +4067,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_176"
+      "id": "eddy_179"
     },
     {
       "properties": [],
@@ -3887,6 +4081,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "18",
       "on_block": "-8",
@@ -3895,7 +4090,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_177"
+      "id": "eddy_180"
     },
     {
       "properties": [],
@@ -3909,6 +4104,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "23",
       "on_block": "-4",
@@ -3917,12 +4113,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_178"
+      "id": "eddy_181"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Handstand",
       "notation": "f+1+2",
       "hit_level": "-",
       "range": "-",
@@ -3931,6 +4127,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3939,7 +4136,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_179"
+      "id": "eddy_182"
     },
     {
       "properties": [],
@@ -3953,6 +4150,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "24",
       "on_block": "-39",
@@ -3961,7 +4159,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_180"
+      "id": "eddy_183"
     },
     {
       "properties": [],
@@ -3975,6 +4173,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36], 12",
       "speed": "24",
       "on_block": "-16",
@@ -3983,7 +4182,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_181"
+      "id": "eddy_184"
     },
     {
       "properties": [],
@@ -3997,6 +4196,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-16",
@@ -4005,7 +4205,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_182"
+      "id": "eddy_185"
     },
     {
       "properties": [],
@@ -4019,6 +4219,7 @@
       "crush": "low*, high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "19",
       "on_block": "-15",
@@ -4027,12 +4228,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_183"
+      "id": "eddy_186"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ZestyCreamyDuckling.gif",
-      "move_name": "Mão Esquerda to Handstand",
+      "preview_url": null,
+      "move_name": "Mao Esquerda to Handstand",
       "notation": "d/f+1, F",
       "hit_level": "mid",
       "range": "-",
@@ -4041,6 +4242,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "13",
       "on_block": "-10",
@@ -4049,7 +4251,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_184"
+      "id": "eddy_187"
     },
     {
       "properties": [],
@@ -4063,6 +4265,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "15",
       "on_block": "-16",
@@ -4071,7 +4274,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_185"
+      "id": "eddy_188"
     },
     {
       "properties": [],
@@ -4085,6 +4288,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "23",
       "on_block": "-23",
@@ -4093,7 +4297,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_186"
+      "id": "eddy_189"
     },
     {
       "properties": [],
@@ -4107,6 +4311,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15, 15",
       "speed": "23",
       "on_block": "-30",
@@ -4115,12 +4320,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_187"
+      "id": "eddy_190"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/GiddyLoathsomeJanenschia.gif",
-      "move_name": "Barbed Wire to Infinite Upside Down Kick",
+      "preview_url": null,
+      "move_name": "Barbed Wire Infinite Upside Down Kick",
       "notation": "d/b+4, b+4",
       "hit_level": "mid, mid",
       "range": "-",
@@ -4129,6 +4334,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21], 12",
       "speed": "18",
       "on_block": "-18",
@@ -4137,7 +4343,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_188"
+      "id": "eddy_191"
     },
     {
       "properties": [],
@@ -4151,6 +4357,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "26",
       "on_block": "-18",
@@ -4159,7 +4366,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_189"
+      "id": "eddy_192"
     },
     {
       "properties": [],
@@ -4173,6 +4380,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19], 10",
       "speed": "14",
       "on_block": "-4",
@@ -4181,7 +4389,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_190"
+      "id": "eddy_193"
     },
     {
       "properties": [],
@@ -4195,6 +4403,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "25",
       "on_block": "-4",
@@ -4203,7 +4412,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_191"
+      "id": "eddy_194"
     },
     {
       "properties": [],
@@ -4217,6 +4426,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "22",
       "on_block": "-26",
@@ -4225,7 +4435,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_192"
+      "id": "eddy_195"
     },
     {
       "properties": [],
@@ -4239,6 +4449,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4247,7 +4458,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_193"
+      "id": "eddy_196"
     },
     {
       "properties": [],
@@ -4261,6 +4472,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4269,12 +4481,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_194"
+      "id": "eddy_197"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ElatedTintedBrahmancow.gif",
+      "move_name": "Hot Plate Special to Handstand",
       "notation": "SS 3, n, B",
       "hit_level": "mid",
       "range": "-",
@@ -4283,6 +4495,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "25",
       "on_block": "-25",
@@ -4291,12 +4504,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_195"
+      "id": "eddy_198"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/GraciousThickDuiker.gif",
+      "move_name": "Hot Plate Special to Perch Flop Kick",
       "notation": "SS 3, n, B+3+4",
       "hit_level": "mid, mid",
       "range": "-",
@@ -4305,6 +4518,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20], 20",
       "speed": "25",
       "on_block": "-16",
@@ -4313,7 +4527,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_196"
+      "id": "eddy_199"
     },
     {
       "properties": [],
@@ -4327,6 +4541,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-16",
@@ -4335,7 +4550,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_197"
+      "id": "eddy_200"
     },
     {
       "properties": [],
@@ -4349,6 +4564,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-21",
@@ -4357,7 +4573,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_198"
+      "id": "eddy_201"
     },
     {
       "properties": [],
@@ -4371,6 +4587,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "50 [60]",
       "speed": "34",
       "on_block": "-28",
@@ -4379,7 +4596,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_199"
+      "id": "eddy_202"
     },
     {
       "properties": [],
@@ -4393,6 +4610,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "6 [7], 6, 17, 10",
       "speed": "13",
       "on_block": "-33",
@@ -4401,7 +4619,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_200"
+      "id": "eddy_203"
     },
     {
       "properties": [],
@@ -4415,6 +4633,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30], 14",
       "speed": "38",
       "on_block": "-33",
@@ -4423,12 +4642,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_201"
+      "id": "eddy_204"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/SinfulReliableHoverfly.gif",
+      "move_name": "Down to Handstand",
       "notation": "While down (facing up) 1+2",
       "hit_level": "-",
       "range": "-",
@@ -4437,6 +4656,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4445,7 +4665,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_202"
+      "id": "eddy_205"
     },
     {
       "properties": [],
@@ -4459,6 +4679,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15",
       "speed": "17",
       "on_block": "-15",
@@ -4467,7 +4688,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_203"
+      "id": "eddy_206"
     },
     {
       "properties": [],
@@ -4481,6 +4702,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "27",
       "on_block": "-15",
@@ -4489,7 +4711,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_204"
+      "id": "eddy_207"
     },
     {
       "properties": [],
@@ -4503,6 +4725,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 8",
       "speed": "15",
       "on_block": "-37",
@@ -4511,7 +4734,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_205"
+      "id": "eddy_208"
     },
     {
       "properties": [],
@@ -4525,6 +4748,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "12",
       "on_block": "-4",
@@ -4533,7 +4757,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_206"
+      "id": "eddy_209"
     },
     {
       "properties": [],
@@ -4547,6 +4771,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4555,12 +4780,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_207"
+      "id": "eddy_210"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/TerrificMenacingBrontosaurus.gif",
-      "move_name": "Handspring to Handstand",
+      "preview_url": null,
+      "move_name": "Headspring to Handstand",
       "notation": "RLX b+1+2",
       "hit_level": "-",
       "range": "-",
@@ -4569,6 +4794,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4577,7 +4803,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_208"
+      "id": "eddy_211"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING HANDSTAND",
+      "id": "eddy_212"
     },
     {
       "properties": [],
@@ -4591,6 +4823,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4599,7 +4832,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_209"
+      "id": "eddy_213"
     },
     {
       "properties": [],
@@ -4613,6 +4846,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4621,7 +4855,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_210"
+      "id": "eddy_214"
     },
     {
       "properties": [],
@@ -4635,6 +4869,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "18",
       "on_block": "-2",
@@ -4643,7 +4878,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_211"
+      "id": "eddy_215"
     },
     {
       "properties": [],
@@ -4657,6 +4892,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10, 7",
       "speed": "18",
       "on_block": "-13",
@@ -4665,7 +4901,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_212"
+      "id": "eddy_216"
     },
     {
       "properties": [],
@@ -4679,6 +4915,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 7",
       "speed": "26",
       "on_block": "-13",
@@ -4687,7 +4924,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_213"
+      "id": "eddy_217"
     },
     {
       "properties": [],
@@ -4701,6 +4938,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6], 20",
       "speed": "12",
       "on_block": "-12",
@@ -4709,7 +4947,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_214"
+      "id": "eddy_218"
     },
     {
       "properties": [],
@@ -4723,6 +4961,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "28",
       "on_block": "-",
@@ -4731,7 +4970,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_215"
+      "id": "eddy_219"
     },
     {
       "properties": [],
@@ -4745,6 +4984,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "20",
       "on_block": "+1",
@@ -4753,7 +4993,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_216"
+      "id": "eddy_220"
     },
     {
       "properties": [],
@@ -4767,6 +5007,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "18",
       "on_block": "-12",
@@ -4775,7 +5016,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_217"
+      "id": "eddy_221"
     },
     {
       "properties": [],
@@ -4789,6 +5030,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4797,12 +5039,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_218"
+      "id": "eddy_222"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/DeadMeaslyBaleenwhale.gif",
+      "move_name": "Perch Flop Kick",
       "notation": "HSP D+3+4",
       "hit_level": "mid",
       "range": "-",
@@ -4811,6 +5053,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-16",
@@ -4819,12 +5062,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_219"
+      "id": "eddy_223"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ElasticSmartBirdofparadise.gif",
+      "move_name": "Handstand Tilt",
       "notation": "HSP u, n (or d, n)",
       "hit_level": "-",
       "range": "-",
@@ -4833,6 +5076,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4841,12 +5085,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_220"
+      "id": "eddy_224"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/CaringJollyAmericanwarmblood.gif",
+      "move_name": "Drop Kick",
       "notation": "HSP u, n, 3 (or u, n, 4)",
       "hit_level": "low",
       "range": "-",
@@ -4855,6 +5099,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "36",
       "on_block": "-45",
@@ -4863,12 +5108,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_221"
+      "id": "eddy_225"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/LoneMagnificentAlaskanhusky.gif",
+      "move_name": "Straight Flop",
       "notation": "HSP u+3 (or u+4)",
       "hit_level": "mid",
       "range": "-",
@@ -4877,6 +5122,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "16",
       "on_block": "-18",
@@ -4885,7 +5131,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_222"
+      "id": "eddy_226"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "INTO NEGATIVA",
+      "id": "eddy_227"
     },
     {
       "properties": [],
@@ -4899,6 +5151,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4907,12 +5160,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_223"
+      "id": "eddy_228"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/VacantDismalBittern.gif",
+      "move_name": "Negativa",
       "notation": "d+3+4",
       "hit_level": "-",
       "range": "-",
@@ -4921,6 +5174,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4929,12 +5183,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_224"
+      "id": "eddy_229"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/UnhappyGargantuanAyeaye.gif",
-      "move_name": "Left Jab Island Mirage to Negativa",
+      "preview_url": null,
+      "move_name": "Left Jab to Island Mirage to Negativa",
       "notation": "1, 3, D",
       "hit_level": "high, mid",
       "range": "-",
@@ -4943,6 +5197,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 15",
       "speed": "10",
       "on_block": "-12",
@@ -4951,7 +5206,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_225"
+      "id": "eddy_230"
     },
     {
       "properties": [],
@@ -4965,6 +5220,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10",
       "speed": "29",
       "on_block": "-24",
@@ -4973,7 +5229,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_226"
+      "id": "eddy_231"
     },
     {
       "properties": [],
@@ -4987,6 +5243,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10, 14",
       "speed": "29",
       "on_block": "-24",
@@ -4995,12 +5252,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_227"
+      "id": "eddy_232"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/JauntyLinedEyra.gif",
-      "move_name": "Satellite Moon to Hot Plate Special",
+      "preview_url": null,
+      "move_name": "Satellite Moon Hot Plate Special",
       "notation": "4~3, 3",
       "hit_level": "mid, mid",
       "range": "-",
@@ -5009,6 +5266,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19], 17",
       "speed": "19",
       "on_block": "-5",
@@ -5017,7 +5275,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_228"
+      "id": "eddy_233"
     },
     {
       "properties": [],
@@ -5031,6 +5289,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "30",
       "on_block": "-5",
@@ -5039,7 +5298,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_229"
+      "id": "eddy_234"
     },
     {
       "properties": [],
@@ -5053,6 +5312,7 @@
       "crush": "low*, high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "44",
       "on_block": "+4",
@@ -5061,7 +5321,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_230"
+      "id": "eddy_235"
     },
     {
       "properties": [],
@@ -5075,6 +5335,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "20",
       "on_block": "-21",
@@ -5083,7 +5344,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_231"
+      "id": "eddy_236"
     },
     {
       "properties": [],
@@ -5097,6 +5358,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "26",
       "on_block": "-14",
@@ -5105,7 +5367,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_232"
+      "id": "eddy_237"
     },
     {
       "properties": [],
@@ -5119,6 +5381,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30], 15",
       "speed": "26",
       "on_block": "-14",
@@ -5127,7 +5390,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_233"
+      "id": "eddy_238"
     },
     {
       "properties": [],
@@ -5141,6 +5404,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "22",
       "on_block": "-14",
@@ -5149,7 +5413,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_234"
+      "id": "eddy_239"
     },
     {
       "properties": [],
@@ -5163,6 +5427,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10, 10",
       "speed": "23",
       "on_block": "-24",
@@ -5171,7 +5436,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_235"
+      "id": "eddy_240"
     },
     {
       "properties": [],
@@ -5185,6 +5450,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10",
       "speed": "22",
       "on_block": "-24",
@@ -5193,7 +5459,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_236"
+      "id": "eddy_241"
     },
     {
       "properties": [],
@@ -5207,6 +5473,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "24",
       "on_block": "-3",
@@ -5215,12 +5482,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_237"
+      "id": "eddy_242"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Cartao Vermelho",
       "notation": "f, f, f+3 (or WR 3)",
       "hit_level": "low",
       "range": "-",
@@ -5229,6 +5496,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "24",
       "on_block": "-24",
@@ -5237,7 +5505,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_238"
+      "id": "eddy_243"
     },
     {
       "properties": [],
@@ -5251,6 +5519,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "15",
       "on_block": "-12",
@@ -5259,7 +5528,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_239"
+      "id": "eddy_244"
     },
     {
       "properties": [],
@@ -5273,6 +5542,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 18",
       "speed": "17",
       "on_block": "-5",
@@ -5281,7 +5551,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_240"
+      "id": "eddy_245"
     },
     {
       "properties": [],
@@ -5295,6 +5565,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "23",
       "on_block": "-5",
@@ -5303,12 +5574,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_241"
+      "id": "eddy_246"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/DimpledVastIchthyosaurs.gif",
-      "move_name": "Heran Bago",
+      "preview_url": null,
+      "move_name": "Heran Bago to Negativa",
       "notation": "d+3~3",
       "hit_level": "mid",
       "range": "-",
@@ -5317,6 +5588,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "20",
       "on_block": "-14",
@@ -5325,12 +5597,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_242"
+      "id": "eddy_247"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Rasteira Hot Plate Special",
       "notation": "d/b+3, n, 3",
       "hit_level": "low, mid",
       "range": "-",
@@ -5339,6 +5611,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 17",
       "speed": "23",
       "on_block": "-5",
@@ -5347,7 +5620,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_243"
+      "id": "eddy_248"
     },
     {
       "properties": [],
@@ -5361,6 +5634,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "27",
       "on_block": "-5",
@@ -5369,7 +5643,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_244"
+      "id": "eddy_249"
     },
     {
       "properties": [],
@@ -5383,6 +5657,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 21",
       "speed": "23",
       "on_block": "-14",
@@ -5391,7 +5666,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_245"
+      "id": "eddy_250"
     },
     {
       "properties": [],
@@ -5405,6 +5680,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "45",
       "on_block": "-14",
@@ -5413,7 +5689,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_246"
+      "id": "eddy_251"
     },
     {
       "properties": [],
@@ -5427,6 +5703,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 21",
       "speed": "13",
       "on_block": "-14",
@@ -5435,7 +5712,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_247"
+      "id": "eddy_252"
     },
     {
       "properties": [],
@@ -5449,6 +5726,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "26",
       "on_block": "-14",
@@ -5457,12 +5735,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_248"
+      "id": "eddy_253"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/LazyAnotherGlobefish.gif",
-      "move_name": "Armada to Macaco to Negativa",
+      "preview_url": null,
+      "move_name": "Armada to Macacao to Negativa",
       "notation": "b+4, 4, D",
       "hit_level": "high, mid, mid",
       "range": "-",
@@ -5471,6 +5749,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20], 7, 17",
       "speed": "20",
       "on_block": "-16",
@@ -5479,7 +5758,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_249"
+      "id": "eddy_254"
     },
     {
       "properties": [],
@@ -5493,6 +5772,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 17",
       "speed": "29",
       "on_block": "-16",
@@ -5501,7 +5781,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_250"
+      "id": "eddy_255"
     },
     {
       "properties": [],
@@ -5515,6 +5795,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "22",
       "on_block": "-17",
@@ -5523,7 +5804,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_251"
+      "id": "eddy_256"
     },
     {
       "properties": [],
@@ -5537,6 +5818,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "19 [22]",
       "speed": "24",
       "on_block": "-26",
@@ -5545,7 +5827,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_252"
+      "id": "eddy_257"
     },
     {
       "properties": [],
@@ -5559,6 +5841,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "25",
       "on_block": "-5",
@@ -5567,7 +5850,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_253"
+      "id": "eddy_258"
     },
     {
       "properties": [],
@@ -5581,6 +5864,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5589,7 +5873,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_254"
+      "id": "eddy_259"
     },
     {
       "properties": [],
@@ -5603,6 +5887,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 7, 18",
       "speed": "21",
       "on_block": "-8",
@@ -5611,7 +5896,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_255"
+      "id": "eddy_260"
     },
     {
       "properties": [],
@@ -5625,6 +5910,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "6 [7], 6, 17, 10, 8",
       "speed": "13",
       "on_block": "-26",
@@ -5633,7 +5919,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_256"
+      "id": "eddy_261"
     },
     {
       "properties": [],
@@ -5647,6 +5933,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 20",
       "speed": "13",
       "on_block": "-14",
@@ -5655,7 +5942,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_257"
+      "id": "eddy_262"
     },
     {
       "properties": [],
@@ -5669,6 +5956,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "19",
       "on_block": "-14",
@@ -5677,11 +5965,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_258"
+      "id": "eddy_263"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/WelltodoGlitteringBluebreastedkookaburra.gif",
+      "preview_url": "https://giant.gfycat.com/VariableLankyBactrian.gif",
       "move_name": "Hot Plate Special",
       "notation": "HSP 3",
       "hit_level": "mid",
@@ -5691,6 +5979,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "32",
       "on_block": "-5",
@@ -5699,11 +5988,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_259"
+      "id": "eddy_264"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/BasicInfantileIcelandicsheepdog.gif",
+      "preview_url": "https://giant.gfycat.com/PossibleGrandGermanshepherd.gif",
       "move_name": "Slippery Kick",
       "notation": "HSP 3~4",
       "hit_level": "low, low",
@@ -5713,6 +6002,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10",
       "speed": "27",
       "on_block": "-24",
@@ -5721,7 +6011,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_260"
+      "id": "eddy_265"
     },
     {
       "properties": [],
@@ -5735,6 +6025,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6], 20, 6, 4",
       "speed": "12",
       "on_block": "-24",
@@ -5743,7 +6034,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_261"
+      "id": "eddy_266"
     },
     {
       "properties": [],
@@ -5757,6 +6048,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "27",
       "on_block": "-24",
@@ -5765,12 +6057,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_262"
+      "id": "eddy_267"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/PolishedVigilantIsabellinewheatear.gif",
+      "move_name": "Tilt Twist Sweep",
       "notation": "HSP u+3, D (or u+4, D)",
       "hit_level": "-",
       "range": "-",
@@ -5779,6 +6071,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "16",
       "on_block": "-2",
@@ -5787,7 +6080,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_263"
+      "id": "eddy_268"
     },
     {
       "properties": [],
@@ -5801,6 +6094,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "22",
       "on_block": "-14",
@@ -5809,7 +6103,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_264"
+      "id": "eddy_269"
     },
     {
       "properties": [],
@@ -5823,6 +6117,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15",
       "speed": "17",
       "on_block": "-31",
@@ -5831,7 +6126,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_265"
+      "id": "eddy_270"
     },
     {
       "properties": [],
@@ -5845,6 +6140,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "27",
       "on_block": "-31",
@@ -5853,12 +6149,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_266"
+      "id": "eddy_271"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "DURING NEGATIVA",
+      "id": "eddy_272"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/ValuableTightCaudata.gif",
+      "move_name": "Side Roll to Sit",
       "notation": "RLX U (or D)",
       "hit_level": "-",
       "range": "-",
@@ -5867,6 +6169,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5875,7 +6178,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_267"
+      "id": "eddy_273"
     },
     {
       "properties": [],
@@ -5889,6 +6192,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5897,7 +6201,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_268"
+      "id": "eddy_274"
     },
     {
       "properties": [],
@@ -5911,6 +6215,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "17",
       "on_block": "-12",
@@ -5919,7 +6224,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_269"
+      "id": "eddy_275"
     },
     {
       "properties": [],
@@ -5933,6 +6238,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15",
       "speed": "17",
       "on_block": "-6",
@@ -5941,7 +6247,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_270"
+      "id": "eddy_276"
     },
     {
       "properties": [],
@@ -5955,6 +6261,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "29",
       "on_block": "-6",
@@ -5963,7 +6270,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_271"
+      "id": "eddy_277"
     },
     {
       "properties": [],
@@ -5977,6 +6284,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "21",
       "on_block": "-6",
@@ -5985,7 +6293,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_272"
+      "id": "eddy_278"
     },
     {
       "properties": [],
@@ -5999,6 +6307,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 15",
       "speed": "21",
       "on_block": "-13",
@@ -6007,7 +6316,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_273"
+      "id": "eddy_279"
     },
     {
       "properties": [],
@@ -6021,6 +6330,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "23",
       "on_block": "-13",
@@ -6029,7 +6339,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_274"
+      "id": "eddy_280"
     },
     {
       "properties": [],
@@ -6043,6 +6353,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 30",
       "speed": "21",
       "on_block": "-14",
@@ -6051,7 +6362,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_275"
+      "id": "eddy_281"
     },
     {
       "properties": [],
@@ -6065,6 +6376,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "25",
       "on_block": "-14",
@@ -6073,7 +6385,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_276"
+      "id": "eddy_282"
     },
     {
       "properties": [],
@@ -6087,6 +6399,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 10",
       "speed": "21",
       "on_block": "-22",
@@ -6095,7 +6408,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_277"
+      "id": "eddy_283"
     },
     {
       "properties": [],
@@ -6109,6 +6422,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "28",
       "on_block": "-22",
@@ -6117,7 +6431,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_278"
+      "id": "eddy_284"
     },
     {
       "properties": [],
@@ -6131,6 +6445,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-15",
@@ -6139,12 +6454,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_279"
+      "id": "eddy_285"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Rio Delight Knee Slicer",
       "notation": "RLX 3, n, 4",
       "hit_level": "low, mid",
       "range": "-",
@@ -6153,6 +6468,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 28",
       "speed": "16",
       "on_block": "-6",
@@ -6161,7 +6477,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_280"
+      "id": "eddy_286"
     },
     {
       "properties": [],
@@ -6175,6 +6491,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "28 [33]",
       "speed": "27",
       "on_block": "-6",
@@ -6183,7 +6500,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_281"
+      "id": "eddy_287"
     },
     {
       "properties": [],
@@ -6197,6 +6514,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "17",
       "on_block": "-24",
@@ -6205,7 +6523,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_282"
+      "id": "eddy_288"
     },
     {
       "properties": [],
@@ -6219,6 +6537,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "15",
       "on_block": "-13",
@@ -6227,7 +6546,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_283"
+      "id": "eddy_289"
     },
     {
       "properties": [],
@@ -6241,6 +6560,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20], 18",
       "speed": "15",
       "on_block": "-7",
@@ -6249,7 +6569,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_284"
+      "id": "eddy_290"
     },
     {
       "properties": [],
@@ -6263,6 +6583,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "35",
       "on_block": "-7",
@@ -6271,7 +6592,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_285"
+      "id": "eddy_291"
     },
     {
       "properties": [],
@@ -6285,6 +6606,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "35",
       "on_block": "-7",
@@ -6293,11 +6615,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_286"
+      "id": "eddy_292"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/DistantSadHerring.gif",
+      "preview_url": "https://giant.gfycat.com/ArcticGrandioseDove.gif",
       "move_name": "Mola Vermelha",
       "notation": "RLX f+3+4",
       "hit_level": "mid",
@@ -6307,6 +6629,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "18",
       "on_block": "-12",
@@ -6315,7 +6638,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_287"
+      "id": "eddy_293"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "POWER CRUSHES",
+      "id": "eddy_294"
     },
     {
       "properties": [],
@@ -6329,6 +6658,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "31",
       "on_block": "-2 (OC)",
@@ -6337,12 +6667,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_288"
+      "id": "eddy_295"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/DopeyWaryBergerpicard.gif",
-      "move_name": "Faisão",
+      "preview_url": null,
+      "move_name": "Faisao",
       "notation": "HSP 1",
       "hit_level": "mid",
       "range": "-",
@@ -6351,6 +6681,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "23",
       "on_block": "-12",
@@ -6359,12 +6690,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_289"
+      "id": "eddy_296"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "RAGE MOVES",
+      "id": "eddy_297"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/IdealisticImaginativeAmurminnow.gif",
+      "move_name": "Rage Art",
       "notation": "(During Rage) b+3+4",
       "hit_level": "mid",
       "range": "-",
@@ -6373,6 +6710,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "55 [57]",
       "speed": "20",
       "on_block": "-22",
@@ -6381,12 +6719,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_290"
+      "id": "eddy_298"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/MadWastefulAmericanwarmblood.gif",
+      "move_name": "Rage Drive",
       "notation": "(During Rage) f, F+3+4",
       "hit_level": "mid, mid",
       "range": "-",
@@ -6395,6 +6733,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 20",
       "speed": "15",
       "on_block": "+12",
@@ -6403,7 +6742,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_291"
+      "id": "eddy_299"
     },
     {
       "properties": [],
@@ -6417,6 +6756,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "48",
       "on_block": "+12",
@@ -6425,12 +6765,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_292"
+      "id": "eddy_300"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "UNBLOCKABLE MOVES",
+      "id": "eddy_301"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/HandsomeMagnificentBlowfish.gif",
+      "move_name": "Fruit Picker",
       "notation": "b, B+2+3 (b, b to cancel)",
       "hit_level": "mid!, high!",
       "range": "-",
@@ -6439,6 +6785,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40 [48], 40",
       "speed": "76",
       "on_block": "!",
@@ -6447,12 +6794,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_293"
+      "id": "eddy_302"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "THROWS",
+      "id": "eddy_303"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/TanElatedBlowfish.gif",
+      "move_name": "Rio Deal",
       "notation": "Approach enemy... 1+3",
       "hit_level": "high",
       "range": "-",
@@ -6461,6 +6814,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "-8",
@@ -6469,12 +6823,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_294"
+      "id": "eddy_304"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/MixedThinGemsbok.gif",
+      "move_name": "Rio Special",
       "notation": "Approach enemy... 2+4",
       "hit_level": "high",
       "range": "-",
@@ -6483,6 +6837,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "-6",
@@ -6491,12 +6846,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_295"
+      "id": "eddy_305"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/TanElatedBlowfish.gif",
+      "move_name": "Rio Deal",
       "notation": "Approach enemy... f+1+3",
       "hit_level": "high",
       "range": "-",
@@ -6505,6 +6860,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "-8",
@@ -6513,12 +6869,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_296"
+      "id": "eddy_306"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/MixedThinGemsbok.gif",
+      "move_name": "Rio Special",
       "notation": "Approach enemy... f+2+4",
       "hit_level": "high",
       "range": "-",
@@ -6527,6 +6883,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "-6",
@@ -6535,12 +6892,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_297"
+      "id": "eddy_307"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/AnxiousAcidicChameleon.gif",
+      "move_name": "Cabra Macaco Throw",
       "notation": "Approach enemy... d/f+1+2",
       "hit_level": "high",
       "range": "-",
@@ -6549,6 +6906,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "11",
       "on_block": "-6",
@@ -6557,12 +6915,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_298"
+      "id": "eddy_308"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/OptimisticEnormousAardwolf.gif",
+      "move_name": "Rodeo Spin",
       "notation": "Approach enemy... hcf+1+2",
       "hit_level": "high",
       "range": "-",
@@ -6571,6 +6929,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "50",
       "speed": "11",
       "on_block": "-6",
@@ -6579,12 +6938,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_299"
+      "id": "eddy_309"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/PortlyWildBackswimmer.gif",
+      "move_name": "Missile Launcher",
       "notation": "Approach from left side... 1+3 (or 2+4)",
       "hit_level": "high",
       "range": "-",
@@ -6593,6 +6952,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-3",
@@ -6601,12 +6961,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_300"
+      "id": "eddy_310"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/FluidDirtyConch.gif",
+      "move_name": "Shadow Dancer",
       "notation": "Approach from right side... 1+3 (or 2+4)",
       "hit_level": "high",
       "range": "-",
@@ -6615,6 +6975,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "42",
       "speed": "12",
       "on_block": "-3",
@@ -6623,12 +6984,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_301"
+      "id": "eddy_311"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/AdorableInexperiencedBoto.gif",
+      "move_name": "Back Rodeo Spin",
       "notation": "Approach from behind... 1+3 (or 2+4)",
       "hit_level": "high",
       "range": "-",
@@ -6637,6 +6998,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "60",
       "speed": "12",
       "on_block": "-",
@@ -6645,12 +7007,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_302"
+      "id": "eddy_312"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/QueasyElasticAustraliankelpie.gif",
+      "move_name": "Adeus",
       "notation": "Approach crouching enemy... d+1+3 (or d+2+4)",
       "hit_level": "mid",
       "range": "-",
@@ -6659,6 +7021,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "45",
       "speed": "13",
       "on_block": "-2",
@@ -6667,7 +7030,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_303"
+      "id": "eddy_313"
     },
     {
       "properties": [],
@@ -6681,6 +7044,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5",
       "speed": "16",
       "on_block": "-5 (BT)",
@@ -6689,7 +7053,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_304"
+      "id": "eddy_314"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING TACKLE",
+      "id": "eddy_315"
     },
     {
       "properties": [],
@@ -6703,6 +7073,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5",
       "speed": "-",
       "on_block": "-",
@@ -6711,7 +7082,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_305"
+      "id": "eddy_316"
     },
     {
       "properties": [],
@@ -6725,6 +7096,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5",
       "speed": "-",
       "on_block": "-",
@@ -6733,7 +7105,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_306"
+      "id": "eddy_317"
     },
     {
       "properties": [],
@@ -6747,6 +7119,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5, 5",
       "speed": "-",
       "on_block": "-",
@@ -6755,7 +7128,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_307"
+      "id": "eddy_318"
     },
     {
       "properties": [],
@@ -6769,6 +7142,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5, 5, 15",
       "speed": "-",
       "on_block": "-",
@@ -6777,7 +7151,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_308"
+      "id": "eddy_319"
     }
   ]
 }

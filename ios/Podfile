@@ -15,6 +15,8 @@ target 't7chickenplus' do
 
   pod 'tipsi-stripe', :path => '../node_modules/tipsi-stripe'
 
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
   target 't7chickenplusTests' do
     inherit! :search_paths
     # Pods for testing

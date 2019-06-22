@@ -141,6 +141,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-webview')
     implementation project(':react-native-admob')
     compile project(':tipsi-stripe')
     compile project(':react-native-gesture-handler')
