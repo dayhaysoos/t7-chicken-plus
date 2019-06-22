@@ -14,7 +14,7 @@ const rootReducer = combineReducers({
     favorites,
     filter,
     search,
-    paid
+    paid,
 });
 
 export default rootReducer;

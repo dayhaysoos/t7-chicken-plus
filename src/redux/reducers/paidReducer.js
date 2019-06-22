@@ -11,6 +11,7 @@ export const INITIAL_STATE  = {
 
 export const getPurchaseHistorySuccess = (state, {payload: purchaseHistory}) => ({
     purchaseHistory,
+    hasPaid: purchaseHistory.length !== 0,
     isLoadingPurchaseHistory: false,
 });
 

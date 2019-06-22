@@ -1,6 +1,6 @@
 {
-  "displayName": "Steve",
   "fullname": "Steve Fox",
+  "displayName": "Steve",
   "label": "steve",
   "movelist": [
     {
@@ -15,6 +15,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "26",
       "on_block": "+4",
@@ -38,6 +39,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "10",
       "on_block": "+1",
@@ -61,6 +63,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 7",
       "speed": "10",
       "on_block": "-3",
@@ -84,6 +87,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "15",
       "on_block": "-3",
@@ -107,6 +111,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 7, 15",
       "speed": "10",
       "on_block": "-7",
@@ -130,6 +135,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 15",
       "speed": "15",
       "on_block": "-7",
@@ -153,6 +159,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "13",
       "on_block": "-7",
@@ -176,6 +183,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 7, 15",
       "speed": "10",
       "on_block": "-6",
@@ -199,6 +207,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 15",
       "speed": "15",
       "on_block": "-6",
@@ -222,6 +231,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "25",
       "on_block": "-6",
@@ -245,6 +255,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 10",
       "speed": "10",
       "on_block": "-2",
@@ -268,6 +279,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "10",
       "on_block": "-2",
@@ -291,6 +303,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 15",
       "speed": "10",
       "on_block": "-6",
@@ -314,6 +327,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "25",
       "on_block": "-6",
@@ -337,6 +351,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 10, 15",
       "speed": "10",
       "on_block": "-3",
@@ -360,6 +375,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15",
       "speed": "10",
       "on_block": "-3",
@@ -383,6 +399,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "14",
       "on_block": "-3",
@@ -406,6 +423,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 10, 15, 15",
       "speed": "10",
       "on_block": "-10",
@@ -429,6 +447,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15, 15",
       "speed": "10",
       "on_block": "-10",
@@ -452,6 +471,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 15",
       "speed": "14",
       "on_block": "-10",
@@ -475,6 +495,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "18",
       "on_block": "-10",
@@ -498,6 +519,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 10, 15, 19",
       "speed": "10",
       "on_block": "-12",
@@ -521,6 +543,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 15, 19",
       "speed": "10",
       "on_block": "-12",
@@ -544,6 +567,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 19",
       "speed": "14",
       "on_block": "-12",
@@ -567,6 +591,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "19 [22]",
       "speed": "8",
       "on_block": "-12",
@@ -590,6 +615,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 10, 15, 19",
       "speed": "-",
       "on_block": "-",
@@ -613,6 +639,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "12",
       "on_block": "-1",
@@ -636,6 +663,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 14, 22",
       "speed": "12",
       "on_block": "-11",
@@ -659,6 +687,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 22",
       "speed": "19",
       "on_block": "-11",
@@ -682,6 +711,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "25",
       "on_block": "-11",
@@ -705,6 +735,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "19",
       "on_block": "-6",
@@ -718,8 +749,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/LittleImperfectAmericanbittern.gif",
+      "move_name": "Burst Hammer",
       "notation": "u/f+2",
       "hit_level": "mid",
       "range": "-",
@@ -728,6 +759,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "22",
       "on_block": "-14",
@@ -751,6 +783,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "36",
       "on_block": "-12",
@@ -764,8 +797,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/FatDistantElephant.gif",
+      "move_name": "Jump-in Foot Stomp Right Hook",
       "notation": "u/f+3, 2",
       "hit_level": "low, high",
       "range": "-",
@@ -774,6 +807,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24], 16",
       "speed": "36",
       "on_block": "-28",
@@ -797,6 +831,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19]",
       "speed": "15",
       "on_block": "-7",
@@ -810,8 +845,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/QuarrelsomePoliticalKiskadee.gif",
+      "move_name": "Jumping Duck Kick",
       "notation": "u/f+4",
       "hit_level": "mid",
       "range": "-",
@@ -820,6 +855,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "23",
       "on_block": "-14",
@@ -843,6 +879,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13]",
       "speed": "21",
       "on_block": "-6",
@@ -866,6 +903,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 12",
       "speed": "21",
       "on_block": "-5",
@@ -889,6 +927,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "15",
       "on_block": "-5",
@@ -912,6 +951,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 20",
       "speed": "21",
       "on_block": "-9",
@@ -935,6 +975,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "21",
       "on_block": "-9",
@@ -958,6 +999,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 12",
       "speed": "15",
       "on_block": "-14",
@@ -981,6 +1023,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 12, 20",
       "speed": "15",
       "on_block": "-13",
@@ -1004,6 +1047,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "18",
       "on_block": "-13",
@@ -1027,6 +1071,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "24 [28]",
       "speed": "14",
       "on_block": "-13 (OC)",
@@ -1040,8 +1085,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/MaleCircularBeetle.gif",
+      "move_name": "Eraser",
       "notation": "f, f, f+2 (or WR 2)",
       "hit_level": "mid",
       "range": "-",
@@ -1050,6 +1095,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "20",
       "on_block": "+9",
@@ -1073,6 +1119,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "13",
       "on_block": "-2",
@@ -1096,6 +1143,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 13",
       "speed": "13",
       "on_block": "-6",
@@ -1119,6 +1167,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15]",
       "speed": "19",
       "on_block": "-6",
@@ -1142,6 +1191,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 20",
       "speed": "13",
       "on_block": "-2",
@@ -1165,6 +1215,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "14",
       "on_block": "-2",
@@ -1188,6 +1239,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 20",
       "speed": "13",
       "on_block": "-9",
@@ -1211,6 +1263,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "21",
       "on_block": "-9",
@@ -1224,8 +1277,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/GrimyMinorBarnacle.gif",
-      "move_name": "Uppercut Psychout Left Right Combo",
+      "preview_url": null,
+      "move_name": "Uppercut Psyche-out Left Right Combo",
       "notation": "d/f+1, 2~f+1+2",
       "hit_level": "mid, high, high",
       "range": "-",
@@ -1234,6 +1287,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 8, 12",
       "speed": "13",
       "on_block": "-3",
@@ -1257,6 +1311,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9], 12",
       "speed": "18",
       "on_block": "-3",
@@ -1280,6 +1335,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "27",
       "on_block": "-3",
@@ -1303,6 +1359,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "16",
       "on_block": "-11",
@@ -1326,6 +1383,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 14",
       "speed": "14",
       "on_block": "-12",
@@ -1349,11 +1407,12 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
-      "speed": "14",
-      "on_block": "-12",
-      "on_hit": "KND",
-      "on_ch": "KND",
+      "speed": "16",
+      "on_block": "-13",
+      "on_hit": "0",
+      "on_ch": "0",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -1372,11 +1431,12 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15]",
       "speed": "17",
-      "on_block": "-13",
-      "on_hit": "0",
-      "on_ch": "0",
+      "on_block": "-18",
+      "on_hit": "-5",
+      "on_ch": "-5",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -1395,10 +1455,11 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15], 8",
       "speed": "17",
       "on_block": "-11",
-      "on_hit": "-5",
+      "on_hit": "0",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
@@ -1418,11 +1479,12 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "14",
       "on_block": "-11",
-      "on_hit": "-5",
-      "on_ch": "-5",
+      "on_hit": "0",
+      "on_ch": "0",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -1441,6 +1503,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15], 8, 17",
       "speed": "14",
       "on_block": "-2",
@@ -1464,6 +1527,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9], 17",
       "speed": "17",
       "on_block": "-2",
@@ -1487,6 +1551,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "14",
       "on_block": "-2",
@@ -1510,6 +1575,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "14",
       "on_block": "-4",
@@ -1523,8 +1589,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/FrightenedFloweryGreatdane.gif",
+      "move_name": "Scorpion's Claw",
       "notation": "d+2~n~1, 2",
       "hit_level": "mid, mid",
       "range": "-",
@@ -1533,6 +1599,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 20",
       "speed": "14",
       "on_block": "-13",
@@ -1556,6 +1623,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "13",
       "on_block": "-13",
@@ -1569,8 +1637,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/AromaticVelvetyIntermediateegret.gif",
+      "move_name": "Wildman Combo 2",
       "notation": "d+2~n~1, f+2",
       "hit_level": "mid, high",
       "range": "-",
@@ -1579,6 +1647,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 17",
       "speed": "14",
       "on_block": "-2",
@@ -1602,6 +1671,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "24",
       "on_block": "-2",
@@ -1615,8 +1685,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/YellowishMintyGnu.gif",
+      "move_name": "Knee Clipper",
       "notation": "d/b+2 (or FC d/b+2)",
       "hit_level": "low",
       "range": "-",
@@ -1625,6 +1695,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "26",
       "on_block": "-12",
@@ -1648,6 +1719,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "26",
       "on_block": "-12",
@@ -1671,6 +1743,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "16",
       "on_block": "-15",
@@ -1684,8 +1757,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/WildUglyGordonsetter.gif",
-      "move_name": "Foot Stomp to Right Hook",
+      "preview_url": null,
+      "move_name": "Foot Stomp Right Hook",
       "notation": "d/b+3, 2",
       "hit_level": "low, high",
       "range": "-",
@@ -1694,6 +1767,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 16",
       "speed": "16",
       "on_block": "-28",
@@ -1717,6 +1791,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19]",
       "speed": "15",
       "on_block": "-7",
@@ -1740,6 +1815,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "13",
       "on_block": "-14",
@@ -1763,6 +1839,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20], 9",
       "speed": "13",
       "on_block": "-5",
@@ -1786,6 +1863,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "9 [10]",
       "speed": "18",
       "on_block": "-5",
@@ -1809,6 +1887,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "9 [10], 10",
       "speed": "13",
       "on_block": "-11",
@@ -1832,6 +1911,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "27",
       "on_block": "-11",
@@ -1855,6 +1935,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "9 [10], 10, 20",
       "speed": "13",
       "on_block": "-9",
@@ -1878,6 +1959,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "9 [10], 20",
       "speed": "27",
       "on_block": "-9",
@@ -1901,6 +1983,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "25",
       "on_block": "-9",
@@ -1924,6 +2007,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [20]",
       "speed": "17",
       "on_block": "-13",
@@ -1947,6 +2031,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "16",
       "on_block": "-10",
@@ -1970,6 +2055,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "8",
       "on_block": "-8",
@@ -1993,6 +2079,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "10",
       "on_block": "-5",
@@ -2016,6 +2103,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "11",
       "on_block": "-4",
@@ -2039,6 +2127,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "18",
       "on_block": "-1",
@@ -2062,6 +2151,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "8",
       "on_block": "+13",
@@ -2085,6 +2175,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "12",
       "on_block": "-",
@@ -2098,6 +2189,7 @@
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/HandyPettyDromedary.gif",
       "move_name": "Sliding Low Punch",
       "notation": "WR 1",
       "hit_level": "low",
@@ -2107,6 +2199,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [27]",
       "speed": "16",
       "on_block": "-12",
@@ -2130,6 +2223,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "24 [28]",
       "speed": "18",
       "on_block": "0",
@@ -2153,6 +2247,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "11",
       "on_block": "-3",
@@ -2176,6 +2271,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 7",
       "speed": "11",
       "on_block": "-3",
@@ -2199,6 +2295,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "15",
       "on_block": "-3",
@@ -2222,6 +2319,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 20",
       "speed": "11",
       "on_block": "-13",
@@ -2245,6 +2343,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "13",
       "on_block": "-13",
@@ -2258,8 +2357,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ImperturbableDefensiveChicken.gif",
-      "move_name": "Right uppercut",
+      "preview_url": null,
+      "move_name": "Right Uppercut",
       "notation": "WS 2",
       "hit_level": "mid",
       "range": "-",
@@ -2268,6 +2367,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "14",
       "on_block": "-4",
@@ -2281,8 +2381,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/BreakableUnkemptElephant.gif",
+      "move_name": "Cheapshot",
       "notation": "(While enemy is down) d+1+2",
       "hit_level": "low",
       "range": "-",
@@ -2291,6 +2391,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [15]",
       "speed": "16",
       "on_block": "-",
@@ -2305,7 +2406,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "10 Hit Combo 1",
       "notation": "d/f+1, 2~f+1+2, 1, 1, 2, 1, 1, 2, 1, 2",
       "hit_level": "-",
       "range": "-",
@@ -2314,6 +2415,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "94 [96]",
       "speed": "13",
       "on_block": "-",
@@ -2328,7 +2430,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "10 Hit Combo 2",
       "notation": "d/f+1, 2~f+1+2, 1, 1, 2, 1, 1, 2, 1, b+2",
       "hit_level": "-",
       "range": "-",
@@ -2337,6 +2439,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "112 [114]",
       "speed": "13",
       "on_block": "-",
@@ -2360,6 +2463,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "22",
       "on_block": "-12",
@@ -2383,6 +2487,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "22",
       "on_block": "-12",
@@ -2406,6 +2511,7 @@
       "crush": "mid, high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "13",
       "on_block": "-18",
@@ -2429,6 +2535,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "48",
       "on_block": "+10",
@@ -2452,6 +2559,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "19",
       "on_block": "+2",
@@ -2475,6 +2583,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-20",
@@ -2498,6 +2607,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "21",
       "on_block": "-19",
@@ -2521,6 +2631,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-19",
@@ -2544,6 +2655,7 @@
       "crush": "low*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "4",
       "speed": "33",
       "on_block": "-2",
@@ -2558,7 +2670,13 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "INTO DUCKING",
+      "id": "steve_112"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/HeartyFabulousFruitfly.gif",
+      "move_name": "Ducking",
       "notation": "f+3 (or f+4, FC d/f+3, FC d/f+4)",
       "hit_level": "-",
       "range": "-",
@@ -2567,6 +2685,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -2576,7 +2695,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_112"
+      "id": "steve_113"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING DUCKING",
+      "id": "steve_114"
     },
     {
       "properties": [],
@@ -2590,6 +2715,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "19",
       "on_block": "-7",
@@ -2599,7 +2725,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_113"
+      "id": "steve_115"
     },
     {
       "properties": [],
@@ -2613,6 +2739,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "19",
       "on_block": "-14",
@@ -2622,7 +2749,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_114"
+      "id": "steve_116"
     },
     {
       "properties": [],
@@ -2636,6 +2763,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "15",
       "on_block": "-7",
@@ -2645,12 +2773,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_115"
+      "id": "steve_117"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/DifferentSolidGnu.gif",
+      "move_name": "Gatling Gun",
       "notation": "DCK 1+2",
       "hit_level": "mid",
       "range": "-",
@@ -2659,6 +2787,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "3",
       "speed": "16",
       "on_block": "-6",
@@ -2668,7 +2797,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_116"
+      "id": "steve_118"
     },
     {
       "properties": [],
@@ -2682,6 +2811,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "3 (x9), 12",
       "speed": "16",
       "on_block": "-",
@@ -2691,12 +2821,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_117"
+      "id": "steve_119"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "INTO DUCKING IN",
+      "id": "steve_120"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/FaintTenderCranefly.gif",
+      "move_name": "Ducking In",
       "notation": "f+3, F (or f+4, F)",
       "hit_level": "-",
       "range": "-",
@@ -2705,6 +2841,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -2714,7 +2851,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_118"
+      "id": "steve_121"
     },
     {
       "properties": [],
@@ -2728,76 +2865,8 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 7",
-      "speed": "10",
-      "on_block": "-25",
-      "on_hit": "-19",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_119"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "1, 1, 2, f+3",
-      "hit_level": "high, high, high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "7 [8], 7, 15",
-      "speed": "10",
-      "on_block": "-24",
-      "on_hit": "-13",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_120"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "1, 2, f+3",
-      "hit_level": "high, high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "7 [8], 10",
-      "speed": "10",
-      "on_block": "-23",
-      "on_hit": "-15",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_121"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "1, 2, 1, f+3",
-      "hit_level": "high, high, high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "7 [8], 10, 15",
       "speed": "10",
       "on_block": "-25",
       "on_hit": "-19",
@@ -2812,6 +2881,78 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
+      "notation": "1, 1, 2, f+3",
+      "hit_level": "high, high, high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "7 [8], 7, 15",
+      "speed": "10",
+      "on_block": "-24",
+      "on_hit": "-13",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_123"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "1, 2, f+3",
+      "hit_level": "high, high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "7 [8], 10",
+      "speed": "10",
+      "on_block": "-23",
+      "on_hit": "-15",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_124"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "1, 2, 1, f+3",
+      "hit_level": "high, high, high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "7 [8], 10, 15",
+      "speed": "10",
+      "on_block": "-25",
+      "on_hit": "-19",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_125"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
       "notation": "d/f+1, f+3",
       "hit_level": "mid",
       "range": "-",
@@ -2820,6 +2961,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "13",
       "on_block": "-26",
@@ -2829,7 +2971,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_123"
+      "id": "steve_126"
     },
     {
       "properties": [],
@@ -2843,6 +2985,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "13",
       "on_block": "-35",
@@ -2852,7 +2995,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_124"
+      "id": "steve_127"
     },
     {
       "properties": [],
@@ -2866,6 +3009,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 8, 12",
       "speed": "13",
       "on_block": "-23",
@@ -2875,7 +3019,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_125"
+      "id": "steve_128"
     },
     {
       "properties": [],
@@ -2889,6 +3033,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "16",
       "on_block": "-26",
@@ -2898,7 +3043,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_126"
+      "id": "steve_129"
     },
     {
       "properties": [],
@@ -2912,6 +3057,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15], 8",
       "speed": "17",
       "on_block": "-25",
@@ -2921,7 +3067,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_127"
+      "id": "steve_130"
     },
     {
       "properties": [],
@@ -2935,6 +3081,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "14",
       "on_block": "-25",
@@ -2944,7 +3091,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_128"
+      "id": "steve_131"
     },
     {
       "properties": [],
@@ -2958,6 +3105,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "14",
       "on_block": "-26",
@@ -2967,12 +3115,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_129"
+      "id": "steve_132"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/SickShowyBighorn.gif",
+      "move_name": "Punisher",
       "notation": "DCK f+2, f+3",
       "hit_level": "high",
       "range": "-",
@@ -2981,6 +3129,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "15",
       "on_block": "-18",
@@ -2990,12 +3139,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_130"
+      "id": "steve_133"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ClutteredMistyCheetah.gif",
-      "move_name": "Power Fox Hun",
+      "preview_url": null,
+      "move_name": "DURING DUCKING IN",
+      "id": "steve_134"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "Power Fox Hunt",
       "notation": "EXT DCK 1",
       "hit_level": "mid",
       "range": "-",
@@ -3004,6 +3159,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "19",
       "on_block": "-",
@@ -3013,7 +3169,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_131"
+      "id": "steve_135"
     },
     {
       "properties": [],
@@ -3027,6 +3183,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "19",
       "on_block": "-",
@@ -3036,7 +3193,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_132"
+      "id": "steve_136"
     },
     {
       "properties": [],
@@ -3050,6 +3207,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "28 [33]",
       "speed": "15",
       "on_block": "-",
@@ -3059,12 +3217,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_133"
+      "id": "steve_137"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "INTO DUCKING LEFT (OR RIGHT)",
+      "id": "steve_138"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/LonelyMediumGalapagosalbatross.gif",
+      "move_name": "Ducking Left",
       "notation": "3 (or FC 3)",
       "hit_level": "-",
       "range": "-",
@@ -3073,6 +3237,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3082,12 +3247,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_134"
+      "id": "steve_139"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/AptMajorKentrosaurus.gif",
+      "move_name": "Ducking Right",
       "notation": "4 (or FC 4)",
       "hit_level": "-",
       "range": "-",
@@ -3096,6 +3261,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3105,7 +3271,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_135"
+      "id": "steve_140"
     },
     {
       "properties": [],
@@ -3119,6 +3285,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 7",
       "speed": "10",
       "on_block": "-25",
@@ -3128,7 +3295,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_136"
+      "id": "steve_141"
     },
     {
       "properties": [],
@@ -3142,6 +3309,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 7, 15",
       "speed": "10",
       "on_block": "-24",
@@ -3151,7 +3319,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_137"
+      "id": "steve_142"
     },
     {
       "properties": [],
@@ -3165,6 +3333,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 10",
       "speed": "10",
       "on_block": "-23",
@@ -3174,7 +3343,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_138"
+      "id": "steve_143"
     },
     {
       "properties": [],
@@ -3188,123 +3357,9 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 10, 15",
       "speed": "10",
-      "on_block": "-25",
-      "on_hit": "-19",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_139"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "d/f+1, 3 (or 4)",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "12 [14]",
-      "speed": "13",
-      "on_block": "-26",
-      "on_hit": "-19",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_140"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "d/f+1, 2, 3 (or 4)",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "12 [14]",
-      "speed": "13",
-      "on_block": "-35",
-      "on_hit": "-28",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_141"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "d/f+1, 2~f+1+2, 3 (or 4)",
-      "hit_level": "mid, high, high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "12 [14], 8, 12",
-      "speed": "13",
-      "on_block": "-23",
-      "on_hit": "-20",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_142"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "d/f+2, 3 (or 4)",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "18 [21]",
-      "speed": "16",
-      "on_block": "-26",
-      "on_hit": "+6",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_143"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "D+2, 1, 3 (or 4)",
-      "hit_level": "low, mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "13 [15], 8",
-      "speed": "17",
       "on_block": "-25",
       "on_hit": "-19",
       "on_ch": "-",
@@ -3318,6 +3373,126 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
+      "notation": "d/f+1, 3 (or 4)",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "12 [14]",
+      "speed": "13",
+      "on_block": "-26",
+      "on_hit": "-19",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_145"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "d/f+1, 2, 3 (or 4)",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "12 [14]",
+      "speed": "13",
+      "on_block": "-35",
+      "on_hit": "-28",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_146"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "d/f+1, 2~f+1+2, 3 (or 4)",
+      "hit_level": "mid, high, high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "12 [14], 8, 12",
+      "speed": "13",
+      "on_block": "-23",
+      "on_hit": "-20",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_147"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "d/f+2, 3 (or 4)",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "18 [21]",
+      "speed": "16",
+      "on_block": "-26",
+      "on_hit": "+6",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_148"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "D+2, 1, 3 (or 4)",
+      "hit_level": "low, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "13 [15], 8",
+      "speed": "17",
+      "on_block": "-25",
+      "on_hit": "-19",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_149"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
       "notation": "d+2~n~1, 3 (or 4)",
       "hit_level": "mid",
       "range": "-",
@@ -3326,6 +3501,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "14",
       "on_block": "-25",
@@ -3335,7 +3511,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_145"
+      "id": "steve_150"
     },
     {
       "properties": [],
@@ -3349,6 +3525,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "14",
       "on_block": "-26",
@@ -3358,12 +3535,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_146"
+      "id": "steve_151"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/SickShowyBighorn.gif",
+      "move_name": "Punisher",
       "notation": "DCK f+2, 3 (or 4)",
       "hit_level": "high",
       "range": "-",
@@ -3372,6 +3549,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "15",
       "on_block": "-18",
@@ -3381,7 +3559,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_147"
+      "id": "steve_152"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING DUCKING LEFT",
+      "id": "steve_153"
     },
     {
       "properties": [],
@@ -3395,6 +3579,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "15",
       "on_block": "-10",
@@ -3404,7 +3589,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_148"
+      "id": "steve_154"
     },
     {
       "properties": [],
@@ -3418,6 +3603,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 22",
       "speed": "15",
       "on_block": "-13",
@@ -3427,7 +3613,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_149"
+      "id": "steve_155"
     },
     {
       "properties": [],
@@ -3441,6 +3627,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "24",
       "on_block": "-13",
@@ -3450,7 +3637,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_150"
+      "id": "steve_156"
     },
     {
       "properties": [],
@@ -3464,6 +3651,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 9",
       "speed": "15",
       "on_block": "-3",
@@ -3473,7 +3661,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_151"
+      "id": "steve_157"
     },
     {
       "properties": [],
@@ -3487,6 +3675,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "9 [10]",
       "speed": "17",
       "on_block": "-3",
@@ -3496,7 +3685,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_152"
+      "id": "steve_158"
     },
     {
       "properties": [],
@@ -3510,6 +3699,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 9, 8",
       "speed": "15",
       "on_block": "+3",
@@ -3519,7 +3709,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_153"
+      "id": "steve_159"
     },
     {
       "properties": [],
@@ -3533,6 +3723,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "9 [10], 8",
       "speed": "17",
       "on_block": "+3",
@@ -3542,7 +3733,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_154"
+      "id": "steve_160"
     },
     {
       "properties": [],
@@ -3556,6 +3747,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "16",
       "on_block": "+3",
@@ -3565,7 +3757,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_155"
+      "id": "steve_161"
     },
     {
       "properties": [],
@@ -3579,6 +3771,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15]",
       "speed": "14",
       "on_block": "-5",
@@ -3588,7 +3781,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_156"
+      "id": "steve_162"
     },
     {
       "properties": [],
@@ -3602,6 +3795,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15], 21",
       "speed": "14",
       "on_block": "-8",
@@ -3611,7 +3805,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_157"
+      "id": "steve_163"
     },
     {
       "properties": [],
@@ -3625,6 +3819,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "19",
       "on_block": "-8",
@@ -3634,7 +3829,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_158"
+      "id": "steve_164"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING DUCKING RIGHT",
+      "id": "steve_165"
     },
     {
       "properties": [],
@@ -3648,6 +3849,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15]",
       "speed": "14",
       "on_block": "-5",
@@ -3657,7 +3859,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_159"
+      "id": "steve_166"
     },
     {
       "properties": [],
@@ -3671,6 +3873,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15], 15",
       "speed": "14",
       "on_block": "-13",
@@ -3680,7 +3883,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_160"
+      "id": "steve_167"
     },
     {
       "properties": [],
@@ -3694,6 +3897,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "18",
       "on_block": "-13",
@@ -3703,7 +3907,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_161"
+      "id": "steve_168"
     },
     {
       "properties": [],
@@ -3717,6 +3921,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "15",
       "on_block": "-13",
@@ -3726,12 +3931,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_162"
+      "id": "steve_169"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "INTO FLICKER STANCE",
+      "id": "steve_170"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/BriefQuarterlyKentrosaurus.gif",
+      "move_name": "Flicker Stance",
       "notation": "b+3+4",
       "hit_level": "-",
       "range": "-",
@@ -3740,6 +3951,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3749,7 +3961,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_163"
+      "id": "steve_171"
     },
     {
       "properties": [],
@@ -3763,6 +3975,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 7, 15",
       "speed": "10",
       "on_block": "-",
@@ -3772,7 +3985,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_164"
+      "id": "steve_172"
     },
     {
       "properties": [],
@@ -3786,6 +3999,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 15",
       "speed": "10",
       "on_block": "-",
@@ -3795,7 +4009,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_165"
+      "id": "steve_173"
     },
     {
       "properties": [],
@@ -3809,6 +4023,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8], 10, 15",
       "speed": "10",
       "on_block": "-",
@@ -3818,7 +4033,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_166"
+      "id": "steve_174"
     },
     {
       "properties": [],
@@ -3832,6 +4047,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 14",
       "speed": "12",
       "on_block": "-",
@@ -3841,7 +4057,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_167"
+      "id": "steve_175"
     },
     {
       "properties": [],
@@ -3855,6 +4071,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "11 [13], 12",
       "speed": "21",
       "on_block": "-",
@@ -3864,7 +4081,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_168"
+      "id": "steve_176"
     },
     {
       "properties": [],
@@ -3878,6 +4095,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 20",
       "speed": "13",
       "on_block": "-",
@@ -3887,7 +4105,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_169"
+      "id": "steve_177"
     },
     {
       "properties": [],
@@ -3901,6 +4119,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "13",
       "on_block": "-",
@@ -3910,7 +4129,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_170"
+      "id": "steve_178"
     },
     {
       "properties": [],
@@ -3924,6 +4143,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "16",
       "on_block": "-",
@@ -3933,7 +4153,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_171"
+      "id": "steve_179"
     },
     {
       "properties": [],
@@ -3947,6 +4167,7 @@
       "crush": "high*",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "15",
       "on_block": "-",
@@ -3956,7 +4177,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_172"
+      "id": "steve_180"
     },
     {
       "properties": [],
@@ -3970,6 +4191,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 9, 8",
       "speed": "15",
       "on_block": "-",
@@ -3979,7 +4201,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_173"
+      "id": "steve_181"
     },
     {
       "properties": [],
@@ -3993,6 +4215,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "12",
       "on_block": "-",
@@ -4002,7 +4225,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_174"
+      "id": "steve_182"
     },
     {
       "properties": [],
@@ -4016,6 +4239,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 8",
       "speed": "12",
       "on_block": "-",
@@ -4025,7 +4249,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_175"
+      "id": "steve_183"
     },
     {
       "properties": [],
@@ -4039,6 +4263,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 8, 8",
       "speed": "12",
       "on_block": "-",
@@ -4048,7 +4273,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_176"
+      "id": "steve_184"
     },
     {
       "properties": [],
@@ -4062,6 +4287,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 10, 12, 21",
       "speed": "17",
       "on_block": "-",
@@ -4071,7 +4297,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_177"
+      "id": "steve_185"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING FLICKER STANCE",
+      "id": "steve_186"
     },
     {
       "properties": [],
@@ -4085,6 +4317,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4094,7 +4327,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_178"
+      "id": "steve_187"
     },
     {
       "properties": [],
@@ -4108,6 +4341,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "12",
       "on_block": "-4",
@@ -4117,7 +4351,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_179"
+      "id": "steve_188"
     },
     {
       "properties": [],
@@ -4131,6 +4365,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 8",
       "speed": "12",
       "on_block": "-9",
@@ -4140,7 +4375,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_180"
+      "id": "steve_189"
     },
     {
       "properties": [],
@@ -4154,6 +4389,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "15",
       "on_block": "-9",
@@ -4163,7 +4399,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_181"
+      "id": "steve_190"
     },
     {
       "properties": [],
@@ -4177,6 +4413,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 8, 8",
       "speed": "13",
       "on_block": "-9",
@@ -4186,7 +4423,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_182"
+      "id": "steve_191"
     },
     {
       "properties": [],
@@ -4200,6 +4437,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9], 8",
       "speed": "15",
       "on_block": "-9",
@@ -4209,7 +4447,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_183"
+      "id": "steve_192"
     },
     {
       "properties": [],
@@ -4223,6 +4461,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "15",
       "on_block": "-9",
@@ -4232,12 +4471,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_184"
+      "id": "steve_193"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/DescriptiveLazyIndianabat.gif",
+      "move_name": "Spitfire Combo",
       "notation": "FLK 1, 1, 1, 2",
       "hit_level": "high, high, high, mid",
       "range": "-",
@@ -4246,6 +4485,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 8, 8, 22",
       "speed": "12",
       "on_block": "-7",
@@ -4255,7 +4495,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_185"
+      "id": "steve_194"
     },
     {
       "properties": [],
@@ -4269,6 +4509,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9], 8, 22",
       "speed": "15",
       "on_block": "-7",
@@ -4278,7 +4519,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_186"
+      "id": "steve_195"
     },
     {
       "properties": [],
@@ -4292,6 +4533,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9], 22",
       "speed": "15",
       "on_block": "-7",
@@ -4301,7 +4543,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_187"
+      "id": "steve_196"
     },
     {
       "properties": [],
@@ -4315,6 +4557,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "20",
       "on_block": "-7",
@@ -4324,12 +4567,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_188"
+      "id": "steve_197"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/EvilTallAfricanmolesnake.gif",
+      "move_name": "Tempest Combo",
       "notation": "FLK 1, f+1",
       "hit_level": "high, mid",
       "range": "-",
@@ -4338,6 +4581,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 17",
       "speed": "12",
       "on_block": "-5",
@@ -4347,7 +4591,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_189"
+      "id": "steve_198"
     },
     {
       "properties": [],
@@ -4361,6 +4605,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "15",
       "on_block": "-5",
@@ -4370,12 +4615,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_190"
+      "id": "steve_199"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/BogusClumsyAmericancicada.gif",
+      "move_name": "Power Hook Combo",
       "notation": "FLK 1, d+1",
       "hit_level": "high, high",
       "range": "-",
@@ -4384,6 +4629,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 23",
       "speed": "12",
       "on_block": "0",
@@ -4393,7 +4639,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_191"
+      "id": "steve_200"
     },
     {
       "properties": [],
@@ -4407,6 +4653,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [27]",
       "speed": "15",
       "on_block": "0",
@@ -4416,12 +4663,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_192"
+      "id": "steve_201"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/RingedDecimalAtlanticridleyturtle.gif",
+      "move_name": "Fly Swatter",
       "notation": "FLK 2",
       "hit_level": "mid",
       "range": "-",
@@ -4430,6 +4677,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "18",
       "on_block": "-5 (OC)",
@@ -4439,12 +4687,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_193"
+      "id": "steve_202"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "INTO SWAY",
+      "id": "steve_203"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/HeavenlyPrestigiousBull.gif",
+      "move_name": "Swaying",
       "notation": "b+3 (or b+4)",
       "hit_level": "-",
       "range": "-",
@@ -4453,6 +4707,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4462,7 +4717,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_194"
+      "id": "steve_204"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING SWAY",
+      "id": "steve_205"
     },
     {
       "properties": [],
@@ -4476,6 +4737,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "26 [31]",
       "speed": "16",
       "on_block": "-1 (OC)",
@@ -4485,7 +4747,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_195"
+      "id": "steve_206"
     },
     {
       "properties": [],
@@ -4499,6 +4761,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "17",
       "on_block": "-18",
@@ -4508,12 +4771,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_196"
+      "id": "steve_207"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "INTO PEEKABOO",
+      "id": "steve_208"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/FittingCircularBarnowl.gif",
+      "move_name": "Peekaboo",
       "notation": "f+3+4",
       "hit_level": "-",
       "range": "-",
@@ -4522,282 +4791,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
-      "damage": "-",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "-",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_197"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/DamagedPastelJaguar.gif",
-      "move_name": "Left Right Left to Peekaboo",
-      "notation": "1, 2, 1, F",
-      "hit_level": "high, high, high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "7 [8], 10, 15",
-      "speed": "14",
-      "on_block": "-1",
-      "on_hit": "+5",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_198"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/CapitalUnitedHedgehog.gif",
-      "move_name": "Straight Body to Peekaboo",
-      "notation": "2, 1, F",
-      "hit_level": "high, high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "12 [14], 14",
-      "speed": "12",
-      "on_block": "+3",
-      "on_hit": "+14",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_199"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/BitterBelatedEelelephant.gif",
-      "move_name": "Ducking Body Blow to Left Hook to Peekaboo",
-      "notation": "f+2, 1, F",
-      "hit_level": "mid, high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "11 [13], 12",
-      "speed": "21",
-      "on_block": "+1",
-      "on_hit": "+5",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_200"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/OldAnchoredFieldspaniel.gif",
-      "move_name": "Quick Hook & Straight to Peekaboo",
-      "notation": "b+1, 2, F",
-      "hit_level": "high, high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "17 [20], 9",
-      "speed": "13",
-      "on_block": "-5",
-      "on_hit": "+19",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_201"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/DaringHoarseCapybara.gif",
-      "move_name": "Frigate to Peekaboo",
-      "notation": "b+1, d+2, F",
-      "hit_level": "high, low",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "17 [20], 10",
-      "speed": "13",
-      "on_block": "-14",
-      "on_hit": "-3",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_202"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "FC d/f+1",
-      "hit_level": "low",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high",
-      "jail": "-",
-      "natural": "-",
-      "damage": "12 [14]",
-      "speed": "15",
-      "on_block": "-12",
-      "on_hit": "+2",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_203"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/CriminalElasticHairstreakbutterfly.gif",
-      "move_name": "Right Shoulder Rush to Peekaboo",
-      "notation": "LWV 2, F",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high*",
-      "jail": "-",
-      "natural": "-",
-      "damage": "13 [15]",
-      "speed": "14",
-      "on_block": "0",
-      "on_hit": "+9",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_204"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/SecondaryHandmadeComet.gif",
-      "move_name": "Left Shoulder Rush to Peekaboo",
-      "notation": "RWV 1, F",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high*",
-      "jail": "-",
-      "natural": "-",
-      "damage": "13 [15]",
-      "speed": "14",
-      "on_block": "0",
-      "on_hit": "+9",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_205"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "FLK f+3+4",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "-",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "-",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_206"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "ALB U (or D, F)",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "-",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "-",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_207"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/FlatAdolescentEuropeanpolecat.gif",
-      "move_name": "Quick Spin to Peekaboo",
-      "notation": "ALB F",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "damage": "-",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "-",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "steve_208"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "PAB F",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4811,6 +4805,300 @@
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/DamagedPastelJaguar.gif",
+      "move_name": "Left Right Left to Peekaboo",
+      "notation": "1, 2, 1, F",
+      "hit_level": "high, high, high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "7 [8], 10, 15",
+      "speed": "14",
+      "on_block": "-1",
+      "on_hit": "+5",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_210"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/CapitalUnitedHedgehog.gif",
+      "move_name": "Straight Body to Peekaboo",
+      "notation": "2, 1, F",
+      "hit_level": "high, high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "12 [14], 14",
+      "speed": "12",
+      "on_block": "+3",
+      "on_hit": "+14",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_211"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/BitterBelatedEelelephant.gif",
+      "move_name": "Ducking Body Blow to Left Hook to Peekaboo",
+      "notation": "f+2, 1, F",
+      "hit_level": "mid, high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "11 [13], 12",
+      "speed": "21",
+      "on_block": "+1",
+      "on_hit": "+5",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_212"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/OldAnchoredFieldspaniel.gif",
+      "move_name": "Quick Hook & Straight to Peekaboo",
+      "notation": "b+1, 2, F",
+      "hit_level": "high, high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "17 [20], 9",
+      "speed": "13",
+      "on_block": "-5",
+      "on_hit": "+19",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_213"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/DaringHoarseCapybara.gif",
+      "move_name": "Frigate to Peekaboo",
+      "notation": "b+1, d+2, F",
+      "hit_level": "high, low",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "17 [20], 10",
+      "speed": "13",
+      "on_block": "-14",
+      "on_hit": "-3",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_214"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "FC d/f+1",
+      "hit_level": "low",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "12 [14]",
+      "speed": "15",
+      "on_block": "-12",
+      "on_hit": "+2",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_215"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/CriminalElasticHairstreakbutterfly.gif",
+      "move_name": "Right Shoulder Rush to Peekaboo",
+      "notation": "LWV 2, F",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high*",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "13 [15]",
+      "speed": "14",
+      "on_block": "0",
+      "on_hit": "+9",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_216"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/SecondaryHandmadeComet.gif",
+      "move_name": "Left Shoulder Rush to Peekaboo",
+      "notation": "RWV 1, F",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high*",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "13 [15]",
+      "speed": "14",
+      "on_block": "0",
+      "on_hit": "+9",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_217"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "FLK f+3+4",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_218"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/HugeSelfreliantAgouti.gif",
+      "move_name": "Spin to Peekaboo",
+      "notation": "ALB U (or D, F)",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_219"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/HugeSelfreliantAgouti.gif",
+      "move_name": "Spin to Peekaboo",
+      "notation": "ALB F",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_220"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING PEEKABOO",
+      "id": "steve_221"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "PAB F",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_222"
+    },
+    {
+      "properties": [],
       "preview_url": null,
       "move_name": null,
       "notation": "PAB D/B",
@@ -4821,6 +5109,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4830,7 +5119,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_210"
+      "id": "steve_223"
     },
     {
       "properties": [],
@@ -4844,8 +5133,9 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
-      "speed": "12",
+      "speed": "i12",
       "on_block": "-2",
       "on_hit": "+9",
       "on_ch": "+9",
@@ -4853,7 +5143,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_211"
+      "id": "steve_224"
     },
     {
       "properties": [],
@@ -4867,6 +5157,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 14",
       "speed": "12",
       "on_block": "0",
@@ -4876,7 +5167,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_212"
+      "id": "steve_225"
     },
     {
       "properties": [],
@@ -4890,6 +5181,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "15",
       "on_block": "0",
@@ -4899,7 +5191,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_213"
+      "id": "steve_226"
     },
     {
       "properties": [],
@@ -4913,6 +5205,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 14, 21",
       "speed": "12",
       "on_block": "-13",
@@ -4922,7 +5215,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_214"
+      "id": "steve_227"
     },
     {
       "properties": [],
@@ -4936,6 +5229,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 21",
       "speed": "15",
       "on_block": "-13",
@@ -4945,7 +5239,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_215"
+      "id": "steve_228"
     },
     {
       "properties": [],
@@ -4959,6 +5253,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "18",
       "on_block": "-13",
@@ -4968,7 +5263,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_216"
+      "id": "steve_229"
     },
     {
       "properties": [],
@@ -4982,6 +5277,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "19 [22]",
       "speed": "14",
       "on_block": "-3",
@@ -4991,7 +5287,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_217"
+      "id": "steve_230"
     },
     {
       "properties": [],
@@ -5005,6 +5301,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "18",
       "on_block": "-13",
@@ -5014,7 +5311,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_218"
+      "id": "steve_231"
     },
     {
       "properties": [],
@@ -5028,6 +5325,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21], 17",
       "speed": "18",
       "on_block": "+1",
@@ -5037,7 +5335,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_219"
+      "id": "steve_232"
     },
     {
       "properties": [],
@@ -5051,6 +5349,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "34",
       "on_block": "+1",
@@ -5060,7 +5359,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_220"
+      "id": "steve_233"
     },
     {
       "properties": [],
@@ -5074,6 +5373,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "15",
       "on_block": "+6",
@@ -5083,7 +5383,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_221"
+      "id": "steve_234"
     },
     {
       "properties": [],
@@ -5097,6 +5397,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "15",
       "on_block": "-9",
@@ -5106,7 +5407,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_222"
+      "id": "steve_235"
     },
     {
       "properties": [],
@@ -5120,6 +5421,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 14",
       "speed": "15",
       "on_block": "-10",
@@ -5129,7 +5431,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_223"
+      "id": "steve_236"
     },
     {
       "properties": [],
@@ -5143,6 +5445,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "19",
       "on_block": "-10",
@@ -5152,7 +5455,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_224"
+      "id": "steve_237"
     },
     {
       "properties": [],
@@ -5166,6 +5469,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 14, 12",
       "speed": "15",
       "on_block": "-11",
@@ -5175,7 +5479,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_225"
+      "id": "steve_238"
     },
     {
       "properties": [],
@@ -5189,6 +5493,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 12",
       "speed": "19",
       "on_block": "-11",
@@ -5198,7 +5503,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_226"
+      "id": "steve_239"
     },
     {
       "properties": [],
@@ -5212,6 +5517,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "22",
       "on_block": "-11",
@@ -5221,7 +5527,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_227"
+      "id": "steve_240"
     },
     {
       "properties": [],
@@ -5235,6 +5541,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 14, 12, 20",
       "speed": "15",
       "on_block": "-13",
@@ -5244,7 +5551,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_228"
+      "id": "steve_241"
     },
     {
       "properties": [],
@@ -5258,6 +5565,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16], 12, 20",
       "speed": "19",
       "on_block": "-13",
@@ -5267,7 +5575,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_229"
+      "id": "steve_242"
     },
     {
       "properties": [],
@@ -5281,6 +5589,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 20",
       "speed": "22",
       "on_block": "-13",
@@ -5290,7 +5599,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_230"
+      "id": "steve_243"
     },
     {
       "properties": [],
@@ -5304,6 +5613,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-13",
@@ -5313,10 +5623,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_231"
+      "id": "steve_244"
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/GrouchyFlickeringAtlasmoth.gif",
       "move_name": "Cross Cut",
       "notation": "PAB d/f+1, 2",
       "hit_level": "mid, high",
@@ -5326,6 +5637,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 20",
       "speed": "15",
       "on_block": "-6",
@@ -5335,7 +5647,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_232"
+      "id": "steve_245"
     },
     {
       "properties": [],
@@ -5349,6 +5661,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "18",
       "on_block": "-6",
@@ -5358,7 +5671,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_233"
+      "id": "steve_246"
     },
     {
       "properties": [],
@@ -5372,6 +5685,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19]",
       "speed": "16",
       "on_block": "-10",
@@ -5381,7 +5695,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_234"
+      "id": "steve_247"
     },
     {
       "properties": [],
@@ -5395,6 +5709,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "15",
       "on_block": "-10",
@@ -5404,7 +5719,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_235"
+      "id": "steve_248"
     },
     {
       "properties": [],
@@ -5418,6 +5733,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "28",
       "on_block": "-12",
@@ -5427,7 +5743,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_236"
+      "id": "steve_249"
     },
     {
       "properties": [],
@@ -5441,6 +5757,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "18",
       "on_block": "-19",
@@ -5450,7 +5767,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_237"
+      "id": "steve_250"
     },
     {
       "properties": [],
@@ -5464,6 +5781,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 10",
       "speed": "17",
       "on_block": "-7",
@@ -5473,7 +5791,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_238"
+      "id": "steve_251"
     },
     {
       "properties": [],
@@ -5487,6 +5805,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "17",
       "on_block": "-7",
@@ -5496,7 +5815,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_239"
+      "id": "steve_252"
     },
     {
       "properties": [],
@@ -5510,6 +5829,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 10, 12",
       "speed": "17",
       "on_block": "-11",
@@ -5519,7 +5839,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_240"
+      "id": "steve_253"
     },
     {
       "properties": [],
@@ -5533,6 +5853,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 12",
       "speed": "18",
       "on_block": "-11",
@@ -5542,7 +5863,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_241"
+      "id": "steve_254"
     },
     {
       "properties": [],
@@ -5556,6 +5877,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "18",
       "on_block": "-11",
@@ -5565,7 +5887,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_242"
+      "id": "steve_255"
     },
     {
       "properties": [],
@@ -5579,6 +5901,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18], 10, 12, 21",
       "speed": "17",
       "on_block": "-10",
@@ -5588,7 +5911,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_243"
+      "id": "steve_256"
     },
     {
       "properties": [],
@@ -5602,6 +5925,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 12, 21",
       "speed": "18",
       "on_block": "-10",
@@ -5611,7 +5935,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_244"
+      "id": "steve_257"
     },
     {
       "properties": [],
@@ -5625,6 +5949,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14], 21",
       "speed": "18",
       "on_block": "-10",
@@ -5634,7 +5959,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_245"
+      "id": "steve_258"
     },
     {
       "properties": [],
@@ -5648,6 +5973,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "21",
       "on_block": "-10",
@@ -5657,7 +5983,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_246"
+      "id": "steve_259"
     },
     {
       "properties": [],
@@ -5671,6 +5997,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "28",
       "on_block": "-14",
@@ -5680,7 +6007,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_247"
+      "id": "steve_260"
     },
     {
       "properties": [],
@@ -5694,7 +6021,7 @@
       "crush": "low, high",
       "jail": "-",
       "natural": "-",
-      "damage": "",
+      "environmental": "-",
       "speed": "17",
       "on_block": "-15",
       "on_hit": "LAUNCH",
@@ -5703,12 +6030,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_248"
+      "id": "steve_261"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "INTO QUICK SPIN",
+      "id": "steve_262"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/IllustriousDeliciousJaguar.gif",
+      "move_name": "Quick Spin",
       "notation": "3+4",
       "hit_level": "-",
       "range": "-",
@@ -5717,6 +6050,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5726,7 +6060,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_249"
+      "id": "steve_263"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING QUICK SPIN",
+      "id": "steve_264"
     },
     {
       "properties": [],
@@ -5740,6 +6080,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "22 [26]",
       "speed": "23",
       "on_block": "-8",
@@ -5749,7 +6090,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_250"
+      "id": "steve_265"
     },
     {
       "properties": [],
@@ -5763,6 +6104,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "21",
       "on_block": "-12",
@@ -5772,12 +6114,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_251"
+      "id": "steve_266"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/LongShrillBrontosaurus.gif",
-      "move_name": "Cyclone Left (Right)",
+      "preview_url": null,
+      "move_name": "Cyclone Left",
       "notation": "ALB U",
       "hit_level": "-",
       "range": "-",
@@ -5786,6 +6128,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5795,12 +6138,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_252"
+      "id": "steve_267"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ShortPettyGrasshopper.gif",
-      "move_name": "Cyclone Left (Right)",
+      "preview_url": null,
+      "move_name": "Cyclone Right",
       "notation": "ALB D",
       "hit_level": "-",
       "range": "-",
@@ -5809,6 +6152,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5818,12 +6162,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_253"
+      "id": "steve_268"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/UnsungFamiliarAsianpiedstarling.gif",
+      "move_name": "Double Cyclone Punch",
       "notation": "ALB U (or D+1)",
       "hit_level": "mid",
       "range": "-",
@@ -5832,6 +6176,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "36 [40]",
       "speed": "12",
       "on_block": "-8",
@@ -5841,12 +6186,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_254"
+      "id": "steve_269"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/MarriedBronzeClumber.gif",
+      "move_name": "Double Cyclone Knee Punch",
       "notation": "ALB U (or D, d+1)",
       "hit_level": "low",
       "range": "-",
@@ -5855,6 +6200,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "22",
       "on_block": "-12",
@@ -5864,7 +6210,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_255"
+      "id": "steve_270"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "POWER CRUSHES",
+      "id": "steve_271"
     },
     {
       "properties": [],
@@ -5878,6 +6230,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "21 [25]",
       "speed": "36",
       "on_block": "-18",
@@ -5887,12 +6240,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_256"
+      "id": "steve_272"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ScholarlyJubilantBrownbutterfly.gif",
+      "move_name": "British Lancer",
       "notation": "FLK b+2",
       "hit_level": "high",
       "range": "-",
@@ -5901,6 +6254,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "27 [32]",
       "speed": "14",
       "on_block": "-10",
@@ -5910,12 +6264,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_257"
+      "id": "steve_273"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "RAGE MOVES",
+      "id": "steve_274"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/ComfortableSecondaryLeafhopper.gif",
+      "move_name": "Rage Art",
       "notation": "(During Rage) 1+2 (or WS 1+2)",
       "hit_level": "high",
       "range": "-",
@@ -5924,6 +6284,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "55 [57]",
       "speed": "13",
       "on_block": "-3",
@@ -5933,7 +6294,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_258"
+      "id": "steve_275"
     },
     {
       "properties": [],
@@ -5947,6 +6308,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5956,12 +6318,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_259"
+      "id": "steve_276"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/CalculatingPalatableHairstreakbutterfly.gif",
+      "move_name": "Rage Drive 1",
       "notation": "(During Rage) d/f+3+4, 1+2",
       "hit_level": "mid (x5)",
       "range": "-",
@@ -5970,6 +6332,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10, 10, 10, 10",
       "speed": "35",
       "on_block": "+1",
@@ -5979,12 +6342,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_260"
+      "id": "steve_277"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/WellwornIgnorantChick.gif",
+      "move_name": "Rage Drive 2",
       "notation": "(During Rage) d/f+2+3",
       "hit_level": "mid, mid",
       "range": "-",
@@ -5993,6 +6356,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 20",
       "speed": "14",
       "on_block": "+7",
@@ -6002,7 +6366,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_261"
+      "id": "steve_278"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "UNBLOCKABLE ATTACKS",
+      "id": "steve_279"
     },
     {
       "properties": [],
@@ -6016,6 +6386,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "70 [84]",
       "speed": "66",
       "on_block": "!",
@@ -6025,12 +6396,18 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_262"
+      "id": "steve_280"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "THROWS",
+      "id": "steve_281"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/LeadingLoneIndianabat.gif",
+      "move_name": "Gut Wrencher",
       "notation": "Approach enemy... 1+3",
       "hit_level": "high throw",
       "range": "-",
@@ -6039,6 +6416,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "-6",
@@ -6048,12 +6426,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_263"
+      "id": "steve_282"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/MatureEachGiraffe.gif",
+      "move_name": "Brain Pulverizer",
       "notation": "Approach enemy... 2+4",
       "hit_level": "high throw",
       "range": "-",
@@ -6062,6 +6440,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "-3",
@@ -6071,12 +6450,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_264"
+      "id": "steve_283"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/LeadingLoneIndianabat.gif",
+      "move_name": "Gut Wrencher",
       "notation": "Approach enemy... f+1+3",
       "hit_level": "high throw",
       "range": "-",
@@ -6085,6 +6464,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "-6",
@@ -6094,12 +6474,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_265"
+      "id": "steve_284"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/MatureEachGiraffe.gif",
+      "move_name": "Brain Pulverizer",
       "notation": "Approach enemy... f+2+4",
       "hit_level": "high throw",
       "range": "-",
@@ -6108,6 +6488,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "-3",
@@ -6117,12 +6498,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_266"
+      "id": "steve_285"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/GranularSlipperyEkaltadeta.gif",
+      "move_name": "Armlock Throw",
       "notation": "Approach enemy... f, F+1+2",
       "hit_level": "high throw",
       "range": "-",
@@ -6131,6 +6512,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "0",
@@ -6140,12 +6522,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_267"
+      "id": "steve_286"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/FluidFrayedCentipede.gif",
+      "move_name": "Spinning Elbow Drop",
       "notation": "Approach enemy... qcb+2+4",
       "hit_level": "high throw",
       "range": "-",
@@ -6154,6 +6536,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-2",
@@ -6163,12 +6546,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_268"
+      "id": "steve_287"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ClearHotInganue.gif",
+      "move_name": "Choker Slam",
       "notation": "Approach from left side... 1+3 or 2+4",
       "hit_level": "high throw",
       "range": "-",
@@ -6177,6 +6560,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-3",
@@ -6186,12 +6570,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_269"
+      "id": "steve_288"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/KaleidoscopicImperturbableKawala.gif",
+      "move_name": "Throw Down",
       "notation": "Approach from right side...  1+3 or 2+4",
       "hit_level": "high throw",
       "range": "-",
@@ -6200,6 +6584,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-3",
@@ -6209,12 +6594,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_270"
+      "id": "steve_289"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/HandmadeTalkativeCommongonolek.gif",
+      "move_name": "Schoolyard Bully",
       "notation": "Approach from behind... 1+3 or 2+4",
       "hit_level": "high throw",
       "range": "-",
@@ -6223,6 +6608,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "55",
       "speed": "12",
       "on_block": "-",
@@ -6232,12 +6618,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_271"
+      "id": "steve_290"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/DirectTatteredFairybluebird.gif",
+      "move_name": "Griffin Throw",
       "notation": "FLK 1+2",
       "hit_level": "high throw",
       "range": "-",
@@ -6246,6 +6632,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-6",
@@ -6255,7 +6642,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_272"
+      "id": "steve_291"
     },
     {
       "properties": [],
@@ -6269,6 +6656,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "45",
       "speed": "11",
       "on_block": "0",
@@ -6278,7 +6666,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_273"
+      "id": "steve_292"
     },
     {
       "properties": [],
@@ -6292,6 +6680,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "10",
       "on_block": "-2",
@@ -6301,7 +6690,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_274"
+      "id": "steve_293"
     },
     {
       "properties": [],
@@ -6315,6 +6704,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5",
       "speed": "16",
       "on_block": "-5 (BT)",
@@ -6324,7 +6714,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_275"
+      "id": "steve_294"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING TACKLE",
+      "id": "steve_295"
     },
     {
       "properties": [],
@@ -6338,6 +6734,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5",
       "speed": "-",
       "on_block": "KND",
@@ -6347,7 +6744,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_276"
+      "id": "steve_296"
     },
     {
       "properties": [],
@@ -6361,6 +6758,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5",
       "speed": "-",
       "on_block": "-",
@@ -6370,7 +6768,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_277"
+      "id": "steve_297"
     },
     {
       "properties": [],
@@ -6384,6 +6782,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5, 5",
       "speed": "-",
       "on_block": "-",
@@ -6393,7 +6792,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_278"
+      "id": "steve_298"
     },
     {
       "properties": [],
@@ -6407,6 +6806,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5, 5, 15",
       "speed": "-",
       "on_block": "-",
@@ -6416,7 +6816,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_279"
+      "id": "steve_299"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "SPECIAL",
+      "id": "steve_300"
     },
     {
       "properties": [],
@@ -6430,6 +6836,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -6439,12 +6846,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_280"
+      "id": "steve_301"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/KnobbyFeistyIslandwhistler.gif",
+      "move_name": "Parry",
       "notation": "Time with enemy punch... b+1+2",
       "hit_level": "-",
       "range": "-",
@@ -6453,6 +6860,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -6462,7 +6870,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_281"
+      "id": "steve_302"
     },
     {
       "properties": [],
@@ -6476,6 +6884,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30",
       "speed": "-",
       "on_block": "-",
@@ -6485,12 +6894,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_282"
+      "id": "steve_303"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Turn Around (Left)",
       "notation": "BT u/f+3",
       "hit_level": "-",
       "range": "-",
@@ -6499,6 +6908,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -6508,12 +6918,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_283"
+      "id": "steve_304"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Turn Around (Right)",
       "notation": "BT u/f+4",
       "hit_level": "-",
       "range": "-",
@@ -6522,6 +6932,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -6531,7 +6942,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_284"
+      "id": "steve_305"
     },
     {
       "properties": [],
@@ -6545,6 +6956,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -6554,7 +6966,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_285"
+      "id": "steve_306"
     }
   ]
 }

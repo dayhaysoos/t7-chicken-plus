@@ -36,20 +36,27 @@ export const mapDispatchToProps = {
     ...paidActions
 };
 
-export const mapStateToProps = ({ characterData, theme }) => ({
+export const mapStateToProps = ({ characterData, theme, paid }) => ({
     ...characterData,
-    theme
+    theme,
+    paid
 });
 
-export const createComponentDidMount = (instance) => () => {
+export const createComponentDidMount = (instance) => async () => {
     const { getCharacterData, getPurchaseHistory } = instance.props;
-    getPurchaseHistory();
-    getCharacterData();
 
-    firebase.analytics().logEvent('Screen_Home', {});
-    setTimeout(() => {
-        SplashScreen.hide();
-    }, 200);
+    try {
+        await getPurchaseHistory();
+        await getCharacterData();
+        await firebase.analytics().logEvent('Screen_Home', {});
+        setTimeout(() => {
+            SplashScreen.hide();
+        }, 200);
+    } 
+
+    catch(error) {
+        console.log('err', error);
+    }
 };
 
 
@@ -64,14 +71,29 @@ class HomeScreen extends React.Component {
 
     static propTypes = {
         navigation: PropTypes.object,
-        theme: PropTypes.object
+        theme: PropTypes.object,
+        paid: PropTypes.object
     }
 
+    componentDidMount = async () => {
+        const { getCharacterData, getPurchaseHistory } = this.props;
 
-    componentDidMount = createComponentDidMount(this);
+        try {
+            await getCharacterData();
+            await firebase.analytics().logEvent('Screen_Home', {});
+            setTimeout(() => {
+                SplashScreen.hide();
+            }, 200);
+        } 
+    
+        catch(error) {
+            console.log('err', error);
+        }
+    }
 
     render() {
-        const { navigation } = this.props;
+        const { navigation, paid: {hasPaid} } = this.props;
+
         return (
             <MainContainer>
                 <StatusBar
@@ -83,11 +105,23 @@ class HomeScreen extends React.Component {
                     text={'Character Select'}
                     imageUrl={characterSelectBackground}
                 />
-                <MenuItem
-                    navigateTo={() => navigation.navigate('RemoveAds')}
-                    text={'Ad Removal coming soon'}
-                    imageUrl={removeAds}
-                />
+                {hasPaid ? 
+                    (
+                        <MenuItem
+                            navigateTo={() => navigation.navigate('Support')}
+                            text={'Support Us!'}
+                            imageUrl={removeAds}
+                        />
+                    )
+                    :                 
+                    (
+                        <MenuItem
+                            navigateTo={() => navigation.navigate('RemoveAds')}
+                            text={'Ad Removal coming soon'}
+                            imageUrl={removeAds}
+                        />
+                    )
+                }
                 {/* <MenuItem
                     navigateTo={() => navigation.navigate('Sponsors')}
                     text={'Sponsors'}
