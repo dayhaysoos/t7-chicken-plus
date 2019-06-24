@@ -23,7 +23,7 @@ export const filterMoves = (characterMoves, activeFilters) => {
     }
 };
 
-const normalizedString = (move) => move.toLowerCase().replace(/[^\w~]/gi, '');
+const normalizedString = (move) => move ? move.toLowerCase().replace(/[^\w~]/gi, '') : '';
 
 export const searchMoves = (characterMoves, input) => {
     input = normalizedString(input);
