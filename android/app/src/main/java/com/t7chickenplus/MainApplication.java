@@ -3,7 +3,7 @@ package com.t7chickenplus;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.sbugert.rnadmob.RNAdMobPackage;
+import com.reactnativecommunity.webview.RNCWebViewPackage;
 import com.gettipsi.stripe.StripeReactPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.dooboolab.RNIap.RNIapPackage;
@@ -39,13 +39,13 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNAdMobPackage(),
+            new RNFirebasePackage(),
+            new RNCWebViewPackage(),
             new StripeReactPackage(),
             new RNGestureHandlerPackage(),
             new RNIapPackage(),
             new SplashScreenReactPackage(),
             new RNFirebaseAnalyticsPackage(),
-            new RNFirebasePackage(),
             new RNFirebaseAdMobPackage(),
             new LinearGradientPackage(),
             new CodePush("XybHZshAtSxHCqD3lQKJ_WVKyWtu49811cfd-9167-45ec-81da-4173a98555d0", getApplicationContext(), BuildConfig.DEBUG)

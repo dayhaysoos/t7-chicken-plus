@@ -39,7 +39,7 @@
 		30DFCF0C6AF046A8AD2EFDF9 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3086181231524501BC3205C4 /* FontAwesome.ttf */; };
 		405F619721DF205352630303 /* libPods-t7chickenplus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 175A0302CFCF8C26C4DBBC1C /* libPods-t7chickenplus.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		830C1B7921D08283000BA974 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DFD9A7217DB55A00C2F1BD /* libRNFirebase.a */; };
+		83054F1C22C1C70D006DC5FE /* libRNCWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83054F1B22C1C70D006DC5FE /* libRNCWebView.a */; };
 		830C1BB921D08CD2000BA974 /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DFD9B5217DB55A00C2F1BD /* libCodePush.a */; };
 		830C1BBA21D08CEB000BA974 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9214D5F3C743DC88744EF4 /* libz.tbd */; };
 		830C1BBB21D08DBB000BA974 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DFD9AF217DB55A00C2F1BD /* libBVLinearGradient.a */; };
@@ -54,6 +54,7 @@
 		83C1356821CB718E006D0582 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C1356521CB7131006D0582 /* libRNGestureHandler.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B75AC82578DB68142B7E49C3 /* libPods-t7chickenplus-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A15604A9DA1BCB55D2CC58 /* libPods-t7chickenplus-tvOS.a */; };
+		C7E3DD2531214726A8C5921B /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF3D1809B1D41839A9666F0 /* libRNFirebase.a */; };
 		CA9C40EC0C7A6DBA18F12EB0 /* libPods-t7chickenplusTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7729A6496ACD649A9ADCE851 /* libPods-t7chickenplusTests.a */; };
 /* End PBXBuildFile section */
 
@@ -289,6 +290,13 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RCTLinking;
 		};
+		83054FB522C26864006DC5FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0450E9BFB44F83AF415DAC /* RNFirebase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFirebase;
+		};
 		8305A32B228C8CBF00A3486B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
@@ -366,13 +374,6 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNGestureHandler;
 		};
-		83DFD9A6217DB55A00C2F1BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CB0382BDD23A436EBA2D5BFE /* RNFirebase.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNFirebase;
-		};
 		83DFD9AE217DB55A00C2F1BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 714A4256DB444917B61D06C8 /* BVLinearGradient.xcodeproj */;
@@ -432,7 +433,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = t7chickenplus/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		175A0302CFCF8C26C4DBBC1C /* libPods-t7chickenplus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-t7chickenplus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E55E92BB5C1430CA40FB13C /* libRNAdMobManager.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAdMobManager.a; sourceTree = "<group>"; };
+		2A0450E9BFB44F83AF415DAC /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		2C9214D5F3C743DC88744EF4 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		2D02E47B1E0B4A5D006451C7 /* t7chickenplus-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "t7chickenplus-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* t7chickenplus-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "t7chickenplus-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -443,10 +444,12 @@
 		4865DFD45BCD282347A695C6 /* libPods-t7chickenplus-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-t7chickenplus-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EEE388675418C54F0DEE83 /* Pods-t7chickenplus-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplus-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplus-tvOSTests/Pods-t7chickenplus-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		6CF3D1809B1D41839A9666F0 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		714A4256DB444917B61D06C8 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
 		7729A6496ACD649A9ADCE851 /* libPods-t7chickenplusTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-t7chickenplusTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		8192C453BD6440E5B9FD5F3C /* libCodePush.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libCodePush.a; sourceTree = "<group>"; };
+		83054F1B22C1C70D006DC5FE /* libRNCWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNCWebView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8312D8BE217E9FEA0030FBFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		83833665217EE4FF00496FB3 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
@@ -461,12 +464,9 @@
 		8A01613ED4A0DE58FE217BFA /* Pods-t7chickenplus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplus/Pods-t7chickenplus.debug.xcconfig"; sourceTree = "<group>"; };
 		938E906B0DDA0E1C6F17BEE0 /* Pods-t7chickenplus-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplus-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplus-tvOS/Pods-t7chickenplus-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		CB0382BDD23A436EBA2D5BFE /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		D753BB93043B941AA31A05FB /* Pods-t7chickenplusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplusTests/Pods-t7chickenplusTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFE11C76DD2121AE8B012CB1 /* Pods-t7chickenplus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplus.release.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplus/Pods-t7chickenplus.release.xcconfig"; sourceTree = "<group>"; };
 		E7DDFC20336EC9E921E1C59D /* Pods-t7chickenplus-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplus-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplus-tvOSTests/Pods-t7chickenplus-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F14DF94C13554295874880B1 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
-		F72EA1DB14FA4973A7877F0A /* RNAdMobManager.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAdMobManager.xcodeproj; path = "../node_modules/react-native-admob/ios/RNAdMobManager.xcodeproj"; sourceTree = "<group>"; };
 		F84B04F2DFA94100BA3A9314 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
 		FED0ECD8253E49865E3190BB /* Pods-t7chickenplusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t7chickenplusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-t7chickenplusTests/Pods-t7chickenplusTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -485,12 +485,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83054F1C22C1C70D006DC5FE /* libRNCWebView.a in Frameworks */,
 				8393E601228CFF1700A3F474 /* libTPSStripe.a in Frameworks */,
 				8393E5FA228CFB9800A3F474 /* libStripe.a in Frameworks */,
 				830C1BBB21D08DBB000BA974 /* libBVLinearGradient.a in Frameworks */,
 				830C1BBA21D08CEB000BA974 /* libz.tbd in Frameworks */,
 				830C1BB921D08CD2000BA974 /* libCodePush.a in Frameworks */,
-				830C1B7921D08283000BA974 /* libRNFirebase.a in Frameworks */,
 				83C1356821CB718E006D0582 /* libRNGestureHandler.a in Frameworks */,
 				8397BC2E21AB289C009B463A /* libSplashScreen.a in Frameworks */,
 				83932D9621A53B5C00FFB44A /* libRNIap.a in Frameworks */,
@@ -509,6 +509,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				405F619721DF205352630303 /* libPods-t7chickenplus.a in Frameworks */,
+				C7E3DD2531214726A8C5921B /* libRNFirebase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +661,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83054F1B22C1C70D006DC5FE /* libRNCWebView.a */,
 				8393E5F9228CFB9800A3F474 /* libStripe.a */,
 				83932D3321A538AC00FFB44A /* GoogleMobileAds.framework */,
 				838726D021A3AF0300DAAD07 /* StoreKit.framework */,
@@ -691,6 +693,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		83054FB222C26864006DC5FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83054FB622C26864006DC5FE /* libRNFirebase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -712,8 +722,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				0F148612D8D64D1E8043E593 /* CodePush.xcodeproj */,
 				714A4256DB444917B61D06C8 /* BVLinearGradient.xcodeproj */,
-				CB0382BDD23A436EBA2D5BFE /* RNFirebase.xcodeproj */,
-				F72EA1DB14FA4973A7877F0A /* RNAdMobManager.xcodeproj */,
+				2A0450E9BFB44F83AF415DAC /* RNFirebase.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -803,18 +812,9 @@
 			children = (
 				8192C453BD6440E5B9FD5F3C /* libCodePush.a */,
 				F84B04F2DFA94100BA3A9314 /* libBVLinearGradient.a */,
-				F14DF94C13554295874880B1 /* libRNFirebase.a */,
-				1E55E92BB5C1430CA40FB13C /* libRNAdMobManager.a */,
+				6CF3D1809B1D41839A9666F0 /* libRNFirebase.a */,
 			);
 			name = "Recovered References";
-			sourceTree = "<group>";
-		};
-		83DFD9A3217DB55A00C2F1BD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				83DFD9A7217DB55A00C2F1BD /* libRNFirebase.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		83DFD9A8217DB55A00C2F1BD /* Products */ = {
@@ -993,6 +993,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1057,12 +1058,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 8363FC50229F65BD0051F46A /* Products */;
-					ProjectRef = F72EA1DB14FA4973A7877F0A /* RNAdMobManager.xcodeproj */;
-				},
-				{
-					ProductGroup = 83DFD9A3217DB55A00C2F1BD /* Products */;
-					ProjectRef = CB0382BDD23A436EBA2D5BFE /* RNFirebase.xcodeproj */;
+					ProductGroup = 83054FB222C26864006DC5FE /* Products */;
+					ProjectRef = 2A0450E9BFB44F83AF415DAC /* RNFirebase.xcodeproj */;
 				},
 				{
 					ProductGroup = 83C1353721CB7131006D0582 /* Products */;
@@ -1309,6 +1306,13 @@
 			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		83054FB622C26864006DC5FE /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = 83054FB522C26864006DC5FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		8305A32C228C8CBF00A3486B /* libjsi.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1384,13 +1388,6 @@
 			fileType = archive.ar;
 			path = libRNGestureHandler.a;
 			remoteRef = 83C1356421CB7131006D0582 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		83DFD9A7217DB55A00C2F1BD /* libRNFirebase.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNFirebase.a;
-			remoteRef = 83DFD9A6217DB55A00C2F1BD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		83DFD9AF217DB55A00C2F1BD /* libBVLinearGradient.a */ = {
@@ -1670,8 +1667,6 @@
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = t7chickenplusTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1701,8 +1696,6 @@
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = t7chickenplusTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1740,10 +1733,9 @@
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/admob",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = t7chickenplus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1778,11 +1770,9 @@
 					"$(inherited)/**",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
-					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/admob",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = t7chickenplus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -1821,8 +1811,6 @@
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = "t7chickenplus-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1861,8 +1849,6 @@
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = "t7chickenplus-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1900,8 +1886,6 @@
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = "t7chickenplus-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1939,8 +1923,6 @@
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
-					"$(SRCROOT)/../node_modules/react-native-admob/ios",
 				);
 				INFOPLIST_FILE = "t7chickenplus-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

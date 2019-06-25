@@ -11,10 +11,12 @@ import firebase from 'react-native-firebase';
 import characterSelectBackground from '../../assets/images/mainMenu/character-select-background.png';
 import aboutTheTeam from '../../assets/images/mainMenu/about-the-team.png';
 import removeAds from '../../assets/images/mainMenu/remove-ads.png';
+import support from '../../assets/images/mainMenu/support-us.jpg';
 
 import MenuItem from '../components/HomeScreen/MenuItem';
 
 import Stripe from 'tipsi-stripe';
+
 
 Stripe.setOptions({
     publishableKey: 'pk_test_yNV17SRP9KHKMwl24gvfCRDL00lSTnaRri',
@@ -35,20 +37,26 @@ export const mapDispatchToProps = {
     ...paidActions
 };
 
-export const mapStateToProps = ({ characterData, theme }) => ({
+export const mapStateToProps = ({ characterData, theme, paid }) => ({
     ...characterData,
-    theme
+    theme,
+    paid
 });
 
-export const createComponentDidMount = (instance) => () => {
-    const { getCharacterData, getPurchaseHistory } = instance.props;
-    // getPurchaseHistory();
-    getCharacterData();
+export const createComponentDidMount = (instance) => async () => {
+    const { getCharacterData } = instance.props;
 
-    firebase.analytics().logEvent('Screen_Home', {});
-    setTimeout(() => {
-        SplashScreen.hide();
-    }, 200);
+    try {
+        await getCharacterData();
+        await firebase.analytics().logEvent('Screen_Home', {});
+        setTimeout(() => {
+            SplashScreen.hide();
+        }, 200);
+    } 
+
+    catch(error) {
+        console.log('err', error);
+    }
 };
 
 
@@ -63,14 +71,29 @@ class HomeScreen extends React.Component {
 
     static propTypes = {
         navigation: PropTypes.object,
-        theme: PropTypes.object
+        theme: PropTypes.object,
+        paid: PropTypes.object
     }
 
+    componentDidMount = async () => {
+        const { getCharacterData } = this.props;
 
-    componentDidMount = createComponentDidMount(this);
+        try {
+            await getCharacterData();
+            await firebase.analytics().logEvent('Screen_Home', {});
+            setTimeout(() => {
+                SplashScreen.hide();
+            }, 200);
+        } 
+    
+        catch(error) {
+            console.log('err', error);
+        }
+    }
 
     render() {
-        const { navigation } = this.props;
+        const { navigation, paid: {hasPaid} } = this.props;
+
         return (
             <MainContainer>
                 <StatusBar
@@ -82,10 +105,23 @@ class HomeScreen extends React.Component {
                     text={'Character Select'}
                     imageUrl={characterSelectBackground}
                 />
+                {hasPaid ? 
+                    (
+                        null
+                    )
+                    :                 
+                    (
+                        <MenuItem
+                            navigateTo={() => null}
+                            text={'Ad Removal coming soon'}
+                            imageUrl={removeAds}
+                        />
+                    )
+                }
                 <MenuItem
-                    navigateTo={() => null}
-                    text={'Ad Removal coming soon'}
-                    imageUrl={removeAds}
+                    navigateTo={() => navigation.navigate('Support')}
+                    text={'Support Us'}
+                    imageUrl={support}
                 />
                 {/* <MenuItem
                     navigateTo={() => navigation.navigate('Sponsors')}

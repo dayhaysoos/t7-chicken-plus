@@ -4,6 +4,7 @@ import { StatusBar, SafeAreaView } from 'react-native';
 
 import { Provider } from 'react-redux';
 import configureStore from './redux/store';
+import * as paidActions from './redux/actions/paidActions';
 
 import DrawerStack from './Routes';
 import CodePush from 'react-native-code-push';
@@ -14,7 +15,12 @@ const { store, persistor } = configureStore;
 
 class App extends Component {
 
-    componentDidMount = () => {
+    componentDidMount = async () => {
+        try {
+            // store.dispatch(paidActions.getPurchaseHistory());
+        } catch (error) {
+            console.log('error', error);
+        }
         SplashScreen.hide();
     }
     render() {

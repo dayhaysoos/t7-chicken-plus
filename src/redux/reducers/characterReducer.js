@@ -54,7 +54,7 @@ const updateMoveData = (state, { payload: id }) => ({
 const updateSelectedCharacterMoves = (state, { payload: label }) => {
 
     const getMovelist = () => {
-        for (character in state.characterData) {
+        for (let character in state.characterData) {
             if (state.characterData[character].label === label) {
                 return state.characterData[character].movelist;
             }

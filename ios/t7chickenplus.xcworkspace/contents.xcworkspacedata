@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../node_modules/react-native-webview/ios/RNCWebView.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../node_modules/react-native-iap/ios/RNIap.xcodeproj">
    </FileRef>
    <FileRef
