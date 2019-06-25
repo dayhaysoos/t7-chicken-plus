@@ -11,8 +11,20 @@ import firebase from 'react-native-firebase';
 import characterSelectBackground from '../../assets/images/mainMenu/character-select-background.png';
 import aboutTheTeam from '../../assets/images/mainMenu/about-the-team.png';
 import removeAds from '../../assets/images/mainMenu/remove-ads.png';
+import support from '../../assets/images/mainMenu/support-us.jpg';
 
 import MenuItem from '../components/HomeScreen/MenuItem';
+
+import Stripe from 'tipsi-stripe';
+
+
+Stripe.setOptions({
+    publishableKey: 'pk_test_yNV17SRP9KHKMwl24gvfCRDL00lSTnaRri',
+    merchantId: 'merchant.com.apps.humblemagnificent', // Optional
+    androidPayMode: 'test', // Android only
+});
+
+
 
 // styles
 const MainContainer = styled.View`
@@ -32,7 +44,7 @@ export const mapStateToProps = ({ characterData, theme, paid }) => ({
 });
 
 export const createComponentDidMount = (instance) => async () => {
-    const { getCharacterData, getPurchaseHistory } = instance.props;
+    const { getCharacterData } = instance.props;
 
     try {
         await getCharacterData();
@@ -64,7 +76,7 @@ class HomeScreen extends React.Component {
     }
 
     componentDidMount = async () => {
-        const { getCharacterData, getPurchaseHistory } = this.props;
+        const { getCharacterData } = this.props;
 
         try {
             await getCharacterData();
@@ -93,10 +105,23 @@ class HomeScreen extends React.Component {
                     text={'Character Select'}
                     imageUrl={characterSelectBackground}
                 />
+                {hasPaid ? 
+                    (
+                        null
+                    )
+                    :                 
+                    (
+                        <MenuItem
+                            navigateTo={() => null}
+                            text={'Ad Removal coming soon'}
+                            imageUrl={removeAds}
+                        />
+                    )
+                }
                 <MenuItem
-                    navigateTo={() => null}
-                    text={'Ad Removal coming soon'}
-                    imageUrl={removeAds}
+                    navigateTo={() => navigation.navigate('Support')}
+                    text={'Support Us'}
+                    imageUrl={support}
                 />
                 {/* <MenuItem
                     navigateTo={() => navigation.navigate('Sponsors')}
