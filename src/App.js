@@ -17,7 +17,7 @@ class App extends Component {
 
     componentDidMount = async () => {
         try {
-            store.dispatch(paidActions.getPurchaseHistory());
+            // store.dispatch(paidActions.getPurchaseHistory());
         } catch (error) {
             console.log('error', error);
         }

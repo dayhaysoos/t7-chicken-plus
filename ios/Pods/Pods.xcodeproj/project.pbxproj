@@ -521,7 +521,7 @@
 		099F7C95F8EB2EF8D5A4F6CBBA903D07 /* FIRApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRApp.h; path = Firebase/Core/Public/FIRApp.h; sourceTree = "<group>"; };
 		0A080EDB039143613A322CCC63EC864A /* STPCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCard.h; path = Stripe/PublicHeaders/STPCard.h; sourceTree = "<group>"; };
 		0A4E6A99FD12B209827B60B307B74A63 /* STPSource+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPSource+Private.h"; path = "Stripe/STPSource+Private.h"; sourceTree = "<group>"; };
-		0A5CA0EDAED75834EEB4577A57589FA7 /* libStripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libStripe.a; path = libStripe.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5CA0EDAED75834EEB4577A57589FA7 /* libStripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStripe.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A66DF8EF333706E306EDBD1EB3B47B9 /* stp_card_visa_template@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_visa_template@3x.png"; path = "Stripe/Resources/Images/stp_card_visa_template@3x.png"; sourceTree = "<group>"; };
 		0AB7A3985AB61A53F0A2D4CB5D7FB9B4 /* STPImageLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPImageLibrary.m; path = Stripe/STPImageLibrary.m; sourceTree = "<group>"; };
 		0B23286277F85541D4D81CAC4104770B /* GULNetworkConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkConstants.h; path = GoogleUtilities/Network/Private/GULNetworkConstants.h; sourceTree = "<group>"; };
@@ -534,8 +534,8 @@
 		0FB8B057BEA22039067449E47000B450 /* STPTheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPTheme.m; path = Stripe/STPTheme.m; sourceTree = "<group>"; };
 		10FF8F230A7ED9DF8B85C66BDD0D8A45 /* stp_card_unionpay_template_zh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_unionpay_template_zh@3x.png"; path = "Stripe/Resources/Images/stp_card_unionpay_template_zh@3x.png"; sourceTree = "<group>"; };
 		1159AF8E9CD51A0E690E18C49E90D1EE /* GULReachabilityChecker+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GULReachabilityChecker+Internal.h"; path = "GoogleUtilities/Reachability/GULReachabilityChecker+Internal.h"; sourceTree = "<group>"; };
-		11DBC4FF8E2C61AB23612491C3493C12 /* libGoogleUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGoogleUtilities.a; path = libGoogleUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1203BD3EABA735CF91B66BA8FEE4A635 /* libPods-t7chickenplus-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-t7chickenplus-tvOS.a"; path = "libPods-t7chickenplus-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DBC4FF8E2C61AB23612491C3493C12 /* libGoogleUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGoogleUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1203BD3EABA735CF91B66BA8FEE4A635 /* libPods-t7chickenplus-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-t7chickenplus-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13DF3513593B4D700C92289F50A0016B /* ResourceBundle-Stripe-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Stripe-Info.plist"; sourceTree = "<group>"; };
 		146D921166652A9272DBCA940B5C51C0 /* stp_card_unionpay_template_en@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_unionpay_template_en@2x.png"; path = "Stripe/Resources/Images/stp_card_unionpay_template_en@2x.png"; sourceTree = "<group>"; };
 		157D4D29D2B2481946C212779BDC01E4 /* STPBankAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPBankAccount.h; path = Stripe/PublicHeaders/STPBankAccount.h; sourceTree = "<group>"; };
@@ -582,7 +582,7 @@
 		2A9CB0CEED5140616924F39AB6744258 /* STPBankAccountParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPBankAccountParams.m; path = Stripe/STPBankAccountParams.m; sourceTree = "<group>"; };
 		2B2B29D2E5CC34A06129791B025F1B3F /* STPPaymentMethodsInternalViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethodsInternalViewController.h; path = Stripe/STPPaymentMethodsInternalViewController.h; sourceTree = "<group>"; };
 		2B866C4068FD24B98C8BEFF6A2AABB60 /* STPAPIRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPAPIRequest.h; path = Stripe/STPAPIRequest.h; sourceTree = "<group>"; };
-		2D64F8A01B2CEF5490F843D28BEF3494 /* libFirebaseCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFirebaseCore.a; path = libFirebaseCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D64F8A01B2CEF5490F843D28BEF3494 /* libFirebaseCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFirebaseCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		306948BDD3E6E455641DA457B1A86C42 /* STPPaymentConfiguration+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPPaymentConfiguration+Private.h"; path = "Stripe/STPPaymentConfiguration+Private.h"; sourceTree = "<group>"; };
 		30ADB50F086BD5819D2D2B601DF9E20D /* stp_card_form_front@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_form_front@2x.png"; path = "Stripe/Resources/Images/stp_card_form_front@2x.png"; sourceTree = "<group>"; };
 		30F2921377C469E608936972EBD0F78E /* STPPaymentMethodTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentMethodTuple.m; path = Stripe/STPPaymentMethodTuple.m; sourceTree = "<group>"; };
@@ -607,9 +607,9 @@
 		375AF5ADA7A7E2A99EEF000760271E88 /* STPURLCallbackHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPURLCallbackHandler.h; path = Stripe/STPURLCallbackHandler.h; sourceTree = "<group>"; };
 		375B59DE7BB8FF067774BC349C098DE9 /* FIRAnalyticsConfiguration+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIRAnalyticsConfiguration+Internal.h"; path = "Firebase/Core/Private/FIRAnalyticsConfiguration+Internal.h"; sourceTree = "<group>"; };
 		37B2C46791F2C0DE2DBAA5AD5CBEC55E /* STPCategoryLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCategoryLoader.h; path = Stripe/STPCategoryLoader.h; sourceTree = "<group>"; };
-		38CAD682026F0C1C1064A90F4F2C11EA /* stp_test_upload_image.jpeg */ = {isa = PBXFileReference; includeInIndex = 1; name = stp_test_upload_image.jpeg; path = Stripe/Resources/Images/stp_test_upload_image.jpeg; sourceTree = "<group>"; };
+		38CAD682026F0C1C1064A90F4F2C11EA /* stp_test_upload_image.jpeg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = stp_test_upload_image.jpeg; path = Stripe/Resources/Images/stp_test_upload_image.jpeg; sourceTree = "<group>"; };
 		38D9406A9F243CE7C23243503AF20F59 /* STPPaymentResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentResult.h; path = Stripe/PublicHeaders/STPPaymentResult.h; sourceTree = "<group>"; };
-		3916D910623F499D617629D4187F708B /* libPods-t7chickenplus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-t7chickenplus.a"; path = "libPods-t7chickenplus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3916D910623F499D617629D4187F708B /* libPods-t7chickenplus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-t7chickenplus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B32868324079E38008F321E9248624 /* STPDispatchFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPDispatchFunctions.m; path = Stripe/STPDispatchFunctions.m; sourceTree = "<group>"; };
 		39E0A8E3D88359080A92C1DE37431A0F /* GULNetworkLoggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkLoggerProtocol.h; path = GoogleUtilities/Network/Private/GULNetworkLoggerProtocol.h; sourceTree = "<group>"; };
 		3A629E03839B9FCC7DF4768F2932E9CA /* STPPaymentIntent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentIntent.h; path = Stripe/PublicHeaders/STPPaymentIntent.h; sourceTree = "<group>"; };
@@ -677,7 +677,7 @@
 		6727A05B04C4E9FFAFFCFD6382ED0959 /* stp_icon_add@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_icon_add@2x.png"; path = "Stripe/Resources/Images/stp_icon_add@2x.png"; sourceTree = "<group>"; };
 		6769AF0095D80B7D289614F59C750E63 /* stp_card_jcb_template@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_jcb_template@3x.png"; path = "Stripe/Resources/Images/stp_card_jcb_template@3x.png"; sourceTree = "<group>"; };
 		67C0960E5ADEF9F196C37CD5B1CE18E4 /* NSArray+Stripe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Stripe.m"; path = "Stripe/NSArray+Stripe.m"; sourceTree = "<group>"; };
-		67E82F276114A9468D0E1125EDA061A3 /* Localizations */ = {isa = PBXFileReference; includeInIndex = 1; name = Localizations; path = Stripe/Resources/Localizations; sourceTree = "<group>"; };
+		67E82F276114A9468D0E1125EDA061A3 /* Localizations */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Localizations; path = Stripe/Resources/Localizations; sourceTree = "<group>"; };
 		68D33B3C667EE3717CDFA427A535FE1D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6978B4CBB8F9BD8596BC1185E0886770 /* GoogleUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-prefix.pch"; sourceTree = "<group>"; };
 		6A42A6FEC69FD2753690BAFF8A3C75D6 /* STPLegalEntityParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPLegalEntityParams.m; path = Stripe/STPLegalEntityParams.m; sourceTree = "<group>"; };
@@ -688,14 +688,14 @@
 		6D80E571B9BEC06FF6FA188A663A9B86 /* STPSourceRedirect+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPSourceRedirect+Private.h"; path = "Stripe/STPSourceRedirect+Private.h"; sourceTree = "<group>"; };
 		6D8B558D2746A63FD3A971D7FDB7C204 /* Pods-t7chickenplus-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-t7chickenplus-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6DE525ED4559A1D633212532C7F8F2A7 /* STPPaymentIntentSourceAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentIntentSourceAction.h; path = Stripe/PublicHeaders/STPPaymentIntentSourceAction.h; sourceTree = "<group>"; };
-		6E6354730499F84E4B36DE45CFA8E096 /* libPods-t7chickenplus-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-t7chickenplus-tvOSTests.a"; path = "libPods-t7chickenplus-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6354730499F84E4B36DE45CFA8E096 /* libPods-t7chickenplus-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-t7chickenplus-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E999B999D07C236D36A79E0D63C7FCA /* STPSectionHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPSectionHeaderView.m; path = Stripe/STPSectionHeaderView.m; sourceTree = "<group>"; };
 		6F083B49754E067DF8184D23C60C4F4C /* FIRComponentContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentContainer.h; path = Firebase/Core/Private/FIRComponentContainer.h; sourceTree = "<group>"; };
 		6F2E9393152EFDA0EF86EE3D29A2AEFB /* stp_card_diners@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_diners@3x.png"; path = "Stripe/Resources/Images/stp_card_diners@3x.png"; sourceTree = "<group>"; };
 		6FC62846A57916C744BB36468F4221A4 /* stp_card_visa@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_visa@2x.png"; path = "Stripe/Resources/Images/stp_card_visa@2x.png"; sourceTree = "<group>"; };
 		701BBD1EF887BD0181BC7D22296E1C8D /* FIRComponentContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRComponentContainer.m; path = Firebase/Core/FIRComponentContainer.m; sourceTree = "<group>"; };
 		702390290C3D2DC1A028D28EAD87A902 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		70D1F514B5725FF89FFE6B5BD44FFE1B /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
+		70D1F514B5725FF89FFE6B5BD44FFE1B /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_decode.c; sourceTree = "<group>"; };
 		70D2DCC259F05AD1EECFB5758261C4B5 /* STPPaymentCardTextField+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STPPaymentCardTextField+Private.h"; path = "Stripe/STPPaymentCardTextField+Private.h"; sourceTree = "<group>"; };
 		70F1D184612633D01A061E39F8335340 /* FIRAnalyticsConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAnalyticsConfiguration.m; path = Firebase/Core/FIRAnalyticsConfiguration.m; sourceTree = "<group>"; };
 		71A21A6903AD613D166C533DC7E5F02F /* FIRErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRErrors.h; path = Firebase/Core/Private/FIRErrors.h; sourceTree = "<group>"; };
@@ -704,7 +704,7 @@
 		74AE077A81C24C91EBA861583CD4BBD1 /* GULNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetwork.m; path = GoogleUtilities/Network/GULNetwork.m; sourceTree = "<group>"; };
 		7540DFAB7B1002D1E7D0E123E213C527 /* STPToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPToken.m; path = Stripe/STPToken.m; sourceTree = "<group>"; };
 		75596764DAA8727D66A8C5A1D12DBA19 /* GoogleUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.xcconfig; sourceTree = "<group>"; };
-		75A8E1D57C678F56DC39B3268220E29E /* libPods-t7chickenplusTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-t7chickenplusTests.a"; path = "libPods-t7chickenplusTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A8E1D57C678F56DC39B3268220E29E /* libPods-t7chickenplusTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-t7chickenplusTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AFE395E6BCB823E07BD9B508832894 /* Fabric+FABKits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Fabric+FABKits.h"; path = "Stripe/Fabric+FABKits.h"; sourceTree = "<group>"; };
 		75CEA7CA22EBA46F9000A4FEC79452BC /* STPPaymentContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentContext.h; path = Stripe/PublicHeaders/STPPaymentContext.h; sourceTree = "<group>"; };
 		75E635E0B0034087DA553EA34FAA0CAD /* STPStringUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPStringUtils.m; path = Stripe/STPStringUtils.m; sourceTree = "<group>"; };
@@ -737,7 +737,7 @@
 		8395EE2A45308EDABC9D24EECB43394C /* stp_card_unionpay_template_zh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_unionpay_template_zh@2x.png"; path = "Stripe/Resources/Images/stp_card_unionpay_template_zh@2x.png"; sourceTree = "<group>"; };
 		841A218B722B6AC6B4B06D3E6E91AE51 /* Pods-t7chickenplus-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-t7chickenplus-tvOSTests-resources.sh"; sourceTree = "<group>"; };
 		84486A6B57BA94B57D26DC574A0DA6FE /* STPPaymentCardTextFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentCardTextFieldCell.m; path = Stripe/STPPaymentCardTextFieldCell.m; sourceTree = "<group>"; };
-		848AB7B97460490E0CED29A90F039DF4 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		848AB7B97460490E0CED29A90F039DF4 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_encode.c; sourceTree = "<group>"; };
 		84B4345058B25BDBB03F79A2F9ED752C /* NSDecimalNumber+Stripe_Currency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+Stripe_Currency.m"; path = "Stripe/NSDecimalNumber+Stripe_Currency.m"; sourceTree = "<group>"; };
 		85004072030EA8EB3D2D415C11CB0545 /* STPCardValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCardValidator.h; path = Stripe/PublicHeaders/STPCardValidator.h; sourceTree = "<group>"; };
 		85D33123857D3364CC9EF8A3FA03D18A /* stp_card_discover@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_card_discover@2x.png"; path = "Stripe/Resources/Images/stp_card_discover@2x.png"; sourceTree = "<group>"; };
@@ -769,7 +769,7 @@
 		9241464F48F400187CCB2378FB7872B2 /* UINavigationBar+Stripe_Theme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+Stripe_Theme.h"; path = "Stripe/PublicHeaders/UINavigationBar+Stripe_Theme.h"; sourceTree = "<group>"; };
 		92A64562BFDB20C721D48FE0D2D260C8 /* GULSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSwizzler.h; path = GoogleUtilities/MethodSwizzler/Private/GULSwizzler.h; sourceTree = "<group>"; };
 		9378E76672470064C1136B4F149DD1D7 /* UIBarButtonItem+Stripe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Stripe.m"; path = "Stripe/UIBarButtonItem+Stripe.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94821FD046826B5B147D167A90A0E8B7 /* STPAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPAddress.h; path = Stripe/PublicHeaders/STPAddress.h; sourceTree = "<group>"; };
 		94EFB82D476A45CF8D661315B8FF5337 /* GULSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSwizzler.m; path = GoogleUtilities/MethodSwizzler/GULSwizzler.m; sourceTree = "<group>"; };
 		963CAADC209D7DEE9A8BB57DBD6A7E33 /* FIRCoreConfigurable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRCoreConfigurable.h; path = Firebase/Core/Private/FIRCoreConfigurable.h; sourceTree = "<group>"; };
@@ -837,7 +837,7 @@
 		B7C8C6435FDC671A1A448F186CEEC9C3 /* STPPaymentCardTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentCardTextField.h; path = Stripe/PublicHeaders/STPPaymentCardTextField.h; sourceTree = "<group>"; };
 		B820A8A74B9B71DAFA7DE676A6AF9D9B /* STPPaymentIntentSourceActionAuthorizeWithURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentIntentSourceActionAuthorizeWithURL.m; path = Stripe/STPPaymentIntentSourceActionAuthorizeWithURL.m; sourceTree = "<group>"; };
 		B826F3C5D67B34D950AB5973E2C3EB80 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B85A71EC5D42C1B9191901890D536623 /* libnanopb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libnanopb.a; path = libnanopb.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85A71EC5D42C1B9191901890D536623 /* libnanopb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnanopb.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8877042456BF7FE345D7D6EF3967654 /* STPBundleLocator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPBundleLocator.m; path = Stripe/STPBundleLocator.m; sourceTree = "<group>"; };
 		B8DEBC5827807D9A070F998547D51BA9 /* UITableViewCell+Stripe_Borders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+Stripe_Borders.h"; path = "Stripe/UITableViewCell+Stripe_Borders.h"; sourceTree = "<group>"; };
 		B923D1DA840D2D730634FD6F768861C7 /* FIRComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponent.h; path = Firebase/Core/Private/FIRComponent.h; sourceTree = "<group>"; };
@@ -887,7 +887,7 @@
 		CD8CA87D3325402DF1CAB4E29EA5EB17 /* NSURLComponents+Stripe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLComponents+Stripe.h"; path = "Stripe/NSURLComponents+Stripe.h"; sourceTree = "<group>"; };
 		CDB3C38903A47BD6FBA3E377EBF230FC /* STPPaymentCardTextFieldViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPPaymentCardTextFieldViewModel.m; path = Stripe/STPPaymentCardTextFieldViewModel.m; sourceTree = "<group>"; };
 		CDE5DB8A76AB1156CE741AAD24F07AD3 /* stp_icon_add@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "stp_icon_add@3x.png"; path = "Stripe/Resources/Images/stp_icon_add@3x.png"; sourceTree = "<group>"; };
-		CE2821646DE1EC0928A0A031019E4915 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = Stripe/Resources/Images; sourceTree = "<group>"; };
+		CE2821646DE1EC0928A0A031019E4915 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Images; path = Stripe/Resources/Images; sourceTree = "<group>"; };
 		CEEAE511CC537181A68DDC9E9092EC84 /* STPEmailAddressValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPEmailAddressValidator.h; path = Stripe/STPEmailAddressValidator.h; sourceTree = "<group>"; };
 		CF0FE093C0288AFDFE2711A1AA6487B3 /* STPEphemeralKeyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPEphemeralKeyManager.h; path = Stripe/STPEphemeralKeyManager.h; sourceTree = "<group>"; };
 		CF149150A3878B32356590020899931C /* GULReachabilityMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityMessageCode.h; path = GoogleUtilities/Reachability/Private/GULReachabilityMessageCode.h; sourceTree = "<group>"; };
@@ -924,7 +924,7 @@
 		DD07E127C6CF7D79D267D642962070A2 /* STPSourceSEPADebitDetails.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPSourceSEPADebitDetails.m; path = Stripe/STPSourceSEPADebitDetails.m; sourceTree = "<group>"; };
 		DD1C928AEE72EA87B38FCA77D05728F9 /* STPGenericStripeObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPGenericStripeObject.m; path = Stripe/STPGenericStripeObject.m; sourceTree = "<group>"; };
 		DE4FE90A5511C04E99EE49875FE3DBDF /* STPPaymentMethodTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPPaymentMethodTableViewCell.h; path = Stripe/STPPaymentMethodTableViewCell.h; sourceTree = "<group>"; };
-		DE9472C49A9F4DED3DAAF38E716F8761 /* Stripe.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Stripe.bundle; path = "Stripe-Stripe.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9472C49A9F4DED3DAAF38E716F8761 /* Stripe.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stripe.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9E4A56A28DBFC31C995C3BD85EB7C1 /* Pods-t7chickenplusTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-t7chickenplusTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DF9008B5115EB32DB0DF10A4601821B0 /* NSCharacterSet+Stripe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCharacterSet+Stripe.h"; path = "Stripe/NSCharacterSet+Stripe.h"; sourceTree = "<group>"; };
 		DFF58D4560FB6DB03C0629815D9729CC /* stp_card_unionpay_template_zh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = stp_card_unionpay_template_zh.png; path = Stripe/Resources/Images/stp_card_unionpay_template_zh.png; sourceTree = "<group>"; };
@@ -933,7 +933,7 @@
 		E1F5ADF98484BCE829356AD1F657F363 /* libGoogleMobileAds.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleMobileAds.a; path = Libraries/libGoogleMobileAds.a; sourceTree = "<group>"; };
 		E27DC3DFA97B05EE72525DA2DEA72A65 /* FIRConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRConfiguration.h; path = Firebase/Core/Public/FIRConfiguration.h; sourceTree = "<group>"; };
 		E3C099136FEC5E80DE3EC30BAF3FE8D1 /* STPAPIRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPAPIRequest.m; path = Stripe/STPAPIRequest.m; sourceTree = "<group>"; };
-		E40503AD0569AA051E531042BF563F3E /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
+		E40503AD0569AA051E531042BF563F3E /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_common.c; sourceTree = "<group>"; };
 		E53E359CA4A519E562F65E12292735BC /* STPTelemetryClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPTelemetryClient.h; path = Stripe/STPTelemetryClient.h; sourceTree = "<group>"; };
 		E5BB62795024ADF49EEF1C28171F6766 /* STPDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPDelegateProxy.m; path = Stripe/STPDelegateProxy.m; sourceTree = "<group>"; };
 		E5D20BB44BA22BB11757D4E32CD71DF9 /* GULUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULUserDefaults.m; path = GoogleUtilities/UserDefaults/GULUserDefaults.m; sourceTree = "<group>"; };
@@ -1063,7 +1063,6 @@
 			children = (
 				C655C9F89C57792DD681914E377022AD /* Frameworks */,
 			);
-			name = GoogleAppMeasurement;
 			path = GoogleAppMeasurement;
 			sourceTree = "<group>";
 		};
@@ -1096,7 +1095,6 @@
 			children = (
 				762126095D88DBD69EC833766A116366 /* Frameworks */,
 			);
-			name = FirebaseInstanceID;
 			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
@@ -1206,7 +1204,6 @@
 			children = (
 				56D6DC87DA4BD92A9CB2D1501A7BFB7B /* Frameworks */,
 			);
-			name = "Google-Mobile-Ads-SDK";
 			path = "Google-Mobile-Ads-SDK";
 			sourceTree = "<group>";
 		};
@@ -1618,7 +1615,6 @@
 				36A6E5D80D10F58A11168160F78CC1D3 /* Resources */,
 				F8982A3BD3021DAF071CB8DE825ADCCB /* Support Files */,
 			);
-			name = Stripe;
 			path = Stripe;
 			sourceTree = "<group>";
 		};
@@ -1647,7 +1643,6 @@
 			children = (
 				19CC7E35755F1746DC9E1A4B7CD0C38D /* Frameworks */,
 			);
-			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
@@ -1700,7 +1695,6 @@
 				4FD3C9444C20A6831BB0635ACE272BE2 /* Support Files */,
 				D091C7BBB91A8FF226A9C5835ED02AF1 /* UserDefaults */,
 			);
-			name = GoogleUtilities;
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
@@ -1744,7 +1738,6 @@
 				FAF8F4CEB259669283BDD8EF53FE1F51 /* FIRVersion.m */,
 				862832AB6B2DDE86D809B258A1030EDA /* Support Files */,
 			);
-			name = FirebaseCore;
 			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
@@ -1753,7 +1746,6 @@
 			children = (
 				CDCE3AE5814EEF6A6B7E04408A461E42 /* CoreOnly */,
 			);
-			name = Firebase;
 			path = Firebase;
 			sourceTree = "<group>";
 		};
@@ -1787,7 +1779,6 @@
 				91142E30C5EB82C91F11129408BADD34 /* encode */,
 				EB74B010C1C7362845B2C620BA981F69 /* Support Files */,
 			);
-			name = nanopb;
 			path = nanopb;
 			sourceTree = "<group>";
 		};
@@ -2288,7 +2279,17 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				de,
+				es,
+				fi,
+				fr,
+				it,
+				ja,
+				nb,
+				nl,
+				"zh-Hans",
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 52AF4CA094BFBCE5867C93AA67D210ED /* Products */;
@@ -2957,8 +2958,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
