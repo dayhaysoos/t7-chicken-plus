@@ -9,7 +9,9 @@ target 't7chickenplus' do
     pod 'Stripe', '~> 14.0.0'
 
   # Pods for t7chickenplus
-  pod 'Firebase/Core'
+
+  pod 'Firebase/AdMob', '~> 6.2.0'
+  pod 'Firebase/Core', '~> 6.2.0'
   
   pod 'Google-Mobile-Ads-SDK'
 
