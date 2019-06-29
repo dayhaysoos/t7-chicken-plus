@@ -14,16 +14,6 @@ import removeAds from '../../assets/images/mainMenu/remove-ads.png';
 
 import MenuItem from '../components/HomeScreen/MenuItem';
 
-import Stripe from 'tipsi-stripe';
-
-Stripe.setOptions({
-    publishableKey: 'pk_test_yNV17SRP9KHKMwl24gvfCRDL00lSTnaRri',
-    merchantId: 'merchant.com.apps.humblemagnificent', // Optional
-    androidPayMode: 'test', // Android only
-});
-
-
-
 // styles
 const MainContainer = styled.View`
   flex: 1;
@@ -45,7 +35,6 @@ export const createComponentDidMount = (instance) => async () => {
     const { getCharacterData, getPurchaseHistory } = instance.props;
 
     try {
-        await getPurchaseHistory();
         await getCharacterData();
         await firebase.analytics().logEvent('Screen_Home', {});
         setTimeout(() => {
