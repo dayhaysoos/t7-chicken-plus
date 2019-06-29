@@ -141,6 +141,8 @@ android {
 }
 
 dependencies {
+    implementation project(':@react-native-community_async-storage')
+    implementation project(':react-native-firebase')
     implementation project(':react-native-webview')
     implementation project(':react-native-admob')
     compile project(':tipsi-stripe')
@@ -150,7 +152,6 @@ dependencies {
         exclude group: 'com.google.android.gms'
     }
     compile project(':react-native-splash-screen')
-    compile project(':react-native-firebase')
     compile project(':react-native-linear-gradient')
     compile project(':react-native-code-push')
     compile 'androidx.appcompat:appcompat:1.0.0'

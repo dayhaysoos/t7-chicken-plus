@@ -3,13 +3,14 @@ package com.t7chickenplus;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+import io.invertase.firebase.RNFirebasePackage;
 import com.reactnativecommunity.webview.RNCWebViewPackage;
 import com.sbugert.rnadmob.RNAdMobPackage;
 import com.gettipsi.stripe.StripeReactPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.dooboolab.RNIap.RNIapPackage;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
-import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 import io.invertase.firebase.admob.RNFirebaseAdMobPackage;
 import com.BV.LinearGradient.LinearGradientPackage;
@@ -40,6 +41,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new AsyncStoragePackage(),
+            new RNFirebasePackage(),
             new RNCWebViewPackage(),
             new RNAdMobPackage(),
             new StripeReactPackage(),
@@ -47,7 +50,6 @@ public class MainApplication extends Application implements ReactApplication {
             new RNIapPackage(),
             new SplashScreenReactPackage(),
             new RNFirebaseAnalyticsPackage(),
-            new RNFirebasePackage(),
             new RNFirebaseAdMobPackage(),
             new LinearGradientPackage(),
             new CodePush("XybHZshAtSxHCqD3lQKJ_WVKyWtu49811cfd-9167-45ec-81da-4173a98555d0", getApplicationContext(), BuildConfig.DEBUG)

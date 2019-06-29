@@ -1,0 +1,1 @@
+../../../../../node_modules/tipsi-stripe/ios/TPSStripe/TPSError.h
