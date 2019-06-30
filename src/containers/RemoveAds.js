@@ -89,7 +89,7 @@ const promoItems = Platform.select({
 
 const items = Platform.select({
     ios: [
-        'hide_ads_5'
+        'ad_remove_10'
     ],
     android: [
         'ad_remove_10',
@@ -105,7 +105,7 @@ class RemoveAds extends Component {
       availablePurchases: [],
       loading: true,
       promoInput: '',
-      promoCode: 'namco',
+      promoCode: 'test',
       promoSuccess: false,
       promoMessage: 'No Promo Code Applied',
       err: '',
@@ -124,7 +124,7 @@ class RemoveAds extends Component {
 
   async componentDidMount() {
       try {
-          const confirmation = await RNIap.initConnection();
+          await RNIap.initConnection();
           await RNIap.consumeAllItems();
           const purchaseHistory = await RNIap.getPurchaseHistory();
           const availablePurchases = await RNIap.getAvailablePurchases();
@@ -191,7 +191,7 @@ class RemoveAds extends Component {
       const {promoInput, promoCode } = this.state;
       const submissionItems = promoInput === promoCode ? promoItems : items;
 
-      if(promoInput === promoCode) {
+      if(promoInput.toLowerCase() === promoCode.toLowerCase()) {
           this.setState({
               loading: true
           });

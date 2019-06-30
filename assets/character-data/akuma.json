@@ -1,6 +1,6 @@
 {
-  "displayName": "Akuma",
   "fullname": "Akuma",
+  "displayName": "Akuma",
   "label": "akuma",
   "movelist": [
     {
@@ -15,6 +15,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "10",
       "on_block": "+1",
@@ -38,6 +39,7 @@
       "crush": "-",
       "jail": "NO",
       "natural": "NCc",
+      "environmental": "-",
       "damage": "7 [8], 7",
       "speed": "10",
       "on_block": "-3",
@@ -61,6 +63,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "15",
       "on_block": "-3",
@@ -84,6 +87,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "NC",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "7 [8], 20",
       "speed": "10",
       "on_block": "-17",
@@ -107,6 +111,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "13",
       "on_block": "-17",
@@ -130,6 +135,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "15",
       "on_block": "-9",
@@ -153,6 +159,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "15",
       "on_block": "-8",
@@ -176,6 +183,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "14",
       "on_block": "-13",
@@ -199,6 +207,7 @@
       "crush": "-",
       "jail": "NO",
       "natural": "NC",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "12 [14], 17",
       "speed": "14",
       "on_block": "-5",
@@ -222,6 +231,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "17 [20]",
       "speed": "16",
       "on_block": "-5",
@@ -245,6 +255,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "16 [19]",
       "speed": "17",
       "on_block": "-9",
@@ -268,6 +279,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-9",
@@ -291,6 +303,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "NC",
+      "environmental": "-",
       "damage": "5 [6], 15",
       "speed": "20",
       "on_block": "-8",
@@ -314,6 +327,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "3",
       "on_block": "-8",
@@ -337,6 +351,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK",
       "damage": "20 [24]",
       "speed": "22",
       "on_block": "-9",
@@ -360,6 +375,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "15",
       "on_block": "-14",
@@ -383,6 +399,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "NC",
+      "environmental": "WALL BOUNCE",
       "damage": "14 [16], 20",
       "speed": "15",
       "on_block": "-13",
@@ -406,6 +423,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "23 [27]",
       "speed": "20",
       "on_block": "0",
@@ -429,6 +447,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "30 [36]",
       "speed": "16",
       "on_block": "+1",
@@ -442,8 +461,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/WaryUntriedElephantseal.gif",
+      "move_name": "Tenmakuretsukyaku",
       "notation": "f, f, f+3 (or WR 3)",
       "hit_level": "mid",
       "range": "4",
@@ -452,6 +471,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30 [36]",
       "speed": "26",
       "on_block": "+6",
@@ -475,6 +495,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "13",
       "on_block": "-4",
@@ -498,6 +519,7 @@
       "crush": "-",
       "jail": "NO",
       "natural": "NC",
+      "environmental": "-",
       "damage": "10 [12], 7",
       "speed": "13",
       "on_block": "-3",
@@ -521,6 +543,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "20",
       "on_block": "-3",
@@ -544,6 +567,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "NC",
+      "environmental": "-",
       "damage": "10 [12], 5, 10",
       "speed": "13",
       "on_block": "-13 (OC)",
@@ -567,6 +591,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "NC",
+      "environmental": "-",
       "damage": "5 [6], 10",
       "speed": "21",
       "on_block": "-13 (OC)",
@@ -590,6 +615,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "3",
       "on_block": "-13",
@@ -613,6 +639,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "16",
       "on_block": "-7",
@@ -636,6 +663,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "NC",
+      "environmental": "WALL SPLAT",
       "damage": "10 [12], 10",
       "speed": "16",
       "on_block": "-18",
@@ -659,6 +687,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "10 [12]",
       "speed": "20",
       "on_block": "-18",
@@ -682,6 +711,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "NC",
+      "environmental": "-",
       "damage": "10 [12], 10, 13",
       "speed": "16",
       "on_block": "-11",
@@ -705,6 +735,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "13 [15]",
       "speed": "16",
       "on_block": "-11",
@@ -728,6 +759,7 @@
       "crush": "-",
       "jail": "NO",
       "natural": "NO",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "10 [12], 13, 23",
       "speed": "16",
       "on_block": "-17",
@@ -751,6 +783,7 @@
       "crush": "-",
       "jail": "NO",
       "natural": "NO",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "13 [15], 23",
       "speed": "16",
       "on_block": "-17",
@@ -774,6 +807,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "23 [27]",
       "speed": "21",
       "on_block": "-17",
@@ -797,6 +831,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "12",
       "on_block": "-12",
@@ -820,6 +855,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "24 [28]",
       "speed": "19",
       "on_block": "-16",
@@ -843,6 +879,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "17 [20]",
       "speed": "14",
       "on_block": "-14",
@@ -866,6 +903,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK",
       "damage": "21 [25]",
       "speed": "23",
       "on_block": "-9",
@@ -889,6 +927,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "20",
       "on_block": "-13",
@@ -902,8 +941,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ShrillQuestionableBobwhite.gif",
+      "move_name": "Fukusengeki",
       "notation": "FC 1",
       "hit_level": "s. mid",
       "range": "0.5",
@@ -912,6 +951,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5 [6]",
       "speed": "10",
       "on_block": "-5",
@@ -926,7 +966,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Fkusenshotei",
       "notation": "FC 1, 2",
       "hit_level": "s. mid, s. mid",
       "range": "0.5",
@@ -935,6 +975,7 @@
       "crush": "high",
       "jail": "YES",
       "natural": "NCc",
+      "environmental": "-",
       "damage": "5 [6], 8",
       "speed": "10",
       "on_block": "-13",
@@ -949,7 +990,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Fkusenshotei",
       "notation": "FC (1), 2",
       "hit_level": "s. mid",
       "range": "0.5",
@@ -958,6 +999,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "8 [9]",
       "speed": "10",
       "on_block": "-13",
@@ -971,8 +1013,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/AppropriateAmazingBarb.gif",
+      "move_name": "Shotei",
       "notation": "FC 2",
       "hit_level": "s. mid",
       "range": "0.5",
@@ -981,6 +1023,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "6 [7]",
       "speed": "12",
       "on_block": "-4",
@@ -994,8 +1037,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/SerpentineConfusedFlee.gif",
+      "move_name": "Kurubushi Kick",
       "notation": "FC 3 (close)",
       "hit_level": "low",
       "range": "0",
@@ -1004,6 +1047,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "15",
       "on_block": "-11",
@@ -1027,6 +1071,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7 [8]",
       "speed": "15",
       "on_block": "-11",
@@ -1040,8 +1085,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/UnimportantSparseEyelashpitviper.gif",
+      "move_name": "Ashibarai",
       "notation": "FC 4",
       "hit_level": "low",
       "range": "2",
@@ -1050,6 +1095,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "17",
       "on_block": "-27",
@@ -1073,6 +1119,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "30 [36]",
       "speed": "8",
       "on_block": "+13",
@@ -1096,6 +1143,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "12",
       "on_block": "-",
@@ -1109,8 +1157,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/UnitedBlueFowl.gif",
+      "move_name": "Shunjingozan",
       "notation": "WR 4 ",
       "hit_level": "low",
       "range": "3",
@@ -1119,6 +1167,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [27]",
       "speed": "20",
       "on_block": "-24",
@@ -1142,6 +1191,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "24 [28]",
       "speed": "18",
       "on_block": "0",
@@ -1155,8 +1205,8 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/IcyShorttermIrishwaterspaniel.gif",
-      "move_name": "Hijuchi",
+      "preview_url": null,
+      "move_name": "Hijiuchi",
       "notation": "WS 1",
       "hit_level": "high",
       "range": "1.75",
@@ -1165,6 +1215,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "12 [14]",
       "speed": "13",
       "on_block": "-5",
@@ -1188,6 +1239,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "17 [20]",
       "speed": "15",
       "on_block": "-16",
@@ -1211,6 +1263,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "17 [20]",
       "speed": "13",
       "on_block": "-10",
@@ -1234,6 +1287,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "11",
       "on_block": "-9",
@@ -1257,6 +1311,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "YES",
+      "environmental": "-",
       "damage": "10 [12], 20",
       "speed": "11",
       "on_block": "-15",
@@ -1280,6 +1335,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "15",
       "on_block": "-15",
@@ -1294,7 +1350,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Hijitoshi",
       "notation": "(During Vertical Jump) 1",
       "hit_level": "mid",
       "range": "0",
@@ -1303,6 +1359,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "7",
       "on_block": "-25 ~ +2",
@@ -1316,8 +1373,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/CooperativeGrossBlacklab.gif",
+      "move_name": "Gokusengeki",
       "notation": "(During Vertical Jump) 2",
       "hit_level": "mid",
       "range": "0",
@@ -1326,6 +1383,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "9",
       "on_block": "-18 ~ +7",
@@ -1339,8 +1397,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/BetterHeavyEelelephant.gif",
+      "move_name": "Maegeri",
       "notation": "(During Vertical Jump) 3",
       "hit_level": "mid",
       "range": "0.5",
@@ -1349,6 +1407,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "7",
       "on_block": "-25 ~ +2",
@@ -1362,8 +1421,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/OrdinaryArcticIberianemeraldlizard.gif",
+      "move_name": "Onikubigiri",
       "notation": "(During Vertical Jump) 4",
       "hit_level": "mid",
       "range": "0.5",
@@ -1372,6 +1431,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "9",
       "on_block": "-18 ~ +7",
@@ -1385,8 +1445,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/FluidAstonishingClumber.gif",
+      "move_name": "Gokuken",
       "notation": "(During Forward or Backward Jump) 1",
       "hit_level": "mid",
       "range": "0.5",
@@ -1395,6 +1455,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "9",
       "on_block": "-23 ~ +4",
@@ -1409,7 +1470,7 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Gokugeki",
       "notation": "(During Forward or Backward Jump) 2",
       "hit_level": "mid",
       "range": "0.5",
@@ -1418,6 +1479,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "9",
       "on_block": "-18 ~ +9",
@@ -1431,8 +1493,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/WhirlwindWholeFunnelweaverspider.gif",
+      "move_name": "Rakusaishu",
       "notation": "(During Forward or Backward Jump) 3",
       "hit_level": "mid",
       "range": "0.25",
@@ -1441,6 +1503,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "7",
       "on_block": "-26 ~ +2",
@@ -1454,8 +1517,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/RelievedIckyBettong.gif",
+      "move_name": "Tobisokuto",
       "notation": "(During Forward or Backward Jump) 4",
       "hit_level": "mid",
       "range": "1",
@@ -1464,6 +1527,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "7",
       "on_block": "-20 ~ +9",
@@ -1477,8 +1541,8 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ForthrightFrightenedLeonberger.gif",
+      "move_name": "Tenmakujinkyaku",
       "notation": "(During Forward Jump Peak) d+3",
       "hit_level": "mid",
       "range": "1.5",
@@ -1487,6 +1551,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "13",
       "on_block": "-6 ~ +1",
@@ -1510,6 +1575,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "22",
       "on_block": "-12",
@@ -1533,6 +1599,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "18 [21]",
       "speed": "22",
       "on_block": "-12",
@@ -1556,6 +1623,7 @@
       "crush": "high, mid",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "6 [7]",
       "speed": "13",
       "on_block": "-20",
@@ -1579,6 +1647,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-12",
@@ -1602,6 +1671,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "15 [18]",
       "speed": "19",
       "on_block": "+2",
@@ -1625,6 +1695,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-20",
@@ -1648,6 +1719,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "21",
       "on_block": "-19",
@@ -1671,6 +1743,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "4",
       "speed": "33",
       "on_block": "-2",
@@ -1684,6 +1757,12 @@
     },
     {
       "properties": [],
+      "preview_url": null,
+      "move_name": "SPECIAL MOVES",
+      "id": "akuma_74"
+    },
+    {
+      "properties": [],
       "preview_url": "https://giant.gfycat.com/ForcefulImmenseHerculesbeetle.gif",
       "move_name": "Goshoryuken",
       "notation": "f, d, d/f+1",
@@ -1694,6 +1773,7 @@
       "crush": "high, low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "15 [18]",
       "speed": "10",
       "on_block": "-26 (+3)",
@@ -1703,11 +1783,11 @@
       "on_whiff": "-37",
       "active_frames": "9",
       "notes": "-",
-      "id": "akuma_74"
+      "id": "akuma_75"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/AdoredAgreeableAntipodesgreenparakeet.gif",
+      "preview_url": "https://giant.gfycat.com/ForcefulImmenseHerculesbeetle.gif",
       "move_name": "Goshoryuken",
       "notation": "f, d, d/f+2",
       "hit_level": "s. mid, s. mid, s. mid",
@@ -1717,6 +1797,7 @@
       "crush": "high, low",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "6 [7], 6, 14",
       "speed": "11",
       "on_block": "-34",
@@ -1726,7 +1807,7 @@
       "on_whiff": "-48",
       "active_frames": "1, 9",
       "notes": "-",
-      "id": "akuma_75"
+      "id": "akuma_76"
     },
     {
       "properties": [],
@@ -1740,6 +1821,7 @@
       "crush": "high, low",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "6 [7], 14",
       "speed": "13",
       "on_block": "-36",
@@ -1749,7 +1831,7 @@
       "on_whiff": "-48",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_76"
+      "id": "akuma_77"
     },
     {
       "properties": [],
@@ -1763,6 +1845,7 @@
       "crush": "high, low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "20 [24]",
       "speed": "13",
       "on_block": "-36",
@@ -1772,7 +1855,7 @@
       "on_whiff": "-48",
       "active_frames": "9",
       "notes": "-",
-      "id": "akuma_77"
+      "id": "akuma_78"
     },
     {
       "properties": [],
@@ -1786,6 +1869,7 @@
       "crush": "high, low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "6 [7]",
       "speed": "11",
       "on_block": "0",
@@ -1795,7 +1879,7 @@
       "on_whiff": "-48",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_78"
+      "id": "akuma_79"
     },
     {
       "properties": [],
@@ -1809,6 +1893,7 @@
       "crush": "high, low",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "6 [7], 6",
       "speed": "11",
       "on_block": "0",
@@ -1818,12 +1903,12 @@
       "on_whiff": "-48",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_79"
+      "id": "akuma_80"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/TheseClearcutBudgie.gif",
+      "move_name": "Hyakkishu",
       "notation": "f, d, d/f+3 (or 4)",
       "hit_level": "-",
       "range": "-",
@@ -1832,6 +1917,7 @@
       "crush": "high, mid",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -1841,12 +1927,12 @@
       "on_whiff": "-51",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_80"
+      "id": "akuma_81"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/DecisivePepperyGavial.gif",
+      "move_name": "Hyakkigozan",
       "notation": "DFLIP N",
       "hit_level": "low",
       "range": "4",
@@ -1855,6 +1941,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "23 [27]",
       "speed": "4",
       "on_block": "-24",
@@ -1864,7 +1951,7 @@
       "on_whiff": "-36",
       "active_frames": "7",
       "notes": "-",
-      "id": "akuma_81"
+      "id": "akuma_82"
     },
     {
       "properties": [],
@@ -1878,6 +1965,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "7",
       "on_block": "-4 ~ +7",
@@ -1887,12 +1975,12 @@
       "on_whiff": "-",
       "active_frames": "4",
       "notes": "-",
-      "id": "akuma_82"
+      "id": "akuma_83"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/CloseLeanKitten.gif",
-      "move_name": "Hyakkigohatsu",
+      "preview_url": null,
+      "move_name": "Hyakkigohasatsu",
       "notation": "DFLIP 2",
       "hit_level": "mid",
       "range": "0.5",
@@ -1901,6 +1989,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-9 ~ -5",
@@ -1910,7 +1999,7 @@
       "on_whiff": "-",
       "active_frames": "4",
       "notes": "-",
-      "id": "akuma_83"
+      "id": "akuma_84"
     },
     {
       "properties": [],
@@ -1924,6 +2013,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "21 [25]",
       "speed": "14",
       "on_block": "-10 ~ +1",
@@ -1933,7 +2023,7 @@
       "on_whiff": "-",
       "active_frames": "2",
       "notes": "-",
-      "id": "akuma_84"
+      "id": "akuma_85"
     },
     {
       "properties": [],
@@ -1947,6 +2037,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "15 [18]",
       "speed": "13",
       "on_block": "+4 ~ +6 (OC) ",
@@ -1956,12 +2047,12 @@
       "on_whiff": "-",
       "active_frames": "7",
       "notes": "-",
-      "id": "akuma_85"
+      "id": "akuma_86"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ScornfulComplexJackal.gif",
+      "move_name": "Hyakkigosai",
       "notation": "DFLIP 1+3 (or 2+4)",
       "hit_level": "high throw",
       "range": "0.25",
@@ -1970,6 +2061,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "30",
       "speed": "4",
       "on_block": "-",
@@ -1979,12 +2071,12 @@
       "on_whiff": "-",
       "active_frames": "2",
       "notes": "-",
-      "id": "akuma_86"
+      "id": "akuma_87"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Ashura Senku",
       "notation": "f, d, d/f+3+4 (or b, d, d/b+3+4)",
       "hit_level": "-",
       "range": "-",
@@ -1993,6 +2085,7 @@
       "crush": "high, mid, low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -2002,7 +2095,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_87"
+      "id": "akuma_88"
     },
     {
       "properties": [],
@@ -2016,6 +2109,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "15 [18]",
       "speed": "28",
       "on_block": "-9",
@@ -2025,11 +2119,11 @@
       "on_whiff": "-36",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_88"
+      "id": "akuma_89"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/RealisticSillyAmericanavocet.gif",
+      "preview_url": "https://giant.gfycat.com/BlueTallAtlanticsharpnosepuffer.gif",
       "move_name": "Shakunetsu Hadoken",
       "notation": "hcb+2",
       "hit_level": "s. mid, s. mid, s. mid",
@@ -2039,6 +2133,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "9 [10], 6, 4",
       "speed": "31",
       "on_block": "-1",
@@ -2048,12 +2143,12 @@
       "on_whiff": "-36",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_89"
+      "id": "akuma_90"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/GrotesqueBigheartedAnemonecrab.gif",
+      "move_name": "Gohadoken",
       "notation": "qcf+1 (or 2)",
       "hit_level": "s. mid",
       "range": "-",
@@ -2062,6 +2157,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "17",
       "on_block": "-13",
@@ -2071,7 +2167,7 @@
       "on_whiff": "-36",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_90"
+      "id": "akuma_91"
     },
     {
       "properties": [],
@@ -2085,6 +2181,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "10 [12]",
       "speed": "15",
       "on_block": "-15",
@@ -2094,11 +2191,11 @@
       "on_whiff": "-27",
       "active_frames": "7",
       "notes": "-",
-      "id": "akuma_91"
+      "id": "akuma_92"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/RespectfulFloweryDromedary.gif",
+      "preview_url": "https://giant.gfycat.com/SilverHospitableHyena.gif",
       "move_name": "Tatsumaki Zankukyaku",
       "notation": "qcb+4",
       "hit_level": "s. mid, high, high, (high)",
@@ -2108,6 +2205,7 @@
       "crush": "low",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "13 [15], 6, 4",
       "speed": "10",
       "on_block": "-14",
@@ -2117,7 +2215,7 @@
       "on_whiff": "-30",
       "active_frames": "2, 3, 3, (3)",
       "notes": "-",
-      "id": "akuma_92"
+      "id": "akuma_93"
     },
     {
       "properties": [],
@@ -2131,6 +2229,7 @@
       "crush": "low",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "6 [7], 4",
       "speed": "9",
       "on_block": "-14",
@@ -2140,7 +2239,7 @@
       "on_whiff": "-30",
       "active_frames": "3, 3",
       "notes": "-",
-      "id": "akuma_93"
+      "id": "akuma_94"
     },
     {
       "properties": [],
@@ -2154,6 +2253,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "6 [7]",
       "speed": "16",
       "on_block": "-14",
@@ -2163,12 +2263,12 @@
       "on_whiff": "-30",
       "active_frames": "3",
       "notes": "-",
-      "id": "akuma_94"
+      "id": "akuma_95"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/AntiqueMagnificentFruitbat.gif",
+      "move_name": "Zanku Hadoken",
       "notation": "(During Jump) qcf+1 (or 2)",
       "hit_level": "s. mid",
       "range": "-",
@@ -2177,6 +2277,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12]",
       "speed": "18",
       "on_block": "-",
@@ -2186,12 +2287,12 @@
       "on_whiff": "-",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_95"
+      "id": "akuma_96"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Airborne Tatsumaki Zankukyaku",
       "notation": "(During Jump) qcb+3 (or 4)",
       "hit_level": "s. mid",
       "range": "-",
@@ -2200,6 +2301,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "10 [12]",
       "speed": "12",
       "on_block": "-10 ~ +2",
@@ -2209,7 +2311,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_96"
+      "id": "akuma_97"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "EX MOVES",
+      "id": "akuma_98"
     },
     {
       "properties": [],
@@ -2223,6 +2331,7 @@
       "crush": "high, low",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "6, 6, 16",
       "speed": "11",
       "on_block": "-34",
@@ -2232,7 +2341,7 @@
       "on_whiff": "-48",
       "active_frames": "1, 9",
       "notes": "-",
-      "id": "akuma_97"
+      "id": "akuma_99"
     },
     {
       "properties": [],
@@ -2246,6 +2355,7 @@
       "crush": "high, low",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "6, 16",
       "speed": "11",
       "on_block": "-36",
@@ -2255,7 +2365,7 @@
       "on_whiff": "-48",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_98"
+      "id": "akuma_100"
     },
     {
       "properties": [],
@@ -2269,6 +2379,7 @@
       "crush": "high, low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "23 [27]",
       "speed": "13",
       "on_block": "-36",
@@ -2278,12 +2389,12 @@
       "on_whiff": "-48",
       "active_frames": "9",
       "notes": "-",
-      "id": "akuma_99"
+      "id": "akuma_101"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/MiserableJadedKitten.gif",
+      "move_name": "Messatsu Goshoryu",
       "notation": "CH f, d, d/f+1+2",
       "hit_level": "s. mid",
       "range": "1.25",
@@ -2292,6 +2403,7 @@
       "crush": "high, low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "7, 8, 9, 9, 9",
       "speed": "11",
       "on_block": "-",
@@ -2301,7 +2413,7 @@
       "on_whiff": "-",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_100"
+      "id": "akuma_102"
     },
     {
       "properties": [],
@@ -2315,6 +2427,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "12 [14], 8, 6",
       "speed": "27",
       "on_block": "+9",
@@ -2324,7 +2437,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_101"
+      "id": "akuma_103"
     },
     {
       "properties": [],
@@ -2338,6 +2451,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "10 [12], 10",
       "speed": "18",
       "on_block": "+1",
@@ -2347,7 +2461,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_102"
+      "id": "akuma_104"
     },
     {
       "properties": [],
@@ -2361,6 +2475,7 @@
       "crush": "low",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "6 [7], 6, 4, 10",
       "speed": "10",
       "on_block": "-15",
@@ -2370,7 +2485,7 @@
       "on_whiff": "-28",
       "active_frames": "1, 1, 1, 3",
       "notes": "-",
-      "id": "akuma_103"
+      "id": "akuma_105"
     },
     {
       "properties": [],
@@ -2384,6 +2499,7 @@
       "crush": "low",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "6 [7], 4, 10",
       "speed": "18",
       "on_block": "-15",
@@ -2393,7 +2509,7 @@
       "on_whiff": "-28",
       "active_frames": "1, 1, 3",
       "notes": "-",
-      "id": "akuma_104"
+      "id": "akuma_106"
     },
     {
       "properties": [],
@@ -2407,6 +2523,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "6 [7]",
       "speed": "28",
       "on_block": "-15",
@@ -2416,12 +2533,12 @@
       "on_whiff": "-28",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_105"
+      "id": "akuma_107"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/HonoredSlushyConure.gif",
+      "move_name": "Hisenkyaku to EX Zanku Hadoken",
       "notation": "(During Hisenkyaku) qcf+1+2",
       "hit_level": "mid, s. mid, s. mid",
       "range": "2",
@@ -2430,6 +2547,7 @@
       "crush": "low",
       "jail": "YES",
       "natural": "NC",
+      "environmental": "-",
       "damage": "20 [24], 10, 10",
       "speed": "22",
       "on_block": "+3",
@@ -2439,12 +2557,12 @@
       "on_whiff": "-",
       "active_frames": "2, 1, 1",
       "notes": "-",
-      "id": "akuma_106"
+      "id": "akuma_108"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Hisenkyaku to EX Airborne Tatsumaki Zankukyaku",
       "notation": "(During Hisenkyaku) qcb+3+4",
       "hit_level": "mid, s. mid, s. mid, s. mid",
       "range": "2",
@@ -2453,6 +2571,7 @@
       "crush": "low",
       "jail": "NO",
       "natural": "NC",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "20 [24], 6, 4, 10",
       "speed": "22",
       "on_block": "-25",
@@ -2462,12 +2581,12 @@
       "on_whiff": "-",
       "active_frames": "2, 1, 1, 3",
       "notes": "-",
-      "id": "akuma_107"
+      "id": "akuma_109"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/SimplisticDeadlyKarakul.gif",
+      "move_name": "EX Zanku Hadoken",
       "notation": "(During Jump) qcf+1+2",
       "hit_level": "s. mid, s. mid",
       "range": "-",
@@ -2476,6 +2595,7 @@
       "crush": "low",
       "jail": "YES",
       "natural": "-",
+      "environmental": "-",
       "damage": "10 [12], 10",
       "speed": "11",
       "on_block": "-",
@@ -2485,12 +2605,12 @@
       "on_whiff": "-",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "akuma_108"
+      "id": "akuma_110"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "EX Airborne Tatsumaki Zankukyaku",
       "notation": "(During Jump) qcb+3+4",
       "hit_level": "s. mid",
       "range": "-",
@@ -2499,6 +2619,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
       "damage": "10 [12]",
       "speed": "13",
       "on_block": "-4 ~ +11",
@@ -2508,7 +2629,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_109"
+      "id": "akuma_111"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "SUPER MOVES",
+      "id": "akuma_112"
     },
     {
       "properties": [],
@@ -2522,6 +2649,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "-",
+      "environmental": "WALL SPLAT",
       "damage": "24, 14, 10, 8, 6",
       "speed": "10",
       "on_block": "+2",
@@ -2531,12 +2659,18 @@
       "on_whiff": "-59",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_110"
+      "id": "akuma_113"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "POWER CRUSHES",
+      "id": "akuma_114"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "Level 1 Focus Attack",
       "notation": "1+2 (or WS 1+2)",
       "hit_level": "high",
       "range": "1.75",
@@ -2545,6 +2679,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "31",
       "on_block": "-20",
@@ -2554,7 +2689,7 @@
       "on_whiff": "-34",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_111"
+      "id": "akuma_115"
     },
     {
       "properties": [],
@@ -2568,6 +2703,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "31",
       "on_block": "-5",
@@ -2577,7 +2713,7 @@
       "on_whiff": "-14",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_112"
+      "id": "akuma_116"
     },
     {
       "properties": [],
@@ -2591,6 +2727,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "14 [16]",
       "speed": "31",
       "on_block": "-15",
@@ -2600,12 +2737,12 @@
       "on_whiff": "-24",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_113"
+      "id": "akuma_117"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "Level 2 Focus Attack",
       "notation": "1+2* (40f)",
       "hit_level": "high",
       "range": "1.75",
@@ -2614,6 +2751,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "40",
       "on_block": "-11",
@@ -2623,7 +2761,7 @@
       "on_whiff": "-34",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_114"
+      "id": "akuma_118"
     },
     {
       "properties": [],
@@ -2637,6 +2775,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "40",
       "on_block": "+4",
@@ -2646,7 +2785,7 @@
       "on_whiff": "-14",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_115"
+      "id": "akuma_119"
     },
     {
       "properties": [],
@@ -2660,6 +2799,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "20 [24]",
       "speed": "40",
       "on_block": "-6",
@@ -2669,12 +2809,18 @@
       "on_whiff": "-24",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_116"
+      "id": "akuma_120"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "RAGE MOVES",
+      "id": "akuma_121"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/GrimySmoggyFox.gif",
+      "move_name": "Wrath of the Raging Demon",
       "notation": "(During Rage) 1, 1, f, 3, 2",
       "hit_level": "high throw",
       "range": "4.5",
@@ -2683,21 +2829,27 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "55",
       "speed": "12",
-      "on_block": "",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-27",
       "active_frames": "17",
       "notes": "-",
-      "id": "akuma_117"
+      "id": "akuma_122"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "UNBLOCKABLE MOVES",
+      "id": "akuma_123"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "Level 3 Focus Attack",
       "notation": "1+2* (65f)",
       "hit_level": "high",
       "range": "1.75",
@@ -2706,6 +2858,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "65",
       "on_block": "-",
@@ -2715,7 +2868,7 @@
       "on_whiff": "-34",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_118"
+      "id": "akuma_124"
     },
     {
       "properties": [],
@@ -2729,6 +2882,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "65",
       "on_block": "-",
@@ -2738,7 +2892,7 @@
       "on_whiff": "-",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_119"
+      "id": "akuma_125"
     },
     {
       "properties": [],
@@ -2752,6 +2906,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "25 [30]",
       "speed": "65",
       "on_block": "-",
@@ -2761,12 +2916,18 @@
       "on_whiff": "-",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_120"
+      "id": "akuma_126"
     },
     {
       "properties": [],
       "preview_url": null,
-      "move_name": null,
+      "move_name": "THROWS",
+      "id": "akuma_127"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/BarrenDeficientHorseshoecrab.gif",
+      "move_name": "Goshoha",
       "notation": "Approach enemy... 1+3",
       "hit_level": "high",
       "range": "1.5",
@@ -2775,6 +2936,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "0",
@@ -2784,12 +2946,12 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "akuma_121"
+      "id": "akuma_128"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/YellowVelvetyBlackandtancoonhound.gif",
+      "move_name": "Syuretto",
       "notation": "Approach enemy... 2+4",
       "hit_level": "high",
       "range": "1.5",
@@ -2798,6 +2960,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "0",
@@ -2807,12 +2970,12 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "akuma_122"
+      "id": "akuma_129"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/BarrenDeficientHorseshoecrab.gif",
+      "move_name": "Goshoha",
       "notation": "Approach enemy... f+1+3",
       "hit_level": "high",
       "range": "2",
@@ -2821,6 +2984,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "0",
@@ -2830,12 +2994,12 @@
       "on_whiff": "-32",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "akuma_123"
+      "id": "akuma_130"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/YellowVelvetyBlackandtancoonhound.gif",
+      "move_name": "Syuretto",
       "notation": "Approach enemy... f+2+4",
       "hit_level": "high",
       "range": "2",
@@ -2844,6 +3008,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "0",
@@ -2853,12 +3018,12 @@
       "on_whiff": "-32",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "akuma_124"
+      "id": "akuma_131"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/YellowVelvetyBlackandtancoonhound.gif",
+      "move_name": "Syuretto",
       "notation": "Approach from left side... 1+3 (or 2+4)",
       "hit_level": "high",
       "range": "1.5",
@@ -2867,6 +3032,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "0",
@@ -2876,12 +3042,12 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "akuma_125"
+      "id": "akuma_132"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/BarrenDeficientHorseshoecrab.gif",
+      "move_name": "Goshoha",
       "notation": "Approach from right side... 1+3 (or 2+4)",
       "hit_level": "high",
       "range": "1.5",
@@ -2890,6 +3056,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "0",
@@ -2899,12 +3066,12 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "akuma_126"
+      "id": "akuma_133"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/BarrenDeficientHorseshoecrab.gif",
+      "move_name": "Goshoha",
       "notation": "Approach from behind... 1+3 (or 2+4)",
       "hit_level": "high throw",
       "range": "1.5",
@@ -2913,6 +3080,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "50",
       "speed": "12",
       "on_block": "-",
@@ -2922,7 +3090,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "-",
-      "id": "akuma_127"
+      "id": "akuma_134"
     },
     {
       "properties": [],
@@ -2936,6 +3104,7 @@
       "crush": "high",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5",
       "speed": "16",
       "on_block": "-5 (BT)",
@@ -2945,7 +3114,13 @@
       "on_whiff": "-32",
       "active_frames": "1",
       "notes": "2 BREAK",
-      "id": "akuma_128"
+      "id": "akuma_135"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "DURING TACKLE",
+      "id": "akuma_136"
     },
     {
       "properties": [],
@@ -2959,6 +3134,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5",
       "speed": "-",
       "on_block": "0",
@@ -2968,7 +3144,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1",
       "notes": "1 BREAK",
-      "id": "akuma_129"
+      "id": "akuma_137"
     },
     {
       "properties": [],
@@ -2982,6 +3158,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5",
       "speed": "-",
       "on_block": "0",
@@ -2991,7 +3168,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1",
       "notes": "2 BREAK",
-      "id": "akuma_130"
+      "id": "akuma_138"
     },
     {
       "properties": [],
@@ -3005,6 +3182,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5, 5",
       "speed": "-",
       "on_block": "0",
@@ -3014,7 +3192,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1, 1",
       "notes": "1 BREAK",
-      "id": "akuma_131"
+      "id": "akuma_139"
     },
     {
       "properties": [],
@@ -3028,6 +3206,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "5, 5, 5, 15",
       "speed": "-",
       "on_block": "0",
@@ -3037,7 +3216,13 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1, 1, 1",
       "notes": "2 BREAK",
-      "id": "akuma_132"
+      "id": "akuma_140"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "SPECIAL",
+      "id": "akuma_141"
     },
     {
       "properties": [],
@@ -3051,6 +3236,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3060,7 +3246,7 @@
       "on_whiff": "-51",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_133"
+      "id": "akuma_142"
     },
     {
       "properties": [],
@@ -3074,6 +3260,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
+      "environmental": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3083,7 +3270,7 @@
       "on_whiff": "-47",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_134"
+      "id": "akuma_143"
     }
   ]
 }
