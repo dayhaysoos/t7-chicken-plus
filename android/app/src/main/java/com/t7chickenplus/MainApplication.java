@@ -6,7 +6,6 @@ import com.facebook.react.ReactApplication;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import io.invertase.firebase.RNFirebasePackage;
 import com.reactnativecommunity.webview.RNCWebViewPackage;
-import com.sbugert.rnadmob.RNAdMobPackage;
 import com.gettipsi.stripe.StripeReactPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.dooboolab.RNIap.RNIapPackage;
@@ -44,7 +43,6 @@ public class MainApplication extends Application implements ReactApplication {
             new AsyncStoragePackage(),
             new RNFirebasePackage(),
             new RNCWebViewPackage(),
-            new RNAdMobPackage(),
             new StripeReactPackage(),
             new RNGestureHandlerPackage(),
             new RNIapPackage(),

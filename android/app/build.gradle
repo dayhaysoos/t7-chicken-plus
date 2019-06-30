@@ -111,6 +111,15 @@ android {
             abiFilters "armeabi-v7a", "x86"
         }
     }
+    signingConfigs {
+        release {
+            if(project.hasProperty('T7CHICKEN_RELEASE_STORE_FILE')) {
+                storeFile file(T7CHICKEN_RELEASE_STORE_FILE)
+                storePassword T7CHICKEN_RELEASE_STORE_PASSWORD
+                keyAlias T7CHICKEN_RELEASE_KEY_ALIAS
+                keyPassword T7CHICKEN_RELEASE_KEY_PASSWORD
+        }
+    }
     splits {
         abi {
             reset()
@@ -123,8 +132,10 @@ android {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
         }
     }
+    
     // applicationVariants are e.g. debug, release
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
@@ -144,7 +155,6 @@ dependencies {
     implementation project(':@react-native-community_async-storage')
     implementation project(':react-native-firebase')
     implementation project(':react-native-webview')
-    implementation project(':react-native-admob')
     compile project(':tipsi-stripe')
     compile project(':react-native-gesture-handler')
     compile project(':react-native-iap')
@@ -176,3 +186,4 @@ task copyDownloadableDepsToLibs(type: Copy) {
 }
 
 apply plugin: 'com.google.gms.google-services'
+}
