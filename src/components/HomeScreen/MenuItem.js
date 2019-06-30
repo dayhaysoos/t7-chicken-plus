@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 
 const ButtonWrapper = styled.TouchableOpacity`
-  height: 100;
+  height: 130;
   width: 100%;
   border-bottom-width: 1;
 `;
