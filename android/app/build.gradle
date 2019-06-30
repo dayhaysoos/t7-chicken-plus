@@ -112,14 +112,6 @@ android {
         }
     }
     signingConfigs {
-        release {
-            if(project.hasProperty('T7CHICKEN_RELEASE_STORE_FILE')) {
-                storeFile file(T7CHICKEN_RELEASE_STORE_FILE)
-                storePassword T7CHICKEN_RELEASE_STORE_PASSWORD
-                keyAlias T7CHICKEN_RELEASE_KEY_ALIAS
-                keyPassword T7CHICKEN_RELEASE_KEY_PASSWORD
-        }
-    }
     splits {
         abi {
             reset()
@@ -132,7 +124,6 @@ android {
         release {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            signingConfig signingConfigs.release
         }
     }
     
