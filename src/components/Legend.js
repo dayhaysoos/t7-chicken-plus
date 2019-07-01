@@ -13,16 +13,15 @@ const LegendContainer = styled.ScrollView`
 
 const LegendItemWrapper = styled.View`
   border-color: white;
-  height: 40;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 15;
 `;
 
 const LegendItem = styled.Text`
   color: white;
   font-size: 14;
   flex-wrap: wrap;
-  height: 50;
 `;
 
 const LegendDefinition = styled(LegendItem)`
@@ -40,56 +39,56 @@ const LegendHeader = styled.Text`
 
 const renderCharacterLegend = (label) => (
 
-  legend[label].map((item, key) => (
-    <LegendItemWrapper key={item.notation}>
-      <LegendItem>
-        {item.notation}
-      </LegendItem>
-      <LegendDefinition>
-        {item.definition}
-      </LegendDefinition>
-    </LegendItemWrapper>
-  ))
+    legend[label].map((item, key) => (
+        <LegendItemWrapper key={item.notation}>
+            <LegendItem>
+                {item.notation}
+            </LegendItem>
+            <LegendDefinition>
+                {item.definition}
+            </LegendDefinition>
+        </LegendItemWrapper>
+    ))
 );
 
 const renderGeneralLegend = (label) => (
 
-  legend.general.map((item, key) => (
-    <LegendItemWrapper key={item.notation}>
-      <LegendItem>
-        {item.notation}
-      </LegendItem>
-      <LegendDefinition>
-        {item.definition}
-      </LegendDefinition>
-    </LegendItemWrapper>
-  ))
+    legend.general.map((item, key) => (
+        <LegendItemWrapper key={item.notation}>
+            <LegendItem>
+                {item.notation}
+            </LegendItem>
+            <LegendDefinition>
+                {item.definition}
+            </LegendDefinition>
+        </LegendItemWrapper>
+    ))
 );
 
 
 const Legend = ({ label }) => (
-  <LinearGradient
-    start={{ x: 0, y: 0 }}
-    end={{ x: 1, y: 0 }}
-    colors={['#434755', '#373a46']}
-    style={{ flex: 1 }}
-  >
-    <LegendContainer>
-      {legend[label] ?
-        <LegendHeader>
+    <LinearGradient
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 0 }}
+        colors={['#434755', '#373a46']}
+        style={{ flex: 1 }}
+    >
+        <LegendContainer>
+            {legend[label] ?
+                <LegendHeader>
           Character Specific
-          </LegendHeader>
-        :
-        null
-      }
+                </LegendHeader>
+                :
+                null
+            }
 
-      {legend[label] ? renderCharacterLegend(label) : null}
-      <LegendHeader>
+            {legend[label] ? renderCharacterLegend(label) : null}
+            <LegendHeader>
         General
-      </LegendHeader>
-      {renderGeneralLegend(label)}
-    </LegendContainer>
-  </LinearGradient>
+            </LegendHeader>
+            {renderGeneralLegend(label)}
+        </LegendContainer>
+    </LinearGradient>
 );
 
 export default Legend;

@@ -12,7 +12,6 @@ import * as characterActions from '../../redux/actions/characterActions';
 const { width } = Dimensions.get('window');
 
 const CardContainer = styled.TouchableOpacity`
-  height: 100;
   width: ${width};
   padding-top: 10;
   flex-direction: row;
@@ -35,11 +34,13 @@ const MoveNameText = styled(ListViewText)`
 const MoveNameContainer = styled.View`
   width: 33%;
   padding-left: 20;
+  margin-bottom: 15;
 `;
 
 const MoveDetailContainer = styled.View`
   width: 33%;
   padding-left: 30;
+  margin-bottom: 15;
 `;
 
 const MoveDetailText = styled.Text`
