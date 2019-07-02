@@ -7596,6 +7596,11 @@ react-native-linear-gradient@^2.5.3:
   resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.5.3.tgz#d90cf19a13fcccfa8bb32025ac40a15ae1b49e99"
   integrity sha512-XdusrOXXlkI+yQpUW7YLeiq9cZiBwkvQX4XEkHPVrJ9H47gsKmdgBwObkZBzBQUP0dKK/Sg6aVpETEis4w43bQ==
 
+react-native-reanimated@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.1.0.tgz#ba6864055ec3a206cdd5209a293fe653ce276206"
+  integrity sha512-UGDVNfvuIkMqYUx6aytSzihuzv6sWubn0MQi8dRcw7BjgezhjJnVnJ/NSOcpL3cO+Ld7lFcRX6GKcskwkHdPkw==
+
 react-native-safe-area-view@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.11.0.tgz#4f3dda43c2bace37965e7c6aef5fc83d4f19d174"
@@ -7626,6 +7631,11 @@ react-native-tab-view@^1.2.0:
   integrity sha512-QNt6VkEW8SP1UJ7yjD5P4bOTWwHQfoIMD5CqnA06pcubdNwHR1NmjiNZsVnIvp5wAEVbW6yTHjLXOh1fzab4xg==
   dependencies:
     prop-types "^15.6.1"
+
+react-native-tab-view@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-2.7.1.tgz#6247ea6027be5656cb83d86ed9ee3e2c3f6e1a3b"
+  integrity sha512-GdKrosksYeDd1VRjb8PSSloY2l5MrNpRHAVxald4p1eiKkvonl7TJ1TN6FeA1wtsy/9x8CJ0dSIWlV/Xyq9R9g==
 
 react-native-webview@^5.12.0:
   version "5.12.0"

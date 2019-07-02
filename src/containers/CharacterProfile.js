@@ -1,36 +1,26 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList, Animated, ScrollView, Dimensions, View, Platform } from 'react-native';
-import styled, { ThemeProvider } from 'styled-components/native';
+import { Animated, View, Text } from 'react-native';
+import styled from 'styled-components/native';
 import { connect } from 'react-redux';
 
-import CharacterBanner from '../components/CharacterProfile/CharacterBanner';
-import ListViewCard from '../components/CharacterProfile/ListViewCard';
-import SpreadSheetRow from '../components/CharacterProfile/SpreadSheetRow';
-import HeaderRow from '../components/CharacterProfile/HeaderRow';
-import Header from '../components/Header';
 import StarWrapper from '../components/StarWrapper';
 
 import * as characterActions from '../redux/actions/characterActions';
 import * as settingsActions from '../redux/actions/settingsActions';
-import { getCharacterMoveList, getFavoriteMoves } from '../selectors/characterSelect';
 import * as favoriteActions from '../redux/actions/favoriteActions';
 import * as searchActions from '../redux/actions/searchActions';
 
 import { GradientTheme } from '../common/GradientTheme';
-
-import Drawer from 'react-native-drawer';
 import DrawerSwitcher from '../components/DrawerSwitcher';
+import { TabView, SceneMap } from 'react-native-tab-view';
 
 // components
 import BottomMenuBar from '../components/BottomMenuBar';
 import FilterMenu from '../components/FilterMenu';
-import SpreadSheet from '../components/CharacterProfile/SpreadSheet';
 import firebase from 'react-native-firebase';
 import AdBanner from '../components/AdBanner';
-
-// filters
-import * as filters from '../utils/filterFuncs';
+import MoveTab from '../components/CharacterProfile/MoveTab';
 
 //selectors
 import { filterMoves, searchMoves } from '../selectors/characterProfile';
@@ -48,40 +38,13 @@ export const mapStateToProps = ({
     filter: { activeFilters },
     search: { profileInput },
     theme,
-    settings: { listView } }, ownProps
+    settings: { listView } },
 ) => ({
     listView,
     theme,
     favorites,
-    selectedCharacterMoves: searchMoves(filterMoves(selectedCharacterMoves, activeFilters), profileInput),
-    // favoriteMoves: getFavoriteMoves({
-    //     moves: favorites.moves,
-    //     label: ownProps.navigation.getParam('label'),
-    //     moveList: ownProps.navigation.getParam('moveList')
-    // })
+    selectedCharacterMoves: searchMoves(filterMoves(selectedCharacterMoves, activeFilters), profileInput)
 });
-
-const HEADER_MAX_HEIGHT = 300;
-const HEADER_MIN_HEIGHT = 0;
-const HEADER_SCROLL_DISTANCE = HEADER_MAX_HEIGHT - HEADER_MIN_HEIGHT;
-const { height } = Dimensions.get('screen');
-
-const MainContainer = styled(Drawer)`
-  flex: 1;
-`;
-
-const EmptyText = styled.Text`
-  color: white;
-  fontSize: 20;
-  marginLeft: 10;
-`;
-
-const Text = styled.Text`
-    color: white;
-    text-align: center;
-    font-size: 18;
-    margin-bottom: 15;
-`;
 
 const FILTERS_INITIAL_STATE = {
     hitLevel: {
@@ -136,7 +99,13 @@ class CharacterProfile extends Component {
         max_height: 300,
         isContentScrollable: false,
         count: 20,
-        loading: false
+        loading: false,
+        tabIndex: 0,
+        routes: [
+            {key: 'moves', title: 'Moves'},
+            {key: 'combos', title: 'Combos'},
+            {key: 'spotlight', title: 'Spotlight'}
+        ]
     }
 
 
@@ -179,50 +148,24 @@ class CharacterProfile extends Component {
         });
     }
 
-    searchMoveList(input, moveList) {
-        return [];
-    }
-
     onDrawerClose = () => {
         this.setState({
             isOpen: false
         });
     }
 
-    renderMoveList = (selectedCharacterMoves) => {
-        const { navigation, theme } = this.props;
-        const name = navigation.getParam('name');
-
-        return (
-            <FlatList
-                initialNumToRender={10}
-                data={selectedCharacterMoves}
-                keyExtractor={(item) => item.id}
-                renderItem={({ item }) => (
-                    <ListViewCard
-                        selectedCharacterMoves={selectedCharacterMoves}
-                        item={item}
-                        name={item.name}
-                        theme={theme}
-                        navigation={navigation}
-                    />
-                )}
-            />
-        )
-    }
-
     render() {
         const { selectedCharacterMoves,
             navigation,
-            navigation: { state: { params: { label, name } } },
+            navigation: { state: { params: { label } } },
             toggleListView,
             listView,
             theme,
-            favoriteMoves,
+            updateMoveData,
             searchProfileMoves
         } = this.props;
 
-        const { isOpen, side, scrollY, searchTerm } = this.state;
+        const { isOpen, side} = this.state;
 
         return (
             <GradientTheme theme={theme}>
@@ -236,23 +179,22 @@ class CharacterProfile extends Component {
                 >
                     <View style={{ flex: 1 }}>
                         <AdBanner screen={'character-profile'} />
-                        {
-                            listView ?
-                                <ScrollView>
-                                    <CharacterBanner
-                                        name={label}
-                                    />
-                                    {this.renderMoveList(selectedCharacterMoves)}
-                                </ScrollView>
-                                :
-                                <SpreadSheet
-                                    theme={theme}
+                        <TabView
+                            navigationState={this.state}
+                            renderScene={SceneMap({
+                                moves:
+                                <MoveTab
+                                    listView={listView}
                                     selectedCharacterMoves={selectedCharacterMoves}
                                     navigation={navigation}
-                                    name={name}
-                                    updateMoveData={this.props.updateMoveData}
-                                />
-                        }
+                                    theme={theme}
+                                    label={label}
+                                    updateMoveData={updateMoveData}
+                                />,
+                                combos: <Text>Combos</Text>,
+                                spotlight: <Text>Spotlight</Text>
+                            })}
+                        />
                         <BottomMenuBar
                             isListView={listView}
                             navigation={navigation}
@@ -263,7 +205,7 @@ class CharacterProfile extends Component {
                     </View>
                 </DrawerSwitcher>
             </GradientTheme>
-        )
+        );
     }
 }
 
