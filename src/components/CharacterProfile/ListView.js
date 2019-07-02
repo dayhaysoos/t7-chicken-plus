@@ -1,7 +1,5 @@
 import React from 'react';
 import { FlatList, ScrollView } from 'react-native';
-import styled from 'styled-components';
-
 import ListViewCard from './ListViewCard';
 import CharacterBanner from './CharacterBanner';
 

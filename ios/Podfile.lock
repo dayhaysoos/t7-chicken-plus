@@ -107,6 +107,10 @@ PODS:
     - React/RCTBlob
   - RNCAsyncStorage (1.5.0):
     - React
+  - RNGestureHandler (1.3.0):
+    - React
+  - RNReanimated (1.1.0):
+    - React
   - Stripe (14.0.0)
   - tipsi-stripe (7.5.0):
     - React
@@ -129,6 +133,8 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
   - Stripe (~> 14.0.0)
   - tipsi-stripe (from `../node_modules/tipsi-stripe`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -159,6 +165,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-webview"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-community/async-storage"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
   tipsi-stripe:
     :path: "../node_modules/tipsi-stripe"
   yoga:
@@ -180,10 +190,12 @@ SPEC CHECKSUMS:
   React: 1d605e098d69bdf08960787f3446f0a9dc2e2ccf
   react-native-webview: a42108b827082f8f0333529b0772102031d5960d
   RNCAsyncStorage: 6ae5aba8a41bfe0a9f21885ec91faf23ca3fe7ee
+  RNGestureHandler: 7ccf2f3f60458e084f9ada01fbaf610f6fef073c
+  RNReanimated: 45d9313b7a62318ed00d60a811937321e43e076e
   Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
   tipsi-stripe: 237cab79699eb7d354bfc09238b3284e3b8dad84
   yoga: 128daf064cacaede0c3bb27424b6b4c71052e6cd
 
-PODFILE CHECKSUM: 026b1f785fcadab0618a24058774e45f4578363f
+PODFILE CHECKSUM: 86c875fd4a89be3837754062b383944e86baadce
 
 COCOAPODS: 1.5.3

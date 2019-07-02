@@ -1,0 +1,14 @@
+                                moves:
+                                <MoveTab
+                                    listView={listView}
+                                    selectedCharacterMoves={selectedCharacterMoves}
+                                    navigation={navigation}
+                                    theme={theme}
+                                    label={label}
+                                    updateMoveData={updateMoveData}
+                                />,
+                                combos: <Text>Combos</Text>,
+                                spotlight: <Text>Spotlight</Text>
+
+
+                                

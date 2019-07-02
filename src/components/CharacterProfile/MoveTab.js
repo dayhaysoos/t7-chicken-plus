@@ -1,4 +1,5 @@
 import React from 'react';
+import { View } from 'react-native';
 import ListView from './ListView';
 import SpreadSheet from './SpreadSheet';
 import PropTypes from 'prop-types';
@@ -11,7 +12,6 @@ const MoveTab = ({listView, selectedCharacterMoves, navigation, theme, label, up
                     selectedCharacterMoves={selectedCharacterMoves}
                     navigation={navigation}
                     theme={theme}
-                    name={name}
                     label={label}
                 />
                 :

@@ -156,8 +156,6 @@ class CharacterSelect extends Component {
 
         const searchedData = data.filter(({ label }) => label.includes(searchTerm.toLowerCase()));
 
-        console.log('wut');
-
         return (
             <ThemeProvider theme={theme}>
                 <GradientTheme theme={theme}>

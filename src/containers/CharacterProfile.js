@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Animated, View, Text } from 'react-native';
+import { Animated, View, Text, Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import { connect } from 'react-redux';
 
@@ -13,7 +13,7 @@ import * as searchActions from '../redux/actions/searchActions';
 
 import { GradientTheme } from '../common/GradientTheme';
 import DrawerSwitcher from '../components/DrawerSwitcher';
-import { TabView, SceneMap } from 'react-native-tab-view';
+import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
 
 // components
 import BottomMenuBar from '../components/BottomMenuBar';
@@ -59,6 +59,14 @@ const FILTERS_INITIAL_STATE = {
     }
 };
 
+const Combos = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <Text>Combos coming soon!</Text>
+</View>;
+
+const Spotlight = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <Text>Stay Tuned for Player Spotlights!</Text>
+</View>;
+  
 class CharacterProfile extends Component {
 
     static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
@@ -100,7 +108,7 @@ class CharacterProfile extends Component {
         isContentScrollable: false,
         count: 20,
         loading: false,
-        tabIndex: 0,
+        index: 0,
         routes: [
             {key: 'moves', title: 'Moves'},
             {key: 'combos', title: 'Combos'},
@@ -155,6 +163,7 @@ class CharacterProfile extends Component {
     }
 
     render() {
+        const { tabIndex } = this.state;
         const { selectedCharacterMoves,
             navigation,
             navigation: { state: { params: { label } } },
@@ -166,6 +175,17 @@ class CharacterProfile extends Component {
         } = this.props;
 
         const { isOpen, side} = this.state;
+
+        const MoveTabWrapper = () => (
+            <MoveTab
+                listView={listView}
+                selectedCharacterMoves={selectedCharacterMoves}
+                navigation={navigation}
+                theme={theme}
+                label={label}
+                updateMoveData={updateMoveData}
+            />
+        );
 
         return (
             <GradientTheme theme={theme}>
@@ -181,18 +201,19 @@ class CharacterProfile extends Component {
                         <AdBanner screen={'character-profile'} />
                         <TabView
                             navigationState={this.state}
+                            onIndexChange={index => this.setState({index})}
+                            initialLayout={{width: Dimensions.get('window').width}}
+                            renderTabBar={props =>
+                                <TabBar 
+                                    {...props}
+                                    style={{backgroundColor: '#19181c'}}
+                                    indicatorStyle={styles.indicator}
+                                />
+                            }
                             renderScene={SceneMap({
-                                moves:
-                                <MoveTab
-                                    listView={listView}
-                                    selectedCharacterMoves={selectedCharacterMoves}
-                                    navigation={navigation}
-                                    theme={theme}
-                                    label={label}
-                                    updateMoveData={updateMoveData}
-                                />,
-                                combos: <Text>Combos</Text>,
-                                spotlight: <Text>Spotlight</Text>
+                                moves: MoveTabWrapper,
+                                combos: Combos,
+                                spotlight: Spotlight
                             })}
                         />
                         <BottomMenuBar
@@ -208,5 +229,16 @@ class CharacterProfile extends Component {
         );
     }
 }
+
+const styles = StyleSheet.create({
+    indicator: {
+        backgroundColor: '#FF412C',
+        position: 'absolute',
+        left: 0,
+        bottom: 0,
+        right: 0,
+        height: 5,
+    },
+});
 
 export default connect(mapStateToProps, mapDispatcthToProps)(CharacterProfile);
