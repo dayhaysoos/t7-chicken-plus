@@ -1974,12 +1974,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "SPECIAL MOVES",
-      "id": "eliza_83"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": "Dazzling Wave",
       "notation": "f, F+4, 2, qcf+1",
       "hit_level": "mid, mid, s. mid",
@@ -2291,12 +2285,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "EX MOVES",
-      "id": "eliza_97"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/EnchantedEquatorialAfricancivet.gif",
       "move_name": "Dazzling Wave Chaos",
       "notation": "f, F+4, 2, qcf+1+2",
@@ -2513,12 +2501,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "SUPER MOVES",
-      "id": "eliza_107"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ImpressionableUnhealthyHagfish.gif",
       "move_name": "Bloody Horn",
       "notation": "qcf, qcf+1+2",
@@ -2539,12 +2521,6 @@
       "on_whiff": "-38",
       "active_frames": "1",
       "id": "eliza_108"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "eliza_109"
     },
     {
       "properties": [],
@@ -2571,12 +2547,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "eliza_111"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/CelebratedSoreBullmastiff.gif",
       "move_name": "Rage Art",
       "notation": "(During Rage) b+3+4",
@@ -2597,12 +2567,6 @@
       "on_whiff": "-45",
       "active_frames": "1",
       "id": "eliza_112"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "eliza_113"
     },
     {
       "properties": [],
@@ -2651,12 +2615,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "eliza_115"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO MOON GLIDE",
-      "id": "eliza_116"
     },
     {
       "properties": [],
@@ -2825,12 +2783,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "eliza_123"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING MOON GLIDE",
-      "id": "eliza_124"
     },
     {
       "properties": [],
@@ -3122,12 +3074,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SLEEP",
-      "id": "eliza_137"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/BlankTemptingGoldfinch.gif",
       "move_name": "Endless Sleep",
       "notation": "d+1+2 (or FC d+1+2)",
@@ -3221,12 +3167,6 @@
       "active_frames": "1",
       "notes": "-",
       "id": "eliza_141"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "eliza_142"
     },
     {
       "properties": [],
@@ -3447,12 +3387,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "eliza_152"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -3545,12 +3479,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "eliza_156"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "eliza_157"
     },
     {
       "properties": [],

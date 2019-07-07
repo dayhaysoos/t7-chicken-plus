@@ -18,6 +18,7 @@ target 't7chickenplus' do
 
   #Explicitly include Yoga if you are using RN >= 0.42.0
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
   #Third party deps podspec link
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
@@ -38,6 +39,8 @@ target 't7chickenplus' do
   pod 'react-native-webview', :path => '../node_modules/react-native-webview'
 
   pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
 
   target 't7chickenplusTests' do
     inherit! :search_paths

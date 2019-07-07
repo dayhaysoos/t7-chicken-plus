@@ -2669,12 +2669,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO GOLIATH",
-      "id": "gigas_112"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/DisastrousSadLamprey.gif",
       "move_name": "Goliath",
       "notation": "f+3+4",
@@ -2891,12 +2885,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING GOLIATH",
-      "id": "gigas_122"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/UnkemptImpoliteDobermanpinscher.gif",
       "move_name": "Metal Crusher",
       "notation": "GOL (After Two Steps) 1",
@@ -2990,12 +2978,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "gigas_126"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO GOLEM SET UP",
-      "id": "gigas_127"
     },
     {
       "properties": [],
@@ -3119,12 +3101,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING GOLEM SET UP",
-      "id": "gigas_133"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/GrippingFlimsyFlatcoatretriever.gif",
       "move_name": "Disarming Golem",
       "notation": "SG u/b",
@@ -3197,12 +3173,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "gigas_137"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/WhoppingShrillImpala.gif",
       "move_name": "Repelling Blast",
       "notation": "d+1+2",
@@ -3248,12 +3218,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "gigas_139"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "gigas_140"
     },
     {
       "properties": [],
@@ -3401,12 +3365,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "gigas_147"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/TestyBlindDiamondbackrattlesnake.gif",
       "move_name": "Hell Crusher",
       "notation": "GOL (After Two Steps) 2",
@@ -3500,12 +3458,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "gigas_151"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "gigas_152"
     },
     {
       "properties": [],
@@ -3746,12 +3698,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "gigas_162"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "gigas_163"
     },
     {
       "properties": [],

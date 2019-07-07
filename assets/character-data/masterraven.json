@@ -3677,12 +3677,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO CHARGE",
-      "id": "masterraven_154"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "1+2+3+4",
       "hit_level": "-",
@@ -3727,12 +3721,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "masterraven_156"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO HAZE",
-      "id": "masterraven_157"
     },
     {
       "properties": [],
@@ -3805,12 +3793,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "masterraven_160"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING HAZE",
-      "id": "masterraven_161"
     },
     {
       "properties": [],
@@ -3931,12 +3913,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "masterraven_166"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO THE LABYRINTH",
-      "id": "masterraven_167"
     },
     {
       "properties": [],
@@ -4835,12 +4811,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "EXIT THE LABYRINTH",
-      "id": "masterraven_206"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": "Sixth Sense",
       "notation": "LAB f+1+2",
       "hit_level": "-",
@@ -5704,12 +5674,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO PHANTOM WARP",
-      "id": "masterraven_243"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/DefenselessJaggedLemming.gif",
       "move_name": "Phantom Warp",
       "notation": "LAB f, f, f (close)",
@@ -5806,12 +5770,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SHADOW SPRINT",
-      "id": "masterraven_248"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AnnualSkeletalBluetonguelizard.gif",
       "move_name": "Shadow Sprint",
       "notation": "qcf",
@@ -5857,12 +5815,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "masterraven_250"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING SHADOW SPRINT",
-      "id": "masterraven_251"
     },
     {
       "properties": [],
@@ -6054,12 +6006,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "masterraven_259"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO WHITE HOLE",
-      "id": "masterraven_260"
     },
     {
       "properties": [],
@@ -6255,12 +6201,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "masterraven_269"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AgitatedTestyAmericanwirehair.gif",
       "move_name": "Alondite",
       "notation": "f+1+2",
@@ -6304,12 +6244,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "masterraven_271"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "masterraven_272"
     },
     {
       "properties": [],
@@ -6409,12 +6343,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "masterraven_277"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/CriminalFaithfulBluebreastedkookaburra.gif",
       "move_name": "Pandora Spin",
       "notation": "u/b, b+3+4",
@@ -6484,12 +6412,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "masterraven_280"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "masterraven_281"
     },
     {
       "properties": [],
@@ -6758,12 +6680,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "masterraven_293"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -6856,12 +6772,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "masterraven_297"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "masterraven_298"
     },
     {
       "properties": [],

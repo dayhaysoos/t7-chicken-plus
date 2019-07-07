@@ -3293,12 +3293,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO DEVIL TRANSFORMATION",
-      "id": "kazuya_138"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/FlusteredThoughtfulGhostshrimp.gif",
       "move_name": "Devil Transformation",
       "notation": "(During Rage) u/b+1+2",
@@ -3344,12 +3338,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kazuya_140"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING DEVIL TRANSFORMATION",
-      "id": "kazuya_141"
     },
     {
       "properties": [],
@@ -3569,12 +3557,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "kazuya_151"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/UglyMellowAnaconda.gif",
       "move_name": "Soul Thrust",
       "notation": "f+2",
@@ -3596,12 +3578,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kazuya_152"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "kazuya_153"
     },
     {
       "properties": [],
@@ -3650,12 +3626,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kazuya_155"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "kazuya_156"
     },
     {
       "properties": [],
@@ -3800,12 +3770,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kazuya_162"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "kazuya_163"
     },
     {
       "properties": [],
@@ -4074,12 +4038,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "kazuya_175"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -4172,12 +4130,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kazuya_179"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "kazuya_180"
     },
     {
       "properties": [],

@@ -3486,12 +3486,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO BT",
-      "id": "king_146"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "1+2",
       "hit_level": "mid",
@@ -3584,12 +3578,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "king_150"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING BT",
-      "id": "king_151"
     },
     {
       "properties": [],
@@ -3689,12 +3677,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO JAGUAR STEP",
-      "id": "king_156"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SillyRingedAmericanredsquirrel.gif",
       "move_name": "Jaguar Step",
       "notation": "3+4",
@@ -3740,12 +3722,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "king_158"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING JAGUAR STEP",
-      "id": "king_159"
     },
     {
       "properties": [],
@@ -4349,12 +4325,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "king_185"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/MaleAthleticBison.gif",
       "move_name": "Shoulder Tackle",
       "notation": "f+2+3",
@@ -4376,12 +4346,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "king_186"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "king_187"
     },
     {
       "properties": [],
@@ -4430,12 +4394,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "king_189"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "king_190"
     },
     {
       "properties": [],
@@ -4652,12 +4610,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "king_199"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "king_200"
     },
     {
       "properties": [],
@@ -6941,12 +6893,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "king_296"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -7040,12 +6986,7 @@
       "notes": "-",
       "id": "king_300"
     },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "king_301"
-    },
+
     {
       "properties": [],
       "preview_url": null,

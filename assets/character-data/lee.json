@@ -4277,12 +4277,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO HITMAN",
-      "id": "lee_179"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/RashRaggedJunco.gif",
       "move_name": "Back Handspring to Hitman",
       "notation": "u/b, b",
@@ -4956,12 +4950,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING HITMAN",
-      "id": "lee_208"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "HMS u or d",
       "hit_level": "-",
@@ -5345,12 +5333,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO MIST STEP",
-      "id": "lee_225"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ConcreteTeemingBeagle.gif",
       "move_name": "Mist Step",
       "notation": "f, n",
@@ -5543,12 +5525,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING MIST STEP",
-      "id": "lee_234"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/CraftyOptimisticCamel.gif",
       "move_name": "Sway",
       "notation": "MS b, n",
@@ -5669,12 +5645,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "lee_240"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SlimyUnconsciousBrahmanbull.gif",
       "move_name": "Mist Flash",
       "notation": "b+3+4",
@@ -5696,12 +5666,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "lee_241"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "lee_242"
     },
     {
       "properties": [],
@@ -5777,12 +5741,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "lee_246"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/DisloyalHarmoniousAfricanparadiseflycatcher.gif",
       "move_name": "Silver Cyclone",
       "notation": "d+3+4",
@@ -5828,12 +5786,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "lee_248"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "lee_249"
     },
     {
       "properties": [],
@@ -6078,12 +6030,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "lee_260"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -6176,12 +6122,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "lee_264"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "lee_265"
     },
     {
       "properties": [],

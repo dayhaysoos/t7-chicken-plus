@@ -114,14 +114,14 @@ class CharacterSelect extends Component {
 
     navigateToCharacterProfile = (item) => {
         const { navigation, updateSelectedCharacterMoves, toggleCharacterStar, resetSearchBar } = this.props;
-        const { favorite, label, name } = item;
+        const { favorite, label, displayName } = item;
         resetSearchBar();
         updateSelectedCharacterMoves(label);
 
         navigation.navigate('CharacterProfile', {
             favorite,
             label,
-            name,
+            name: displayName,
             onStarPress: () => toggleCharacterStar(label)
         });
 
@@ -155,8 +155,6 @@ class CharacterSelect extends Component {
         const data = showFavorites ? characterData.filter(char => char.favorite) : characterData;
 
         const searchedData = data.filter(({ label }) => label.includes(searchTerm.toLowerCase()));
-
-        console.log('wut');
 
         return (
             <ThemeProvider theme={theme}>

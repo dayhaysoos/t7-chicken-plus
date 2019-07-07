@@ -2117,12 +2117,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO STEALTH STEP",
-      "id": "shaheen_89"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/FinishedDimwittedDaddylonglegs.gif",
       "move_name": "Stealth Step",
       "notation": "d/f, D/F",
@@ -2363,12 +2357,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING STEALTH STEP",
-      "id": "shaheen_100"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/RespectfulAbleDuckbillplatypus.gif",
       "move_name": "Blinding Snake",
       "notation": "SNK 1",
@@ -2513,12 +2501,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "shaheen_107"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AbsoluteSeparateIndianspinyloach.gif",
       "move_name": "Elnath",
       "notation": "f, F+4",
@@ -2540,12 +2522,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "shaheen_108"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "shaheen_109"
     },
     {
       "properties": [],
@@ -2672,12 +2648,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "shaheen_115"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "shaheen_116"
     },
     {
       "properties": [],
@@ -2898,12 +2868,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "shaheen_126"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -2996,12 +2960,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "shaheen_130"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "shaheen_131"
     },
     {
       "properties": [],

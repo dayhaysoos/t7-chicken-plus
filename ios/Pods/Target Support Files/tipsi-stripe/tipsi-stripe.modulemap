@@ -1,6 +1,0 @@
-framework module tipsi_stripe {
-  umbrella header "tipsi-stripe-umbrella.h"
-
-  export *
-  module * { export * }
-}

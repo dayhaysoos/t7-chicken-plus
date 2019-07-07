@@ -3677,12 +3677,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO HARRIER",
-      "id": "katarina_154"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/CharmingEllipticalGreatwhiteshark.gif",
       "move_name": "Harrier",
       "notation": "f+4",
@@ -3875,12 +3869,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING HARRIER",
-      "id": "katarina_163"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "HAR D",
       "hit_level": "-",
@@ -4024,12 +4012,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "katarina_170"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ReadyGleamingKiskadee.gif",
       "move_name": "Fledgeling Foot",
       "notation": "f+3+4",
@@ -4051,12 +4033,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "katarina_171"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "katarina_172"
     },
     {
       "properties": [],
@@ -4108,12 +4084,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "katarina_175"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ShadowyFrightenedAsiaticmouflon.gif",
       "move_name": "Eclipse Plumage",
       "notation": "d/b+3+4",
@@ -4135,12 +4105,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "katarina_176"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "katarina_177"
     },
     {
       "properties": [],
@@ -4361,12 +4325,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "katarina_187"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -4459,12 +4417,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "katarina_191"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "katarina_192"
     },
     {
       "properties": [],

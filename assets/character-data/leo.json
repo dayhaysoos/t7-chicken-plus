@@ -3485,12 +3485,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO FO BU",
-      "id": "leo_146"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/LeanTautGosling.gif",
       "move_name": "Fo Bu",
       "notation": "d+1+2 or (FC d/b or d+1+2)",
@@ -3684,12 +3678,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING FO BU",
-      "id": "leo_155"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "BOK 1",
       "hit_level": "mid",
@@ -3857,12 +3845,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO JIN BU",
-      "id": "leo_163"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/NastyUglyChital.gif",
       "move_name": "Jin Bu",
       "notation": "qcf",
@@ -3932,12 +3914,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "leo_166"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING JIN BU",
-      "id": "leo_167"
     },
     {
       "properties": [],
@@ -4058,12 +4034,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "leo_172"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO JIN JI DU LI",
-      "id": "leo_173"
     },
     {
       "properties": [],
@@ -4260,12 +4230,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING JIN JI DU LI",
-      "id": "leo_182"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "KNK 1",
       "hit_level": "high",
@@ -4457,12 +4421,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "leo_191"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/IncredibleKindlyKillifish.gif",
       "move_name": "Dual Rising Fists",
       "notation": "1+2",
@@ -4508,12 +4466,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "leo_193"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "leo_194"
     },
     {
       "properties": [],
@@ -4565,12 +4517,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "leo_197"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AnimatedBogusLamprey.gif",
       "move_name": "Xiao Jia Er Lu Liang Yi Zhou",
       "notation": "b+2+3",
@@ -4592,12 +4538,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "leo_198"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "leo_199"
     },
     {
       "properties": [],
@@ -4818,12 +4758,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "leo_209"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -4916,12 +4850,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "leo_213"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "leo_214"
     },
     {
       "properties": [],

@@ -4685,12 +4685,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "asuka_196"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AssuredDefiniteGraysquirrel.gif",
       "move_name": "Exorcisor",
       "notation": "f+1+2",
@@ -4712,12 +4706,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "asuka_197"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "asuka_198"
     },
     {
       "properties": [],
@@ -4770,12 +4758,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "asuka_201"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "1, 2, 3*",
       "hit_level": "mid",
@@ -4820,12 +4802,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "asuka_203"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "asuka_204"
     },
     {
       "properties": [],
@@ -5118,12 +5094,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "asuka_217"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -5216,14 +5186,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "asuka_221"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "notation": "COMMAND",
-      "hit_level": "HIT LEVEL",
-      "id": "asuka_222"
     },
     {
       "properties": [],

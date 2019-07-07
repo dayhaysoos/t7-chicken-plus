@@ -3652,12 +3652,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO DECEPTIVE STEP",
-      "id": "feng_153"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/UnnaturalVacantCamel.gif",
       "move_name": "Deceptive Step",
       "notation": "b+3+4",
@@ -3703,12 +3697,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "feng_155"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING DECEPTIVE STEP",
-      "id": "feng_156"
     },
     {
       "properties": [],
@@ -3880,12 +3868,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SHIFTING CLOUDS",
-      "id": "feng_164"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/UniformUnsightlyGordonsetter.gif",
       "move_name": "Shifting Clouds",
       "notation": "f+3+4",
@@ -3931,12 +3913,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "feng_166"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING SHIFTING CLOUDS",
-      "id": "feng_167"
     },
     {
       "properties": [],
@@ -4475,12 +4451,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "EXIT ZHUAN SHEN HUAN WU",
-      "id": "feng_191"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During BT) b, f, u or d",
       "hit_level": "-",
@@ -4750,12 +4720,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "feng_204"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/DearEducatedCollardlizard.gif",
       "move_name": "Nian Zhang Mie Ba",
       "notation": "f, F+1+2",
@@ -4801,12 +4765,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "feng_206"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "feng_207"
     },
     {
       "properties": [],
@@ -4858,12 +4816,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "feng_210"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/FewCarelessBushsqueaker.gif",
       "move_name": "Death Palm",
       "notation": "u/b+1+2",
@@ -4885,12 +4837,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "feng_211"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "feng_212"
     },
     {
       "properties": [],
@@ -5111,12 +5057,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "feng_222"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -5209,12 +5149,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "feng_226"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "feng_227"
     },
     {
       "properties": [],

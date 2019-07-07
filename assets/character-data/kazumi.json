@@ -2357,12 +2357,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO FEARLESS WARRIOR",
-      "id": "kazumi_99"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/GenuineAdvancedApe.gif",
       "move_name": "Fearless Warrior",
       "notation": "f+3+4",
@@ -2432,12 +2426,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kazumi_102"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING FEARLESS WARRIOR",
-      "id": "kazumi_103"
     },
     {
       "properties": [],
@@ -2609,12 +2597,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO LAST WARRIOR",
-      "id": "kazumi_111"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/MelodicExemplaryAmberpenshell.gif",
       "move_name": "Last Warrior",
       "notation": "b+3+4",
@@ -2660,12 +2642,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kazumi_113"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "kazumi_114"
     },
     {
       "properties": [],
@@ -2741,12 +2717,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "kazumi_118"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SmallConsciousHapuka.gif",
       "move_name": "Rage Art",
       "notation": "(During Rage) d+1+2",
@@ -2795,12 +2765,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "kazumi_121"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/MildGraciousGroundbeetle.gif",
       "move_name": "Bloody Demon's Horn",
       "notation": "RSS f+1+2",
@@ -2822,12 +2786,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "kazumi_122"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "kazumi_123"
     },
     {
       "properties": [],
@@ -3072,12 +3030,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "kazumi_134"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -3170,12 +3122,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kazumi_138"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "kazumi_139"
     },
     {
       "properties": [],

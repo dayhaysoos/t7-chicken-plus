@@ -3725,12 +3725,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO FORWARD ROLL",
-      "id": "kuma_156"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SaneMadBrahmanbull.gif",
       "move_name": "Forward Roll",
       "notation": "FC d/f+1+2",
@@ -3800,12 +3794,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kuma_159"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING FORWARD ROLL",
-      "id": "kuma_160"
     },
     {
       "properties": [],
@@ -3926,12 +3914,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kuma_165"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO HUNTING",
-      "id": "kuma_166"
     },
     {
       "properties": [],
@@ -4220,12 +4202,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kuma_178"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING HUNTING",
-      "id": "kuma_179"
     },
     {
       "properties": [],
@@ -4757,12 +4733,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SIT",
-      "id": "kuma_202"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/PoshSkinnyAmericanredsquirrel.gif",
       "move_name": "Sit",
       "notation": "d+3+4",
@@ -4784,12 +4754,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kuma_203"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING SIT",
-      "id": "kuma_204"
     },
     {
       "properties": [],
@@ -4889,12 +4853,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "kuma_209"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/TallFeminineAsp.gif",
       "move_name": "Bear Slash",
       "notation": "b+1",
@@ -4943,12 +4901,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "kuma_212"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SoreDistortedGuineafowl.gif",
       "move_name": "Rage Art",
       "notation": "(During Rage) b+1+2",
@@ -4994,12 +4946,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kuma_214"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "kuma_215"
     },
     {
       "properties": [],
@@ -5096,12 +5042,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kuma_219"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "kuma_220"
     },
     {
       "properties": [],
@@ -5346,12 +5286,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "kuma_231"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -5444,12 +5378,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "kuma_235"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "kuma_236"
     },
     {
       "properties": [],

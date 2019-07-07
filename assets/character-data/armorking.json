@@ -2957,12 +2957,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO BT",
-      "id": "armorking_124"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "1+2, B",
       "hit_level": "mid",
@@ -3034,12 +3028,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING BT",
-      "id": "armorking_128"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/RelievedSnappyCarp.gif",
       "move_name": "Blind Kick",
       "notation": "BT 3",
@@ -3085,12 +3073,6 @@
       "active_frames": "1",
       "notes": "-",
       "id": "armorking_130"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO CHARGE",
-      "id": "armorking_131"
     },
     {
       "properties": [],
@@ -3143,12 +3125,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING CHARGE",
-      "id": "armorking_134"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Charge) f, n, d, d/f+2",
       "hit_level": "high",
@@ -3169,12 +3145,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "armorking_135"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SHADOW STEP",
-      "id": "armorking_136"
     },
     {
       "properties": [],
@@ -3251,12 +3221,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING SHADOW STEP",
-      "id": "armorking_140"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "D/F",
       "hit_level": "-",
@@ -3304,12 +3268,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "armorking_143"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ObviousReliableBrocketdeer.gif",
       "move_name": "Hammer Impact",
       "notation": "f+1+2",
@@ -3331,12 +3289,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "armorking_144"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "armorking_145"
     },
     {
       "properties": [],
@@ -3535,12 +3487,6 @@
       "active_frames": "30",
       "notes": "-",
       "id": "armorking_154"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "armorking_155"
     },
     {
       "properties": [],
@@ -4336,12 +4282,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING COBRA CLUTCH",
-      "id": "armorking_189"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SnappyNaturalIcelandicsheepdog.gif",
       "move_name": "Flinging Half Nelson",
       "notation": "(During Cobra Clutch) 2+4, 1+2, 1+2",
@@ -4411,12 +4351,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "armorking_192"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING SLEEPER",
-      "id": "armorking_193"
     },
     {
       "properties": [],
@@ -4517,12 +4451,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "armorking_198"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -4615,12 +4543,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "armorking_202"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "armorking_203"
     },
     {
       "properties": [],

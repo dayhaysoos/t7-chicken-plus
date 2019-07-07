@@ -5693,12 +5693,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO EGG BOUND",
-      "id": "bob_238"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SomeNeglectedCoelacanth.gif",
       "move_name": "Egg Bound",
       "notation": "u+1+2",
@@ -5723,12 +5717,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING EGG BOUND",
-      "id": "bob_240"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/HeavyUltimateEmperorshrimp.gif",
       "move_name": "Hatching Punch",
       "notation": "u+1+2, 1",
@@ -5750,12 +5738,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "bob_241"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SPINNING BALL",
-      "id": "bob_242"
     },
     {
       "properties": [],
@@ -5876,12 +5858,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "bob_247"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING SPINNING BALL",
-      "id": "bob_248"
     },
     {
       "properties": [],
@@ -6030,12 +6006,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO REVERSE SPINNING BALL",
-      "id": "bob_255"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "b+3+4",
       "hit_level": "-",
@@ -6107,12 +6077,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "bob_259"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/IllImpressiveJabiru.gif",
       "move_name": "Giga Jacker",
       "notation": "f+1+2",
@@ -6134,12 +6098,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "bob_260"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "bob_261"
     },
     {
       "properties": [],
@@ -6215,12 +6173,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "bob_265"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AffectionateBitesizedHoki.gif",
       "move_name": "Sucre Tile",
       "notation": "1+2+3+4, 4",
@@ -6290,12 +6242,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "bob_268"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "bob_269"
     },
     {
       "properties": [],
@@ -6540,12 +6486,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "bob_280"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -6638,13 +6578,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "bob_284"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "notation": "COMMAND",
-      "id": "bob_285"
     },
     {
       "properties": [],

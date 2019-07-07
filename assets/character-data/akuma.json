@@ -1757,12 +1757,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL MOVES",
-      "id": "akuma_74"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ForcefulImmenseHerculesbeetle.gif",
       "move_name": "Goshoryuken",
       "notation": "f, d, d/f+1",
@@ -2315,12 +2309,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "EX MOVES",
-      "id": "akuma_98"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/HighBlueHorsechestnutleafminer.gif",
       "move_name": "EX Goshoryuken",
       "notation": "f, d, d/f+1+2",
@@ -2633,12 +2621,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "SUPER MOVES",
-      "id": "akuma_112"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/InsecureUnsightlyDormouse.gif",
       "move_name": "Messatsu Gohado",
       "notation": "qcf, qcf+1+2",
@@ -2660,12 +2642,6 @@
       "active_frames": "1",
       "notes": "-",
       "id": "akuma_113"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "akuma_114"
     },
     {
       "properties": [],
@@ -2813,12 +2789,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "akuma_121"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/GrimySmoggyFox.gif",
       "move_name": "Wrath of the Raging Demon",
       "notation": "(During Rage) 1, 1, f, 3, 2",
@@ -2839,12 +2809,6 @@
       "active_frames": "17",
       "notes": "-",
       "id": "akuma_122"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "akuma_123"
     },
     {
       "properties": [],
@@ -2917,12 +2881,6 @@
       "active_frames": "1",
       "notes": "-",
       "id": "akuma_126"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "akuma_127"
     },
     {
       "properties": [],
@@ -3119,12 +3077,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "akuma_136"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -3217,12 +3169,6 @@
       "active_frames": "1, 1, 1, 1, 1",
       "notes": "2 BREAK",
       "id": "akuma_140"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "akuma_141"
     },
     {
       "properties": [],

@@ -4393,12 +4393,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "dragunov_184"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/FewLiquidConure.gif",
       "move_name": "Bloodhound Strike",
       "notation": "1+2",
@@ -4420,12 +4414,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "dragunov_185"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "dragunov_186"
     },
     {
       "properties": [],
@@ -4526,12 +4514,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "dragunov_191"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": "Sub Zero",
       "notation": "b+2+3",
       "hit_level": "mid",
@@ -4552,12 +4534,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "dragunov_192"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "dragunov_193"
     },
     {
       "properties": [],
@@ -4897,12 +4873,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING AMBUSH TACKLE",
-      "id": "dragunov_208"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/HelpfulUnsteadyLhasaapso.gif",
       "move_name": "Frost Bite",
       "notation": "(During Ambush Tackle) 1",
@@ -4972,12 +4942,6 @@
       "active_frames": "-",
       "notes": "1+2 BREAK",
       "id": "dragunov_211"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "dragunov_212"
     },
     {
       "properties": [],

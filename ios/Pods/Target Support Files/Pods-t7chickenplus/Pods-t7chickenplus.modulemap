@@ -1,6 +1,0 @@
-framework module Pods_t7chickenplus {
-  umbrella header "Pods-t7chickenplus-umbrella.h"
-
-  export *
-  module * { export * }
-}
