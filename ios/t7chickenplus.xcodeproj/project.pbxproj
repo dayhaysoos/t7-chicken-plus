@@ -51,7 +51,6 @@
 		8397BC2E21AB289C009B463A /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8397BC2D21AB2862009B463A /* libSplashScreen.a */; };
 		83AF7E0222C81AC5001EDB1A /* libFirebaseCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AF7E0122C81AC5001EDB1A /* libFirebaseCore.a */; };
 		83AF7E0422C81AD0001EDB1A /* libFirebaseInstanceID.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AF7E0322C81AD0001EDB1A /* libFirebaseInstanceID.a */; };
-		83C1356821CB718E006D0582 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C1356521CB7131006D0582 /* libRNGestureHandler.a */; };
 		A1FD614B12DF7B80C8E8E691 /* libPods-t7chickenplusTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDD2721668E191FB538700F /* libPods-t7chickenplusTests.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B75AC82578DB68142B7E49C3 /* libPods-t7chickenplus-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A15604A9DA1BCB55D2CC58 /* libPods-t7chickenplus-tvOS.a */; };
@@ -501,7 +500,6 @@
 				830C1BBB21D08DBB000BA974 /* libBVLinearGradient.a in Frameworks */,
 				830C1BBA21D08CEB000BA974 /* libz.tbd in Frameworks */,
 				830C1BB921D08CD2000BA974 /* libCodePush.a in Frameworks */,
-				83C1356821CB718E006D0582 /* libRNGestureHandler.a in Frameworks */,
 				8397BC2E21AB289C009B463A /* libSplashScreen.a in Frameworks */,
 				83932D9621A53B5C00FFB44A /* libRNIap.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
