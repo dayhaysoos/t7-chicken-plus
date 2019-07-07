@@ -1,0 +1,36 @@
+{
+  "providedBy": "OffInBed",
+  "providerTwitter": "@Dayhaysoos",
+  "combos": [
+    {
+      "starter": "WS 3",
+      "combo": "f+1+2 (S!), f,f+4, delay 4,  b+1+2",
+      "damage": 60,
+      "oki": "No",
+      "volunteer": "OffInBed",
+      "volunteer twitter": "@Dayhaysoos"
+    },
+    {
+      "starter": "WS 3",
+      "combo": "f+1+2 (S!), f+3,4, 1, f+3,4",
+      "damage": 59,
+      "oki": "Yes"
+    },
+    {
+      "starter": "WS 3",
+      "combo": "f+1+2 (S!), f,f+2, b+1+2",
+      "damage": 59,
+      "oki": "No"
+    },
+    {
+      "starter": "u/f+4",
+      "combo": "f+1+2 (S!), f+3, 4, 1, f+3, 4",
+      "damage": 56,
+      "oki": "Yes"
+    },
+    {
+      "starter": "CH Wake up 3",
+      "combo": "WS 1, d/b+1,4 (S!), 3~4,3 "
+    }
+  ]
+}

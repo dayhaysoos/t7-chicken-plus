@@ -1,10 +1,9 @@
 import React from 'react';
-import { View } from 'react-native';
 import ListView from './ListView';
 import SpreadSheet from './SpreadSheet';
 import PropTypes from 'prop-types';
 
-const MoveTab = ({listView, selectedCharacterMoves, navigation, theme, label, updateMoveData}) => (
+const MoveTab = ({listView, selectedCharacterMoves, navigation, theme, label, updateMoveData, name}) => (
     <React.Fragment>
         {
             listView ?

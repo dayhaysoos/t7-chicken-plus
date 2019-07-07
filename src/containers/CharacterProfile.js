@@ -21,9 +21,11 @@ import FilterMenu from '../components/FilterMenu';
 import firebase from 'react-native-firebase';
 import AdBanner from '../components/AdBanner';
 import MoveTab from '../components/CharacterProfile/MoveTab';
+import ComboTab from '../components/CharacterProfile/ComboTab';
 
 //selectors
 import { filterMoves, searchMoves } from '../selectors/characterProfile';
+import CHARACTER_COMBOS from '../constants/characterCombos';
 
 export const mapDispatcthToProps = {
     ...characterActions,
@@ -112,7 +114,7 @@ class CharacterProfile extends Component {
         routes: [
             {key: 'moves', title: 'Moves'},
             {key: 'combos', title: 'Combos'},
-            {key: 'spotlight', title: 'Spotlight'}
+            //{key: 'spotlight', title: 'Spotlight'}
         ]
     }
 
@@ -164,6 +166,7 @@ class CharacterProfile extends Component {
 
     render() {
         const { tabIndex } = this.state;
+
         const { selectedCharacterMoves,
             navigation,
             navigation: { state: { params: { label } } },
@@ -173,7 +176,7 @@ class CharacterProfile extends Component {
             updateMoveData,
             searchProfileMoves
         } = this.props;
-
+        const name = navigation.getParam('name');
         const { isOpen, side} = this.state;
 
         const MoveTabWrapper = () => (
@@ -184,7 +187,12 @@ class CharacterProfile extends Component {
                 theme={theme}
                 label={label}
                 updateMoveData={updateMoveData}
+                name={name}
             />
+        );
+
+        const ComboTabWrapper = () => (
+            CHARACTER_COMBOS[label] ? <ComboTab combos={CHARACTER_COMBOS[label].combos} /> : <Combos/>
         );
 
         return (
@@ -212,8 +220,8 @@ class CharacterProfile extends Component {
                             }
                             renderScene={SceneMap({
                                 moves: MoveTabWrapper,
-                                combos: Combos,
-                                spotlight: Spotlight
+                                combos: ComboTabWrapper,
+                                //spotlight: Spotlight
                             })}
                         />
                         <BottomMenuBar
