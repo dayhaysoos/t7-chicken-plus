@@ -2801,6 +2801,7 @@
       "natural": "-",
       "environmental": "-",
       "damage": "55",
+      "on_block": "!",
       "speed": "12",
       "on_hit": "KND",
       "on_ch": "KND",
