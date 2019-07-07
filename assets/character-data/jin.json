@@ -3628,12 +3628,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO MENTAL ALERTNESS 2 / ZENSHIN",
-      "id": "jin_152"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ChubbyPolishedGermanspitz.gif",
       "move_name": "Zenshin",
       "notation": "d+1+2",
@@ -3847,12 +3841,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "jin_161"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING MENTAL ALERTNESS 2 / ZENSHIN",
-      "id": "jin_162"
     },
     {
       "properties": [],
@@ -4072,12 +4060,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "jin_172"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ChillyDisloyalDuckling.gif",
       "move_name": "Kazama Style Turning Leg Strike",
       "notation": "3+4",
@@ -4099,12 +4081,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "jin_173"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "jin_174"
     },
     {
       "properties": [],
@@ -4228,12 +4204,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "jin_180"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/WellwornOrnateAfricanporcupine.gif",
       "move_name": "Avenger",
       "notation": "u/b+1+2 (b, b to cancel)",
@@ -4255,12 +4225,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "jin_181"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "jin_182"
     },
     {
       "properties": [],
@@ -4529,12 +4493,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "jin_194"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -4651,12 +4609,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "jin_199"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "jin_200"
     },
     {
       "properties": [],

@@ -2141,12 +2141,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL MOVES",
-      "id": "geese_90"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/MistyShorttermAmmonite.gif",
       "move_name": "Hien Shikkyaku to Shippu Ken",
       "notation": "f+1+2, qcb+1 (or 2)",
@@ -2435,12 +2429,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "MAX MODE MOVES",
-      "id": "geese_103"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ThisVioletAkitainu.gif",
       "move_name": "Hien Shikkyaku to EX Shippu Ken",
       "notation": "MAX f+1+2, qcb+1+2",
@@ -2682,12 +2670,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "SUPER MOVES",
-      "id": "geese_114"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": "Raigou Midaretsuki (Level 2 Super - Auto Combo)",
       "notation": "1, 2, 1, 2",
       "hit_level": "high, mid, mid, mid x5",
@@ -2831,12 +2813,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "geese_121"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/FakeClumsyAsianconstablebutterfly.gif",
       "move_name": "Jaei Ken",
       "notation": "hcb+3",
@@ -2906,12 +2882,6 @@
       "active_frames": "1",
       "notes": "-",
       "id": "geese_124"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "geese_125"
     },
     {
       "properties": [],
@@ -3154,12 +3124,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "geese_136"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/PlainFoolishAiredale.gif",
       "move_name": "Rashomon",
       "notation": "(During Rage) d/b+1+2",
@@ -3181,12 +3145,6 @@
       "active_frames": "1",
       "notes": "-",
       "id": "geese_137"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "geese_138"
     },
     {
       "properties": [],
@@ -3523,12 +3481,6 @@
       "active_frames": "1, 1, 1, 1, 1",
       "notes": "2 BREAK",
       "id": "geese_152"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "geese_153"
     },
     {
       "properties": [],

@@ -3461,12 +3461,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO DOUBLE LEG TAKE DOWN",
-      "id": "marduk_145"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/NegligibleBigheartedGoldeneye.gif",
       "move_name": "Revolving Trap Kick Cancel to Double Leg Take Down",
       "notation": "d/b+3, 4, 1+2",
@@ -3635,13 +3629,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING DOUBLE LEG TAKE DOWN",
-      "damage": ".",
-      "id": "marduk_153"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/BonyNewAntlion.gif",
       "move_name": "Left Melon Masher",
       "notation": "MNT 1",
@@ -3783,12 +3770,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "marduk_159"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO READY POSITION",
-      "id": "marduk_160"
     },
     {
       "properties": [],
@@ -4032,12 +4013,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING READY POSITION",
-      "id": "marduk_171"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/UnevenUnnaturalFishingcat.gif",
       "move_name": "Side Shift",
       "notation": "MNT u (or d)",
@@ -4278,12 +4253,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "marduk_182"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/FlashyFearlessKusimanse.gif",
       "move_name": "Power Straight",
       "notation": "VTS f+2",
@@ -4305,12 +4274,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "marduk_183"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "marduk_184"
     },
     {
       "properties": [],
@@ -4413,12 +4376,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "marduk_189"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "marduk_190"
     },
     {
       "properties": [],

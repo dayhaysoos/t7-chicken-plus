@@ -2995,12 +2995,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO BACK TURNED",
-      "id": "noctis_131"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/GrizzledContentAsianpiedstarling.gif",
       "move_name": "Twilight Half Moon",
       "notation": "b+3, b",
@@ -3044,12 +3038,6 @@
       "active_frames": "1",
       "notes": "-",
       "id": "noctis_133"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING BACK TURNED",
-      "id": "noctis_134"
     },
     {
       "properties": [],
@@ -3123,12 +3111,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO ROLL-DODGE",
-      "id": "noctis_138"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": "Roll-Dodge",
       "notation": "f+3+4",
       "hit_level": "-",
@@ -3174,12 +3156,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING ROLL",
-      "id": "noctis_141"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/GravePassionateAnnelid.gif",
       "move_name": "Tumble Slide",
       "notation": "(During Roll-Dodge) 3+4",
@@ -3199,12 +3175,6 @@
       "in_air": "FLOAT",
       "active_frames": "5",
       "id": "noctis_142"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "noctis_143"
     },
     {
       "properties": [],
@@ -3254,12 +3224,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "noctis_146"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/WhichThoughtfulAyeaye.gif",
       "move_name": "Warp-Drive",
       "notation": "(During Rage) f+2+3",
@@ -3306,12 +3270,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "noctis_149"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/OldfashionedIdenticalDingo.gif",
       "move_name": "Sword of the Father",
       "notation": "b+2+3",
@@ -3332,12 +3290,6 @@
       "active_frames": "1",
       "notes": "-",
       "id": "noctis_150"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "noctis_151"
     },
     {
       "properties": [],
@@ -3549,12 +3501,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "noctis_161"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -3643,12 +3589,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "noctis_165"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "noctis_166"
     },
     {
       "properties": [],

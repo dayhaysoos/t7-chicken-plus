@@ -2477,12 +2477,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO HYPNOTIST",
-      "id": "xiaoyu_104"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": "Hypnotist (SSR)",
       "notation": "d/b+1+2",
       "hit_level": "-",
@@ -2557,12 +2551,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "xiaoyu_108"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "EXIT HYPNOTIST",
-      "id": "xiaoyu_109"
     },
     {
       "properties": [],
@@ -2731,12 +2719,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "xiaoyu_116"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO RAIN DANCE",
-      "id": "xiaoyu_117"
     },
     {
       "properties": [],
@@ -3635,12 +3617,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "EXIT RAIN DANCE",
-      "id": "xiaoyu_156"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "BT u/f, f",
       "hit_level": "-",
@@ -4264,12 +4240,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SOMERSAULT",
-      "id": "xiaoyu_183"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SimplisticThoughtfulGalapagostortoise.gif",
       "move_name": "Somersault",
       "notation": "f+3+4",
@@ -4294,12 +4264,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "EXIT SOMERSAULT",
-      "id": "xiaoyu_185"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/TimelyVibrantIndianskimmer.gif",
       "move_name": "Somersault to Phoenix Talon",
       "notation": "f+3+4, 3+4",
@@ -4321,12 +4285,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "xiaoyu_186"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO PHOENIX",
-      "id": "xiaoyu_187"
     },
     {
       "properties": [],
@@ -4837,12 +4795,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "xiaoyu_209"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "EXIT PHOENIX",
-      "id": "xiaoyu_210"
     },
     {
       "properties": [],
@@ -5494,12 +5446,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "xiaoyu_238"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/EmbarrassedAfraidEyelashpitviper.gif",
       "move_name": "Swallow Spiral",
       "notation": "d/f+3",
@@ -5521,12 +5467,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "xiaoyu_239"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "xiaoyu_240"
     },
     {
       "properties": [],
@@ -5677,12 +5617,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "xiaoyu_247"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "xiaoyu_248"
     },
     {
       "properties": [],
@@ -6047,12 +5981,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "xiaoyu_264"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -6145,12 +6073,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "xiaoyu_268"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "xiaoyu_269"
     },
     {
       "properties": [],

@@ -3365,12 +3365,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO DEW GLIDE",
-      "id": "lili_141"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/DefiniteCavernousAfricangroundhornbill.gif",
       "move_name": "Dew Glide",
       "notation": "qcf",
@@ -3560,12 +3554,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "lili_149"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING DEW GLIDE",
-      "id": "lili_150"
     },
     {
       "properties": [],
@@ -3858,13 +3846,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO FIESTY RABBIT",
-      "notation": "9",
-      "id": "lili_163"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": "Fiesty Rabbit (Left)",
       "notation": "b+3 (or IMG b+3)",
       "hit_level": "-",
@@ -3909,12 +3890,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "lili_165"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING FIESTY RABBIT",
-      "id": "lili_166"
     },
     {
       "properties": [],
@@ -3963,12 +3938,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "lili_168"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO MIRROR IMAGE",
-      "id": "lili_169"
     },
     {
       "properties": [],
@@ -4281,12 +4250,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "lili_182"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "EXIT MIRROR IMAGE",
-      "id": "lili_183"
     },
     {
       "properties": [],
@@ -4800,12 +4763,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "lili_206"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/NiftyVacantBovine.gif",
       "move_name": "Allonger Le Bras",
       "notation": "f, F+2",
@@ -4827,12 +4784,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "lili_207"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "lili_208"
     },
     {
       "properties": [],
@@ -4909,12 +4860,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "lili_212"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "f, F+1+2* (3 spins)",
       "hit_level": "mid",
@@ -4959,12 +4904,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "lili_214"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "lili_215"
     },
     {
       "properties": [],
@@ -5209,12 +5148,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "lili_226"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -5307,12 +5240,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "lili_230"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "lili_231"
     },
     {
       "properties": [],

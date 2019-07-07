@@ -2453,12 +2453,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO LEFT FLAMINGO",
-      "id": "hwoarang_103"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ElasticSilverBlobfish.gif",
       "move_name": "Left Flamingo Feint",
       "notation": "f+3",
@@ -2888,12 +2882,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "hwoarang_121"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING LEFT FLAMINGO",
-      "id": "hwoarang_122"
     },
     {
       "properties": [],
@@ -3470,12 +3458,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "hwoarang_146"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO RIGHT FLAMINGO",
-      "id": "hwoarang_147"
     },
     {
       "properties": [],
@@ -4344,12 +4326,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING RIGHT FLAMINGO",
-      "id": "hwoarang_184"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": " RFS U (or F, D, B)",
       "hit_level": "-",
@@ -4733,12 +4709,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO BT LEFT STANCE",
-      "id": "hwoarang_201"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AgonizingFirsthandBagworm.gif",
       "move_name": "Disrespect",
       "notation": "RFF 1+2",
@@ -4788,12 +4758,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING BT LEFT STANCE ",
-      "id": "hwoarang_204"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "BT LFF 1 (or 2)",
       "hit_level": "high",
@@ -4838,12 +4802,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "hwoarang_206"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO RIGHT STANCE",
-      "id": "hwoarang_207"
     },
     {
       "properties": [],
@@ -6197,12 +6155,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "EXIT RIGHT STANCE",
-      "id": "hwoarang_265"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SillyUnhappyCrocodile.gif",
       "move_name": "Motion Switch",
       "notation": "RFF 3+4",
@@ -6756,12 +6708,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO BT RIGHT STANCE",
-      "id": "hwoarang_289"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "RFF f+3, B",
       "hit_level": "high",
@@ -6812,12 +6758,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "hwoarang_292"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "EXIT BT RIGHT STANCE",
-      "id": "hwoarang_293"
     },
     {
       "properties": [],
@@ -6938,12 +6878,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "hwoarang_298"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "hwoarang_299"
     },
     {
       "properties": [],
@@ -7112,12 +7046,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "hwoarang_306"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "hwoarang_307"
     },
     {
       "properties": [],
@@ -7313,12 +7241,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "hwoarang_316"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/PointedDisgustingDrafthorse.gif",
       "move_name": "Dynamite Heel",
       "notation": "d/b+3+4 (b, b to cancel)",
@@ -7364,12 +7286,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "hwoarang_318"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "hwoarang_319"
     },
     {
       "properties": [],
@@ -7710,12 +7626,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "hwoarang_334"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -7808,12 +7718,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "hwoarang_338"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "hwoarang_339"
     },
     {
       "properties": [],

@@ -4037,12 +4037,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO FLY",
-      "id": "deviljin_169"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/DetailedUnequaledAmericanalligator.gif",
       "move_name": "Fly",
       "notation": "3+4",
@@ -4139,12 +4133,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING FLY",
-      "id": "deviljin_174"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/CleverMixedAffenpinscher.gif",
       "move_name": "Near Death",
       "notation": "FLY 1",
@@ -4193,12 +4181,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "deviljin_177"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/HarshInsidiousGordonsetter.gif",
       "move_name": "Imperial Wrath",
       "notation": "Time with enemy attack... b+1+3 (or 2+4)",
@@ -4244,12 +4226,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "deviljin_179"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "deviljin_180"
     },
     {
       "properties": [],
@@ -4346,12 +4322,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "deviljin_184"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "deviljin_185"
     },
     {
       "properties": [],
@@ -4520,12 +4490,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "deviljin_192"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "deviljin_193"
     },
     {
       "properties": [],
@@ -4842,12 +4806,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "deviljin_207"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -4964,12 +4922,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "deviljin_212"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "deviljin_213"
     },
     {
       "properties": [],

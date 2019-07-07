@@ -3363,12 +3363,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO BACKUP",
-      "id": "alisa_147"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/LegalDefiantEel.gif",
       "move_name": "Quick Slider",
       "notation": "d+3",
@@ -3461,12 +3455,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING BACKUP",
-      "id": "alisa_152"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ElementaryLikableGreatargus.gif",
       "move_name": "Recovery Hook",
       "notation": "(During Backup) 1",
@@ -3533,12 +3521,6 @@
       "active_frames": "6",
       "notes": "-",
       "id": "alisa_155"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO BOOT",
-      "id": "alisa_156"
     },
     {
       "properties": [],
@@ -3631,12 +3613,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "alisa_160"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING BOOT",
-      "id": "alisa_161"
     },
     {
       "properties": [],
@@ -3985,12 +3961,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO CLOCKWORK",
-      "id": "alisa_177"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/UnhealthyAntiqueDoe.gif",
       "move_name": "Clockwork",
       "notation": "WS 3 (hold B to cancel)",
@@ -4011,12 +3981,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "alisa_178"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING CLOCKWORK",
-      "id": "alisa_179"
     },
     {
       "properties": [],
@@ -4086,12 +4050,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "alisa_182"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO DESTRUCTIVE FORM",
-      "id": "alisa_183"
     },
     {
       "properties": [],
@@ -4716,12 +4674,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING DESTRUCTIVE FORM",
-      "id": "alisa_211"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ConfusedDirtyHaddock.gif",
       "move_name": "Retro Rockets",
       "notation": "DES b+3+4 (or b, b) (or u/b, b)",
@@ -5205,12 +5157,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO DUAL BOOT",
-      "id": "alisa_233"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/FalseSatisfiedChrysalis.gif",
       "move_name": "Dual Boot",
       "notation": "DES f+3+4 (or f, f)",
@@ -5300,12 +5246,6 @@
       "active_frames": "2",
       "notes": "-",
       "id": "alisa_237"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING DUAL BOOT",
-      "id": "alisa_238"
     },
     {
       "properties": [],
@@ -5493,12 +5433,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "alisa_247"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/DizzyLoathsomeHoopoe.gif",
       "move_name": "Transmission",
       "notation": "d/f+1+2",
@@ -5542,12 +5476,6 @@
       "active_frames": "9",
       "notes": "-",
       "id": "alisa_249"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "alisa_250"
     },
     {
       "properties": [],
@@ -5643,12 +5571,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "alisa_255"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/DifferentRichBluejay.gif",
       "move_name": "Rocket Punch",
       "notation": "(During Backup) 2",
@@ -5738,12 +5660,6 @@
       "active_frames": "6, 29",
       "notes": "-",
       "id": "alisa_259"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "alisa_260"
     },
     {
       "properties": [],
@@ -5978,12 +5894,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "alisa_271"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -6072,12 +5982,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "alisa_275"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "alisa_276"
     },
     {
       "properties": [],

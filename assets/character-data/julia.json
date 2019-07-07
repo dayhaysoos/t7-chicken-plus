@@ -4347,12 +4347,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SPIN BEHIND",
-      "id": "julia_182"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/GlassCelebratedDiamondbackrattlesnake.gif",
       "move_name": "Spin Behind",
       "notation": "2:B (only during hit from front)",
@@ -4377,12 +4371,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING SPIN BEHIND",
-      "id": "julia_184"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/MeagerAdmiredHatchetfish.gif",
       "move_name": "Double Fist",
       "notation": "(During Spin Behind) 1+2",
@@ -4404,12 +4392,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "julia_185"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SWIFT STEP",
-      "id": "julia_186"
     },
     {
       "properties": [],
@@ -4557,12 +4539,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING SWIFT STEP",
-      "id": "julia_193"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AchingCoarseAmericangoldfinch.gif",
       "move_name": "Swift Step Explosion",
       "notation": "(Duriing Swift Step) 2",
@@ -4632,12 +4608,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "julia_196"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO WIND ROLL",
-      "id": "julia_197"
     },
     {
       "properties": [],
@@ -4782,12 +4752,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "julia_203"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING WIND ROLL",
-      "id": "julia_204"
     },
     {
       "properties": [],
@@ -4983,12 +4947,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "julia_213"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SophisticatedGraveIraniangroundjay.gif",
       "move_name": "Boulder Smash",
       "notation": "f+1+2",
@@ -5010,12 +4968,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "julia_214"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "julia_215"
     },
     {
       "properties": [],
@@ -5118,12 +5070,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "julia_220"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "julia_221"
     },
     {
       "properties": [],
@@ -5512,12 +5458,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "julia_238"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -5610,12 +5550,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "julia_242"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "julia_243"
     },
     {
       "properties": [],

@@ -3221,12 +3221,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SAVAGE STANCE",
-      "id": "miguel_135"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AltruisticUnfortunateAmericanpainthorse.gif",
       "move_name": "Savage Stance",
       "notation": "3+4",
@@ -3872,12 +3866,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "miguel_162"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING SAVAGE STANCE",
-      "id": "miguel_163"
     },
     {
       "properties": [],
@@ -4601,12 +4589,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "miguel_194"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/OrneryOptimisticCaimanlizard.gif",
       "move_name": "Bota en la cara",
       "notation": "b+4",
@@ -4727,12 +4709,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "miguel_200"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SecretSpecificArchaeocete.gif",
       "move_name": "Rage Art",
       "notation": "(During Rage) b+1+2 (or SAV b+1+2)",
@@ -4832,12 +4808,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "miguel_205"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "miguel_206"
     },
     {
       "properties": [],
@@ -5082,12 +5052,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "miguel_217"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -5180,12 +5144,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "miguel_221"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "miguel_222"
     },
     {
       "properties": [],

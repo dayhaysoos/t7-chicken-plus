@@ -5262,12 +5262,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO BT",
-      "id": "law_220"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "2, b+2",
       "hit_level": "high, high",
@@ -5432,12 +5426,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "law_227"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING BT",
-      "id": "law_228"
     },
     {
       "properties": [],
@@ -5682,12 +5670,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO CHARGE",
-      "id": "law_239"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "1+2+3+4",
       "hit_level": "-",
@@ -5732,12 +5714,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "law_241"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING CHARGE",
-      "id": "law_242"
     },
     {
       "properties": [],
@@ -5858,12 +5834,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "law_247"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO DRAGON CHARGE",
-      "id": "law_248"
     },
     {
       "properties": [],
@@ -6275,12 +6245,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "DURING DRAGON CHARGE",
-      "id": "law_266"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/CreativeLateLeveret.gif",
       "move_name": "Dragon Knuckle",
       "notation": "DSS (or TFS) 1",
@@ -6521,12 +6485,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO FAKE STEP",
-      "id": "law_277"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/CluelessSophisticatedElk.gif",
       "move_name": "Fake Step",
       "notation": "b+1+2",
@@ -6572,12 +6530,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "law_279"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING FAKE STEP",
-      "id": "law_280"
     },
     {
       "properties": [],
@@ -6701,12 +6653,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "law_286"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ImaginativeRigidAmethystsunbird.gif",
       "move_name": "Dragon Cannon",
       "notation": "f, F+3 (close) or DSS (or TFS) f+3",
@@ -6779,12 +6725,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "law_290"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AnyLeanBlackbuck.gif",
       "move_name": "Charge Power Punch",
       "notation": "d/b+1+2",
@@ -6806,12 +6746,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "law_291"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "law_292"
     },
     {
       "properties": [],
@@ -6884,12 +6818,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "law_295"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "law_296"
     },
     {
       "properties": [],
@@ -7230,12 +7158,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "law_311"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -7328,12 +7250,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "law_315"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "law_316"
     },
     {
       "properties": [],

@@ -3533,12 +3533,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO RAIJIN STANCE",
-      "id": "heihachi_148"
-    },
-    {
-      "properties": [],
       "move_name": "Raijin Stance",
       "notation": "f+3+4",
       "hit_level": "-",
@@ -3559,12 +3553,6 @@
       "active_frames": "-",
       "notes": "Has Sabaki frames.",
       "id": "heihachi_149"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING RAIJIN STANCE",
-      "id": "heihachi_150"
     },
     {
       "properties": [],
@@ -3687,12 +3675,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "heihachi_156"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/AdorableKindlyDunnart.gif",
       "move_name": "Demon's Wings",
       "notation": "d/f+1+2",
@@ -3714,12 +3696,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "heihachi_157"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "heihachi_158"
     },
     {
       "properties": [],
@@ -3868,12 +3844,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "heihachi_165"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": "Lightning Hammer",
       "notation": "d+1+4",
       "hit_level": "mid",
@@ -3942,12 +3912,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "heihachi_168"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "heihachi_169"
     },
     {
       "properties": [],
@@ -4216,12 +4180,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "heihachi_181"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -4314,12 +4272,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "heihachi_185"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "heihachi_186"
     },
     {
       "properties": [],

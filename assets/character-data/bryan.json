@@ -5430,12 +5430,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "INTO SLITHER STEP",
-      "id": "bryan_227"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "qcf",
       "hit_level": "-",
@@ -5507,12 +5501,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SWAY",
-      "id": "bryan_231"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/JollyVerifiableEidolonhelvum.gif",
       "move_name": "Sway",
       "notation": "qcb",
@@ -5561,12 +5549,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "bryan_234"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/ObedientCreepyAiredale.gif",
       "move_name": "Mach Breaker",
       "notation": "f, F+2",
@@ -5588,12 +5570,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "bryan_235"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "bryan_236"
     },
     {
       "properties": [],
@@ -5642,12 +5618,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "bryan_238"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "bryan_239"
     },
     {
       "properties": [],
@@ -5720,12 +5690,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "bryan_242"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "bryan_243"
     },
     {
       "properties": [],
@@ -5970,12 +5934,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "bryan_254"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -6068,12 +6026,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "bryan_258"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "bryan_259"
     },
     {
       "properties": [],

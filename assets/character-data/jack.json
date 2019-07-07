@@ -5357,12 +5357,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SIT",
-      "id": "jack_224"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/FinishedRepentantGyrfalcon.gif",
       "move_name": "Sit",
       "notation": "d+3+4",
@@ -5384,12 +5378,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "jack_225"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING SIT",
-      "id": "jack_226"
     },
     {
       "properties": [],
@@ -5945,12 +5933,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "jack_250"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/MealyYellowKillerwhale.gif",
       "move_name": "Rocket Kick",
       "notation": "f, F+4",
@@ -5996,12 +5978,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "jack_252"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "jack_253"
     },
     {
       "properties": [],
@@ -6074,12 +6050,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "jack_256"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "jack_257"
     },
     {
       "properties": [],
@@ -6320,12 +6290,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "jack_267"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "jack_268"
     },
     {
       "properties": [],
@@ -6882,12 +6846,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "jack_292"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "(During Tackle) 1 (or 2)",
       "hit_level": "-",
@@ -6980,12 +6938,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "jack_296"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "jack_297"
     },
     {
       "properties": [],
