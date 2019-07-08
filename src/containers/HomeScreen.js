@@ -27,7 +27,7 @@ Stripe.setOptions({
 
 
 // styles
-const MainContainer = styled.View`
+const MainContainer = styled.ScrollView`
   flex: 1;
   background-color: #000000;
 `;
@@ -58,9 +58,6 @@ export const createComponentDidMount = (instance) => async () => {
         console.log('err', error);
     }
 };
-
-
-
 
 class HomeScreen extends React.Component {
 

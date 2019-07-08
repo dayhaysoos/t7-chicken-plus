@@ -1,0 +1,976 @@
+{
+  "providedBy": "sneaky coyote",
+  "providerTwitter": "@sneaky_coyote",
+  "combos": [
+    {
+      "starter": "Time with low enemy attack, hcb+1+4 (or 2+3)",
+      "combo": "(S!) ~dash~ 2~f+1~qcb+3",
+      "damage": 49,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "sneaky coyote",
+      "volunteer twitter": "@sneaky_coyote"
+    },
+    {
+      "starter": "Time with low enemy attack, hcb+1+4 (or 2+3)",
+      "combo": "(S!) ~dash~ d+4, f+3, d+4, f+1, (MMc), 2~f+1~qcb+3",
+      "damage": 63,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Time with mid enemy attack, hcb+2+4",
+      "combo": "b+3, 2, (MMc), d+4, f+3, b+4, 4, (S!) 2~f+1~qcf+1, qcf, qcf+1+2",
+      "damage": 84,
+      "meter usage": "3",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Time with mid enemy attack, hcb+2+4",
+      "combo": "b+3, 2, (MMc), d+4, f+3, b+4, 4, (S!) 2~f+1~qcb+3",
+      "damage": 67,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Time with mid enemy attack, hcb+2+4",
+      "combo": "b+3, 2, (MMc), 2, f+3, b+4, 4 (S!), ~dash~ 2~f+1~qcb+3",
+      "damage": 67,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Time with mid enemy attack, hcb+2+4",
+      "combo": "b+3, 2, (MMc), b+4, 4, 2, f+1, qcb+2, 1",
+      "damage": 59,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Time with mid enemy attack, hcb+2+4",
+      "combo": "b+3, 2, (MMc), 4, (S!), 2, f+3, d+4, qcf+1",
+      "damage": 58,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "2",
+      "combo": "f+1, (MMc), 2, f+1, qcb+1+2, 1, qcf, qcf+1+2, iWR 1",
+      "damage": 98,
+      "meter usage": "3",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "2",
+      "combo": "f+1, (MMc), 2, f+1, qcf+2, qcf, qcf+1+2",
+      "damage": 87,
+      "meter usage": "3",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "2",
+      "combo": "f+1, qcf+2, qcf, qcf+1+2",
+      "damage": 73,
+      "meter usage": "2",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "2",
+      "combo": "f+1, (MMc), 2, f+1, qcb+4",
+      "damage": 61,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "2",
+      "combo": "f+1, qcb+2, 1 ",
+      "damage": 45,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "2",
+      "combo": "f+1, qcf+2",
+      "damage": 45,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "f+1+2",
+      "combo": "d+4, f+3, b+3, 2, (MMc), 4 (S!) ~dash~ 2, qcf+2, qcf, qcf+1+2",
+      "damage": 68,
+      "meter usage": "3",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "f+1+2",
+      "combo": "d/f+1, 2, f+3, b+4, 4, ~dash~ 2~f+1~qcb+3",
+      "damage": 54,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "f+2",
+      "combo": "(MMc), d+4, f+3, 1, 4 (S!) ~dash~ 2~f+1~qcb+3",
+      "damage": 52,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "b+2 (wall bounce)",
+      "combo": "d/f+1, 1, 2, qcf+2, qcf, qcf+1+2",
+      "damage": 63,
+      "meter usage": "2",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "b+2 (wall bounce)",
+      "combo": "d/f+1, 1, 2, qcf+2",
+      "damage": 52,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "b+2 (wall bounce)",
+      "combo": "2, f+1, qcf+2",
+      "damage": 48,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "b+3, 2",
+      "combo": "(MMc), 1+2, d+4, f+3, b+4, 4, (S!) ~dash~ d+4, qcf+1~qcf,qcf+1+2",
+      "damage": 88,
+      "meter usage": "3",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "b+3, 2",
+      "combo": "(MMc), 1+2, d+4, f+3, b+4, 4, (S!) ~dash~ d+4, qcb+3",
+      "damage": 71,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "qcb+1+2, 3",
+      "combo": "2, f+3, 2, f+3, b+3, 2, (MMc), 4, (S!), ~dash~ d+4, qcf+1",
+      "damage": 70,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "qcb+1+2, 3",
+      "combo": "d+3~f+3, b+4, 4 (S!) ~dash~ 2~f+1~qcf+1",
+      "damage": 69,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "qcb+1+2, 3",
+      "combo": "b+4, 4 (S!) u/f+4, ~dash~ 2~f+1~qcb+3",
+      "damage": 68,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "qcb+1+2, 3",
+      "combo": "2, f+3, b+4, 4 (S!) ~dash~ 2~f+1~qcb+3",
+      "damage": 63,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "(qcb+1+2), 4",
+      "combo": "d+4~f+3, b+4, 4 (S!) 2~f+1~hcb+3",
+      "damage": 66,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "(qcb+1+2), 4",
+      "combo": "WS 4, b+4, 4 (S!) 2~f+1~hcb+3",
+      "damage": 60,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "FC d/f+1",
+      "combo": "2, f+3, 2, f+3, 2, (MMc) 4, (S!) ~dash~ 2~f+1~qcf+1, qcf, qcf+1+2",
+      "damage": 87,
+      "meter usage": "3",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "FC d/f+1",
+      "combo": "1+2, d+4, f+3, b+4, 4, ~dash~ 2~f+1~qcb+3",
+      "damage": 65,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "FC d/f+1",
+      "combo": "1+2, d+4~f+3, b+4, 4, ~dash~ f, f, f+1",
+      "damage": 61,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "FC d/f+1",
+      "combo": "2, f+3, b+4, 4 (S!) ~dash~ 2~f+1~hcb+3",
+      "damage": 60,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "FC d/f+1",
+      "combo": "2~f+3, b+4, 4, (S!), ~dash~ 2~qcb+2, 3",
+      "damage": 59,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "WS 2, (During Hit) f+2",
+      "combo": "~dash~ 2, f+3, b+4, 4 (S!), qcf, qcf+1+2",
+      "damage": 68,
+      "meter usage": "2",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "WS 2, (During Hit) f+2",
+      "combo": "~dash~ 2, f+3, b+4, 4 (S!), ~dash~ f, f, f+1",
+      "damage": 55,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "WS 2, (During Hit) f+2",
+      "combo": "f+3, b+4, 4, ~dash~, 2~f+1~qcf+1",
+      "damage": 52,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "(During Jump) 4",
+      "combo": "2~f+1~qcf+2~qcf, qcf+1+2",
+      "damage": 82,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "(During Jump) 4",
+      "combo": "2~f+1, (MMc), 2~f+1~qcf+2~qcf, qcf+1+2",
+      "damage": 93,
+      "meter usage": "3",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[1+2]",
+      "combo": "qcf, qcf+1+2",
+      "damage": 58,
+      "meter usage": "2",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[1+2]",
+      "combo": "b+2",
+      "damage": 42,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[1+2]",
+      "combo": "f, f, f+1",
+      "damage": 42,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[1+2]",
+      "combo": "~dash~ d+1+3",
+      "damage": 44,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[(3), 3]",
+      "combo": "b+1+2",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[(3), 3]",
+      "combo": "f+1+2 (S!), f, F+4, 3, 1, b+1+2",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[4]",
+      "combo": "(S!), ~dash~ d+4, f+3, d+4, f+1, 1+2, 2, qcf+1, qcf, qcf+1+2",
+      "damage": 72,
+      "meter usage": "3",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[4]",
+      "combo": "(S!), (Forward Jump) 4, 2, f+3, 2, f+1, qcb+2, 3",
+      "damage": 59,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[4]",
+      "combo": "(S!), (Forward Jump) 4, 2, f+3, 1, ~dash~ 2~f+1~hcb+3",
+      "damage": 59,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[4]",
+      "combo": "(S!), ~dash~ d+4, f+3, 1, 2, 3, d+4, qcb+1",
+      "damage": 53,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[4]",
+      "combo": "(S!), ~dash~ d+4, f+3, d+4, f+1,qcb+3",
+      "damage": 51,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[4]",
+      "combo": "(S!), ~dash~ d+4, f+3, 2~f+1~qcf+1",
+      "damage": 49,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[f+4]",
+      "combo": "d+4~f+3, d+4~f+3, d+4, 1+2, 4 (S!) ~dash~ d+4, qcf+1",
+      "damage": 67,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[f+4]",
+      "combo": "b+4, 4 (S!), ~dash~ 2~f+1, 1+2, 2~f+1~qcb+3",
+      "damage": 63,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[f+4]",
+      "combo": "d+4~f+3, b+4, 4 (S!) ~dash~ 2~f+1~qcf+1",
+      "damage": 61,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[(d/f+1), 4]",
+      "combo": "2, f+3, 2, f+3, b+3, 2, (MMc), 4, (S!), ~dash~ f, f, f+1",
+      "damage": 71,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[(d/f+1), 4]",
+      "combo": "2, f+3, b+4, 4 (S!), ~dash~ 2~f+1~qcb+3",
+      "damage": 65,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d/f+2]",
+      "combo": "(S!) ~dash~ d+4, f+3, d+4, f+1, (MMc), 2~f+1~qcb+3",
+      "damage": 58,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d/f+2]",
+      "combo": "(S!) ~dash~ 2, f+3, 2, f+3, qcf+2",
+      "damage": 52,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d+1]",
+      "combo": "f+1, qcf+2, qcf, qcf+1+2",
+      "damage": 65,
+      "meter usage": "2",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d+1]",
+      "combo": "f+1, (MMc), 2~f+1~qcb+3",
+      "damage": 51,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d+1]",
+      "combo": "f+1, qcb+3",
+      "damage": 44,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d+3]",
+      "combo": "d+1, qcb+1",
+      "damage": 31,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d+4]",
+      "combo": "f+3, d+4, f+3, b+4, 4, ~dash~ 2~f+1~qcf+1",
+      "damage": 58,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d+4]",
+      "combo": "WS 4, d+4, f+3, b+4, 4, (S!), f, f, f+1",
+      "damage": 56,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d+4]",
+      "combo": "f+3, b+4, 4, 2, f+1, hcb+4",
+      "damage": 51,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d+4]",
+      "combo": "f+3, b+4, 4 (S!) ~dash~ 2~f+1~qcf+1",
+      "damage": 48,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[(b+4), 4]",
+      "combo": "(S!) ~dash~ d+4, f+3, d+4, f+1, (MMc), 2~f+1~qcb+3",
+      "damage": 58,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[(b+4), 4]",
+      "combo": "(S!) ~dash~ 2, f+3, 2, f+3, qcf+2",
+      "damage": 52,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[hcb+2+3]",
+      "combo": "d+4~f+3, d+4~f+3, d+4, 1+2, d+4~qcf+1 ",
+      "damage": 62,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[hcb+2+3]",
+      "combo": "u/f+4, 2~f+1, 1+2, 2~f+1~qcb+2,1",
+      "damage": 60,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[hcb+2+3]",
+      "combo": "~dash~ d+4~f+3, 2~f+1~qcf+1 ",
+      "damage": 54,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[SS 3]",
+      "combo": "[SSL] d+4, f+3, b+4, 4, 2~f+1~hcb+3",
+      "damage": 60,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[SS 3]",
+      "combo": "[SSL] d+4~f+3, (MMc), b+4, 4 (S!) ~dash~ 2~f+1~qcf+1",
+      "damage": 57,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[SS 3]",
+      "combo": "[SSR] 4 (S!) 2~f+3, d+4, (MMc), 2~f+1~qcf+1",
+      "damage": 60,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[SS 3]",
+      "combo": "[SSR] b+3, 2, (MMc), b+4, 4 (S!), ~dash~ 2~f+1~qcf+1",
+      "damage": 55,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[WS+3]",
+      "combo": "(S!) ~dash~ d+4~f+3, 2~f+1~qcf+1",
+      "damage": 45,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[WS+3]",
+      "combo": "(S!) ~dash~ d+4~f+3, d+4~f+1, 1+2, 2~qcb+2, 1",
+      "damage": 55,
+      "meter usage": "1",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[Face Up, Feet Towards+3]",
+      "combo": "WS+4, b+4, 4, (S!), 2~f+1~qcb+3",
+      "damage": 49,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[Face Down, Feet Away+3]",
+      "combo": "WS+4, b+4, 4, (S!), 2~f+1~qcb+3",
+      "damage": 49,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "BT Opponent",
+      "combo": "1, 2, 3, d+4, f+3, b+4, 4, (S!) ~dash~ 2, f+1, qcb+4",
+      "damage": 68,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "BT Opponent",
+      "combo": "d+1, f+3, d+4, f+3, b+4, 4, (S!) ~dash~ 2, f+1, qcb+4",
+      "damage": 59,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "BT Opponent",
+      "combo": "2, f+1, qcb+2, 3, d+1+3",
+      "damage": 69,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "BT Opponent",
+      "combo": "2, f+3, d+4, f+3, b+4, 4, (S!) ~dash~ 2, f+1, qcb+4",
+      "damage": 69,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "BT Opponent",
+      "combo": "2, f+1, (MMc) 2, f+1, qcb+1+2~3, 2, f+3, b+4, 4, (S!) ~dash~ 2, f+1, qcb+4",
+      "damage": 104,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Float",
+      "combo": "-",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Floor Break Post (S!)",
+      "combo": "-",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Floor Break Pre (S!)",
+      "combo": "-",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Low Parry",
+      "combo": "2, f+3, b+4, 4, (S!) ~dash~ 2~f+1~qcb+3",
+      "damage": 43,
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Side Float",
+      "combo": "-",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Slide Punish",
+      "combo": "-",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Post (S!)",
+      "combo": "2~f+1, qcb+2, 1~qcf, qcf+1+2",
+      "damage": "-",
+      "meter usage": "2",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Post (S!)",
+      "combo": "d/f+1, 1, 2~qcf+2",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Post (S!)",
+      "combo": "2~f+1, qcb+4",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Post (S!)",
+      "combo": "2~f+1~qcb+2,1",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Post (S!)",
+      "combo": "d+4, f+1, qcb+4",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Post (S!)",
+      "combo": "d+1+3 (or d+2+4)",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Pre (S!)",
+      "combo": "b+4, 4 (S!), ~dash~ 2~f+1~qcf+1",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Carry",
+      "combo": "-",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Ender",
+      "combo": "-",
+      "damage": "-",
+      "meter usage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    }
+  ]
+}

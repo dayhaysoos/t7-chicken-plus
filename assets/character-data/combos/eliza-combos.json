@@ -1,0 +1,224 @@
+{
+  "combos": [
+    {
+      "2, 2": "qcf, qcf+1+2, iWR 1 (S!) (During Rage) b+3+4",
+      "DAMAGE": 96,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "qcf, qcf+1+2, iWR 1 (S!) ~dash~ b+1, 2, 4",
+      "DAMAGE": 77,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "3+4",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "SSL, b+4, qcb+4, b+2, 3, b+3, 1 (S!) WR 4, 1, 2, 1+2",
+      "DAMAGE": 65,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "f, f+3, 4",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "(S!) WR 3, b+1, 2, 4",
+      "DAMAGE": 53,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "d/f+2, 3",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "b+2, 3, b+4, qcb+1 (S!) WR 3, d+3, qcf+2",
+      "DAMAGE": 60,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "b+4, f, d, d/f+1, b+4, qcb+1 (S!) WR 3, d+3, qcf+2",
+      "DAMAGE": 60,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "b+4",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "f, d, d/f+1, b+4, qcb+4, b+4, qcb+1 (S!) ~dash~ (During Rage) b+3+4",
+      "DAMAGE": 76,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "f, d, d/f+1, b+4, qcb+4, b+2, 3, b+4, qcf+2, 3+4, 3, 4 (S!) WR 4, 2",
+      "DAMAGE": 72,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "f, d, d/f+1, b+4, qcb+4, b+3, 1 (S!) WR 3, d+3, qcf+2",
+      "DAMAGE": 66,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "WS 1",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "f, d, d/f+2",
+      "DAMAGE": 34,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "WS 3",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "1, f, d, d/f+1, 4 (S!) ~dash~ b+1, 2, 4",
+      "DAMAGE": 50,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "[b+1, 2]",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "b+2, 3, b+2, 3, 4 (S!) WR 4, 1, 2, 1+2",
+      "DAMAGE": 68,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "[d+4]",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "WS 4,  b+4, qcb+1 (S!) WR 3, d+3, f, d, d/f+2",
+      "DAMAGE": 64,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "BT Opponent",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "-",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "Float",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "-",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "Floor Break Post (S!)",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "-",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "Floor Break Pre (S!)",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "-",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "Low Parry",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "b+4, f, d, d/f+1, 4 (S!) f+4, 1, 2, 1+2",
+      "DAMAGE": 34,
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "Side Float",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "-",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "Slide Punish",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "-",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "Wall Break Pre (S!)",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "-",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "Wall Break Post (S!)",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "-",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "Wall Carry",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "-",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "Wall Enders",
+      "DAMAGE": "DAMAGE",
+      "NOTES": "NOTES"
+    },
+    {
+      "2, 2": "b+1, 2, 4",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    },
+    {
+      "2, 2": "f+4, 1, 2, 1+2",
+      "DAMAGE": "-",
+      "NOTES": "-"
+    }
+  ]
+}

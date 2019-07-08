@@ -1,0 +1,267 @@
+{
+  "providedBy": "sneaky coyote",
+  "providerTwitter": "@sneaky_coyote",
+  "combos": [
+    {
+      "starter": "f, b+2",
+      "combo": "f+1+2, 1, 4, 3, 4 (S!) (During Rage) d/f+1+2",
+      "damage": 79,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "sneaky coyote",
+      "volunteer twitter": "@sneaky_coyote"
+    },
+    {
+      "starter": "f, b+2",
+      "combo": "f+1+2, 1, b+2, 4 (S!) ~dash~ b+3, F~4, 1, 2",
+      "damage": 67,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "u/f+4",
+      "combo": "d/b+2, 1, b+2, 4 (S!) ~dash~ b+3, F~4, 1, 2",
+      "damage": 63,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "d/f+3",
+      "combo": "d/b+2, 1, 2, 4 (S!) ~dash~ b+3, F~4, 1, 2",
+      "damage": 58,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "qcb+4",
+      "combo": "1+2, d/b+2, 1, b+2, 4 (S!) ~dash~ d+3, 2",
+      "damage": 60,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "b+4",
+      "combo": "f, F+2",
+      "damage": 50,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "u/f+3",
+      "combo": "f, F+2",
+      "damage": 37,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "f+4, 1",
+      "combo": "(B!), u/f+3, 1, b+2, 4 (S!) ~dash~ b+3, F~2, 1",
+      "damage": 61,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "WS 1",
+      "combo": "b+2, 1, 4 (S!) ~dash~ b+3, F~4, 1, 2",
+      "damage": 64,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "WS 2:f+2",
+      "combo": "b+2, 1, 4 (S!) ~dash~ b+3, F~4, 1, 2",
+      "damage": 87,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[qcb+3]",
+      "combo": "qcb+4",
+      "damage": 41,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[f+3]",
+      "combo": "SSR d/b+2, 1, qcb+2, 4 (S!) ~dash~ b+3, F~4, 1, 2",
+      "damage": 62,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[3+4]",
+      "combo": "f, F+3* (S!) ~dash~ WS 3, 4 ~dash~ 1, f, F+2",
+      "damage": 77,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[f, F+4]",
+      "combo": "(S!) ~dash~ WS 3, 4 ~dash~ 1, b+3, F~2, 1",
+      "damage": 79,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[FC d/f+4]",
+      "combo": "(S!) ~dash~ WS 3, 4 ~dash~ 1, b+3, F~4, 1, 2",
+      "damage": 67,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[b+1]",
+      "combo": " d/b+2, 1, b+2, 4 (S!) ~dash~ b+3, F~2, 1",
+      "damage": 65,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "(During Rage) b+1+2",
+      "combo": "f, F+3* (S!) ~dash~ WS 3, 4 ~dash~ 1, f, F+2",
+      "damage": 83,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "BT Opponent",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Float",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Floor Break Post (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Floor Break Pre (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Low Parry",
+      "combo": "d/b+2, 2, b+2, 4 (S!) ~dash~ b+3, F~2, 1",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Side Float",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Slide Punish",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Post (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Pre (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Carry",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Ender",
+      "combo": "b+3~F, WS 3, 4",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Ender",
+      "combo": "(W!) SSR 3, 3, 2 (W!) b+3~F, WS 3, 4",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    }
+  ]
+}
