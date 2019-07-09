@@ -5646,12 +5646,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "STAY IN RIGHT STANCE",
-      "id": "hwoarang_243"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "RFF 1",
       "hit_level": "high",
@@ -6728,12 +6722,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "hwoarang_290"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN BT RIGHT STANCE",
-      "id": "hwoarang_291"
     },
     {
       "properties": [],

@@ -3640,6 +3640,7 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "damage": "-",
       "speed": "23",
       "on_block": "-6",
       "on_hit": "STUN",
@@ -4009,12 +4010,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "yoshimitsu_170"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY BACK TURNED",
-      "id": "yoshimitsu_171"
     },
     {
       "properties": [],
@@ -4447,12 +4442,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "yoshimitsu_191"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN FLEA",
-      "id": "yoshimitsu_192"
     },
     {
       "properties": [],
@@ -4984,12 +4973,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN INDIAN STANCE",
-      "id": "yoshimitsu_217"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/LiquidReadyIrishwaterspaniel.gif",
       "move_name": "Indian Stance Healing",
       "notation": "INS n",
@@ -5491,12 +5474,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "yoshimitsu_240"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN KINCHO",
-      "id": "yoshimitsu_241"
     },
     {
       "properties": [],
@@ -6053,12 +6030,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "STAY IN MANJI DRAGONFLY",
-      "id": "yoshimitsu_267"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "DGF f or b",
       "hit_level": "-",
@@ -6299,12 +6270,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "STAY IN MEDITATION",
-      "id": "yoshimitsu_280"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "MED f (or b)",
       "hit_level": "-",
@@ -6373,12 +6338,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "yoshimitsu_285"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN MUTOU NO KIWAMI",
-      "id": "yoshimitsu_286"
     },
     {
       "properties": [],
@@ -7162,6 +7121,7 @@
       "natural": "-",
       "environmental": "-",
       "damage": "15 [18]",
+      "speed": "-",
       "on_block": "-",
       "on_hit": "-",
       "on_ch": "-",
@@ -7818,12 +7778,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "yoshimitsu_352"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE ATTACKS",
-      "id": "yoshimitsu_353"
     },
     {
       "properties": [],

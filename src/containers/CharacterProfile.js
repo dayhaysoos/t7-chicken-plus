@@ -22,10 +22,12 @@ import firebase from 'react-native-firebase';
 import AdBanner from '../components/AdBanner';
 import MoveTab from '../components/CharacterProfile/MoveTab';
 import ComboTab from '../components/CharacterProfile/ComboTab';
+import SpotlightTab from '../components/CharacterProfile/SpotlightTab';
 
 //selectors
 import { filterMoves, searchMoves } from '../selectors/characterProfile';
 import CHARACTER_COMBOS from '../constants/characterCombos';
+import CHARACTER_SPOTLIGHTS from '../constants/characterSpotlights';
 
 export const mapDispatcthToProps = {
     ...characterActions,
@@ -195,6 +197,11 @@ class CharacterProfile extends Component {
             CHARACTER_COMBOS[label] ? <ComboTab combos={CHARACTER_COMBOS[label].combos} /> : <Combos/>
         );
 
+
+        const SpotlightTabWrapper = () => (
+            CHARACTER_SPOTLIGHTS[label] ? <SpotlightTab playerData={CHARACTER_SPOTLIGHTS[label].combos} /> : <Combos/>
+        );
+
         return (
             <GradientTheme theme={theme}>
                 <DrawerSwitcher
@@ -221,7 +228,7 @@ class CharacterProfile extends Component {
                             renderScene={SceneMap({
                                 moves: MoveTabWrapper,
                                 combos: ComboTabWrapper,
-                                //spotlight: Spotlight
+                                spotlight: SpotlightTabWrapper
                             })}
                         />
                         <BottomMenuBar

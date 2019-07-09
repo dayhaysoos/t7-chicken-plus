@@ -2525,12 +2525,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "STAY IN HYPNOTIST",
-      "id": "xiaoyu_107"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": "Hypnotist",
       "notation": "HYP 1+2",
       "hit_level": "mid",
@@ -3415,12 +3409,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "xiaoyu_146"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN RAIN DANCE",
-      "id": "xiaoyu_147"
     },
     {
       "properties": [],
@@ -4625,12 +4613,6 @@
     {
       "properties": [],
       "preview_url": null,
-      "move_name": "STAY IN PHOENIX",
-      "id": "xiaoyu_202"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
       "move_name": null,
       "notation": "AOP d/f (or f, d/b, b)",
       "hit_level": "-",
@@ -5539,12 +5521,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "xiaoyu_243"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE ATTACKS",
-      "id": "xiaoyu_244"
     },
     {
       "properties": [],

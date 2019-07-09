@@ -756,6 +756,7 @@
       "range": "-",
       "pushback": "-",
       "tracking": "-",
+      "crush": "low",
       "jail": "-",
       "natural": "-",
       "environmental": "-",
@@ -4180,12 +4181,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "TO ZHUAN SHEN HUAN WU",
-      "id": "feng_179"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/EnviousVeneratedHapuku.gif",
       "move_name": "Zhuan Shen Huan Wu",
       "notation": "B+3~4",
@@ -4687,12 +4682,6 @@
       "active_frames": "-",
       "notes": "-",
       "id": "feng_201"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN ZHUAN SHEN HUAN WU",
-      "id": "feng_202"
     },
     {
       "properties": [],
