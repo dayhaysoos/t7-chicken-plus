@@ -1,0 +1,820 @@
+{
+  "providedBy": "sneaky coyote",
+  "providerTwitter": "@sneaky_coyote",
+  "combos": [
+    {
+      "starter": "3~4",
+      "combo": "(LAB) b+2, 3, SSL b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 78,
+      "oki": "-",
+      "volunteer": "sneaky coyote",
+      "volunteer twitter": "@sneaky_coyote"
+    },
+    {
+      "starter": "3~4",
+      "combo": "(LAB) b+2, 3, ff+3, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 78,
+      "notes": "can be finished with 41 for the BT wall followup.",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "3~4",
+      "combo": "(LAB) b+2, 3, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 78,
+      "notes": "requires the slide followup to do 78, otherwise does 72.",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "3~4",
+      "combo": "(LAB) f+4, 3 (S!) ff+3, 1, ff+3, 1, ff+2",
+      "damage": 69,
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "3~4",
+      "combo": "(LAB) f+4, 3, ff+3, 1, ff+3, 4, 1 (LAB) f+3+4",
+      "damage": "68/84",
+      "notes": "allows for tech trap setup, catches people holding back for 84, BT mixups vs tech roll.",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "3~4",
+      "combo": "(LAB) f+4, 3 (S!) ff+3, 1, 4, 1",
+      "damage": 62,
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "4~3",
+      "combo": "ff+3, df+2, 3 (S!) ~dash~ (LAB) 3+4, qcf+3, 4",
+      "damage": 73,
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "4~3",
+      "combo": "ff+4, 4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 70,
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "4~3",
+      "combo": "4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 69,
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "4~3",
+      "combo": "b+2, 4, 2 (S!) (iLAB) 3+4, ff+3, 4, 1 (LAB) f+3+4",
+      "damage": "62/78",
+      "notes": "The final hit is not guaranteed against tech roll, but will catch people holding back for 78 damage, and a back turned mixup if the wall stops the pushback.",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "uf+3+4",
+      "combo": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+      "damage": 57,
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "uf+3+4",
+      "combo": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, ff+3, 4, 1",
+      "damage": 55
+    },
+    {
+      "starter": "uf+3+4",
+      "combo": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, ff+3, 1, 3~4~B",
+      "damage": 56,
+      "notes": "If you hold B after the ender doesn't connect, you can choose what side you wish to be on for camera cross up shenanigans if they tech roll, or a BT mixup if they hold back. If the 3~4~B combos you get 56 damage and stay on your side in BT regardless of tech."
+    },
+    {
+      "starter": "(u+3), d+3",
+      "combo": "ff+4, 4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 70
+    },
+    {
+      "starter": "(u+3), d+3",
+      "combo": "ff+4, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 65
+    },
+    {
+      "starter": "whiff uf+3+4, whiff f+4~3 (last hit)",
+      "combo": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+      "damage": 59
+    },
+    {
+      "starter": "whiff uf+3+4, whiff f+4~3 (last hit)",
+      "combo": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, ff+3, 4, 1",
+      "damage": 57
+    },
+    {
+      "starter": "uf, n, 4 (short hop)",
+      "combo": "ff+4, db+2, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 78
+    },
+    {
+      "starter": "uf, n, 4 (short hop)",
+      "combo": "ff+3, df+2, 3 (S!) ~dash~ (LAB) 3+4, ~dash~ 4, 1",
+      "damage": 72
+    },
+    {
+      "starter": "ff+3",
+      "combo": "ff+3, df+2, 3 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+      "damage": 75,
+      "notes": "you can microdash a bit between the 2nd ff+3 and df+2, 3 to help everything connect... and let your dash finish before you (iLAB) 3+4"
+    },
+    {
+      "starter": "ff+3",
+      "combo": "ff+4, db+2 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 74,
+      "notes": " the 4 in ff4 must be sufficiently delayed to move you as far forward as possible, and ground slide must occur for the 74, otherwise you get 68."
+    },
+    {
+      "starter": "ff+3",
+      "combo": "ff+3, df+2, 3 (S!) ~dash~ (iLAB) 3+4, ff+3, f+2, 3",
+      "damage": 73
+    },
+    {
+      "starter": "ff+3",
+      "combo": "ff+4, 4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4 ",
+      "damage": 72,
+      "notes": "can be ended with ff3, ff4 for the wall."
+    },
+    {
+      "starter": "ff+3",
+      "combo": "ff+3, 4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+      "damage": "70/84",
+      "notes": "catches people who hold back to get up for 84 damage."
+    },
+    {
+      "starter": "ff+3",
+      "combo": "ff+3, 4, 1 (LAB) 2, BT f242 S!, 3~4",
+      "damage": 69,
+      "notes": "spikes for BT setups."
+    },
+    {
+      "starter": "ff+3",
+      "combo": "~dash~ df+2, 3 SSL ff+3, 1, ff+3, 4, 1",
+      "damage": 67,
+      "notes": "gives extreme carry but is harder."
+    },
+    {
+      "starter": "ff+3",
+      "combo": "ff+3, 4, 1 (LAB) f+4, 3, 4, 1",
+      "damage": 62,
+      "notes": "can be ended with 4, 1 to get the wall for the BT followup."
+    },
+    {
+      "starter": "ff+3",
+      "combo": "~dash~ df+2, 3 SSL ff+3, 1, 4, 1",
+      "damage": 61,
+      "notes": "gives strong wall carry due to side step, which keeps the combo path from curving."
+    },
+    {
+      "starter": "d/f+2",
+      "combo": "(LAB) f+3, d/b+2, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 69,
+      "notes": "sneaky's lol69 combo"
+    },
+    {
+      "starter": "d/f+2",
+      "combo": "(LAB) b+3 (S!) ~dash~ (LAB) 3+4, ff+3, 1, ff+3, ff+4",
+      "damage": 67,
+      "notes": "does not work if off axis to your opp.'s left and if df+2 connects at max range."
+    },
+    {
+      "starter": "d/f+2",
+      "combo": "(LAB) 3+4, ff+3, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 66
+    },
+    {
+      "starter": "d/f+2",
+      "combo": "(LAB) f+2, 4, 2 (S!) (iLAB) 3+4, qcf+4, 3",
+      "damage": 63
+    },
+    {
+      "starter": "d/f+2",
+      "combo": "(LAB) 2, 2, f+2, 4, 2 (S!) qcf+4, 3",
+      "damage": 62
+    },
+    {
+      "starter": "d/f+2",
+      "combo": "(LAB) f+2, 4, 2 (S!) (iLAB) 3+4, ff+3, f+2, 3",
+      "damage": 61,
+      "notes": "can be ended with 4, 1 for the BT wall followup."
+    },
+    {
+      "starter": "d/f+2",
+      "combo": "(LAB) b+2, 3 b+2, 4, 2 (S!) 3~4",
+      "damage": 57,
+      "notes": "gives BT setup with spike to keep opponent near."
+    },
+    {
+      "starter": "d/f+4 (on crouching opp.)",
+      "combo": "ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 60
+    },
+    {
+      "starter": "d/f+4 (on crouching opp.)",
+      "combo": "ff+3, ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 68
+    },
+    {
+      "starter": "d/f+4 (on crouching opp.)",
+      "combo": "ff+3, ff+4, 1, b+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+      "damage": "60/76",
+      "notes": "has chance to do 76 damage with the final hit if the opponent holds back."
+    },
+    {
+      "starter": "d/f+4 (on crouching opp.)",
+      "combo": "b+2, 4, 2 (S!) b+3+4, (LAB) 3+4, 3~4",
+      "damage": 50,
+      "notes": "Gamma 2 gives BT mixups. Any of these can be ended with ff4 for wall connections or 41 for the BT wall followup."
+    },
+    {
+      "starter": "qcf+2",
+      "combo": "ff+4, 4, 1 (LAB) f+4, 3 (S!) ~dash~ 3~4, (LAB) 1+2",
+      "damage": "68/89"
+    },
+    {
+      "starter": "qcf+2",
+      "combo": "ff+4, 1, b+2, 4, 2 (S!) qcf+4, 1",
+      "damage": 51
+    },
+    {
+      "starter": "qcf+2",
+      "combo": "db+2, 1, 1, b+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+      "damage": "48/64",
+      "notes": "Final hit isn't guaranteed but hits people holding back for 64."
+    },
+    {
+      "starter": "qcf+2",
+      "combo": "ff+4, 4, 1, (LAB) f+4, 3 (S!) ~dash~ 3~4, (LAB) 1+2",
+      "damage": "48/54 + 20/41",
+      "notes": "if the opp. tries to get up out of tailspin they take a total of 48, and if they sit there they at 54. If they try to get up after 3~4 (or any other get up method) they eat BT 1+2 and a follow up uf+3 for 41. If opp. is grounded 1+2 will whiff, except if they are a large character, in which case you hit grounded for 20 guaranteed dmg."
+    },
+    {
+      "starter": "qcf+2",
+      "combo": "db+2, (LAB) f+4, 3 (S!) b+2, 2, 3",
+      "damage": 43
+    },
+    {
+      "starter": "qcf+4",
+      "combo": "(LAB) 3+4, ff+3, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 65
+    },
+    {
+      "starter": "qcf+4",
+      "combo": "(LAB) 3+4, ff+4, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 65,
+      "notes": "If beta doesn't get the slide ender, it does 59."
+    },
+    {
+      "starter": "qcf+4",
+      "combo": "(LAB) b+3 (S!) ~dash~ (LAB) 3+4, ff+3, 1, ff+3, qcf+3, 4",
+      "damage": 67,
+      "notes": "does not work if off axis to your opp.'s left."
+    },
+    {
+      "starter": "qcf+4",
+      "combo": "(LAB) b+2, 3 b+2, 4, 2 (S!) ff+3, ff+4 ",
+      "damage": 61,
+      "notes": "has good wall carry, and an opportunity for an easy wall alignment adjustment with side step left after BT B23 before doing b242."
+    },
+    {
+      "starter": "qcf+4",
+      "combo": "(LAB) f+3, b+2, 4, 2 (S!) ff+3, 4, 1",
+      "damage": 58
+    },
+    {
+      "starter": "WS+1",
+      "combo": "ff+3, df+2, 3 (S!) ~dash~ (LAB) 3+4, ff+3, qcf+3, 4",
+      "damage": 69
+    },
+    {
+      "starter": "WS+1",
+      "combo": "ff+4, db+2, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 67
+    },
+    {
+      "starter": "WS+1",
+      "combo": "ff+3, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+4, 2",
+      "damage": 68
+    },
+    {
+      "starter": "HAZ 1",
+      "combo": "ff+3, df+2, 3 (S!) ~dash~ (LAB) 3+4, ff+3, qcf+3, 4",
+      "damage": 75
+    },
+    {
+      "starter": "HAZ 1",
+      "combo": "ff+4, 4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 72,
+      "notes": "can be ended with 4, 1 for the wall."
+    },
+    {
+      "starter": "HAZ 1",
+      "combo": "b+2, 4, 2 (S!) (iLAB) 3+4, ff+3, 4, 1, b+3+4",
+      "damage": "64/80",
+      "notes": "gives chance to catch people who hold back with BT b3+4 for 80 damage, otherwise 64."
+    },
+    {
+      "starter": "HAZ 1",
+      "combo": "b242 S!, b3+4, BT 3+4, ff3, ff4",
+      "damage": 62
+    },
+    {
+      "starter": "(LAB) 3, 4, 3 (last hit)",
+      "combo": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+      "damage": 59
+    },
+    {
+      "starter": "(LAB) 3, 4, 3 (last hit)",
+      "combo": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, ff+3, 4, 1",
+      "damage": 57
+    },
+    {
+      "starter": "(LAB) b+2, 3 (NCc)",
+      "combo": "df+2, 3 (S!) ~dash~ (iLAB) 3+4, ~dash~ qcf+3, 4",
+      "damage": "74/80"
+    },
+    {
+      "starter": "(LAB) ff+3+4 (close)",
+      "combo": "(LAB) 3+4, SSL, 1, b+2, 4, 2 (S!) SSL, 3~4, (LAB) 1+2",
+      "damage": "72/93",
+      "notes": "If they try to get up after 3~4 (or any other get up method) they eat BT 1+2 and a followup db4 for a total of 93 (against most characters). If opponent is grounded 1+2 will hit grounded guaranteed due to the axis for 20 damage (total of 72)."
+    },
+    {
+      "starter": "(LAB) ff+3+4 (close)",
+      "combo": "ff+4, df+2, 3 (S!) ~dash~ (LAB) 3+4, ff+3, qcf+3, 4",
+      "damage": 72
+    },
+    {
+      "starter": "(LAB) ff+3+4 (close)",
+      "combo": "db+2, (LAB) 2, BT f+2, 4, 2 (S!) qcf+4, 2",
+      "damage": 63,
+      "notes": "can be ended with 4, 1 for wall carry, or with ff+3, ff+4 after tailspin for additional distance."
+    },
+    {
+      "starter": "(LAB) ff+3+4 (close)",
+      "combo": "(LAB) 3+4, ~dash~ 1, b+2, 4, 2 (S!) f+4",
+      "damage": 54
+    },
+    {
+      "starter": "(LAB) ff+3+4 (close)",
+      "combo": "(LAB) f+2, 4, 2 (S!) SSL, (iLAB) 3+4, 3~4, (LAB) 1+2"
+    },
+    {
+      "starter": "(LAB) ff+3+4 (far)",
+      "combo": "ff+4, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 71
+    },
+    {
+      "starter": "(LAB) ff+3+4 (far)",
+      "combo": "db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 63,
+      "notes": "can be ended with 4, 1 for wall carry, or with ff+3, ff+4 after tailspin for additional distance."
+    },
+    {
+      "starter": "df+4, 4, 3 (last hit)",
+      "combo": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+      "damage": 59
+    },
+    {
+      "starter": "df+4, 4, 3 (last hit)",
+      "combo": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, ff+3, 4, 1",
+      "damage": 57
+    },
+    {
+      "starter": "(LAB) 1+2",
+      "combo": "d+4",
+      "damage": 37
+    },
+    {
+      "starter": "(LAB) 3+4",
+      "combo": "uf, n+4, ff+3, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 68
+    },
+    {
+      "starter": "(LAB) 3+4",
+      "combo": "df+2, 3 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+      "damage": 60,
+      "notes": "requires slide animation to do 60, otherwise does 54."
+    },
+    {
+      "starter": "(LAB) 3+4",
+      "combo": "(LAB) 3+4, ff+3, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 58
+    },
+    {
+      "starter": "(LAB) 3+4",
+      "combo": "df+2, 3 (S!) ff+3, 4, 1",
+      "damage": 51
+    },
+    {
+      "starter": "(LAB) 3+4",
+      "combo": "delayed ff+4 (pass under opponent), 1, b+2, 4, 2 (S!) SSL 3~4, (LAB) 1+2",
+      "damage": "51/71",
+      "notes": "hits for 51 + 20 (71 total) from the BT 1+2 if they opponent stays down. If they get up you get a followup db+4 guaranteed for 41 on top of the 51 (92 total) (against most characters). The ff in ff+4 must be done fast but started late."
+    },
+    {
+      "starter": "(LAB) u/uf+4",
+      "combo": "b+2, 4, 2 (S!) (iLAB) 3+4, ff+3, f+2, 3",
+      "damage": 65,
+      "notes": "can be ended with ff+4 for wall carry."
+    },
+    {
+      "starter": "(LAB) u/uf+4",
+      "combo": "ff+3, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 75,
+      "notes": "can be ended with 4, 1 for wall carry."
+    },
+    {
+      "starter": "(LAB) u/uf+4",
+      "combo": "ff+3, 2, b+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+      "damage": "62/78",
+      "notes": "for tech trapping someone who holds back instead of tech rolling, dealing 78, otherwise gives 62."
+    },
+    {
+      "starter": "(LAB) u/uf+4",
+      "combo": "ff+3, 2, b+2, 4, 2 (S!) 3~4",
+      "damage": 61,
+      "notes": "gives back turned possibilities."
+    },
+    {
+      "starter": "(LAB) d+3 (clean hit)",
+      "combo": "ff+3, df+2, 3 (S!) ~dash~ (LAB) 3+4, qcf+3, 4",
+      "damage": 76,
+      "notes": "requires slide animation to do 76, otherwise does 70."
+    },
+    {
+      "starter": "(LAB) d+3 (clean hit)",
+      "combo": "ff+4, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 75,
+      "notes": "can be ended with ff+3, ff+4 after tailspin for the wall or 4, 1 for the BT wall ender."
+    },
+    {
+      "starter": "(LAB) d+3 (clean hit)",
+      "combo": "b+2, 4, 2 (S!) (iLAB) 3+4, ff+3, ff+4 ",
+      "damage": 63
+    },
+    {
+      "starter": "(LAB) d+3 (clean hit)",
+      "combo": "ff+3, 2, b+2, 4, 2 (S!) 3~4",
+      "damage": 61,
+      "notes": "gives back turned mixups."
+    },
+    {
+      "starter": "(During Rage) f+3+4",
+      "combo": "~dash~ (iLAB) b+2, 3, ff+3, ff+3, qcf+3~4",
+      "damage": 78
+    },
+    {
+      "starter": "[4, 1]",
+      "combo": "(LAB) 2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 68,
+      "notes": "can be ended with 41 or ff3, ff4 for the wall."
+    },
+    {
+      "starter": "[u/f+3]",
+      "combo": "df+1, ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 75
+    },
+    {
+      "starter": "[u/f+3]",
+      "combo": "df+2, 3 (S!) ff+3, 4, 1 (LAB) b+2, 4",
+      "damage": 71
+    },
+    {
+      "starter": "[u/f+3]",
+      "combo": "4, 1 (LAB) 1, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 74,
+      "notes": "requires slide animation to do 74, otherwise does 68."
+    },
+    {
+      "starter": "[d/f+3]",
+      "combo": "ff+3, ff+3, 1, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 82,
+      "notes": "Can be ended with 4, 1 or ff+3, ff+4 for the wall. Must get slide animation to reach 82."
+    },
+    {
+      "starter": "[d/f+4]",
+      "combo": "ff+3, ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 68
+    },
+    {
+      "starter": "[d/f+4]",
+      "combo": "ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 60
+    },
+    {
+      "starter": "[d/f+4]",
+      "combo": "ff+3, ff+4, 1, b+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+      "damage": "60/76",
+      "notes": "has chance to do 76 damage with the final hit if the opponent holds back."
+    },
+    {
+      "starter": "[d/f+4]",
+      "combo": "b+2, 4, 2 (S!) (iLAB) 3+4, 3~4",
+      "damage": 50,
+      "notes": "gives BT mixups. Any of these can be ended with ff4 for wall connections or 4, 1 for the BT wall followup."
+    },
+    {
+      "starter": "[b+1]",
+      "combo": "(delay) d/b+4",
+      "damage": 50
+    },
+    {
+      "starter": "[(b+2), 2]",
+      "combo": "(LAB) 1, 4",
+      "damage": 54
+    },
+    {
+      "starter": "[b, B+2]",
+      "combo": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4"
+    },
+    {
+      "starter": "[d/b+3]",
+      "combo": "(RAGE) db+3+4",
+      "damage": 66
+    },
+    {
+      "starter": "[d/b+4]",
+      "combo": "(RAGE) db+3+4",
+      "damage": 68
+    },
+    {
+      "starter": "[qcf+1]",
+      "combo": "ff+4, df+2, 3 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+      "damage": 77
+    },
+    {
+      "starter": "[WS 2]",
+      "combo": "ff+3, df+2, 3 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+      "damage": 75,
+      "notes": "must end on the slide to do 75, otherwise does 69. Can replace the beta ender with ff+3, ff+4 after tailspin for wall followups."
+    },
+    {
+      "starter": "[WS 2]",
+      "combo": "ff+3, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) ff+3, ff+4",
+      "damage": 70,
+      "notes": "can be ended with 4, 1 instead of ff+3, ff+4 as an alternative wall connection."
+    },
+    {
+      "starter": "[(u/f+3+4), 4]",
+      "combo": "db+2, 1, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 56
+    },
+    {
+      "starter": "[(u/f+3+4), 4]",
+      "combo": "ff+4, 4, 1 (LAB) f+4, 3 (S!) ~dash~ 3~4",
+      "damage": 51
+    },
+    {
+      "starter": "[(u/f+3+4), f+4]",
+      "combo": "db+2, 1, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 60
+    },
+    {
+      "starter": "[(u/f+3+4), f+4]",
+      "combo": "ff+4, 4, 1 (LAB) f+4, 3 (S!) ~dash~ 3~4",
+      "damage": 55
+    },
+    {
+      "starter": "[(HAZ) 3]",
+      "combo": "(LAB) 3+4, ff+3, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 70
+    },
+    {
+      "starter": "[(LAB) 2]",
+      "combo": "(LAB) 1, 4",
+      "damage": 55
+    },
+    {
+      "starter": "[(LAB) f+3]",
+      "combo": "(RAGE) f+3+4, 2 (S!), ff+4, 1, ff+3, 4, 1, (LAB) b+2, 4",
+      "damage": 92
+    },
+    {
+      "starter": "[(LAB) f+3]",
+      "combo": "(RAGE) f+3+4, 2 (S!) (iLAB) 3+4, ff+3, 1, ff+3, f+2, 3",
+      "damage": 90
+    },
+    {
+      "starter": "[(LAB) f+3]",
+      "combo": "3~4",
+      "damage": 40
+    },
+    {
+      "starter": "[(LAB) b+2, 3]",
+      "combo": "ff+4 (pass under opponent), 1, b+2, 4, 2 (S!) SSL 3~4, (LAB) 1+2",
+      "damage": "71/90",
+      "notes": "hits for 71 + 20 (91 total) from the BT 1+2 if they opponent stays down. If they get up you get a followup db4 guaranteed for 41 on top of the 71 (112 total) (against most characters). The ff in ff+4 must be done fast but started late."
+    },
+    {
+      "starter": "[(LAB) b+2, 3]",
+      "combo": "df+2, 3 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+      "damage": 80,
+      "notes": "requires the slide animation to do 80, otherwise does 74."
+    },
+    {
+      "starter": "[(LAB) b+2, 3]",
+      "combo": "b+2, 4, 2 (S!) ff+3, 4, 1",
+      "damage": 71
+    },
+    {
+      "starter": "[(LAB) (b+2), 4]",
+      "combo": "4, 1 (LAB) f+4, 3 (S!) ~dash~ qcf+3, 4",
+      "damage": 57
+    },
+    {
+      "starter": "[Face Up, Feet Towards+3]",
+      "combo": "ff+4, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 59
+    },
+    {
+      "starter": "[Face Up, Feet Towards+3]",
+      "combo": "WS+1, 4, 1 (LAB) f+4, 3 (S!) qcf+3, 4",
+      "damage": 56
+    },
+    {
+      "starter": "[(b+4), (B+4), (3), 4]",
+      "combo": "db+2, 1, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 57
+    },
+    {
+      "starter": "[(b+4), (B+4), (3), f+4]",
+      "combo": "db+2, 1, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 60
+    },
+    {
+      "starter": "[FC d/f+3+4]",
+      "combo": "ff+4, 4, 1 (LAB) f+4, 3 (S!) qcf+3, 4",
+      "damage": 64
+    },
+    {
+      "starter": "[FC d/f+3+4]",
+      "combo": "ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+      "damage": 61
+    },
+    {
+      "starter": "[Face Down, Feet Away+3]",
+      "combo": "ff+4, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+      "damage": 59
+    },
+    {
+      "starter": "[Face Down, Feet Away+3]",
+      "combo": "WS+1, 4, 1 (LAB) f+4, 3 (S!) ~dash~ qcf+3, 4",
+      "damage": 57
+    },
+    {
+      "starter": "[(b+2), (2), 3]",
+      "combo": "4, 1 (LAB) f+4, 3 (S!) ~dash~ qcf+3, 4",
+      "damage": 66
+    },
+    {
+      "starter": "BT Opponent",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Float",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Floor Break Post (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Floor Break Pre (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Low Parry",
+      "combo": "f, f+4, d/f+2, 3 (S!) ~dash~ (LAB) 3+4, qcf+3, 4",
+      "damage": 55,
+      "notes": "must get the slide for 55.",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Low Parry",
+      "combo": "b+2, 4, 2 (S!) (iLAB) 3+4, qcf+3, 4",
+      "damage": 46,
+      "notes": "-"
+    },
+    {
+      "starter": "Low Parry",
+      "combo": "ff+4, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+      "damage": "46/62",
+      "notes": "tech traps people who hold back instead of tech roll for 62, otherwise does 46 and a possible teleport mixup."
+    },
+    {
+      "starter": "Low Parry",
+      "combo": "ff+4, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) 3~4",
+      "damage": 45,
+      "notes": "gives BT mixups."
+    },
+    {
+      "starter": "Side Float",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Slide Punish",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Post (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Pre (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Carry",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Ender",
+      "combo": "b+1, 4, KNK 3, 4",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Ender",
+      "combo": "WS 1, 4, 1",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    }
+  ]
+}
