@@ -1,0 +1,222 @@
+{
+  "providedBy": "sneaky coyote",
+  "providerTwitter": "@sneaky_coyote",
+  "combos": [
+    {
+      "starter": "d/f+2, 1",
+      "combo": "d/f+1, F, SAV d/f+1, d/f+4, 1, d/f+2, 2 (S!), f, F+2, 2",
+      "damage": 61,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "sneaky coyote",
+      "volunteer twitter": "@sneaky_coyote"
+    },
+    {
+      "starter": "u/f+4",
+      "combo": "d/b+2, d/f+1, F, SAV d/f+1, F, SAV 4 (S!) ~dash~ d/f+1, f, F+2, 1",
+      "damage": 64,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "u/f+4",
+      "combo": "d/b+2, d/f+1, F, SAV d/f+1, F, SAV 1, 1 (S!) (During Rage) b+1+2",
+      "damage": 74,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "SAV d/f+2",
+      "combo": "d/f+1, F, SAV d/f+1, F, SAV 4 (S!) ~dash~ d/f+1, d/f+2, 2",
+      "damage": 74,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "SAV 1+2",
+      "combo": "f, F+3 (S!), 3+4, SAV u/f+3, d/f+4, 1, F, SAV 1, 2, 1",
+      "damage": 80,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "d/b+1",
+      "combo": "WS 4, (During Rage) d/b+1+2, d/b+2, d/f+1, f, F+2, 1",
+      "damage": 56,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "d/b+1",
+      "combo": "WS 4, d+4, 1+2",
+      "damage": 37,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "f, F+3",
+      "combo": "(S!), d/f+1, d/f+4, 1, F, SAV 1, 2, 1",
+      "damage": 60,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[b+1]",
+      "combo": "SSR, d/f+1, F, SAV 1, 1 (S!) ~dash~ d/f+1, f, F+2, 2",
+      "damage": 55,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[b+3]",
+      "combo": "F, SAV u/f+3, d/f+1, F, SAV 4 (S!) ~dash~ d/f+1, f, F+2, 1",
+      "damage": 78,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[f+2]",
+      "combo": "d/b+2, d/f+1, F, SAV 1, 1 (S!) ~dash~ f, F+2, 2",
+      "damage": 61,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "WS 2, 4",
+      "combo": "(S!) 3+4, SAV u/f+3, d/f+4, 1, F, SAV 1, 2, 1",
+      "damage": 56,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "BT Opponent",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Float",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Floor Break Post (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Floor Break Pre (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Low Parry",
+      "combo": "d/b+2, d/f+1, F, SAV 1, 1 (S!) ~dash~ d/f+1, f, F+2, 1",
+      "damage": 46,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Side Float",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Slide Punish",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Post (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Pre (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Carry",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Ender",
+      "combo": "1, d/f+4, 1, 1",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Ender",
+      "combo": "u/f+3, 2, 2",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    }
+  ]
+}

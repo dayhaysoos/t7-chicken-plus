@@ -1,0 +1,384 @@
+{
+  "providedBy": "sneaky coyote",
+  "providerTwitter": "@sneaky_coyote",
+  "combos": [
+    {
+      "starter": "DCK 1",
+      "combo": "f, F+2",
+      "damage": 33,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "sneaky coyote",
+      "volunteer twitter": "@sneaky_coyote"
+    },
+    {
+      "starter": "FLK 2",
+      "combo": "f, F+2",
+      "damage": 40,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "EXT DCK 1",
+      "combo": "EXT DCK 1",
+      "damage": 40,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "f, F+2",
+      "combo": "f, F+2",
+      "damage": 43,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "FLK b+2",
+      "combo": "f, F+2",
+      "damage": 46,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "f, f, f+2 (or WR 2)",
+      "combo": "f, F+2",
+      "damage": 49,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "PAB d/f+2",
+      "combo": "d/f+1, 2 (S!), SSR, DCK 1, d/f+1, 2~1, B, DCK 1",
+      "damage": 54,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "DCK 2",
+      "combo": "DCK f+2 (S!), EXT DCK 1, d/f+1, 2~1, B, FLK 1~B, ALB 2",
+      "damage": 59,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "b+2",
+      "combo": "b~FLK 1, d+1 (S!), SSR ~dash~ d/f+1, 2~1, B, FLK 1~B, ALB 2",
+      "damage": 60,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "d/b+1+2",
+      "combo": "f, F+2, f, F+2",
+      "damage": 59,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "u/f+4",
+      "combo": "d/f+1, 2~1, f+2, 1~B, DCK f+2 (S!) ~dash~ d/f+1+2",
+      "damage": 61,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "u/f+2",
+      "combo": "d/f+1, 2~1, B, DCK f+2 (S!), EXT DCK 1, (During Rage) 1+2",
+      "damage": 80,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "u/f+2",
+      "combo": "DCK 1, d/f+1, 2~1, B, DCK f+2 (S!), EXT DCK 1 ~dash~ d/f+1+2",
+      "damage": 67,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "PAB b+2",
+      "combo": "(During Rage) d/f+2+3, DCK 1, d/f+1, 2~1, B, DCK f+2 (S!) ~dash~ d/f+1+2",
+      "damage": 88,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "PAB u/f+2",
+      "combo": "d/f+1, 2~1, B, FLK 1~B, b+1, d+1 (S!) ~dash~ PAB f+2, 1",
+      "damage": 68,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "EXT DCK 1",
+      "combo": "(During Rage) d/f+2+3, DCK f+2 (S!), DCK 1, f+2, 1, B, DCK 1",
+      "damage": 77,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "EXT DCK f+2",
+      "combo": "DCK f+2 (S!), EXT DCK 1, DCK 1, (During Rage) 1+2",
+      "damage": 87,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "EXT DCK f+2",
+      "combo": "EXT DCK 1, b+1, 2 (S!), SSL ~dash~ d/f+1, 2~1, B, FLK 1~B, ALB 2",
+      "damage": 72,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "EXT DCK f+2",
+      "combo": "DCK f+2 (S!), EXT DCK 1, d/f+1, 2~1, B, FLK 1~B, ALB 2",
+      "damage": 72,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[SWY 1]",
+      "combo": "f, F+2",
+      "damage": 50,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[b+1, 2]",
+      "combo": "(S!), DCK 1, d/f+1, 2~1, B, FLK 1~B, ALB 2",
+      "damage": 54,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[DCK 1]",
+      "combo": "d/f+1, 2~1, B, FLK 1~B, b+1, d+1 (S!) ~dash~ PAB f+2, 1",
+      "damage": 61,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[d/f+2]",
+      "combo": "DCK 1, d/f+1, 2~1, B, DCK f+2 (S!) ~dash~ d/f+1+2",
+      "damage": 62,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[PAB 2]",
+      "combo": "DCK 1, d/f+1, 2~1, B, DCK f+2 (S!) ~dash~ d/f+1+2",
+      "damage": 63,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[b+1, B]",
+      "combo": "EXT DCK 1, DCK 1, d/f+1, 2~1, B, DCK f+2 (S!) ~dash~ d/f+1+2",
+      "damage": 68,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[DCK f+2]",
+      "combo": "EXT DCK 1, d/f+1, 2~1, B, DCK f+2 (S!), EXT DCK 1 ~dash~ d/f+1+2",
+      "damage": 75,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[DCK f+2]",
+      "combo": "DCK f+2 (S!), EXT DCK 1, d/f+1, 2~1, B, FLK 1~B, ALB 2",
+      "damage": 68,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "[EXT DCK 1]",
+      "combo": "DCK f+2 (S!), EXT DCK 1, d/f+1, 2~1, B, FLK 1~B, ALB 2",
+      "damage": 69,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "(During Rage) d/f+2+3",
+      "combo": "DCK f+2 (S!), EXT DCK 1, d/f+1, 2~1, B, FLK 1~B, ALB 2",
+      "damage": 79,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "BT Opponent",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Float",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Floor Break Post (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Floor Break Pre (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Low Parry",
+      "combo": "SSL, (During Rage) d/f+2+3, DCK 1, d/f+1, 2~1, B, DCK f+2 (S!) ~dash~ d/f+1+2",
+      "damage": 52,
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Side Float",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Slide Punish",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Post (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Break Pre (S!)",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Carry",
+      "combo": "-",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Ender",
+      "combo": "3, 1, 1, d/f+1+2",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Ender",
+      "combo": "d/f+1+2",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    },
+    {
+      "starter": "Wall Ender",
+      "combo": "(During Rage) d/f+3+4, 1+2",
+      "damage": "-",
+      "notes": "-",
+      "oki": "-",
+      "volunteer": "-",
+      "volunteer twitter": "-"
+    }
+  ]
+}

@@ -18,6 +18,25 @@ import julia from '../../assets/character-data/combos/julia-combos';
 import katarina from '../../assets/character-data/combos/katarina-combos';
 import kazumi from '../../assets/character-data/combos/kazumi-combos';
 import kazuya from '../../assets/character-data/combos/kazuya-combos';
+import king from '../../assets/character-data/combos/king-combos';
+import kuma from '../../assets/character-data/combos/kuma-combos';
+import lars from '../../assets/character-data/combos/lars-combos';
+import law from '../../assets/character-data/combos/law-combos';
+import lee from '../../assets/character-data/combos/lee-combos';
+import leo from '../../assets/character-data/combos/leo-combos';
+import lili from '../../assets/character-data/combos/lili-combos';
+import luckychloe from '../../assets/character-data/combos/luckychloe-combos';
+import marduk from '../../assets/character-data/combos/marduk-combos';
+import masterraven from '../../assets/character-data/combos/masterraven-combos';
+import miguel from '../../assets/character-data/combos/miguel-combos';
+import negan from '../../assets/character-data/combos/negan-combos';
+import nina from '../../assets/character-data/combos/nina-combos';
+import noctis from '../../assets/character-data/combos/noctis-combos';
+import paul from '../../assets/character-data/combos/paul-combos';
+import shaheen from '../../assets/character-data/combos/shaheen-combos';
+import steve from '../../assets/character-data/combos/steve-combos';
+import xiaoyu from '../../assets/character-data/combos/xiaoyu-combos';
+import yoshimitsu from '../../assets/character-data/combos/yoshimitsu-combos';
 
 const CHARACTER_COMBOS = {
     akuma,
@@ -39,7 +58,26 @@ const CHARACTER_COMBOS = {
     julia,
     katarina,
     kazumi,
-    kazuya
+    kazuya,
+    king,
+    kuma,
+    lars,
+    law,
+    lee,
+    leo,
+    lili,
+    luckychloe,
+    marduk,
+    masterraven,
+    miguel,
+    negan,
+    nina,
+    noctis,
+    paul,
+    shaheen,
+    steve,
+    xiaoyu,
+    yoshimitsu
 };
 
 export default CHARACTER_COMBOS;
