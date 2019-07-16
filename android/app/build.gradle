@@ -142,19 +142,11 @@ android {
 }
 
 dependencies {
-    implementation project(':react-native-reanimated')
     implementation project(':@react-native-community_async-storage')
     implementation project(':react-native-firebase')
-    implementation project(':react-native-webview')
-    compile project(':tipsi-stripe')
-    compile project(':react-native-gesture-handler')
-    compile project(':react-native-iap')
     compile (project(':react-native-iap')) {
         exclude group: 'com.google.android.gms'
     }
-    compile project(':react-native-splash-screen')
-    compile project(':react-native-linear-gradient')
-    compile project(':react-native-code-push')
     compile 'androidx.appcompat:appcompat:1.0.0'
     compile 'com.google.android.gms:play-services-base:16.1.0'
     compile fileTree(dir: "libs", include: ["*.jar"])
