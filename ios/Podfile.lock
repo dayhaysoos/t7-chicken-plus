@@ -1,33 +1,6 @@
 PODS:
   - boost-for-react-native (1.63.0)
-  - Crashlytics (3.13.2):
-    - Fabric (~> 1.10.2)
   - DoubleConversion (1.1.6)
-  - Fabric (1.10.2)
-  - Firebase/AdMob (5.20.2):
-    - Firebase/Core
-    - Google-Mobile-Ads-SDK (~> 7.42)
-  - Firebase/Core (5.20.2):
-    - Firebase/CoreOnly
-    - FirebaseAnalytics (= 5.8.1)
-  - Firebase/CoreOnly (5.20.2):
-    - FirebaseCore (= 5.4.1)
-  - FirebaseAnalytics (5.8.1):
-    - FirebaseCore (~> 5.4)
-    - FirebaseInstanceID (~> 3.8)
-    - GoogleAppMeasurement (= 5.8.1)
-    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
-    - GoogleUtilities/MethodSwizzler (~> 5.2)
-    - GoogleUtilities/Network (~> 5.2)
-    - "GoogleUtilities/NSData+zlib (~> 5.2)"
-    - nanopb (~> 0.3)
-  - FirebaseCore (5.4.1):
-    - GoogleUtilities/Environment (~> 5.2)
-    - GoogleUtilities/Logger (~> 5.2)
-  - FirebaseInstanceID (3.8.1):
-    - FirebaseCore (~> 5.2)
-    - GoogleUtilities/Environment (~> 5.2)
-    - GoogleUtilities/UserDefaults (~> 5.2)
   - Folly (2018.10.22.00):
     - boost-for-react-native
     - DoubleConversion
@@ -38,37 +11,6 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - Google-Mobile-Ads-SDK (7.43.0):
-    - GoogleAppMeasurement (~> 5.7)
-  - GoogleAppMeasurement (5.8.1):
-    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
-    - GoogleUtilities/MethodSwizzler (~> 5.2)
-    - GoogleUtilities/Network (~> 5.2)
-    - "GoogleUtilities/NSData+zlib (~> 5.2)"
-    - nanopb (~> 0.3)
-  - GoogleUtilities/AppDelegateSwizzler (5.8.0):
-    - GoogleUtilities/Environment
-    - GoogleUtilities/Logger
-    - GoogleUtilities/Network
-  - GoogleUtilities/Environment (5.8.0)
-  - GoogleUtilities/Logger (5.8.0):
-    - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (5.8.0):
-    - GoogleUtilities/Logger
-  - GoogleUtilities/Network (5.8.0):
-    - GoogleUtilities/Logger
-    - "GoogleUtilities/NSData+zlib"
-    - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (5.8.0)"
-  - GoogleUtilities/Reachability (5.8.0):
-    - GoogleUtilities/Logger
-  - GoogleUtilities/UserDefaults (5.8.0):
-    - GoogleUtilities/Logger
-  - nanopb (0.3.901):
-    - nanopb/decode (= 0.3.901)
-    - nanopb/encode (= 0.3.901)
-  - nanopb/decode (0.3.901)
-  - nanopb/encode (0.3.901)
   - React (0.60.3):
     - React-Core (= 0.60.3)
     - React-DevSupport (= 0.60.3)
@@ -139,27 +81,12 @@ PODS:
   - React-RCTWebSocket (0.60.3):
     - React-Core (= 0.60.3)
     - React-fishhook (= 0.60.3)
-  - RNFirebase (5.5.4):
-    - Firebase/Core
-    - React
-    - RNFirebase/Crashlytics (= 5.5.4)
-  - RNFirebase/Crashlytics (5.5.4):
-    - Crashlytics
-    - Fabric
-    - Firebase/Core
-    - React
-  - RNGestureHandler (1.3.0):
-    - React
-  - Stripe (14.0.0)
   - yoga (0.60.3.React)
 
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
-  - Firebase/AdMob (~> 5.20.2)
-  - Firebase/Core (~> 5.20.2)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
-  - Google-Mobile-Ads-SDK
   - React (from `../node_modules/react-native/`)
   - React-Core (from `../node_modules/react-native/React`)
   - React-cxxreact (from `../node_modules/react-native/ReactCommon/cxxreact`)
@@ -178,25 +105,11 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - React-RCTWebSocket (from `../node_modules/react-native/Libraries/WebSocket`)
-  - RNFirebase (from `../node_modules/react-native-firebase/ios`)
-  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
-  - Stripe (~> 14.0.0)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - boost-for-react-native
-    - Crashlytics
-    - Fabric
-    - Firebase
-    - FirebaseAnalytics
-    - FirebaseCore
-    - FirebaseInstanceID
-    - Google-Mobile-Ads-SDK
-    - GoogleAppMeasurement
-    - GoogleUtilities
-    - nanopb
-    - Stripe
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -241,28 +154,14 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   React-RCTWebSocket:
     :path: "../node_modules/react-native/Libraries/WebSocket"
-  RNFirebase:
-    :path: "../node_modules/react-native-firebase/ios"
-  RNGestureHandler:
-    :path: "../node_modules/react-native-gesture-handler"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  Crashlytics: 611738c7847f8291a1a51084e35987b86ba6b3ee
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
-  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
-  Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
-  FirebaseAnalytics: ece1aa57a4f43c64d53a648b5a5e05151aae947b
-  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
-  FirebaseInstanceID: a122b0c258720cf250551bb2bedf48c699f80d90
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
-  Google-Mobile-Ads-SDK: e911f5544fc6488f8372a183627a802c8bdb5e36
-  GoogleAppMeasurement: ffe513e90551844a739e7bcbb1d2aca1c28a4338
-  GoogleUtilities: 04fce34bcd5620c1ee76fb79172105c74a4df335
-  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   React: c438ccc7e14e86d4702bb92d7e262f549ffaa995
   React-Core: c76495f5c14e73c0f803b89c3fa83f804da61bd6
   React-cxxreact: f64bc64cf4682d6ea5a064f6017da72482858682
@@ -281,11 +180,8 @@ SPEC CHECKSUMS:
   React-RCTText: 36c0532feb5521cb295ba80e7e44b70cf1c36fc7
   React-RCTVibration: dabb8d59bb47e1d9124b3f77bfdc1b33d42b0a74
   React-RCTWebSocket: f32b93e0953d7c07fd5dd45305406282cfdc95cf
-  RNFirebase: 2050f826c0736997da0007d73b76d7356285207b
-  RNGestureHandler: 7ccf2f3f60458e084f9ada01fbaf610f6fef073c
-  Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
   yoga: 88c514f310aff89b94a14c5fbf44b95735af0cb7
 
-PODFILE CHECKSUM: e33cc6f703b0385ac0909b738fb3ecfcdd73424a
+PODFILE CHECKSUM: ecf0399b40d3ccea79a4a1da479e5d3070ce8627
 
 COCOAPODS: 1.5.3
