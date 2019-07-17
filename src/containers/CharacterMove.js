@@ -163,10 +163,7 @@ class CharacterMove extends Component {
         });
     }
 
-    renderGeneralProperties = (moves) => {
-
-        return moves.map(move => <PropertyText>{checkMoveProperty(move)}</PropertyText>)
-    }
+    renderGeneralProperties = (moves) => moves.map(move => <PropertyText>{checkMoveProperty(move)}</PropertyText>)
 
     render() {
 

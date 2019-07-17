@@ -3,7 +3,7 @@ package com.t7chickenplus;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 import io.invertase.firebase.admob.RNFirebaseAdMobPackage;
@@ -33,7 +33,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new AsyncStoragePackage(),
+            new RNGestureHandlerPackage(),
             new RNFirebasePackage(),
             new RNFirebaseAnalyticsPackage(),
             new RNFirebaseAdMobPackage(),

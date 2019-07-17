@@ -14,29 +14,28 @@ import SplashScreen from 'react-native-splash-screen';
 const { store, persistor } = configureStore;
 
 class App extends Component {
-
-    componentDidMount = async () => {
-        try {
-            // store.dispatch(paidActions.getPurchaseHistory());
-        } catch (error) {
-            console.log('error', error);
-        }
-        SplashScreen.hide();
-    }
-    render() {
-        return (
-            <SafeAreaView style={{ flex: 1, backgroundColor: 'black' }}>
-                <Provider store={store}>
-                    <React.Fragment>
-                        <StatusBar translucent={false} barStyle="light-content" />
-                        <PersistGate loading={null} persistor={persistor}>
-                            <DrawerStack />
-                        </PersistGate>
-                    </React.Fragment>
-                </Provider>
-            </SafeAreaView>
-        );
-    }
+  componentDidMount = async () => {
+      try {
+      // store.dispatch(paidActions.getPurchaseHistory());
+      } catch (error) {
+          console.log('error', error);
+      }
+      SplashScreen.hide();
+  };
+  render() {
+      return (
+          <SafeAreaView style={{ flex: 1, backgroundColor: 'black' }}>
+              <Provider store={store}>
+                  <React.Fragment>
+                      <StatusBar translucent={false} barStyle="light-content" />
+                      <PersistGate loading={null} persistor={persistor}>
+                          <DrawerStack />
+                      </PersistGate>
+                  </React.Fragment>
+              </Provider>
+          </SafeAreaView>
+      );
+  }
 }
 
 let codePushOptions = {

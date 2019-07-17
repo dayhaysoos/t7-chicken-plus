@@ -31,10 +31,10 @@ const Text = styled.Text`
 `;
 
 const Button = ({ onPressFunc, icon, text }) => (
-  <ButtonWrapper onPress={onPressFunc}>
-    <Text>{text}</Text>
-    <FA>{Icons[icon]}</FA   >
-  </ButtonWrapper>
+    <ButtonWrapper onPress={onPressFunc}>
+        <Text>{text}</Text>
+        <FA>{Icons[icon]}</FA   >
+    </ButtonWrapper>
 );
 
 export default Button;

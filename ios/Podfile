@@ -32,16 +32,14 @@ target 't7chickenplus' do
   pod 'Stripe', '~> 14.0.0'
 
   # Pods for t7chickenplus
+
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
   pod 'Firebase/Core', '~> 5.20.2'
   pod 'Firebase/AdMob', '~> 5.20.2'
 
   pod 'Google-Mobile-Ads-SDK'
 
-  pod 'tipsi-stripe', :path => '../node_modules/tipsi-stripe'
-
-
-  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
-
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
   target 't7chickenplusTests' do
     inherit! :search_paths

@@ -100,11 +100,11 @@ export default class FrameEntryComponent extends Component {
                 </View>
                 <TouchableHighlight
                     style={[this.styles.operator,
-                    {
-                        alignItems: 'center',
-                        flexDirection: 'column',
-                        marginHorizontal: 10
-                    }]}
+                        {
+                            alignItems: 'center',
+                            flexDirection: 'column',
+                            marginHorizontal: 10
+                        }]}
                     onPress={() => {
                         if (this.state.activeFilter) {
                             this.removeFilter();
