@@ -26,8 +26,6 @@
     "ios": "react-native run-ios",
     "test": "jest",
     "lint": "eslint .",
-    "codepush:android": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus-Android -d Production --mandatory",
-    "codepush:ios": "appcenter codepush release-react -a dayhaysoos/t7-chicken-plus -d Production --mandatory --plist-file ios/t7chickenplus/Info.plist",
     "postinstall": "yarn jetify"
   },
   "jest": {
@@ -56,7 +54,6 @@
     "prop-types": "^15.6.1",
     "react": "16.8.6",
     "react-native": "0.60.3",
-    "react-native-code-push": "^5.6.0",
     "react-native-collapsible": "^1.4.0",
     "react-native-drawer": "^2.5.1",
     "react-native-firebase": "^5.5.3",

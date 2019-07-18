@@ -7,7 +7,6 @@ import configureStore from './redux/store';
 import * as paidActions from './redux/actions/paidActions';
 
 import DrawerStack from './Routes';
-import CodePush from 'react-native-code-push';
 
 import SplashScreen from 'react-native-splash-screen';
 
@@ -38,10 +37,5 @@ class App extends Component {
   }
 }
 
-let codePushOptions = {
-    checkFrequency: CodePush.CheckFrequency.ON_APP_START,
-    installMode: CodePush.InstallMode.IMMEDIATE,
-    updateDialog: true
-};
 
-export default CodePush(codePushOptions)(App);
+export default App;

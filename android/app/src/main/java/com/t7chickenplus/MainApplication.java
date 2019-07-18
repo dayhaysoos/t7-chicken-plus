@@ -1,14 +1,18 @@
 package com.t7chickenplus;
 
 import android.app.Application;
+import android.util.Log;
 
+import com.facebook.react.PackageList;
+import com.facebook.hermes.reactexecutor.HermesExecutorFactory;
+import com.facebook.react.bridge.JavaScriptExecutorFactory;
 import com.facebook.react.ReactApplication;
-import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
-import io.invertase.firebase.admob.RNFirebaseAdMobPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
-import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
+
+import io.invertase.firebase.admob.RNFirebaseAdMobPackage;
+import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -16,11 +20,6 @@ import java.util.List;
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
-
-        @Override
-        protected String getJSBundleFile() {
-        return CodePush.getJSBundleFile();
-        }
     
     @Override
     public boolean getUseDeveloperSupport() {
@@ -29,12 +28,12 @@ public class MainApplication extends Application implements ReactApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-            new RNFirebaseAnalyticsPackage(),
-            new RNFirebaseAdMobPackage(),
-            new CodePush("XybHZshAtSxHCqD3lQKJ_WVKyWtu49811cfd-9167-45ec-81da-4173a98555d0", getApplicationContext(), BuildConfig.DEBUG)
-      );
+      
+      @SuppressWarnings("UnnecessaryLocalVariable")
+      List<ReactPackage> packages = new PackageList(this).getPackages();
+      // Packages that cannot be autolinked yet can be added manually here, for example:
+      // packages.add(new MyReactNativePackage());
+      return packages;
     }
 
     @Override

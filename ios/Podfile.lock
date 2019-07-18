@@ -1,13 +1,7 @@
 PODS:
-  - Base64 (1.1.2)
   - boost-for-react-native (1.63.0)
   - BVLinearGradient (2.5.4):
     - React
-  - CodePush (5.6.0):
-    - Base64 (~> 1.1)
-    - JWT (~> 3.0.0-beta.7)
-    - React
-    - SSZipArchive (~> 2.1)
   - Crashlytics (3.13.2):
     - Fabric (~> 1.10.2)
   - DoubleConversion (1.1.6)
@@ -67,8 +61,6 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.2.1):
     - GoogleUtilities/Logger
-  - JWT (3.0.0-beta.11):
-    - Base64 (~> 1.1.2)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
@@ -165,7 +157,6 @@ PODS:
     - React
   - RNReanimated (1.1.0):
     - React
-  - SSZipArchive (2.2.2)
   - Stripe (14.0.0)
   - tipsi-stripe (7.5.0):
     - React
@@ -174,7 +165,6 @@ PODS:
 
 DEPENDENCIES:
   - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
-  - CodePush (from `../node_modules/react-native-code-push`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
@@ -208,7 +198,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Base64
     - boost-for-react-native
     - Crashlytics
     - Fabric
@@ -218,16 +207,12 @@ SPEC REPOS:
     - FirebaseInstanceID
     - GoogleAppMeasurement
     - GoogleUtilities
-    - JWT
     - nanopb
-    - SSZipArchive
     - Stripe
 
 EXTERNAL SOURCES:
   BVLinearGradient:
     :path: "../node_modules/react-native-linear-gradient"
-  CodePush:
-    :path: "../node_modules/react-native-code-push"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   Folly:
@@ -290,10 +275,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   BVLinearGradient: b0b70acf63ee888829b7c2ebbf6b50e227396e55
-  CodePush: f6b348759cdc42c734d9c3a46ceb2997c270b12e
   Crashlytics: 611738c7847f8291a1a51084e35987b86ba6b3ee
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
   Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
@@ -305,7 +288,6 @@ SPEC CHECKSUMS:
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
   GoogleAppMeasurement: a35a645835bae31b6bdc0576396bc23908f12a22
   GoogleUtilities: c7a0b08bda3bf808be823ed151f0e28ac6866e71
-  JWT: 05028b9624591bba9681bb57df2c5f95fa258bad
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   React: c438ccc7e14e86d4702bb92d7e262f549ffaa995
   React-Core: c76495f5c14e73c0f803b89c3fa83f804da61bd6
@@ -332,7 +314,6 @@ SPEC CHECKSUMS:
   RNGestureHandler: 7ccf2f3f60458e084f9ada01fbaf610f6fef073c
   RNIap: 69ad8358c6e606485f74d62815f54c90f9c1e2ed
   RNReanimated: 45d9313b7a62318ed00d60a811937321e43e076e
-  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
   Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
   tipsi-stripe: 237cab79699eb7d354bfc09238b3284e3b8dad84
   yoga: 88c514f310aff89b94a14c5fbf44b95735af0cb7
