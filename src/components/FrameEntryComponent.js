@@ -31,12 +31,6 @@ export default class FrameEntryComponent extends Component {
         }
     }
 
-    componentDidUpdate(prevProps) {
-        //   if (this.props.noActiveFilters && !prevProps.noActiveFilters) {
-        //       this.setState({ activeFilter: false });
-        //   }
-    }
-
     applyFilter = () => {
         this.props.turnOn(this.state.selectedOperator, this.state.input);
         //   if (this.state.selectedOperator === '<') {

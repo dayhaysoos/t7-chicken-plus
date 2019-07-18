@@ -3,8 +3,6 @@ package com.t7chickenplus;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
-import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 import io.invertase.firebase.admob.RNFirebaseAdMobPackage;
 import com.facebook.react.ReactNativeHost;
@@ -33,8 +31,6 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNGestureHandlerPackage(),
-            new RNFirebasePackage(),
             new RNFirebaseAnalyticsPackage(),
             new RNFirebaseAdMobPackage(),
             new CodePush("XybHZshAtSxHCqD3lQKJ_WVKyWtu49811cfd-9167-45ec-81da-4173a98555d0", getApplicationContext(), BuildConfig.DEBUG)
