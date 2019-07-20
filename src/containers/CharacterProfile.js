@@ -193,9 +193,12 @@ class CharacterProfile extends Component {
             />
         );
 
-        const ComboTabWrapper = () => (
-            CHARACTER_COMBOS[label] ? <ComboTab combos={CHARACTER_COMBOS[label].combos} /> : <Combos/>
-        );
+        const ComboTabWrapper = () => {
+            firebase.analytics().logEvent('Combo_Lookup', {
+                characterName: label
+            });
+            return CHARACTER_COMBOS[label] ? <ComboTab combos={CHARACTER_COMBOS[label].combos} /> : <Combos/>;
+        };
 
 
         const SpotlightTabWrapper = () => (
@@ -218,6 +221,7 @@ class CharacterProfile extends Component {
                             navigationState={this.state}
                             onIndexChange={index => this.setState({index})}
                             initialLayout={{width: Dimensions.get('window').width}}
+                            swipeEnabled={false}
                             renderTabBar={props =>
                                 <TabBar 
                                     {...props}

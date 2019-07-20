@@ -17,14 +17,11 @@ import MenuItem from '../components/HomeScreen/MenuItem';
 
 import Stripe from 'tipsi-stripe';
 
-
 Stripe.setOptions({
     publishableKey: 'pk_test_yNV17SRP9KHKMwl24gvfCRDL00lSTnaRri',
     merchantId: 'merchant.com.apps.humblemagnificent', // Optional
     androidPayMode: 'test', // Android only
 });
-
-
 
 // styles
 const MainContainer = styled.ScrollView`
@@ -43,7 +40,7 @@ export const mapStateToProps = ({ characterData, theme, paid }) => ({
     paid
 });
 
-export const createComponentDidMount = (instance) => async () => {
+export const createComponentDidMount = instance => async () => {
     const { getCharacterData } = instance.props;
 
     try {
@@ -52,92 +49,81 @@ export const createComponentDidMount = (instance) => async () => {
         setTimeout(() => {
             SplashScreen.hide();
         }, 200);
-    } 
-
-    catch(error) {
+    } catch (error) {
         console.log('err', error);
     }
 };
 
 class HomeScreen extends React.Component {
+  static navigationOptions = {
+      header: null
+  };
 
-    static navigationOptions = {
-        header: null
-    };
+  static propTypes = {
+      navigation: PropTypes.object,
+      theme: PropTypes.object,
+      paid: PropTypes.object
+  };
 
+  componentDidMount = async () => {
+      const { getCharacterData } = this.props;
 
-    static propTypes = {
-        navigation: PropTypes.object,
-        theme: PropTypes.object,
-        paid: PropTypes.object
-    }
+      try {
+          await getCharacterData();
+          await firebase.analytics().logEvent('Screen_Home', {});
+          setTimeout(() => {
+              SplashScreen.hide();
+          }, 200);
+      } catch (error) {
+          console.log('err', error);
+      }
+  };
 
-    componentDidMount = async () => {
-        const { getCharacterData } = this.props;
+  render() {
+      const {
+          navigation,
+          paid: { hasPaid },
+      } = this.props;
 
-        try {
-            await getCharacterData();
-            await firebase.analytics().logEvent('Screen_Home', {});
-            setTimeout(() => {
-                SplashScreen.hide();
-            }, 200);
-        } 
-    
-        catch(error) {
-            console.log('err', error);
-        }
-    }
-
-    render() {
-        const { navigation, paid: {hasPaid} } = this.props;
-
-        return (
-            <MainContainer>
-                <StatusBar
-                    barStyle="light-content"
-                />
-                <MainMenuBanner />
-                <MenuItem
-                    navigateTo={() => navigation.navigate('CharacterSelect')}
-                    text={'Character Select'}
-                    imageUrl={characterSelectBackground}
-                />
-                {hasPaid ? 
-                    (
-                        null
-                    )
-                    :                 
-                    (
-                        <MenuItem
-                            navigateTo={() => null}
-                            text={'Ad Removal coming soon'}
-                            imageUrl={removeAds}
-                        />
-                    )
-                }
-                <MenuItem
-                    navigateTo={() => navigation.navigate('Support')}
-                    text={'Support Us'}
-                    imageUrl={support}
-                />
-                {/* <MenuItem
+      return (
+          <MainContainer>
+              <StatusBar barStyle="light-content" />
+              <MainMenuBanner />
+              <MenuItem
+                  navigateTo={() => navigation.navigate('CharacterSelect')}
+                  text={'Character Select'}
+                  imageUrl={characterSelectBackground}
+              />
+              {hasPaid ? null : (
+                  <MenuItem
+                      navigateTo={() => null}
+                      text={'Ad Removal coming soon'}
+                      imageUrl={removeAds}
+                  />
+              )}
+              <MenuItem
+                  navigateTo={() => navigation.navigate('Support')}
+                  text={'Support Us'}
+                  imageUrl={support}
+              />
+              {/* <MenuItem
                     navigateTo={() => navigation.navigate('Sponsors')}
                     text={'Sponsors'}
                     imageUrl={aboutTheTeam}
                 /> */}
-                <MenuItem
-                    navigateTo={() => navigation.navigate('About')}
-                    text={'About the team'}
-                    imageUrl={aboutTheTeam}
-                />
-
-            </MainContainer>
-
-        );
-    }
+              <MenuItem
+                  navigateTo={() => navigation.navigate('About')}
+                  text={'About the team'}
+                  imageUrl={aboutTheTeam}
+              />
+          </MainContainer>
+      );
+  }
 }
 
 HomeScreen.screenName = 'Home';
 
-
-export default connect(mapStateToProps, mapDispatchToProps)(HomeScreen);
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(HomeScreen);

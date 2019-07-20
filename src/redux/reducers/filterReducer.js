@@ -1,5 +1,6 @@
 import { handleActions } from 'redux-actions';
 import { ACTION_TYPES } from '../actions/filterActions';
+import firebase from 'react-native-firebase';
 
 export const INITIAL_STATE = {
     activeFilters: [],
@@ -11,10 +12,13 @@ export const INITIAL_STATE = {
  * @param {Object} state 
  * @param {String} filter filter type
  */
-const applyFilter = (state, { payload: filter }) => ({
-    ...state,
-    activeFilters: [...state.activeFilters, filter]
-});
+const applyFilter = (state, { payload: filter }) => {
+    firebase.analytics().logEvent('APPLY_FILTER', filter.filterType);
+    return {
+        ...state,
+        activeFilters: [...state.activeFilters, filter]
+    };
+};
 
 /**
  * @function removeFilter
@@ -22,10 +26,13 @@ const applyFilter = (state, { payload: filter }) => ({
  * @param {Object} state 
  * @param {Object} filter filter to be removed 
  */
-const removeFilter = (state, { payload: filter }) => ({
-    ...state,
-    activeFilters: state.activeFilters.filter(activeFilter => activeFilter.filterType !== filter.filterType)
-});
+const removeFilter = (state, { payload: filter }) => {
+    firebase.analytics().logEvent('APPLY_FILTER', filter.filterType);
+    return {
+        ...state,
+        activeFilters: state.activeFilters.filter(activeFilter => activeFilter.filterType !== filter.filterType)
+    };
+};
 
 /**
  * @function resetFilters

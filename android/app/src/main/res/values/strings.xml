@@ -1,5 +1,4 @@
 <resources>
-    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey"></string>
     <string name="app_name">T7 Chicken Plus</string>
     <string name="splash">Splash Screen</string>
 </resources>
