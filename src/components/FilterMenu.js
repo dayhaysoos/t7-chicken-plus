@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
-import { FlatList, View, Text } from 'react-native';
+import { Text } from 'react-native';
 import Accordion from 'react-native-collapsible/Accordion';
 import LinearGradient from 'react-native-linear-gradient';
 import PropTypes from 'prop-types';
