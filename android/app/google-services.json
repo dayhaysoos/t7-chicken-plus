@@ -40,10 +40,10 @@
               "client_type": 3
             },
             {
-              "client_id": "882547459850-so5sfsk6f25gfml0e8q7tsg84ccp5qhd.apps.googleusercontent.com",
+              "client_id": "882547459850-1evm6f58nnt7c4gimkv4h90g4k8kmuov.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.dayhaysoos.t7-chicken-plus"
+                "bundle_id": "com.t7chickenplus"
               }
             }
           ]
