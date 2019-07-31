@@ -3,7 +3,6 @@ import { ScrollView, Modal, ActivityIndicator, } from 'react-native';
 import { connect } from 'react-redux';
 import styled, { ThemeProvider } from 'styled-components/native';
 
-import MoveHeader from '../components/MoveHeader';
 import { GradientTheme } from '../common/GradientTheme';
 import Legend from '../components/Legend';
 import BottomMenuBar from '../components/BottomMenuBar';
@@ -49,6 +48,7 @@ const GifButtonContainer = styled.View`
   justify-content: flex-end;
   align-items: flex-end;
   height: 40;
+  width: 95%;
 `;
 
 const GifContainer = styled.View`
@@ -211,7 +211,7 @@ class CharacterMove extends Component {
                             <AdBanner screen={'character-move'} />
                             <ScrollView>
                                 <GifButtonContainer>
-                                    {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'play'} text={'Play'} /> : null}
+                                    {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'video'} text={'Play'} /> : null}
                                 </GifButtonContainer>
                                 {
                                     modalVisible ?

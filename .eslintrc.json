@@ -41,10 +41,6 @@
       "error",
       "always"
     ],
-    "react/display-name": 1,
-    "arrow-body-style": [
-      1,
-      "as-needed"
-    ]
+    "react/display-name": 1
   }
 }

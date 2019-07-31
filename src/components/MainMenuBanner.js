@@ -2,8 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Alert } from 'react-native';
 import { Linking } from 'react-native';
-import FontAwesome, { Icons } from 'react-native-fontawesome';
-import discordPng from '../../assets/images/discord.png';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 
 import firebase from 'react-native-firebase';
 
@@ -24,8 +23,7 @@ const SocialIconsWrapper = styled.View`
   justify-content: flex-end;
 `;
 
-const SocialIcon = styled(FontAwesome)`
-  background-color: ${({ color }) => color};
+const SocialIcon = styled(FontAwesomeIcon)`
   color: white;
   font-size: 18;
   text-align: center;
@@ -50,7 +48,12 @@ const IconPng = styled.Image`
 
 
 const TouchableSocial = styled.TouchableHighlight`
+  background-color: ${({bgColor}) => bgColor}
+  height: 40;
+  width: 50;
   margin-left: 10;
+  justify-content: center;
+  align-items: center;
 `;
 
 const onIconPress = (url) => async () => {
@@ -72,16 +75,16 @@ const MainMenuBanner = () => (
     <Container >
         <GiantText>T7 Chicken Plus (Beta)</GiantText>
         <SocialIconsWrapper>
-            <TouchableSocial onPress={onIconPress('https://www.twitter.com/t7chicken')}>
-                <SocialIcon color={'#1DA1F2'}>{Icons.twitter}</SocialIcon>
+            <TouchableSocial bgColor={'#1DA1F2'} onPress={onIconPress('https://www.twitter.com/t7chicken')}>
+                <FontAwesomeIcon size={24} color='white' icon={['fab', 'twitter']} />
             </TouchableSocial>
 
-            <TouchableSocial onPress={onIconPress('https://www.twitch.tv/t7chicken')}>
-                <SocialIcon color={'#6441a5'}>{Icons.twitch}</SocialIcon>
+            <TouchableSocial bgColor={'#6441A5'} onPress={onIconPress('https://www.twitch.tv/t7chicken')}>
+                <FontAwesomeIcon size={24} color='white' icon={['fab', 'twitch']} />
             </TouchableSocial>
-            <IconPngWrapper onPress={onIconPress('https://discord.gg/79KyRwT')}>
-                <IconPng source={discordPng} />
-            </IconPngWrapper>
+            <TouchableSocial bgColor={'#7289DA'} onPress={onIconPress('https://discord.gg/79KyRwT')}>
+                <FontAwesomeIcon size={24} color='white' icon={['fab', 'discord']} />
+            </TouchableSocial>
         </SocialIconsWrapper>
     </Container>
 );

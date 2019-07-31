@@ -148,7 +148,7 @@ class ListViewCard extends Component {
                     </MoveDetailContainer>
                     <MoveGifContainer>
                         <GifButtonContainer>
-                            {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'play'} text={'Play'} /> : null}
+                            {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'video'} text={'Play'} /> : null}
                         </GifButtonContainer>
                         {
                             modalVisible ?

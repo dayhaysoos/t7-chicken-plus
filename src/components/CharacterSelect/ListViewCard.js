@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import FontAwesome, { Icons } from 'react-native-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 
 import { characterPortraits } from '../../constants/characterPortraits';
 
@@ -27,7 +27,7 @@ const CharacterImage = styled.Image`
   height: 101;
   margin-right: 20;
 `;
-const StarIcon = styled(FontAwesome)`
+const StarIcon = styled(FontAwesomeIcon)`
     color: #FF412C
     font-size: 30;
     margin-right: 15;
@@ -49,7 +49,7 @@ const ListViewCard = ({ label, favorite, onPress, onStarPress, displayName }) =>
             </CharacterContainer>
 
             <StarButton onPress={onStarPress}>
-                <StarIcon>{favorite ? Icons.star : Icons.starO}</StarIcon>
+                <FontAwesomeIcon style={{opacity: favorite ? 1 : 0.7}} size={32} color='#FF412C' icon={favorite ? 'star' : ['far', 'star']} />
             </StarButton>
 
         </ListViewItem>

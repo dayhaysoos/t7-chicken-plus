@@ -163,6 +163,7 @@ class CharacterSelect extends Component {
                         <AdBanner screen={'character-select'} />
                         <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
                             <FlatList
+                                indicatorStyle={'white'}
                                 contentContainerStyle={{ flexDirection: 'column', justifyContent: 'center', alignItems: listView ? 'stretch' : 'center', paddingTop: 15 }}
                                 data={searchedData}
                                 numColumns={listView ? 1 : Math.floor(this.state.screenWidth / 85)} // should prolly be 1 : 4 I think
@@ -186,6 +187,7 @@ class CharacterSelect extends Component {
                         isListView={listView}
                         onPressFavoriteFilter={this.toggleShowFavorites}
                         handleSearchTextChange={searchTerm => this.setState({ searchTerm })}
+                        isCharacterSelectScreen={true}
                     />
                 </GradientTheme>
             </ThemeProvider>

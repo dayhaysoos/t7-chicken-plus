@@ -13,7 +13,7 @@ export const INITIAL_STATE = {
  * @param {String} filter filter type
  */
 const applyFilter = (state, { payload: filter }) => {
-    firebase.analytics().logEvent('APPLY_FILTER', filter.filterType);
+    firebase.analytics().logEvent('APPLY_FILTER', {filter: filter.filterType});
     return {
         ...state,
         activeFilters: [...state.activeFilters, filter]
@@ -27,7 +27,7 @@ const applyFilter = (state, { payload: filter }) => {
  * @param {Object} filter filter to be removed 
  */
 const removeFilter = (state, { payload: filter }) => {
-    firebase.analytics().logEvent('APPLY_FILTER', filter.filterType);
+    firebase.analytics().logEvent('APPLY_FILTER', {filter: filter.filterType});
     return {
         ...state,
         activeFilters: state.activeFilters.filter(activeFilter => activeFilter.filterType !== filter.filterType)

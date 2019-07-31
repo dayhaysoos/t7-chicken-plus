@@ -756,6 +756,7 @@
             "range": "-",
             "pushback": "-",
             "tracking": "-",
+            "crush": "low",
             "jail": "-",
             "natural": "-",
             "environmental": "-",

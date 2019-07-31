@@ -27,7 +27,9 @@ import SpotlightTab from '../components/CharacterProfile/SpotlightTab';
 //selectors
 import { filterMoves, searchMoves } from '../selectors/characterProfile';
 import CHARACTER_COMBOS from '../constants/characterCombos';
-import CHARACTER_SPOTLIGHTS from '../constants/characterSpotlights';
+
+//assets
+import playerData from '../../assets/spotlight-data/spotlights.json';
 
 export const mapDispatcthToProps = {
     ...characterActions,
@@ -62,10 +64,6 @@ const FILTERS_INITIAL_STATE = {
         operator: ''
     }
 };
-
-const Combos = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-    <Text>Combos coming soon!</Text>
-</View>;
 
 const Spotlight = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
     <Text>Stay Tuned for Player Spotlights!</Text>
@@ -113,10 +111,11 @@ class CharacterProfile extends Component {
         count: 20,
         loading: false,
         index: 0,
+        isOnMoveTab: true,
         routes: [
             {key: 'moves', title: 'Moves'},
             {key: 'combos', title: 'Combos'},
-            //{key: 'spotlight', title: 'Spotlight'}
+            {key: 'spotlight', title: 'Spotlight'}
         ]
     }
 
@@ -166,6 +165,17 @@ class CharacterProfile extends Component {
         });
     }
 
+    onTabSwitch = (bool) => {
+        this.setState({
+            isOnMoveTab: bool
+        });
+    }
+
+    handleIndexChange = (index) => {
+        index === 0 ? this.setState({isOnMoveTab: true}) : this.setState({isOnMoveTab: false});
+        this.setState({index});
+    }
+
     render() {
         const { tabIndex } = this.state;
 
@@ -194,16 +204,29 @@ class CharacterProfile extends Component {
         );
 
         const ComboTabWrapper = () => {
+            console.log(this);
             firebase.analytics().logEvent('Combo_Lookup', {
                 characterName: label
             });
-            return CHARACTER_COMBOS[label] ? <ComboTab combos={CHARACTER_COMBOS[label].combos} /> : <Combos/>;
+            return CHARACTER_COMBOS[label] ? <ComboTab combos={CHARACTER_COMBOS[label].combos} /> : <Spotlight />;
         };
 
+        const availableChars = playerData.reduce((acc, current) => 
+            [...acc, current.character.toLowerCase()], []);
 
-        const SpotlightTabWrapper = () => (
-            CHARACTER_SPOTLIGHTS[label] ? <SpotlightTab playerData={CHARACTER_SPOTLIGHTS[label].combos} /> : <Combos/>
-        );
+        const SpotlightTabWrapper = () => {
+            firebase.analytics().logEvent('Spotlight_Lookup', {
+                characterName: label
+            });
+            return availableChars.includes(label) ? 
+                <SpotlightTab
+                    playerData={playerData.find(player => player.character.toLowerCase() === label)}
+                    navigation={navigation}
+                    theme={theme}
+                    label={label}
+                />
+                : <Spotlight />;
+        };
 
         return (
             <GradientTheme theme={theme}>
@@ -219,7 +242,7 @@ class CharacterProfile extends Component {
                         <AdBanner screen={'character-profile'} />
                         <TabView
                             navigationState={this.state}
-                            onIndexChange={index => this.setState({index})}
+                            onIndexChange={index => this.handleIndexChange(index)}
                             initialLayout={{width: Dimensions.get('window').width}}
                             swipeEnabled={false}
                             renderTabBar={props =>
@@ -241,6 +264,7 @@ class CharacterProfile extends Component {
                             onPressFilterMenu={this.openRightDrawer}
                             toggleListView={toggleListView}
                             handleSearchTextChange={(searchTerm) => searchProfileMoves(searchTerm)}
+                            isOnMoveTab={this.state.isOnMoveTab}
                         />
                     </View>
                 </DrawerSwitcher>

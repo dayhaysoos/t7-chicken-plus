@@ -14,15 +14,14 @@ import AdRemoval from './containers/AdRemoval';
 import ApplePayment from './containers/ApplePayment';
 import AndroidPayment from './containers/AndroidPayment';
 
-import FontAwesome, { Icons } from 'react-native-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+
 
 
 import { createStackNavigator, createDrawerNavigator, createAppContainer } from 'react-navigation';
 
 const BackButton = () => (
-    <Text style={{ color: '#FF412C', fontSize: 32, marginLeft: 15 }}>
-        <FontAwesome>{Icons.chevronLeft}</FontAwesome>
-    </Text>
+    <FontAwesomeIcon size={32} color='#FF412C' icon={'chevron-left'} />
 );
 
 const defaultNavOptions = {
