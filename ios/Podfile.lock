@@ -157,6 +157,8 @@ PODS:
     - React
   - RNReanimated (1.1.0):
     - React
+  - RNScreens (1.0.0-alpha.23):
+    - React
   - RNSVG (9.5.3):
     - React
   - Stripe (14.0.0)
@@ -195,6 +197,7 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNIap (from `../node_modules/react-native-iap`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
+  - RNScreens (from `../node_modules/react-native-screens`)
   - RNSVG (from `../node_modules/react-native-svg`)
   - tipsi-stripe (from `../node_modules/tipsi-stripe`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -272,6 +275,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-iap"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
+  RNScreens:
+    :path: "../node_modules/react-native-screens"
   RNSVG:
     :path: "../node_modules/react-native-svg"
   tipsi-stripe:
@@ -319,6 +324,7 @@ SPEC CHECKSUMS:
   RNGestureHandler: 7ccf2f3f60458e084f9ada01fbaf610f6fef073c
   RNIap: 69ad8358c6e606485f74d62815f54c90f9c1e2ed
   RNReanimated: 45d9313b7a62318ed00d60a811937321e43e076e
+  RNScreens: 354046589421edc3d83d5c6212475bf1fb9a731d
   RNSVG: 4834be1d644eb77f0e3f6de851881b83758a3124
   Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
   tipsi-stripe: 237cab79699eb7d354bfc09238b3284e3b8dad84

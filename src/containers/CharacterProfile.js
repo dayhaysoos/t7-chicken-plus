@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Animated, View, Text, Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import { connect } from 'react-redux';
+import { compose } from 'redux';
 
 import StarWrapper from '../components/StarWrapper';
 
@@ -28,6 +29,8 @@ import SpotlightTab from '../components/CharacterProfile/SpotlightTab';
 import { filterMoves, searchMoves } from '../selectors/characterProfile';
 import CHARACTER_COMBOS from '../constants/characterCombos';
 
+import { withMappedNavigationParams } from 'react-navigation-props-mapper';
+
 //assets
 import playerData from '../../assets/spotlight-data/spotlights.json';
 
@@ -39,7 +42,8 @@ export const mapDispatcthToProps = {
 };
 
 export const mapStateToProps = ({
-    characterData: { selectedCharacterMoves },
+    characterData,
+    characterData: { selectedCharacterMoves, selectedCharacterMetaData },
     favorites,
     filter: { activeFilters },
     search: { profileInput },
@@ -49,7 +53,8 @@ export const mapStateToProps = ({
     listView,
     theme,
     favorites,
-    selectedCharacterMoves: searchMoves(filterMoves(selectedCharacterMoves, activeFilters), profileInput)
+    selectedCharacterMoves: searchMoves(filterMoves(selectedCharacterMoves, activeFilters), profileInput),
+    selectedCharacterMetaData,
 });
 
 const FILTERS_INITIAL_STATE = {
@@ -68,19 +73,21 @@ const FILTERS_INITIAL_STATE = {
 const Spotlight = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
     <Text>Stay Tuned for Player Spotlights!</Text>
 </View>;
-  
+
 class CharacterProfile extends Component {
 
-    static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
-        headerTransparent: false,
-        title: name,
-        headerBackTitle: null,
-        headerTitleStyle: {
-            fontWeight: 'bold',
-            color: '#FFFFFF'
-        },
-        headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />,
-    })
+    static navigationOptions = ({name, favorite, onStarPress}) => {
+        return {
+            headerTransparent: false,
+            title: name,
+            headerBackTitle: null,
+            headerTitleStyle: {
+                fontWeight: 'bold',
+                color: '#FFFFFF'
+            },
+            headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />,
+        };
+    }
 
     static propTypes = {
         navigation: PropTypes.object,
@@ -121,21 +128,25 @@ class CharacterProfile extends Component {
 
 
     componentDidMount() {
-        const { navigation, listView } = this.props;
-        //const moveListArray = navigation.getParam('moveList');
-        const charName = navigation.getParam('name');
-        const isFavorite = navigation.getParam('favorite');
+        const { navigation, listView, selectedCharacterMetaData, toggleCharacterStar } = this.props;
+        const { displayName, favorite } = selectedCharacterMetaData;
+
+        navigation.setParams({
+            name: displayName,
+            favorite,
+            onStarPress: toggleCharacterStar
+        });
 
         firebase.analytics().logEvent('Screen_Character_Profile', {
-            character: charName,
+            character: displayName,
             listView: listView ? 'ListView' : 'SpreadsheetView',
-            isFavorite: isFavorite
+            isFavorite: favorite
         });
     }
 
     componentDidUpdate = (prev) => {
-        const { navigation, favorites } = this.props;
-        const label = navigation.getParam('label');
+        const { navigation, favorites, selectedCharacterMetaData } = this.props;
+        const { label } = selectedCharacterMetaData;
 
         if (favorites !== prev.favorites) {
             navigation.setParams({ favorite: favorites.characters[label] });
@@ -179,16 +190,17 @@ class CharacterProfile extends Component {
     render() {
         const { tabIndex } = this.state;
 
-        const { selectedCharacterMoves,
+        const {
+            selectedCharacterMoves,
+            selectedCharacterMetaData: {label, displayName},
             navigation,
-            navigation: { state: { params: { label } } },
             toggleListView,
             listView,
             theme,
             updateMoveData,
             searchProfileMoves
         } = this.props;
-        const name = navigation.getParam('name');
+
         const { isOpen, side} = this.state;
 
         const MoveTabWrapper = () => (
@@ -199,12 +211,11 @@ class CharacterProfile extends Component {
                 theme={theme}
                 label={label}
                 updateMoveData={updateMoveData}
-                name={name}
+                name={displayName}
             />
         );
 
         const ComboTabWrapper = () => {
-            console.log(this);
             firebase.analytics().logEvent('Combo_Lookup', {
                 characterName: label
             });
@@ -284,4 +295,10 @@ const styles = StyleSheet.create({
     },
 });
 
-export default connect(mapStateToProps, mapDispatcthToProps)(CharacterProfile);
+
+//export default connect(mapStateToProps, mapDispatcthToProps)(CharacterProfile);
+
+export default compose(
+    withMappedNavigationParams(),
+    connect(mapStateToProps, mapDispatcthToProps),
+)(CharacterProfile)

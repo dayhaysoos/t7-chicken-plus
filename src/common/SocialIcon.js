@@ -45,7 +45,6 @@ const onIconPress = (media, handle) => async () => {
 
 const SocialIcon = ({ media, handle }) => (
     <TouchableWrapper onPress={onIconPress(media, handle)}>
-        {console.log('stuff', media)}
         <FontAwesomeIcon icon={['fab', media]}/>
     </TouchableWrapper>
 );

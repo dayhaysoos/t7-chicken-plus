@@ -54,6 +54,7 @@ export const mapDispatchToProps = {
 
 export const mapStateToProps = ({ characterData, theme, settings: { listView }, favorites }) => ({
     theme,
+    selectedCharacterMetaData: characterData.selectedCharacterMetaData,
     characterData: getFavoriteCharacters({ characterData: getCharacterMoveList(characterData), favorites }),
     listView,
     favorites,
@@ -112,18 +113,14 @@ class CharacterSelect extends Component {
         }
     }
 
+
     navigateToCharacterProfile = (item) => {
         const { navigation, updateSelectedCharacterMoves, toggleCharacterStar, resetSearchBar } = this.props;
-        const { favorite, label, displayName } = item;
+        const { favorite, label } = item;
         resetSearchBar();
-        updateSelectedCharacterMoves(label);
+        updateSelectedCharacterMoves({label, favorite});
 
-        navigation.navigate('CharacterProfile', {
-            favorite,
-            label,
-            name: displayName,
-            onStarPress: () => toggleCharacterStar(label)
-        });
+        navigation.navigate('CharacterProfile');
 
     }
 
@@ -151,6 +148,8 @@ class CharacterSelect extends Component {
     render() {
         const { theme, navigation, listView, toggleListView, characterData, } = this.props;
         const { showFavorites, searchTerm } = this.state;
+
+        console.log({characterData})
 
         const data = showFavorites ? characterData.filter(char => char.favorite) : characterData;
 

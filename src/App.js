@@ -31,6 +31,9 @@ import * as paidActions from './redux/actions/paidActions';
 import DrawerStack from './Routes';
 
 import SplashScreen from 'react-native-splash-screen';
+import { useScreens } from 'react-native-screens';
+
+useScreens();
 
 library.add(
     fab,
