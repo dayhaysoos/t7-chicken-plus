@@ -295,9 +295,6 @@ const styles = StyleSheet.create({
     },
 });
 
-
-//export default connect(mapStateToProps, mapDispatcthToProps)(CharacterProfile);
-
 export default compose(
     withMappedNavigationParams(),
     connect(mapStateToProps, mapDispatcthToProps),
