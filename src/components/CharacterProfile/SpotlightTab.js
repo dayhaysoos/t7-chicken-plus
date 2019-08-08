@@ -71,9 +71,11 @@ const favoriteMovesMap = (favoriteMoves, characterMoves) => {
     return result;
 };
 
-const onIconPress = (url) => async () => {
+const onIconPress = (url, character, playerName) => async () => {
 
-    firebase.analytics().logEvent('Go_To_Social', {
+    firebase.analytics().logEvent('Go_To_Player_Social', {
+        character,
+        playerName,
         url
     });
 
@@ -86,7 +88,7 @@ const onIconPress = (url) => async () => {
 
 };
 
-const SpotlightTab = ({ playerData: { favorite_moves, name, bio, sponsor, twitch, twitter, instagram }, navigation, theme, characterMoves }) => (
+const SpotlightTab = ({ playerData: { favorite_moves, name, bio, sponsor, twitch, twitter, instagram, character }, navigation, theme, characterMoves }) => (
     <ScrollView>
         <SpotlightWrapper>
             <DetailText theme={theme}>Player Spotlight</DetailText>
@@ -95,14 +97,14 @@ const SpotlightTab = ({ playerData: { favorite_moves, name, bio, sponsor, twitch
             <BioText>{bio}</BioText>
         </SpotlightWrapper>
         <SocialIconsWrapper>
-            <TouchableSocial bgColor={'#1DA1F2'} onPress={onIconPress(twitter)}>
+            <TouchableSocial bgColor={'#1DA1F2'} onPress={onIconPress(twitter, character, name)}>
                 <FontAwesomeIcon size={24} style={{color: 'white'}} icon={['fab', 'twitter']} />
             </TouchableSocial>
 
-            <TouchableSocial bgColor={'#6441A5'} onPress={onIconPress(twitch)}>
+            <TouchableSocial bgColor={'#6441A5'} onPress={onIconPress(twitch, character, name)}>
                 <FontAwesomeIcon size={24} style={{color: 'white'}} icon={['fab', 'twitch']} />
             </TouchableSocial>
-            <TouchableSocial bgColor={'#E1306C'} onPress={onIconPress(instagram)}>
+            <TouchableSocial bgColor={'#E1306C'} onPress={onIconPress(instagram, character, name)}>
                 <FontAwesomeIcon size={24} style={{color: 'white'}} icon={['fab', 'instagram']} />
             </TouchableSocial>
         </SocialIconsWrapper>
