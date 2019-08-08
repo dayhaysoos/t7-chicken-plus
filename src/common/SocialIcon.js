@@ -27,6 +27,7 @@ const handleMediaColor = (media) => {
 };
 
 const handleMediaUrl = (media, handle) => {
+    if (!media && handle.includes('http')) return handle;
     if (media === 'twitter') return `https://www.twitter.com/${handle}`;
     if (media === 'twitch') return `https://www.twitch.tv/${handle}`;
 };

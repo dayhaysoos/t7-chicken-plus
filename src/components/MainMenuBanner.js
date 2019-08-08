@@ -17,35 +17,10 @@ const GiantText = styled.Text`
   margin-left: 10;
 `;
 
-
 const SocialIconsWrapper = styled.View`
   flex-direction: row;
   justify-content: flex-end;
 `;
-
-const SocialIcon = styled(FontAwesomeIcon)`
-  color: white;
-  font-size: 18;
-  text-align: center;
-  height: 40;
-  width: 50;
-  padding-top: 12;
-`;
-
-const IconPngWrapper = styled.TouchableHighlight`
-  height: 40;
-  width: 50;
-  background-color: #7289DA;
-  margin-left: 10;
-  justify-content: center;
-  align-items: center;
-`;
-
-const IconPng = styled.Image`
-  padding-top: 12;
-  resize-mode: contain;
-`;
-
 
 const TouchableSocial = styled.TouchableHighlight`
   background-color: ${({bgColor}) => bgColor}

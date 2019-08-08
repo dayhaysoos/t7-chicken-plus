@@ -12,7 +12,7 @@ import characterSelectBackground from '../../assets/images/mainMenu/character-se
 import aboutTheTeam from '../../assets/images/mainMenu/about-the-team.png';
 import removeAds from '../../assets/images/mainMenu/remove-ads.png';
 import support from '../../assets/images/mainMenu/support-us.jpg';
-
+import sponsors from '../../assets/images/mainMenu/sponsors.jpg';
 import MenuItem from '../components/HomeScreen/MenuItem';
 
 import Stripe from 'tipsi-stripe';
@@ -55,70 +55,70 @@ export const createComponentDidMount = instance => async () => {
 };
 
 class HomeScreen extends React.Component {
-  static navigationOptions = {
-      header: null
-  };
+    static navigationOptions = {
+        header: null
+    };
 
-  static propTypes = {
-      navigation: PropTypes.object,
-      theme: PropTypes.object,
-      paid: PropTypes.object
-  };
+    static propTypes = {
+        navigation: PropTypes.object,
+        theme: PropTypes.object,
+        paid: PropTypes.object
+    };
 
-  componentDidMount = async () => {
-      const { getCharacterData } = this.props;
+    componentDidMount = async () => {
+        const { getCharacterData } = this.props;
 
-      try {
-          await getCharacterData();
-          await firebase.analytics().logEvent('Screen_Home', {});
-          setTimeout(() => {
-              SplashScreen.hide();
-          }, 200);
-      } catch (error) {
-          console.log('err', error);
-      }
-  };
+        try {
+            await getCharacterData();
+            await firebase.analytics().logEvent('Screen_Home', {});
+            setTimeout(() => {
+                SplashScreen.hide();
+            }, 200);
+        } catch (error) {
+            console.log('err', error);
+        }
+    };
 
-  render() {
-      const {
-          navigation,
-          paid: { hasPaid },
-      } = this.props;
+    render() {
+        const {
+            navigation,
+            paid: { hasPaid },
+        } = this.props;
 
-      return (
-          <MainContainer>
-              <StatusBar barStyle="light-content" />
-              <MainMenuBanner />
-              <MenuItem
-                  navigateTo={() => navigation.navigate('CharacterSelect')}
-                  text={'Character Select'}
-                  imageUrl={characterSelectBackground}
-              />
-              {hasPaid ? null : (
-                  <MenuItem
-                      navigateTo={() => null}
-                      text={'Ad Removal coming soon'}
-                      imageUrl={removeAds}
-                  />
-              )}
-              <MenuItem
-                  navigateTo={() => navigation.navigate('Support')}
-                  text={'Support Us'}
-                  imageUrl={support}
-              />
-              {/* <MenuItem
+        return (
+            <MainContainer>
+                <StatusBar barStyle="light-content" />
+                <MainMenuBanner />
+                <MenuItem
+                    navigateTo={() => navigation.navigate('CharacterSelect')}
+                    text={'Character Select'}
+                    imageUrl={characterSelectBackground}
+                />
+                <MenuItem
                     navigateTo={() => navigation.navigate('Sponsors')}
                     text={'Sponsors'}
+                    imageUrl={sponsors}
+                />
+                {hasPaid ? null : (
+                    <MenuItem
+                        navigateTo={() => null}
+                        text={'Ad Removal coming soon'}
+                        imageUrl={removeAds}
+                    />
+                )}
+                <MenuItem
+                    navigateTo={() => navigation.navigate('Support')}
+                    text={'Support Us'}
+                    imageUrl={support}
+                />
+                <MenuItem
+                    navigateTo={() => navigation.navigate('About')}
+                    text={'About the team'}
                     imageUrl={aboutTheTeam}
-                /> */}
-              <MenuItem
-                  navigateTo={() => navigation.navigate('About')}
-                  text={'About the team'}
-                  imageUrl={aboutTheTeam}
-              />
-          </MainContainer>
-      );
-  }
+                />
+            </MainContainer>
+        );
+    }
 }
 
 HomeScreen.screenName = 'Home';
