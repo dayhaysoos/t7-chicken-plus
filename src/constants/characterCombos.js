@@ -4,6 +4,7 @@ import anna from '../../assets/character-data/combos/anna-combos';
 import armorking from '../../assets/character-data/combos/armorking-combos';
 import asuka from '../../assets/character-data/combos/asuka-combos';
 import bryan from '../../assets/character-data/combos/bryan-combos';
+import claudio from '../../assets/character-data/combos/claudio-combos';
 import deviljin from '../../assets/character-data/combos/deviljin-combos';
 import dragunov from '../../assets/character-data/combos/dragunov-combos';
 import feng from '../../assets/character-data/combos/feng-combos';
@@ -45,6 +46,7 @@ const CHARACTER_COMBOS = {
     armorking,
     asuka,
     bryan,
+    claudio,
     deviljin,
     dragunov,
     feng,

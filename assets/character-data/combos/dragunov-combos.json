@@ -1,410 +1,286 @@
 {
-  "providedBy": "sneaky coyote",
-  "providerTwitter": "@sneaky_coyote",
-  "combos": [
-    {
-      "starter": "3+4",
-      "combo": "Tech Left, WS4, b+1, 2 (S!), ~dash~ 3, 1, 2",
-      "damage": 61,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "sneaky coyote",
-      "volunteer twitter": "@sneaky_coyote"
-    },
-    {
-      "starter": "u/f+2",
-      "combo": "f+4, 4, 3, 1, f+3~d/f, u, 1, f+1+2 (S!) ~dash~ d+4, 4",
-      "damage": 68,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "u/f~4",
-      "combo": "f+2, 4, f+3, 2 (S!) ~dash~ 3, 1, 2",
-      "damage": 70,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "u/f+4",
-      "combo": "d+4, 1, 3",
-      "damage": 41,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f+1+2",
-      "combo": "(S!), ~dash~ 3, 1, 2",
-      "damage": 40,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f+1+2",
-      "combo": "(S!), whiff f+2, 4, 3, 1, 1, f+3~d/f, u, d+4, 4",
-      "damage": 58,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, f, f+1+2",
-      "combo": "f+2, 4, f+3~d/f, u, 1, f+1+2 (S!), ~dash~ f, f+3",
-      "damage": 75,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "d/f+2",
-      "combo": "f+4, 4, 3, b+4, 3 (S!) ~dash~ d+4, 4",
-      "damage": 59,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "d/f+2",
-      "combo": "f+4, 4, 3, 1, f+1+2 (S!), f, f, f+1+2, b+1+2",
-      "damage": 78,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "d/f+2",
-      "combo": "f+4, 4, 3, 1, f+1+2 (S!), ~dash~ d+1+2",
-      "damage": 72,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "qcf+1",
-      "combo": "f+4, 4, 3, 1, f+3~d/f, u, 1, f+1+2 (S!) ~dash~ d+4, 4",
-      "damage": 68,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "qcf+1",
-      "combo": "f+4, 4, 3, b+4, 3 (S!), f+3~d/f, u, 4, 1",
-      "damage": 66,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "qcf+2",
-      "combo": "f+2, 4, f+3, 2 (S!) ~dash~ 3, 1, 2",
-      "damage": 70,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "qcf+2",
-      "combo": "f+4, 4, 3, 1, f+1+2 (S!), ~dash~ 3, 1, 2",
-      "damage": 71,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "qcf+2",
-      "combo": "f+4, 4, 3, b+4, 3 (S!), ~dash~ f, f+3",
-      "damage": 71,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "d/b+2, 1, 2",
-      "combo": "d+2, WS4, b+1, 2 (S!), WR2",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "b+1+2",
-      "combo": "d+3+4",
-      "damage": 45,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "d/b+3",
-      "combo": "d+2, WS4, b+1, 2 (S!), f, f+3",
-      "damage": 59,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 2",
-      "combo": "f+4, 4, 3, 1, f+1+2 (S!) f, f, f+1+2, b+1+2",
-      "damage": 79,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[4, 3]",
-      "combo": "d+3+4",
-      "damage": 54,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, f+4]",
-      "combo": "WS4, b+1, 2, (S!) ~dash~ 3, 1, 2",
-      "damage": 61,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, f, f+2]",
-      "combo": "qcf+2, 3, 1, 1, f+1+2, (S!) ~dash~ f+3~d/f, WS 1+2",
-      "damage": 72,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, f, f+2]",
-      "combo": "d+2, WS4, b+1, 2 (S!) ~dash~ 3, 1, 2",
-      "damage": 70,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, f, f+2]",
-      "combo": "iWS4, b+1, 2, (S!) ~dash~ 3, 1, 2",
-      "damage": 66,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, f, f+2]",
-      "combo": "iWS4, b+1, 2, (S!) ~dash~ d+4, 4",
-      "damage": 63,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[d+1]",
-      "combo": "d+3+4",
-      "damage": 40,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[WS (1), 2]",
-      "combo": "(S!) ~dash~ b+2, 1, 1, f+3~d/f, u, 1, f+3~d/f, u, d+4, 4",
-      "damage": 54,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "BT Opponent",
-      "combo": "b+2, 1, 3, d+2, WS+4, d+4, 4",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Float",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Floor Break Post (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Floor Break Pre (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Low Parry",
-      "combo": "b+2, 1, 1, f+3~d/f, u, 1, f+1+2 (S!), ~dash~ f, f+3",
-      "damage": 37,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Low Parry",
-      "combo": "d+2, WS4, b+1,2 (S!) ~dash~ 3, 1, 2",
-      "damage": 43,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Side Float",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Slide Punish",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Break Post (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Break Pre (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Carry",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "1, 3, 2",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "3, 1, 2",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "4, 4, WS 1+2",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "d/b+2, 1, 2",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "b+2, WS 1+2",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "b+4, 2",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "b+4, 3",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    }
-  ]
+  "combos": {
+    "3+4": [
+      {
+        "input": "Tech Left, WS4, b+1, 2 (S!), ~dash~ 3, 1, 2",
+        "damage": 61,
+        "oki": "-"
+      }
+    ],
+    "u/f+2": [
+      {
+        "input": "f+4, 4, 3, 1, f+3~d/f, u, 1, f+1+2 (S!) ~dash~ d+4, 4",
+        "damage": 68,
+        "oki": "-"
+      }
+    ],
+    "u/f~4": [
+      {
+        "input": "f+2, 4, f+3, 2 (S!) ~dash~ 3, 1, 2",
+        "damage": 70,
+        "oki": "-"
+      }
+    ],
+    "u/f+4": [
+      {
+        "input": "d+4, 1, 3",
+        "damage": 41,
+        "oki": "-"
+      }
+    ],
+    "f+1+2": [
+      {
+        "input": "(S!), ~dash~ 3, 1, 2",
+        "damage": 40,
+        "oki": "-"
+      },
+      {
+        "input": "(S!), whiff f+2, 4, 3, 1, 1, f+3~d/f, u, d+4, 4",
+        "damage": 58,
+        "oki": "-"
+      }
+    ],
+    "f, f, f+1+2": [
+      {
+        "input": "f+2, 4, f+3~d/f, u, 1, f+1+2 (S!), ~dash~ f, f+3",
+        "damage": 75,
+        "oki": "-"
+      }
+    ],
+    "d/f+2": [
+      {
+        "input": "f+4, 4, 3, b+4, 3 (S!) ~dash~ d+4, 4",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "f+4, 4, 3, 1, f+1+2 (S!), f, f, f+1+2, b+1+2",
+        "damage": 78,
+        "oki": "-"
+      },
+      {
+        "input": "f+4, 4, 3, 1, f+1+2 (S!), ~dash~ d+1+2",
+        "damage": 72,
+        "oki": "-"
+      }
+    ],
+    "qcf+1": [
+      {
+        "input": "f+4, 4, 3, 1, f+3~d/f, u, 1, f+1+2 (S!) ~dash~ d+4, 4",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "f+4, 4, 3, b+4, 3 (S!), f+3~d/f, u, 4, 1",
+        "damage": 66,
+        "oki": "-"
+      }
+    ],
+    "qcf+2": [
+      {
+        "input": "f+2, 4, f+3, 2 (S!) ~dash~ 3, 1, 2",
+        "damage": 70,
+        "oki": "-"
+      },
+      {
+        "input": "f+4, 4, 3, 1, f+1+2 (S!), ~dash~ 3, 1, 2",
+        "damage": 71,
+        "oki": "-"
+      },
+      {
+        "input": "f+4, 4, 3, b+4, 3 (S!), ~dash~ f, f+3",
+        "damage": 71,
+        "oki": "-"
+      }
+    ],
+    "d/b+2, 1, 2": [
+      {
+        "input": "d+2, WS4, b+1, 2 (S!), WR2",
+        "oki": "-"
+      }
+    ],
+    "b+1+2": [
+      {
+        "input": "d+3+4",
+        "damage": 45,
+        "oki": "-"
+      }
+    ],
+    "d/b+3": [
+      {
+        "input": "d+2, WS4, b+1, 2 (S!), f, f+3",
+        "damage": 59,
+        "oki": "-"
+      }
+    ],
+    "WS 2": [
+      {
+        "input": "f+4, 4, 3, 1, f+1+2 (S!) f, f, f+1+2, b+1+2",
+        "damage": 79,
+        "oki": "-"
+      }
+    ],
+    "[4, 3]": [
+      {
+        "input": "d+3+4",
+        "damage": 54,
+        "oki": "-"
+      }
+    ],
+    "[f, f+4]": [
+      {
+        "input": "WS4, b+1, 2, (S!) ~dash~ 3, 1, 2",
+        "damage": 61,
+        "oki": "-"
+      }
+    ],
+    "[f, f, f+2]": [
+      {
+        "input": "qcf+2, 3, 1, 1, f+1+2, (S!) ~dash~ f+3~d/f, WS 1+2",
+        "damage": 72,
+        "oki": "-"
+      },
+      {
+        "input": "d+2, WS4, b+1, 2 (S!) ~dash~ 3, 1, 2",
+        "damage": 70,
+        "oki": "-"
+      },
+      {
+        "input": "iWS4, b+1, 2, (S!) ~dash~ 3, 1, 2",
+        "damage": 66,
+        "oki": "-"
+      },
+      {
+        "input": "iWS4, b+1, 2, (S!) ~dash~ d+4, 4",
+        "damage": 63,
+        "oki": "-"
+      }
+    ],
+    "[d+1]": [
+      {
+        "input": "d+3+4",
+        "damage": 40,
+        "oki": "-"
+      }
+    ],
+    "[WS (1), 2]": [
+      {
+        "input": "(S!) ~dash~ b+2, 1, 1, f+3~d/f, u, 1, f+3~d/f, u, d+4, 4",
+        "damage": 54,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "input": "b+2, 1, 3, d+2, WS+4, d+4, 4",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "input": "b+2, 1, 1, f+3~d/f, u, 1, f+1+2 (S!), ~dash~ f, f+3",
+        "damage": 37,
+        "oki": "-"
+      },
+      {
+        "input": "d+2, WS4, b+1,2 (S!) ~dash~ 3, 1, 2",
+        "damage": 43,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "input": "1, 3, 2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "3, 1, 2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "4, 4, WS 1+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "d/b+2, 1, 2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "b+2, WS 1+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "b+4, 2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "b+4, 3",
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
 }

@@ -10,7 +10,6 @@ import SearchBar from '../components/SearchBar';
 
 import firebase from 'react-native-firebase';
 
-
 const MainContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
@@ -147,7 +146,7 @@ class BottomMenuBar extends Component {
 
                 <MainContainer>
                     {navigation && (
-                        <MainMenuButton style={{ shadowOffset: { width: 0, height: 0 } }} onPress={() => navigation.toggleDrawer()} >
+                        <MainMenuButton style={{ shadowOffset: { width: 0, height: 0 } }} onPress={() => navigation.toggleLeftDrawer()} >
                             <LinearGradient
                                 start={{ x: 1, y: .1 }}
                                 end={{ x: .1, y: 1.5 }}
@@ -198,7 +197,7 @@ class BottomMenuBar extends Component {
                     )}
 
                     {isOnMoveTab && onPressFilterMenu && (
-                        <MenuButton onPress={onPressFilterMenu}>
+                        <MenuButton onPress={() => navigation.toggleRightDrawer()}>
                             <MenuIconWrapper>
                                 <FontAwesomeIcon size={36} color='#FF412C' icon={'filter'} />
                             </MenuIconWrapper>
@@ -212,7 +211,7 @@ class BottomMenuBar extends Component {
 
 
                     {onPressOpenLegendDrawer && (
-                        <MenuButton onPress={onPressOpenLegendDrawer}>
+                        <MenuButton onPress={() => navigation.toggleRightDrawer()}>
                             <MenuIconWrapper>
                                 <FontAwesomeIcon size={36} color='#FF412C' icon={isListView ? 'th' : 'book-open'} />
                             </MenuIconWrapper>

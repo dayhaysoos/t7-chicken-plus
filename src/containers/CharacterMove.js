@@ -6,8 +6,6 @@ import styled, { ThemeProvider } from 'styled-components/native';
 import { GradientTheme } from '../common/GradientTheme';
 import Legend from '../components/Legend';
 import BottomMenuBar from '../components/BottomMenuBar';
-import Drawer from 'react-native-drawer';
-import DrawerSwitcher from '../components/DrawerSwitcher';
 import firebase from 'react-native-firebase';
 
 import * as characterActions from '../redux/actions/characterActions';
@@ -17,7 +15,7 @@ import AdBanner from '../components/AdBanner';
 
 import { checkMoveProperty } from '../utils/CharacterMove';
 
-const MainContainer = styled(Drawer)`
+const MainContainer = styled.View`
   flex: 1;
 `;
 
@@ -198,121 +196,112 @@ class CharacterMove extends Component {
 
         return (
             <ThemeProvider theme={theme}>
-                <DrawerSwitcher
-                    component={
-                        <Legend label={selectedCharacterLabel} />
-                    }
-                    isOpen={isDrawerOpen}
-                    side='right'
-                    onClose={this.onDrawerClose}
-                >
-                    <GradientTheme theme={theme}>
-                        <MainContainer>
-                            <AdBanner screen={'character-move'} />
-                            <ScrollView>
-                                <GifButtonContainer>
-                                    {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'video'} text={'Play'} /> : null}
-                                </GifButtonContainer>
-                                {
-                                    modalVisible ?
-                                        <Modal
-                                            animationType="fade"
-                                            transparent={true}
-                                            visible={modalVisible}
-                                            onRequestClose={() => this.toggleModal(false)}
-                                        >
-                                            <ModalView onPress={() => this.toggleModal(false)}>
-                                                <GifContainer>
-                                                    <AdBanner size={'large'} screen={'gif'} />
-                                                    <GifImage
-                                                        source={{ uri: preview_url }}
-                                                        onLoadStart={() => this.setState({ loadingGif: true })}
-                                                        onLoadEnd={() => this.setState({ loadingGif: false })}
-                                                    />
-                                                    <ActivityIndicator animating={this.state.loadingGif} size="large" color="#FF412C" />
-                                                    <ModalText>Tap screen to exit</ModalText>
-                                                </GifContainer>
+                <GradientTheme theme={theme}>
+                    <MainContainer>
+                        <AdBanner screen={'character-move'} />
+                        <ScrollView>
+                            <GifButtonContainer>
+                                {preview_url ? <GifButton onPressFunc={() => this.toggleModal(true)} icon={'video'} text={'Play'} /> : null}
+                            </GifButtonContainer>
+                            {
+                                modalVisible ?
+                                    <Modal
+                                        animationType="fade"
+                                        transparent={true}
+                                        visible={modalVisible}
+                                        onRequestClose={() => this.toggleModal(false)}
+                                    >
+                                        <ModalView onPress={() => this.toggleModal(false)}>
+                                            <GifContainer>
+                                                <AdBanner size={'large'} screen={'gif'} />
+                                                <GifImage
+                                                    source={{ uri: preview_url }}
+                                                    onLoadStart={() => this.setState({ loadingGif: true })}
+                                                    onLoadEnd={() => this.setState({ loadingGif: false })}
+                                                />
+                                                <ActivityIndicator animating={this.state.loadingGif} size="large" color="#FF412C" />
+                                                <ModalText>Tap screen to exit</ModalText>
+                                            </GifContainer>
 
-                                            </ModalView>
-                                        </Modal>
-                                        :
-                                        null
-                                }
-                                <NotationWrapper>
-                                    <PropertyText>{move_name === '-' ? '' : move_name}</PropertyText>
-                                    <PropertyText>
-                                        {notation}
-                                    </PropertyText>
-                                </NotationWrapper>
+                                        </ModalView>
+                                    </Modal>
+                                    :
+                                    null
+                            }
+                            <NotationWrapper>
+                                <PropertyText>{move_name === '-' ? '' : move_name}</PropertyText>
+                                <PropertyText>
+                                    {notation}
+                                </PropertyText>
+                            </NotationWrapper>
 
-                                {/* <HeaderTitle>
+                            {/* <HeaderTitle>
                             Special Properties
                         </HeaderTitle> */}
-                                <HeaderTitle>
-                                    Frame Properties
+                            <HeaderTitle>
+                                Frame Properties
                                 </HeaderTitle>
 
-                                {checkMoveProperty(speed) && (
-                                    <PropertyText>Speed: {speed}</PropertyText>
-                                )}
-                                {checkMoveProperty(on_hit) && (
-                                    <PropertyText>On Hit: {on_hit}</PropertyText>
-                                )}
-                                {checkMoveProperty(on_ch) && (
-                                    <PropertyText>On Counter: {on_ch}</PropertyText>
-                                )}
-                                {checkMoveProperty(on_block) && (
-                                    <PropertyText>On Block: {on_block}</PropertyText>
-                                )}
-                                {checkMoveProperty(on_whiff) && (
-                                    <PropertyText>On Whiff: {on_whiff}</PropertyText>
-                                )}
+                            {checkMoveProperty(speed) && (
+                                <PropertyText>Speed: {speed}</PropertyText>
+                            )}
+                            {checkMoveProperty(on_hit) && (
+                                <PropertyText>On Hit: {on_hit}</PropertyText>
+                            )}
+                            {checkMoveProperty(on_ch) && (
+                                <PropertyText>On Counter: {on_ch}</PropertyText>
+                            )}
+                            {checkMoveProperty(on_block) && (
+                                <PropertyText>On Block: {on_block}</PropertyText>
+                            )}
+                            {checkMoveProperty(on_whiff) && (
+                                <PropertyText>On Whiff: {on_whiff}</PropertyText>
+                            )}
 
 
-                                <HeaderTitle>
-                                    General Properties
+                            <HeaderTitle>
+                                General Properties
                                 </HeaderTitle>
 
-                                {checkMoveProperty(damage) && (
-                                    <PropertyText>Damage: {damage}</PropertyText>
-                                )}
+                            {checkMoveProperty(damage) && (
+                                <PropertyText>Damage: {damage}</PropertyText>
+                            )}
 
-                                {checkMoveProperty(hit_level) && (
-                                    <PropertyText>Hit Level: {hit_level}</PropertyText>
-                                )}
+                            {checkMoveProperty(hit_level) && (
+                                <PropertyText>Hit Level: {hit_level}</PropertyText>
+                            )}
 
-                                {checkMoveProperty(range) && (
-                                    <PropertyText>Range: {range}</PropertyText>
-                                )}
-                                {checkMoveProperty(crush) && (
-                                    <PropertyText>Crush: {crush}</PropertyText>
-                                )}
-                                {checkMoveProperty(jail) && (
-                                    <PropertyText>Jail: {jail}</PropertyText>
-                                )}
-                                {checkMoveProperty(in_air) && (
-                                    <PropertyText>In Air: {in_air}</PropertyText>
-                                )}
-                                {checkMoveProperty(tracking) && (
-                                    <PropertyText>Tracking: {tracking}</PropertyText>
-                                )}
-                                {checkMoveProperty(natural) && (
-                                    <PropertyText>Natural: {natural}</PropertyText>
-                                )}
-                                {checkMoveProperty(pushback) && (
-                                    <PropertyText>Push Back: {pushback}</PropertyText>
-                                )}
-                            </ScrollView>
-                            <BottomMenuBar
-                                navigation={navigation}
-                                onPressPreviousAttack={selectedIndex <= 0 ? null : this.previousAttack}
-                                onPressNextAttack={selectedCharacterMoves.length - 1 <= selectedIndex ? null : this.nextAttack}
-                                onPressOpenLegendDrawer={this.openRightDrawer}
-                                isCharacterMoveScreen={true}
-                            />
-                        </MainContainer>
-                    </GradientTheme >
-                </DrawerSwitcher>
+                            {checkMoveProperty(range) && (
+                                <PropertyText>Range: {range}</PropertyText>
+                            )}
+                            {checkMoveProperty(crush) && (
+                                <PropertyText>Crush: {crush}</PropertyText>
+                            )}
+                            {checkMoveProperty(jail) && (
+                                <PropertyText>Jail: {jail}</PropertyText>
+                            )}
+                            {checkMoveProperty(in_air) && (
+                                <PropertyText>In Air: {in_air}</PropertyText>
+                            )}
+                            {checkMoveProperty(tracking) && (
+                                <PropertyText>Tracking: {tracking}</PropertyText>
+                            )}
+                            {checkMoveProperty(natural) && (
+                                <PropertyText>Natural: {natural}</PropertyText>
+                            )}
+                            {checkMoveProperty(pushback) && (
+                                <PropertyText>Push Back: {pushback}</PropertyText>
+                            )}
+                        </ScrollView>
+                        <BottomMenuBar
+                            navigation={navigation}
+                            onPressPreviousAttack={selectedIndex <= 0 ? null : this.previousAttack}
+                            onPressNextAttack={selectedCharacterMoves.length - 1 <= selectedIndex ? null : this.nextAttack}
+                            onPressOpenLegendDrawer={this.openRightDrawer}
+                            isCharacterMoveScreen={true}
+                        />
+                    </MainContainer>
+                </GradientTheme >
             </ThemeProvider >
         );
     }
