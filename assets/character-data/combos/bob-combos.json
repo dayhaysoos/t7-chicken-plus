@@ -1,82 +1,56 @@
 {
   "combos": {
-    "d+2": [
+    "f, n, d, d/f+2": [
       {
-        "input": "1, f+2, f+1 (S!) ~dash~ f+2, f+1, (During Rage) 1+2",
-        "damage": 70,
+        "input": "f, f+3, d/b+2, 1, u/f+1+2, 4 (S!) ~dash~ (During Rage) f+2+3",
+        "damage": 89,
+        "oki": "-"
+      }
+    ],
+    "u/f+3": [
+      {
+        "input": "d+2, 3, 1, u/f+1+2, 4 (S!) ~dash~ (During Rage) d/f+1+2",
+        "damage": 77,
         "oki": "-"
       },
       {
-        "input": "1, f+2, f+1 (S!), d/f+1+2, 1+2",
-        "damage": 55,
-        "oki": "-"
-      },
-      {
-        "input": "1, f+2, f+1 (S!), f, F+2",
-        "damage": 39,
+        "input": "d+2, 3, 1, u/f+1+2, 4 (S!) ~dash~ d+2, 3",
+        "damage": 59,
         "oki": "-"
       }
     ],
-    "f, F+1+2": [
+    "WS 2, 1": [
       {
-        "input": "d/f+3, 1, d/f+3, 1+2",
-        "damage": 43,
+        "input": "d+2, 3, d/f+1, d+3, 4 (S!) ~dash~ d+2, 3",
+        "damage": 64,
         "oki": "-"
       }
     ],
-    "GOL 1": [
+    "Approach enemy... f, F+1+2": [
       {
-        "input": "1, f+2, f+1 (S!), d/f+1+2, 1+2",
-        "damage": 62,
-        "oki": "-"
-      }
-    ],
-    "FC d/f+2": [
-      {
-        "input": "u/f+3+4",
-        "damage": 40,
-        "oki": "-"
-      }
-    ],
-    "[u/f+3]": [
-      {
-        "input": "1, f+2, f+1 (S!), d/f+1+2, 1+2",
-        "damage": 62,
-        "oki": "-"
-      }
-    ],
-    "[(f, F+4), 2]": [
-      {
-        "input": "1, f+2, f+1 (S!), d/f+1+2, 1+2",
-        "damage": 72,
-        "oki": "-"
-      }
-    ],
-    "[WS 4]": [
-      {
-        "input": "d+3, 2",
-        "damage": 45,
-        "oki": "-"
-      }
-    ],
-    "[d/b+2]": [
-      {
-        "input": "~dash~ u/f+3+4",
+        "input": "f+4 (S!) f, f+3, d/b+2, d+2, 3, b+1+2",
         "damage": 44,
         "oki": "-"
       }
     ],
-    "WS 3": [
+    "[4]": [
       {
-        "input": "1, f+2, f+1 (S!), d/f+1+2, 1+2",
-        "damage": 67,
+        "input": "u/f+1+2, 4 (S!) ~dash~ f, f+3, d+2, 3, b+3",
+        "damage": 60,
         "oki": "-"
       }
     ],
-    "(During Rage) f+3+4*": [
+    "[f, n, d, d/f+1]": [
       {
-        "input": 1,
-        "damage": 40,
+        "input": "(S!) ~dash~ d/b+2, d+2, 3, b+1+2",
+        "damage": 55,
+        "oki": "-"
+      }
+    ],
+    "[d/f+2]": [
+      {
+        "input": "b+4, 4 (S!) f, f+3, d+2, 3, b+1+2",
+        "damage": 58,
         "oki": "-"
       }
     ],
@@ -110,8 +84,8 @@
     ],
     "Low Parry": [
       {
-        "input": "d/f+2, f+1 (S!), d/f+1+2, 1+2",
-        "damage": 46,
+        "input": "SSR d+2, 3, 2, u/f+1+2, 4 (S!) d/f+1, b+3",
+        "damage": 40,
         "oki": "-"
       }
     ],
@@ -152,7 +126,12 @@
     ],
     "Wall Ender": [
       {
-        "input": "d/f+1+2, 1+2",
+        "input": "b+2, 2, d+3+4",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "SSL d/b+2 (W!), b+2, 2, d+4, 3, 4",
         "damage": "-",
         "oki": "-"
       }

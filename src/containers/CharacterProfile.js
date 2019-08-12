@@ -13,7 +13,6 @@ import * as favoriteActions from '../redux/actions/favoriteActions';
 import * as searchActions from '../redux/actions/searchActions';
 
 import { GradientTheme } from '../common/GradientTheme';
-import DrawerSwitcher from '../components/DrawerSwitcher';
 import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
 
 // components
@@ -241,14 +240,6 @@ class CharacterProfile extends Component {
 
         return (
             <GradientTheme theme={theme}>
-                <DrawerSwitcher
-                    component={
-                        <FilterMenu />
-                    }
-                    side={side}
-                    isOpen={isOpen}
-                    onClose={this.onDrawerClose}
-                >
                     <View style={{ flex: 1 }}>
                         <AdBanner screen={'character-profile'} />
                         <TabView
@@ -278,7 +269,6 @@ class CharacterProfile extends Component {
                             isOnMoveTab={this.state.isOnMoveTab}
                         />
                     </View>
-                </DrawerSwitcher>
             </GradientTheme>
         );
     }
