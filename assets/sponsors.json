@@ -1,0 +1,28 @@
+{
+	"page": {
+		"description": "Check out our partners and what they have to offer to T7 Chicken fans!"
+	},
+	"sponsors": [
+		{
+			"name": "Qanba",
+			"description": "Qanba meets the needs of any fighter with a wide range of premium joysticks (Drone, Crystal, Obsidian, and Dragon). Whether you’re a tournament fighter, a joystick collector, or anything in between, get ready for the next battle with Qanba!",
+			"url": "https://www.qanbausa.com/",
+			"discountCode": "T7 Chicken",
+			"image_id": "qanba"
+		},
+		{
+			"name": "Focus Attack",
+			"description": "Focus Attack is a store dedicated to fighting game and arcade fans. Get arcade parts, essentials, plus Fightstick artwork customization.",
+			"url": "https://www.focusattack.com/tags/interestarcade-korea",
+			"discountCode": "T7CHICKEN10",
+			"image_id": "focus_attack"
+		},
+		{
+			"name": "Controller Chaos",
+			"description": "Controller Chaos is the leading online retailer of custom controllers for Xbox One, PS4, Gamecube, and Fightsticks. We specialize in high quality custom painted controllers that bring your personal touch and style to life!",
+			"url": "https://www.controllerchaos.com/",
+			"discountCode": "T7CHICKEN",
+			"image_id": "controller_chaos"
+		}
+	]
+}

@@ -6,6 +6,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { 
     faStar,
     faChevronLeft,
+    faChevronRight,
     faBars,
     faBook,
     faFilter,
@@ -39,6 +40,7 @@ library.add(
     fab,
     faStar,
     faChevronLeft,
+    faChevronRight,
     faBars,
     faBook,
     faFilter,

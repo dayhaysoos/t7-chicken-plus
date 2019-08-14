@@ -1,5 +1,4 @@
 import React from 'react';
-import { Text } from 'react-native';
 import HomeScreen from './containers/HomeScreen';
 import About from './containers/About';
 import Support from './containers/Support';
@@ -14,6 +13,7 @@ import AdRemoval from './containers/AdRemoval';
 import ApplePayment from './containers/ApplePayment';
 import AndroidPayment from './containers/AndroidPayment';
 import RightMenu from './components/RightMenu';
+import SponsorScreen from './containers/SponsorScreen';
 
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 
@@ -71,6 +71,10 @@ const RootStack = createStackNavigator({
     },
     Sponsors: {
         screen: Sponsors,
+        navigationOptions: defaultNavOptions
+    },
+    SponsorScreen: {
+        screen: SponsorScreen,
         navigationOptions: defaultNavOptions
     },
     Support: {
