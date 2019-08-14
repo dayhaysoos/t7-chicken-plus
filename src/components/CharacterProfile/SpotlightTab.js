@@ -42,7 +42,7 @@ const SocialIconsWrapper = styled.View`
 `;
 
 const TouchableSocial = styled.TouchableHighlight`
-  background-color: ${({bgColor}) => bgColor}
+  background-color: ${({ bgColor }) => bgColor}
   height: 40;
   width: 50;
   margin-left: 10;
@@ -88,6 +88,10 @@ const onIconPress = (url, character, playerName) => async () => {
 
 };
 
+const socialChecker = (social) => {
+    return social.length > 1
+}
+
 const SpotlightTab = ({ playerData: { favorite_moves, name, bio, sponsor, twitch, twitter, instagram, character }, navigation, theme, characterMoves }) => (
     <ScrollView>
         <SpotlightWrapper>
@@ -97,16 +101,24 @@ const SpotlightTab = ({ playerData: { favorite_moves, name, bio, sponsor, twitch
             <BioText>{bio}</BioText>
         </SpotlightWrapper>
         <SocialIconsWrapper>
-            <TouchableSocial bgColor={'#1DA1F2'} onPress={onIconPress(twitter, character, name)}>
-                <FontAwesomeIcon size={24} style={{color: 'white'}} icon={['fab', 'twitter']} />
-            </TouchableSocial>
 
-            <TouchableSocial bgColor={'#6441A5'} onPress={onIconPress(twitch, character, name)}>
-                <FontAwesomeIcon size={24} style={{color: 'white'}} icon={['fab', 'twitch']} />
-            </TouchableSocial>
-            <TouchableSocial bgColor={'#E1306C'} onPress={onIconPress(instagram, character, name)}>
-                <FontAwesomeIcon size={24} style={{color: 'white'}} icon={['fab', 'instagram']} />
-            </TouchableSocial>
+            {socialChecker(twitter) && (
+                <TouchableSocial bgColor={'#1DA1F2'} onPress={onIconPress(twitter, character, name)}>
+                    <FontAwesomeIcon size={24} style={{ color: 'white' }} icon={['fab', 'twitter']} />
+                </TouchableSocial>
+            )}
+
+            {socialChecker(twitch) && (
+                <TouchableSocial bgColor={'#6441A5'} onPress={onIconPress(twitch, character, name)}>
+                    <FontAwesomeIcon size={24} style={{ color: 'white' }} icon={['fab', 'twitch']} />
+                </TouchableSocial>
+            )}
+
+            {socialChecker(instagram) && (
+                <TouchableSocial bgColor={'#E1306C'} onPress={onIconPress(instagram, character, name)}>
+                    <FontAwesomeIcon size={24} style={{ color: 'white' }} icon={['fab', 'instagram']} />
+                </TouchableSocial>
+            )}
         </SocialIconsWrapper>
 
         <H2>Favorite Moves</H2>
