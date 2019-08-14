@@ -50,7 +50,7 @@ const CHARACTER_COMBOS = {
     claudio,
     deviljin,
     dragunov,
-    eliza,
+    // eliza,
     feng,
     geese,
     gigas,
