@@ -482,6 +482,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
+      "natural": "-",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",

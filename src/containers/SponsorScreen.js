@@ -100,7 +100,7 @@ const SponsorScreen = ({ navigation }) => {
     return (
         <GradientTheme theme={defaultTheme}>
 
-            <Img resizeMode={'cover'} source={sponsorImages[image_id]} />
+            <Img resizeMode={'contain'} source={sponsorImages[image_id]} />
             <MainContainer>
                 <DescriptionText color={defaultTheme.listViewText}>{description}</DescriptionText>
 

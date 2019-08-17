@@ -50,7 +50,10 @@ const TouchableSocial = styled.TouchableHighlight`
   align-items: center;
 `;
 
-const normalizeString = (move) => move.toLowerCase().replace(/[^\w~]/gi, '');
+const normalizeString = (move) => {
+
+    return move.toString().toLowerCase().replace(/[^\w~]/gi, '');
+}
 
 const mapDispatchToProps = {};
 

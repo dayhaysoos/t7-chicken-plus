@@ -33,6 +33,7 @@ import { withMappedNavigationParams } from 'react-navigation-props-mapper';
 //assets
 import playerData from '../../assets/spotlight-data/spotlights.json';
 
+
 export const mapDispatcthToProps = {
     ...characterActions,
     ...settingsActions,
@@ -41,7 +42,6 @@ export const mapDispatcthToProps = {
 };
 
 export const mapStateToProps = ({
-    characterData,
     characterData: { selectedCharacterMoves, selectedCharacterMetaData },
     favorites,
     filter: { activeFilters },
@@ -52,8 +52,10 @@ export const mapStateToProps = ({
     listView,
     theme,
     favorites,
-    selectedCharacterMoves: searchMoves(filterMoves(selectedCharacterMoves, activeFilters), profileInput),
+    selectedCharacterMoves,
     selectedCharacterMetaData,
+    activeFilters,
+    profileInput
 });
 
 const FILTERS_INITIAL_STATE = {
@@ -70,7 +72,11 @@ const FILTERS_INITIAL_STATE = {
 };
 
 const Spotlight = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-    <Text>Stay Tuned for Player Spotlights!</Text>
+    <Text>Finding a player... </Text>
+</View>;
+
+const Combo = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <Text>Wanna help us get data in here? Join the T7 Chicken Plus discord!</Text>
 </View>;
 
 class CharacterProfile extends Component {
@@ -197,15 +203,19 @@ class CharacterProfile extends Component {
             listView,
             theme,
             updateMoveData,
-            searchProfileMoves
+            searchProfileMoves,
+            profileInput,
+            activeFilters
         } = this.props;
+
+        console.log(activeFilters)
 
         const { isOpen, side} = this.state;
 
         const MoveTabWrapper = () => (
             <MoveTab
                 listView={listView}
-                selectedCharacterMoves={selectedCharacterMoves}
+                selectedCharacterMoves={searchMoves(filterMoves(selectedCharacterMoves, activeFilters), profileInput)}
                 navigation={navigation}
                 theme={theme}
                 label={label}
@@ -218,7 +228,7 @@ class CharacterProfile extends Component {
             firebase.analytics().logEvent('Combo_Lookup', {
                 characterName: label
             });
-            return CHARACTER_COMBOS[label] ? <ComboTab combos={CHARACTER_COMBOS[label].combos} /> : <Spotlight />;
+            return CHARACTER_COMBOS[label] ? <ComboTab combos={CHARACTER_COMBOS[label].combos} /> : <Combo />;
         };
 
         const availableChars = playerData.reduce((acc, current) => 
