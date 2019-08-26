@@ -1,0 +1,238 @@
+{
+  "combos": {
+    "u/f+4, 3": [
+      {
+        "input": "4, f+3~1, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 74,
+        "oki": "-"
+      },
+      {
+        "input": "4 ~dash~ d/f+3, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "4 ~dash~ d/f+3, f, F+1, f, F+1, f, F+1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 61,
+        "oki": "-"
+      },
+      {
+        "input": "4, f, F+1, f, F+1, f, F+1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 56,
+        "oki": "-"
+      }
+    ],
+    "d/f+2, 1": [
+      {
+        "input": "f+3~1, d/f+3, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), (During Rage) d/f+1+2",
+        "damage": 91,
+        "oki": "-"
+      },
+      {
+        "input": "f+3~1, d/f+3, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 79,
+        "oki": "-"
+      },
+      {
+        "input": "f+3~1, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 74,
+        "oki": "-"
+      },
+      {
+        "input": "f+3~1, d/f+3, d/f+4, 3, 2 (S!) ~dash~ d/f+4, 2~b, F+1",
+        "damage": 72,
+        "oki": "-"
+      }
+    ],
+    "SS 3+4": [
+      {
+        "input": "d/f+3, f, F+1, f, F+1, f, F+1, f, F+1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 62,
+        "oki": "-"
+      }
+    ],
+    "qcf+2": [
+      {
+        "input": "f+3~1, d/f+3, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 74,
+        "oki": "-"
+      }
+    ],
+    "b+4": [
+      {
+        "input": "~dash~ d/f+3+4, d, D/F+1, 4, 2 (S!), WR 2, 1",
+        "damage": 58,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ d/f+3+4, d, D/F+1, 4, 2 (S!) ~dash~ d/f+4, 2~b, F+1",
+        "damage": 64,
+        "oki": "-"
+      }
+    ],
+    "b+1+2": [
+      {
+        "input": "d/f+3, d/f+3, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 75,
+        "oki": "-"
+      },
+      {
+        "input": "FC d/f+4, 3, d/f+3, f, F+1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 66,
+        "oki": "-"
+      }
+    ],
+    "WR 1": [
+      {
+        "input": "WR 2, 1",
+        "damage": 54,
+        "oki": "-"
+      }
+    ],
+    "[4]": [
+      {
+        "input": "f, F+1, f, F+1, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 66,
+        "oki": "-"
+      }
+    ],
+    "[b+1]": [
+      {
+        "input": "FC d/f+4, 3, d/f+3, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 74,
+        "oki": "-"
+      }
+    ],
+    "[d/b+1]": [
+      {
+        "input": "FC d/f+4, 3, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 73,
+        "oki": "-"
+      }
+    ],
+    "[u/f+1]": [
+      {
+        "input": "f, F+1, f, F+1, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 68,
+        "oki": "-"
+      }
+    ],
+    "[(Duriing Swift Step) 2]": [
+      {
+        "input": "FC d/f+4, 3, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 77,
+        "oki": "-"
+      }
+    ],
+    "[(Duriing Swift Step) 4]": [
+      {
+        "input": "FC d/f+4, 3, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 73,
+        "oki": "-"
+      }
+    ],
+    "[b+3]": [
+      {
+        "input": "f, F+1, f, F+1, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 68,
+        "oki": "-"
+      }
+    ],
+    "WS 1": [
+      {
+        "input": "f, F+1, f, F+1, f+2, 1, f+3~1, f, F+1, 4 (S!), WR 2, 1",
+        "damage": 60,
+        "oki": "-"
+      }
+    ],
+    "WS 2, 1": [
+      {
+        "input": "f, F+2",
+        "damage": 49,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "input": "3+4 (S!), (2), 4, F, 4, f+4, 3, u/f+3+4",
+        "damage": 45,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "input": "2, 4, SWS 1",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "2, 4, SWS 4",
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
+}

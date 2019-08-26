@@ -1,0 +1,144 @@
+{
+  "combos": {
+    "2, 2": [
+      {
+        "damage": 96,
+        "oki": "-"
+      },
+      {
+        "damage": 77,
+        "oki": "-"
+      }
+    ],
+    "3+4": [
+      {
+        "damage": 65,
+        "oki": "-"
+      }
+    ],
+    "f, f+3, 4": [
+      {
+        "damage": 53,
+        "oki": "-"
+      }
+    ],
+    "d/f+2, 3": [
+      {
+        "damage": 60,
+        "oki": "-"
+      },
+      {
+        "damage": 60,
+        "oki": "-"
+      }
+    ],
+    "b+4": [
+      {
+        "damage": 76,
+        "oki": "-"
+      },
+      {
+        "damage": 72,
+        "oki": "-"
+      },
+      {
+        "damage": 66,
+        "oki": "-"
+      }
+    ],
+    "WS 1": [
+      {
+        "damage": 34,
+        "oki": "-"
+      }
+    ],
+    "WS 3": [
+      {
+        "damage": 50,
+        "oki": "-"
+      }
+    ],
+    "[b+1, 2]": [
+      {
+        "damage": 68,
+        "oki": "-"
+      }
+    ],
+    "[d+4]": [
+      {
+        "damage": 64,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "damage": 34,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
+}

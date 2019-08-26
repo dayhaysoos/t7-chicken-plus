@@ -1,0 +1,364 @@
+{
+  "combos": {
+    "u/f+4": [
+      {
+        "input": "cd1 > df1 > 1+2, 2 > db2,4 S! > iSW",
+        "damage": 73,
+        "oki": "-"
+      },
+      {
+        "input": "dark upper > df1 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "dark upper > df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": 82,
+        "oki": "-"
+      },
+      {
+        "input": "standing 4 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 66,
+        "oki": "-"
+      },
+      {
+        "input": "standing 4 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": 80,
+        "oki": "-"
+      }
+    ],
+    "u/f+1+2": [
+      {
+        "input": "df1 > df1 > 1+2,2 > db2,4 S! > iSW",
+        "damage": 77,
+        "oki": "-"
+      },
+      {
+        "input": "df1 > df1 > dash iWS4 > db2,4 > iSW",
+        "damage": 75,
+        "oki": "-"
+      }
+    ],
+    "f, F+3": [
+      {
+        "input": "d3+4, 1 S! > SSL iSW",
+        "damage": 65,
+        "oki": "-"
+      },
+      {
+        "input": "d3+4, 1 S! > dash rage art",
+        "damage": 36,
+        "oki": "-"
+      }
+    ],
+    "f, n, d, d/f+2": [
+      {
+        "input": "cd1 > df1 > 1+2,2 > db2,4 S! > iSW",
+        "damage": 80,
+        "oki": "-"
+      },
+      {
+        "input": "standing 4 > dash df1 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 76,
+        "oki": "-"
+      },
+      {
+        "input": "standing 4 > dash df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": 90,
+        "oki": "-"
+      }
+    ],
+    "f, n, d, d/f+4": [
+      {
+        "input": "f+1+4",
+        "damage": 44,
+        "oki": "-"
+      },
+      {
+        "input": "f, F+4",
+        "damage": 46,
+        "oki": "-"
+      }
+    ],
+    "b+3": [
+      {
+        "input": "~dash~ f+1+4",
+        "damage": 45,
+        "oki": "-"
+      }
+    ],
+    "b+1+4": [
+      {
+        "input": "f+1+4",
+        "damage": 46,
+        "oki": "-"
+      },
+      {
+        "input": "f, F+4",
+        "damage": 48,
+        "oki": "-"
+      }
+    ],
+    "u/b+1": [
+      {
+        "input": "f+1+4",
+        "damage": 43,
+        "oki": "-"
+      },
+      {
+        "input": "f, F+4",
+        "damage": 45,
+        "oki": "-"
+      }
+    ],
+    "FC d/f+2": [
+      {
+        "input": "SSR df1 > 1+2,2 > db2,4 S! > iSW",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "SSR df1 > 1+2,2 > db2,4 S! > dash cd1 > rage art",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "SS 2, 1": [
+      {
+        "input": "uf3 > df1 > 1+2,2 > db2,4 S! > iSW",
+        "damage": 76,
+        "oki": "-"
+      },
+      {
+        "input": "dash iWS4 > iWS4 > db2,4 S! > iSW",
+        "damage": 73,
+        "oki": "-"
+      }
+    ],
+    "WS 1": [
+      {
+        "input": "standing 4 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "standing 4 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": 83,
+        "oki": "-"
+      }
+    ],
+    "[4]": [
+      {
+        "input": "dash db2,4 S! > SSL cd1 > jab > iSW",
+        "damage": 71,
+        "oki": "-"
+      },
+      {
+        "input": "dash db2,4 S! > SSL cd1 > jab > air GS",
+        "damage": 63,
+        "oki": "-"
+      },
+      {
+        "input": "dash db2,4 S! > iSW",
+        "damage": 67,
+        "oki": "-"
+      }
+    ],
+    "[(1+2), 4]": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "[d/f+2]": [
+      {
+        "input": "d3+4, 1 S! > SSL iSW",
+        "damage": 65,
+        "oki": "-"
+      },
+      {
+        "input": "d3+4, 1 S! > rage art",
+        "damage": 71,
+        "oki": "-"
+      }
+    ],
+    "[d/f+3]": [
+      {
+        "input": "SSR df1 > 1+2,2 > db2,4 S! > iSW",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "SSR df1 > df1 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 70,
+        "oki": "-"
+      },
+      {
+        "input": "SSR df1 > df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "[f, f, n+2]": [
+      {
+        "input": "db2,4 S! > SSL cd1 > jab > iSW",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "db2,4 S! > SSL cd1 > air GS",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "iWS4 > db2,4 S! > SSL cd1 > jab > rage art",
+        "damage": 82,
+        "oki": "-"
+      }
+    ],
+    "[(d+3+4), 1]": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "[b+1]": [
+      {
+        "input": "backdash/delay 3+4 > df1 > df1 > db2,4 S! > iSW",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "backdash/delay 3+4 > df1> db2,4 S! > dash cd1 > rage art",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "db2,4 S! > SSR cd1 > jab > iSW",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "db2,4 S! > iSW 57 dmg",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "SWL d3+4, 1 S! > small SSL cd1 > air GS",
+        "damage": 50,
+        "oki": "-"
+      }
+    ],
+    "[b+2, 1, 2]": [
+      {
+        "input": "dash cd1 > df1 > 1+2,2 > db2,4",
+        "damage": 81,
+        "oki": "-"
+      },
+      {
+        "input": "dash cd1 > jab > dash jab > dash jab > iSW",
+        "damage": 82,
+        "oki": "-"
+      },
+      {
+        "input": "dash cd1 > df1 > df1 > rage art",
+        "damage": 94,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "input": "d/f+3, d/f+1, 1+2, 2 > d/b+2, 4 (S!), iSW",
+        "damage": 56,
+        "oki": "-"
+      },
+      {
+        "input": "SSR df3 > df1 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 53,
+        "oki": "-"
+      },
+      {
+        "input": "SSR df3 > df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": 65,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "input": "1, 2, f+1+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "f, f+3, 4, 4, 1+2",
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
+}

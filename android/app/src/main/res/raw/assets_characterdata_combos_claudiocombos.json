@@ -1,0 +1,206 @@
+{
+  "combos": {
+    "u/f+4": [
+      {
+        "input": "d/b+4, 3, 2, 1, 1+2 (S!), f, f+2, 1",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "WS 4, 2, 1, 1+2 (S!), f, f+2, 1",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "d/f+1, 2": [
+      {
+        "input": "b+2, 1+2, 4 (S!), f, f+2, 1",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "f+4 (S!), iWR 3, 1+4, RD",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "STB f+1+2, 1+2": [
+      {
+        "input": "b+2, 4, 3, 2, 1, 1+2 (S!) ~dash~ RA",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "4, f, f+2, 3, 2, 1, 1+2 (S!), f, f+2, 1",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "STB d+2, 2": [
+      {
+        "input": "2, 1, 1+2 (S!), f, f+2, 1",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "WS 2": [
+      {
+        "input": "d/b+4, 3, 2, 1, 1+2 (S!), f, f+2, 1",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "(During Rage) b+4, 2, f, f": [
+      {
+        "input": "d/b+4, 3, 2, 1, 1+2 (S!), f, f+2, 1",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "[4, 3]": [
+      {
+        "input": "(S!), f, f+4, b+3, f+2, b+4, 2 (STB)",
+        "damage": 54,
+        "oki": "-"
+      },
+      {
+        "input": "(S!) f, f+4, b+3, f+2, 1, 1+2",
+        "damage": 56,
+        "oki": "-"
+      }
+    ],
+    "[d/f+2]": [
+      {
+        "input": "f+3 (S!), f, f+4, b+3, f+2, b+4, 2 (STB)",
+        "damage": 65,
+        "oki": "-"
+      },
+      {
+        "input": "f, f+4, b+3, f+2, f+2, f+3 (S!) f, f, f+2 (STB)",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "b+2, f+1 ~dash~ b+3, d+1, 2 (S!) f, f, f+2 (STB)",
+        "damage": 72,
+        "oki": "-"
+      },
+      {
+        "input": "b+2, f+1, f, f+4, b+3, d+1, 2 (S!), f, f, f+2",
+        "damage": 78,
+        "oki": "-"
+      }
+    ],
+    "[f+4]": [
+      {
+        "input": "d/b+3",
+        "damage": 44,
+        "oki": "-"
+      }
+    ],
+    "[d/b+3]": [
+      {
+        "input": "WS 1, b+3, f+2, f+2, f+3 (S!), f, f, f+2",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "WS 1, b+3, f+2 ~dash~ b+3, d+1, 2 (S!), f, f, f+2",
+        "damage": 71,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "input": "f+3 (S!), f, f+4, b+3, f+2, b+4, 2 (STB)",
+        "damage": 45,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "input": "d/f+3, 2, d+1+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "d/f+3, 2, b+3",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "b+3, d/f+3, 2, d+1+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "(STB) b+2, d/f+3, 2, d+1+2",
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
+}

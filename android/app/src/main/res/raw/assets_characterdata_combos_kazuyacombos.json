@@ -1,0 +1,176 @@
+{
+  "combos": {
+    "f, n, d, d/f:2": [
+      {
+        "input": "f, n, d, d/f:2, (During Rage) f, n, d, d/f+1+4, d/f+1, 4 (S!) ~dash~ f, n, d, d/f+4, 1",
+        "damage": 86,
+        "oki": "-"
+      },
+      {
+        "input": "f, n, d, d/f:2, f, n, d, d/f, WS 4, d/f+1, 4 (S!) ~dash~ (During Rage) d/f+1+2",
+        "damage": 82,
+        "oki": "-"
+      },
+      {
+        "input": "f, n, d, d/f:2 ~dash~ b+2, 4, ~dash~ d/f+1, 4 (S!) ~dash~ f, n, d, d/f+4, 1",
+        "damage": 70,
+        "oki": "-"
+      },
+      {
+        "input": "U/F+4, b+2, 4, ~dash~ d/f+1, 4 (S!) ~dash~ f, n, d, d/f+4, 1",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ 3, 1, 4, d/f+1, 4 (S!) ~dash~ f, n, d, d/f+4, 1",
+        "damage": 62,
+        "oki": "-"
+      }
+    ],
+    "f, F+3": [
+      {
+        "input": "b+2, 4, d/f+1, 4 (S!) ~dash~ f, n, d, d/f+4, 1",
+        "damage": 70,
+        "oki": "-"
+      }
+    ],
+    "SS 3": [
+      {
+        "input": "~dash~ d/f+1, 4 (S!) ~dash~ d/f+3, 2, 1",
+        "damage": 55,
+        "oki": "-"
+      }
+    ],
+    "[d/f+2]": [
+      {
+        "input": "~dash~ 3, 1 ,4, d/f+1, 4 (S!) ~dash~ f, n, d, d/f+4, 1",
+        "damage": 65,
+        "oki": "-"
+      }
+    ],
+    "[f, F+4]": [
+      {
+        "input": "d/f+3, d/f+1, 4 (S!) ~dash~ b+3, 1, f, F+2",
+        "damage": 63,
+        "oki": "-"
+      }
+    ],
+    "[b+4]": [
+      {
+        "input": "~dash~ b+3, 1, 1, 2, 4, 3",
+        "damage": 55,
+        "oki": "-"
+      }
+    ],
+    "[b+1+2]": [
+      {
+        "input": "~dash~ f, n, d, d/f:2, d/f+3, d/f+1, 4 (S!) ~dash~ f, n, d, d/f+4, 1",
+        "damage": 69,
+        "oki": "-"
+      }
+    ],
+    "[4]": [
+      {
+        "input": "~dash~ 3, 1, 4, d/f+1, 4 (S!) ~dash~ f, n, d, d/f+4, 1",
+        "damage": 60,
+        "oki": "-"
+      }
+    ],
+    "WS 2": [
+      {
+        "input": "~dash~ 3, 1, 4, d/f+1, 4 (S!) ~dash~ f, n, d, d/f+4, 1",
+        "damage": 64,
+        "oki": "-"
+      }
+    ],
+    "WS 1, 2": [
+      {
+        "input": "3, 1, 4, d/f+1, 4 (S!) ~dash~ f, n, d, d/f+4, 1",
+        "damage": 61,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "input": "b+3, 1, d/f+1, 4 (S!) ~dash~ b+3, 1, f, F+2",
+        "damage": 41,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "input": "SSL, 3, 1, 4 (W!), iWS 4, d/f+1, 4, 1+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "iWS 4, d/f+1, 2, 1+2",
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
+}
