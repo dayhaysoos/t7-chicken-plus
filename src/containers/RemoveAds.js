@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
-import { Platform, View, Alert, FlatList, ActivityIndicator} from 'react-native';
+import {
+    Platform,
+    View,
+    Alert,
+    FlatList,
+    ActivityIndicator
+} from 'react-native';
 import styled from 'styled-components';
 import { GradientTheme } from '../common/GradientTheme';
 import { defaultTheme } from '../themes/defaultTheme';
 
 import * as RNIap from 'react-native-iap';
 
-
 const PromoContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
 `;
 
-const PromoButton = styled.Button`
-
-`;
+const PromoButton = styled.Button``;
 
 const PromoInput = styled.TextInput`
   background-color: gray;
@@ -58,7 +61,7 @@ const HeaderText = styled(Text)`
 const WhySubscribeContainer = styled(View)`
   padding-left: 20;
   padding-right: 20;
-  background-color: #19181C;
+  background-color: #19181c;
   height: 100;
   justify-content: flex-end;
   padding-bottom: 20;
@@ -71,33 +74,23 @@ const SubButtonContainer = styled.View`
   flex-direction: column;
 `;
 
-const GoalList = styled.View`
-`;
+const GoalList = styled.View``;
 
 const GoalItem = styled.Text`
   text-align: left;
 `;
 
 const promoItems = Platform.select({
-    ios: [
-        'ad_remove_promo_7',
-    ],
-    android: [
-        'ad_remove_promo_7'
-    ]
+    ios: ['ad_remove_promo_7'],
+    android: ['ad_remove_promo_7'],
 });
 
 const items = Platform.select({
-    ios: [
-        'ad_remove_10'
-    ],
-    android: [
-        'ad_remove_10',
-    ],
+    ios: ['ad_remove_10'],
+    android: ['ad_remove_10']
 });
 
 class RemoveAds extends Component {
-
   state = {
       products: [],
       receipt: '',
@@ -118,9 +111,9 @@ class RemoveAds extends Component {
           { key: 'Players to watch for each character' },
           { key: 'Provide a spot for content creators and streamers' },
           { key: 'Giveaway events (Chicken Sticks and Merch)' },
-          { key: 'Sponsor players' }
-      ]
-  }
+          { key: 'Sponsor players' },
+      ],
+  };
 
   async componentDidMount() {
       try {
@@ -134,19 +127,19 @@ class RemoveAds extends Component {
               products,
               purchaseHistory,
               availablePurchases,
-              loading: false,
+              loading: false
           });
       } catch (err) {
           console.log(err);
-          this.setState({err});
+          this.setState({ err });
       }
   }
 
   handleAfterPurchase = () => {
       this.props.navigation.navigate('Receipt', {
-          receipt: this.state.receipt,
+          receipt: this.state.receipt
       });
-  }
+  };
 
   getAvailablePurchases = async () => {
       try {
@@ -154,61 +147,63 @@ class RemoveAds extends Component {
           if (purchases && purchases.length > 0) {
               this.setState({
                   availableItemsMessage: `Got ${purchases.length} items.`,
-                  receipt: purchases[0].transactionReceipt,
+                  receipt: purchases[0].transactionReceipt
               });
           }
       } catch (err) {
           Alert.alert(err.message);
       }
-  }
+  };
 
-  buyItem = async (sku) => {
+  buyItem = async sku => {
       try {
           const purchase = await RNIap.buyProduct(sku);
-          this.setState({ receipt: purchase.transactionReceipt }, () => this.handleAfterPurchase());
+          this.setState({ receipt: purchase.transactionReceipt }, () =>
+              this.handleAfterPurchase()
+          );
       } catch (err) {
           console.log('err', err);
           Alert.alert(err.message);
       }
-  }
+  };
 
-  renderSubscriptionItems = (items) => items.map((item) => (
-      <View key={item.productId} style={{ flexDirection: 'column' }}>
-          <SubscriptionButton
-              onPress={() => this.buyItem(item.productId)}
-          >
-              <SubscriptionButtonText>Remove ads ({item.localizedPrice})</SubscriptionButtonText>
-          </SubscriptionButton>
-      </View>
-  ))
+  renderSubscriptionItems = items =>
+      items.map(item => (
+          <View key={item.productId} style={{ flexDirection: 'column' }}>
+              <SubscriptionButton onPress={() => this.buyItem(item.productId)}>
+                  <SubscriptionButtonText>
+            Remove ads ({item.localizedPrice})
+                  </SubscriptionButtonText>
+              </SubscriptionButton>
+          </View>
+      ));
 
   renderGoalList = () => {
       const { goals } = this.state;
       return goals.map(goal => <GoalItem key={goal}>{goal}</GoalItem>);
-  }
+  };
 
   onEnterPromo = async () => {
-      const {promoInput, promoCode } = this.state;
+      const { promoInput, promoCode } = this.state;
       const submissionItems = promoInput === promoCode ? promoItems : items;
 
-      if(promoInput.toLowerCase() === promoCode.toLowerCase()) {
+      if (promoInput.toLowerCase() === promoCode.toLowerCase()) {
           this.setState({
-              loading: true
+              loading: true,
           });
           try {
               const products = await RNIap.getProducts(submissionItems);
               this.setState({
                   products,
                   promoMessage: 'Promo Applied!',
-                  loading: false,
+                  loading: false
               });
           } catch (err) {
               console.log(err);
-              this.setState({err});
+              this.setState({ err });
           }
       }
-
-  }
+  };
 
   render() {
       const { products, purchaseHistory, availablePurchases, err } = this.state;
@@ -232,19 +227,19 @@ class RemoveAds extends Component {
                       renderItem={({ item }) => <Text>- {item.key}</Text>}
                   />
 
-                  
+
               </View> */}
               <PromoContainer>
-                  <PromoInput onChangeText={(text) => this.setState({promoInput: text})} />
+                  <PromoInput
+                      onChangeText={text => this.setState({ promoInput: text })}
+                  />
                   <PromoButton onPress={this.onEnterPromo} title="Enter Promo code" />
               </PromoContainer>
               <PromoStatus>{this.state.promoMessage}</PromoStatus>
 
-
               {err === '' && this.state.loading && (
-                  <ActivityIndicator size='large' color='gray' />
+                  <ActivityIndicator size="large" color="gray" />
               )}
-
 
               {err === '' && (
                   <SubButtonContainer>

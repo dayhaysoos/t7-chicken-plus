@@ -2,7 +2,6 @@ import axios from 'axios';
 
 // Initial In-App Stub Data
 // import initialData from '../utils/initialData.json';
-// import * as AsyncStorageUtil from '../utils/asyncStorageUtil.js';
 
 // BLOB Types
 export const BLOB_SET_INITIAL_DATA = 'BLOB_SET_INITIAL_DATA';

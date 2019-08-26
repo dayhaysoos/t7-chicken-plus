@@ -1,0 +1,565 @@
+{
+  "combos": {
+    "2": [
+      {
+        "input": "f+1, (MMc), 2, f+1, qcb+1+2, 1, qcf, qcf+1+2, iWR 1",
+        "damage": 98,
+        "oki": "-"
+      },
+      {
+        "input": "f+1, (MMc), 2, f+1, qcf+2, qcf, qcf+1+2",
+        "damage": 87,
+        "oki": "-"
+      },
+      {
+        "input": "f+1, qcf+2, qcf, qcf+1+2",
+        "damage": 73,
+        "oki": "-"
+      },
+      {
+        "input": "f+1, (MMc), 2, f+1, qcb+4",
+        "damage": 61,
+        "oki": "-"
+      },
+      {
+        "input": "f+1, qcb+2, 1 ",
+        "damage": 45,
+        "oki": "-"
+      },
+      {
+        "input": "f+1, qcf+2",
+        "damage": 45,
+        "oki": "-"
+      }
+    ],
+    "Time with low enemy attack, hcb+1+4 (or 2+3)": [
+      {
+        "input": "(S!) ~dash~ 2~f+1~qcb+3",
+        "damage": 49,
+        "oki": "-"
+      },
+      {
+        "input": "(S!) ~dash~ d+4, f+3, d+4, f+1, (MMc), 2~f+1~qcb+3",
+        "damage": 63,
+        "oki": "-"
+      }
+    ],
+    "Time with mid enemy attack, hcb+2+4": [
+      {
+        "input": "b+3, 2, (MMc), d+4, f+3, b+4, 4, (S!) 2~f+1~qcf+1, qcf, qcf+1+2",
+        "damage": 84,
+        "oki": "-"
+      },
+      {
+        "input": "b+3, 2, (MMc), d+4, f+3, b+4, 4, (S!) 2~f+1~qcb+3",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "b+3, 2, (MMc), 2, f+3, b+4, 4 (S!), ~dash~ 2~f+1~qcb+3",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "b+3, 2, (MMc), b+4, 4, 2, f+1, qcb+2, 1",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "b+3, 2, (MMc), 4, (S!), 2, f+3, d+4, qcf+1",
+        "damage": 58,
+        "oki": "-"
+      }
+    ],
+    "f+1+2": [
+      {
+        "input": "d+4, f+3, b+3, 2, (MMc), 4 (S!) ~dash~ 2, qcf+2, qcf, qcf+1+2",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "d/f+1, 2, f+3, b+4, 4, ~dash~ 2~f+1~qcb+3",
+        "damage": 54,
+        "oki": "-"
+      }
+    ],
+    "f+2": [
+      {
+        "input": "(MMc), d+4, f+3, 1, 4 (S!) ~dash~ 2~f+1~qcb+3",
+        "damage": 52,
+        "oki": "-"
+      }
+    ],
+    "b+2 (wall bounce)": [
+      {
+        "input": "d/f+1, 1, 2, qcf+2, qcf, qcf+1+2",
+        "damage": 63,
+        "oki": "-"
+      },
+      {
+        "input": "d/f+1, 1, 2, qcf+2",
+        "damage": 52,
+        "oki": "-"
+      },
+      {
+        "input": "2, f+1, qcf+2",
+        "damage": 48,
+        "oki": "-"
+      }
+    ],
+    "b+3, 2": [
+      {
+        "input": "(MMc), 1+2, d+4, f+3, b+4, 4, (S!) ~dash~ d+4, qcf+1~qcf,qcf+1+2",
+        "damage": 88,
+        "oki": "-"
+      },
+      {
+        "input": "(MMc), 1+2, d+4, f+3, b+4, 4, (S!) ~dash~ d+4, qcb+3",
+        "damage": 71,
+        "oki": "-"
+      }
+    ],
+    "qcb+1+2, 3": [
+      {
+        "input": "2, f+3, 2, f+3, b+3, 2, (MMc), 4, (S!), ~dash~ d+4, qcf+1",
+        "damage": 70,
+        "oki": "-"
+      },
+      {
+        "input": "d+3~f+3, b+4, 4 (S!) ~dash~ 2~f+1~qcf+1",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "b+4, 4 (S!) u/f+4, ~dash~ 2~f+1~qcb+3",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "2, f+3, b+4, 4 (S!) ~dash~ 2~f+1~qcb+3",
+        "damage": 63,
+        "oki": "-"
+      }
+    ],
+    "(qcb+1+2), 4": [
+      {
+        "input": "d+4~f+3, b+4, 4 (S!) 2~f+1~hcb+3",
+        "damage": 66,
+        "oki": "-"
+      },
+      {
+        "input": "WS 4, b+4, 4 (S!) 2~f+1~hcb+3",
+        "damage": 60,
+        "oki": "-"
+      }
+    ],
+    "FC d/f+1": [
+      {
+        "input": "2, f+3, 2, f+3, 2, (MMc) 4, (S!) ~dash~ 2~f+1~qcf+1, qcf, qcf+1+2",
+        "damage": 87,
+        "oki": "-"
+      },
+      {
+        "input": "1+2, d+4, f+3, b+4, 4, ~dash~ 2~f+1~qcb+3",
+        "damage": 65,
+        "oki": "-"
+      },
+      {
+        "input": "1+2, d+4~f+3, b+4, 4, ~dash~ f, f, f+1",
+        "damage": 61,
+        "oki": "-"
+      },
+      {
+        "input": "2, f+3, b+4, 4 (S!) ~dash~ 2~f+1~hcb+3",
+        "damage": 60,
+        "oki": "-"
+      },
+      {
+        "input": "2~f+3, b+4, 4, (S!), ~dash~ 2~qcb+2, 3",
+        "damage": 59,
+        "oki": "-"
+      }
+    ],
+    "WS 2, (During Hit) f+2": [
+      {
+        "input": "~dash~ 2, f+3, b+4, 4 (S!), qcf, qcf+1+2",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ 2, f+3, b+4, 4 (S!), ~dash~ f, f, f+1",
+        "damage": 55,
+        "oki": "-"
+      },
+      {
+        "input": "f+3, b+4, 4, ~dash~, 2~f+1~qcf+1",
+        "damage": 52,
+        "oki": "-"
+      }
+    ],
+    "(During Jump) 4": [
+      {
+        "input": "2~f+1~qcf+2~qcf, qcf+1+2",
+        "damage": 82,
+        "oki": "-"
+      },
+      {
+        "input": "2~f+1, (MMc), 2~f+1~qcf+2~qcf, qcf+1+2",
+        "damage": 93,
+        "oki": "-"
+      }
+    ],
+    "[1+2]": [
+      {
+        "input": "qcf, qcf+1+2",
+        "damage": 58,
+        "oki": "-"
+      },
+      {
+        "input": "b+2",
+        "damage": 42,
+        "oki": "-"
+      },
+      {
+        "input": "f, f, f+1",
+        "damage": 42,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ d+1+3",
+        "damage": 44,
+        "oki": "-"
+      }
+    ],
+    "[(3), 3]": [
+      {
+        "input": "b+1+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "f+1+2 (S!), f, F+4, 3, 1, b+1+2",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "[4]": [
+      {
+        "input": "(S!), ~dash~ d+4, f+3, d+4, f+1, 1+2, 2, qcf+1, qcf, qcf+1+2",
+        "damage": 72,
+        "oki": "-"
+      },
+      {
+        "input": "(S!), (Forward Jump) 4, 2, f+3, 2, f+1, qcb+2, 3",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "(S!), (Forward Jump) 4, 2, f+3, 1, ~dash~ 2~f+1~hcb+3",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "(S!), ~dash~ d+4, f+3, 1, 2, 3, d+4, qcb+1",
+        "damage": 53,
+        "oki": "-"
+      },
+      {
+        "input": "(S!), ~dash~ d+4, f+3, d+4, f+1,qcb+3",
+        "damage": 51,
+        "oki": "-"
+      },
+      {
+        "input": "(S!), ~dash~ d+4, f+3, 2~f+1~qcf+1",
+        "damage": 49,
+        "oki": "-"
+      }
+    ],
+    "[f+4]": [
+      {
+        "input": "d+4~f+3, d+4~f+3, d+4, 1+2, 4 (S!) ~dash~ d+4, qcf+1",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "b+4, 4 (S!), ~dash~ 2~f+1, 1+2, 2~f+1~qcb+3",
+        "damage": 63,
+        "oki": "-"
+      },
+      {
+        "input": "d+4~f+3, b+4, 4 (S!) ~dash~ 2~f+1~qcf+1",
+        "damage": 61,
+        "oki": "-"
+      }
+    ],
+    "[(d/f+1), 4]": [
+      {
+        "input": "2, f+3, 2, f+3, b+3, 2, (MMc), 4, (S!), ~dash~ f, f, f+1",
+        "damage": 71,
+        "oki": "-"
+      },
+      {
+        "input": "2, f+3, b+4, 4 (S!), ~dash~ 2~f+1~qcb+3",
+        "damage": 65,
+        "oki": "-"
+      }
+    ],
+    "[d/f+2]": [
+      {
+        "input": "(S!) ~dash~ d+4, f+3, d+4, f+1, (MMc), 2~f+1~qcb+3",
+        "damage": 58,
+        "oki": "-"
+      },
+      {
+        "input": "(S!) ~dash~ 2, f+3, 2, f+3, qcf+2",
+        "damage": 52,
+        "oki": "-"
+      }
+    ],
+    "[d+1]": [
+      {
+        "input": "f+1, qcf+2, qcf, qcf+1+2",
+        "damage": 65,
+        "oki": "-"
+      },
+      {
+        "input": "f+1, (MMc), 2~f+1~qcb+3",
+        "damage": 51,
+        "oki": "-"
+      },
+      {
+        "input": "f+1, qcb+3",
+        "damage": 44,
+        "oki": "-"
+      }
+    ],
+    "[d+3]": [
+      {
+        "input": "d+1, qcb+1",
+        "damage": 31,
+        "oki": "-"
+      }
+    ],
+    "[d+4]": [
+      {
+        "input": "f+3, d+4, f+3, b+4, 4, ~dash~ 2~f+1~qcf+1",
+        "damage": 58,
+        "oki": "-"
+      },
+      {
+        "input": "WS 4, d+4, f+3, b+4, 4, (S!), f, f, f+1",
+        "damage": 56,
+        "oki": "-"
+      },
+      {
+        "input": "f+3, b+4, 4, 2, f+1, hcb+4",
+        "damage": 51,
+        "oki": "-"
+      },
+      {
+        "input": "f+3, b+4, 4 (S!) ~dash~ 2~f+1~qcf+1",
+        "damage": 48,
+        "oki": "-"
+      }
+    ],
+    "[(b+4), 4]": [
+      {
+        "input": "(S!) ~dash~ d+4, f+3, d+4, f+1, (MMc), 2~f+1~qcb+3",
+        "damage": 58,
+        "oki": "-"
+      },
+      {
+        "input": "(S!) ~dash~ 2, f+3, 2, f+3, qcf+2",
+        "damage": 52,
+        "oki": "-"
+      }
+    ],
+    "[hcb+2+3]": [
+      {
+        "input": "d+4~f+3, d+4~f+3, d+4, 1+2, d+4~qcf+1 ",
+        "damage": 62,
+        "oki": "-"
+      },
+      {
+        "input": "u/f+4, 2~f+1, 1+2, 2~f+1~qcb+2,1",
+        "damage": 60,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ d+4~f+3, 2~f+1~qcf+1 ",
+        "damage": 54,
+        "oki": "-"
+      }
+    ],
+    "[SS 3]": [
+      {
+        "input": "[SSL] d+4, f+3, b+4, 4, 2~f+1~hcb+3",
+        "damage": 60,
+        "oki": "-"
+      },
+      {
+        "input": "[SSL] d+4~f+3, (MMc), b+4, 4 (S!) ~dash~ 2~f+1~qcf+1",
+        "damage": 57,
+        "oki": "-"
+      },
+      {
+        "input": "[SSR] 4 (S!) 2~f+3, d+4, (MMc), 2~f+1~qcf+1",
+        "damage": 60,
+        "oki": "-"
+      },
+      {
+        "input": "[SSR] b+3, 2, (MMc), b+4, 4 (S!), ~dash~ 2~f+1~qcf+1",
+        "damage": 55,
+        "oki": "-"
+      }
+    ],
+    "[WS+3]": [
+      {
+        "input": "(S!) ~dash~ d+4~f+3, 2~f+1~qcf+1",
+        "damage": 45,
+        "oki": "-"
+      },
+      {
+        "input": "(S!) ~dash~ d+4~f+3, d+4~f+1, 1+2, 2~qcb+2, 1",
+        "damage": 55,
+        "oki": "-"
+      }
+    ],
+    "[Face Up, Feet Towards+3]": [
+      {
+        "input": "WS+4, b+4, 4, (S!), 2~f+1~qcb+3",
+        "damage": 49,
+        "oki": "-"
+      }
+    ],
+    "[Face Down, Feet Away+3]": [
+      {
+        "input": "WS+4, b+4, 4, (S!), 2~f+1~qcb+3",
+        "damage": 49,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "input": "1, 2, 3, d+4, f+3, b+4, 4, (S!) ~dash~ 2, f+1, qcb+4",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "d+1, f+3, d+4, f+3, b+4, 4, (S!) ~dash~ 2, f+1, qcb+4",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "2, f+1, qcb+2, 3, d+1+3",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "2, f+3, d+4, f+3, b+4, 4, (S!) ~dash~ 2, f+1, qcb+4",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "2, f+1, (MMc) 2, f+1, qcb+1+2~3, 2, f+3, b+4, 4, (S!) ~dash~ 2, f+1, qcb+4",
+        "damage": 104,
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "input": "2, f+3, b+4, 4, (S!) ~dash~ 2~f+1~qcb+3",
+        "damage": 43,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "input": "2~f+1, qcb+2, 1~qcf, qcf+1+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "d/f+1, 1, 2~qcf+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "2~f+1, qcb+4",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "2~f+1~qcb+2,1",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "d+4, f+1, qcb+4",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "d+1+3 (or d+2+4)",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "input": "b+4, 4 (S!), ~dash~ 2~f+1~qcf+1",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
+}

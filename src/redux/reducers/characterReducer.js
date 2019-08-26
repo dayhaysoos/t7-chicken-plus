@@ -3,11 +3,12 @@ import { ACTION_TYPES } from '../actions/characterActions';
 
 import { characterMoves } from '../../constants/characterMoves';
 
+
 export const INITIAL_STATE = {
     isLoadingCharacterData: false,
-    allCharacterData: [],
     characterData: [],
     characterDataError: [],
+    selectedCharacterMetaData: {},
     selectedCharacterMoves: {},
     selectedCharacterLabel: '',
     moveData: [],
@@ -51,7 +52,7 @@ const updateMoveData = (state, { payload: id }) => ({
  * @param {Object} state
  * @param {Array<Object>} moveList 
  */
-const updateSelectedCharacterMoves = (state, { payload: label }) => {
+const updateSelectedCharacterMoves = (state, { payload: {label, favorite} }) => {
 
     const getMovelist = () => {
         for (let character in state.characterData) {
@@ -61,8 +62,22 @@ const updateSelectedCharacterMoves = (state, { payload: label }) => {
         }
     };
 
+    const getMetaData = () => {
+        for (let character in state.characterData) {
+            if (state.characterData[character].label === label) {
+                return {
+                    fullname: state.characterData[character].fullname,
+                    displayName: state.characterData[character].displayName,
+                    label: state.characterData[character].label,
+                    favorite,
+                };
+            }
+        }
+    };
+
     return {
         ...state,
+        selectedCharacterMetaData: getMetaData(),
         selectedCharacterMoves: getMovelist(),
         selectedCharacterLabel: label
     };

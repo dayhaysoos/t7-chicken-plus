@@ -12,11 +12,10 @@ import characterSelectBackground from '../../assets/images/mainMenu/character-se
 import aboutTheTeam from '../../assets/images/mainMenu/about-the-team.png';
 import removeAds from '../../assets/images/mainMenu/remove-ads.png';
 import support from '../../assets/images/mainMenu/support-us.jpg';
-
+import sponsors from '../../assets/images/mainMenu/sponsors.jpg';
 import MenuItem from '../components/HomeScreen/MenuItem';
 
 import Stripe from 'tipsi-stripe';
-
 
 Stripe.setOptions({
     publishableKey: 'pk_test_yNV17SRP9KHKMwl24gvfCRDL00lSTnaRri',
@@ -24,10 +23,8 @@ Stripe.setOptions({
     androidPayMode: 'test', // Android only
 });
 
-
-
 // styles
-const MainContainer = styled.View`
+const MainContainer = styled.ScrollView`
   flex: 1;
   background-color: #000000;
 `;
@@ -43,7 +40,7 @@ export const mapStateToProps = ({ characterData, theme, paid }) => ({
     paid
 });
 
-export const createComponentDidMount = (instance) => async () => {
+export const createComponentDidMount = instance => async () => {
     const { getCharacterData } = instance.props;
 
     try {
@@ -52,28 +49,21 @@ export const createComponentDidMount = (instance) => async () => {
         setTimeout(() => {
             SplashScreen.hide();
         }, 200);
-    } 
-
-    catch(error) {
+    } catch (error) {
         console.log('err', error);
     }
 };
 
-
-
-
 class HomeScreen extends React.Component {
-
     static navigationOptions = {
         header: null
     };
-
 
     static propTypes = {
         navigation: PropTypes.object,
         theme: PropTypes.object,
         paid: PropTypes.object
-    }
+    };
 
     componentDidMount = async () => {
         const { getCharacterData } = this.props;
@@ -84,63 +74,56 @@ class HomeScreen extends React.Component {
             setTimeout(() => {
                 SplashScreen.hide();
             }, 200);
-        } 
-    
-        catch(error) {
+        } catch (error) {
             console.log('err', error);
         }
-    }
+    };
 
     render() {
-        const { navigation, paid: {hasPaid} } = this.props;
+        const {
+            navigation,
+            paid: { hasPaid },
+        } = this.props;
 
         return (
             <MainContainer>
-                <StatusBar
-                    barStyle="light-content"
-                />
+                <StatusBar barStyle="light-content" />
                 <MainMenuBanner />
                 <MenuItem
                     navigateTo={() => navigation.navigate('CharacterSelect')}
                     text={'Character Select'}
                     imageUrl={characterSelectBackground}
                 />
-                {hasPaid ? 
-                    (
-                        null
-                    )
-                    :                 
-                    (
-                        <MenuItem
-                            navigateTo={() => null}
-                            text={'Ad Removal coming soon'}
-                            imageUrl={removeAds}
-                        />
-                    )
-                }
+                <MenuItem
+                    navigateTo={() => navigation.navigate('Sponsors')}
+                    text={'Sponsors'}
+                    imageUrl={sponsors}
+                />
+                {hasPaid ? null : (
+                    <MenuItem
+                        navigateTo={() => null}
+                        text={'Ad Removal coming soon'}
+                        imageUrl={removeAds}
+                    />
+                )}
                 <MenuItem
                     navigateTo={() => navigation.navigate('Support')}
                     text={'Support Us'}
                     imageUrl={support}
                 />
-                {/* <MenuItem
-                    navigateTo={() => navigation.navigate('Sponsors')}
-                    text={'Sponsors'}
-                    imageUrl={aboutTheTeam}
-                /> */}
                 <MenuItem
                     navigateTo={() => navigation.navigate('About')}
                     text={'About the team'}
                     imageUrl={aboutTheTeam}
                 />
-
             </MainContainer>
-
         );
     }
 }
 
 HomeScreen.screenName = 'Home';
 
-
-export default connect(mapStateToProps, mapDispatchToProps)(HomeScreen);
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(HomeScreen);

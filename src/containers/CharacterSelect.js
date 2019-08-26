@@ -54,6 +54,7 @@ export const mapDispatchToProps = {
 
 export const mapStateToProps = ({ characterData, theme, settings: { listView }, favorites }) => ({
     theme,
+    selectedCharacterMetaData: characterData.selectedCharacterMetaData,
     characterData: getFavoriteCharacters({ characterData: getCharacterMoveList(characterData), favorites }),
     listView,
     favorites,
@@ -112,18 +113,14 @@ class CharacterSelect extends Component {
         }
     }
 
+
     navigateToCharacterProfile = (item) => {
         const { navigation, updateSelectedCharacterMoves, toggleCharacterStar, resetSearchBar } = this.props;
-        const { favorite, label, displayName } = item;
+        const { favorite, label } = item;
         resetSearchBar();
-        updateSelectedCharacterMoves(label);
+        updateSelectedCharacterMoves({label, favorite});
 
-        navigation.navigate('CharacterProfile', {
-            favorite,
-            label,
-            name: displayName,
-            onStarPress: () => toggleCharacterStar(label)
-        });
+        navigation.navigate('CharacterProfile');
 
     }
 
@@ -163,10 +160,12 @@ class CharacterSelect extends Component {
                         <AdBanner screen={'character-select'} />
                         <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
                             <FlatList
+                                indicatorStyle={'white'}
+                                getItemLayout={(searchedData, index) => ({length: 103, offset: 103 * index, index})}
                                 contentContainerStyle={{ flexDirection: 'column', justifyContent: 'center', alignItems: listView ? 'stretch' : 'center', paddingTop: 15 }}
                                 data={searchedData}
                                 numColumns={listView ? 1 : Math.floor(this.state.screenWidth / 85)} // should prolly be 1 : 4 I think
-                                keyExtractor={(item, index) => `list-item-${index}`}
+                                keyExtractor={item => item.label}
                                 renderItem={listView ? this.renderListView : this.renderGridView}
                                 key={listView ? 'listView' : 'gridView'}
                                 ListEmptyComponent={() => <EmptyText>No results</EmptyText>}
@@ -186,6 +185,7 @@ class CharacterSelect extends Component {
                         isListView={listView}
                         onPressFavoriteFilter={this.toggleShowFavorites}
                         handleSearchTextChange={searchTerm => this.setState({ searchTerm })}
+                        isCharacterSelectScreen={true}
                     />
                 </GradientTheme>
             </ThemeProvider>

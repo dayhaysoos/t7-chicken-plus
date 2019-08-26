@@ -16,6 +16,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL / SUPER",
+      "meter_gain": "-",
       "damage": "7 [8]",
       "speed": "10",
       "on_block": "+1",
@@ -40,6 +42,8 @@
       "jail": "NO",
       "natural": "NCc",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL / SUPER",
+      "meter_gain": "-",
       "damage": "7 [8], 7",
       "speed": "10",
       "on_block": "-3",
@@ -64,6 +68,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "7 [8]",
       "speed": "15",
       "on_block": "-3",
@@ -88,6 +94,8 @@
       "jail": "YES",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "7 [8], 10",
       "speed": "10",
       "on_block": "-1",
@@ -112,6 +120,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "12",
       "on_block": "-1",
@@ -136,6 +146,8 @@
       "jail": "NO",
       "natural": "NO",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "7 [8], 10, 20",
       "speed": "10",
       "on_block": "-22",
@@ -160,6 +172,8 @@
       "jail": "NO",
       "natural": "NCc",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 20",
       "speed": "12",
       "on_block": "-22",
@@ -184,6 +198,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "19",
       "on_block": "-22",
@@ -208,6 +224,8 @@
       "jail": "NO",
       "natural": "NO",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "7 [8], 10, 20",
       "speed": "10",
       "on_block": "-4",
@@ -232,6 +250,8 @@
       "jail": "NO",
       "natural": "NCc",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 20",
       "speed": "12",
       "on_block": "-4",
@@ -256,6 +276,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "20",
       "on_block": "-4",
@@ -280,6 +302,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "9 [10]",
       "speed": "14",
       "on_block": "-3",
@@ -304,6 +328,8 @@
       "jail": "YES",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL / SUPER",
+      "meter_gain": "-",
       "damage": "9 [10], 15",
       "speed": "14",
       "on_block": "-",
@@ -328,6 +354,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL / SUPER",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "15",
       "on_block": "-",
@@ -352,6 +380,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "13",
       "on_block": "-8",
@@ -376,6 +406,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "13",
       "on_block": "-5",
@@ -389,7 +421,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/CalculatingGlisteningJapanesebeetle.gif",
+      "preview_url": "https://giant.gfycat.com/SingleSpiritedKarakul.gif",
       "move_name": "Meteor Burst",
       "notation": "1+2",
       "hit_level": "mid",
@@ -400,6 +432,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "26 [31]",
       "speed": "13",
       "on_block": "-17",
@@ -424,6 +458,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "33",
       "on_block": "-27",
@@ -448,6 +484,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "18",
       "on_block": "-9",
@@ -472,6 +510,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "14",
       "on_block": "-9",
@@ -496,6 +536,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "15",
       "on_block": "-16",
@@ -520,6 +562,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL",
+      "meter_gain": "-",
       "damage": "10 [12], 10",
       "speed": "15",
       "on_block": "-14",
@@ -544,6 +588,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "23",
       "on_block": "-14",
@@ -557,7 +603,7 @@
     },
     {
       "properties": [],
-      "preview_url": null,
+      "preview_url": "https://giant.gfycat.com/HeavyThornyBlackandtancoonhound.gif",
       "move_name": "Assault Barrage",
       "notation": "f, F+1+2",
       "hit_level": "mid, high, low",
@@ -568,6 +614,8 @@
       "jail": "mid, high",
       "natural": "NO",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6], 6, 20",
       "speed": "18",
       "on_block": "-14",
@@ -592,6 +640,8 @@
       "jail": "NO",
       "natural": "NCc",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "6 [7], 20",
       "speed": "31",
       "on_block": "-14",
@@ -616,6 +666,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "47",
       "on_block": "-14",
@@ -640,6 +692,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "30 [36]",
       "speed": "18",
       "on_block": "+2",
@@ -653,7 +707,6 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/TartDelectableGalago.gif",
       "move_name": "Noble Slash",
       "notation": "f, f, f+3 (or WR 3)",
       "hit_level": "mid",
@@ -664,6 +717,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "27 [32]",
       "speed": "24",
       "on_block": "0",
@@ -688,6 +743,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "13",
       "on_block": "-3",
@@ -712,6 +769,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 17",
       "speed": "13",
       "on_block": "-13",
@@ -736,6 +795,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "20",
       "on_block": "-13",
@@ -760,6 +821,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 14",
       "speed": "13",
       "on_block": "-9",
@@ -784,6 +847,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "14 [16]",
       "speed": "18",
       "on_block": "-9",
@@ -808,6 +873,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "16",
       "on_block": "-9",
@@ -832,6 +899,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 10",
       "speed": "16",
       "on_block": "-18",
@@ -856,6 +925,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "-",
       "on_block": "-18",
@@ -880,6 +951,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "24 [28]",
       "speed": "25",
       "on_block": "-8",
@@ -904,6 +977,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "14",
       "on_block": "-8",
@@ -917,7 +992,7 @@
     },
     {
       "properties": [],
-      "preview_url": null,
+      "preview_url": "https://giant.gfycat.com/WeeIncomparableAlaskanmalamute.gif",
       "move_name": null,
       "notation": "b+1, 2",
       "hit_level": "mid, mid",
@@ -928,6 +1003,8 @@
       "jail": "YES",
       "natural": "NCc",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 13",
       "speed": "14",
       "on_block": "-13",
@@ -952,6 +1029,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "15",
       "on_block": "-13",
@@ -976,6 +1055,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 13, 16",
       "speed": "14",
       "on_block": "-13",
@@ -1000,6 +1081,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 16",
       "speed": "15",
       "on_block": "-13",
@@ -1024,6 +1107,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "25",
       "on_block": "-13",
@@ -1048,6 +1133,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "23 [27]",
       "speed": "11",
       "on_block": "-4",
@@ -1072,6 +1159,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "11",
       "on_block": "-9",
@@ -1096,6 +1185,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 15",
       "speed": "18",
       "on_block": "-9",
@@ -1120,6 +1211,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-9",
@@ -1144,6 +1237,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 20",
       "speed": "16",
       "on_block": "-4",
@@ -1168,6 +1263,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "20",
       "on_block": "-4",
@@ -1192,6 +1289,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 20",
       "speed": "16",
       "on_block": "-14",
@@ -1216,6 +1315,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "23",
       "on_block": "-14",
@@ -1240,6 +1341,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL / SUPER",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "15",
       "on_block": "-14",
@@ -1264,6 +1367,8 @@
       "jail": "YES",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6], 20",
       "speed": "27",
       "on_block": "-13",
@@ -1288,6 +1393,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "37",
       "on_block": "-13",
@@ -1312,6 +1419,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL / SUPER",
+      "meter_gain": "-",
       "damage": "5 [6]",
       "speed": "10",
       "on_block": "-5",
@@ -1336,6 +1445,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "8 [9]",
       "speed": "12",
       "on_block": "-7",
@@ -1360,6 +1471,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL / SUPER",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "15",
       "on_block": "-16",
@@ -1384,6 +1497,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL / SUPER",
+      "meter_gain": "-",
       "damage": "7 [8]",
       "speed": "15",
       "on_block": "-16",
@@ -1408,6 +1523,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "20",
       "on_block": "-27",
@@ -1432,6 +1549,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "30 [36]",
       "speed": "8",
       "on_block": "+13",
@@ -1456,6 +1575,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "8 [9]",
       "speed": "12",
       "on_block": "-",
@@ -1480,6 +1601,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "14",
       "on_block": "-40",
@@ -1504,6 +1627,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "24 [28]",
       "speed": "18",
       "on_block": "0",
@@ -1528,6 +1653,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "EX / SPECIAL / SUPER",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "14",
       "on_block": "-7",
@@ -1552,6 +1679,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "15",
       "on_block": "-9",
@@ -1576,6 +1705,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "15",
       "on_block": "-22",
@@ -1600,6 +1731,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "11",
       "on_block": "-5",
@@ -1624,6 +1757,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "7",
       "on_block": "-25 ~ +1",
@@ -1648,6 +1783,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "9",
       "on_block": "-17 ~ +7",
@@ -1672,6 +1809,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "7",
       "on_block": "-25 ~ +1",
@@ -1696,6 +1835,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "9",
       "on_block": "-18 ~ +7",
@@ -1720,6 +1861,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -1744,6 +1887,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "93",
       "speed": "13",
       "on_block": "-",
@@ -1768,6 +1913,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "22",
       "on_block": "-12",
@@ -1792,6 +1939,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "22",
       "on_block": "-12",
@@ -1816,6 +1965,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "4",
       "speed": "13",
       "on_block": "-16",
@@ -1840,6 +1991,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "19",
       "on_block": "-21",
@@ -1864,6 +2017,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "19",
       "on_block": "+2",
@@ -1888,6 +2043,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-20",
@@ -1912,6 +2069,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "21",
       "on_block": "-19",
@@ -1936,6 +2095,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "[WALL SPLAT]",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-19",
@@ -1960,6 +2121,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "4",
       "speed": "i33",
       "on_block": "-2",
@@ -1984,6 +2147,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 10, 14",
       "speed": "15",
       "on_block": "-9",
@@ -1993,7 +2158,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_84"
+      "id": "eliza_83"
     },
     {
       "properties": [],
@@ -2008,6 +2173,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 14",
       "speed": "23",
       "on_block": "-9",
@@ -2017,7 +2184,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_85"
+      "id": "eliza_84"
     },
     {
       "properties": [],
@@ -2032,6 +2199,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 10, 14",
       "speed": "15",
       "on_block": "-13",
@@ -2041,12 +2210,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_86"
+      "id": "eliza_85"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "Dark Blade",
+      "preview_url": "https://giant.gfycat.com/SpiffyTeemingBlowfish.gif",
+      "move_name": "Dark Blade (LP)",
       "notation": "f, d, d/f+1",
       "hit_level": "s. mid",
       "range": "2",
@@ -2056,6 +2225,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-23",
@@ -2065,12 +2236,12 @@
       "on_whiff": "-37",
       "active_frames": "6",
       "notes": "-",
-      "id": "eliza_87"
+      "id": "eliza_86"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "Dark Blade",
+      "preview_url": "https://giant.gfycat.com/SleepyGrizzledGreatwhiteshark.gif",
+      "move_name": "Dark Blade (RP)",
       "notation": "f, d, d/f+2",
       "hit_level": "s. mid, s. mid, s. mid",
       "range": "2",
@@ -2080,6 +2251,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "9 [10], 9, 5",
       "speed": "13",
       "on_block": "-34",
@@ -2089,12 +2262,12 @@
       "on_whiff": "-54",
       "active_frames": "1, 1, 1",
       "notes": "-",
-      "id": "eliza_88"
+      "id": "eliza_87"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "Dark Wave",
+      "preview_url": "https://giant.gfycat.com/JubilantDaringAmericancicada.gif",
+      "move_name": "Dark Wave (LP)",
       "notation": "qcf+1",
       "hit_level": "s. mid",
       "range": "-",
@@ -2104,6 +2277,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "28",
       "on_block": "-9",
@@ -2113,12 +2288,12 @@
       "on_whiff": "-32",
       "active_frames": "1",
       "notes": "-",
-      "id": "eliza_89"
+      "id": "eliza_88"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "Dark Wave",
+      "preview_url": "https://giant.gfycat.com/MarriedIdioticIndianglassfish.gif",
+      "move_name": "Dark Wave (RP)",
       "notation": "qcf+2",
       "hit_level": "s. mid",
       "range": "-",
@@ -2128,6 +2303,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "25",
       "on_block": "-13",
@@ -2137,7 +2314,7 @@
       "on_whiff": "-36",
       "active_frames": "1",
       "notes": "-",
-      "id": "eliza_90"
+      "id": "eliza_89"
     },
     {
       "properties": [],
@@ -2152,6 +2329,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "20",
       "on_block": "-11",
@@ -2161,7 +2340,7 @@
       "on_whiff": "-40",
       "active_frames": "2",
       "notes": "-",
-      "id": "eliza_91"
+      "id": "eliza_90"
     },
     {
       "properties": [],
@@ -2176,6 +2355,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "22 [26]",
       "speed": "20",
       "on_block": "-14",
@@ -2185,7 +2366,7 @@
       "on_whiff": "-40",
       "active_frames": "2",
       "notes": "-",
-      "id": "eliza_92"
+      "id": "eliza_91"
     },
     {
       "properties": [],
@@ -2200,6 +2381,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "27",
       "on_block": "-19",
@@ -2209,7 +2392,7 @@
       "on_whiff": "-23",
       "active_frames": "10",
       "notes": "-",
-      "id": "eliza_93"
+      "id": "eliza_92"
     },
     {
       "properties": [],
@@ -2224,6 +2407,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "14 [16]",
       "speed": "26",
       "on_block": "-1",
@@ -2233,7 +2418,7 @@
       "on_whiff": "-16",
       "active_frames": "8",
       "notes": "-",
-      "id": "eliza_94"
+      "id": "eliza_93"
     },
     {
       "properties": [],
@@ -2248,6 +2433,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "13",
       "on_block": "-20 ~ '-13",
@@ -2257,7 +2444,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_95"
+      "id": "eliza_94"
     },
     {
       "properties": [],
@@ -2272,6 +2459,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "14 [16]",
       "speed": "13",
       "on_block": "-1 ~ +5",
@@ -2281,7 +2470,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_96"
+      "id": "eliza_95"
     },
     {
       "properties": [],
@@ -2296,6 +2485,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 10, 7, 5",
       "speed": "15",
       "on_block": "-8",
@@ -2305,7 +2496,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_98"
+      "id": "eliza_96"
     },
     {
       "properties": [],
@@ -2320,6 +2511,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 7, 5",
       "speed": "23",
       "on_block": "-8",
@@ -2329,7 +2522,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_99"
+      "id": "eliza_97"
     },
     {
       "properties": [],
@@ -2344,6 +2537,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6], 5, 9, 9, 6",
       "speed": "11",
       "on_block": "-34",
@@ -2353,7 +2548,7 @@
       "on_whiff": "-54",
       "active_frames": "2, 2, 1, 1, 1",
       "notes": "-",
-      "id": "eliza_100"
+      "id": "eliza_98"
     },
     {
       "properties": [],
@@ -2368,6 +2563,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 20 [14]",
       "speed": "15",
       "on_block": "-14",
@@ -2377,7 +2574,7 @@
       "on_whiff": "-40",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "eliza_101"
+      "id": "eliza_99"
     },
     {
       "properties": [],
@@ -2392,6 +2589,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "-",
       "on_block": "-",
@@ -2401,7 +2600,7 @@
       "on_whiff": "-40",
       "active_frames": "2",
       "notes": "-",
-      "id": "eliza_102"
+      "id": "eliza_100"
     },
     {
       "properties": [],
@@ -2416,6 +2615,8 @@
       "jail": "YES",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6], 15",
       "speed": "25",
       "on_block": "-13",
@@ -2425,7 +2626,7 @@
       "on_whiff": "-34",
       "active_frames": "8, 2",
       "notes": "-",
-      "id": "eliza_103"
+      "id": "eliza_101"
     },
     {
       "properties": [],
@@ -2440,6 +2641,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "44",
       "on_block": "-13",
@@ -2449,11 +2652,11 @@
       "on_whiff": "-34",
       "active_frames": "2",
       "notes": "-",
-      "id": "eliza_104"
+      "id": "eliza_102"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/WarmCoolDove.gif",
+      "preview_url": null,
       "move_name": "Airborne Dark Cannon Chaos",
       "notation": "(During Jump) qcb+3+4",
       "hit_level": "mid, mid",
@@ -2464,6 +2667,8 @@
       "jail": "YES",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6], 15",
       "speed": "10",
       "on_block": "-13",
@@ -2473,7 +2678,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_105"
+      "id": "eliza_103"
     },
     {
       "properties": [],
@@ -2488,6 +2693,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "11",
       "on_block": "-13",
@@ -2497,7 +2704,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_106"
+      "id": "eliza_104"
     },
     {
       "properties": [],
@@ -2512,6 +2719,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "14",
       "on_block": "-7",
@@ -2520,7 +2729,7 @@
       "in_air": "FLOAT",
       "on_whiff": "-38",
       "active_frames": "1",
-      "id": "eliza_108"
+      "id": "eliza_105"
     },
     {
       "properties": [],
@@ -2535,6 +2744,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "25",
       "on_block": "-13",
@@ -2543,7 +2754,7 @@
       "in_air": "FLOAT",
       "on_whiff": "-33",
       "active_frames": "1",
-      "id": "eliza_110"
+      "id": "eliza_106"
     },
     {
       "properties": [],
@@ -2558,6 +2769,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "55 [57]",
       "speed": "20",
       "on_block": "-22",
@@ -2566,7 +2779,7 @@
       "in_air": "ACTIVATE",
       "on_whiff": "-45",
       "active_frames": "1",
-      "id": "eliza_112"
+      "id": "eliza_107"
     },
     {
       "properties": [],
@@ -2581,6 +2794,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "30 [36]",
       "speed": "51",
       "on_block": "!",
@@ -2590,11 +2805,11 @@
       "on_whiff": "-50",
       "active_frames": "2",
       "notes": "-",
-      "id": "eliza_114"
+      "id": "eliza_108"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/DeterminedHeavyApatosaur.gif",
+      "preview_url": "https://giant.gfycat.com/ScaryComfortableDorado.gif",
       "move_name": "Death Impact",
       "notation": "MG 1+2",
       "hit_level": "-",
@@ -2605,6 +2820,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "30 [36]",
       "speed": "51",
       "on_block": "!",
@@ -2614,7 +2831,7 @@
       "on_whiff": "-50",
       "active_frames": "2",
       "notes": "-",
-      "id": "eliza_115"
+      "id": "eliza_109"
     },
     {
       "properties": [],
@@ -2629,6 +2846,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "25",
       "on_block": "-",
@@ -2638,7 +2857,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_117"
+      "id": "eliza_110"
     },
     {
       "properties": [],
@@ -2653,6 +2872,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "28",
       "on_block": "-16",
@@ -2662,7 +2883,7 @@
       "on_whiff": "-39",
       "active_frames": "1",
       "notes": "-",
-      "id": "eliza_118"
+      "id": "eliza_111"
     },
     {
       "properties": [],
@@ -2677,6 +2898,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "28",
       "on_block": "-16",
@@ -2686,7 +2909,7 @@
       "on_whiff": "-39",
       "active_frames": "1",
       "notes": "-",
-      "id": "eliza_119"
+      "id": "eliza_112"
     },
     {
       "properties": [],
@@ -2701,6 +2924,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 7",
       "speed": "24",
       "on_block": "-45",
@@ -2710,7 +2935,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_120"
+      "id": "eliza_113"
     },
     {
       "properties": [],
@@ -2725,6 +2950,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 10, 14",
       "speed": "15",
       "on_block": "-16",
@@ -2734,7 +2961,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_121"
+      "id": "eliza_114"
     },
     {
       "properties": [],
@@ -2749,6 +2976,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 14",
       "speed": "23",
       "on_block": "-16",
@@ -2758,7 +2987,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_122"
+      "id": "eliza_115"
     },
     {
       "properties": [],
@@ -2773,6 +3002,8 @@
       "jail": "NO",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 10, 14",
       "speed": "15",
       "on_block": "-16",
@@ -2782,7 +3013,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_123"
+      "id": "eliza_116"
     },
     {
       "properties": [],
@@ -2797,6 +3028,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13]",
       "speed": "10",
       "on_block": "-4",
@@ -2806,7 +3039,7 @@
       "on_whiff": "-22",
       "active_frames": "1",
       "notes": "-",
-      "id": "eliza_125"
+      "id": "eliza_117"
     },
     {
       "properties": [],
@@ -2821,6 +3054,8 @@
       "jail": "YES",
       "natural": "NC",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 12",
       "speed": "10",
       "on_block": "-8",
@@ -2830,7 +3065,7 @@
       "on_whiff": "-28",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "eliza_126"
+      "id": "eliza_118"
     },
     {
       "properties": [],
@@ -2845,6 +3080,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "15",
       "on_block": "-8",
@@ -2854,7 +3091,7 @@
       "on_whiff": "-28",
       "active_frames": "1",
       "notes": "-",
-      "id": "eliza_127"
+      "id": "eliza_119"
     },
     {
       "properties": [],
@@ -2869,6 +3106,8 @@
       "jail": "NO",
       "natural": "NO",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 12, 21",
       "speed": "10",
       "on_block": "-13",
@@ -2878,7 +3117,7 @@
       "on_whiff": "-33",
       "active_frames": "1, 1, 2",
       "notes": "-",
-      "id": "eliza_128"
+      "id": "eliza_120"
     },
     {
       "properties": [],
@@ -2893,6 +3132,8 @@
       "jail": "NO",
       "natural": "NCc",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 21",
       "speed": "15",
       "on_block": "-13",
@@ -2902,7 +3143,7 @@
       "on_whiff": "-33",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "eliza_129"
+      "id": "eliza_121"
     },
     {
       "properties": [],
@@ -2917,6 +3158,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "23",
       "on_block": "-13",
@@ -2926,12 +3169,12 @@
       "on_whiff": "-33",
       "active_frames": "2",
       "notes": "-",
-      "id": "eliza_130"
+      "id": "eliza_122"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/GratefulNecessaryIrukandjijellyfish.gif",
+      "move_name": "Bloody Claw to Deadly Slumber",
       "notation": "MG 2",
       "hit_level": "mid",
       "range": "2",
@@ -2941,6 +3184,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "14",
       "on_block": "-9",
@@ -2950,7 +3195,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "Wall bounces when canceled into.",
-      "id": "eliza_131"
+      "id": "eliza_123"
     },
     {
       "properties": [],
@@ -2965,6 +3210,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "14",
       "on_block": "-9",
@@ -2974,7 +3221,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "eliza_132"
+      "id": "eliza_124"
     },
     {
       "properties": [],
@@ -2989,6 +3236,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-10",
@@ -2998,7 +3247,7 @@
       "on_whiff": "-32",
       "active_frames": "2",
       "notes": "-",
-      "id": "eliza_133"
+      "id": "eliza_125"
     },
     {
       "properties": [],
@@ -3013,6 +3262,8 @@
       "jail": "YES",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 14",
       "speed": "16",
       "on_block": "-7",
@@ -3022,7 +3273,7 @@
       "on_whiff": "-28",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "eliza_134"
+      "id": "eliza_126"
     },
     {
       "properties": [],
@@ -3037,6 +3288,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "20",
       "on_block": "-7",
@@ -3046,7 +3299,7 @@
       "on_whiff": "-28",
       "active_frames": "2",
       "notes": "-",
-      "id": "eliza_135"
+      "id": "eliza_127"
     },
     {
       "properties": [],
@@ -3061,6 +3314,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "18",
       "on_block": "-23",
@@ -3070,7 +3325,7 @@
       "on_whiff": "-34",
       "active_frames": "8",
       "notes": "-",
-      "id": "eliza_136"
+      "id": "eliza_128"
     },
     {
       "properties": [],
@@ -3085,6 +3340,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3094,7 +3351,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_138"
+      "id": "eliza_129"
     },
     {
       "properties": [],
@@ -3109,6 +3366,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3118,7 +3377,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_139"
+      "id": "eliza_130"
     },
     {
       "properties": [],
@@ -3133,6 +3392,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "14",
       "on_block": "-",
@@ -3142,7 +3403,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "eliza_140"
+      "id": "eliza_131"
     },
     {
       "properties": [],
@@ -3157,6 +3418,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "14",
       "on_block": "-",
@@ -3166,7 +3429,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "eliza_141"
+      "id": "eliza_132"
     },
     {
       "properties": [],
@@ -3181,6 +3444,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "-6",
@@ -3190,7 +3455,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "-",
-      "id": "eliza_143"
+      "id": "eliza_133"
     },
     {
       "properties": [],
@@ -3205,6 +3470,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "-3",
@@ -3214,7 +3481,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "-",
-      "id": "eliza_144"
+      "id": "eliza_134"
     },
     {
       "properties": [],
@@ -3229,6 +3496,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "-6",
@@ -3238,7 +3507,7 @@
       "on_whiff": "-32",
       "active_frames": "3",
       "notes": "-",
-      "id": "eliza_145"
+      "id": "eliza_135"
     },
     {
       "properties": [],
@@ -3253,6 +3522,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "-3",
@@ -3262,7 +3533,7 @@
       "on_whiff": "-32",
       "active_frames": "3",
       "notes": "-",
-      "id": "eliza_146"
+      "id": "eliza_136"
     },
     {
       "properties": [],
@@ -3277,6 +3548,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "40",
       "speed": "11",
       "on_block": "-6",
@@ -3286,7 +3559,7 @@
       "on_whiff": "-26",
       "active_frames": "2",
       "notes": "-",
-      "id": "eliza_147"
+      "id": "eliza_137"
     },
     {
       "properties": [],
@@ -3301,6 +3574,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-6",
@@ -3310,7 +3585,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "-",
-      "id": "eliza_148"
+      "id": "eliza_138"
     },
     {
       "properties": [],
@@ -3325,6 +3600,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-6",
@@ -3334,7 +3611,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "-",
-      "id": "eliza_149"
+      "id": "eliza_139"
     },
     {
       "properties": [],
@@ -3349,6 +3626,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "45",
       "speed": "12",
       "on_block": "-",
@@ -3358,7 +3637,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "-",
-      "id": "eliza_150"
+      "id": "eliza_140"
     },
     {
       "properties": [],
@@ -3373,6 +3652,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5",
       "speed": "15",
       "on_block": "-5",
@@ -3382,7 +3663,7 @@
       "on_whiff": "-32",
       "active_frames": "1",
       "notes": "-",
-      "id": "eliza_151"
+      "id": "eliza_141"
     },
     {
       "properties": [],
@@ -3397,6 +3678,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5",
       "speed": "-",
       "on_block": "-",
@@ -3406,7 +3689,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_153"
+      "id": "eliza_142"
     },
     {
       "properties": [],
@@ -3421,6 +3704,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5, 5",
       "speed": "-",
       "on_block": "-",
@@ -3430,7 +3715,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_154"
+      "id": "eliza_143"
     },
     {
       "properties": [],
@@ -3445,6 +3730,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5, 5, 5",
       "speed": "-",
       "on_block": "-",
@@ -3454,7 +3741,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_155"
+      "id": "eliza_144"
     },
     {
       "properties": [],
@@ -3469,6 +3756,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 ,5, 5, 15",
       "speed": "-",
       "on_block": "-",
@@ -3478,7 +3767,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_156"
+      "id": "eliza_145"
     },
     {
       "properties": [],
@@ -3493,6 +3782,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "50",
       "on_block": "-",
@@ -3502,7 +3793,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_158"
+      "id": "eliza_146"
     },
     {
       "properties": [],
@@ -3517,6 +3808,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "46",
       "on_block": "-",
@@ -3526,12 +3819,12 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_159"
+      "id": "eliza_147"
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": null,
+      "preview_url": "https://giant.gfycat.com/ThinFailingBumblebee.gif",
+      "move_name": "Auger",
       "notation": "2+3+4",
       "hit_level": "-",
       "range": "-",
@@ -3541,6 +3834,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "54",
       "on_block": "-",
@@ -3550,7 +3845,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eliza_160"
+      "id": "eliza_148"
     }
   ]
 }

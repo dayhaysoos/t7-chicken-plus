@@ -1,0 +1,140 @@
+{
+  "combos": {
+    "f, n, d, d/f+2": [
+      {
+        "input": "f, f+3, d/b+2, 1, u/f+1+2, 4 (S!) ~dash~ (During Rage) f+2+3",
+        "damage": 89,
+        "oki": "-"
+      }
+    ],
+    "u/f+3": [
+      {
+        "input": "d+2, 3, 1, u/f+1+2, 4 (S!) ~dash~ (During Rage) d/f+1+2",
+        "damage": 77,
+        "oki": "-"
+      },
+      {
+        "input": "d+2, 3, 1, u/f+1+2, 4 (S!) ~dash~ d+2, 3",
+        "damage": 59,
+        "oki": "-"
+      }
+    ],
+    "WS 2, 1": [
+      {
+        "input": "d+2, 3, d/f+1, d+3, 4 (S!) ~dash~ d+2, 3",
+        "damage": 64,
+        "oki": "-"
+      }
+    ],
+    "Approach enemy... f, F+1+2": [
+      {
+        "input": "f+4 (S!) f, f+3, d/b+2, d+2, 3, b+1+2",
+        "damage": 44,
+        "oki": "-"
+      }
+    ],
+    "[4]": [
+      {
+        "input": "u/f+1+2, 4 (S!) ~dash~ f, f+3, d+2, 3, b+3",
+        "damage": 60,
+        "oki": "-"
+      }
+    ],
+    "[f, n, d, d/f+1]": [
+      {
+        "input": "(S!) ~dash~ d/b+2, d+2, 3, b+1+2",
+        "damage": 55,
+        "oki": "-"
+      }
+    ],
+    "[d/f+2]": [
+      {
+        "input": "b+4, 4 (S!) f, f+3, d+2, 3, b+1+2",
+        "damage": 58,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "input": "SSR d+2, 3, 2, u/f+1+2, 4 (S!) d/f+1, b+3",
+        "damage": 40,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "input": "b+2, 2, d+3+4",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "SSL d/b+2 (W!), b+2, 2, d+4, 3, 4",
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
+}

@@ -1,0 +1,803 @@
+{
+  "combos": {
+    "3~4": [
+      {
+        "input": "(LAB) b+2, 3, SSL b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 78,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) b+2, 3, ff+3, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 78,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) b+2, 3, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 78,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) f+4, 3 (S!) ff+3, 1, ff+3, 1, ff+2",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) f+4, 3, ff+3, 1, ff+3, 4, 1 (LAB) f+3+4",
+        "damage": "68/84",
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) f+4, 3 (S!) ff+3, 1, 4, 1",
+        "damage": 62,
+        "oki": "-"
+      }
+    ],
+    "4~3": [
+      {
+        "input": "ff+3, df+2, 3 (S!) ~dash~ (LAB) 3+4, qcf+3, 4",
+        "damage": 73,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, 4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 70,
+        "oki": "-"
+      },
+      {
+        "input": "4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "b+2, 4, 2 (S!) (iLAB) 3+4, ff+3, 4, 1 (LAB) f+3+4",
+        "damage": "62/78",
+        "oki": "-"
+      }
+    ],
+    "uf+3+4": [
+      {
+        "input": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+        "damage": 57,
+        "oki": "-"
+      },
+      {
+        "input": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, ff+3, 4, 1",
+        "damage": 55,
+        "oki": "-"
+      },
+      {
+        "input": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, ff+3, 1, 3~4~B",
+        "damage": 56,
+        "oki": "-"
+      }
+    ],
+    "(u+3), d+3": [
+      {
+        "input": "ff+4, 4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 70,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 65,
+        "oki": "-"
+      }
+    ],
+    "whiff uf+3+4, whiff f+4~3 (last hit)": [
+      {
+        "input": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, ff+3, 4, 1",
+        "damage": 57,
+        "oki": "-"
+      }
+    ],
+    "uf, n, 4 (short hop)": [
+      {
+        "input": "ff+4, db+2, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 78,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, df+2, 3 (S!) ~dash~ (LAB) 3+4, ~dash~ 4, 1",
+        "damage": 72,
+        "oki": "-"
+      }
+    ],
+    "ff+3": [
+      {
+        "input": "ff+3, df+2, 3 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+        "damage": 75,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, db+2 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 74,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, df+2, 3 (S!) ~dash~ (iLAB) 3+4, ff+3, f+2, 3",
+        "damage": 73,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, 4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4 ",
+        "damage": 72,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, 4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+        "damage": "70/84",
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, 4, 1 (LAB) 2, BT f242 S!, 3~4",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ df+2, 3 SSL ff+3, 1, ff+3, 4, 1",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, 4, 1 (LAB) f+4, 3, 4, 1",
+        "damage": 62,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ df+2, 3 SSL ff+3, 1, 4, 1",
+        "damage": 61,
+        "oki": "-"
+      }
+    ],
+    "d/f+2": [
+      {
+        "input": "(LAB) f+3, d/b+2, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) b+3 (S!) ~dash~ (LAB) 3+4, ff+3, 1, ff+3, ff+4",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) 3+4, ff+3, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 66,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) f+2, 4, 2 (S!) (iLAB) 3+4, qcf+4, 3",
+        "damage": 63,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) 2, 2, f+2, 4, 2 (S!) qcf+4, 3",
+        "damage": 62,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) f+2, 4, 2 (S!) (iLAB) 3+4, ff+3, f+2, 3",
+        "damage": 61,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) b+2, 3 b+2, 4, 2 (S!) 3~4",
+        "damage": 57,
+        "oki": "-"
+      }
+    ],
+    "d/f+4 (on crouching opp.)": [
+      {
+        "input": "ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 60,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, ff+4, 1, b+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+        "damage": "60/76",
+        "oki": "-"
+      },
+      {
+        "input": "b+2, 4, 2 (S!) b+3+4, (LAB) 3+4, 3~4",
+        "damage": 50,
+        "oki": "-"
+      }
+    ],
+    "qcf+2": [
+      {
+        "input": "ff+4, 4, 1 (LAB) f+4, 3 (S!) ~dash~ 3~4, (LAB) 1+2",
+        "damage": "68/89",
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, 1, b+2, 4, 2 (S!) qcf+4, 1",
+        "damage": 51,
+        "oki": "-"
+      },
+      {
+        "input": "db+2, 1, 1, b+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+        "damage": "48/64",
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, 4, 1, (LAB) f+4, 3 (S!) ~dash~ 3~4, (LAB) 1+2",
+        "damage": "48/54 + 20/41",
+        "oki": "-"
+      },
+      {
+        "input": "db+2, (LAB) f+4, 3 (S!) b+2, 2, 3",
+        "damage": 43,
+        "oki": "-"
+      }
+    ],
+    "qcf+4": [
+      {
+        "input": "(LAB) 3+4, ff+3, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 65,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) 3+4, ff+4, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 65,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) b+3 (S!) ~dash~ (LAB) 3+4, ff+3, 1, ff+3, qcf+3, 4",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) b+2, 3 b+2, 4, 2 (S!) ff+3, ff+4 ",
+        "damage": 61,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) f+3, b+2, 4, 2 (S!) ff+3, 4, 1",
+        "damage": 58,
+        "oki": "-"
+      }
+    ],
+    "WS+1": [
+      {
+        "input": "ff+3, df+2, 3 (S!) ~dash~ (LAB) 3+4, ff+3, qcf+3, 4",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, db+2, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+4, 2",
+        "damage": 68,
+        "oki": "-"
+      }
+    ],
+    "HAZ 1": [
+      {
+        "input": "ff+3, df+2, 3 (S!) ~dash~ (LAB) 3+4, ff+3, qcf+3, 4",
+        "damage": 75,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, 4, 1 (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 72,
+        "oki": "-"
+      },
+      {
+        "input": "b+2, 4, 2 (S!) (iLAB) 3+4, ff+3, 4, 1, b+3+4",
+        "damage": "64/80",
+        "oki": "-"
+      },
+      {
+        "input": "b242 S!, b3+4, BT 3+4, ff3, ff4",
+        "damage": 62,
+        "oki": "-"
+      }
+    ],
+    "(LAB) 3, 4, 3 (last hit)": [
+      {
+        "input": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, ff+3, 4, 1",
+        "damage": 57,
+        "oki": "-"
+      }
+    ],
+    "(LAB) b+2, 3 (NCc)": [
+      {
+        "input": "df+2, 3 (S!) ~dash~ (iLAB) 3+4, ~dash~ qcf+3, 4",
+        "damage": "74/80",
+        "oki": "-"
+      }
+    ],
+    "(LAB) ff+3+4 (close)": [
+      {
+        "input": "(LAB) 3+4, SSL, 1, b+2, 4, 2 (S!) SSL, 3~4, (LAB) 1+2",
+        "damage": "72/93",
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, df+2, 3 (S!) ~dash~ (LAB) 3+4, ff+3, qcf+3, 4",
+        "damage": 72,
+        "oki": "-"
+      },
+      {
+        "input": "db+2, (LAB) 2, BT f+2, 4, 2 (S!) qcf+4, 2",
+        "damage": 63,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) 3+4, ~dash~ 1, b+2, 4, 2 (S!) f+4",
+        "damage": 54,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) f+2, 4, 2 (S!) SSL, (iLAB) 3+4, 3~4, (LAB) 1+2",
+        "oki": "-"
+      }
+    ],
+    "(LAB) ff+3+4 (far)": [
+      {
+        "input": "ff+4, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 71,
+        "oki": "-"
+      },
+      {
+        "input": "db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 63,
+        "oki": "-"
+      }
+    ],
+    "df+4, 4, 3 (last hit)": [
+      {
+        "input": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, ff+3, 4, 1",
+        "damage": 57,
+        "oki": "-"
+      }
+    ],
+    "(LAB) 1+2": [
+      {
+        "input": "d+4",
+        "damage": 37,
+        "oki": "-"
+      }
+    ],
+    "(LAB) 3+4": [
+      {
+        "input": "uf, n+4, ff+3, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "df+2, 3 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+        "damage": 60,
+        "oki": "-"
+      },
+      {
+        "input": "(LAB) 3+4, ff+3, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 58,
+        "oki": "-"
+      },
+      {
+        "input": "df+2, 3 (S!) ff+3, 4, 1",
+        "damage": 51,
+        "oki": "-"
+      },
+      {
+        "input": "delayed ff+4 (pass under opponent), 1, b+2, 4, 2 (S!) SSL 3~4, (LAB) 1+2",
+        "damage": "51/71",
+        "oki": "-"
+      }
+    ],
+    "(LAB) u/uf+4": [
+      {
+        "input": "b+2, 4, 2 (S!) (iLAB) 3+4, ff+3, f+2, 3",
+        "damage": 65,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 75,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, 2, b+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+        "damage": "62/78",
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, 2, b+2, 4, 2 (S!) 3~4",
+        "damage": 61,
+        "oki": "-"
+      }
+    ],
+    "(LAB) d+3 (clean hit)": [
+      {
+        "input": "ff+3, df+2, 3 (S!) ~dash~ (LAB) 3+4, qcf+3, 4",
+        "damage": 76,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 75,
+        "oki": "-"
+      },
+      {
+        "input": "b+2, 4, 2 (S!) (iLAB) 3+4, ff+3, ff+4 ",
+        "damage": 63,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, 2, b+2, 4, 2 (S!) 3~4",
+        "damage": 61,
+        "oki": "-"
+      }
+    ],
+    "(During Rage) f+3+4": [
+      {
+        "input": "~dash~ (iLAB) b+2, 3, ff+3, ff+3, qcf+3~4",
+        "damage": 78,
+        "oki": "-"
+      }
+    ],
+    "[4, 1]": [
+      {
+        "input": "(LAB) 2, (LAB) 2, (LAB) f+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 68,
+        "oki": "-"
+      }
+    ],
+    "[u/f+3]": [
+      {
+        "input": "df+1, ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 75,
+        "oki": "-"
+      },
+      {
+        "input": "df+2, 3 (S!) ff+3, 4, 1 (LAB) b+2, 4",
+        "damage": 71,
+        "oki": "-"
+      },
+      {
+        "input": "4, 1 (LAB) 1, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 74,
+        "oki": "-"
+      }
+    ],
+    "[d/f+3]": [
+      {
+        "input": "ff+3, ff+3, 1, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 82,
+        "oki": "-"
+      }
+    ],
+    "[d/f+4]": [
+      {
+        "input": "ff+3, ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 60,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, ff+4, 1, b+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+        "damage": "60/76",
+        "oki": "-"
+      },
+      {
+        "input": "b+2, 4, 2 (S!) (iLAB) 3+4, 3~4",
+        "damage": 50,
+        "oki": "-"
+      }
+    ],
+    "[b+1]": [
+      {
+        "input": "(delay) d/b+4",
+        "damage": 50,
+        "oki": "-"
+      }
+    ],
+    "[(b+2), 2]": [
+      {
+        "input": "(LAB) 1, 4",
+        "damage": 54,
+        "oki": "-"
+      }
+    ],
+    "[b, B+2]": [
+      {
+        "input": "b+4, 4 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+        "oki": "-"
+      }
+    ],
+    "[d/b+3]": [
+      {
+        "input": "(RAGE) db+3+4",
+        "damage": 66,
+        "oki": "-"
+      }
+    ],
+    "[d/b+4]": [
+      {
+        "input": "(RAGE) db+3+4",
+        "damage": 68,
+        "oki": "-"
+      }
+    ],
+    "[qcf+1]": [
+      {
+        "input": "ff+4, df+2, 3 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+        "damage": 77,
+        "oki": "-"
+      }
+    ],
+    "[WS 2]": [
+      {
+        "input": "ff+3, df+2, 3 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+        "damage": 75,
+        "oki": "-"
+      },
+      {
+        "input": "ff+3, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) ff+3, ff+4",
+        "damage": 70,
+        "oki": "-"
+      }
+    ],
+    "[(u/f+3+4), 4]": [
+      {
+        "input": "db+2, 1, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 56,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, 4, 1 (LAB) f+4, 3 (S!) ~dash~ 3~4",
+        "damage": 51,
+        "oki": "-"
+      }
+    ],
+    "[(u/f+3+4), f+4]": [
+      {
+        "input": "db+2, 1, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 60,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, 4, 1 (LAB) f+4, 3 (S!) ~dash~ 3~4",
+        "damage": 55,
+        "oki": "-"
+      }
+    ],
+    "[(HAZ) 3]": [
+      {
+        "input": "(LAB) 3+4, ff+3, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 70,
+        "oki": "-"
+      }
+    ],
+    "[(LAB) 2]": [
+      {
+        "input": "(LAB) 1, 4",
+        "damage": 55,
+        "oki": "-"
+      }
+    ],
+    "[(LAB) f+3]": [
+      {
+        "input": "(RAGE) f+3+4, 2 (S!), ff+4, 1, ff+3, 4, 1, (LAB) b+2, 4",
+        "damage": 92,
+        "oki": "-"
+      },
+      {
+        "input": "(RAGE) f+3+4, 2 (S!) (iLAB) 3+4, ff+3, 1, ff+3, f+2, 3",
+        "damage": 90,
+        "oki": "-"
+      },
+      {
+        "input": "3~4",
+        "damage": 40,
+        "oki": "-"
+      }
+    ],
+    "[(LAB) b+2, 3]": [
+      {
+        "input": "ff+4 (pass under opponent), 1, b+2, 4, 2 (S!) SSL 3~4, (LAB) 1+2",
+        "damage": "71/90",
+        "oki": "-"
+      },
+      {
+        "input": "df+2, 3 (S!) ~dash~ (iLAB) 3+4, qcf+3, 4",
+        "damage": 80,
+        "oki": "-"
+      },
+      {
+        "input": "b+2, 4, 2 (S!) ff+3, 4, 1",
+        "damage": 71,
+        "oki": "-"
+      }
+    ],
+    "[(LAB) (b+2), 4]": [
+      {
+        "input": "4, 1 (LAB) f+4, 3 (S!) ~dash~ qcf+3, 4",
+        "damage": 57,
+        "oki": "-"
+      }
+    ],
+    "[Face Up, Feet Towards+3]": [
+      {
+        "input": "ff+4, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "WS+1, 4, 1 (LAB) f+4, 3 (S!) qcf+3, 4",
+        "damage": 56,
+        "oki": "-"
+      }
+    ],
+    "[(b+4), (B+4), (3), 4]": [
+      {
+        "input": "db+2, 1, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 57,
+        "oki": "-"
+      }
+    ],
+    "[(b+4), (B+4), (3), f+4]": [
+      {
+        "input": "db+2, 1, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 60,
+        "oki": "-"
+      }
+    ],
+    "[FC d/f+3+4]": [
+      {
+        "input": "ff+4, 4, 1 (LAB) f+4, 3 (S!) qcf+3, 4",
+        "damage": 64,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, 1, b+2, 4, 2 (S!) qcf+3, 4",
+        "damage": 61,
+        "oki": "-"
+      }
+    ],
+    "[Face Down, Feet Away+3]": [
+      {
+        "input": "ff+4, 1, b+2, 4, 2 (S!) ~dash~ qcf+3, 4",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "WS+1, 4, 1 (LAB) f+4, 3 (S!) ~dash~ qcf+3, 4",
+        "damage": 57,
+        "oki": "-"
+      }
+    ],
+    "[(b+2), (2), 3]": [
+      {
+        "input": "4, 1 (LAB) f+4, 3 (S!) ~dash~ qcf+3, 4",
+        "damage": 66,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "input": "f, f+4, d/f+2, 3 (S!) ~dash~ (LAB) 3+4, qcf+3, 4",
+        "damage": 55,
+        "oki": "-"
+      },
+      {
+        "input": "b+2, 4, 2 (S!) (iLAB) 3+4, qcf+3, 4",
+        "damage": 46,
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) 4, 1 (LAB) f+3+4",
+        "damage": "46/62",
+        "oki": "-"
+      },
+      {
+        "input": "ff+4, db+2, (LAB) 2, (LAB) f+2, 4, 2 (S!) 3~4",
+        "damage": 45,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "input": "b+1, 4, KNK 3, 4",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "WS 1, 4, 1",
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
+}

@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import LinearGradient from 'react-native-linear-gradient';
 
 const MainContainer = styled.View`
   background-color: #1D212C

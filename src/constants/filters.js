@@ -43,4 +43,4 @@ export const SPEED_FILTER = constants([
 export const GIF_FILTER = constants([
     'HAS_GIF',
     'HAS_NO_GIF',
-])
+]);
