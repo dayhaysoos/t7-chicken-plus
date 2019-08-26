@@ -208,8 +208,6 @@ class CharacterProfile extends Component {
             activeFilters
         } = this.props;
 
-        console.log(activeFilters)
-
         const { isOpen, side} = this.state;
 
         const MoveTabWrapper = () => (
