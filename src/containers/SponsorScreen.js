@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import firebase from 'react-native-firebase';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 
+
 const Img = styled.Image`
   width: 100%;
 `;
