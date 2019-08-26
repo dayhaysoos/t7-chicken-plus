@@ -91,7 +91,7 @@ const onIconPress = (url, character, playerName) => async () => {
 
 };
 
-const socialChecker = (social) => {
+const socialChecker = (social = '') => {
     return social.length > 1
 }
 

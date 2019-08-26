@@ -71,12 +71,12 @@ const FILTERS_INITIAL_STATE = {
     }
 };
 
-const Spotlight = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-    <Text>Finding a player... </Text>
+const Spotlight = () => <View style={{backgroundColor: '#0e0f10', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <Text style={{ fontSize: 16, color: '#AF8D89'}}>There is not spotlight data for this character </Text>
 </View>;
 
-const Combo = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-    <Text>Wanna help us get data in here? Join the T7 Chicken Plus discord!</Text>
+const Combo = () => <View style={{backgroundColor: '#0e0f10', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <Text style={{ fontSize: 16, color: '#AF8D89'}}>There is not combo data for this character </Text>
 </View>;
 
 class CharacterProfile extends Component {
