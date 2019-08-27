@@ -1,546 +1,364 @@
 {
-  "providedBy": "sneaky coyote",
-  "providerTwitter": "@sneaky_coyote",
-  "combos": [
-    {
-      "starter": "u/f+4",
-      "combo": "cd1 > df1 > 1+2, 2 > db2,4 S! > iSW",
-      "damage": 73,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "sneaky coyote",
-      "volunteer twitter": "@sneaky_coyote"
-    },
-    {
-      "starter": "u/f+4",
-      "combo": "dark upper > df1 > dash iWS4 > db2,4 S! > iSW",
-      "damage": 69,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "u/f+4",
-      "combo": "dark upper > df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
-      "damage": 82,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "u/f+4",
-      "combo": "standing 4 > dash iWS4 > db2,4 S! > iSW",
-      "damage": 66,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "u/f+4",
-      "combo": "standing 4 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
-      "damage": 80,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "u/f+1+2",
-      "combo": "df1 > df1 > 1+2,2 > db2,4 S! > iSW",
-      "damage": 77,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "u/f+1+2",
-      "combo": "df1 > df1 > dash iWS4 > db2,4 > iSW",
-      "damage": 75,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, F+3",
-      "combo": "d3+4, 1 S! > SSL iSW",
-      "damage": 65,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, F+3",
-      "combo": "d3+4, 1 S! > dash rage art",
-      "damage": 36,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, n, d, d/f+2",
-      "combo": "cd1 > df1 > 1+2,2 > db2,4 S! > iSW",
-      "damage": 80,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, n, d, d/f+2",
-      "combo": "standing 4 > dash df1 > dash iWS4 > db2,4 S! > iSW",
-      "damage": 76,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, n, d, d/f+2",
-      "combo": "standing 4 > dash df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
-      "damage": 90,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, n, d, d/f+4",
-      "combo": "f+1+4",
-      "damage": 44,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, n, d, d/f+4",
-      "combo": "f, F+4",
-      "damage": 46,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "b+3",
-      "combo": "~dash~ f+1+4",
-      "damage": 45,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "b+1+4",
-      "combo": "f+1+4",
-      "damage": 46,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "b+1+4",
-      "combo": "f, F+4",
-      "damage": 48,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "u/b+1",
-      "combo": "f+1+4",
-      "damage": 43,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "u/b+1",
-      "combo": "f, F+4",
-      "damage": 45,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "FC d/f+2",
-      "combo": "SSR df1 > 1+2,2 > db2,4 S! > iSW",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "FC d/f+2",
-      "combo": "SSR df1 > 1+2,2 > db2,4 S! > dash cd1 > rage art",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "SS 2, 1",
-      "combo": "uf3 > df1 > 1+2,2 > db2,4 S! > iSW",
-      "damage": 76,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "SS 2, 1",
-      "combo": "dash iWS4 > iWS4 > db2,4 S! > iSW",
-      "damage": 73,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 1",
-      "combo": "standing 4 > dash iWS4 > db2,4 S! > iSW",
-      "damage": 69,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 1",
-      "combo": "standing 4 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
-      "damage": 83,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[4]",
-      "combo": "dash db2,4 S! > SSL cd1 > jab > iSW",
-      "damage": 71,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[4]",
-      "combo": "dash db2,4 S! > SSL cd1 > jab > air GS",
-      "damage": 63,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[4]",
-      "combo": "dash db2,4 S! > iSW",
-      "damage": 67,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[(1+2), 4]",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[d/f+2]",
-      "combo": "d3+4, 1 S! > SSL iSW",
-      "damage": 65,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[d/f+2]",
-      "combo": "d3+4, 1 S! > rage art",
-      "damage": 71,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[d/f+3]",
-      "combo": "SSR df1 > 1+2,2 > db2,4 S! > iSW",
-      "damage": 69,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[d/f+3]",
-      "combo": "SSR df1 > df1 > dash iWS4 > db2,4 S! > iSW",
-      "damage": 70,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[d/f+3]",
-      "combo": "SSR df1 > df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, f, n+2]",
-      "combo": "db2,4 S! > SSL cd1 > jab > iSW",
-      "damage": 67,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, f, n+2]",
-      "combo": "db2,4 S! > SSL cd1 > air GS",
-      "damage": 59,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, f, n+2]",
-      "combo": "iWS4 > db2,4 S! > SSL cd1 > jab > rage art",
-      "damage": 82,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[(d+3+4), 1]",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[b+1]",
-      "combo": "backdash/delay 3+4 > df1 > df1 > db2,4 S! > iSW",
-      "damage": 59,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[b+1]",
-      "combo": "backdash/delay 3+4 > df1> db2,4 S! > dash cd1 > rage art",
-      "damage": 68,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[b+1]",
-      "combo": "db2,4 S! > SSR cd1 > jab > iSW",
-      "damage": "-",
-      "notes": "Bigs only.",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[b+1]",
-      "combo": "db2,4 S! > iSW 57 dmg",
-      "damage": "-",
-      "notes": "Bigs only.",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[b+1]",
-      "combo": "SWL d3+4, 1 S! > small SSL cd1 > air GS",
-      "damage": 50,
-      "notes": "for bigger size chars (king etc) only as 3+4 has issues and db24 doesn't work on them.",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[b+2, 1, 2]",
-      "combo": "dash cd1 > df1 > 1+2,2 > db2,4",
-      "damage": 81,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[b+2, 1, 2]",
-      "combo": "dash cd1 > jab > dash jab > dash jab > iSW",
-      "damage": 82,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[b+2, 1, 2]",
-      "combo": "dash cd1 > df1 > df1 > rage art",
-      "damage": 94,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "BT Opponent",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Float",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Floor Break Post (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Floor Break Pre (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Low Parry",
-      "combo": "d/f+3, d/f+1, 1+2, 2 > d/b+2, 4 (S!), iSW",
-      "damage": 56,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Low Parry",
-      "combo": "SSR df3 > df1 > dash iWS4 > db2,4 S! > iSW",
-      "damage": 53,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Low Parry",
-      "combo": "SSR df3 > df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
-      "damage": 65,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Side Float",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Slide Punish",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Break Post (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Break Pre (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Carry",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "1, 2, f+1+2",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "f, f+3, 4, 4, 1+2",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    }
-  ]
+  "combos": {
+    "u/f+4": [
+      {
+        "input": "cd1 > df1 > 1+2, 2 > db2,4 S! > iSW",
+        "damage": 73,
+        "oki": "-"
+      },
+      {
+        "input": "dark upper > df1 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "dark upper > df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": 82,
+        "oki": "-"
+      },
+      {
+        "input": "standing 4 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 66,
+        "oki": "-"
+      },
+      {
+        "input": "standing 4 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": 80,
+        "oki": "-"
+      }
+    ],
+    "u/f+1+2": [
+      {
+        "input": "df1 > df1 > 1+2,2 > db2,4 S! > iSW",
+        "damage": 77,
+        "oki": "-"
+      },
+      {
+        "input": "df1 > df1 > dash iWS4 > db2,4 > iSW",
+        "damage": 75,
+        "oki": "-"
+      }
+    ],
+    "f, F+3": [
+      {
+        "input": "d3+4, 1 S! > SSL iSW",
+        "damage": 65,
+        "oki": "-"
+      },
+      {
+        "input": "d3+4, 1 S! > dash rage art",
+        "damage": 36,
+        "oki": "-"
+      }
+    ],
+    "f, n, d, d/f+2": [
+      {
+        "input": "cd1 > df1 > 1+2,2 > db2,4 S! > iSW",
+        "damage": 80,
+        "oki": "-"
+      },
+      {
+        "input": "standing 4 > dash df1 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 76,
+        "oki": "-"
+      },
+      {
+        "input": "standing 4 > dash df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": 90,
+        "oki": "-"
+      }
+    ],
+    "f, n, d, d/f+4": [
+      {
+        "input": "f+1+4",
+        "damage": 44,
+        "oki": "-"
+      },
+      {
+        "input": "f, F+4",
+        "damage": 46,
+        "oki": "-"
+      }
+    ],
+    "b+3": [
+      {
+        "input": "~dash~ f+1+4",
+        "damage": 45,
+        "oki": "-"
+      }
+    ],
+    "b+1+4": [
+      {
+        "input": "f+1+4",
+        "damage": 46,
+        "oki": "-"
+      },
+      {
+        "input": "f, F+4",
+        "damage": 48,
+        "oki": "-"
+      }
+    ],
+    "u/b+1": [
+      {
+        "input": "f+1+4",
+        "damage": 43,
+        "oki": "-"
+      },
+      {
+        "input": "f, F+4",
+        "damage": 45,
+        "oki": "-"
+      }
+    ],
+    "FC d/f+2": [
+      {
+        "input": "SSR df1 > 1+2,2 > db2,4 S! > iSW",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "SSR df1 > 1+2,2 > db2,4 S! > dash cd1 > rage art",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "SS 2, 1": [
+      {
+        "input": "uf3 > df1 > 1+2,2 > db2,4 S! > iSW",
+        "damage": 76,
+        "oki": "-"
+      },
+      {
+        "input": "dash iWS4 > iWS4 > db2,4 S! > iSW",
+        "damage": 73,
+        "oki": "-"
+      }
+    ],
+    "WS 1": [
+      {
+        "input": "standing 4 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "standing 4 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": 83,
+        "oki": "-"
+      }
+    ],
+    "[4]": [
+      {
+        "input": "dash db2,4 S! > SSL cd1 > jab > iSW",
+        "damage": 71,
+        "oki": "-"
+      },
+      {
+        "input": "dash db2,4 S! > SSL cd1 > jab > air GS",
+        "damage": 63,
+        "oki": "-"
+      },
+      {
+        "input": "dash db2,4 S! > iSW",
+        "damage": 67,
+        "oki": "-"
+      }
+    ],
+    "[(1+2), 4]": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "[d/f+2]": [
+      {
+        "input": "d3+4, 1 S! > SSL iSW",
+        "damage": 65,
+        "oki": "-"
+      },
+      {
+        "input": "d3+4, 1 S! > rage art",
+        "damage": 71,
+        "oki": "-"
+      }
+    ],
+    "[d/f+3]": [
+      {
+        "input": "SSR df1 > 1+2,2 > db2,4 S! > iSW",
+        "damage": 69,
+        "oki": "-"
+      },
+      {
+        "input": "SSR df1 > df1 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 70,
+        "oki": "-"
+      },
+      {
+        "input": "SSR df1 > df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "[f, f, n+2]": [
+      {
+        "input": "db2,4 S! > SSL cd1 > jab > iSW",
+        "damage": 67,
+        "oki": "-"
+      },
+      {
+        "input": "db2,4 S! > SSL cd1 > air GS",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "iWS4 > db2,4 S! > SSL cd1 > jab > rage art",
+        "damage": 82,
+        "oki": "-"
+      }
+    ],
+    "[(d+3+4), 1]": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "[b+1]": [
+      {
+        "input": "backdash/delay 3+4 > df1 > df1 > db2,4 S! > iSW",
+        "damage": 59,
+        "oki": "-"
+      },
+      {
+        "input": "backdash/delay 3+4 > df1> db2,4 S! > dash cd1 > rage art",
+        "damage": 68,
+        "oki": "-"
+      },
+      {
+        "input": "db2,4 S! > SSR cd1 > jab > iSW",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "db2,4 S! > iSW 57 dmg",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "SWL d3+4, 1 S! > small SSL cd1 > air GS",
+        "damage": 50,
+        "oki": "-"
+      }
+    ],
+    "[b+2, 1, 2]": [
+      {
+        "input": "dash cd1 > df1 > 1+2,2 > db2,4",
+        "damage": 81,
+        "oki": "-"
+      },
+      {
+        "input": "dash cd1 > jab > dash jab > dash jab > iSW",
+        "damage": 82,
+        "oki": "-"
+      },
+      {
+        "input": "dash cd1 > df1 > df1 > rage art",
+        "damage": 94,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "input": "d/f+3, d/f+1, 1+2, 2 > d/b+2, 4 (S!), iSW",
+        "damage": 56,
+        "oki": "-"
+      },
+      {
+        "input": "SSR df3 > df1 > dash iWS4 > db2,4 S! > iSW",
+        "damage": 53,
+        "oki": "-"
+      },
+      {
+        "input": "SSR df3 > df1 > dash iWS4 > db2,4 S! > dash cd1 > rage art",
+        "damage": 65,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "input": "1, 2, f+1+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "f, f+3, 4, 4, 1+2",
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
 }

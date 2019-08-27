@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
-import { FlatList, View, Text } from 'react-native';
+import { Text } from 'react-native';
 import Accordion from 'react-native-collapsible/Accordion';
 import LinearGradient from 'react-native-linear-gradient';
 import PropTypes from 'prop-types';
@@ -96,54 +96,41 @@ class FilterMenu extends Component {
         }
     }
 
-    handleSections = () => {
-        return filters.map(filterCategory => {
-            return ({
-                title: filterCategory.label,
+    handleSections = () => filters.map(filterCategory => ({
+        title: filterCategory.label,
 
-                filterProperties: Object.keys(filterCategory.filters).map((prop) => {
-                    return {
-                        filterLabel: filterCategory.filters[prop].filterLabel,
-                        filterFunction: filterCategory.filters[prop].filterFunction,
-                        filterType: filterCategory.filters[prop].filterType,
-                        filterProperty: filterCategory.filterProperty
-                    }
-                })
-            })
-        })
-    }
+        filterProperties: Object.keys(filterCategory.filters).map((prop) => ({
+            filterLabel: filterCategory.filters[prop].filterLabel,
+            filterFunction: filterCategory.filters[prop].filterFunction,
+            filterType: filterCategory.filters[prop].filterType,
+            filterProperty: filterCategory.filterProperty
+        }))
+    }))
 
-    renderSectionHeader = (section) => {
-        return (
-            <AccordionSectionTitle>
-                {section.title}
-            </AccordionSectionTitle>
-        )
-    }
+    renderSectionHeader = (section) => (
+        <AccordionSectionTitle>
+            {section.title}
+        </AccordionSectionTitle>
+    )
 
-    renderSectionTitle = (section) => {
-
-        return (
-            <Text>Test</Text>
-        )
-    }
+    renderSectionTitle = (section) => (
+        <Text>Test</Text>
+    )
 
     renderContent = (section) => {
         const { title, filterProperties } = section;
-        return filterProperties.map(prop => {
-            return (
-                <FilterOption
-                    key={prop.filterLabel}
-                    text={prop.filterLabel}
-                    isFilterActive={this.isFilterActive(prop.filterType)}
-                    toggleFilters={() => this.toggleFilters(prop.filterProperty, prop.filterType)}
-                />
-            )
-        })
+        return filterProperties.map(prop => (
+            <FilterOption
+                key={prop.filterLabel}
+                text={prop.filterLabel}
+                isFilterActive={this.isFilterActive(prop.filterType)}
+                toggleFilters={() => this.toggleFilters(prop.filterProperty, prop.filterType)}
+            />
+        ));
     }
 
     updateSections = (activeSections) => {
-        this.setState({ activeSections })
+        this.setState({ activeSections });
     }
 
     render() {

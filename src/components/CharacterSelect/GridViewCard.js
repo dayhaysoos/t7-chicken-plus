@@ -2,7 +2,7 @@ import React from 'react';
 import { Dimensions } from 'react-native';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import FontAwesome, { Icons } from 'react-native-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 
 import { characterPortraits } from '../../constants/characterPortraits';
 
@@ -18,7 +18,7 @@ const CharacterCard = styled.TouchableOpacity`
     width: 64;
     margin-bottom: 10;
 `;
-const StarIcon = styled(FontAwesome)`
+const StarIcon = styled(FontAwesomeIcon)`
     color: #FF412C
     font-size: 30;
     opacity: ${({favorite}) => favorite ? 1 : 0.6}}
@@ -45,7 +45,7 @@ const GridViewCard = ({ label, favorite, onPress, onStarPress, displayName }) =>
         <CharacterCard onPress={onPress}>
             <CharacterImage source={characterPortraits[label]} />
             <StarButton onPress={onStarPress}>
-                <StarIcon favorite={favorite}>{favorite ? Icons.star : Icons.starO}</StarIcon>
+                <FontAwesomeIcon style={{opacity: favorite ? 1 : 0.7}} size={32} color='#FF412C' icon={favorite ? 'star' : ['far', 'star']} />
             </StarButton>
         </CharacterCard>
         <Name>{displayName}</Name>

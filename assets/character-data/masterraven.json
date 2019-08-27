@@ -16,6 +16,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "7 [8]",
       "speed": "10",
       "on_block": "+1",
@@ -40,6 +42,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "7 [8], 12",
       "speed": "10",
       "on_block": "-1",
@@ -64,6 +68,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "12",
       "on_block": "-1",
@@ -88,6 +94,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "10",
       "on_block": "-1",
@@ -112,6 +120,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 10",
       "speed": "10",
       "on_block": "-12",
@@ -136,6 +146,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "22",
       "on_block": "-12",
@@ -160,6 +172,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 17",
       "speed": "10",
       "on_block": "-9",
@@ -184,6 +198,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "17",
       "on_block": "-9",
@@ -208,6 +224,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "14",
       "on_block": "-8",
@@ -232,6 +250,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 12",
       "speed": "14",
       "on_block": "-8",
@@ -256,6 +276,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-8",
@@ -280,6 +302,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 12, 20",
       "speed": "14",
       "on_block": "-9",
@@ -304,6 +328,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 20",
       "speed": "16",
       "on_block": "-9",
@@ -328,6 +354,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "26",
       "on_block": "-9",
@@ -352,6 +380,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "12",
       "on_block": "-8",
@@ -376,6 +406,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "8 [9], 10",
       "speed": "16",
       "on_block": "-16",
@@ -400,6 +432,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "8 [9], 10",
       "speed": "16",
       "on_block": "-13",
@@ -424,6 +458,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "34",
       "on_block": "-13",
@@ -448,6 +484,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "8 [9], 10, 16",
       "speed": "16",
       "on_block": "-4",
@@ -472,6 +510,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "23 [27]",
       "speed": "23",
       "on_block": "-4",
@@ -496,6 +536,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "8 [9], 10, 11",
       "speed": "16",
       "on_block": "-14",
@@ -520,6 +562,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "33",
       "on_block": "-14",
@@ -533,7 +577,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/WeeklyUnimportantLeafcutterant.gif",
+      "preview_url": "https://giant.gfycat.com/FlawedAdvancedLeafhopper.gif",
       "move_name": "Crusader",
       "notation": "1+2",
       "hit_level": "mid",
@@ -544,6 +588,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "23 [27]",
       "speed": "14",
       "on_block": "-9",
@@ -568,6 +614,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "35 [42]",
       "speed": "44",
       "on_block": "!",
@@ -592,6 +640,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30], 20",
       "speed": "26",
       "on_block": "-15",
@@ -616,6 +666,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "26",
       "on_block": "-15",
@@ -640,6 +692,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30], 37",
       "speed": "26",
       "on_block": "+8",
@@ -664,6 +718,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "37 [44]",
       "speed": "38",
       "on_block": "+8",
@@ -688,6 +744,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30], 18",
       "speed": "26",
       "on_block": "-15",
@@ -712,6 +770,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "31",
       "on_block": "-15",
@@ -736,6 +796,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30], 18, 15",
       "speed": "26",
       "on_block": "-6",
@@ -760,6 +822,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21], 15",
       "speed": "31",
       "on_block": "-6",
@@ -784,6 +848,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "22 [26]",
       "speed": "27",
       "on_block": "-6",
@@ -808,6 +874,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "19",
       "on_block": "-4",
@@ -832,6 +900,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "29",
       "on_block": "-4",
@@ -856,6 +926,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "16 [19]",
       "speed": "19",
       "on_block": "-5",
@@ -880,6 +952,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "16 [19], 14",
       "speed": "19",
       "on_block": "-15",
@@ -904,6 +978,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-17",
@@ -928,6 +1004,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "23",
       "on_block": "-17",
@@ -952,6 +1030,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 6",
       "speed": "23",
       "on_block": "-14",
@@ -976,6 +1056,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "9 [10]",
       "speed": "21",
       "on_block": "-14",
@@ -1000,6 +1082,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 6, 10",
       "speed": "23",
       "on_block": "-13",
@@ -1024,6 +1108,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "9 [10], 21",
       "speed": "23",
       "on_block": "-13",
@@ -1048,6 +1134,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "21",
       "on_block": "-13",
@@ -1072,6 +1160,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 8",
       "speed": "23",
       "on_block": "-14",
@@ -1096,6 +1186,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "45",
       "on_block": "-14",
@@ -1109,7 +1201,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/BitesizedShockedGossamerwingedbutterfly.gif",
+      "preview_url": "https://giant.gfycat.com/BlindDisgustingAntarcticfurseal.gif",
       "move_name": "Heavy Chakram",
       "notation": "u/f+3+4, f+4, 2",
       "hit_level": "mid, low, mid",
@@ -1120,6 +1212,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 8, 10",
       "speed": "23",
       "on_block": "-13",
@@ -1144,6 +1238,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 21 [14]",
       "speed": "23",
       "on_block": "-13",
@@ -1168,6 +1264,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "23",
       "on_block": "-13",
@@ -1181,7 +1279,7 @@
     },
     {
       "properties": [],
-      "preview_url": null,
+      "preview_url": "https://giant.gfycat.com/BitesizedShockedGossamerwingedbutterfly.gif",
       "move_name": "Chakram Shadow",
       "notation": "u/f+3+4, f+4, 3",
       "hit_level": "mid, low, mid",
@@ -1192,6 +1290,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 22",
       "speed": "23",
       "on_block": "-6",
@@ -1216,6 +1316,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "22 [26]",
       "speed": "27",
       "on_block": "-6",
@@ -1240,6 +1342,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 10",
       "speed": "23",
       "on_block": "-26",
@@ -1264,6 +1368,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "20",
       "on_block": "-26",
@@ -1288,6 +1394,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "15",
       "on_block": "-10",
@@ -1301,7 +1409,7 @@
     },
     {
       "properties": [],
-      "preview_url": null,
+      "preview_url": "https://giant.gfycat.com/DisastrousUnripeDiamondbackrattlesnake.gif",
       "move_name": "Tartaros",
       "notation": "f+2, 3",
       "hit_level": "mid, mid",
@@ -1312,6 +1420,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 19",
       "speed": "15",
       "on_block": "-10",
@@ -1336,6 +1446,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "19 [22]",
       "speed": "21",
       "on_block": "-10",
@@ -1360,6 +1472,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "17",
       "on_block": "-10",
@@ -1384,6 +1498,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21], 21",
       "speed": "17",
       "on_block": "-14",
@@ -1408,6 +1524,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "30",
       "on_block": "-14",
@@ -1432,6 +1550,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "15",
       "on_block": "-9",
@@ -1456,6 +1576,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "26 [31]",
       "speed": "16",
       "on_block": "-13",
@@ -1480,6 +1602,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "15",
       "on_block": "-14",
@@ -1504,6 +1628,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "15",
       "on_block": "-10",
@@ -1528,6 +1654,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "30 [36]",
       "speed": "22",
       "on_block": "+9",
@@ -1552,6 +1680,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "14",
       "on_block": "-1",
@@ -1576,6 +1706,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "16 [19], 17",
       "speed": "16",
       "on_block": "-3",
@@ -1600,6 +1732,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "12",
       "on_block": "-3",
@@ -1613,6 +1747,7 @@
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/UncommonHalfGermanpinscher.gif",
       "move_name": "Bolt Stunner",
       "notation": "d/f+2, 4",
       "hit_level": "mid, mid",
@@ -1623,6 +1758,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "16 [19]",
       "speed": "16",
       "on_block": "-15",
@@ -1647,6 +1784,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "12",
       "on_block": "-15",
@@ -1671,6 +1810,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "16",
       "on_block": "-9",
@@ -1695,6 +1836,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "15",
       "on_block": "-15",
@@ -1719,6 +1862,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 13",
       "speed": "15",
       "on_block": "-15",
@@ -1743,6 +1888,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "22",
       "on_block": "-15",
@@ -1767,6 +1914,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 13, 17",
       "speed": "15",
       "on_block": "-6",
@@ -1791,6 +1940,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 17",
       "speed": "22",
       "on_block": "-6",
@@ -1815,6 +1966,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "22 [26]",
       "speed": "27",
       "on_block": "-6",
@@ -1839,6 +1992,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "14",
       "on_block": "-12",
@@ -1863,6 +2018,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "21",
       "on_block": "-13",
@@ -1887,6 +2044,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 12",
       "speed": "13",
       "on_block": "-1",
@@ -1911,6 +2070,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "22",
       "on_block": "-1",
@@ -1935,6 +2096,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "19 [22]",
       "speed": "29",
       "on_block": "-12",
@@ -1959,6 +2122,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "24",
       "on_block": "-14",
@@ -1983,6 +2148,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "16",
       "on_block": "+5 (OC)",
@@ -2007,6 +2174,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "15",
       "on_block": "-14",
@@ -2031,6 +2200,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 12, 20",
       "speed": "15",
       "on_block": "-19",
@@ -2055,6 +2226,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 20",
       "speed": "15",
       "on_block": "-19",
@@ -2079,6 +2252,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "21",
       "on_block": "-19",
@@ -2103,6 +2278,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 12, 15",
       "speed": "15",
       "on_block": "-30",
@@ -2127,6 +2304,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 15",
       "speed": "15",
       "on_block": "-30",
@@ -2151,6 +2330,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "20",
       "on_block": "-30",
@@ -2175,6 +2356,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 15",
       "speed": "15",
       "on_block": "-7",
@@ -2199,6 +2382,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "24",
       "on_block": "-7",
@@ -2223,6 +2408,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 15, 20",
       "speed": "15",
       "on_block": "-9",
@@ -2247,6 +2434,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18], 20",
       "speed": "24",
       "on_block": "-9",
@@ -2271,6 +2460,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "20",
       "on_block": "-9",
@@ -2295,6 +2486,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "23 [27]",
       "speed": "27",
       "on_block": "+1",
@@ -2319,6 +2512,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13]",
       "speed": "14",
       "on_block": "-11",
@@ -2343,6 +2538,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 11",
       "speed": "14",
       "on_block": "-11",
@@ -2367,6 +2564,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13]",
       "speed": "20",
       "on_block": "-11",
@@ -2391,6 +2590,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 11, 9",
       "speed": "14",
       "on_block": "-11",
@@ -2415,6 +2616,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 9",
       "speed": "20",
       "on_block": "-11",
@@ -2439,6 +2642,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "9 [10]",
       "speed": "28",
       "on_block": "-11",
@@ -2463,6 +2668,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 11, 9, 21",
       "speed": "14",
       "on_block": "-13",
@@ -2487,6 +2694,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 9, 21",
       "speed": "20",
       "on_block": "-13",
@@ -2511,6 +2720,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "9 [10], 21 [14]",
       "speed": "28",
       "on_block": "-13",
@@ -2535,6 +2746,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "21",
       "on_block": "-13",
@@ -2559,6 +2772,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 11, 12",
       "speed": "14",
       "on_block": "-11",
@@ -2583,6 +2798,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 12",
       "speed": "20",
       "on_block": "-11",
@@ -2607,6 +2824,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "53",
       "on_block": "-11",
@@ -2631,6 +2850,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 11, 12, 21",
       "speed": "14",
       "on_block": "-13",
@@ -2655,6 +2876,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 12, 21",
       "speed": "20",
       "on_block": "-13",
@@ -2679,6 +2902,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 21",
       "speed": "53",
       "on_block": "-13",
@@ -2703,6 +2928,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "21",
       "on_block": "-6",
@@ -2727,6 +2954,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 11, 22",
       "speed": "14",
       "on_block": "-6",
@@ -2751,6 +2980,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 22",
       "speed": "20",
       "on_block": "-6",
@@ -2775,6 +3006,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "22 [26]",
       "speed": "26",
       "on_block": "-6",
@@ -2799,6 +3032,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 11, 15",
       "speed": "14",
       "on_block": "-25",
@@ -2823,6 +3058,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 15",
       "speed": "20",
       "on_block": "-25",
@@ -2847,6 +3084,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "26",
       "on_block": "-25",
@@ -2871,6 +3110,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "28 [33]",
       "speed": "31",
       "on_block": "-10",
@@ -2895,6 +3136,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "28 [33], 17",
       "speed": "31",
       "on_block": "-28",
@@ -2919,6 +3162,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "17",
       "on_block": "-28",
@@ -2943,6 +3188,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18], 21",
       "speed": "17",
       "on_block": "-10",
@@ -2967,6 +3214,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "31",
       "speed": "-",
       "on_block": "-",
@@ -2991,6 +3240,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13]",
       "speed": "16",
       "on_block": "-6",
@@ -3015,6 +3266,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 13",
       "speed": "16",
       "on_block": "-13",
@@ -3039,6 +3292,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "18",
       "on_block": "-13",
@@ -3063,6 +3318,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "15",
       "on_block": "-12",
@@ -3087,6 +3344,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6]",
       "speed": "10",
       "on_block": "-11",
@@ -3111,6 +3370,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "8 [9]",
       "speed": "11",
       "on_block": "-4",
@@ -3135,6 +3396,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-15",
@@ -3159,6 +3422,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "12",
       "on_block": "-15",
@@ -3183,6 +3448,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "18",
       "on_block": "-23",
@@ -3207,6 +3474,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20], 21",
       "speed": "18",
       "on_block": "-23",
@@ -3231,6 +3500,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "94 [97]",
       "speed": "16",
       "on_block": "-",
@@ -3255,6 +3526,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "30 [36]",
       "speed": "8",
       "on_block": "+13",
@@ -3279,6 +3552,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "8 [9]",
       "speed": "12",
       "on_block": "-",
@@ -3303,6 +3578,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "14",
       "on_block": "-40",
@@ -3327,6 +3604,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "24 [28]",
       "speed": "18",
       "on_block": "0",
@@ -3351,6 +3630,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "14 [16]",
       "speed": "14",
       "on_block": "-14",
@@ -3375,6 +3656,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "13",
       "on_block": "-8",
@@ -3399,6 +3682,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "16",
       "on_block": "-8",
@@ -3423,6 +3708,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "11",
       "on_block": "-7",
@@ -3447,6 +3734,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "23 [27]",
       "speed": "16",
       "on_block": "-14",
@@ -3471,6 +3760,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "22",
       "on_block": "-12",
@@ -3495,6 +3786,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "21",
       "on_block": "-12",
@@ -3519,6 +3812,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6]",
       "speed": "13",
       "on_block": "-18",
@@ -3543,6 +3838,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "18",
       "on_block": "-21",
@@ -3567,6 +3864,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "19",
       "on_block": "+2",
@@ -3591,6 +3890,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-20",
@@ -3615,6 +3916,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "21",
       "on_block": "-19",
@@ -3639,6 +3942,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "21",
       "on_block": "-19",
@@ -3663,6 +3968,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "4",
       "speed": "33",
       "on_block": "-2",
@@ -3676,7 +3983,7 @@
     },
     {
       "properties": [],
-      "preview_url": null,
+      "preview_url": "https://giant.gfycat.com/SpecificEasygoingGreatargus.gif",
       "move_name": null,
       "notation": "1+2+3+4",
       "hit_level": "-",
@@ -3687,6 +3994,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3696,7 +4005,7 @@
       "on_whiff": "-50",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_155"
+      "id": "masterraven_154"
     },
     {
       "properties": [],
@@ -3711,6 +4020,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30], 18",
       "speed": "26",
       "on_block": "-29",
@@ -3720,7 +4031,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_156"
+      "id": "masterraven_155"
     },
     {
       "properties": [],
@@ -3735,6 +4046,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3744,7 +4057,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_158"
+      "id": "masterraven_156"
     },
     {
       "properties": [],
@@ -3759,6 +4072,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "7 [8], 12",
       "speed": "10",
       "on_block": "-35",
@@ -3768,11 +4083,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_159"
+      "id": "masterraven_157"
     },
     {
       "properties": [],
-      "preview_url": null,
+      "preview_url": "https://giant.gfycat.com/GlossyRegalIlladopsis.gif",
       "move_name": "Fatal Elbow to Haze",
       "notation": "qcf+1, 3+4",
       "hit_level": "mid",
@@ -3783,6 +4098,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "19 [22]",
       "speed": "19",
       "on_block": "-22",
@@ -3792,7 +4109,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_160"
+      "id": "masterraven_158"
     },
     {
       "properties": [],
@@ -3807,6 +4124,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "18",
       "on_block": "-14",
@@ -3816,7 +4135,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_162"
+      "id": "masterraven_159"
     },
     {
       "properties": [],
@@ -3831,6 +4150,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "20",
       "on_block": "-9",
@@ -3840,7 +4161,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_163"
+      "id": "masterraven_160"
     },
     {
       "properties": [],
@@ -3855,6 +4176,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "31",
       "speed": "17",
       "on_block": "-9",
@@ -3864,7 +4187,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_164"
+      "id": "masterraven_161"
     },
     {
       "properties": [],
@@ -3879,6 +4202,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "17",
       "on_block": "-9",
@@ -3888,7 +4213,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_165"
+      "id": "masterraven_162"
     },
     {
       "properties": [],
@@ -3903,6 +4228,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BOUNCE",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "14",
       "on_block": "-13",
@@ -3912,7 +4239,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_166"
+      "id": "masterraven_163"
     },
     {
       "properties": [],
@@ -3927,6 +4254,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "40",
       "on_block": "+6",
@@ -3936,7 +4265,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_168"
+      "id": "masterraven_164"
     },
     {
       "properties": [],
@@ -3951,6 +4280,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -3960,7 +4291,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_169"
+      "id": "masterraven_165"
     },
     {
       "properties": [],
@@ -3975,6 +4306,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 12",
       "speed": "14",
       "on_block": "-16",
@@ -3984,7 +4317,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_170"
+      "id": "masterraven_166"
     },
     {
       "properties": [],
@@ -3999,6 +4332,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "16",
       "on_block": "-16",
@@ -4008,7 +4343,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_171"
+      "id": "masterraven_167"
     },
     {
       "properties": [],
@@ -4023,6 +4358,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 15",
       "speed": "25",
       "on_block": "-9",
@@ -4032,7 +4369,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_172"
+      "id": "masterraven_168"
     },
     {
       "properties": [],
@@ -4047,6 +4384,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "30",
       "on_block": "-9",
@@ -4056,7 +4395,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_173"
+      "id": "masterraven_169"
     },
     {
       "properties": [],
@@ -4071,6 +4410,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20], 12",
       "speed": "12",
       "on_block": "-2",
@@ -4080,7 +4421,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_174"
+      "id": "masterraven_170"
     },
     {
       "properties": [],
@@ -4095,6 +4436,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "19",
       "on_block": "-2",
@@ -4104,7 +4447,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_175"
+      "id": "masterraven_171"
     },
     {
       "properties": [],
@@ -4119,6 +4462,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "26",
       "on_block": "-2",
@@ -4128,7 +4473,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_176"
+      "id": "masterraven_172"
     },
     {
       "properties": [],
@@ -4143,6 +4488,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "17",
       "on_block": "-6",
@@ -4152,7 +4499,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_177"
+      "id": "masterraven_173"
     },
     {
       "properties": [],
@@ -4167,6 +4514,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "16 [19]",
       "speed": "16",
       "on_block": "-11",
@@ -4176,7 +4525,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_178"
+      "id": "masterraven_174"
     },
     {
       "properties": [],
@@ -4191,6 +4540,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "-",
       "on_block": "-",
@@ -4200,7 +4551,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_179"
+      "id": "masterraven_175"
     },
     {
       "properties": [],
@@ -4215,6 +4566,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "19",
       "on_block": "-14",
@@ -4224,7 +4577,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_180"
+      "id": "masterraven_176"
     },
     {
       "properties": [],
@@ -4239,6 +4592,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "13",
       "on_block": "-14",
@@ -4248,7 +4603,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_181"
+      "id": "masterraven_177"
     },
     {
       "properties": [],
@@ -4263,6 +4618,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 12",
       "speed": "15",
       "on_block": "-3",
@@ -4272,7 +4629,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_182"
+      "id": "masterraven_178"
     },
     {
       "properties": [],
@@ -4287,6 +4644,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "22",
       "on_block": "-3",
@@ -4296,7 +4655,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_183"
+      "id": "masterraven_179"
     },
     {
       "properties": [],
@@ -4311,6 +4670,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 13",
       "speed": "14",
       "on_block": "-9",
@@ -4320,7 +4681,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_184"
+      "id": "masterraven_180"
     },
     {
       "properties": [],
@@ -4335,6 +4696,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "17",
       "on_block": "-9",
@@ -4344,7 +4707,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_185"
+      "id": "masterraven_181"
     },
     {
       "properties": [],
@@ -4359,6 +4722,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 24",
       "speed": "14",
       "on_block": "+1 (OC)",
@@ -4368,7 +4733,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_186"
+      "id": "masterraven_182"
     },
     {
       "properties": [],
@@ -4383,6 +4748,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "24 [28]",
       "speed": "37",
       "on_block": "+1 (OC)",
@@ -4392,7 +4759,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_187"
+      "id": "masterraven_183"
     },
     {
       "properties": [],
@@ -4407,6 +4774,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "28 [33], 12",
       "speed": "31",
       "on_block": "+1",
@@ -4416,7 +4785,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_188"
+      "id": "masterraven_184"
     },
     {
       "properties": [],
@@ -4431,6 +4800,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "33",
       "on_block": "+1",
@@ -4440,13 +4811,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_189"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN THE LABYRINTH",
-      "id": "masterraven_190"
+      "id": "masterraven_185"
     },
     {
       "properties": [],
@@ -4461,6 +4826,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4470,7 +4837,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_191"
+      "id": "masterraven_186"
     },
     {
       "properties": [],
@@ -4485,6 +4852,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4494,7 +4863,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_192"
+      "id": "masterraven_187"
     },
     {
       "properties": [],
@@ -4509,6 +4878,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "10",
       "on_block": "+1",
@@ -4518,7 +4889,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_193"
+      "id": "masterraven_188"
     },
     {
       "properties": [],
@@ -4533,6 +4904,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 5",
       "speed": "10",
       "on_block": "-5",
@@ -4542,7 +4915,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_194"
+      "id": "masterraven_189"
     },
     {
       "properties": [],
@@ -4557,6 +4930,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6]",
       "speed": "14",
       "on_block": "-5",
@@ -4566,7 +4941,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_195"
+      "id": "masterraven_190"
     },
     {
       "properties": [],
@@ -4581,6 +4956,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 17, 21",
       "speed": "10",
       "on_block": "-9",
@@ -4590,7 +4967,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_196"
+      "id": "masterraven_191"
     },
     {
       "properties": [],
@@ -4605,6 +4982,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20], 21",
       "speed": "28",
       "on_block": "-9",
@@ -4614,7 +4993,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_197"
+      "id": "masterraven_192"
     },
     {
       "properties": [],
@@ -4629,6 +5008,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "32",
       "on_block": "-9",
@@ -4638,7 +5019,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_198"
+      "id": "masterraven_193"
     },
     {
       "properties": [],
@@ -4653,6 +5034,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "16",
       "on_block": "-13 (FT)",
@@ -4662,7 +5045,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_199"
+      "id": "masterraven_194"
     },
     {
       "properties": [],
@@ -4677,6 +5060,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "13",
       "on_block": "-11",
@@ -4686,7 +5071,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_200"
+      "id": "masterraven_195"
     },
     {
       "properties": [],
@@ -4701,6 +5086,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "9 [10]",
       "speed": "16",
       "on_block": "-9",
@@ -4710,7 +5097,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_201"
+      "id": "masterraven_196"
     },
     {
       "properties": [],
@@ -4725,6 +5112,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "24 [28]",
       "speed": "25",
       "on_block": "-9",
@@ -4734,7 +5123,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_202"
+      "id": "masterraven_197"
     },
     {
       "properties": [],
@@ -4749,6 +5138,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "16",
       "on_block": "-2",
@@ -4758,7 +5149,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_203"
+      "id": "masterraven_198"
     },
     {
       "properties": [],
@@ -4773,6 +5164,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "27 [32]",
       "speed": "18",
       "on_block": "+5",
@@ -4782,7 +5175,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_204"
+      "id": "masterraven_199"
     },
     {
       "properties": [],
@@ -4797,6 +5190,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "23",
       "on_block": "-18",
@@ -4806,7 +5201,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_205"
+      "id": "masterraven_200"
     },
     {
       "properties": [],
@@ -4821,6 +5216,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4830,7 +5227,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_207"
+      "id": "masterraven_201"
     },
     {
       "properties": [],
@@ -4845,6 +5242,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -4854,7 +5253,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_208"
+      "id": "masterraven_202"
     },
     {
       "properties": [],
@@ -4869,6 +5268,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "8",
       "on_block": "-1",
@@ -4878,7 +5279,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_209"
+      "id": "masterraven_203"
     },
     {
       "properties": [],
@@ -4893,6 +5294,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 30",
       "speed": "8",
       "on_block": "-9",
@@ -4902,7 +5305,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_210"
+      "id": "masterraven_204"
     },
     {
       "properties": [],
@@ -4917,6 +5320,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "30 [36]",
       "speed": "16",
       "on_block": "-9",
@@ -4926,7 +5331,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_211"
+      "id": "masterraven_205"
     },
     {
       "properties": [],
@@ -4941,6 +5346,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 5",
       "speed": "10",
       "on_block": "-1",
@@ -4950,7 +5357,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_212"
+      "id": "masterraven_206"
     },
     {
       "properties": [],
@@ -4965,6 +5372,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6]",
       "speed": "14",
       "on_block": "-1",
@@ -4974,7 +5383,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_213"
+      "id": "masterraven_207"
     },
     {
       "properties": [],
@@ -4989,6 +5398,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 15",
       "speed": "10",
       "on_block": "-9",
@@ -4998,7 +5409,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_214"
+      "id": "masterraven_208"
     },
     {
       "properties": [],
@@ -5013,6 +5424,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "21",
       "on_block": "-9",
@@ -5022,7 +5435,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_215"
+      "id": "masterraven_209"
     },
     {
       "properties": [],
@@ -5037,6 +5450,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "10",
       "on_block": "-11",
@@ -5046,7 +5461,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_216"
+      "id": "masterraven_210"
     },
     {
       "properties": [],
@@ -5061,6 +5476,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 17",
       "speed": "10",
       "on_block": "0",
@@ -5070,7 +5487,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_217"
+      "id": "masterraven_211"
     },
     {
       "properties": [],
@@ -5085,6 +5502,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "28",
       "on_block": "0",
@@ -5094,7 +5513,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_218"
+      "id": "masterraven_212"
     },
     {
       "properties": [],
@@ -5109,6 +5528,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 17, 22",
       "speed": "10",
       "on_block": "-6",
@@ -5118,7 +5539,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_219"
+      "id": "masterraven_213"
     },
     {
       "properties": [],
@@ -5133,6 +5554,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20], 22",
       "speed": "28",
       "on_block": "-6",
@@ -5142,7 +5565,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_220"
+      "id": "masterraven_214"
     },
     {
       "properties": [],
@@ -5157,6 +5580,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "22 [26]",
       "speed": "27",
       "on_block": "-6",
@@ -5166,7 +5591,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_221"
+      "id": "masterraven_215"
     },
     {
       "properties": [],
@@ -5181,6 +5606,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6], 14",
       "speed": "15",
       "on_block": "-20",
@@ -5190,7 +5617,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_222"
+      "id": "masterraven_216"
     },
     {
       "properties": [],
@@ -5205,6 +5632,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "17",
       "on_block": "-5",
@@ -5214,7 +5643,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_223"
+      "id": "masterraven_217"
     },
     {
       "properties": [],
@@ -5229,6 +5658,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 15",
       "speed": "17",
       "on_block": "-7",
@@ -5238,7 +5669,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_224"
+      "id": "masterraven_218"
     },
     {
       "properties": [],
@@ -5253,6 +5684,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "24",
       "on_block": "-7",
@@ -5262,7 +5695,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_225"
+      "id": "masterraven_219"
     },
     {
       "properties": [],
@@ -5277,6 +5710,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 15",
       "speed": "17",
       "on_block": "-7",
@@ -5286,7 +5721,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_226"
+      "id": "masterraven_220"
     },
     {
       "properties": [],
@@ -5301,6 +5736,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "20",
       "on_block": "-7",
@@ -5310,7 +5747,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_227"
+      "id": "masterraven_221"
     },
     {
       "properties": [],
@@ -5325,6 +5762,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 15, 20",
       "speed": "17",
       "on_block": "-9",
@@ -5334,7 +5773,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_228"
+      "id": "masterraven_222"
     },
     {
       "properties": [],
@@ -5349,6 +5788,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "15 [18], 20",
       "speed": "20",
       "on_block": "-9",
@@ -5358,7 +5799,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_229"
+      "id": "masterraven_223"
     },
     {
       "properties": [],
@@ -5373,6 +5814,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "20",
       "on_block": "-9",
@@ -5382,7 +5825,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_230"
+      "id": "masterraven_224"
     },
     {
       "properties": [],
@@ -5397,6 +5840,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "13",
       "on_block": "-8",
@@ -5406,7 +5851,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_231"
+      "id": "masterraven_225"
     },
     {
       "properties": [],
@@ -5421,6 +5866,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "9 [10], 21",
       "speed": "16",
       "on_block": "-11",
@@ -5430,7 +5877,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_232"
+      "id": "masterraven_226"
     },
     {
       "properties": [],
@@ -5445,6 +5892,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "23",
       "on_block": "-11",
@@ -5454,7 +5903,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_233"
+      "id": "masterraven_227"
     },
     {
       "properties": [],
@@ -5469,6 +5918,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "25",
       "on_block": "-26",
@@ -5478,7 +5929,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_234"
+      "id": "masterraven_228"
     },
     {
       "properties": [],
@@ -5493,6 +5944,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "14 [16]",
       "speed": "25",
       "on_block": "-26",
@@ -5502,7 +5955,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_235"
+      "id": "masterraven_229"
     },
     {
       "properties": [],
@@ -5517,6 +5970,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20], 5, 14",
       "speed": "16",
       "on_block": "-20",
@@ -5526,7 +5981,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_236"
+      "id": "masterraven_230"
     },
     {
       "properties": [],
@@ -5541,6 +5996,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5 [6], 14",
       "speed": "20",
       "on_block": "-20",
@@ -5550,7 +6007,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_237"
+      "id": "masterraven_231"
     },
     {
       "properties": [],
@@ -5565,6 +6022,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20], 13",
       "speed": "16",
       "on_block": "-9",
@@ -5574,7 +6033,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_238"
+      "id": "masterraven_232"
     },
     {
       "properties": [],
@@ -5589,6 +6048,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15]",
       "speed": "17",
       "on_block": "-9",
@@ -5598,7 +6059,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_239"
+      "id": "masterraven_233"
     },
     {
       "properties": [],
@@ -5613,6 +6074,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "21",
       "on_block": "-9",
@@ -5622,7 +6085,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_240"
+      "id": "masterraven_234"
     },
     {
       "properties": [],
@@ -5637,6 +6100,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "23",
       "on_block": "-18",
@@ -5646,7 +6111,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_241"
+      "id": "masterraven_235"
     },
     {
       "properties": [],
@@ -5661,6 +6126,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "102 [104]",
       "speed": "10",
       "on_block": "-",
@@ -5670,7 +6137,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_242"
+      "id": "masterraven_236"
     },
     {
       "properties": [],
@@ -5685,6 +6152,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5694,11 +6163,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_244"
+      "id": "masterraven_237"
     },
     {
       "properties": [],
-      "preview_url": null,
+      "preview_url": "https://giant.gfycat.com/EnchantingUnawareBordercollie.gif",
       "move_name": null,
       "notation": "3~4, F",
       "hit_level": "mid, mid",
@@ -5709,6 +6178,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 15",
       "speed": "25",
       "on_block": "-",
@@ -5718,7 +6189,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_245"
+      "id": "masterraven_238"
     },
     {
       "properties": [],
@@ -5733,6 +6204,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 17, 21",
       "speed": "10",
       "on_block": "-",
@@ -5742,7 +6215,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_246"
+      "id": "masterraven_239"
     },
     {
       "properties": [],
@@ -5757,6 +6230,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "24 [28]",
       "speed": "25",
       "on_block": "-",
@@ -5766,7 +6241,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_247"
+      "id": "masterraven_240"
     },
     {
       "properties": [],
@@ -5781,6 +6256,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5790,7 +6267,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_249"
+      "id": "masterraven_241"
     },
     {
       "properties": [],
@@ -5805,6 +6282,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -5814,7 +6293,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_250"
+      "id": "masterraven_242"
     },
     {
       "properties": [],
@@ -5829,6 +6308,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "19 [22]",
       "speed": "19",
       "on_block": "-9",
@@ -5838,7 +6319,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_252"
+      "id": "masterraven_243"
     },
     {
       "properties": [],
@@ -5853,6 +6334,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "27",
       "on_block": "-17",
@@ -5862,7 +6345,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_253"
+      "id": "masterraven_244"
     },
     {
       "properties": [],
@@ -5877,6 +6360,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "WALL BOUNCE",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "30 [36]",
       "speed": "20",
       "on_block": "-12",
@@ -5886,7 +6371,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_254"
+      "id": "masterraven_245"
     },
     {
       "properties": [],
@@ -5901,6 +6386,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "14 [16]",
       "speed": "16",
       "on_block": "-7",
@@ -5910,7 +6397,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_255"
+      "id": "masterraven_246"
     },
     {
       "properties": [],
@@ -5925,6 +6412,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "14 [16], 20",
       "speed": "16",
       "on_block": "-",
@@ -5934,7 +6423,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_256"
+      "id": "masterraven_247"
     },
     {
       "properties": [],
@@ -5949,6 +6438,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 21",
       "speed": "24",
       "on_block": "-9",
@@ -5958,7 +6449,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_257"
+      "id": "masterraven_248"
     },
     {
       "properties": [],
@@ -5973,6 +6464,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "21 [25]",
       "speed": "35",
       "on_block": "-9",
@@ -5982,7 +6475,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_258"
+      "id": "masterraven_249"
     },
     {
       "properties": [],
@@ -5996,6 +6489,8 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "31",
       "speed": "-",
       "on_block": "-",
@@ -6005,7 +6500,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_259"
+      "id": "masterraven_250"
     },
     {
       "properties": [],
@@ -6020,6 +6515,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30], 18",
       "speed": "26",
       "on_block": "-40",
@@ -6029,7 +6526,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_261"
+      "id": "masterraven_251"
     },
     {
       "properties": [],
@@ -6044,6 +6541,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 8",
       "speed": "23",
       "on_block": "-58",
@@ -6053,7 +6552,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_262"
+      "id": "masterraven_252"
     },
     {
       "properties": [],
@@ -6068,6 +6567,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 13",
       "speed": "15",
       "on_block": "-34",
@@ -6077,7 +6578,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_263"
+      "id": "masterraven_253"
     },
     {
       "properties": [],
@@ -6092,6 +6593,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "12 [14], 15",
       "speed": "15",
       "on_block": "-23",
@@ -6101,7 +6604,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_264"
+      "id": "masterraven_254"
     },
     {
       "properties": [],
@@ -6116,6 +6619,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "11 [13], 11, 12",
       "speed": "14",
       "on_block": "-63",
@@ -6125,7 +6630,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_265"
+      "id": "masterraven_255"
     },
     {
       "properties": [],
@@ -6140,6 +6645,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "10 [12], 17",
       "speed": "10",
       "on_block": "-28",
@@ -6149,7 +6656,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_266"
+      "id": "masterraven_256"
     },
     {
       "properties": [],
@@ -6164,6 +6671,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "13 [15], 15",
       "speed": "17",
       "on_block": "-23",
@@ -6173,7 +6682,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_267"
+      "id": "masterraven_257"
     },
     {
       "properties": [],
@@ -6188,6 +6697,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -6197,7 +6708,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_268"
+      "id": "masterraven_258"
     },
     {
       "properties": [],
@@ -6212,6 +6723,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "24 [28]",
       "speed": "22",
       "on_block": "-14",
@@ -6219,7 +6732,7 @@
       "on_ch": "KND",
       "on_whiff": "-",
       "active_frames": "-",
-      "id": "masterraven_270"
+      "id": "masterraven_259"
     },
     {
       "properties": [],
@@ -6234,6 +6747,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "15",
       "on_block": "-13",
@@ -6243,7 +6758,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_271"
+      "id": "masterraven_260"
     },
     {
       "properties": [],
@@ -6258,6 +6773,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "55 [57]",
       "speed": "20",
       "on_block": "-22",
@@ -6267,7 +6784,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_273"
+      "id": "masterraven_261"
     },
     {
       "properties": [],
@@ -6282,6 +6799,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 10",
       "speed": "15",
       "on_block": "+5",
@@ -6291,7 +6810,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_274"
+      "id": "masterraven_262"
     },
     {
       "properties": [],
@@ -6306,6 +6825,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 10, 10",
       "speed": "15",
       "on_block": "-",
@@ -6315,7 +6836,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_275"
+      "id": "masterraven_263"
     },
     {
       "properties": [],
@@ -6330,6 +6851,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 10, 24",
       "speed": "15",
       "on_block": "-",
@@ -6339,7 +6862,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_276"
+      "id": "masterraven_264"
     },
     {
       "properties": [],
@@ -6354,6 +6877,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "20 [24], 14, 10",
       "speed": "35",
       "on_block": "!",
@@ -6363,7 +6888,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_278"
+      "id": "masterraven_265"
     },
     {
       "properties": [],
@@ -6378,6 +6903,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "[60]",
       "speed": "59",
       "on_block": "!",
@@ -6387,7 +6914,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_279"
+      "id": "masterraven_266"
     },
     {
       "properties": [],
@@ -6402,6 +6929,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "23 [27]",
       "speed": "45",
       "on_block": "!",
@@ -6411,7 +6940,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_280"
+      "id": "masterraven_267"
     },
     {
       "properties": [],
@@ -6426,6 +6955,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "-6",
@@ -6435,7 +6966,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_282"
+      "id": "masterraven_268"
     },
     {
       "properties": [],
@@ -6450,6 +6981,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "35",
       "speed": "12",
       "on_block": "-3",
@@ -6459,7 +6992,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_283"
+      "id": "masterraven_269"
     },
     {
       "properties": [],
@@ -6474,6 +7007,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "-6",
@@ -6483,7 +7018,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_284"
+      "id": "masterraven_270"
     },
     {
       "properties": [],
@@ -6498,6 +7033,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "35",
       "speed": "15",
       "on_block": "-3",
@@ -6507,7 +7044,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_285"
+      "id": "masterraven_271"
     },
     {
       "properties": [],
@@ -6522,6 +7059,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "48",
       "speed": "12",
       "on_block": "0",
@@ -6531,7 +7070,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_286"
+      "id": "masterraven_272"
     },
     {
       "properties": [],
@@ -6546,6 +7085,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "38",
       "speed": "11",
       "on_block": "-2",
@@ -6555,7 +7096,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_287"
+      "id": "masterraven_273"
     },
     {
       "properties": [],
@@ -6570,6 +7111,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5",
       "speed": "26",
       "on_block": "-5 (BT)",
@@ -6579,7 +7122,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_288"
+      "id": "masterraven_274"
     },
     {
       "properties": [],
@@ -6594,6 +7137,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-3",
@@ -6603,7 +7148,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_289"
+      "id": "masterraven_275"
     },
     {
       "properties": [],
@@ -6618,6 +7163,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "40",
       "speed": "12",
       "on_block": "-3",
@@ -6627,7 +7174,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_290"
+      "id": "masterraven_276"
     },
     {
       "properties": [],
@@ -6642,6 +7189,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "50",
       "speed": "12",
       "on_block": "-",
@@ -6651,7 +7200,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_291"
+      "id": "masterraven_277"
     },
     {
       "properties": [],
@@ -6666,6 +7215,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5",
       "speed": "16",
       "on_block": "-5 (BT)",
@@ -6675,7 +7226,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_292"
+      "id": "masterraven_278"
     },
     {
       "properties": [],
@@ -6690,6 +7241,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5",
       "speed": "-",
       "on_block": "-",
@@ -6699,7 +7252,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_294"
+      "id": "masterraven_279"
     },
     {
       "properties": [],
@@ -6714,6 +7267,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5, 5",
       "speed": "-",
       "on_block": "-",
@@ -6723,7 +7278,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_295"
+      "id": "masterraven_280"
     },
     {
       "properties": [],
@@ -6738,6 +7293,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5, 5, 5",
       "speed": "-",
       "on_block": "-",
@@ -6747,7 +7304,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_296"
+      "id": "masterraven_281"
     },
     {
       "properties": [],
@@ -6762,6 +7319,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "5, 5, 5, 15",
       "speed": "-",
       "on_block": "-",
@@ -6771,7 +7330,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_297"
+      "id": "masterraven_282"
     },
     {
       "properties": [],
@@ -6786,6 +7345,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "6",
       "on_block": "-",
@@ -6795,7 +7356,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_299"
+      "id": "masterraven_283"
     },
     {
       "properties": [],
@@ -6810,6 +7371,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "10",
       "on_block": "-",
@@ -6819,7 +7382,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_300"
+      "id": "masterraven_284"
     },
     {
       "properties": [],
@@ -6834,6 +7397,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -6843,7 +7408,7 @@
       "on_whiff": "-15",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_301"
+      "id": "masterraven_285"
     },
     {
       "properties": [],
@@ -6858,6 +7423,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -6867,11 +7434,11 @@
       "on_whiff": "-35",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_302"
+      "id": "masterraven_286"
     },
     {
       "properties": [],
-      "preview_url": null,
+      "preview_url": "https://giant.gfycat.com/SnivelingClumsyGardensnake.gif",
       "move_name": "Crouch Dash",
       "notation": "FC d/f, d, d/f",
       "hit_level": "-",
@@ -6882,6 +7449,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -6891,7 +7460,7 @@
       "on_whiff": "-15",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_303"
+      "id": "masterraven_287"
     },
     {
       "properties": [],
@@ -6906,6 +7475,8 @@
       "jail": "-",
       "natural": "-",
       "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
       "damage": "-",
       "speed": "-",
       "on_block": "-",
@@ -6915,7 +7486,7 @@
       "on_whiff": "-",
       "active_frames": "8",
       "notes": "-",
-      "id": "masterraven_304"
+      "id": "masterraven_288"
     }
   ]
 }

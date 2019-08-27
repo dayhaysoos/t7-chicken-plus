@@ -1,5 +1,4 @@
 import React from 'react';
-import { Text } from 'react-native';
 import HomeScreen from './containers/HomeScreen';
 import About from './containers/About';
 import Support from './containers/Support';
@@ -13,16 +12,43 @@ import Receipt from './containers/Receipt';
 import AdRemoval from './containers/AdRemoval';
 import ApplePayment from './containers/ApplePayment';
 import AndroidPayment from './containers/AndroidPayment';
+import RightMenu from './components/RightMenu';
+import SponsorScreen from './containers/SponsorScreen';
 
-import FontAwesome, { Icons } from 'react-native-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 
 
-import { createStackNavigator, createDrawerNavigator, createAppContainer } from 'react-navigation';
+
+import { createStackNavigator, createDrawerNavigator, createAppContainer, DrawerActions } from 'react-navigation';
 
 const BackButton = () => (
-    <Text style={{ color: '#FF412C', fontSize: 32, marginLeft: 15 }}>
-        <FontAwesome>{Icons.chevronLeft}</FontAwesome>
-    </Text>
+    <FontAwesomeIcon size={32} color='#FF412C' icon={'chevron-left'} />
+);
+
+const RightDrawer = createDrawerNavigator({
+    CharacterProfile: CharacterProfile,
+}, {
+        contentComponent: ({activeItemKey}) => <RightMenu activeItemKey={activeItemKey}/>,
+        drawerPosition: 'right',
+        getCustomActionCreators: (_route, key) => ({
+            openRightDrawer: () => DrawerActions.openDrawer({ key }),
+            closeRightDrawer: () => DrawerActions.closeDrawer({ key }),
+            toggleRightDrawer: () => DrawerActions.toggleDrawer({ key }),
+        }),
+    }
+);
+
+const RightDrawerLegend = createDrawerNavigator({
+    CharacterMove: CharacterMove,
+}, {
+        contentComponent: ({activeItemKey}) => <RightMenu activeItemKey={activeItemKey}/>,
+        drawerPosition: 'right',
+        getCustomActionCreators: (_route, key) => ({
+            openRightDrawer: () => DrawerActions.openDrawer({ key }),
+            closeRightDrawer: () => DrawerActions.closeDrawer({ key }),
+            toggleRightDrawer: () => DrawerActions.toggleDrawer({ key }),
+        }),
+    }
 );
 
 const defaultNavOptions = {
@@ -47,6 +73,10 @@ const RootStack = createStackNavigator({
         screen: Sponsors,
         navigationOptions: defaultNavOptions
     },
+    SponsorScreen: {
+        screen: SponsorScreen,
+        navigationOptions: defaultNavOptions
+    },
     Support: {
         screen: Support,
         navigationOptions: defaultNavOptions
@@ -60,11 +90,11 @@ const RootStack = createStackNavigator({
         navigationOptions: defaultNavOptions
     },
     CharacterProfile: {
-        screen: CharacterProfile,
+        screen: RightDrawer,
         navigationOptions: defaultNavOptions
     },
     CharacterMove: {
-        screen: CharacterMove,
+        screen: RightDrawerLegend,
         navigationOptions: defaultNavOptions
     },
     WhatsNew: {
@@ -93,8 +123,13 @@ const RootStack = createStackNavigator({
 const DrawerStack = createDrawerNavigator({
     Home: RootStack,
 }, {
-    contentComponent: HomeScreen
-}
-);
+        contentComponent: HomeScreen,
+        drawerPosition: 'left',
+        getCustomActionCreators: (_route, key) => ({
+            openLeftDrawer: () => DrawerActions.openDrawer({ key }),
+            closeLeftDrawer: () => DrawerActions.closeDrawer({ key }),
+            toggleLeftDrawer: () => DrawerActions.toggleDrawer({ key }),
+        }),
+    });
 
 export default createAppContainer(DrawerStack);

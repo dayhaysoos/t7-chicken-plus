@@ -188,7 +188,7 @@ export const speed = {
 
 //gif filters
 const filterGifs = moves => moves.filter(move => move.preview_url);
-const filterNoGifs = moves => moves.filter(move => !move.preview_url)
+const filterNoGifs = moves => moves.filter(move => !move.preview_url);
 
 export const preview_url = {
     label: 'Has Gif',
@@ -201,7 +201,7 @@ export const preview_url = {
         },
         [GIF_FILTER.HAS_NO_GIF]: {
             filterFunction: filterNoGifs,
-            filterLabel: `Doesn't have Gif`,
+            filterLabel: 'Doesn\'t have Gif',
             filterType: GIF_FILTER.HAS_NO_GIF,
         },
     }

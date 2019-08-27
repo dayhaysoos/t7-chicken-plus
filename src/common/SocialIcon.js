@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import FontAwesome, { Icons } from 'react-native-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 
 import { Linking, Alert } from 'react-native';
 
@@ -11,7 +11,7 @@ const TouchableWrapper = styled.TouchableOpacity`
   margin-left: 10;
 `;
 
-const FA = styled(FontAwesome)`
+const FA = styled(FontAwesomeIcon)`
   background-color: ${({ color }) => color}
   color: white;
   font-size: 18;
@@ -27,6 +27,7 @@ const handleMediaColor = (media) => {
 };
 
 const handleMediaUrl = (media, handle) => {
+    if (!media && handle.includes('http')) return handle;
     if (media === 'twitter') return `https://www.twitter.com/${handle}`;
     if (media === 'twitch') return `https://www.twitch.tv/${handle}`;
 };
@@ -45,9 +46,7 @@ const onIconPress = (media, handle) => async () => {
 
 const SocialIcon = ({ media, handle }) => (
     <TouchableWrapper onPress={onIconPress(media, handle)}>
-        <FA color={handleMediaColor(media)}>
-            {Icons[media]}
-        </FA>
+        <FontAwesomeIcon icon={['fab', media]}/>
     </TouchableWrapper>
 );
 

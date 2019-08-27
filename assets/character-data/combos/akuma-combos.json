@@ -1,761 +1,498 @@
 {
-  "providedBy": "sneaky coyote",
-  "providerTwitter": "@sneaky_coyote",
-  "combos": [
-    {
-      "starter": 1,
-      "combo": "~qcb+4",
-      "damage": 30,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "sneaky coyote",
-      "volunteer twitter": "@sneaky_coyote"
-    },
-    {
-      "starter": 1,
-      "combo": "~f, d, d/f+1",
-      "damage": 22,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": 2,
-      "combo": "~f, d, d/f+1",
-      "damage": 30,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": 2,
-      "combo": "~qcf+1",
-      "damage": 29,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": 2,
-      "combo": "~qcb+3",
-      "damage": 25,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": 2,
-      "combo": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "1+2 [Level 2], f, f",
-      "combo": "d/f+1, 4, 3 (S!) ~dash~ d/f+2, 4, 3",
-      "damage": 51,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "1+2 [Level 2], f, f",
-      "combo": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "1+2 [Level 2], f, f",
-      "combo": "f, d, d/f+1 (FADC) etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "1+2 [Level 3], f, f",
-      "combo": "d/f+1, 4, 3 (S!) ~dash~ d/f+2, 4, 3",
-      "damage": 56,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "1+2 [Level 3], f, f",
-      "combo": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "1+2 [Level 3], f, f",
-      "combo": "f, d, d/f+1 (FADC) etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "d/f+2, 1",
-      "combo": "3, d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, b+1~qcf+2",
-      "damage": 56,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "d/f+2, 1",
-      "combo": "d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
-      "damage": 55,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "d/f+2, 1",
-      "combo": "4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1, f, f+2:1",
-      "damage": 55,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "d/f+2, 1",
-      "combo": "f+4, j. d+3, 1, ~dash~ 1, f, f+2:1",
-      "damage": 55,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, d, d/f+1",
-      "combo": "(FADC) f+3, 1, 4, 3 (S!) ~dash~ d/f+2, 4, 3",
-      "damage": 50,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, d, d/f+1",
-      "combo": "(FADC) SSR d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
-      "damage": 50,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, d, d/f+1",
-      "combo": "(FADC) d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, b+1~qcf+2",
-      "damage": 47,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, d, d/f+2",
-      "combo": "(FADC) d/f+1, 1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, b+1~qcf+2",
-      "damage": 44,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, d, d/f+2",
-      "combo": "(FADC) d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
-      "damage": 47,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, d, d/f+3, 4",
-      "combo": "d/f+2, 1, etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "f, d, d/f+3, 4",
-      "combo": "2~qcf+1 (FADC), etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "b+1",
-      "combo": "f, d, d/f+4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, 4, 2~f, d, d/f+2",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "b+1",
-      "combo": "f, d, d/f+4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1 f, f+2:1",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "qcf+1 (or 2)",
-      "combo": "(FADC) 1, 2",
-      "damage": 41,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "qcf+1 (or 2)",
-      "combo": "(FADC) 1~f, d, d/f+2",
-      "damage": 47,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "qcf+1 (or 2)",
-      "combo": "(FADC) b+1, etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "qcb+3",
-      "combo": "f, d, d/f+1 (FADC), SSR 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
-      "damage": 48,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "FC 1",
-      "combo": "~f, d, d/f+1",
-      "damage": 20,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "FC 1",
-      "combo": "~qcb+4",
-      "damage": 28,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "FC 2",
-      "combo": "~f, d, d/f+1",
-      "damage": 21,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "FC 2",
-      "combo": "~qcb+3",
-      "damage": 16,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "FC 2",
-      "combo": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 1",
-      "combo": "~qcb+4",
-      "damage": 37,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 1",
-      "combo": "~f, d, d/f+1",
-      "damage": 27,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 1",
-      "combo": "~qcf+1",
-      "damage": 26,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 1",
-      "combo": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 2",
-      "combo": "f, d, d/f+4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, 4, 2~f, d, d/f+2",
-      "damage": 56,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 2",
-      "combo": "f, d, d/f+4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1 f, f+2:1",
-      "damage": 54,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 2",
-      "combo": "3, d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, b+1~qcf+2",
-      "damage": 53,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 2",
-      "combo": "d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
-      "damage": 52,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 2",
-      "combo": "4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1, f, f+2:1",
-      "damage": 52,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "WS 2",
-      "combo": "f+4, j. d+3, 1, ~dash~ 1, f, f+2:1",
-      "damage": 52,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "(During Forward or Backward Jump) 2",
-      "combo": "1~f, d, d/f+1 (FADC), etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "(During Forward or Backward Jump) 2",
-      "combo": "2~qcf+1 (FADC), etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "(During Forward or Backward Jump) 2",
-      "combo": "b+1, etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "(During Forward or Backward Jump) 4",
-      "combo": "1~f, d, d/f+1 (FADC), etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "(During Forward or Backward Jump) 4",
-      "combo": "2~qcf+1 (FADC), etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "(During Forward or Backward Jump) 4",
-      "combo": "b+1, etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "(During Jump) qcb+3 (or 4)",
-      "combo": "d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
-      "damage": 45,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "(During Jump) qcb+3 (or 4)",
-      "combo": "4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1 f, f+2:1",
-      "damage": 45,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[1, 1]",
-      "combo": "qcb+4",
-      "damage": 38,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[1, 1]",
-      "combo": "qcb+3, f, d, d/f+1 (FADC), 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
-      "damage": 63,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[(4), 3]",
-      "combo": "~dash~ 1+2 (Level 2), f, f, 4, 2~f, d, d/f+2",
-      "damage": 49,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[(4), 3]",
-      "combo": "~dash~ d/f+1, 1, 4, 3, d+4",
-      "damage": 45,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[(4), 3]",
-      "combo": "~dash~ d/f+1, 1 ~dash~ 1 ~dash~ 1, f, f+2:1",
-      "damage": 44,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f+4]",
-      "combo": "~dash~ d/f+1, 1, 4, 3, d+4",
-      "damage": 49,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f+4]",
-      "combo": "~dash~ d/f+1, 1 ~dash~ 1 ~dash~ 1, f, f+2:1",
-      "damage": 48,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, f+4]",
-      "combo": "1+2 (Level 2), f, f, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
-      "damage": 71,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, f+4]",
-      "combo": "4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1 f, f+2:1",
-      "damage": 65,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, d, d/f+3, 3]",
-      "combo": "~dash~ 1+2 (Level 2), f, f, 4, 2~f, d, d/f+2",
-      "damage": 61,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, d, d/f+3, 3]",
-      "combo": "~dash~ d/f+1, 1, 4, 3, d+4",
-      "damage": 52,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[f, d, d/f+3, 3]",
-      "combo": "~dash~ d/f+1, 1 ~dash~ 1 ~dash~ 1, f, f+2:1",
-      "damage": 51,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[d+1, 2]",
-      "combo": "~qcb+4",
-      "damage": 37,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[d+1, 2]",
-      "combo": "~f, d, d/f+1",
-      "damage": 29,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[d+1, 2]",
-      "combo": "~qcf+1",
-      "damage": 28,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[d+1, 2]",
-      "combo": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[b+2]",
-      "combo": "SSR, 1+2 (Level 2), f, f, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
-      "damage": 67,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "[WS 3]",
-      "combo": "iWS 4, 1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, b+1~qcf+2",
-      "damage": 54,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-"
-    },
-    {
-      "starter": "BT Opponent",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Float",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Floor Break Post (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Floor Break Pre (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Low Parry",
-      "combo": "d/f+1, 4, 2~f, d, d/f+1 (FADC) 4, 3 (S!) ~run~ 2, qcf+1 (or 2)",
-      "damage": 40,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Low Parry",
-      "combo": "d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
-      "damage": 36,
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Side Float",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Slide Punish",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Break Post (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Break Pre (S!)",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Carry",
-      "combo": "-",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "~backdash~ d+3, f, d, d/f+1 (or 2)",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "d/f+1, 1, 2~qcb+4",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    },
-    {
-      "starter": "Wall Ender",
-      "combo": "d/f+1, 2",
-      "damage": "-",
-      "notes": "-",
-      "oki": "-",
-      "volunteer": "-",
-      "volunteer twitter": "-"
-    }
-  ]
+  "combos": {
+    "1": [
+      {
+        "input": "~qcb+4",
+        "damage": 30,
+        "oki": "-"
+      },
+      {
+        "input": "~f, d, d/f+1",
+        "damage": 22,
+        "oki": "-"
+      }
+    ],
+    "2": [
+      {
+        "input": "~f, d, d/f+1",
+        "damage": 30,
+        "oki": "-"
+      },
+      {
+        "input": "~qcf+1",
+        "damage": 29,
+        "oki": "-"
+      },
+      {
+        "input": "~qcb+3",
+        "damage": 25,
+        "oki": "-"
+      },
+      {
+        "input": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "1+2 [Level 2], f, f": [
+      {
+        "input": "d/f+1, 4, 3 (S!) ~dash~ d/f+2, 4, 3",
+        "damage": 51,
+        "oki": "-"
+      },
+      {
+        "input": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "f, d, d/f+1 (FADC) etc.",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "1+2 [Level 3], f, f": [
+      {
+        "input": "d/f+1, 4, 3 (S!) ~dash~ d/f+2, 4, 3",
+        "damage": 56,
+        "oki": "-"
+      },
+      {
+        "input": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "f, d, d/f+1 (FADC) etc.",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "d/f+2, 1": [
+      {
+        "input": "3, d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, b+1~qcf+2",
+        "damage": 56,
+        "oki": "-"
+      },
+      {
+        "input": "d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
+        "damage": 55,
+        "oki": "-"
+      },
+      {
+        "input": "4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1, f, f+2:1",
+        "damage": 55,
+        "oki": "-"
+      },
+      {
+        "input": "f+4, j. d+3, 1, ~dash~ 1, f, f+2:1",
+        "damage": 55,
+        "oki": "-"
+      }
+    ],
+    "f, d, d/f+1": [
+      {
+        "input": "(FADC) f+3, 1, 4, 3 (S!) ~dash~ d/f+2, 4, 3",
+        "damage": 50,
+        "oki": "-"
+      },
+      {
+        "input": "(FADC) SSR d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
+        "damage": 50,
+        "oki": "-"
+      },
+      {
+        "input": "(FADC) d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, b+1~qcf+2",
+        "damage": 47,
+        "oki": "-"
+      }
+    ],
+    "f, d, d/f+2": [
+      {
+        "input": "(FADC) d/f+1, 1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, b+1~qcf+2",
+        "damage": 44,
+        "oki": "-"
+      },
+      {
+        "input": "(FADC) d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
+        "damage": 47,
+        "oki": "-"
+      }
+    ],
+    "f, d, d/f+3, 4": [
+      {
+        "input": "d/f+2, 1, etc.",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "2~qcf+1 (FADC), etc.",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "b+1": [
+      {
+        "input": "f, d, d/f+4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, 4, 2~f, d, d/f+2",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "f, d, d/f+4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1 f, f+2:1",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "qcf+1 (or 2)": [
+      {
+        "input": "(FADC) 1, 2",
+        "damage": 41,
+        "oki": "-"
+      },
+      {
+        "input": "(FADC) 1~f, d, d/f+2",
+        "damage": 47,
+        "oki": "-"
+      },
+      {
+        "input": "(FADC) b+1, etc.",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "qcb+3": [
+      {
+        "input": "f, d, d/f+1 (FADC), SSR 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
+        "damage": 48,
+        "oki": "-"
+      }
+    ],
+    "FC 1": [
+      {
+        "input": "~f, d, d/f+1",
+        "damage": 20,
+        "oki": "-"
+      },
+      {
+        "input": "~qcb+4",
+        "damage": 28,
+        "oki": "-"
+      }
+    ],
+    "FC 2": [
+      {
+        "input": "~f, d, d/f+1",
+        "damage": 21,
+        "oki": "-"
+      },
+      {
+        "input": "~qcb+3",
+        "damage": 16,
+        "oki": "-"
+      },
+      {
+        "input": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "WS 1": [
+      {
+        "input": "~qcb+4",
+        "damage": 37,
+        "oki": "-"
+      },
+      {
+        "input": "~f, d, d/f+1",
+        "damage": 27,
+        "oki": "-"
+      },
+      {
+        "input": "~qcf+1",
+        "damage": 26,
+        "oki": "-"
+      },
+      {
+        "input": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "WS 2": [
+      {
+        "input": "f, d, d/f+4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, 4, 2~f, d, d/f+2",
+        "damage": 56,
+        "oki": "-"
+      },
+      {
+        "input": "f, d, d/f+4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1 f, f+2:1",
+        "damage": 54,
+        "oki": "-"
+      },
+      {
+        "input": "3, d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, b+1~qcf+2",
+        "damage": 53,
+        "oki": "-"
+      },
+      {
+        "input": "d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
+        "damage": 52,
+        "oki": "-"
+      },
+      {
+        "input": "4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1, f, f+2:1",
+        "damage": 52,
+        "oki": "-"
+      },
+      {
+        "input": "f+4, j. d+3, 1, ~dash~ 1, f, f+2:1",
+        "damage": 52,
+        "oki": "-"
+      }
+    ],
+    "(During Forward or Backward Jump) 2": [
+      {
+        "input": "1~f, d, d/f+1 (FADC), etc.",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "2~qcf+1 (FADC), etc.",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "b+1, etc.",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "(During Forward or Backward Jump) 4": [
+      {
+        "input": "1~f, d, d/f+1 (FADC), etc.",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "2~qcf+1 (FADC), etc.",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "b+1, etc.",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "(During Jump) qcb+3 (or 4)": [
+      {
+        "input": "d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
+        "damage": 45,
+        "oki": "-"
+      },
+      {
+        "input": "4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1 f, f+2:1",
+        "damage": 45,
+        "oki": "-"
+      }
+    ],
+    "[1, 1]": [
+      {
+        "input": "qcb+4",
+        "damage": 38,
+        "oki": "-"
+      },
+      {
+        "input": "qcb+3, f, d, d/f+1 (FADC), 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
+        "damage": 63,
+        "oki": "-"
+      }
+    ],
+    "[(4), 3]": [
+      {
+        "input": "~dash~ 1+2 (Level 2), f, f, 4, 2~f, d, d/f+2",
+        "damage": 49,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ d/f+1, 1, 4, 3, d+4",
+        "damage": 45,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ d/f+1, 1 ~dash~ 1 ~dash~ 1, f, f+2:1",
+        "damage": 44,
+        "oki": "-"
+      }
+    ],
+    "[f+4]": [
+      {
+        "input": "~dash~ d/f+1, 1, 4, 3, d+4",
+        "damage": 49,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ d/f+1, 1 ~dash~ 1 ~dash~ 1, f, f+2:1",
+        "damage": 48,
+        "oki": "-"
+      }
+    ],
+    "[f, f+4]": [
+      {
+        "input": "1+2 (Level 2), f, f, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
+        "damage": 71,
+        "oki": "-"
+      },
+      {
+        "input": "4, 3 (S!) ~dash~ 1+2 (Level 2), ~dash~ 1, ~dash~ 1 f, f+2:1",
+        "damage": 65,
+        "oki": "-"
+      }
+    ],
+    "[f, d, d/f+3, 3]": [
+      {
+        "input": "~dash~ 1+2 (Level 2), f, f, 4, 2~f, d, d/f+2",
+        "damage": 61,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ d/f+1, 1, 4, 3, d+4",
+        "damage": 52,
+        "oki": "-"
+      },
+      {
+        "input": "~dash~ d/f+1, 1 ~dash~ 1 ~dash~ 1, f, f+2:1",
+        "damage": 51,
+        "oki": "-"
+      }
+    ],
+    "[d+1, 2]": [
+      {
+        "input": "~qcb+4",
+        "damage": 37,
+        "oki": "-"
+      },
+      {
+        "input": "~f, d, d/f+1",
+        "damage": 29,
+        "oki": "-"
+      },
+      {
+        "input": "~qcf+1",
+        "damage": 28,
+        "oki": "-"
+      },
+      {
+        "input": "~qcf+1 (FADC), d+2~qcf+1 (FADC), b+1, etc.",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "[b+2]": [
+      {
+        "input": "SSR, 1+2 (Level 2), f, f, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
+        "damage": 67,
+        "oki": "-"
+      }
+    ],
+    "[WS 3]": [
+      {
+        "input": "iWS 4, 1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, b+1~qcf+2",
+        "damage": 54,
+        "oki": "-"
+      }
+    ],
+    "BT Opponent": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Floor Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Low Parry": [
+      {
+        "input": "d/f+1, 4, 2~f, d, d/f+1 (FADC) 4, 3 (S!) ~run~ 2, qcf+1 (or 2)",
+        "damage": 40,
+        "oki": "-"
+      },
+      {
+        "input": "d/f+1, 4, 3 (S!) ~dash~ 1+2 (Level 2), f, f, d/f+2, 4, 3",
+        "damage": 36,
+        "oki": "-"
+      }
+    ],
+    "Side Float": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Slide Punish": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Post (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Break Pre (S!)": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Carry": [
+      {
+        "input": "-",
+        "damage": "-",
+        "oki": "-"
+      }
+    ],
+    "Wall Ender": [
+      {
+        "input": "~backdash~ d+3, f, d, d/f+1 (or 2)",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "d/f+1, 1, 2~qcb+4",
+        "damage": "-",
+        "oki": "-"
+      },
+      {
+        "input": "d/f+1, 2",
+        "damage": "-",
+        "oki": "-"
+      }
+    ]
+  }
 }

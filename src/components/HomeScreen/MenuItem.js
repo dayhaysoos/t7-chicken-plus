@@ -1,6 +1,6 @@
 import React from 'react';
 import { ImageBackground, Text } from 'react-native';
-import FontAwesome, { Icons } from 'react-native-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import styled from 'styled-components';
 
 
@@ -24,7 +24,7 @@ const MenuItemText = styled.Text`
 `;
 
 
-const ChrevronRed = styled(FontAwesome)`
+const ChevronRed = styled(FontAwesomeIcon)`
   color: #FF412C
   font-size: 18;
   margin-left: 10;
@@ -47,7 +47,7 @@ const MenuItem = ({ text, imageUrl, navigateTo }) => (
         >
             <TextWrapper>
                 <MenuItemText>{text}</MenuItemText>
-                <ChrevronRed>{Icons.chevronRight}</ChrevronRed>
+                <FontAwesomeIcon icon="star" />
             </TextWrapper>
         </ImageBackground>
     </ButtonWrapper>

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import LinearGradient from 'react-native-linear-gradient';
 
-import FontAwesome, { Icons } from 'react-native-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 
 import SearchBar from '../components/SearchBar';
 
@@ -41,17 +41,10 @@ const MainMenuButton = styled(MenuButton)`
   border-left-width: 0;
 `;
 
-const MenuIconText = styled.Text`
-  color: #FF412C
-  text-align: center;
-`;
 
-const MenuIcon = styled(FontAwesome)`
-  font-size: 30;
-`;
-
-const MainMenuIcon = styled(MenuIcon)`
-  font-size: 40;
+const MenuIconWrapper = styled.View`
+  justify-content: center;
+  align-items: center;
 `;
 
 const MenuLabelText = styled.Text`
@@ -77,10 +70,10 @@ class BottomMenuBar extends Component {
 
     renderNavButton = (navButtonFunction, icon, label) => (
         <MenuButton onPress={navButtonFunction ? navButtonFunction : null}>
-            <MenuIconText>
-                <MenuIcon style={{opacity: navButtonFunction ? 1 : 0.3}}>{icon}</MenuIcon>
-            </MenuIconText>
-            <MenuLabelText>Next</MenuLabelText>
+            <MenuIconWrapper>
+                <FontAwesomeIcon size={36} color='#FF412C' style={{opacity: navButtonFunction ? 1 : 0.3}} icon={icon}/>
+            </MenuIconWrapper>
+            <MenuLabelText>{label}</MenuLabelText>
         </MenuButton>
     )
 
@@ -111,6 +104,15 @@ class BottomMenuBar extends Component {
         }
     }
 
+
+    confirmIsTrue = (isOnMoveTab, isCharacterSelectScreen) => {
+        if(isOnMoveTab === true || isCharacterSelectScreen === true) {
+            return true;
+        } else { 
+            return false;
+        }
+    } 
+
     render() {
         const {
             isListView,
@@ -123,6 +125,8 @@ class BottomMenuBar extends Component {
             onPressNextAttack,
             onPressOpenLegendDrawer,
             isCharacterMoveScreen,
+            isCharacterSelectScreen,
+            isOnMoveTab
         } = this.props;
 
         const { showSearch, fadeAnim } = this.state;
@@ -142,7 +146,7 @@ class BottomMenuBar extends Component {
 
                 <MainContainer>
                     {navigation && (
-                        <MainMenuButton style={{ shadowOffset: { width: 0, height: 0 } }} onPress={() => navigation.toggleDrawer()} >
+                        <MainMenuButton style={{ shadowOffset: { width: 0, height: 0 } }} onPress={() => navigation.toggleLeftDrawer()} >
                             <LinearGradient
                                 start={{ x: 1, y: .1 }}
                                 end={{ x: .1, y: 1.5 }}
@@ -155,61 +159,62 @@ class BottomMenuBar extends Component {
                                     borderLeftWidth: 0,
                                 }}
                             >
-                                <MenuIconText>
-                                    <MainMenuIcon>{Icons.bars}</MainMenuIcon>
-                                </MenuIconText>
-                                <MenuLabelText>Menu</MenuLabelText>
+                                <MenuIconWrapper>
+                                    <FontAwesomeIcon size={36} color='#FF412C' icon='bars' />
+                                    <MenuLabelText>Menu</MenuLabelText>
+                                </MenuIconWrapper>
                             </LinearGradient>
                         </MainMenuButton>
                     )}
 
-                    {toggleListView && (
+
+                    { this.confirmIsTrue(isOnMoveTab, isCharacterSelectScreen) && (
                         <MenuButton onPress={toggleListView}>
-                            <MenuIconText>
-                                <MenuIcon>{isListView ? Icons.th : Icons.list}</MenuIcon>
-                            </MenuIconText>
+                            <MenuIconWrapper>
+                                <FontAwesomeIcon size={36} color='#FF412C' icon={isListView ? 'th' : 'list'} />
+                            </MenuIconWrapper>
                             <MenuLabelText>Switch View</MenuLabelText>
                         </MenuButton>
                     )}
                     
                     
-                    {handleSearchTextChange && (
+                    { this.confirmIsTrue(isOnMoveTab, isCharacterSelectScreen) && (
                         <MenuButton onPress={() => this.handleSearchBar()}>
-                            <MenuIconText>
-                                <MenuIcon>{Icons.search}</MenuIcon>
-                            </MenuIconText>
+                            <MenuIconWrapper>
+                                <FontAwesomeIcon size={36} color='#FF412C' icon={'search'} />
+                            </MenuIconWrapper>
                             <MenuLabelText>Search</MenuLabelText>
                         </MenuButton>
                     )}
 
                     {onPressFavoriteFilter && (
                         <MenuButton onPress={onPressFavoriteFilter}>
-                            <MenuIconText>
-                                <MenuIcon>{Icons.star}</MenuIcon>
-                            </MenuIconText>
+                            <MenuIconWrapper>
+                                <FontAwesomeIcon size={36} color='#FF412C' icon={'star'} />
+                            </MenuIconWrapper>
                             <MenuLabelText>Toggle Favorites</MenuLabelText>
                         </MenuButton>
                     )}
 
-                    {onPressFilterMenu && (
-                        <MenuButton onPress={onPressFilterMenu}>
-                            <MenuIconText>
-                                <MenuIcon>{Icons.filter}</MenuIcon>
-                            </MenuIconText>
+                    {isOnMoveTab && onPressFilterMenu && (
+                        <MenuButton onPress={() => navigation.toggleRightDrawer()}>
+                            <MenuIconWrapper>
+                                <FontAwesomeIcon size={36} color='#FF412C' icon={'filter'} />
+                            </MenuIconWrapper>
                             <MenuLabelText>Filter Menu</MenuLabelText>
                         </MenuButton>
                     )}
 
-                    {isCharacterMoveScreen && this.renderNavButton(onPressPreviousAttack, Icons.arrowLeft, 'Previous')}
+                    {isCharacterMoveScreen && this.renderNavButton(onPressPreviousAttack, 'arrow-left', 'Previous')}
 
-                    {isCharacterMoveScreen && this.renderNavButton(onPressNextAttack, Icons.arrowRight, 'Next')}
+                    {isCharacterMoveScreen && this.renderNavButton(onPressNextAttack, 'arrow-right', 'Next')}
 
 
                     {onPressOpenLegendDrawer && (
-                        <MenuButton onPress={onPressOpenLegendDrawer}>
-                            <MenuIconText>
-                                <MenuIcon>{Icons.book}</MenuIcon>
-                            </MenuIconText>
+                        <MenuButton onPress={() => navigation.toggleRightDrawer()}>
+                            <MenuIconWrapper>
+                                <FontAwesomeIcon size={36} color='#FF412C' icon={isListView ? 'th' : 'book-open'} />
+                            </MenuIconWrapper>
                             <MenuLabelText>Legend</MenuLabelText>
                         </MenuButton>
                     )}

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Animated, View, Text, Dimensions, StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
 import { connect } from 'react-redux';
+import { compose } from 'redux';
 
 import StarWrapper from '../components/StarWrapper';
 
@@ -12,7 +13,6 @@ import * as favoriteActions from '../redux/actions/favoriteActions';
 import * as searchActions from '../redux/actions/searchActions';
 
 import { GradientTheme } from '../common/GradientTheme';
-import DrawerSwitcher from '../components/DrawerSwitcher';
 import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
 
 // components
@@ -22,10 +22,17 @@ import firebase from 'react-native-firebase';
 import AdBanner from '../components/AdBanner';
 import MoveTab from '../components/CharacterProfile/MoveTab';
 import ComboTab from '../components/CharacterProfile/ComboTab';
+import SpotlightTab from '../components/CharacterProfile/SpotlightTab';
 
 //selectors
 import { filterMoves, searchMoves } from '../selectors/characterProfile';
 import CHARACTER_COMBOS from '../constants/characterCombos';
+
+import { withMappedNavigationParams } from 'react-navigation-props-mapper';
+
+//assets
+import playerData from '../../assets/spotlight-data/spotlights.json';
+
 
 export const mapDispatcthToProps = {
     ...characterActions,
@@ -35,7 +42,7 @@ export const mapDispatcthToProps = {
 };
 
 export const mapStateToProps = ({
-    characterData: { selectedCharacterMoves },
+    characterData: { selectedCharacterMoves, selectedCharacterMetaData },
     favorites,
     filter: { activeFilters },
     search: { profileInput },
@@ -45,7 +52,10 @@ export const mapStateToProps = ({
     listView,
     theme,
     favorites,
-    selectedCharacterMoves: searchMoves(filterMoves(selectedCharacterMoves, activeFilters), profileInput)
+    selectedCharacterMoves,
+    selectedCharacterMetaData,
+    activeFilters,
+    profileInput
 });
 
 const FILTERS_INITIAL_STATE = {
@@ -61,26 +71,28 @@ const FILTERS_INITIAL_STATE = {
     }
 };
 
-const Combos = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-    <Text>Combos coming soon!</Text>
+const Spotlight = () => <View style={{backgroundColor: '#0e0f10', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <Text style={{ fontSize: 16, color: '#AF8D89'}}>There is not spotlight data for this character </Text>
 </View>;
 
-const Spotlight = () => <View style={{backgroundColor: 'gray', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-    <Text>Stay Tuned for Player Spotlights!</Text>
+const Combo = () => <View style={{backgroundColor: '#0e0f10', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <Text style={{ fontSize: 16, color: '#AF8D89'}}>There is not combo data for this character </Text>
 </View>;
-  
+
 class CharacterProfile extends Component {
 
-    static navigationOptions = ({ navigation: { state: { params: { name, favorite, onStarPress } } } }) => ({
-        headerTransparent: false,
-        title: name,
-        headerBackTitle: null,
-        headerTitleStyle: {
-            fontWeight: 'bold',
-            color: '#FFFFFF'
-        },
-        headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />,
-    })
+    static navigationOptions = ({name, favorite, onStarPress}) => {
+        return {
+            headerTransparent: false,
+            title: name,
+            headerBackTitle: null,
+            headerTitleStyle: {
+                fontWeight: 'bold',
+                color: '#FFFFFF'
+            },
+            headerRight: <StarWrapper onStarPress={onStarPress} favorite={favorite} />,
+        };
+    }
 
     static propTypes = {
         navigation: PropTypes.object,
@@ -111,30 +123,35 @@ class CharacterProfile extends Component {
         count: 20,
         loading: false,
         index: 0,
+        isOnMoveTab: true,
         routes: [
             {key: 'moves', title: 'Moves'},
             {key: 'combos', title: 'Combos'},
-            //{key: 'spotlight', title: 'Spotlight'}
+            {key: 'spotlight', title: 'Spotlight'}
         ]
     }
 
 
     componentDidMount() {
-        const { navigation, listView } = this.props;
-        //const moveListArray = navigation.getParam('moveList');
-        const charName = navigation.getParam('name');
-        const isFavorite = navigation.getParam('favorite');
+        const { navigation, listView, selectedCharacterMetaData, toggleCharacterStar } = this.props;
+        const { displayName, favorite } = selectedCharacterMetaData;
+
+        navigation.setParams({
+            name: displayName,
+            favorite,
+            onStarPress: toggleCharacterStar
+        });
 
         firebase.analytics().logEvent('Screen_Character_Profile', {
-            character: charName,
+            character: displayName,
             listView: listView ? 'ListView' : 'SpreadsheetView',
-            isFavorite: isFavorite
+            isFavorite: favorite
         });
     }
 
     componentDidUpdate = (prev) => {
-        const { navigation, favorites } = this.props;
-        const label = navigation.getParam('label');
+        const { navigation, favorites, selectedCharacterMetaData } = this.props;
+        const { label } = selectedCharacterMetaData;
 
         if (favorites !== prev.favorites) {
             navigation.setParams({ favorite: favorites.characters[label] });
@@ -164,53 +181,80 @@ class CharacterProfile extends Component {
         });
     }
 
+    onTabSwitch = (bool) => {
+        this.setState({
+            isOnMoveTab: bool
+        });
+    }
+
+    handleIndexChange = (index) => {
+        index === 0 ? this.setState({isOnMoveTab: true}) : this.setState({isOnMoveTab: false});
+        this.setState({index});
+    }
+
     render() {
         const { tabIndex } = this.state;
 
-        const { selectedCharacterMoves,
+        const {
+            selectedCharacterMoves,
+            selectedCharacterMetaData: {label, displayName},
             navigation,
-            navigation: { state: { params: { label } } },
             toggleListView,
             listView,
             theme,
             updateMoveData,
-            searchProfileMoves
+            searchProfileMoves,
+            profileInput,
+            activeFilters
         } = this.props;
-        const name = navigation.getParam('name');
+
         const { isOpen, side} = this.state;
 
         const MoveTabWrapper = () => (
             <MoveTab
                 listView={listView}
-                selectedCharacterMoves={selectedCharacterMoves}
+                selectedCharacterMoves={searchMoves(filterMoves(selectedCharacterMoves, activeFilters), profileInput)}
                 navigation={navigation}
                 theme={theme}
                 label={label}
                 updateMoveData={updateMoveData}
-                name={name}
+                name={displayName}
             />
         );
 
-        const ComboTabWrapper = () => (
-            CHARACTER_COMBOS[label] ? <ComboTab combos={CHARACTER_COMBOS[label].combos} /> : <Combos/>
-        );
+        const ComboTabWrapper = () => {
+            firebase.analytics().logEvent('Combo_Lookup', {
+                characterName: label
+            });
+            return CHARACTER_COMBOS[label] ? <ComboTab combos={CHARACTER_COMBOS[label].combos} /> : <Combo />;
+        };
+
+        const availableChars = playerData.reduce((acc, current) => 
+            [...acc, current.character.toLowerCase()], []);
+
+        const SpotlightTabWrapper = () => {
+            firebase.analytics().logEvent('Spotlight_Lookup', {
+                characterName: label
+            });
+            return availableChars.includes(label) ? 
+                <SpotlightTab
+                    playerData={playerData.find(player => player.character.toLowerCase() === label)}
+                    navigation={navigation}
+                    theme={theme}
+                    label={label}
+                />
+                : <Spotlight />;
+        };
 
         return (
             <GradientTheme theme={theme}>
-                <DrawerSwitcher
-                    component={
-                        <FilterMenu />
-                    }
-                    side={side}
-                    isOpen={isOpen}
-                    onClose={this.onDrawerClose}
-                >
                     <View style={{ flex: 1 }}>
                         <AdBanner screen={'character-profile'} />
                         <TabView
                             navigationState={this.state}
-                            onIndexChange={index => this.setState({index})}
+                            onIndexChange={index => this.handleIndexChange(index)}
                             initialLayout={{width: Dimensions.get('window').width}}
+                            swipeEnabled={false}
                             renderTabBar={props =>
                                 <TabBar 
                                     {...props}
@@ -221,7 +265,7 @@ class CharacterProfile extends Component {
                             renderScene={SceneMap({
                                 moves: MoveTabWrapper,
                                 combos: ComboTabWrapper,
-                                //spotlight: Spotlight
+                                spotlight: SpotlightTabWrapper
                             })}
                         />
                         <BottomMenuBar
@@ -230,9 +274,9 @@ class CharacterProfile extends Component {
                             onPressFilterMenu={this.openRightDrawer}
                             toggleListView={toggleListView}
                             handleSearchTextChange={(searchTerm) => searchProfileMoves(searchTerm)}
+                            isOnMoveTab={this.state.isOnMoveTab}
                         />
                     </View>
-                </DrawerSwitcher>
             </GradientTheme>
         );
     }
@@ -249,4 +293,7 @@ const styles = StyleSheet.create({
     },
 });
 
-export default connect(mapStateToProps, mapDispatcthToProps)(CharacterProfile);
+export default compose(
+    withMappedNavigationParams(),
+    connect(mapStateToProps, mapDispatcthToProps),
+)(CharacterProfile)
