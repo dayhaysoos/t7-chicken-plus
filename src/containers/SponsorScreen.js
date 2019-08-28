@@ -1,5 +1,5 @@
 import React from 'react'
-import { Linking, Clipboard } from 'react-native';
+import { Linking, Clipboard, Text } from 'react-native';
 import { GradientTheme } from '../common/GradientTheme';
 import { defaultTheme } from '../themes/defaultTheme';
 import { sponsorImages } from '../constants/sponsorImages';
@@ -81,7 +81,7 @@ const onSponsorSitePress = (url, name) => async () => {
 
 };
 
-const onDiscountSitePress = (discountCode) => {
+const onDiscountSitePress = (discountCode, name) => {
 
     firebase.analytics().logEvent('Copy_Discount_To_Clipboard', {
         name,
@@ -112,7 +112,7 @@ const SponsorScreen = ({ navigation }) => {
                 <DiscountCodeWrapper
                     bg={defaultTheme.primaryGradient2}
                     border={defaultTheme.icon}
-                    onPress={onDiscountSitePress(discountCode)}>
+                    onPress={onDiscountSitePress(discountCode, name)}>
                     <DiscountCode>
                         {discountCode}
                     </DiscountCode>
