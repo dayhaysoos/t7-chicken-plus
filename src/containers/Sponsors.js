@@ -15,8 +15,6 @@ class Sponsors extends Component {
 
         const { navigation } = this.props;
 
-        console.log('sponsorList', sponsorList)
-
         return (
             sponsorList.sponsors.map(sponsor => (
                 <SponsorMenuItem

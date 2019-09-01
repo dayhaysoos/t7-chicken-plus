@@ -3,6 +3,7 @@ import alisa from '../../assets/character-data/combos/alisa-combos';
 import anna from '../../assets/character-data/combos/anna-combos';
 import armorking from '../../assets/character-data/combos/armorking-combos';
 import asuka from '../../assets/character-data/combos/asuka-combos';
+import bob from '../../assets/character-data/combos/bob-combos';
 import bryan from '../../assets/character-data/combos/bryan-combos';
 import claudio from '../../assets/character-data/combos/claudio-combos';
 import deviljin from '../../assets/character-data/combos/deviljin-combos';
@@ -46,6 +47,7 @@ const CHARACTER_COMBOS = {
     anna,
     armorking,
     asuka,
+    bob,
     bryan,
     claudio,
     deviljin,
