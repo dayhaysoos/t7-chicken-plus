@@ -95,7 +95,7 @@ const socialChecker = (social = '') => {
     return social.length > 1
 }
 
-const SpotlightTab = ({ playerData: { favorite_moves, name, bio, sponsor, twitch, twitter, instagram, character }, navigation, theme, characterMoves }) => (
+const SpotlightTab = ({ playerData: { favorite_moves, name, bio, sponsor, twitch, twitter, instagram, character, youtube }, navigation, theme, characterMoves }) => (
     <ScrollView>
         <SpotlightWrapper>
             <DetailText theme={theme}>Player Spotlight</DetailText>
@@ -120,6 +120,12 @@ const SpotlightTab = ({ playerData: { favorite_moves, name, bio, sponsor, twitch
             {socialChecker(instagram) && (
                 <TouchableSocial bgColor={'#E1306C'} onPress={onIconPress(instagram, character, name)}>
                     <FontAwesomeIcon size={24} style={{ color: 'white' }} icon={['fab', 'instagram']} />
+                </TouchableSocial>
+            )}
+            
+            {socialChecker(youtube) && (
+                <TouchableSocial bgColor={'#FF0000;'} onPress={onIconPress(youtube, character, name)}>
+                    <FontAwesomeIcon size={24} style={{ color: 'white' }} icon={['fab', 'youtube']} />
                 </TouchableSocial>
             )}
         </SocialIconsWrapper>

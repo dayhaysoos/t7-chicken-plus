@@ -163,7 +163,7 @@ PODS:
     - React
   - RNGestureHandler (1.4.1):
     - React
-  - RNIap (3.4.0):
+  - RNIap (2.3.21):
     - React
   - RNReanimated (1.2.0):
     - React
@@ -336,7 +336,7 @@ SPEC CHECKSUMS:
   RNCAsyncStorage: e99188b8a89ea0edddc82d8831cd5142f4550fdc
   RNFirebase: ca408d6bee0ca9383bd0cfe84f40b01370b8ad4d
   RNGestureHandler: 311e3b1cef021a7c9ef31e97e7dc31970cc6288d
-  RNIap: 69ad8358c6e606485f74d62815f54c90f9c1e2ed
+  RNIap: ef7dbcbb0ad7bb2400c14797ef3fad4e02ff0681
   RNReanimated: 9f7976535c5cde50189acd84751871f5414190b9
   RNScreens: 354046589421edc3d83d5c6212475bf1fb9a731d
   RNSVG: 2e097b92aaa6d4e0f354fd7c49cbf3b17f8b3920
