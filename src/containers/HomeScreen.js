@@ -99,13 +99,13 @@ class HomeScreen extends React.Component {
                     text={'Sponsors'}
                     imageUrl={sponsors}
                 />
-                {hasPaid ? null : (
+                {/* {hasPaid ? null : (
                     <MenuItem
                         navigateTo={() => null}
                         text={'Ad Removal coming soon'}
                         imageUrl={removeAds}
                     />
-                )}
+                )} */}
                 <MenuItem
                     navigateTo={() => navigation.navigate('Support')}
                     text={'Support Us'}
