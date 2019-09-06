@@ -39,8 +39,7 @@ const bannerSizeSwitcher = (size) => {
 };
 
 const AdBanner = ({ size, screen }) => (
-    null
-    // <Banner style={{ marginLeft: '11%' }} size={bannerSizeSwitcher(size)} unitId={appUnitSwitcher(screen)} />
+    <Banner style={{ marginLeft: '11%' }} size={bannerSizeSwitcher(size)} unitId={appUnitSwitcher(screen)} />
 );
 
 export default AdBanner;
