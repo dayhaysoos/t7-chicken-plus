@@ -1175,7 +1175,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/CheeryLinedKodiakbear.gif",
+      "preview_url": "https://giant.gfycat.com/MeatyMasculineCheetah.gif",
       "move_name": "Zankyosho",
       "notation": "f, F+2",
       "hit_level": "high",
@@ -1318,7 +1318,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "23 [27]",
+      "damage": "20 [24]",
       "speed": "11",
       "on_block": "-10",
       "on_hit": "LAUNCH",
@@ -1331,7 +1331,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/RespectfulObeseAmericanbittern.gif",
+      "preview_url": "https://giant.gfycat.com/DaringFamousCommongonolek.gif",
       "move_name": "Electric Wind God Fist",
       "notation": "f, n, d, d/f:2",
       "hit_level": "high",
@@ -1344,7 +1344,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "23 [27]",
+      "damage": "20 [24]",
       "speed": "11",
       "on_block": "+5",
       "on_hit": "LAUNCH",
@@ -1695,7 +1695,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/HonorableHideousGalapagosdove.gif",
+      "preview_url": "https://giant.gfycat.com/AcceptableAmbitiousBaboon.gif",
       "move_name": "Abolishing Fist",
       "notation": "d/f+2",
       "hit_level": "mid",
@@ -1968,7 +1968,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "18 [21]",
+      "damage": "20 [24]",
       "speed": "25",
       "on_block": "-14",
       "on_hit": "+1",
@@ -2163,6 +2163,57 @@
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/BarrenNiftyEnglishpointer.gif",
+      "move_name": "Rampaging Demon to Left Hook",
+      "notation": "b+2, 1",
+      "hit_level": "mid, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "12 [14], 20",
+      "speed": "14",
+      "on_block": "-14",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "kazuya_84"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "notation": "(b+2), 1",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "20 [24]",
+      "speed": "31",
+      "on_block": "-14",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "kazuya_85"
+    },
+    {
+      "properties": [],
       "preview_url": null,
       "move_name": null,
       "notation": "b+2, 4",
@@ -2185,7 +2236,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_84"
+      "id": "kazuya_86"
     },
     {
       "properties": [],
@@ -2211,7 +2262,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_85"
+      "id": "kazuya_87"
     },
     {
       "properties": [],
@@ -2237,7 +2288,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_86"
+      "id": "kazuya_88"
     },
     {
       "properties": [],
@@ -2263,7 +2314,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_87"
+      "id": "kazuya_89"
     },
     {
       "properties": [],
@@ -2289,7 +2340,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_88"
+      "id": "kazuya_90"
     },
     {
       "properties": [],
@@ -2315,7 +2366,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_89"
+      "id": "kazuya_91"
     },
     {
       "properties": [],
@@ -2341,7 +2392,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_90"
+      "id": "kazuya_92"
     },
     {
       "properties": [],
@@ -2367,7 +2418,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_91"
+      "id": "kazuya_93"
     },
     {
       "properties": [],
@@ -2393,7 +2444,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_92"
+      "id": "kazuya_94"
     },
     {
       "properties": [],
@@ -2419,7 +2470,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_93"
+      "id": "kazuya_95"
     },
     {
       "properties": [],
@@ -2445,7 +2496,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_94"
+      "id": "kazuya_96"
     },
     {
       "properties": [],
@@ -2471,7 +2522,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_95"
+      "id": "kazuya_97"
     },
     {
       "properties": [],
@@ -2497,7 +2548,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_96"
+      "id": "kazuya_98"
     },
     {
       "properties": [],
@@ -2523,7 +2574,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_97"
+      "id": "kazuya_99"
     },
     {
       "properties": [],
@@ -2549,7 +2600,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_98"
+      "id": "kazuya_100"
     },
     {
       "properties": [],
@@ -2575,7 +2626,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_99"
+      "id": "kazuya_101"
     },
     {
       "properties": [],
@@ -2601,7 +2652,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_100"
+      "id": "kazuya_102"
     },
     {
       "properties": [],
@@ -2627,7 +2678,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_101"
+      "id": "kazuya_103"
     },
     {
       "properties": [],
@@ -2653,7 +2704,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_102"
+      "id": "kazuya_104"
     },
     {
       "properties": [],
@@ -2671,7 +2722,7 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "20 [24]",
-      "speed": "19",
+      "speed": "17",
       "on_block": "-5",
       "on_hit": "+16",
       "on_ch": "S!",
@@ -2679,7 +2730,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_103"
+      "id": "kazuya_105"
     },
     {
       "properties": [],
@@ -2705,7 +2756,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_104"
+      "id": "kazuya_106"
     },
     {
       "properties": [],
@@ -2731,7 +2782,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_105"
+      "id": "kazuya_107"
     },
     {
       "properties": [],
@@ -2757,7 +2808,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_106"
+      "id": "kazuya_108"
     },
     {
       "properties": [],
@@ -2783,7 +2834,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_107"
+      "id": "kazuya_109"
     },
     {
       "properties": [],
@@ -2809,7 +2860,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_108"
+      "id": "kazuya_110"
     },
     {
       "properties": [],
@@ -2835,7 +2886,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_109"
+      "id": "kazuya_111"
     },
     {
       "properties": [],
@@ -2861,7 +2912,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_110"
+      "id": "kazuya_112"
     },
     {
       "properties": [],
@@ -2887,7 +2938,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_111"
+      "id": "kazuya_113"
     },
     {
       "properties": [],
@@ -2913,7 +2964,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_112"
+      "id": "kazuya_114"
     },
     {
       "properties": [],
@@ -2939,7 +2990,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_113"
+      "id": "kazuya_115"
     },
     {
       "properties": [],
@@ -2965,7 +3016,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_114"
+      "id": "kazuya_116"
     },
     {
       "properties": [],
@@ -2991,7 +3042,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_115"
+      "id": "kazuya_117"
     },
     {
       "properties": [],
@@ -3017,7 +3068,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_116"
+      "id": "kazuya_118"
     },
     {
       "properties": [],
@@ -3043,7 +3094,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_117"
+      "id": "kazuya_119"
     },
     {
       "properties": [],
@@ -3069,7 +3120,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_118"
+      "id": "kazuya_120"
     },
     {
       "properties": [],
@@ -3095,7 +3146,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_119"
+      "id": "kazuya_121"
     },
     {
       "properties": [],
@@ -3121,7 +3172,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_120"
+      "id": "kazuya_122"
     },
     {
       "properties": [],
@@ -3147,7 +3198,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_121"
+      "id": "kazuya_123"
     },
     {
       "properties": [],
@@ -3173,7 +3224,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_122"
+      "id": "kazuya_124"
     },
     {
       "properties": [],
@@ -3199,7 +3250,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_123"
+      "id": "kazuya_125"
     },
     {
       "properties": [],
@@ -3225,7 +3276,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_124"
+      "id": "kazuya_126"
     },
     {
       "properties": [],
@@ -3251,7 +3302,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_125"
+      "id": "kazuya_127"
     },
     {
       "properties": [],
@@ -3277,7 +3328,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_126"
+      "id": "kazuya_128"
     },
     {
       "properties": [],
@@ -3303,7 +3354,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_127"
+      "id": "kazuya_129"
     },
     {
       "properties": [],
@@ -3329,7 +3380,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_128"
+      "id": "kazuya_130"
     },
     {
       "properties": [],
@@ -3355,7 +3406,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_129"
+      "id": "kazuya_131"
     },
     {
       "properties": [],
@@ -3381,7 +3432,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_130"
+      "id": "kazuya_132"
     },
     {
       "properties": [],
@@ -3407,7 +3458,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_131"
+      "id": "kazuya_133"
     },
     {
       "properties": [],
@@ -3433,7 +3484,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_132"
+      "id": "kazuya_134"
     },
     {
       "properties": [],
@@ -3459,7 +3510,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_133"
+      "id": "kazuya_135"
     },
     {
       "properties": [],
@@ -3485,7 +3536,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_134"
+      "id": "kazuya_136"
     },
     {
       "properties": [],
@@ -3511,7 +3562,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_135"
+      "id": "kazuya_137"
     },
     {
       "properties": [],
@@ -3537,7 +3588,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_136"
+      "id": "kazuya_138"
     },
     {
       "properties": [],
@@ -3563,7 +3614,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_137"
+      "id": "kazuya_139"
     },
     {
       "properties": [],
@@ -3589,7 +3640,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_138"
+      "id": "kazuya_140"
     },
     {
       "properties": [],
@@ -3606,7 +3657,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "45 [54], 18",
+      "damage": "45 [54], 12",
       "speed": "18",
       "on_block": "-",
       "on_hit": "KND",
@@ -3615,7 +3666,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_139"
+      "id": "kazuya_141"
     },
     {
       "properties": [],
@@ -3641,7 +3692,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_140"
+      "id": "kazuya_142"
     },
     {
       "properties": [],
@@ -3667,7 +3718,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_141"
+      "id": "kazuya_143"
     },
     {
       "properties": [],
@@ -3693,7 +3744,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_142"
+      "id": "kazuya_144"
     },
     {
       "properties": [],
@@ -3719,7 +3770,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_143"
+      "id": "kazuya_145"
     },
     {
       "properties": [],
@@ -3745,7 +3796,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_144"
+      "id": "kazuya_146"
     },
     {
       "properties": [],
@@ -3771,7 +3822,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_145"
+      "id": "kazuya_147"
     },
     {
       "properties": [],
@@ -3797,7 +3848,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_146"
+      "id": "kazuya_148"
     },
     {
       "properties": [],
@@ -3823,7 +3874,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_147"
+      "id": "kazuya_149"
     },
     {
       "properties": [],
@@ -3849,7 +3900,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_148"
+      "id": "kazuya_150"
     },
     {
       "properties": [],
@@ -3875,7 +3926,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_149"
+      "id": "kazuya_151"
     },
     {
       "properties": [],
@@ -3901,7 +3952,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_150"
+      "id": "kazuya_152"
     },
     {
       "properties": [],
@@ -3927,7 +3978,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_151"
+      "id": "kazuya_153"
     },
     {
       "properties": [],
@@ -3953,7 +4004,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_152"
+      "id": "kazuya_154"
     },
     {
       "properties": [],
@@ -3979,7 +4030,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_153"
+      "id": "kazuya_155"
     },
     {
       "properties": [],
@@ -4005,7 +4056,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_154"
+      "id": "kazuya_156"
     },
     {
       "properties": [],
@@ -4031,7 +4082,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_155"
+      "id": "kazuya_157"
     },
     {
       "properties": [],
@@ -4057,7 +4108,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_156"
+      "id": "kazuya_158"
     },
     {
       "properties": [],
@@ -4083,7 +4134,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_157"
+      "id": "kazuya_159"
     },
     {
       "properties": [],
@@ -4109,7 +4160,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_158"
+      "id": "kazuya_160"
     },
     {
       "properties": [],
@@ -4135,7 +4186,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_159"
+      "id": "kazuya_161"
     },
     {
       "properties": [],
@@ -4161,7 +4212,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_160"
+      "id": "kazuya_162"
     },
     {
       "properties": [],
@@ -4187,7 +4238,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_161"
+      "id": "kazuya_163"
     },
     {
       "properties": [],
@@ -4213,7 +4264,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_162"
+      "id": "kazuya_164"
     },
     {
       "properties": [],
@@ -4239,7 +4290,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_163"
+      "id": "kazuya_165"
     },
     {
       "properties": [],
@@ -4265,7 +4316,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_164"
+      "id": "kazuya_166"
     },
     {
       "properties": [],
@@ -4291,7 +4342,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_165"
+      "id": "kazuya_167"
     },
     {
       "properties": [],
@@ -4317,7 +4368,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_166"
+      "id": "kazuya_168"
     },
     {
       "properties": [],
@@ -4343,7 +4394,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_167"
+      "id": "kazuya_169"
     },
     {
       "properties": [],
@@ -4369,7 +4420,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_168"
+      "id": "kazuya_170"
     },
     {
       "properties": [],
@@ -4395,7 +4446,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_169"
+      "id": "kazuya_171"
     },
     {
       "properties": [],
@@ -4421,7 +4472,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_170"
+      "id": "kazuya_172"
     },
     {
       "properties": [],
@@ -4447,7 +4498,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_171"
+      "id": "kazuya_173"
     },
     {
       "properties": [],
@@ -4473,7 +4524,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_172"
+      "id": "kazuya_174"
     },
     {
       "properties": [],
@@ -4499,7 +4550,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_173"
+      "id": "kazuya_175"
     },
     {
       "properties": [],
@@ -4525,7 +4576,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_174"
+      "id": "kazuya_176"
     },
     {
       "properties": [],
@@ -4551,7 +4602,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "kazuya_175"
+      "id": "kazuya_177"
     }
   ]
 }

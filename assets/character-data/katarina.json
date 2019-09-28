@@ -1,5 +1,5 @@
 {
-  "fullname": "Katarina",
+  "fullname": "Katarina ",
   "displayName": "Katarina",
   "label": "katarina",
   "movelist": [
@@ -1060,7 +1060,7 @@
       "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "11",
-      "on_block": "-9",
+      "on_block": "-12",
       "on_hit": "+8",
       "on_ch": "LAUNCH",
       "in_air": "-",
@@ -1084,7 +1084,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "17 [20], 20 [14]",
+      "damage": "17 [20], 15 [10]",
       "speed": "11",
       "on_block": "-10",
       "on_hit": "+4",
@@ -1305,7 +1305,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/RewardingShallowAsianporcupine.gif",
+      "preview_url": "https://giant.gfycat.com/ThankfulPastIberianemeraldlizard.gif",
       "move_name": "Nimble Cutter",
       "notation": "4, 4, 4, 4, 4",
       "hit_level": "high, mid, high, high, mid",
@@ -1419,7 +1419,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
-      "environmental": "-",
+      "environmental": "WALL BOUND",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "25 [30]",
@@ -1448,7 +1448,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "22 [26]",
+      "damage": "27 [32]",
       "speed": "19",
       "on_block": "-13",
       "on_hit": "LAUNCH",
@@ -1835,7 +1835,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
-      "environmental": "-",
+      "environmental": "WALL BOUND",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "21 [25]",
@@ -1851,7 +1851,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/InfatuatedEagerJuliabutterfly.gif",
+      "preview_url": "https://giant.gfycat.com/WeakWavyIberianemeraldlizard.gif",
       "move_name": "Wing Cutter",
       "notation": "u/f+4, 4, 4, 4, 4, 4",
       "hit_level": "mid, mid, mid, high, high, mid",
@@ -2007,7 +2007,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/RevolvingLegalCaterpillar.gif",
+      "preview_url": "https://giant.gfycat.com/UnsightlyUnsteadyGrunion.gif",
       "move_name": "Hovering",
       "notation": "u/f+3+4",
       "hit_level": "mid, mid",
@@ -2100,8 +2100,8 @@
       "meter_gain": "-",
       "damage": "23 [27]",
       "speed": "24",
-      "on_block": "0 (OC)",
-      "on_hit": "+4 (OC)",
+      "on_block": "+1 (OC)",
+      "on_hit": "+5 (OC)",
       "on_ch": "STUN",
       "in_air": "-",
       "on_whiff": "-",
@@ -2137,9 +2137,9 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ActualMajesticFlies.gif",
+      "preview_url": "https://giant.gfycat.com/BrokenRichGyrfalcon.gif",
       "move_name": "Bird Chaser",
-      "notation": "f, F+2, 4",
+      "notation": "GROUND BOUND",
       "hit_level": "high, high",
       "range": "-",
       "pushback": "-",
@@ -2204,9 +2204,9 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "24",
-      "on_block": "-6",
+      "on_block": "-9",
       "on_hit": "KND",
-      "on_ch": "STUN",
+      "on_ch": "FLOOR BOUND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -2621,7 +2621,7 @@
       "damage": "21 [25]",
       "speed": "25",
       "on_block": "-14",
-      "on_hit": "+2 (OC)",
+      "on_hit": "-1 (OC)",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
@@ -2647,7 +2647,7 @@
       "damage": "21 [25]",
       "speed": "25",
       "on_block": "-14",
-      "on_hit": "+2 (OC)",
+      "on_hit": "-1 (OC)",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
@@ -3034,9 +3034,9 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "18 [21]",
+      "damage": "20 [24]",
       "speed": "27",
-      "on_block": "-16",
+      "on_block": "-14",
       "on_hit": "LAUNCH",
       "on_ch": "LAUNCH",
       "in_air": "-",
@@ -3060,11 +3060,11 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "15 [18]",
+      "damage": "17 [20]",
       "speed": "12",
       "on_block": "-9",
       "on_hit": "+2",
-      "on_ch": "+7",
+      "on_ch": "+27",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -3268,7 +3268,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "25 [30]",
+      "damage": "23 [27]",
       "speed": "16",
       "on_block": "-14",
       "on_hit": "KND",
@@ -3710,7 +3710,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "24 [28]",
+      "damage": "20 [24]",
       "speed": "26",
       "on_block": "-20",
       "on_hit": "KND",
@@ -4035,6 +4035,32 @@
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/OrnateImpressionableCatfish.gif",
+      "move_name": null,
+      "notation": "3, 3, 3, F",
+      "hit_level": "mid, mid, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "9 [10], 4, 4",
+      "speed": "14",
+      "on_block": "-29",
+      "on_hit": "-18",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "katarina_156"
+    },
+    {
+      "properties": [],
       "preview_url": "https://giant.gfycat.com/FluffyHelplessBushbaby.gif",
       "move_name": "Nimble Cutter to Harrier",
       "notation": "4, 4, 4, F",
@@ -4057,7 +4083,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_156"
+      "id": "katarina_157"
     },
     {
       "properties": [],
@@ -4083,7 +4109,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_157"
+      "id": "katarina_158"
     },
     {
       "properties": [],
@@ -4109,7 +4135,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_158"
+      "id": "katarina_159"
     },
     {
       "properties": [],
@@ -4135,7 +4161,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_159"
+      "id": "katarina_160"
     },
     {
       "properties": [],
@@ -4161,7 +4187,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_160"
+      "id": "katarina_161"
     },
     {
       "properties": [],
@@ -4187,7 +4213,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_161"
+      "id": "katarina_162"
     },
     {
       "properties": [],
@@ -4213,7 +4239,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_162"
+      "id": "katarina_163"
     },
     {
       "properties": [],
@@ -4239,7 +4265,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_163"
+      "id": "katarina_164"
     },
     {
       "properties": [],
@@ -4265,7 +4291,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_164"
+      "id": "katarina_165"
     },
     {
       "properties": [],
@@ -4282,7 +4308,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "23 [27]",
+      "damage": "20 [24]",
       "speed": "26",
       "on_block": "-25",
       "on_hit": "KND",
@@ -4291,7 +4317,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_165"
+      "id": "katarina_166"
     },
     {
       "properties": [],
@@ -4310,14 +4336,92 @@
       "meter_gain": "-",
       "damage": "27 [32]",
       "speed": "15",
-      "on_block": "-13",
+      "on_block": "-9",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_166"
+      "id": "katarina_167"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "HAR d/f+2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "13 [15]",
+      "speed": "16",
+      "on_block": "-13",
+      "on_hit": "-2",
+      "on_ch": "-2",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "katarina_168"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/BitesizedFrankGnu.gif",
+      "move_name": "Egret Rush",
+      "notation": "HAR d/f+2, 3",
+      "hit_level": "mid, high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "13 [15], 18",
+      "speed": "16",
+      "on_block": "-3",
+      "on_hit": "+14",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "katarina_169"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "HAR (d/f+2), 3",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "18 [21]",
+      "speed": "21",
+      "on_block": "-3",
+      "on_hit": "+14",
+      "on_ch": "+14",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "katarina_170"
     },
     {
       "properties": [],
@@ -4336,14 +4440,14 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "27",
-      "on_block": "-6",
+      "on_block": "-9",
       "on_hit": "KND",
-      "on_ch": "STUN",
+      "on_ch": "FLOOR BOUND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_167"
+      "id": "katarina_171"
     },
     {
       "properties": [],
@@ -4369,7 +4473,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_168"
+      "id": "katarina_172"
     },
     {
       "properties": [],
@@ -4395,7 +4499,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_169"
+      "id": "katarina_173"
     },
     {
       "properties": [],
@@ -4421,7 +4525,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_170"
+      "id": "katarina_174"
     },
     {
       "properties": [],
@@ -4447,7 +4551,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_171"
+      "id": "katarina_175"
     },
     {
       "properties": [],
@@ -4473,7 +4577,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_172"
+      "id": "katarina_176"
     },
     {
       "properties": [],
@@ -4499,7 +4603,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_173"
+      "id": "katarina_177"
     },
     {
       "properties": [],
@@ -4525,7 +4629,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_174"
+      "id": "katarina_178"
     },
     {
       "properties": [],
@@ -4551,7 +4655,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_175"
+      "id": "katarina_179"
     },
     {
       "properties": [],
@@ -4577,7 +4681,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_176"
+      "id": "katarina_180"
     },
     {
       "properties": [],
@@ -4603,7 +4707,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_177"
+      "id": "katarina_181"
     },
     {
       "properties": [],
@@ -4629,7 +4733,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_178"
+      "id": "katarina_182"
     },
     {
       "properties": [],
@@ -4655,7 +4759,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_179"
+      "id": "katarina_183"
     },
     {
       "properties": [],
@@ -4681,7 +4785,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_180"
+      "id": "katarina_184"
     },
     {
       "properties": [],
@@ -4707,7 +4811,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_181"
+      "id": "katarina_185"
     },
     {
       "properties": [],
@@ -4733,7 +4837,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_182"
+      "id": "katarina_186"
     },
     {
       "properties": [],
@@ -4759,7 +4863,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_183"
+      "id": "katarina_187"
     },
     {
       "properties": [],
@@ -4785,7 +4889,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_184"
+      "id": "katarina_188"
     },
     {
       "properties": [],
@@ -4811,7 +4915,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "katarina_185"
+      "id": "katarina_189"
     }
   ]
 }

@@ -1242,8 +1242,8 @@
       "meter_gain": "-",
       "damage": "19 [22], 18",
       "speed": "I18",
-      "on_block": "-15",
-      "on_hit": "+4",
+      "on_block": "-14",
+      "on_hit": "+5",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
@@ -1268,8 +1268,8 @@
       "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "36",
-      "on_block": "-15",
-      "on_hit": "+4",
+      "on_block": "-14",
+      "on_hit": "+5",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
@@ -2306,7 +2306,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "12 [14]",
+      "damage": "15 [18]",
       "speed": "30",
       "on_block": "-7",
       "on_hit": "GROUND BOUNCE",
@@ -2919,7 +2919,7 @@
       "properties": [],
       "preview_url": "https://giant.gfycat.com/MenacingElementaryAnemonecrab.gif",
       "move_name": "Asfixiante",
-      "notation": "b+1+2",
+      "notation": "b+1+2 (or b+1~1+2) (or b+2+1~2)",
       "hit_level": "mid",
       "range": "-",
       "pushback": "-",
@@ -3281,7 +3281,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/SpiritedDopeyGroundbeetle.gif",
+      "preview_url": "https://giant.gfycat.com/PowerlessDimpledChital.gif",
       "move_name": "Cruncher",
       "notation": "SS 2",
       "hit_level": "mid",
@@ -3296,8 +3296,8 @@
       "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "14",
-      "on_block": "0 (OC)",
-      "on_hit": "+5 (OC)",
+      "on_block": "+3 (OC)",
+      "on_hit": "+8 (OC)",
       "on_ch": "GROUND BOUNCE",
       "in_air": "-",
       "on_whiff": "-",
@@ -4520,7 +4520,7 @@
       "speed": "19",
       "on_block": "-16",
       "on_hit": "-5",
-      "on_ch": "-5",
+      "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -4607,6 +4607,58 @@
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/HighlevelReflectingEmperorshrimp.gif",
+      "move_name": "Batida de Compasso to Handstand",
+      "notation": "f+2, 3",
+      "hit_level": "high, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "11 [13], 20",
+      "speed": "12",
+      "on_block": "-16",
+      "on_hit": "-5",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "eddy_178"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(f+2), 3",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "20 [24]",
+      "speed": "20",
+      "on_block": "-16",
+      "on_hit": "-5",
+      "on_ch": "-5",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "eddy_179"
+    },
+    {
+      "properties": [],
       "preview_url": "https://giant.gfycat.com/DisgustingDelayedEwe.gif",
       "move_name": "Samba Handstand",
       "notation": "f+4, B",
@@ -4629,7 +4681,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_178"
+      "id": "eddy_180"
     },
     {
       "properties": [],
@@ -4655,7 +4707,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_179"
+      "id": "eddy_181"
     },
     {
       "properties": [],
@@ -4681,7 +4733,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_180"
+      "id": "eddy_182"
     },
     {
       "properties": [],
@@ -4707,7 +4759,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_181"
+      "id": "eddy_183"
     },
     {
       "properties": [],
@@ -4733,7 +4785,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_182"
+      "id": "eddy_184"
     },
     {
       "properties": [],
@@ -4759,7 +4811,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_183"
+      "id": "eddy_185"
     },
     {
       "properties": [],
@@ -4785,7 +4837,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_184"
+      "id": "eddy_186"
     },
     {
       "properties": [],
@@ -4806,12 +4858,12 @@
       "speed": "15",
       "on_block": "-16",
       "on_hit": "-5",
-      "on_ch": "-5",
+      "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_185"
+      "id": "eddy_187"
     },
     {
       "properties": [],
@@ -4837,7 +4889,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_186"
+      "id": "eddy_188"
     },
     {
       "properties": [],
@@ -4863,7 +4915,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_187"
+      "id": "eddy_189"
     },
     {
       "properties": [],
@@ -4889,7 +4941,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_188"
+      "id": "eddy_190"
     },
     {
       "properties": [],
@@ -4915,7 +4967,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_189"
+      "id": "eddy_191"
     },
     {
       "properties": [],
@@ -4941,7 +4993,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_190"
+      "id": "eddy_192"
     },
     {
       "properties": [],
@@ -4967,7 +5019,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_191"
+      "id": "eddy_193"
     },
     {
       "properties": [],
@@ -4993,7 +5045,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_192"
+      "id": "eddy_194"
     },
     {
       "properties": [],
@@ -5019,7 +5071,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_193"
+      "id": "eddy_195"
     },
     {
       "properties": [],
@@ -5045,7 +5097,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_194"
+      "id": "eddy_196"
     },
     {
       "properties": [],
@@ -5071,7 +5123,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_195"
+      "id": "eddy_197"
     },
     {
       "properties": [],
@@ -5097,7 +5149,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_196"
+      "id": "eddy_198"
     },
     {
       "properties": [],
@@ -5123,7 +5175,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_197"
+      "id": "eddy_199"
     },
     {
       "properties": [],
@@ -5149,7 +5201,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_198"
+      "id": "eddy_200"
     },
     {
       "properties": [],
@@ -5175,7 +5227,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_199"
+      "id": "eddy_201"
     },
     {
       "properties": [],
@@ -5201,7 +5253,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_200"
+      "id": "eddy_202"
     },
     {
       "properties": [],
@@ -5227,7 +5279,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_201"
+      "id": "eddy_203"
     },
     {
       "properties": [],
@@ -5253,7 +5305,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_202"
+      "id": "eddy_204"
     },
     {
       "properties": [],
@@ -5279,7 +5331,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_203"
+      "id": "eddy_205"
     },
     {
       "properties": [],
@@ -5300,12 +5352,12 @@
       "speed": "27",
       "on_block": "-15",
       "on_hit": "-5",
-      "on_ch": "-5",
+      "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_204"
+      "id": "eddy_206"
     },
     {
       "properties": [],
@@ -5331,7 +5383,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_205"
+      "id": "eddy_207"
     },
     {
       "properties": [],
@@ -5357,7 +5409,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_206"
+      "id": "eddy_208"
     },
     {
       "properties": [],
@@ -5383,7 +5435,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_207"
+      "id": "eddy_209"
     },
     {
       "properties": [],
@@ -5409,7 +5461,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_208"
+      "id": "eddy_210"
     },
     {
       "properties": [],
@@ -5435,7 +5487,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_209"
+      "id": "eddy_211"
     },
     {
       "properties": [],
@@ -5461,7 +5513,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_210"
+      "id": "eddy_212"
     },
     {
       "properties": [],
@@ -5487,7 +5539,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_211"
+      "id": "eddy_213"
     },
     {
       "properties": [],
@@ -5513,7 +5565,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_212"
+      "id": "eddy_214"
     },
     {
       "properties": [],
@@ -5539,7 +5591,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_213"
+      "id": "eddy_215"
     },
     {
       "properties": [],
@@ -5565,7 +5617,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_214"
+      "id": "eddy_216"
     },
     {
       "properties": [],
@@ -5583,7 +5635,7 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "40",
-      "speed": "28",
+      "speed": "26",
       "on_block": "-",
       "on_hit": "KND",
       "on_ch": "KND",
@@ -5591,7 +5643,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_215"
+      "id": "eddy_217"
     },
     {
       "properties": [],
@@ -5617,7 +5669,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_216"
+      "id": "eddy_218"
     },
     {
       "properties": [],
@@ -5643,7 +5695,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_217"
+      "id": "eddy_219"
     },
     {
       "properties": [],
@@ -5669,7 +5721,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_218"
+      "id": "eddy_220"
     },
     {
       "properties": [],
@@ -5695,7 +5747,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_219"
+      "id": "eddy_221"
     },
     {
       "properties": [],
@@ -5721,7 +5773,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_220"
+      "id": "eddy_222"
     },
     {
       "properties": [],
@@ -5747,7 +5799,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_221"
+      "id": "eddy_223"
     },
     {
       "properties": [],
@@ -5773,7 +5825,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_222"
+      "id": "eddy_224"
     },
     {
       "properties": [],
@@ -5799,7 +5851,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_223"
+      "id": "eddy_225"
     },
     {
       "properties": [],
@@ -5825,7 +5877,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_224"
+      "id": "eddy_226"
     },
     {
       "properties": [],
@@ -5851,7 +5903,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_225"
+      "id": "eddy_227"
     },
     {
       "properties": [],
@@ -5877,7 +5929,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_226"
+      "id": "eddy_228"
     },
     {
       "properties": [],
@@ -5903,7 +5955,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_227"
+      "id": "eddy_229"
     },
     {
       "properties": [],
@@ -5929,7 +5981,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_228"
+      "id": "eddy_230"
     },
     {
       "properties": [],
@@ -5955,7 +6007,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_229"
+      "id": "eddy_231"
     },
     {
       "properties": [],
@@ -5981,7 +6033,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_230"
+      "id": "eddy_232"
     },
     {
       "properties": [],
@@ -6007,7 +6059,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_231"
+      "id": "eddy_233"
     },
     {
       "properties": [],
@@ -6033,7 +6085,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_232"
+      "id": "eddy_234"
     },
     {
       "properties": [],
@@ -6059,7 +6111,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_233"
+      "id": "eddy_235"
     },
     {
       "properties": [],
@@ -6085,7 +6137,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_234"
+      "id": "eddy_236"
     },
     {
       "properties": [],
@@ -6111,7 +6163,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_235"
+      "id": "eddy_237"
     },
     {
       "properties": [],
@@ -6137,7 +6189,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_236"
+      "id": "eddy_238"
     },
     {
       "properties": [],
@@ -6163,7 +6215,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_237"
+      "id": "eddy_239"
     },
     {
       "properties": [],
@@ -6189,7 +6241,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_238"
+      "id": "eddy_240"
     },
     {
       "properties": [],
@@ -6215,7 +6267,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_239"
+      "id": "eddy_241"
     },
     {
       "properties": [],
@@ -6241,7 +6293,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_240"
+      "id": "eddy_242"
     },
     {
       "properties": [],
@@ -6267,7 +6319,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_241"
+      "id": "eddy_243"
     },
     {
       "properties": [],
@@ -6293,7 +6345,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_242"
+      "id": "eddy_244"
     },
     {
       "properties": [],
@@ -6319,7 +6371,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_243"
+      "id": "eddy_245"
     },
     {
       "properties": [],
@@ -6345,7 +6397,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_244"
+      "id": "eddy_246"
     },
     {
       "properties": [],
@@ -6371,7 +6423,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_245"
+      "id": "eddy_247"
     },
     {
       "properties": [],
@@ -6397,7 +6449,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_246"
+      "id": "eddy_248"
     },
     {
       "properties": [],
@@ -6423,7 +6475,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_247"
+      "id": "eddy_249"
     },
     {
       "properties": [],
@@ -6449,7 +6501,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_248"
+      "id": "eddy_250"
     },
     {
       "properties": [],
@@ -6475,7 +6527,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_249"
+      "id": "eddy_251"
     },
     {
       "properties": [],
@@ -6501,7 +6553,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_250"
+      "id": "eddy_252"
     },
     {
       "properties": [],
@@ -6527,7 +6579,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_251"
+      "id": "eddy_253"
     },
     {
       "properties": [],
@@ -6553,7 +6605,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_252"
+      "id": "eddy_254"
     },
     {
       "properties": [],
@@ -6579,7 +6631,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_253"
+      "id": "eddy_255"
     },
     {
       "properties": [],
@@ -6605,7 +6657,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_254"
+      "id": "eddy_256"
     },
     {
       "properties": [],
@@ -6631,7 +6683,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_255"
+      "id": "eddy_257"
     },
     {
       "properties": [],
@@ -6657,7 +6709,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_256"
+      "id": "eddy_258"
     },
     {
       "properties": [],
@@ -6683,7 +6735,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_257"
+      "id": "eddy_259"
     },
     {
       "properties": [],
@@ -6709,7 +6761,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_258"
+      "id": "eddy_260"
     },
     {
       "properties": [],
@@ -6735,7 +6787,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_259"
+      "id": "eddy_261"
     },
     {
       "properties": [],
@@ -6761,7 +6813,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_260"
+      "id": "eddy_262"
     },
     {
       "properties": [],
@@ -6787,7 +6839,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_261"
+      "id": "eddy_263"
     },
     {
       "properties": [],
@@ -6813,7 +6865,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_262"
+      "id": "eddy_264"
     },
     {
       "properties": [],
@@ -6839,7 +6891,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_263"
+      "id": "eddy_265"
     },
     {
       "properties": [],
@@ -6860,12 +6912,12 @@
       "speed": "22",
       "on_block": "-14",
       "on_hit": "+7",
-      "on_ch": "+7",
+      "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_264"
+      "id": "eddy_266"
     },
     {
       "properties": [],
@@ -6891,7 +6943,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_265"
+      "id": "eddy_267"
     },
     {
       "properties": [],
@@ -6917,7 +6969,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_266"
+      "id": "eddy_268"
     },
     {
       "properties": [],
@@ -6941,7 +6993,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_267"
+      "id": "eddy_269"
     },
     {
       "properties": [],
@@ -6965,7 +7017,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_268"
+      "id": "eddy_270"
     },
     {
       "properties": [],
@@ -6989,7 +7041,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_269"
+      "id": "eddy_271"
     },
     {
       "properties": [],
@@ -7013,7 +7065,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_270"
+      "id": "eddy_272"
     },
     {
       "properties": [],
@@ -7037,7 +7089,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_271"
+      "id": "eddy_273"
     },
     {
       "properties": [],
@@ -7061,7 +7113,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_272"
+      "id": "eddy_274"
     },
     {
       "properties": [],
@@ -7085,7 +7137,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_273"
+      "id": "eddy_275"
     },
     {
       "properties": [],
@@ -7109,7 +7161,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_274"
+      "id": "eddy_276"
     },
     {
       "properties": [],
@@ -7133,7 +7185,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_275"
+      "id": "eddy_277"
     },
     {
       "properties": [],
@@ -7157,7 +7209,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_276"
+      "id": "eddy_278"
     },
     {
       "properties": [],
@@ -7181,7 +7233,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_277"
+      "id": "eddy_279"
     },
     {
       "properties": [],
@@ -7205,7 +7257,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_278"
+      "id": "eddy_280"
     },
     {
       "properties": [],
@@ -7229,7 +7281,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_279"
+      "id": "eddy_281"
     },
     {
       "properties": [],
@@ -7253,7 +7305,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_280"
+      "id": "eddy_282"
     },
     {
       "properties": [],
@@ -7277,7 +7329,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_281"
+      "id": "eddy_283"
     },
     {
       "properties": [],
@@ -7301,7 +7353,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_282"
+      "id": "eddy_284"
     },
     {
       "properties": [],
@@ -7325,7 +7377,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_283"
+      "id": "eddy_285"
     },
     {
       "properties": [],
@@ -7349,7 +7401,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_284"
+      "id": "eddy_286"
     },
     {
       "properties": [],
@@ -7373,7 +7425,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_285"
+      "id": "eddy_287"
     },
     {
       "properties": [],
@@ -7397,7 +7449,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_286"
+      "id": "eddy_288"
     },
     {
       "properties": [],
@@ -7421,7 +7473,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_287"
+      "id": "eddy_289"
     },
     {
       "properties": [],
@@ -7445,7 +7497,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_288"
+      "id": "eddy_290"
     },
     {
       "properties": [],
@@ -7469,7 +7521,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_289"
+      "id": "eddy_291"
     },
     {
       "properties": [],
@@ -7493,7 +7545,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_290"
+      "id": "eddy_292"
     },
     {
       "properties": [],
@@ -7517,7 +7569,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_291"
+      "id": "eddy_293"
     },
     {
       "properties": [],
@@ -7541,7 +7593,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_292"
+      "id": "eddy_294"
     },
     {
       "properties": [],
@@ -7565,7 +7617,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_293"
+      "id": "eddy_295"
     },
     {
       "properties": [],
@@ -7589,7 +7641,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_294"
+      "id": "eddy_296"
     },
     {
       "properties": [],
@@ -7613,7 +7665,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_295"
+      "id": "eddy_297"
     },
     {
       "properties": [],
@@ -7637,7 +7689,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_296"
+      "id": "eddy_298"
     },
     {
       "properties": [],
@@ -7661,7 +7713,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_297"
+      "id": "eddy_299"
     },
     {
       "properties": [],
@@ -7685,7 +7737,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_298"
+      "id": "eddy_300"
     },
     {
       "properties": [],
@@ -7709,7 +7761,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_299"
+      "id": "eddy_301"
     },
     {
       "properties": [],
@@ -7733,7 +7785,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_300"
+      "id": "eddy_302"
     },
     {
       "properties": [],
@@ -7757,7 +7809,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_301"
+      "id": "eddy_303"
     },
     {
       "properties": [],
@@ -7781,7 +7833,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_302"
+      "id": "eddy_304"
     },
     {
       "properties": [],
@@ -7805,7 +7857,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_303"
+      "id": "eddy_305"
     },
     {
       "properties": [],
@@ -7829,7 +7881,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_304"
+      "id": "eddy_306"
     },
     {
       "properties": [],
@@ -7853,7 +7905,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_305"
+      "id": "eddy_307"
     },
     {
       "properties": [],
@@ -7877,7 +7929,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_306"
+      "id": "eddy_308"
     },
     {
       "properties": [],
@@ -7901,7 +7953,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_307"
+      "id": "eddy_309"
     },
     {
       "properties": [],
@@ -7925,7 +7977,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "eddy_308"
+      "id": "eddy_310"
     }
   ]
 }

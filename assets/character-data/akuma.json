@@ -10,7 +10,7 @@
       "notation": "1",
       "hit_level": "high",
       "range": "1",
-      "pushback": "0.25",
+      "pushback": "0",
       "tracking": "-",
       "crush": "-",
       "jail": "-",
@@ -39,7 +39,7 @@
       "pushback": "0.25",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NCc",
       "environmental": "-",
       "cancelable": "SPECIAL / EX / SUPER",
@@ -221,7 +221,7 @@
       "pushback": "0.5",
       "tracking": "HOMING, NONE",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
@@ -280,9 +280,9 @@
       "meter_gain": "4.55%",
       "damage": "16 [19]",
       "speed": "17",
-      "on_block": "-9",
-      "on_hit": "+1",
-      "on_ch": "+1",
+      "on_block": "-4",
+      "on_hit": "+7",
+      "on_ch": "'+7",
       "in_air": "FLOAT",
       "on_whiff": "-24",
       "active_frames": "1",
@@ -306,9 +306,9 @@
       "meter_gain": "5.88%",
       "damage": "20 [24]",
       "speed": "16",
-      "on_block": "-9",
+      "on_block": "-5",
       "on_hit": "KND",
-      "on_ch": "S!",
+      "on_ch": "STUN",
       "in_air": "S!",
       "on_whiff": "-27",
       "active_frames": "2",
@@ -317,7 +317,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/DeterminedConcreteChupacabra.gif",
+      "preview_url": "https://giant.gfycat.com/ScientificUnitedGenet.gif",
       "move_name": "Zugaihasatsu",
       "notation": "f+1+2",
       "hit_level": "mid, mid",
@@ -330,11 +330,11 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "5.88%",
-      "damage": "5 [6], 15",
+      "damage": "8 [9], 17",
       "speed": "20",
       "on_block": "-8",
-      "on_hit": "+5 (OC)",
-      "on_ch": "+5 (OC)",
+      "on_hit": "+7 (OC)",
+      "on_ch": "+7 (OC)",
       "in_air": "FLOOR BREAK",
       "on_whiff": "-28",
       "active_frames": "1, 1",
@@ -431,7 +431,7 @@
       "crush": "-",
       "jail": "YES",
       "natural": "NC",
-      "environmental": "WALL BOUNCE",
+      "environmental": "WALL BOUND",
       "cancelable": "-",
       "meter_gain": "10%",
       "damage": "14 [16], 20",
@@ -464,7 +464,7 @@
       "speed": "20",
       "on_block": "0",
       "on_hit": "+2 (OC)",
-      "on_ch": "GROUND BOUNCE",
+      "on_ch": "FLOOR BOUND",
       "in_air": "FLOOR BREAK",
       "on_whiff": "-27",
       "active_frames": "2",
@@ -559,7 +559,7 @@
       "pushback": "1",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
@@ -603,7 +603,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/PhysicalJealousConch.gif",
+      "preview_url": "https://giant.gfycat.com/LittleThriftyFowl.gif",
       "move_name": "Zugaigohasatsu",
       "notation": "d/f+1, 2",
       "hit_level": "mid, mid, mid",
@@ -619,7 +619,7 @@
       "damage": "10 [12], 5, 10",
       "speed": "13",
       "on_block": "-13 (OC)",
-      "on_hit": "+5 (OC)",
+      "on_hit": "+7 (OC)",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-27",
@@ -645,8 +645,8 @@
       "damage": "5 [6], 10",
       "speed": "21",
       "on_block": "-13 (OC)",
-      "on_hit": "+5 (OC)",
-      "on_ch": "+5 (OC)",
+      "on_hit": "+7 (OC)",
+      "on_ch": "+7 (OC)",
       "in_air": "FLOOR BREAK",
       "on_whiff": "-27",
       "active_frames": "1, 1",
@@ -819,8 +819,8 @@
       "pushback": "1.5",
       "tracking": "SSR, NONE, NONE",
       "crush": "-",
-      "jail": "NO",
-      "natural": "NO",
+      "jail": "-",
+      "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
@@ -845,8 +845,8 @@
       "pushback": "0.75",
       "tracking": "SSR, NONE, NONE",
       "crush": "-",
-      "jail": "NO",
-      "natural": "NO",
+      "jail": "-",
+      "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
@@ -855,7 +855,7 @@
       "on_block": "-17",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-36",
       "active_frames": "1, 2",
       "notes": "-",
@@ -946,7 +946,7 @@
       "notation": "b+1",
       "hit_level": "high",
       "range": "1.5",
-      "pushback": "1",
+      "pushback": "0.5",
       "tracking": "-",
       "crush": "-",
       "jail": "-",
@@ -954,7 +954,7 @@
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "SPECIAL / EX / SUPER",
       "meter_gain": "-",
-      "damage": "17 [20]",
+      "damage": "15 [18]",
       "speed": "14",
       "on_block": "-14",
       "on_hit": "KND",
@@ -1058,7 +1058,7 @@
       "environmental": "-",
       "cancelable": "SPECIAL / EX / SUPER",
       "meter_gain": "-",
-      "damage": "5 [6], 8",
+      "damage": "5 [6], 6",
       "speed": "10",
       "on_block": "-13",
       "on_hit": "-2",
@@ -1084,7 +1084,7 @@
       "environmental": "-",
       "cancelable": "SPECIAL / EX / SUPER",
       "meter_gain": "-",
-      "damage": "8 [9]",
+      "damage": "6 [7]",
       "speed": "10",
       "on_block": "-13",
       "on_hit": "-2",
@@ -2332,7 +2332,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "14 [16]",
+      "damage": "12 [14]",
       "speed": "17",
       "on_block": "-13",
       "on_hit": "-",
@@ -2769,7 +2769,7 @@
       "pushback": "0.25",
       "tracking": "-",
       "crush": "low",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
@@ -3021,6 +3021,32 @@
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/LittleThriftyFowl.gif",
+      "move_name": "Gokumonkai",
+      "notation": "d/f+1+2",
+      "hit_level": "mid",
+      "range": "2",
+      "pushback": "0.5",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "23 [27]",
+      "speed": "20",
+      "on_block": "-14",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "KND",
+      "on_whiff": "-36",
+      "active_frames": "2",
+      "notes": "-",
+      "id": "akuma_117"
+    },
+    {
+      "properties": [],
       "preview_url": "https://giant.gfycat.com/GrimySmoggyFox.gif",
       "move_name": "Wrath of the Raging Demon",
       "notation": "(During Rage) 1, 1, f, 3, 2",
@@ -3036,13 +3062,14 @@
       "meter_gain": "-",
       "damage": "55",
       "speed": "12",
+      "on_block": "-",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-27",
       "active_frames": "17",
       "notes": "-",
-      "id": "akuma_117"
+      "id": "akuma_118"
     },
     {
       "properties": [],
@@ -3068,7 +3095,7 @@
       "on_whiff": "-34",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_118"
+      "id": "akuma_119"
     },
     {
       "properties": [],
@@ -3094,7 +3121,7 @@
       "on_whiff": "-",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_119"
+      "id": "akuma_120"
     },
     {
       "properties": [],
@@ -3120,7 +3147,7 @@
       "on_whiff": "-",
       "active_frames": "1",
       "notes": "-",
-      "id": "akuma_120"
+      "id": "akuma_121"
     },
     {
       "properties": [],
@@ -3146,7 +3173,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "akuma_121"
+      "id": "akuma_122"
     },
     {
       "properties": [],
@@ -3172,7 +3199,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "akuma_122"
+      "id": "akuma_123"
     },
     {
       "properties": [],
@@ -3198,7 +3225,7 @@
       "on_whiff": "-32",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "akuma_123"
+      "id": "akuma_124"
     },
     {
       "properties": [],
@@ -3224,7 +3251,7 @@
       "on_whiff": "-32",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "akuma_124"
+      "id": "akuma_125"
     },
     {
       "properties": [],
@@ -3250,7 +3277,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "akuma_125"
+      "id": "akuma_126"
     },
     {
       "properties": [],
@@ -3276,7 +3303,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "akuma_126"
+      "id": "akuma_127"
     },
     {
       "properties": [],
@@ -3302,7 +3329,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "-",
-      "id": "akuma_127"
+      "id": "akuma_128"
     },
     {
       "properties": [],
@@ -3328,7 +3355,7 @@
       "on_whiff": "-32",
       "active_frames": "1",
       "notes": "2 BREAK",
-      "id": "akuma_128"
+      "id": "akuma_129"
     },
     {
       "properties": [],
@@ -3354,7 +3381,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1",
       "notes": "1 BREAK",
-      "id": "akuma_129"
+      "id": "akuma_130"
     },
     {
       "properties": [],
@@ -3380,7 +3407,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1",
       "notes": "2 BREAK",
-      "id": "akuma_130"
+      "id": "akuma_131"
     },
     {
       "properties": [],
@@ -3406,7 +3433,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1, 1",
       "notes": "1 BREAK",
-      "id": "akuma_131"
+      "id": "akuma_132"
     },
     {
       "properties": [],
@@ -3432,7 +3459,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1, 1, 1",
       "notes": "2 BREAK",
-      "id": "akuma_132"
+      "id": "akuma_133"
     },
     {
       "properties": [],
@@ -3458,7 +3485,7 @@
       "on_whiff": "-51",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_133"
+      "id": "akuma_134"
     },
     {
       "properties": [],
@@ -3484,7 +3511,7 @@
       "on_whiff": "-47",
       "active_frames": "-",
       "notes": "-",
-      "id": "akuma_134"
+      "id": "akuma_135"
     }
   ]
 }

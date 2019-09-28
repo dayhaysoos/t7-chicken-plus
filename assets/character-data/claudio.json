@@ -555,7 +555,7 @@
       "move_name": "Sky Slash Nova",
       "notation": "u/f+4",
       "hit_level": "mid",
-      "range": "1.5",
+      "range": "1.75",
       "pushback": "0.5",
       "tracking": "-",
       "crush": "low",
@@ -1283,7 +1283,7 @@
       "move_name": "Axion",
       "notation": "d+1",
       "hit_level": "mid",
-      "range": "2",
+      "range": "2.25",
       "pushback": "0.75",
       "tracking": "-",
       "crush": "-",
@@ -1309,7 +1309,7 @@
       "move_name": "Axion Burst",
       "notation": "d+1, 2",
       "hit_level": "mid, mid",
-      "range": "2",
+      "range": "2.25",
       "pushback": "1.5",
       "tracking": "-",
       "crush": "-",
@@ -1373,8 +1373,8 @@
       "damage": "11 [13]",
       "speed": "20",
       "on_block": "-12",
-      "on_hit": "-1",
-      "on_ch": "-1",
+      "on_hit": "0",
+      "on_ch": "0",
       "in_air": "FLOAT",
       "on_whiff": "-30",
       "active_frames": "1",
@@ -1388,7 +1388,7 @@
       "notation": "d+2, 2",
       "hit_level": "low, low",
       "range": "1.5",
-      "pushback": "1",
+      "pushback": "0.5",
       "tracking": "-",
       "crush": "-",
       "jail": "YES",
@@ -1414,7 +1414,7 @@
       "notation": "(d+2), 2",
       "hit_level": "low",
       "range": "0.25",
-      "pushback": "1",
+      "pushback": "0.5",
       "tracking": "-",
       "crush": "-",
       "jail": "-",
@@ -1503,7 +1503,7 @@
       "damage": "8 [10], 12",
       "speed": "11",
       "on_block": "-13",
-      "on_hit": "-2",
+      "on_hit": "+3",
       "on_ch": "-",
       "in_air": "FLOAT",
       "on_whiff": "-31",
@@ -1529,8 +1529,8 @@
       "damage": "12 [14]",
       "speed": "18",
       "on_block": "-13",
-      "on_hit": "-2",
-      "on_ch": "-2",
+      "on_hit": "+3",
+      "on_ch": "+3",
       "in_air": "FLOAT",
       "on_whiff": "-31",
       "active_frames": "1",
@@ -1554,8 +1554,8 @@
       "meter_gain": "-",
       "damage": "23 [27]",
       "speed": "24",
-      "on_block": "-17",
-      "on_hit": "+1",
+      "on_block": "-15",
+      "on_hit": "+3",
       "on_ch": "LAUNCH",
       "in_air": "FLOAT",
       "on_whiff": "-34",
@@ -1606,8 +1606,8 @@
       "meter_gain": "-",
       "damage": "7 [8], 10",
       "speed": "15",
-      "on_block": "-13",
-      "on_hit": "-2",
+      "on_block": "-11",
+      "on_hit": "0",
       "on_ch": "-",
       "in_air": "FLOAT",
       "on_whiff": "-31",
@@ -1632,9 +1632,9 @@
       "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "18",
-      "on_block": "-13",
-      "on_hit": "-2",
-      "on_ch": "-2",
+      "on_block": "'-11",
+      "on_hit": "0",
+      "on_ch": "0",
       "in_air": "FLOAT",
       "on_whiff": "-31",
       "active_frames": "1",
@@ -1669,7 +1669,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/SimpleFrayedHawaiianmonkseal.gif",
+      "preview_url": "https://giant.gfycat.com/SelfreliantMeaslyHarlequinbug.gif",
       "move_name": "Vanishing Storm",
       "notation": "b+1",
       "hit_level": "mid",
@@ -1682,9 +1682,9 @@
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "20 [24]",
+      "damage": "25 [30]",
       "speed": "18",
-      "on_block": "-9",
+      "on_block": "-5",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "S!",
@@ -1721,6 +1721,58 @@
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/CoordinatedIcyHare.gif",
+      "move_name": "Crescent Heel",
+      "notation": "b+3, 3",
+      "hit_level": "mid, mid",
+      "range": "1.5",
+      "pushback": "1",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "NO",
+      "natural": "NCc",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "16 [19], 21",
+      "speed": "13",
+      "on_block": "-12",
+      "on_hit": "+7",
+      "on_ch": "-",
+      "in_air": "FLOOR BREAK",
+      "on_whiff": "-30",
+      "active_frames": "1, 2",
+      "notes": "-",
+      "id": "claudio_67"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(b+3), 3",
+      "hit_level": "mid",
+      "range": "1.5",
+      "pushback": "1",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "21 [25]",
+      "speed": "24",
+      "on_block": "-12",
+      "on_hit": "+7",
+      "on_ch": "GROUND BOUNCE",
+      "in_air": "FLOOR BREAK",
+      "on_whiff": "-30",
+      "active_frames": "2",
+      "notes": "-",
+      "id": "claudio_68"
+    },
+    {
+      "properties": [],
       "preview_url": null,
       "move_name": null,
       "notation": "b+4",
@@ -1743,7 +1795,7 @@
       "on_whiff": "-32",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_67"
+      "id": "claudio_69"
     },
     {
       "properties": [],
@@ -1769,7 +1821,7 @@
       "on_whiff": "-28",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "claudio_68"
+      "id": "claudio_70"
     },
     {
       "properties": [],
@@ -1795,7 +1847,7 @@
       "on_whiff": "-28",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_69"
+      "id": "claudio_71"
     },
     {
       "properties": [],
@@ -1821,7 +1873,7 @@
       "on_whiff": "-32",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "claudio_70"
+      "id": "claudio_72"
     },
     {
       "properties": [],
@@ -1847,7 +1899,7 @@
       "on_whiff": "-32",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_71"
+      "id": "claudio_73"
     },
     {
       "properties": [],
@@ -1873,7 +1925,7 @@
       "on_whiff": "-32",
       "active_frames": "1, 2, 2",
       "notes": "-",
-      "id": "claudio_72"
+      "id": "claudio_74"
     },
     {
       "properties": [],
@@ -1899,7 +1951,7 @@
       "on_whiff": "-32",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "claudio_73"
+      "id": "claudio_75"
     },
     {
       "properties": [],
@@ -1907,7 +1959,7 @@
       "move_name": null,
       "notation": "(b+4), (3), 2",
       "hit_level": "mid",
-      "range": "2",
+      "range": "3",
       "pushback": "0.5",
       "tracking": "-",
       "crush": "-",
@@ -1925,11 +1977,11 @@
       "on_whiff": "-32",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_74"
+      "id": "claudio_76"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/TangibleCanineAlleycat.gif",
+      "preview_url": "https://giant.gfycat.com/SecretAlienatedHapuku.gif",
       "move_name": "Eternal Moon",
       "notation": "b+3+4",
       "hit_level": "mid",
@@ -1939,7 +1991,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
-      "environmental": "WALL BREAK / SPLAT",
+      "environmental": "WALL BOUNCE",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "24 [28]",
@@ -1951,7 +2003,7 @@
       "on_whiff": "-34",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_75"
+      "id": "claudio_77"
     },
     {
       "properties": [],
@@ -1977,7 +2029,7 @@
       "on_whiff": "-26",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_76"
+      "id": "claudio_78"
     },
     {
       "properties": [],
@@ -2003,7 +2055,7 @@
       "on_whiff": "-26",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_77"
+      "id": "claudio_79"
     },
     {
       "properties": [],
@@ -2029,7 +2081,7 @@
       "on_whiff": "-23",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_78"
+      "id": "claudio_80"
     },
     {
       "properties": [],
@@ -2055,7 +2107,7 @@
       "on_whiff": "-32",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_79"
+      "id": "claudio_81"
     },
     {
       "properties": [],
@@ -2081,7 +2133,7 @@
       "on_whiff": "-33",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_80"
+      "id": "claudio_82"
     },
     {
       "properties": [],
@@ -2101,13 +2153,13 @@
       "damage": "20 [24]",
       "speed": "20",
       "on_block": "-12",
-      "on_hit": "+3 (OC)",
-      "on_ch": "KND",
+      "on_hit": "+6 (OC)",
+      "on_ch": "STUN",
       "in_air": "FLOAT",
       "on_whiff": "-29",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_81"
+      "id": "claudio_83"
     },
     {
       "properties": [],
@@ -2133,7 +2185,7 @@
       "on_whiff": "-35",
       "active_frames": "13",
       "notes": "-",
-      "id": "claudio_82"
+      "id": "claudio_84"
     },
     {
       "properties": [],
@@ -2159,7 +2211,7 @@
       "on_whiff": "-28",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_83"
+      "id": "claudio_85"
     },
     {
       "properties": [],
@@ -2185,7 +2237,7 @@
       "on_whiff": "-39",
       "active_frames": "17",
       "notes": "-",
-      "id": "claudio_84"
+      "id": "claudio_86"
     },
     {
       "properties": [],
@@ -2211,7 +2263,7 @@
       "on_whiff": "-40",
       "active_frames": "19",
       "notes": "-",
-      "id": "claudio_85"
+      "id": "claudio_87"
     },
     {
       "properties": [],
@@ -2228,7 +2280,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "12 [14]",
+      "damage": "15 [18]",
       "speed": "12",
       "on_block": "-4",
       "on_hit": "+8",
@@ -2237,7 +2289,7 @@
       "on_whiff": "-21",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_86"
+      "id": "claudio_88"
     },
     {
       "properties": [],
@@ -2254,7 +2306,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "12 [14], 12",
+      "damage": "15 [18], 12",
       "speed": "12",
       "on_block": "-12",
       "on_hit": "+9",
@@ -2263,7 +2315,7 @@
       "on_whiff": "-30",
       "active_frames": "2, 1",
       "notes": "-",
-      "id": "claudio_87"
+      "id": "claudio_89"
     },
     {
       "properties": [],
@@ -2289,7 +2341,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_88"
+      "id": "claudio_90"
     },
     {
       "properties": [],
@@ -2308,14 +2360,14 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "16",
-      "on_block": "-9",
+      "on_block": "-8",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "FLOAT",
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_89"
+      "id": "claudio_91"
     },
     {
       "properties": [],
@@ -2341,7 +2393,7 @@
       "on_whiff": "-23",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_90"
+      "id": "claudio_92"
     },
     {
       "properties": [],
@@ -2367,7 +2419,7 @@
       "on_whiff": "-51",
       "active_frames": "-",
       "notes": "-",
-      "id": "claudio_91"
+      "id": "claudio_93"
     },
     {
       "properties": [],
@@ -2393,7 +2445,7 @@
       "on_whiff": "-29",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_92"
+      "id": "claudio_94"
     },
     {
       "properties": [],
@@ -2419,7 +2471,7 @@
       "on_whiff": "-29",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_93"
+      "id": "claudio_95"
     },
     {
       "properties": [],
@@ -2445,7 +2497,7 @@
       "on_whiff": "-36",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_94"
+      "id": "claudio_96"
     },
     {
       "properties": [],
@@ -2471,7 +2523,7 @@
       "on_whiff": "-39",
       "active_frames": "11",
       "notes": "-",
-      "id": "claudio_95"
+      "id": "claudio_97"
     },
     {
       "properties": [],
@@ -2497,7 +2549,7 @@
       "on_whiff": "-42",
       "active_frames": "6",
       "notes": "-",
-      "id": "claudio_96"
+      "id": "claudio_98"
     },
     {
       "properties": [],
@@ -2523,7 +2575,7 @@
       "on_whiff": "-35",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_97"
+      "id": "claudio_99"
     },
     {
       "properties": [],
@@ -2549,7 +2601,7 @@
       "on_whiff": "-37",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_98"
+      "id": "claudio_100"
     },
     {
       "properties": [],
@@ -2575,7 +2627,7 @@
       "on_whiff": "-13",
       "active_frames": "4",
       "notes": "-",
-      "id": "claudio_99"
+      "id": "claudio_101"
     },
     {
       "properties": [],
@@ -2601,7 +2653,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "claudio_100"
+      "id": "claudio_102"
     },
     {
       "properties": [],
@@ -2627,7 +2679,7 @@
       "on_whiff": "-45",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "claudio_101"
+      "id": "claudio_103"
     },
     {
       "properties": [],
@@ -2653,7 +2705,7 @@
       "on_whiff": "-45",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_102"
+      "id": "claudio_104"
     },
     {
       "properties": [],
@@ -2679,7 +2731,7 @@
       "on_whiff": "-30",
       "active_frames": "3, 2",
       "notes": "-",
-      "id": "claudio_103"
+      "id": "claudio_105"
     },
     {
       "properties": [],
@@ -2705,7 +2757,7 @@
       "on_whiff": "-30",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_104"
+      "id": "claudio_106"
     },
     {
       "properties": [],
@@ -2731,7 +2783,7 @@
       "on_whiff": "-27",
       "active_frames": "4",
       "notes": "-",
-      "id": "claudio_105"
+      "id": "claudio_107"
     },
     {
       "properties": [],
@@ -2757,7 +2809,7 @@
       "on_whiff": "-29",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_106"
+      "id": "claudio_108"
     },
     {
       "properties": [],
@@ -2783,7 +2835,7 @@
       "on_whiff": "-36",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "claudio_107"
+      "id": "claudio_109"
     },
     {
       "properties": [],
@@ -2809,7 +2861,7 @@
       "on_whiff": "-36",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_108"
+      "id": "claudio_110"
     },
     {
       "properties": [],
@@ -2835,7 +2887,7 @@
       "on_whiff": "-36",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_109"
+      "id": "claudio_111"
     },
     {
       "properties": [],
@@ -2861,7 +2913,7 @@
       "on_whiff": "-33",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_110"
+      "id": "claudio_112"
     },
     {
       "properties": [],
@@ -2887,7 +2939,7 @@
       "on_whiff": "-45",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_111"
+      "id": "claudio_113"
     },
     {
       "properties": [],
@@ -2913,7 +2965,7 @@
       "on_whiff": "-17",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "claudio_112"
+      "id": "claudio_114"
     },
     {
       "properties": [],
@@ -2939,7 +2991,7 @@
       "on_whiff": "-17",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_113"
+      "id": "claudio_115"
     },
     {
       "properties": [],
@@ -2965,7 +3017,7 @@
       "on_whiff": "-49",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_114"
+      "id": "claudio_116"
     },
     {
       "properties": [],
@@ -2991,7 +3043,7 @@
       "on_whiff": "-48",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "claudio_115"
+      "id": "claudio_117"
     },
     {
       "properties": [],
@@ -3017,7 +3069,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "claudio_116"
+      "id": "claudio_118"
     },
     {
       "properties": [],
@@ -3043,7 +3095,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "claudio_117"
+      "id": "claudio_119"
     },
     {
       "properties": [],
@@ -3069,7 +3121,7 @@
       "on_whiff": "-32",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "claudio_118"
+      "id": "claudio_120"
     },
     {
       "properties": [],
@@ -3095,7 +3147,7 @@
       "on_whiff": "-32",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "claudio_119"
+      "id": "claudio_121"
     },
     {
       "properties": [],
@@ -3121,7 +3173,7 @@
       "on_whiff": "-26",
       "active_frames": "1",
       "notes": "1+2 BREAK",
-      "id": "claudio_120"
+      "id": "claudio_122"
     },
     {
       "properties": [],
@@ -3147,7 +3199,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "claudio_121"
+      "id": "claudio_123"
     },
     {
       "properties": [],
@@ -3173,7 +3225,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "claudio_122"
+      "id": "claudio_124"
     },
     {
       "properties": [],
@@ -3199,7 +3251,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "-",
-      "id": "claudio_123"
+      "id": "claudio_125"
     },
     {
       "properties": [],
@@ -3225,7 +3277,7 @@
       "on_whiff": "-32",
       "active_frames": "1",
       "notes": "2 BREAK",
-      "id": "claudio_124"
+      "id": "claudio_126"
     },
     {
       "properties": [],
@@ -3251,7 +3303,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "1 BREAK",
-      "id": "claudio_125"
+      "id": "claudio_127"
     },
     {
       "properties": [],
@@ -3277,7 +3329,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1",
       "notes": "2 BREAK",
-      "id": "claudio_126"
+      "id": "claudio_128"
     },
     {
       "properties": [],
@@ -3303,7 +3355,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1, 1",
       "notes": "1 BREAK",
-      "id": "claudio_127"
+      "id": "claudio_129"
     },
     {
       "properties": [],
@@ -3329,7 +3381,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1, 1, 1",
       "notes": "2 BREAK",
-      "id": "claudio_128"
+      "id": "claudio_130"
     },
     {
       "properties": [],
@@ -3355,7 +3407,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_129"
+      "id": "claudio_131"
     },
     {
       "properties": [],
@@ -3381,7 +3433,7 @@
       "on_whiff": "-23",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_130"
+      "id": "claudio_132"
     },
     {
       "properties": [],
@@ -3407,7 +3459,7 @@
       "on_whiff": "-26",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_131"
+      "id": "claudio_133"
     },
     {
       "properties": [],
@@ -3433,7 +3485,7 @@
       "on_whiff": "-33",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_132"
+      "id": "claudio_134"
     },
     {
       "properties": [],
@@ -3459,7 +3511,7 @@
       "on_whiff": "-39",
       "active_frames": "3",
       "notes": "-",
-      "id": "claudio_133"
+      "id": "claudio_135"
     },
     {
       "properties": [],
@@ -3485,7 +3537,7 @@
       "on_whiff": "-34",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_134"
+      "id": "claudio_136"
     },
     {
       "properties": [],
@@ -3511,7 +3563,7 @@
       "on_whiff": "-38",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_135"
+      "id": "claudio_137"
     },
     {
       "properties": [],
@@ -3537,7 +3589,7 @@
       "on_whiff": "-37",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_136"
+      "id": "claudio_138"
     },
     {
       "properties": [],
@@ -3563,7 +3615,7 @@
       "on_whiff": "-33",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_137"
+      "id": "claudio_139"
     },
     {
       "properties": [],
@@ -3589,7 +3641,7 @@
       "on_whiff": "-27 (-29)",
       "active_frames": "3",
       "notes": "-",
-      "id": "claudio_138"
+      "id": "claudio_140"
     },
     {
       "properties": [],
@@ -3615,7 +3667,7 @@
       "on_whiff": "-25",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_139"
+      "id": "claudio_141"
     }
   ]
 }

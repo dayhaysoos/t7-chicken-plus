@@ -166,7 +166,7 @@
       "notation": "2, 4",
       "hit_level": "high, high",
       "range": "0.5",
-      "pushback": "1.75",
+      "pushback": "0.5",
       "tracking": "-",
       "crush": "-",
       "jail": "-",
@@ -176,7 +176,7 @@
       "meter_gain": "-",
       "damage": "10 [12], 17",
       "speed": "10",
-      "on_block": "-9",
+      "on_block": "-12",
       "on_hit": "+10",
       "on_ch": "-",
       "in_air": "S!",
@@ -192,7 +192,7 @@
       "notation": "(2), 4",
       "hit_level": "high",
       "range": "2",
-      "pushback": "1.75",
+      "pushback": "0.5",
       "tracking": "-",
       "crush": "-",
       "jail": "-",
@@ -202,7 +202,7 @@
       "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "17",
-      "on_block": "-9",
+      "on_block": "-12",
       "on_hit": "+10",
       "on_ch": "KND",
       "in_air": "-",
@@ -1425,7 +1425,7 @@
       "damage": "12 [14], 19",
       "speed": "15",
       "on_block": "-10",
-      "on_hit": "+2",
+      "on_hit": "+6",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
@@ -1451,7 +1451,7 @@
       "damage": "19 [22]",
       "speed": "21",
       "on_block": "-10",
-      "on_hit": "+2",
+      "on_hit": "+6",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
@@ -1813,7 +1813,7 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "21 [25]",
-      "speed": "16",
+      "speed": "15",
       "on_block": "-9",
       "on_hit": "+7",
       "on_ch": "LAUNCH",
@@ -2024,7 +2024,7 @@
       "speed": "21",
       "on_block": "-13",
       "on_hit": "-2",
-      "on_ch": "-2",
+      "on_ch": "+13",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -2046,7 +2046,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "13 [15], 12",
+      "damage": "15 [18], 12",
       "speed": "13",
       "on_block": "-1",
       "on_hit": "+7",
@@ -3723,7 +3723,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/SereneWastefulFlounder.gif",
+      "preview_url": "https://giant.gfycat.com/FaithfulGrippingKomododragon.gif",
       "move_name": "Spinning Middle Kick",
       "notation": "WS 3+4",
       "hit_level": "mid",
@@ -3739,9 +3739,9 @@
       "damage": "23 [27]",
       "speed": "16",
       "on_block": "-14",
-      "on_hit": "KND",
+      "on_hit": "+10",
       "on_ch": "KND",
-      "in_air": "-",
+      "in_air": "S!",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
@@ -4505,6 +4505,32 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
+      "notation": "u/f+4, 4, b",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "16 [19]",
+      "speed": "19",
+      "on_block": "-17",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "masterraven_174"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
       "notation": "d/f+2",
       "hit_level": "mid",
       "range": "-",
@@ -4525,7 +4551,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_174"
+      "id": "masterraven_175"
     },
     {
       "properties": [],
@@ -4551,7 +4577,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_175"
+      "id": "masterraven_176"
     },
     {
       "properties": [],
@@ -4577,7 +4603,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_176"
+      "id": "masterraven_177"
     },
     {
       "properties": [],
@@ -4603,7 +4629,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_177"
+      "id": "masterraven_178"
     },
     {
       "properties": [],
@@ -4629,7 +4655,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_178"
+      "id": "masterraven_179"
     },
     {
       "properties": [],
@@ -4655,7 +4681,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_179"
+      "id": "masterraven_180"
     },
     {
       "properties": [],
@@ -4672,7 +4698,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "11 [13], 13",
+      "damage": "11 [13], 19",
       "speed": "14",
       "on_block": "-9",
       "on_hit": "+6",
@@ -4681,7 +4707,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_180"
+      "id": "masterraven_181"
     },
     {
       "properties": [],
@@ -4698,7 +4724,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "13 [15]",
+      "damage": "19 [22]",
       "speed": "17",
       "on_block": "-9",
       "on_hit": "+6",
@@ -4707,7 +4733,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_181"
+      "id": "masterraven_182"
     },
     {
       "properties": [],
@@ -4733,7 +4759,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_182"
+      "id": "masterraven_183"
     },
     {
       "properties": [],
@@ -4759,7 +4785,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_183"
+      "id": "masterraven_184"
     },
     {
       "properties": [],
@@ -4785,7 +4811,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_184"
+      "id": "masterraven_185"
     },
     {
       "properties": [],
@@ -4811,7 +4837,33 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_185"
+      "id": "masterraven_186"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "WS 3+4, B",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "masterraven_187"
     },
     {
       "properties": [],
@@ -4837,7 +4889,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_186"
+      "id": "masterraven_188"
     },
     {
       "properties": [],
@@ -4863,7 +4915,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_187"
+      "id": "masterraven_189"
     },
     {
       "properties": [],
@@ -4889,7 +4941,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_188"
+      "id": "masterraven_190"
     },
     {
       "properties": [],
@@ -4915,7 +4967,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_189"
+      "id": "masterraven_191"
     },
     {
       "properties": [],
@@ -4941,7 +4993,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_190"
+      "id": "masterraven_192"
     },
     {
       "properties": [],
@@ -4967,7 +5019,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_191"
+      "id": "masterraven_193"
     },
     {
       "properties": [],
@@ -4993,7 +5045,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_192"
+      "id": "masterraven_194"
     },
     {
       "properties": [],
@@ -5019,7 +5071,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_193"
+      "id": "masterraven_195"
     },
     {
       "properties": [],
@@ -5045,7 +5097,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_194"
+      "id": "masterraven_196"
     },
     {
       "properties": [],
@@ -5071,7 +5123,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_195"
+      "id": "masterraven_197"
     },
     {
       "properties": [],
@@ -5097,7 +5149,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_196"
+      "id": "masterraven_198"
     },
     {
       "properties": [],
@@ -5123,7 +5175,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_197"
+      "id": "masterraven_199"
     },
     {
       "properties": [],
@@ -5149,7 +5201,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_198"
+      "id": "masterraven_200"
     },
     {
       "properties": [],
@@ -5168,14 +5220,14 @@
       "meter_gain": "-",
       "damage": "27 [32]",
       "speed": "18",
-      "on_block": "+5",
+      "on_block": "+3",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_199"
+      "id": "masterraven_201"
     },
     {
       "properties": [],
@@ -5201,7 +5253,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_200"
+      "id": "masterraven_202"
     },
     {
       "properties": [],
@@ -5227,7 +5279,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_201"
+      "id": "masterraven_203"
     },
     {
       "properties": [],
@@ -5253,7 +5305,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_202"
+      "id": "masterraven_204"
     },
     {
       "properties": [],
@@ -5279,7 +5331,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_203"
+      "id": "masterraven_205"
     },
     {
       "properties": [],
@@ -5305,7 +5357,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_204"
+      "id": "masterraven_206"
     },
     {
       "properties": [],
@@ -5331,7 +5383,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_205"
+      "id": "masterraven_207"
     },
     {
       "properties": [],
@@ -5357,7 +5409,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_206"
+      "id": "masterraven_208"
     },
     {
       "properties": [],
@@ -5383,7 +5435,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_207"
+      "id": "masterraven_209"
     },
     {
       "properties": [],
@@ -5409,7 +5461,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_208"
+      "id": "masterraven_210"
     },
     {
       "properties": [],
@@ -5435,7 +5487,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_209"
+      "id": "masterraven_211"
     },
     {
       "properties": [],
@@ -5461,7 +5513,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_210"
+      "id": "masterraven_212"
     },
     {
       "properties": [],
@@ -5487,7 +5539,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_211"
+      "id": "masterraven_213"
     },
     {
       "properties": [],
@@ -5513,7 +5565,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_212"
+      "id": "masterraven_214"
     },
     {
       "properties": [],
@@ -5539,7 +5591,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_213"
+      "id": "masterraven_215"
     },
     {
       "properties": [],
@@ -5565,7 +5617,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_214"
+      "id": "masterraven_216"
     },
     {
       "properties": [],
@@ -5591,7 +5643,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_215"
+      "id": "masterraven_217"
     },
     {
       "properties": [],
@@ -5617,7 +5669,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_216"
+      "id": "masterraven_218"
     },
     {
       "properties": [],
@@ -5643,7 +5695,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_217"
+      "id": "masterraven_219"
     },
     {
       "properties": [],
@@ -5660,16 +5712,16 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "13 [15], 15",
+      "damage": "13 [15], 17",
       "speed": "17",
-      "on_block": "-7",
+      "on_block": "-12",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_218"
+      "id": "masterraven_220"
     },
     {
       "properties": [],
@@ -5686,16 +5738,16 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "15 [18]",
+      "damage": "17 [20]",
       "speed": "24",
-      "on_block": "-7",
+      "on_block": "-12",
       "on_hit": "KND",
-      "on_ch": "KND",
+      "on_ch": "STUN",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_219"
+      "id": "masterraven_221"
     },
     {
       "properties": [],
@@ -5721,7 +5773,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_220"
+      "id": "masterraven_222"
     },
     {
       "properties": [],
@@ -5747,7 +5799,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_221"
+      "id": "masterraven_223"
     },
     {
       "properties": [],
@@ -5773,7 +5825,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_222"
+      "id": "masterraven_224"
     },
     {
       "properties": [],
@@ -5799,7 +5851,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_223"
+      "id": "masterraven_225"
     },
     {
       "properties": [],
@@ -5825,7 +5877,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_224"
+      "id": "masterraven_226"
     },
     {
       "properties": [],
@@ -5851,7 +5903,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_225"
+      "id": "masterraven_227"
     },
     {
       "properties": [],
@@ -5877,7 +5929,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_226"
+      "id": "masterraven_228"
     },
     {
       "properties": [],
@@ -5903,7 +5955,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_227"
+      "id": "masterraven_229"
     },
     {
       "properties": [],
@@ -5929,7 +5981,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_228"
+      "id": "masterraven_230"
     },
     {
       "properties": [],
@@ -5955,7 +6007,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_229"
+      "id": "masterraven_231"
     },
     {
       "properties": [],
@@ -5981,7 +6033,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_230"
+      "id": "masterraven_232"
     },
     {
       "properties": [],
@@ -6007,7 +6059,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_231"
+      "id": "masterraven_233"
     },
     {
       "properties": [],
@@ -6033,7 +6085,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_232"
+      "id": "masterraven_234"
     },
     {
       "properties": [],
@@ -6059,7 +6111,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_233"
+      "id": "masterraven_235"
     },
     {
       "properties": [],
@@ -6085,7 +6137,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_234"
+      "id": "masterraven_236"
     },
     {
       "properties": [],
@@ -6111,7 +6163,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_235"
+      "id": "masterraven_237"
     },
     {
       "properties": [],
@@ -6137,7 +6189,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_236"
+      "id": "masterraven_238"
     },
     {
       "properties": [],
@@ -6163,7 +6215,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_237"
+      "id": "masterraven_239"
     },
     {
       "properties": [],
@@ -6189,7 +6241,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_238"
+      "id": "masterraven_240"
     },
     {
       "properties": [],
@@ -6215,7 +6267,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_239"
+      "id": "masterraven_241"
     },
     {
       "properties": [],
@@ -6241,7 +6293,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_240"
+      "id": "masterraven_242"
     },
     {
       "properties": [],
@@ -6267,7 +6319,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_241"
+      "id": "masterraven_243"
     },
     {
       "properties": [],
@@ -6293,11 +6345,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_242"
+      "id": "masterraven_244"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ZanyFrailAntelopegroundsquirrel.gif",
+      "preview_url": "https://giant.gfycat.com/LongJampackedHoverfly.gif",
       "move_name": "Fatal Elbow",
       "notation": "qcf+1",
       "hit_level": "mid",
@@ -6310,8 +6362,8 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "19 [22]",
-      "speed": "19",
+      "damage": "17 [20]",
+      "speed": "16",
       "on_block": "-9",
       "on_hit": "+4",
       "on_ch": "LAUNCH",
@@ -6319,7 +6371,59 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_243"
+      "id": "masterraven_245"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/ImmenseEarlyFlyinglemur.gif",
+      "move_name": "Fatal Elbow to Elbow Storm",
+      "notation": "qcf+1, 2",
+      "hit_level": "mid, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "17 [20], 17",
+      "speed": "16",
+      "on_block": "-13",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "masterraven_246"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(qcf+1), 2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "17 [20]",
+      "speed": "21",
+      "on_block": "-13",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "masterraven_247"
     },
     {
       "properties": [],
@@ -6345,7 +6449,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_244"
+      "id": "masterraven_248"
     },
     {
       "properties": [],
@@ -6371,7 +6475,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_245"
+      "id": "masterraven_249"
     },
     {
       "properties": [],
@@ -6397,7 +6501,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_246"
+      "id": "masterraven_250"
     },
     {
       "properties": [],
@@ -6423,11 +6527,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_247"
+      "id": "masterraven_251"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/VapidZealousDogfish.gif",
+      "preview_url": "https://giant.gfycat.com/ImmenseEarlyFlyinglemur.gif",
       "move_name": "Hellhound",
       "notation": "qcf+1+2",
       "hit_level": "mid, mid",
@@ -6449,7 +6553,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_248"
+      "id": "masterraven_252"
     },
     {
       "properties": [],
@@ -6475,7 +6579,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_249"
+      "id": "masterraven_253"
     },
     {
       "properties": [],
@@ -6500,7 +6604,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_250"
+      "id": "masterraven_254"
     },
     {
       "properties": [],
@@ -6526,7 +6630,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_251"
+      "id": "masterraven_255"
     },
     {
       "properties": [],
@@ -6552,7 +6656,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_252"
+      "id": "masterraven_256"
     },
     {
       "properties": [],
@@ -6578,7 +6682,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_253"
+      "id": "masterraven_257"
     },
     {
       "properties": [],
@@ -6604,7 +6708,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_254"
+      "id": "masterraven_258"
     },
     {
       "properties": [],
@@ -6630,7 +6734,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_255"
+      "id": "masterraven_259"
     },
     {
       "properties": [],
@@ -6656,7 +6760,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_256"
+      "id": "masterraven_260"
     },
     {
       "properties": [],
@@ -6682,7 +6786,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_257"
+      "id": "masterraven_261"
     },
     {
       "properties": [],
@@ -6708,11 +6812,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_258"
+      "id": "masterraven_262"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/AgitatedTestyAmericanwirehair.gif",
+      "preview_url": "https://giant.gfycat.com/JauntyZealousAnnelid.gif",
       "move_name": "Alondite",
       "notation": "f+1+2",
       "hit_level": "mid",
@@ -6726,13 +6830,14 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "24 [28]",
-      "speed": "22",
+      "speed": "19",
       "on_block": "-14",
       "on_hit": "KND",
       "on_ch": "KND",
+      "in_air": "S!",
       "on_whiff": "-",
       "active_frames": "-",
-      "id": "masterraven_259"
+      "id": "masterraven_263"
     },
     {
       "properties": [],
@@ -6758,7 +6863,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_260"
+      "id": "masterraven_264"
     },
     {
       "properties": [],
@@ -6784,7 +6889,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_261"
+      "id": "masterraven_265"
     },
     {
       "properties": [],
@@ -6810,7 +6915,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_262"
+      "id": "masterraven_266"
     },
     {
       "properties": [],
@@ -6836,7 +6941,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_263"
+      "id": "masterraven_267"
     },
     {
       "properties": [],
@@ -6862,7 +6967,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_264"
+      "id": "masterraven_268"
     },
     {
       "properties": [],
@@ -6888,7 +6993,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_265"
+      "id": "masterraven_269"
     },
     {
       "properties": [],
@@ -6914,7 +7019,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_266"
+      "id": "masterraven_270"
     },
     {
       "properties": [],
@@ -6940,7 +7045,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_267"
+      "id": "masterraven_271"
     },
     {
       "properties": [],
@@ -6966,7 +7071,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_268"
+      "id": "masterraven_272"
     },
     {
       "properties": [],
@@ -6992,7 +7097,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_269"
+      "id": "masterraven_273"
     },
     {
       "properties": [],
@@ -7018,7 +7123,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_270"
+      "id": "masterraven_274"
     },
     {
       "properties": [],
@@ -7044,7 +7149,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_271"
+      "id": "masterraven_275"
     },
     {
       "properties": [],
@@ -7070,7 +7175,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_272"
+      "id": "masterraven_276"
     },
     {
       "properties": [],
@@ -7096,7 +7201,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_273"
+      "id": "masterraven_277"
     },
     {
       "properties": [],
@@ -7122,7 +7227,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_274"
+      "id": "masterraven_278"
     },
     {
       "properties": [],
@@ -7148,7 +7253,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_275"
+      "id": "masterraven_279"
     },
     {
       "properties": [],
@@ -7174,7 +7279,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_276"
+      "id": "masterraven_280"
     },
     {
       "properties": [],
@@ -7200,7 +7305,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_277"
+      "id": "masterraven_281"
     },
     {
       "properties": [],
@@ -7226,7 +7331,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_278"
+      "id": "masterraven_282"
     },
     {
       "properties": [],
@@ -7252,7 +7357,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_279"
+      "id": "masterraven_283"
     },
     {
       "properties": [],
@@ -7278,7 +7383,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_280"
+      "id": "masterraven_284"
     },
     {
       "properties": [],
@@ -7304,7 +7409,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_281"
+      "id": "masterraven_285"
     },
     {
       "properties": [],
@@ -7330,7 +7435,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_282"
+      "id": "masterraven_286"
     },
     {
       "properties": [],
@@ -7356,7 +7461,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_283"
+      "id": "masterraven_287"
     },
     {
       "properties": [],
@@ -7382,7 +7487,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_284"
+      "id": "masterraven_288"
     },
     {
       "properties": [],
@@ -7408,7 +7513,7 @@
       "on_whiff": "-15",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_285"
+      "id": "masterraven_289"
     },
     {
       "properties": [],
@@ -7434,7 +7539,7 @@
       "on_whiff": "-35",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_286"
+      "id": "masterraven_290"
     },
     {
       "properties": [],
@@ -7460,7 +7565,7 @@
       "on_whiff": "-15",
       "active_frames": "-",
       "notes": "-",
-      "id": "masterraven_287"
+      "id": "masterraven_291"
     },
     {
       "properties": [],
@@ -7486,7 +7591,7 @@
       "on_whiff": "-",
       "active_frames": "8",
       "notes": "-",
-      "id": "masterraven_288"
+      "id": "masterraven_292"
     }
   ]
 }

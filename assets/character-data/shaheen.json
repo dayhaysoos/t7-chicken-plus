@@ -941,7 +941,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/BigheartedFeminineBoutu.gif",
+      "preview_url": "https://giant.gfycat.com/GenuineCooperativeAmbushbug.gif",
       "move_name": "Crescent Moon",
       "notation": "f+3",
       "hit_level": "mid",
@@ -951,7 +951,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
-      "environmental": "-",
+      "environmental": "HOMING",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "17 [20]",
@@ -967,7 +967,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ResponsibleSecretAphid.gif",
+      "preview_url": "https://giant.gfycat.com/UnhappyKindheartedElver.gif",
       "move_name": "Piercing Talon",
       "notation": "f+4",
       "hit_level": "high",
@@ -983,8 +983,8 @@
       "damage": "17 [20]",
       "speed": "15",
       "on_block": "-2",
-      "on_hit": "+15",
-      "on_ch": "S!",
+      "on_hit": "KND",
+      "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -1008,8 +1008,8 @@
       "meter_gain": "-",
       "damage": "14 [16], 14",
       "speed": "22",
-      "on_block": "-11",
-      "on_hit": "+1 (OC)",
+      "on_block": "-7",
+      "on_hit": "+5 (OC)",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
@@ -1035,8 +1035,8 @@
       "damage": "14 [16]",
       "speed": "28",
       "on_block": "-11",
-      "on_hit": "+1 (OC)",
-      "on_ch": "+1 (OC)",
+      "on_hit": "+5 (OC)",
+      "on_ch": "+5 (OC)",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -1112,7 +1112,7 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "20",
-      "on_block": "+4",
+      "on_block": "+6",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
@@ -1396,7 +1396,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "15 [18]",
+      "damage": "12 [14]",
       "speed": "20",
       "on_block": "-17",
       "on_hit": "-6",
@@ -1409,7 +1409,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/TintedNearChicken.gif",
+      "preview_url": "https://giant.gfycat.com/MammothVastArgentinehornedfrog.gif",
       "move_name": "Snake's Bite to Rising Scimitar",
       "notation": "d/b+3, 4",
       "hit_level": "low, high",
@@ -1422,10 +1422,10 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "15 [18], 23",
+      "damage": "12 [14], 20",
       "speed": "20",
       "on_block": "-36",
-      "on_hit": "KND",
+      "on_hit": "LAUNCH",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
@@ -1448,11 +1448,11 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "23 [27]",
+      "damage": "20 [24]",
       "speed": "17",
       "on_block": "-13",
-      "on_hit": "KND",
-      "on_ch": "KND",
+      "on_hit": "LAUNCH",
+      "on_ch": "LAUNCH",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -1461,7 +1461,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ZigzagRealisticDunnart.gif",
+      "preview_url": "https://giant.gfycat.com/FoolhardyBleakBeauceron.gif",
       "move_name": "Rising Scimitar",
       "notation": "d/b+4",
       "hit_level": "high",
@@ -1474,11 +1474,11 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "30 [36]",
+      "damage": "23 [27]",
       "speed": "20",
       "on_block": "-13",
-      "on_hit": "KND",
-      "on_ch": "KND",
+      "on_hit": "LAUNCH",
+      "on_ch": "LAUNCH",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -1487,7 +1487,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ScalyPettyHairstreak.gif",
+      "preview_url": "https://giant.gfycat.com/BiodegradableVictoriousAntarcticgiantpetrel.gif",
       "move_name": "Achernar",
       "notation": "b+1",
       "hit_level": "mid",
@@ -1500,16 +1500,42 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "18 [21]",
+      "damage": "20 [24]",
       "speed": "19",
-      "on_block": "-9",
-      "on_hit": "+3 (OC)",
-      "on_ch": "GROUND BOUNCE",
+      "on_block": "+1",
+      "on_hit": "+8 (OC)",
+      "on_ch": "+8 (OC)",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
       "id": "shaheen_58"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "b+1, D",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "shaheen_59"
     },
     {
       "properties": [],
@@ -1535,7 +1561,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_59"
+      "id": "shaheen_60"
     },
     {
       "properties": [],
@@ -1556,12 +1582,12 @@
       "speed": "17",
       "on_block": "-15",
       "on_hit": "+2",
-      "on_ch": "KND",
+      "on_ch": "STUN",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_60"
+      "id": "shaheen_61"
     },
     {
       "properties": [],
@@ -1587,7 +1613,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_61"
+      "id": "shaheen_62"
     },
     {
       "properties": [],
@@ -1613,7 +1639,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_62"
+      "id": "shaheen_63"
     },
     {
       "properties": [],
@@ -1639,7 +1665,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_63"
+      "id": "shaheen_64"
     },
     {
       "properties": [],
@@ -1665,7 +1691,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_64"
+      "id": "shaheen_65"
     },
     {
       "properties": [],
@@ -1691,7 +1717,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_65"
+      "id": "shaheen_66"
     },
     {
       "properties": [],
@@ -1717,7 +1743,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_66"
+      "id": "shaheen_67"
     },
     {
       "properties": [],
@@ -1743,7 +1769,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_67"
+      "id": "shaheen_68"
     },
     {
       "properties": [],
@@ -1769,7 +1795,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_68"
+      "id": "shaheen_69"
     },
     {
       "properties": [],
@@ -1786,7 +1812,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "24 [28]",
+      "damage": "21 [25]",
       "speed": "16",
       "on_block": "-23",
       "on_hit": "KND",
@@ -1795,7 +1821,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_69"
+      "id": "shaheen_70"
     },
     {
       "properties": [],
@@ -1821,7 +1847,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_70"
+      "id": "shaheen_71"
     },
     {
       "properties": [],
@@ -1847,7 +1873,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_71"
+      "id": "shaheen_72"
     },
     {
       "properties": [],
@@ -1873,7 +1899,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_72"
+      "id": "shaheen_73"
     },
     {
       "properties": [],
@@ -1899,7 +1925,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_73"
+      "id": "shaheen_74"
     },
     {
       "properties": [],
@@ -1916,8 +1942,8 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "16 [19]",
-      "speed": "15",
+      "damage": "17 [20]",
+      "speed": "14",
       "on_block": "-2",
       "on_hit": "+4",
       "on_ch": "+12",
@@ -1925,7 +1951,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_74"
+      "id": "shaheen_75"
     },
     {
       "properties": [],
@@ -1951,7 +1977,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_75"
+      "id": "shaheen_76"
     },
     {
       "properties": [],
@@ -1977,7 +2003,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_76"
+      "id": "shaheen_77"
     },
     {
       "properties": [],
@@ -1996,14 +2022,14 @@
       "meter_gain": "-",
       "damage": "16 [19], 20",
       "speed": "13",
-      "on_block": "-15",
+      "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_77"
+      "id": "shaheen_78"
     },
     {
       "properties": [],
@@ -2022,14 +2048,14 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "17",
-      "on_block": "-15",
+      "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_78"
+      "id": "shaheen_79"
     },
     {
       "properties": [],
@@ -2055,7 +2081,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_79"
+      "id": "shaheen_80"
     },
     {
       "properties": [],
@@ -2081,7 +2107,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_80"
+      "id": "shaheen_81"
     },
     {
       "properties": [],
@@ -2107,7 +2133,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_81"
+      "id": "shaheen_82"
     },
     {
       "properties": [],
@@ -2133,7 +2159,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_82"
+      "id": "shaheen_83"
     },
     {
       "properties": [],
@@ -2159,7 +2185,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_83"
+      "id": "shaheen_84"
     },
     {
       "properties": [],
@@ -2185,7 +2211,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_84"
+      "id": "shaheen_85"
     },
     {
       "properties": [],
@@ -2211,7 +2237,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_85"
+      "id": "shaheen_86"
     },
     {
       "properties": [],
@@ -2237,7 +2263,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_86"
+      "id": "shaheen_87"
     },
     {
       "properties": [],
@@ -2263,7 +2289,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_87"
+      "id": "shaheen_88"
     },
     {
       "properties": [],
@@ -2289,7 +2315,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_88"
+      "id": "shaheen_89"
     },
     {
       "properties": [],
@@ -2315,7 +2341,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_89"
+      "id": "shaheen_90"
     },
     {
       "properties": [],
@@ -2341,7 +2367,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_90"
+      "id": "shaheen_91"
     },
     {
       "properties": [],
@@ -2367,7 +2393,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_91"
+      "id": "shaheen_92"
     },
     {
       "properties": [],
@@ -2393,7 +2419,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_92"
+      "id": "shaheen_93"
     },
     {
       "properties": [],
@@ -2419,7 +2445,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_93"
+      "id": "shaheen_94"
     },
     {
       "properties": [],
@@ -2445,7 +2471,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_94"
+      "id": "shaheen_95"
     },
     {
       "properties": [],
@@ -2471,7 +2497,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_95"
+      "id": "shaheen_96"
     },
     {
       "properties": [],
@@ -2497,7 +2523,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_96"
+      "id": "shaheen_97"
     },
     {
       "properties": [],
@@ -2523,7 +2549,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_97"
+      "id": "shaheen_98"
     },
     {
       "properties": [],
@@ -2549,7 +2575,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_98"
+      "id": "shaheen_99"
     },
     {
       "properties": [],
@@ -2575,7 +2601,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_99"
+      "id": "shaheen_100"
     },
     {
       "properties": [],
@@ -2601,7 +2627,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_100"
+      "id": "shaheen_101"
     },
     {
       "properties": [],
@@ -2627,7 +2653,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_101"
+      "id": "shaheen_102"
     },
     {
       "properties": [],
@@ -2653,13 +2679,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_102"
+      "id": "shaheen_103"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/BeneficialAlienatedGalapagosdove.gif",
+      "preview_url": "https://giant.gfycat.com/SnarlingNimbleDaddylonglegs.gif",
       "move_name": "Low Glide",
-      "notation": "SNK 4",
+      "notation": "SNK 3+4",
       "hit_level": "low",
       "range": "-",
       "pushback": "-",
@@ -2679,7 +2705,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_103"
+      "id": "shaheen_104"
     },
     {
       "properties": [],
@@ -2705,11 +2731,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_104"
+      "id": "shaheen_105"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/AbsoluteSeparateIndianspinyloach.gif",
+      "preview_url": "https://giant.gfycat.com/EquatorialSnoopyGaur.gif",
       "move_name": "Elnath",
       "notation": "f, F+4",
       "hit_level": "high",
@@ -2719,7 +2745,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
-      "environmental": "-",
+      "environmental": "WALL BOUND",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "25 [30]",
@@ -2731,7 +2757,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_105"
+      "id": "shaheen_106"
     },
     {
       "properties": [],
@@ -2757,7 +2783,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_106"
+      "id": "shaheen_107"
     },
     {
       "properties": [],
@@ -2783,7 +2809,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_107"
+      "id": "shaheen_108"
     },
     {
       "properties": [],
@@ -2809,7 +2835,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_108"
+      "id": "shaheen_109"
     },
     {
       "properties": [],
@@ -2835,7 +2861,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_109"
+      "id": "shaheen_110"
     },
     {
       "properties": [],
@@ -2861,7 +2887,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_110"
+      "id": "shaheen_111"
     },
     {
       "properties": [],
@@ -2887,7 +2913,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_111"
+      "id": "shaheen_112"
     },
     {
       "properties": [],
@@ -2913,7 +2939,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_112"
+      "id": "shaheen_113"
     },
     {
       "properties": [],
@@ -2939,7 +2965,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_113"
+      "id": "shaheen_114"
     },
     {
       "properties": [],
@@ -2965,7 +2991,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_114"
+      "id": "shaheen_115"
     },
     {
       "properties": [],
@@ -2991,7 +3017,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_115"
+      "id": "shaheen_116"
     },
     {
       "properties": [],
@@ -3017,7 +3043,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_116"
+      "id": "shaheen_117"
     },
     {
       "properties": [],
@@ -3043,7 +3069,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_117"
+      "id": "shaheen_118"
     },
     {
       "properties": [],
@@ -3069,7 +3095,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_118"
+      "id": "shaheen_119"
     },
     {
       "properties": [],
@@ -3095,7 +3121,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_119"
+      "id": "shaheen_120"
     },
     {
       "properties": [],
@@ -3121,7 +3147,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_120"
+      "id": "shaheen_121"
     },
     {
       "properties": [],
@@ -3147,7 +3173,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_121"
+      "id": "shaheen_122"
     },
     {
       "properties": [],
@@ -3173,7 +3199,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_122"
+      "id": "shaheen_123"
     },
     {
       "properties": [],
@@ -3199,7 +3225,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_123"
+      "id": "shaheen_124"
     },
     {
       "properties": [],
@@ -3225,7 +3251,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "shaheen_124"
+      "id": "shaheen_125"
     }
   ]
 }

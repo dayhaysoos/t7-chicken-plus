@@ -318,7 +318,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "9 [10], 9",
+      "damage": "9 [10], 13",
       "speed": "15",
       "on_block": "-9",
       "on_hit": "+6",
@@ -343,7 +343,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "9 [10]",
+      "damage": "13 [15]",
       "speed": "16",
       "on_block": "-9",
       "on_hit": "+6",
@@ -368,7 +368,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "9 [10], 9, 7",
+      "damage": "9 [10], 13, 7",
       "speed": "15",
       "on_block": "-8",
       "on_hit": "-2",
@@ -418,7 +418,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "9 [10], 9, 7, 7",
+      "damage": "9 [10], 13, 7, 7",
       "speed": "15",
       "on_block": "-7",
       "on_hit": "+7",
@@ -518,7 +518,7 @@
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "9 [10], 9, 23",
+      "damage": "9 [10], 13, 23",
       "speed": "15",
       "on_block": "-14",
       "on_hit": "+5",
@@ -544,10 +544,10 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "23 [27]",
-      "speed": "26",
+      "speed": "25",
       "on_block": "-14",
       "on_hit": "+5",
-      "on_ch": "+5",
+      "on_ch": "S!",
       "in_air": "S!",
       "active_frames": "2",
       "notes": "-",
@@ -568,7 +568,7 @@
       "environmental": "WALL SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "9 [10], 9, 5, 20",
+      "damage": "9 [10], 13, 5, 20",
       "speed": "15",
       "on_block": "-11",
       "on_hit": "KND",
@@ -598,7 +598,7 @@
       "on_block": "-11",
       "on_hit": "KND",
       "on_ch": "KND",
-      "in_air": "ACTIVATE",
+      "in_air": "KND",
       "active_frames": "11",
       "notes": "-",
       "id": "noctis_24"
@@ -673,7 +673,7 @@
       "on_block": "-14",
       "on_hit": "-1",
       "on_ch": "-",
-      "in_air": "ACTIVATE",
+      "in_air": "BACKFLIP",
       "active_frames": "1, 2",
       "notes": "-",
       "id": "noctis_27"
@@ -698,7 +698,7 @@
       "on_block": "-",
       "on_hit": "AIRBORNE",
       "on_ch": "-",
-      "in_air": "ACTIVATE",
+      "in_air": "BACKFLIP",
       "active_frames": "1, 2",
       "notes": "-",
       "id": "noctis_28"
@@ -723,7 +723,7 @@
       "on_block": "-14",
       "on_hit": "-1",
       "on_ch": "-1",
-      "in_air": "ACTIVATE",
+      "in_air": "BACKFLIP",
       "active_frames": "2",
       "notes": "-",
       "id": "noctis_29"
@@ -747,7 +747,7 @@
       "speed": "18",
       "on_block": "-14",
       "on_hit": "KND",
-      "on_ch": "KND",
+      "on_ch": "S!",
       "in_air": "FLOAT",
       "active_frames": "2, 2",
       "notes": "-",
@@ -873,14 +873,39 @@
       "on_block": "-13",
       "on_hit": "LAUNCH",
       "on_ch": "LAUNCH",
-      "in_air": "ACTIVATE",
+      "in_air": "LAUNCH",
       "active_frames": "2",
       "notes": "-",
       "id": "noctis_35"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/EminentDifferentAlligator.gif",
+      "preview_url": "https://giant.gfycat.com/WavyDifferentEthiopianwolf.gif",
+      "move_name": "Ascension Storm Air",
+      "notation": "u/f+3:U",
+      "hit_level": "mid",
+      "range": "2",
+      "pushback": "0",
+      "tracking": "-",
+      "crush": "low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "WALL SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "11 [13], 16",
+      "speed": "17",
+      "on_block": "-",
+      "on_hit": "LAUNCH",
+      "on_ch": "LAUNCH",
+      "in_air": "LAUNCH",
+      "active_frames": "2",
+      "notes": "-",
+      "id": "noctis_36"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/TenderFavoriteAustraliancurlew.gif",
       "move_name": "Chaser Shoot",
       "notation": "u/f+4",
       "hit_level": "high",
@@ -895,13 +920,13 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "19",
-      "on_block": "-5",
+      "on_block": "-3",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "S!",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_36"
+      "id": "noctis_37"
     },
     {
       "properties": [],
@@ -923,10 +948,10 @@
       "on_block": "-9",
       "on_hit": "KND",
       "on_ch": "KND",
-      "in_air": "ACTIVATE",
+      "in_air": "KND",
       "active_frames": "10",
       "notes": "-",
-      "id": "noctis_37"
+      "id": "noctis_38"
     },
     {
       "properties": [],
@@ -951,7 +976,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_38"
+      "id": "noctis_39"
     },
     {
       "properties": [],
@@ -973,10 +998,10 @@
       "on_block": "-11",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "ACTIVATE",
+      "in_air": "KND",
       "active_frames": "1, 10",
       "notes": "-",
-      "id": "noctis_39"
+      "id": "noctis_40"
     },
     {
       "properties": [],
@@ -998,10 +1023,10 @@
       "on_block": "-11",
       "on_hit": "KND",
       "on_ch": "KND",
-      "in_air": "ACTIVATE",
+      "in_air": "KND",
       "active_frames": "10",
       "notes": "-",
-      "id": "noctis_40"
+      "id": "noctis_41"
     },
     {
       "properties": [],
@@ -1026,11 +1051,11 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_41"
+      "id": "noctis_42"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/SardonicHastyAmericanrobin.gif",
+      "preview_url": "https://giant.gfycat.com/SpottedWarlikeCaimanlizard.gif",
       "move_name": "Circle Slash",
       "notation": "f+4, 2",
       "hit_level": "mid, mid",
@@ -1046,12 +1071,12 @@
       "damage": "13 [15], 21",
       "speed": "17",
       "on_block": "-11",
-      "on_hit": "+12",
+      "on_hit": "KND",
       "on_ch": "-",
       "in_air": "S!",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "noctis_42"
+      "id": "noctis_43"
     },
     {
       "properties": [],
@@ -1071,12 +1096,12 @@
       "damage": "21 [25]",
       "speed": "32",
       "on_block": "-11",
-      "on_hit": "+12",
-      "on_ch": "+12",
+      "on_hit": "KND",
+      "on_ch": "KND",
       "in_air": "S!",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_43"
+      "id": "noctis_44"
     },
     {
       "properties": [],
@@ -1101,7 +1126,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_44"
+      "id": "noctis_45"
     },
     {
       "properties": [],
@@ -1123,10 +1148,10 @@
       "on_block": "-14",
       "on_hit": "KND",
       "on_ch": "KND",
-      "in_air": "ACTIVATE",
+      "in_air": "KND",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_45"
+      "id": "noctis_46"
     },
     {
       "properties": [],
@@ -1151,7 +1176,7 @@
       "in_air": "S!",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_46"
+      "id": "noctis_47"
     },
     {
       "properties": [],
@@ -1168,7 +1193,7 @@
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "17 [20]",
+      "damage": "20 [24]",
       "speed": "15",
       "on_block": "-9",
       "on_hit": "+10",
@@ -1176,7 +1201,7 @@
       "in_air": "S!",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_47"
+      "id": "noctis_48"
     },
     {
       "properties": [],
@@ -1201,7 +1226,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_48"
+      "id": "noctis_49"
     },
     {
       "properties": [],
@@ -1226,7 +1251,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_49"
+      "id": "noctis_50"
     },
     {
       "properties": [],
@@ -1251,7 +1276,7 @@
       "in_air": "S!",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "noctis_50"
+      "id": "noctis_51"
     },
     {
       "properties": [],
@@ -1276,7 +1301,7 @@
       "in_air": "S!",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_51"
+      "id": "noctis_52"
     },
     {
       "properties": [],
@@ -1293,7 +1318,7 @@
       "environmental": "WALL SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "15 [18]",
+      "damage": "20 [24]",
       "speed": "15",
       "on_block": "-20",
       "on_hit": "LAUNCH",
@@ -1301,7 +1326,7 @@
       "in_air": "BACK FLIP",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_52"
+      "id": "noctis_53"
     },
     {
       "properties": [],
@@ -1326,7 +1351,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_53"
+      "id": "noctis_54"
     },
     {
       "properties": [],
@@ -1351,7 +1376,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_54"
+      "id": "noctis_55"
     },
     {
       "properties": [],
@@ -1376,7 +1401,7 @@
       "in_air": "TAIL SPIN",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "noctis_55"
+      "id": "noctis_56"
     },
     {
       "properties": [],
@@ -1401,7 +1426,7 @@
       "in_air": "TAIL SPIN",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_56"
+      "id": "noctis_57"
     },
     {
       "properties": [],
@@ -1426,7 +1451,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1, 2, 2",
       "notes": "-",
-      "id": "noctis_57"
+      "id": "noctis_58"
     },
     {
       "properties": [],
@@ -1451,7 +1476,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_58"
+      "id": "noctis_59"
     },
     {
       "properties": [],
@@ -1476,7 +1501,7 @@
       "in_air": "S!",
       "active_frames": "1, 2, 2",
       "notes": "-",
-      "id": "noctis_59"
+      "id": "noctis_60"
     },
     {
       "properties": [],
@@ -1501,7 +1526,7 @@
       "in_air": "S!",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_60"
+      "id": "noctis_61"
     },
     {
       "properties": [],
@@ -1526,7 +1551,7 @@
       "in_air": "S!",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_61"
+      "id": "noctis_62"
     },
     {
       "properties": [],
@@ -1551,7 +1576,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "2, 1",
       "notes": "-",
-      "id": "noctis_62"
+      "id": "noctis_63"
     },
     {
       "properties": [],
@@ -1576,7 +1601,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_63"
+      "id": "noctis_64"
     },
     {
       "properties": [],
@@ -1593,15 +1618,15 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "12 [14]",
+      "damage": "15 [18]",
       "speed": "20",
-      "on_block": "-18",
-      "on_hit": "-3",
-      "on_ch": "-3",
+      "on_block": "-15",
+      "on_hit": "0",
+      "on_ch": "0",
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_64"
+      "id": "noctis_65"
     },
     {
       "properties": [],
@@ -1626,7 +1651,7 @@
       "in_air": "S!",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "noctis_65"
+      "id": "noctis_66"
     },
     {
       "properties": [],
@@ -1651,7 +1676,7 @@
       "in_air": "S!",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_66"
+      "id": "noctis_67"
     },
     {
       "properties": [],
@@ -1676,7 +1701,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_67"
+      "id": "noctis_68"
     },
     {
       "properties": [],
@@ -1701,7 +1726,7 @@
       "in_air": "BACK FLIP",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "noctis_68"
+      "id": "noctis_69"
     },
     {
       "properties": [],
@@ -1726,7 +1751,7 @@
       "in_air": "BACK FLIP",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "noctis_69"
+      "id": "noctis_70"
     },
     {
       "properties": [],
@@ -1751,7 +1776,7 @@
       "in_air": "BACK FLIP",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_70"
+      "id": "noctis_71"
     },
     {
       "properties": [],
@@ -1776,7 +1801,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1, 2, 3",
       "notes": "-",
-      "id": "noctis_71"
+      "id": "noctis_72"
     },
     {
       "properties": [],
@@ -1793,7 +1818,7 @@
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "9 [10], 20, 22",
+      "damage": "9 [10], 20, 25",
       "speed": "19",
       "on_block": "-31",
       "on_hit": "KND",
@@ -1801,7 +1826,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1, 2, 3",
       "notes": "-",
-      "id": "noctis_72"
+      "id": "noctis_73"
     },
     {
       "properties": [],
@@ -1818,7 +1843,7 @@
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "22 [26]",
+      "damage": "25 [30]",
       "speed": "31",
       "on_block": "-18",
       "on_hit": "KND",
@@ -1826,7 +1851,32 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "3",
       "notes": "-",
-      "id": "noctis_73"
+      "id": "noctis_74"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "d+4, 1, 1+2 (close)",
+      "hit_level": "low, high, mid",
+      "range": "1.5",
+      "pushback": "1",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "NC",
+      "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "13 [16], 14, 11",
+      "speed": "19",
+      "on_block": "-31",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "FLOOR BREAK",
+      "active_frames": "1, 2, 3",
+      "notes": "-",
+      "id": "noctis_75"
     },
     {
       "properties": [],
@@ -1843,7 +1893,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "7 [8]",
+      "damage": "10 [12]",
       "speed": "15",
       "on_block": "-6",
       "on_hit": "+3",
@@ -1851,7 +1901,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_74"
+      "id": "noctis_76"
     },
     {
       "properties": [],
@@ -1876,7 +1926,7 @@
       "in_air": "FLIP OVER",
       "active_frames": "1, 1, 2",
       "notes": "-",
-      "id": "noctis_75"
+      "id": "noctis_77"
     },
     {
       "properties": [],
@@ -1901,7 +1951,7 @@
       "in_air": "FLIP OVER",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "noctis_76"
+      "id": "noctis_78"
     },
     {
       "properties": [],
@@ -1926,7 +1976,7 @@
       "in_air": "FLIP OVER",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_77"
+      "id": "noctis_79"
     },
     {
       "properties": [],
@@ -1951,11 +2001,11 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_78"
+      "id": "noctis_80"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/MeekCalculatingGermanwirehairedpointer.gif",
+      "preview_url": "https://giant.gfycat.com/RevolvingDamagedAlbino.gif",
       "move_name": "Delta Thrust",
       "notation": "d/b+2",
       "hit_level": "s. low",
@@ -1968,7 +2018,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "23 [27]",
+      "damage": "20 [24]",
       "speed": "24",
       "on_block": "-19",
       "on_hit": "+4",
@@ -1976,7 +2026,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_79"
+      "id": "noctis_81"
     },
     {
       "properties": [],
@@ -2001,7 +2051,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_80"
+      "id": "noctis_82"
     },
     {
       "properties": [],
@@ -2026,7 +2076,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_81"
+      "id": "noctis_83"
     },
     {
       "properties": [],
@@ -2051,11 +2101,11 @@
       "in_air": "BACK FLIP",
       "active_frames": "3",
       "notes": "-",
-      "id": "noctis_82"
+      "id": "noctis_84"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/CloseLikableKillifish.gif",
+      "preview_url": "https://giant.gfycat.com/PlumpPresentKitten.gif",
       "move_name": "Royal Slash Alternative",
       "notation": "d/b+1+2*",
       "hit_level": "mid",
@@ -2076,7 +2126,7 @@
       "in_air": "BACK FLIP",
       "active_frames": "3",
       "notes": "-",
-      "id": "noctis_83"
+      "id": "noctis_85"
     },
     {
       "properties": [],
@@ -2101,7 +2151,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_84"
+      "id": "noctis_86"
     },
     {
       "properties": [],
@@ -2126,7 +2176,7 @@
       "in_air": "BACK FLIP",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "noctis_85"
+      "id": "noctis_87"
     },
     {
       "properties": [],
@@ -2151,7 +2201,7 @@
       "in_air": "BACK FLIP",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_86"
+      "id": "noctis_88"
     },
     {
       "properties": [],
@@ -2176,7 +2226,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_87"
+      "id": "noctis_89"
     },
     {
       "properties": [],
@@ -2193,7 +2243,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "13 [15], 6, 14",
+      "damage": "13 [15], 3, 14",
       "speed": "15",
       "on_block": "-9",
       "on_hit": "+6",
@@ -2201,7 +2251,7 @@
       "in_air": "-",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_88"
+      "id": "noctis_90"
     },
     {
       "properties": [],
@@ -2226,7 +2276,7 @@
       "in_air": "TAIL SPIN",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_89"
+      "id": "noctis_91"
     },
     {
       "properties": [],
@@ -2251,7 +2301,7 @@
       "in_air": "KND",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "noctis_90"
+      "id": "noctis_92"
     },
     {
       "properties": [],
@@ -2276,7 +2326,7 @@
       "in_air": "KND",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_91"
+      "id": "noctis_93"
     },
     {
       "properties": [],
@@ -2301,7 +2351,7 @@
       "in_air": "BACK FLIP",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "noctis_92"
+      "id": "noctis_94"
     },
     {
       "properties": [],
@@ -2326,11 +2376,11 @@
       "in_air": "BACK FLIP",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_93"
+      "id": "noctis_95"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ValidNeighboringCalf.gif",
+      "preview_url": "https://giant.gfycat.com/FearlessFirmBighornsheep.gif",
       "move_name": "Shield Smash",
       "notation": "b+1+4",
       "hit_level": "mid",
@@ -2345,13 +2395,13 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "26",
-      "on_block": "-11",
-      "on_hit": "KND",
-      "on_ch": "KND",
+      "on_block": "-9",
+      "on_hit": "+4 (OC)",
+      "on_ch": "+4 (OC)",
       "in_air": "FLOOR BREAK",
       "active_frames": "2",
       "notes": "7f parry window",
-      "id": "noctis_94"
+      "id": "noctis_96"
     },
     {
       "properties": [],
@@ -2376,7 +2426,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_95"
+      "id": "noctis_97"
     },
     {
       "properties": [],
@@ -2401,7 +2451,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_96"
+      "id": "noctis_98"
     },
     {
       "properties": [],
@@ -2426,7 +2476,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_97"
+      "id": "noctis_99"
     },
     {
       "properties": [],
@@ -2451,7 +2501,32 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_98"
+      "id": "noctis_100"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/WeakThankfulAustralianfurseal.gif",
+      "move_name": "Quick Bash",
+      "notation": "FC d/f+1",
+      "hit_level": "mid",
+      "range": "2",
+      "pushback": "1.5",
+      "tracking": "SSR",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "25 [30]",
+      "speed": "16",
+      "on_block": "-9",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "FLOAT",
+      "active_frames": "2",
+      "notes": "-",
+      "id": "noctis_101"
     },
     {
       "properties": [],
@@ -2476,7 +2551,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_99"
+      "id": "noctis_102"
     },
     {
       "properties": [],
@@ -2501,7 +2576,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_100"
+      "id": "noctis_103"
     },
     {
       "properties": [],
@@ -2526,7 +2601,7 @@
       "in_air": "FLOAT",
       "active_frames": "13",
       "notes": "-",
-      "id": "noctis_101"
+      "id": "noctis_104"
     },
     {
       "properties": [],
@@ -2551,7 +2626,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_102"
+      "id": "noctis_105"
     },
     {
       "properties": [],
@@ -2576,7 +2651,7 @@
       "in_air": "FLOAT",
       "active_frames": "17",
       "notes": "-",
-      "id": "noctis_103"
+      "id": "noctis_106"
     },
     {
       "properties": [],
@@ -2601,7 +2676,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_104"
+      "id": "noctis_107"
     },
     {
       "properties": [],
@@ -2626,7 +2701,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "2, 1",
       "notes": "-",
-      "id": "noctis_105"
+      "id": "noctis_108"
     },
     {
       "properties": [],
@@ -2651,7 +2726,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_106"
+      "id": "noctis_109"
     },
     {
       "properties": [],
@@ -2676,7 +2751,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_107"
+      "id": "noctis_110"
     },
     {
       "properties": [],
@@ -2701,7 +2776,7 @@
       "in_air": "S!",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "noctis_108"
+      "id": "noctis_111"
     },
     {
       "properties": [],
@@ -2722,11 +2797,11 @@
       "speed": "26",
       "on_block": "-14",
       "on_hit": "+5",
-      "on_ch": "+5",
+      "on_ch": "S!",
       "in_air": "S!",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_109"
+      "id": "noctis_112"
     },
     {
       "properties": [],
@@ -2751,7 +2826,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_110"
+      "id": "noctis_113"
     },
     {
       "properties": [],
@@ -2773,10 +2848,10 @@
       "on_block": "-11",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "ACTIVATE",
+      "in_air": "KND",
       "active_frames": "1, 10",
       "notes": "-",
-      "id": "noctis_111"
+      "id": "noctis_114"
     },
     {
       "properties": [],
@@ -2798,10 +2873,10 @@
       "on_block": "-11",
       "on_hit": "KND",
       "on_ch": "KND",
-      "in_air": "ACTIVATE",
+      "in_air": "KND",
       "active_frames": "10",
       "notes": "-",
-      "id": "noctis_112"
+      "id": "noctis_115"
     },
     {
       "properties": [],
@@ -2826,7 +2901,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_113"
+      "id": "noctis_116"
     },
     {
       "properties": [],
@@ -2851,7 +2926,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_114"
+      "id": "noctis_117"
     },
     {
       "properties": [],
@@ -2876,7 +2951,7 @@
       "in_air": "FLOAT",
       "active_frames": "3",
       "notes": "-",
-      "id": "noctis_115"
+      "id": "noctis_118"
     },
     {
       "properties": [],
@@ -2901,7 +2976,7 @@
       "in_air": "FLOAT",
       "active_frames": "3, 2",
       "notes": "-",
-      "id": "noctis_116"
+      "id": "noctis_119"
     },
     {
       "properties": [],
@@ -2926,7 +3001,7 @@
       "in_air": "S!",
       "active_frames": "3, 2, 2",
       "notes": "-",
-      "id": "noctis_117"
+      "id": "noctis_120"
     },
     {
       "properties": [],
@@ -2951,7 +3026,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_118"
+      "id": "noctis_121"
     },
     {
       "properties": [],
@@ -2976,7 +3051,7 @@
       "in_air": "TAIL SPIN",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_119"
+      "id": "noctis_122"
     },
     {
       "properties": [],
@@ -2985,7 +3060,7 @@
       "notation": "(During Forward Jump Peak) 1+2",
       "hit_level": "mid",
       "range": "2.5",
-      "pushback": "2",
+      "pushback": "1.5",
       "tracking": "-",
       "crush": "-",
       "jail": "-",
@@ -3001,7 +3076,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "4",
       "notes": "occurs at frame 23",
-      "id": "noctis_120"
+      "id": "noctis_123"
     },
     {
       "properties": [],
@@ -3026,7 +3101,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "noctis_121"
+      "id": "noctis_124"
     },
     {
       "properties": [],
@@ -3051,7 +3126,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_122"
+      "id": "noctis_125"
     },
     {
       "properties": [],
@@ -3076,7 +3151,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_123"
+      "id": "noctis_126"
     },
     {
       "properties": [],
@@ -3101,7 +3176,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_124"
+      "id": "noctis_127"
     },
     {
       "properties": [],
@@ -3126,7 +3201,7 @@
       "in_air": "FLOAT",
       "active_frames": "12",
       "notes": "-",
-      "id": "noctis_125"
+      "id": "noctis_128"
     },
     {
       "properties": [],
@@ -3151,7 +3226,7 @@
       "in_air": "FLOAT",
       "active_frames": "6",
       "notes": "-",
-      "id": "noctis_126"
+      "id": "noctis_129"
     },
     {
       "properties": [],
@@ -3176,7 +3251,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_127"
+      "id": "noctis_130"
     },
     {
       "properties": [],
@@ -3201,7 +3276,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_128"
+      "id": "noctis_131"
     },
     {
       "properties": [],
@@ -3226,7 +3301,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_129"
+      "id": "noctis_132"
     },
     {
       "properties": [],
@@ -3251,7 +3326,7 @@
       "in_air": "FLOAT",
       "active_frames": "4",
       "notes": "-",
-      "id": "noctis_130"
+      "id": "noctis_133"
     },
     {
       "properties": [],
@@ -3276,7 +3351,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "noctis_131"
+      "id": "noctis_134"
     },
     {
       "properties": [],
@@ -3301,7 +3376,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_132"
+      "id": "noctis_135"
     },
     {
       "properties": [],
@@ -3326,7 +3401,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_133"
+      "id": "noctis_136"
     },
     {
       "properties": [],
@@ -3351,7 +3426,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_134"
+      "id": "noctis_137"
     },
     {
       "properties": [],
@@ -3376,7 +3451,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_135"
+      "id": "noctis_138"
     },
     {
       "properties": [],
@@ -3401,7 +3476,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "noctis_136"
+      "id": "noctis_139"
     },
     {
       "properties": [],
@@ -3426,7 +3501,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "-",
-      "id": "noctis_137"
+      "id": "noctis_140"
     },
     {
       "properties": [],
@@ -3450,7 +3525,7 @@
       "on_ch": "KND",
       "in_air": "FLOAT",
       "active_frames": "5",
-      "id": "noctis_138"
+      "id": "noctis_141"
     },
     {
       "properties": [],
@@ -3475,7 +3550,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_139"
+      "id": "noctis_142"
     },
     {
       "properties": [],
@@ -3500,7 +3575,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_140"
+      "id": "noctis_143"
     },
     {
       "properties": [],
@@ -3522,10 +3597,10 @@
       "on_block": "+12",
       "on_hit": "KND",
       "on_ch": "KND",
-      "in_air": "ACTIVATE",
+      "in_air": "KND",
       "active_frames": "11",
       "notes": "-",
-      "id": "noctis_141"
+      "id": "noctis_144"
     },
     {
       "properties": [],
@@ -3547,10 +3622,10 @@
       "on_block": "-32",
       "on_hit": "KND",
       "on_ch": "KND",
-      "in_air": "ACTIVATE",
+      "in_air": "KND",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_142"
+      "id": "noctis_145"
     },
     {
       "properties": [],
@@ -3575,7 +3650,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "noctis_143"
+      "id": "noctis_146"
     },
     {
       "properties": [],
@@ -3600,7 +3675,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "noctis_144"
+      "id": "noctis_147"
     },
     {
       "properties": [],
@@ -3625,7 +3700,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "noctis_145"
+      "id": "noctis_148"
     },
     {
       "properties": [],
@@ -3650,7 +3725,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "noctis_146"
+      "id": "noctis_149"
     },
     {
       "properties": [],
@@ -3675,7 +3750,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "noctis_147"
+      "id": "noctis_150"
     },
     {
       "properties": [],
@@ -3700,7 +3775,7 @@
       "in_air": "-",
       "active_frames": "1",
       "notes": "1+2 BREAK",
-      "id": "noctis_148"
+      "id": "noctis_151"
     },
     {
       "properties": [],
@@ -3725,7 +3800,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "noctis_149"
+      "id": "noctis_152"
     },
     {
       "properties": [],
@@ -3750,7 +3825,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "noctis_150"
+      "id": "noctis_153"
     },
     {
       "properties": [],
@@ -3775,7 +3850,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "-",
-      "id": "noctis_151"
+      "id": "noctis_154"
     },
     {
       "properties": [],
@@ -3800,7 +3875,7 @@
       "in_air": "-",
       "active_frames": "1",
       "notes": "2 BREAK",
-      "id": "noctis_152"
+      "id": "noctis_155"
     },
     {
       "properties": [],
@@ -3825,7 +3900,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "noctis_153"
+      "id": "noctis_156"
     },
     {
       "properties": [],
@@ -3850,7 +3925,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "noctis_154"
+      "id": "noctis_157"
     },
     {
       "properties": [],
@@ -3875,7 +3950,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "noctis_155"
+      "id": "noctis_158"
     },
     {
       "properties": [],
@@ -3900,7 +3975,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "noctis_156"
+      "id": "noctis_159"
     },
     {
       "properties": [],
@@ -3925,7 +4000,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "noctis_157"
+      "id": "noctis_160"
     },
     {
       "properties": [],
@@ -3950,7 +4025,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "noctis_158"
+      "id": "noctis_161"
     },
     {
       "properties": [],
@@ -3975,7 +4050,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "noctis_159"
+      "id": "noctis_162"
     },
     {
       "properties": [],
@@ -4000,7 +4075,7 @@
       "in_air": "-",
       "active_frames": "15",
       "notes": "-",
-      "id": "noctis_160"
+      "id": "noctis_163"
     }
   ]
 }

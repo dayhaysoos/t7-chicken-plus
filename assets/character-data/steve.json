@@ -1467,7 +1467,7 @@
       "hit_level": "mid",
       "range": "-",
       "pushback": "-",
-      "tracking": "-",
+      "tracking": "HOMING",
       "crush": "-",
       "jail": "-",
       "natural": "-",
@@ -2178,7 +2178,7 @@
       "meter_gain": "-",
       "damage": "16 [20]",
       "speed": "17",
-      "on_block": "-13",
+      "on_block": "-14",
       "on_hit": "STUN",
       "on_ch": "STUN",
       "in_air": "-",
@@ -2215,6 +2215,32 @@
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/LegitimateMadeupKakarikis.gif",
+      "move_name": "Low Cross Blaster",
+      "notation": "qcf+2",
+      "hit_level": "low",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "18 [21]",
+      "speed": "19",
+      "on_block": "-18",
+      "on_hit": "+2 (OC)",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_86"
+    },
+    {
+      "properties": [],
       "preview_url": null,
       "move_name": null,
       "notation": "BT 1 (or 2)",
@@ -2237,7 +2263,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_86"
+      "id": "steve_87"
     },
     {
       "properties": [],
@@ -2263,7 +2289,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_87"
+      "id": "steve_88"
     },
     {
       "properties": [],
@@ -2289,7 +2315,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_88"
+      "id": "steve_89"
     },
     {
       "properties": [],
@@ -2308,14 +2334,14 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "18",
-      "on_block": "-1",
+      "on_block": "-15",
       "on_hit": "LAUNCH",
       "on_ch": "LAUNCH",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_89"
+      "id": "steve_90"
     },
     {
       "properties": [],
@@ -2341,7 +2367,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_90"
+      "id": "steve_91"
     },
     {
       "properties": [],
@@ -2367,7 +2393,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_91"
+      "id": "steve_92"
     },
     {
       "properties": [],
@@ -2393,7 +2419,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_92"
+      "id": "steve_93"
     },
     {
       "properties": [],
@@ -2419,7 +2445,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_93"
+      "id": "steve_94"
     },
     {
       "properties": [],
@@ -2445,7 +2471,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_94"
+      "id": "steve_95"
     },
     {
       "properties": [],
@@ -2471,7 +2497,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_95"
+      "id": "steve_96"
     },
     {
       "properties": [],
@@ -2497,7 +2523,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_96"
+      "id": "steve_97"
     },
     {
       "properties": [],
@@ -2523,7 +2549,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_97"
+      "id": "steve_98"
     },
     {
       "properties": [],
@@ -2549,7 +2575,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_98"
+      "id": "steve_99"
     },
     {
       "properties": [],
@@ -2575,7 +2601,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_99"
+      "id": "steve_100"
     },
     {
       "properties": [],
@@ -2601,7 +2627,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_100"
+      "id": "steve_101"
     },
     {
       "properties": [],
@@ -2627,7 +2653,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_101"
+      "id": "steve_102"
     },
     {
       "properties": [],
@@ -2653,7 +2679,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_102"
+      "id": "steve_103"
     },
     {
       "properties": [],
@@ -2679,7 +2705,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_103"
+      "id": "steve_104"
     },
     {
       "properties": [],
@@ -2705,7 +2731,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_104"
+      "id": "steve_105"
     },
     {
       "properties": [],
@@ -2731,7 +2757,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_105"
+      "id": "steve_106"
     },
     {
       "properties": [],
@@ -2757,7 +2783,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_106"
+      "id": "steve_107"
     },
     {
       "properties": [],
@@ -2783,7 +2809,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_107"
+      "id": "steve_108"
     },
     {
       "properties": [],
@@ -2809,7 +2835,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_108"
+      "id": "steve_109"
     },
     {
       "properties": [],
@@ -2835,7 +2861,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_109"
+      "id": "steve_110"
     },
     {
       "properties": [],
@@ -2861,7 +2887,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_110"
+      "id": "steve_111"
     },
     {
       "properties": [],
@@ -2887,7 +2913,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_111"
+      "id": "steve_112"
     },
     {
       "properties": [],
@@ -2913,7 +2939,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_112"
+      "id": "steve_113"
     },
     {
       "properties": [],
@@ -2939,7 +2965,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_113"
+      "id": "steve_114"
     },
     {
       "properties": [],
@@ -2965,7 +2991,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_114"
+      "id": "steve_115"
     },
     {
       "properties": [],
@@ -2991,7 +3017,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_115"
+      "id": "steve_116"
     },
     {
       "properties": [],
@@ -3017,7 +3043,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_116"
+      "id": "steve_117"
     },
     {
       "properties": [],
@@ -3043,7 +3069,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_117"
+      "id": "steve_118"
     },
     {
       "properties": [],
@@ -3069,7 +3095,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_118"
+      "id": "steve_119"
     },
     {
       "properties": [],
@@ -3095,7 +3121,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_119"
+      "id": "steve_120"
     },
     {
       "properties": [],
@@ -3121,7 +3147,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_120"
+      "id": "steve_121"
     },
     {
       "properties": [],
@@ -3147,7 +3173,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_121"
+      "id": "steve_122"
     },
     {
       "properties": [],
@@ -3173,7 +3199,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_122"
+      "id": "steve_123"
     },
     {
       "properties": [],
@@ -3199,7 +3225,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_123"
+      "id": "steve_124"
     },
     {
       "properties": [],
@@ -3225,7 +3251,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_124"
+      "id": "steve_125"
     },
     {
       "properties": [],
@@ -3251,7 +3277,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_125"
+      "id": "steve_126"
     },
     {
       "properties": [],
@@ -3277,7 +3303,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_126"
+      "id": "steve_127"
     },
     {
       "properties": [],
@@ -3303,7 +3329,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_127"
+      "id": "steve_128"
     },
     {
       "properties": [],
@@ -3329,7 +3355,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_128"
+      "id": "steve_129"
     },
     {
       "properties": [],
@@ -3355,7 +3381,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_129"
+      "id": "steve_130"
     },
     {
       "properties": [],
@@ -3381,7 +3407,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_130"
+      "id": "steve_131"
     },
     {
       "properties": [],
@@ -3407,7 +3433,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_131"
+      "id": "steve_132"
     },
     {
       "properties": [],
@@ -3433,7 +3459,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_132"
+      "id": "steve_133"
     },
     {
       "properties": [],
@@ -3459,7 +3485,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_133"
+      "id": "steve_134"
     },
     {
       "properties": [],
@@ -3485,7 +3511,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_134"
+      "id": "steve_135"
     },
     {
       "properties": [],
@@ -3511,7 +3537,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_135"
+      "id": "steve_136"
     },
     {
       "properties": [],
@@ -3537,13 +3563,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_136"
+      "id": "steve_137"
     },
     {
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "1, 1, 2, 3 (or 4)",
+      "notation": "WALL BOUND",
       "hit_level": "high, high, high",
       "range": "-",
       "pushback": "-",
@@ -3563,7 +3589,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_137"
+      "id": "steve_138"
     },
     {
       "properties": [],
@@ -3589,7 +3615,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_138"
+      "id": "steve_139"
     },
     {
       "properties": [],
@@ -3615,7 +3641,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_139"
+      "id": "steve_140"
     },
     {
       "properties": [],
@@ -3641,7 +3667,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_140"
+      "id": "steve_141"
     },
     {
       "properties": [],
@@ -3667,7 +3693,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_141"
+      "id": "steve_142"
     },
     {
       "properties": [],
@@ -3693,7 +3719,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_142"
+      "id": "steve_143"
     },
     {
       "properties": [],
@@ -3719,7 +3745,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_143"
+      "id": "steve_144"
     },
     {
       "properties": [],
@@ -3745,7 +3771,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_144"
+      "id": "steve_145"
     },
     {
       "properties": [],
@@ -3771,7 +3797,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_145"
+      "id": "steve_146"
     },
     {
       "properties": [],
@@ -3797,7 +3823,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_146"
+      "id": "steve_147"
     },
     {
       "properties": [],
@@ -3823,7 +3849,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_147"
+      "id": "steve_148"
     },
     {
       "properties": [],
@@ -3849,7 +3875,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_148"
+      "id": "steve_149"
     },
     {
       "properties": [],
@@ -3875,7 +3901,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_149"
+      "id": "steve_150"
     },
     {
       "properties": [],
@@ -3901,7 +3927,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_150"
+      "id": "steve_151"
     },
     {
       "properties": [],
@@ -3927,7 +3953,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_151"
+      "id": "steve_152"
     },
     {
       "properties": [],
@@ -3953,7 +3979,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_152"
+      "id": "steve_153"
     },
     {
       "properties": [],
@@ -3979,7 +4005,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_153"
+      "id": "steve_154"
     },
     {
       "properties": [],
@@ -4005,7 +4031,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_154"
+      "id": "steve_155"
     },
     {
       "properties": [],
@@ -4031,7 +4057,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_155"
+      "id": "steve_156"
     },
     {
       "properties": [],
@@ -4057,7 +4083,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_156"
+      "id": "steve_157"
     },
     {
       "properties": [],
@@ -4083,7 +4109,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_157"
+      "id": "steve_158"
     },
     {
       "properties": [],
@@ -4109,7 +4135,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_158"
+      "id": "steve_159"
     },
     {
       "properties": [],
@@ -4135,7 +4161,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_159"
+      "id": "steve_160"
     },
     {
       "properties": [],
@@ -4161,7 +4187,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_160"
+      "id": "steve_161"
     },
     {
       "properties": [],
@@ -4187,11 +4213,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_161"
+      "id": "steve_162"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/LiveOblongCatfish.gif",
+      "preview_url": "https://giant.gfycat.com/AnyExcitableAnkolewatusi.gif",
       "move_name": "Gut Drill",
       "notation": "RWV 2",
       "hit_level": "mid",
@@ -4213,7 +4239,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_162"
+      "id": "steve_163"
     },
     {
       "properties": [],
@@ -4239,7 +4265,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_163"
+      "id": "steve_164"
     },
     {
       "properties": [],
@@ -4265,7 +4291,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_164"
+      "id": "steve_165"
     },
     {
       "properties": [],
@@ -4291,7 +4317,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_165"
+      "id": "steve_166"
     },
     {
       "properties": [],
@@ -4317,7 +4343,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_166"
+      "id": "steve_167"
     },
     {
       "properties": [],
@@ -4343,7 +4369,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_167"
+      "id": "steve_168"
     },
     {
       "properties": [],
@@ -4369,7 +4395,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_168"
+      "id": "steve_169"
     },
     {
       "properties": [],
@@ -4395,7 +4421,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_169"
+      "id": "steve_170"
     },
     {
       "properties": [],
@@ -4421,7 +4447,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_170"
+      "id": "steve_171"
     },
     {
       "properties": [],
@@ -4447,7 +4473,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_171"
+      "id": "steve_172"
     },
     {
       "properties": [],
@@ -4473,7 +4499,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_172"
+      "id": "steve_173"
     },
     {
       "properties": [],
@@ -4499,7 +4525,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_173"
+      "id": "steve_174"
     },
     {
       "properties": [],
@@ -4525,7 +4551,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_174"
+      "id": "steve_175"
     },
     {
       "properties": [],
@@ -4551,7 +4577,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_175"
+      "id": "steve_176"
     },
     {
       "properties": [],
@@ -4577,7 +4603,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_176"
+      "id": "steve_177"
     },
     {
       "properties": [],
@@ -4603,7 +4629,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_177"
+      "id": "steve_178"
     },
     {
       "properties": [],
@@ -4629,7 +4655,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_178"
+      "id": "steve_179"
     },
     {
       "properties": [],
@@ -4655,7 +4681,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_179"
+      "id": "steve_180"
     },
     {
       "properties": [],
@@ -4681,7 +4707,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_180"
+      "id": "steve_181"
     },
     {
       "properties": [],
@@ -4707,7 +4733,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_181"
+      "id": "steve_182"
     },
     {
       "properties": [],
@@ -4733,7 +4759,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_182"
+      "id": "steve_183"
     },
     {
       "properties": [],
@@ -4759,7 +4785,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_183"
+      "id": "steve_184"
     },
     {
       "properties": [],
@@ -4785,7 +4811,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_184"
+      "id": "steve_185"
     },
     {
       "properties": [],
@@ -4811,7 +4837,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_185"
+      "id": "steve_186"
     },
     {
       "properties": [],
@@ -4837,7 +4863,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_186"
+      "id": "steve_187"
     },
     {
       "properties": [],
@@ -4863,7 +4889,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_187"
+      "id": "steve_188"
     },
     {
       "properties": [],
@@ -4889,7 +4915,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_188"
+      "id": "steve_189"
     },
     {
       "properties": [],
@@ -4915,7 +4941,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_189"
+      "id": "steve_190"
     },
     {
       "properties": [],
@@ -4941,11 +4967,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_190"
+      "id": "steve_191"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/BogusClumsyAmericancicada.gif",
+      "preview_url": "https://giant.gfycat.com/RegularOrderlyGoldenretriever.gif",
       "move_name": "Power Hook Combo",
       "notation": "FLK 1, d+1",
       "hit_level": "high, high",
@@ -4961,13 +4987,13 @@
       "damage": "14 [16], 23",
       "speed": "12",
       "on_block": "0",
-      "on_hit": "KND",
+      "on_hit": "+18",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_191"
+      "id": "steve_192"
     },
     {
       "properties": [],
@@ -4987,13 +5013,13 @@
       "damage": "23 [27]",
       "speed": "15",
       "on_block": "0",
-      "on_hit": "KND",
-      "on_ch": "STUN",
+      "on_hit": "+18",
+      "on_ch": "S!",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_192"
+      "id": "steve_193"
     },
     {
       "properties": [],
@@ -5019,7 +5045,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_193"
+      "id": "steve_194"
     },
     {
       "properties": [],
@@ -5045,7 +5071,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_194"
+      "id": "steve_195"
     },
     {
       "properties": [],
@@ -5071,7 +5097,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_195"
+      "id": "steve_196"
     },
     {
       "properties": [],
@@ -5097,7 +5123,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_196"
+      "id": "steve_197"
     },
     {
       "properties": [],
@@ -5123,7 +5149,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_197"
+      "id": "steve_198"
     },
     {
       "properties": [],
@@ -5149,7 +5175,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_198"
+      "id": "steve_199"
     },
     {
       "properties": [],
@@ -5175,7 +5201,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_199"
+      "id": "steve_200"
     },
     {
       "properties": [],
@@ -5201,7 +5227,33 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_200"
+      "id": "steve_201"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/BitesizedLikableFrogmouth.gif",
+      "move_name": "Low Cross Blaster to Peekaboo",
+      "notation": "qcf+2, F",
+      "hit_level": "low",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "18 [21]",
+      "speed": "19",
+      "on_block": "-18",
+      "on_hit": "+2 (OC)",
+      "on_ch": "+2 (OC)",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "steve_202"
     },
     {
       "properties": [],
@@ -5227,7 +5279,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_201"
+      "id": "steve_203"
     },
     {
       "properties": [],
@@ -5253,7 +5305,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_202"
+      "id": "steve_204"
     },
     {
       "properties": [],
@@ -5279,7 +5331,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_203"
+      "id": "steve_205"
     },
     {
       "properties": [],
@@ -5305,7 +5357,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_204"
+      "id": "steve_206"
     },
     {
       "properties": [],
@@ -5331,7 +5383,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_205"
+      "id": "steve_207"
     },
     {
       "properties": [],
@@ -5357,7 +5409,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_206"
+      "id": "steve_208"
     },
     {
       "properties": [],
@@ -5383,7 +5435,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_207"
+      "id": "steve_209"
     },
     {
       "properties": [],
@@ -5409,7 +5461,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_208"
+      "id": "steve_210"
     },
     {
       "properties": [],
@@ -5435,7 +5487,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_209"
+      "id": "steve_211"
     },
     {
       "properties": [],
@@ -5461,7 +5513,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_210"
+      "id": "steve_212"
     },
     {
       "properties": [],
@@ -5487,7 +5539,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_211"
+      "id": "steve_213"
     },
     {
       "properties": [],
@@ -5513,7 +5565,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_212"
+      "id": "steve_214"
     },
     {
       "properties": [],
@@ -5539,7 +5591,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_213"
+      "id": "steve_215"
     },
     {
       "properties": [],
@@ -5565,7 +5617,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_214"
+      "id": "steve_216"
     },
     {
       "properties": [],
@@ -5591,7 +5643,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_215"
+      "id": "steve_217"
     },
     {
       "properties": [],
@@ -5612,12 +5664,12 @@
       "speed": "18",
       "on_block": "-13",
       "on_hit": "+8 (OC)",
-      "on_ch": "KND",
+      "on_ch": "FLOOR BOUND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_216"
+      "id": "steve_218"
     },
     {
       "properties": [],
@@ -5643,7 +5695,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_217"
+      "id": "steve_219"
     },
     {
       "properties": [],
@@ -5669,7 +5721,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_218"
+      "id": "steve_220"
     },
     {
       "properties": [],
@@ -5695,7 +5747,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_219"
+      "id": "steve_221"
     },
     {
       "properties": [],
@@ -5721,7 +5773,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_220"
+      "id": "steve_222"
     },
     {
       "properties": [],
@@ -5747,7 +5799,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_221"
+      "id": "steve_223"
     },
     {
       "properties": [],
@@ -5773,7 +5825,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_222"
+      "id": "steve_224"
     },
     {
       "properties": [],
@@ -5799,7 +5851,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_223"
+      "id": "steve_225"
     },
     {
       "properties": [],
@@ -5825,7 +5877,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_224"
+      "id": "steve_226"
     },
     {
       "properties": [],
@@ -5851,7 +5903,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_225"
+      "id": "steve_227"
     },
     {
       "properties": [],
@@ -5877,7 +5929,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_226"
+      "id": "steve_228"
     },
     {
       "properties": [],
@@ -5903,7 +5955,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_227"
+      "id": "steve_229"
     },
     {
       "properties": [],
@@ -5929,7 +5981,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_228"
+      "id": "steve_230"
     },
     {
       "properties": [],
@@ -5955,7 +6007,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_229"
+      "id": "steve_231"
     },
     {
       "properties": [],
@@ -5981,7 +6033,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_230"
+      "id": "steve_232"
     },
     {
       "properties": [],
@@ -6007,7 +6059,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_231"
+      "id": "steve_233"
     },
     {
       "properties": [],
@@ -6033,7 +6085,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_232"
+      "id": "steve_234"
     },
     {
       "properties": [],
@@ -6059,7 +6111,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_233"
+      "id": "steve_235"
     },
     {
       "properties": [],
@@ -6085,7 +6137,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_234"
+      "id": "steve_236"
     },
     {
       "properties": [],
@@ -6111,7 +6163,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_235"
+      "id": "steve_237"
     },
     {
       "properties": [],
@@ -6137,7 +6189,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_236"
+      "id": "steve_238"
     },
     {
       "properties": [],
@@ -6163,7 +6215,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_237"
+      "id": "steve_239"
     },
     {
       "properties": [],
@@ -6189,7 +6241,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_238"
+      "id": "steve_240"
     },
     {
       "properties": [],
@@ -6215,7 +6267,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_239"
+      "id": "steve_241"
     },
     {
       "properties": [],
@@ -6241,7 +6293,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_240"
+      "id": "steve_242"
     },
     {
       "properties": [],
@@ -6267,7 +6319,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_241"
+      "id": "steve_243"
     },
     {
       "properties": [],
@@ -6293,7 +6345,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_242"
+      "id": "steve_244"
     },
     {
       "properties": [],
@@ -6319,7 +6371,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_243"
+      "id": "steve_245"
     },
     {
       "properties": [],
@@ -6345,7 +6397,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_244"
+      "id": "steve_246"
     },
     {
       "properties": [],
@@ -6371,7 +6423,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_245"
+      "id": "steve_247"
     },
     {
       "properties": [],
@@ -6397,7 +6449,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_246"
+      "id": "steve_248"
     },
     {
       "properties": [],
@@ -6423,7 +6475,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_247"
+      "id": "steve_249"
     },
     {
       "properties": [],
@@ -6448,7 +6500,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_248"
+      "id": "steve_250"
     },
     {
       "properties": [],
@@ -6474,7 +6526,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_249"
+      "id": "steve_251"
     },
     {
       "properties": [],
@@ -6500,7 +6552,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_250"
+      "id": "steve_252"
     },
     {
       "properties": [],
@@ -6526,7 +6578,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_251"
+      "id": "steve_253"
     },
     {
       "properties": [],
@@ -6552,7 +6604,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_252"
+      "id": "steve_254"
     },
     {
       "properties": [],
@@ -6578,7 +6630,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_253"
+      "id": "steve_255"
     },
     {
       "properties": [],
@@ -6604,7 +6656,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_254"
+      "id": "steve_256"
     },
     {
       "properties": [],
@@ -6630,7 +6682,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_255"
+      "id": "steve_257"
     },
     {
       "properties": [],
@@ -6656,7 +6708,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_256"
+      "id": "steve_258"
     },
     {
       "properties": [],
@@ -6675,14 +6727,14 @@
       "meter_gain": "-",
       "damage": "27 [32]",
       "speed": "14",
-      "on_block": "-10",
+      "on_block": "-9",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_257"
+      "id": "steve_259"
     },
     {
       "properties": [],
@@ -6708,7 +6760,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_258"
+      "id": "steve_260"
     },
     {
       "properties": [],
@@ -6734,7 +6786,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_259"
+      "id": "steve_261"
     },
     {
       "properties": [],
@@ -6760,7 +6812,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_260"
+      "id": "steve_262"
     },
     {
       "properties": [],
@@ -6786,7 +6838,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_261"
+      "id": "steve_263"
     },
     {
       "properties": [],
@@ -6812,7 +6864,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_262"
+      "id": "steve_264"
     },
     {
       "properties": [],
@@ -6838,7 +6890,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_263"
+      "id": "steve_265"
     },
     {
       "properties": [],
@@ -6864,7 +6916,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_264"
+      "id": "steve_266"
     },
     {
       "properties": [],
@@ -6890,7 +6942,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_265"
+      "id": "steve_267"
     },
     {
       "properties": [],
@@ -6916,7 +6968,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_266"
+      "id": "steve_268"
     },
     {
       "properties": [],
@@ -6942,7 +6994,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_267"
+      "id": "steve_269"
     },
     {
       "properties": [],
@@ -6968,7 +7020,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_268"
+      "id": "steve_270"
     },
     {
       "properties": [],
@@ -6994,7 +7046,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_269"
+      "id": "steve_271"
     },
     {
       "properties": [],
@@ -7020,7 +7072,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_270"
+      "id": "steve_272"
     },
     {
       "properties": [],
@@ -7046,7 +7098,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_271"
+      "id": "steve_273"
     },
     {
       "properties": [],
@@ -7072,7 +7124,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_272"
+      "id": "steve_274"
     },
     {
       "properties": [],
@@ -7098,7 +7150,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_273"
+      "id": "steve_275"
     },
     {
       "properties": [],
@@ -7124,7 +7176,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_274"
+      "id": "steve_276"
     },
     {
       "properties": [],
@@ -7150,7 +7202,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_275"
+      "id": "steve_277"
     },
     {
       "properties": [],
@@ -7176,7 +7228,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_276"
+      "id": "steve_278"
     },
     {
       "properties": [],
@@ -7202,7 +7254,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_277"
+      "id": "steve_279"
     },
     {
       "properties": [],
@@ -7228,7 +7280,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_278"
+      "id": "steve_280"
     },
     {
       "properties": [],
@@ -7254,7 +7306,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_279"
+      "id": "steve_281"
     },
     {
       "properties": [],
@@ -7280,7 +7332,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_280"
+      "id": "steve_282"
     },
     {
       "properties": [],
@@ -7306,7 +7358,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_281"
+      "id": "steve_283"
     },
     {
       "properties": [],
@@ -7332,7 +7384,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_282"
+      "id": "steve_284"
     },
     {
       "properties": [],
@@ -7358,7 +7410,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_283"
+      "id": "steve_285"
     },
     {
       "properties": [],
@@ -7384,7 +7436,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_284"
+      "id": "steve_286"
     },
     {
       "properties": [],
@@ -7410,7 +7462,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "steve_285"
+      "id": "steve_287"
     }
   ]
 }

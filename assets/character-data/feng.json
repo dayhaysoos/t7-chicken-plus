@@ -359,7 +359,7 @@
       "damage": "7 [8], 9, 10",
       "speed": "10",
       "on_block": "-13",
-      "on_hit": "+1",
+      "on_hit": "+3",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
@@ -385,7 +385,7 @@
       "damage": "9 [10], 10",
       "speed": "10",
       "on_block": "-13",
-      "on_hit": "+1",
+      "on_hit": "+3",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
@@ -411,8 +411,8 @@
       "damage": "10 [12]",
       "speed": "17",
       "on_block": "-13",
-      "on_hit": "+1",
-      "on_ch": "+1",
+      "on_hit": "+3",
+      "on_ch": "+3",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -709,7 +709,7 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "2~1",
+      "notation": "2~1 (or (SS 2~1)",
       "hit_level": "mid",
       "range": "-",
       "pushback": "-",
@@ -722,9 +722,9 @@
       "meter_gain": "-",
       "damage": "10 [12]",
       "speed": "24",
-      "on_block": "-3 (OC)",
-      "on_hit": "+5 (OC)",
-      "on_ch": "+5 (OC)",
+      "on_block": "-14 (OC)",
+      "on_hit": "+8 (OC)",
+      "on_ch": "+8 (OC)",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -735,7 +735,7 @@
       "properties": [],
       "preview_url": "https://giant.gfycat.com/ActualIndolentAustralianshelduck.gif",
       "move_name": "Mad Windmill",
-      "notation": "2~1, 1",
+      "notation": "2~1, 1 (or SS 2~1, 1)",
       "hit_level": "mid, mid",
       "range": "-",
       "pushback": "-",
@@ -748,7 +748,7 @@
       "meter_gain": "-",
       "damage": "10 [12], 20",
       "speed": "24",
-      "on_block": "-12",
+      "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
@@ -761,7 +761,7 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "(2~1), 1",
+      "notation": "(2~1), 1 (or (SS 2~1), 1)",
       "hit_level": "mid",
       "range": "-",
       "pushback": "-",
@@ -774,7 +774,7 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "24",
-      "on_block": "-12",
+      "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
@@ -787,7 +787,7 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "3~4",
+      "notation": "3~4 (or SS 3~4)",
       "hit_level": "mid",
       "range": "-",
       "pushback": "-",
@@ -800,7 +800,7 @@
       "meter_gain": "-",
       "damage": "27 [32]",
       "speed": "34",
-      "on_block": "-26",
+      "on_block": "-7",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
@@ -813,7 +813,7 @@
       "properties": [],
       "preview_url": "https://giant.gfycat.com/FinishedColorfulDuckbillplatypus.gif",
       "move_name": "Leaping Whirlwind Combo",
-      "notation": "3~4, 3",
+      "notation": "3~4, 3 (or SS 3~4, 3)",
       "hit_level": "mid, low",
       "range": "-",
       "pushback": "-",
@@ -1449,7 +1449,7 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "30 [36]",
-      "speed": "21",
+      "speed": "22",
       "on_block": "-10",
       "on_hit": "KND",
       "on_ch": "KND",
@@ -1501,7 +1501,7 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "22 [26]",
-      "speed": "31",
+      "speed": "32",
       "on_block": "-12",
       "on_hit": "STUN",
       "on_ch": "STUN",
@@ -1580,7 +1580,7 @@
       "meter_gain": "-",
       "damage": "25 [30]",
       "speed": "18",
-      "on_block": "-10",
+      "on_block": "-9",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
@@ -1864,7 +1864,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "15 [18]",
+      "damage": "14 [16]",
       "speed": "15",
       "on_block": "-6",
       "on_hit": "+5",
@@ -1874,6 +1874,136 @@
       "active_frames": "-",
       "notes": "-",
       "id": "feng_72"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "d/f+4, 2",
+      "hit_level": "mid, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "14 [16], 15",
+      "speed": "15",
+      "on_block": "-11",
+      "on_hit": "+1",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "feng_73"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(d/f+4), 2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "15 [18]",
+      "speed": "20",
+      "on_block": "-11",
+      "on_hit": "+1",
+      "on_ch": "+1",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "feng_74"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/HighGiganticEnglishpointer.gif",
+      "move_name": null,
+      "notation": "d/f+4, 2, 1+2",
+      "hit_level": "mid, mid, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "14 [16], 15, 23",
+      "speed": "15",
+      "on_block": "-19",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "feng_75"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(d/f+4), 2, 1+2",
+      "hit_level": "mid, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "15 [18], 23",
+      "speed": "20",
+      "on_block": "-19",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "feng_76"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(d/f+4), (2), 1+2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "23 [27]",
+      "speed": "34",
+      "on_block": "-19",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "feng_77"
     },
     {
       "properties": [],
@@ -1899,7 +2029,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_73"
+      "id": "feng_78"
     },
     {
       "properties": [],
@@ -1925,7 +2055,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_74"
+      "id": "feng_79"
     },
     {
       "properties": [],
@@ -1951,7 +2081,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_75"
+      "id": "feng_80"
     },
     {
       "properties": [],
@@ -1977,7 +2107,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_76"
+      "id": "feng_81"
     },
     {
       "properties": [],
@@ -2003,7 +2133,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_77"
+      "id": "feng_82"
     },
     {
       "properties": [],
@@ -2029,7 +2159,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_78"
+      "id": "feng_83"
     },
     {
       "properties": [],
@@ -2049,13 +2179,13 @@
       "damage": "12 [14], 18",
       "speed": "16",
       "on_block": "-12",
-      "on_hit": "+5",
+      "on_hit": "+7",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_79"
+      "id": "feng_84"
     },
     {
       "properties": [],
@@ -2075,13 +2205,13 @@
       "damage": "18 [21]",
       "speed": "23",
       "on_block": "-12",
-      "on_hit": "KND",
+      "on_hit": "+7",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_80"
+      "id": "feng_85"
     },
     {
       "properties": [],
@@ -2107,7 +2237,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_81"
+      "id": "feng_86"
     },
     {
       "properties": [],
@@ -2133,7 +2263,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_82"
+      "id": "feng_87"
     },
     {
       "properties": [],
@@ -2159,7 +2289,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_83"
+      "id": "feng_88"
     },
     {
       "properties": [],
@@ -2185,7 +2315,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_84"
+      "id": "feng_89"
     },
     {
       "properties": [],
@@ -2211,7 +2341,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_85"
+      "id": "feng_90"
     },
     {
       "properties": [],
@@ -2230,14 +2360,14 @@
       "meter_gain": "-",
       "damage": "5 [6]",
       "speed": "20",
-      "on_block": "-17",
-      "on_hit": "-6",
-      "on_ch": "-6",
+      "on_block": "-15",
+      "on_hit": "-4",
+      "on_ch": "-4",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_86"
+      "id": "feng_91"
     },
     {
       "properties": [],
@@ -2254,7 +2384,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "5 [6], 10, 21",
+      "damage": "10 [12], 10, 17",
       "speed": "20",
       "on_block": "-8",
       "on_hit": "KND",
@@ -2263,7 +2393,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_87"
+      "id": "feng_92"
     },
     {
       "properties": [],
@@ -2280,7 +2410,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "10 [12], 21",
+      "damage": "10 [12], 17",
       "speed": "28",
       "on_block": "-8",
       "on_hit": "KND",
@@ -2289,7 +2419,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_88"
+      "id": "feng_93"
     },
     {
       "properties": [],
@@ -2306,7 +2436,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "30 [36]",
+      "damage": "25 [30]",
       "speed": "28",
       "on_block": "-8",
       "on_hit": "KND",
@@ -2315,7 +2445,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_89"
+      "id": "feng_94"
     },
     {
       "properties": [],
@@ -2332,7 +2462,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "12 [14]",
+      "damage": "14 [16]",
       "speed": "16",
       "on_block": "-15",
       "on_hit": "+4",
@@ -2341,7 +2471,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_90"
+      "id": "feng_95"
     },
     {
       "properties": [],
@@ -2367,7 +2497,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_91"
+      "id": "feng_96"
     },
     {
       "properties": [],
@@ -2393,7 +2523,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_92"
+      "id": "feng_97"
     },
     {
       "properties": [],
@@ -2419,7 +2549,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_93"
+      "id": "feng_98"
     },
     {
       "properties": [],
@@ -2445,7 +2575,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_94"
+      "id": "feng_99"
     },
     {
       "properties": [],
@@ -2471,7 +2601,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_95"
+      "id": "feng_100"
     },
     {
       "properties": [],
@@ -2497,7 +2627,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_96"
+      "id": "feng_101"
     },
     {
       "properties": [],
@@ -2523,7 +2653,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_97"
+      "id": "feng_102"
     },
     {
       "properties": [],
@@ -2540,7 +2670,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "15 [18], 8",
+      "damage": "15 [18], 10",
       "speed": "17",
       "on_block": "-11",
       "on_hit": "0",
@@ -2549,7 +2679,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_98"
+      "id": "feng_103"
     },
     {
       "properties": [],
@@ -2566,7 +2696,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "15 [18]",
+      "damage": "10 [12]",
       "speed": "22",
       "on_block": "-11",
       "on_hit": "0",
@@ -2575,7 +2705,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_99"
+      "id": "feng_104"
     },
     {
       "properties": [],
@@ -2592,7 +2722,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "15 [18], 8, 12",
+      "damage": "15 [18], 10, 13",
       "speed": "17",
       "on_block": "-12",
       "on_hit": "KND",
@@ -2601,7 +2731,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_100"
+      "id": "feng_105"
     },
     {
       "properties": [],
@@ -2618,7 +2748,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "8 [9], 12",
+      "damage": "10 [12], 13",
       "speed": "22",
       "on_block": "-12",
       "on_hit": "KND",
@@ -2627,7 +2757,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_101"
+      "id": "feng_106"
     },
     {
       "properties": [],
@@ -2644,7 +2774,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "12 [14]",
+      "damage": "13 [15]",
       "speed": "24",
       "on_block": "-12",
       "on_hit": "KND",
@@ -2653,7 +2783,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_102"
+      "id": "feng_107"
     },
     {
       "properties": [],
@@ -2670,7 +2800,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "15 [18], 8, 12, 14",
+      "damage": "15 [18], 10, 13, 15",
       "speed": "17",
       "on_block": "-6",
       "on_hit": "KND",
@@ -2679,7 +2809,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_103"
+      "id": "feng_108"
     },
     {
       "properties": [],
@@ -2696,7 +2826,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "8 [10], 12, 14",
+      "damage": "10 [12], 13, 15",
       "speed": "22",
       "on_block": "-6",
       "on_hit": "KND",
@@ -2705,7 +2835,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_104"
+      "id": "feng_109"
     },
     {
       "properties": [],
@@ -2722,7 +2852,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "12 [14], 14",
+      "damage": "13 [15], 15",
       "speed": "24",
       "on_block": "-6",
       "on_hit": "KND",
@@ -2731,7 +2861,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_105"
+      "id": "feng_110"
     },
     {
       "properties": [],
@@ -2748,7 +2878,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "21 [25]",
+      "damage": "22 [26]",
       "speed": "24",
       "on_block": "-6",
       "on_hit": "+4 (OC)",
@@ -2757,7 +2887,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_106"
+      "id": "feng_111"
     },
     {
       "properties": [],
@@ -2783,7 +2913,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_107"
+      "id": "feng_112"
     },
     {
       "properties": [],
@@ -2809,7 +2939,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_108"
+      "id": "feng_113"
     },
     {
       "properties": [],
@@ -2835,7 +2965,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_109"
+      "id": "feng_114"
     },
     {
       "properties": [],
@@ -2861,7 +2991,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_110"
+      "id": "feng_115"
     },
     {
       "properties": [],
@@ -2887,7 +3017,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_111"
+      "id": "feng_116"
     },
     {
       "properties": [],
@@ -2913,7 +3043,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_112"
+      "id": "feng_117"
     },
     {
       "properties": [],
@@ -2939,7 +3069,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_113"
+      "id": "feng_118"
     },
     {
       "properties": [],
@@ -2965,7 +3095,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_114"
+      "id": "feng_119"
     },
     {
       "properties": [],
@@ -2991,7 +3121,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_115"
+      "id": "feng_120"
     },
     {
       "properties": [],
@@ -3008,16 +3138,16 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "23 [27]",
+      "damage": "21 [25]",
       "speed": "16",
-      "on_block": "+5",
-      "on_hit": "+9 (OC)",
+      "on_block": "+4",
+      "on_hit": "+8 (OC)",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_116"
+      "id": "feng_121"
     },
     {
       "properties": [],
@@ -3043,7 +3173,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_117"
+      "id": "feng_122"
     },
     {
       "properties": [],
@@ -3069,7 +3199,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_118"
+      "id": "feng_123"
     },
     {
       "properties": [],
@@ -3095,7 +3225,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_119"
+      "id": "feng_124"
     },
     {
       "properties": [],
@@ -3121,7 +3251,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_120"
+      "id": "feng_125"
     },
     {
       "properties": [],
@@ -3138,16 +3268,16 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "18 [21]",
+      "damage": "19 [22]",
       "speed": "21",
-      "on_block": "-13",
-      "on_hit": "-2",
+      "on_block": "-12",
+      "on_hit": "-1",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_121"
+      "id": "feng_126"
     },
     {
       "properties": [],
@@ -3173,7 +3303,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_122"
+      "id": "feng_127"
     },
     {
       "properties": [],
@@ -3199,7 +3329,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_123"
+      "id": "feng_128"
     },
     {
       "properties": [],
@@ -3225,7 +3355,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_124"
+      "id": "feng_129"
     },
     {
       "properties": [],
@@ -3251,7 +3381,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_125"
+      "id": "feng_130"
     },
     {
       "properties": [],
@@ -3277,7 +3407,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_126"
+      "id": "feng_131"
     },
     {
       "properties": [],
@@ -3303,7 +3433,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_127"
+      "id": "feng_132"
     },
     {
       "properties": [],
@@ -3329,7 +3459,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_128"
+      "id": "feng_133"
     },
     {
       "properties": [],
@@ -3355,7 +3485,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_129"
+      "id": "feng_134"
     },
     {
       "properties": [],
@@ -3381,7 +3511,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_130"
+      "id": "feng_135"
     },
     {
       "properties": [],
@@ -3407,11 +3537,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_131"
+      "id": "feng_136"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/IcyOddballCuscus.gif",
+      "preview_url": "https://giant.gfycat.com/FemaleUnacceptableAgama.gif",
       "move_name": null,
       "notation": "WS 1, 2",
       "hit_level": "mid, mid",
@@ -3424,7 +3554,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "11 [13], 12",
+      "damage": "13 [15], 13",
       "speed": "14",
       "on_block": "-10",
       "on_hit": "+1",
@@ -3433,7 +3563,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_132"
+      "id": "feng_137"
     },
     {
       "properties": [],
@@ -3450,7 +3580,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "12 [14]",
+      "damage": "13 [15]",
       "speed": "9",
       "on_block": "-10",
       "on_hit": "+1",
@@ -3459,7 +3589,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_133"
+      "id": "feng_138"
     },
     {
       "properties": [],
@@ -3476,7 +3606,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "11 [13], 12, 20",
+      "damage": "13 [15], 13, 20",
       "speed": "14",
       "on_block": "-12",
       "on_hit": "KND",
@@ -3485,7 +3615,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_134"
+      "id": "feng_139"
     },
     {
       "properties": [],
@@ -3502,7 +3632,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "12 [14], 20",
+      "damage": "13 [15], 20",
       "speed": "9",
       "on_block": "-12",
       "on_hit": "KND",
@@ -3511,7 +3641,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_135"
+      "id": "feng_140"
     },
     {
       "properties": [],
@@ -3537,7 +3667,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_136"
+      "id": "feng_141"
     },
     {
       "properties": [],
@@ -3563,7 +3693,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_137"
+      "id": "feng_142"
     },
     {
       "properties": [],
@@ -3589,7 +3719,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_138"
+      "id": "feng_143"
     },
     {
       "properties": [],
@@ -3609,17 +3739,17 @@
       "damage": "18 [21]",
       "speed": "11",
       "on_block": "-7",
-      "on_hit": "+4",
+      "on_hit": "+7",
       "on_ch": "+29",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_139"
+      "id": "feng_144"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/IcyOddballCuscus.gif",
+      "preview_url": "https://giant.gfycat.com/FemaleUnacceptableAgama.gif",
       "move_name": "Push Hands",
       "notation": "WS 1+2",
       "hit_level": "mid",
@@ -3632,16 +3762,16 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "25 [30]",
+      "damage": "20 [24]",
       "speed": "23",
-      "on_block": "-10",
-      "on_hit": "KND",
-      "on_ch": "KND",
+      "on_block": "-9",
+      "on_hit": "+3",
+      "on_ch": "+3",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_140"
+      "id": "feng_145"
     },
     {
       "properties": [],
@@ -3660,14 +3790,14 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "30",
-      "on_block": "-5",
+      "on_block": "-3",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_141"
+      "id": "feng_146"
     },
     {
       "properties": [],
@@ -3693,7 +3823,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_142"
+      "id": "feng_147"
     },
     {
       "properties": [],
@@ -3719,7 +3849,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_143"
+      "id": "feng_148"
     },
     {
       "properties": [],
@@ -3745,7 +3875,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_144"
+      "id": "feng_149"
     },
     {
       "properties": [],
@@ -3771,7 +3901,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_145"
+      "id": "feng_150"
     },
     {
       "properties": [],
@@ -3797,7 +3927,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_146"
+      "id": "feng_151"
     },
     {
       "properties": [],
@@ -3823,7 +3953,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_147"
+      "id": "feng_152"
     },
     {
       "properties": [],
@@ -3849,7 +3979,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_148"
+      "id": "feng_153"
     },
     {
       "properties": [],
@@ -3875,7 +4005,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_149"
+      "id": "feng_154"
     },
     {
       "properties": [],
@@ -3901,7 +4031,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_150"
+      "id": "feng_155"
     },
     {
       "properties": [],
@@ -3927,7 +4057,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_151"
+      "id": "feng_156"
     },
     {
       "properties": [],
@@ -3953,7 +4083,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_152"
+      "id": "feng_157"
     },
     {
       "properties": [],
@@ -3979,7 +4109,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_153"
+      "id": "feng_158"
     },
     {
       "properties": [],
@@ -4005,7 +4135,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_154"
+      "id": "feng_159"
     },
     {
       "properties": [],
@@ -4031,7 +4161,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_155"
+      "id": "feng_160"
     },
     {
       "properties": [],
@@ -4057,7 +4187,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_156"
+      "id": "feng_161"
     },
     {
       "properties": [],
@@ -4083,7 +4213,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_157"
+      "id": "feng_162"
     },
     {
       "properties": [],
@@ -4109,7 +4239,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_158"
+      "id": "feng_163"
     },
     {
       "properties": [],
@@ -4135,7 +4265,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_159"
+      "id": "feng_164"
     },
     {
       "properties": [],
@@ -4161,7 +4291,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_160"
+      "id": "feng_165"
     },
     {
       "properties": [],
@@ -4180,14 +4310,14 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "39",
-      "on_block": "-5",
+      "on_block": "-3",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_161"
+      "id": "feng_166"
     },
     {
       "properties": [],
@@ -4213,7 +4343,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_162"
+      "id": "feng_167"
     },
     {
       "properties": [],
@@ -4239,7 +4369,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_163"
+      "id": "feng_168"
     },
     {
       "properties": [],
@@ -4265,7 +4395,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_164"
+      "id": "feng_169"
     },
     {
       "properties": [],
@@ -4283,15 +4413,15 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "20 [24]",
-      "speed": "15",
-      "on_block": "-13",
-      "on_hit": "LAUNCH",
-      "on_ch": "LAUNCH",
+      "speed": "20",
+      "on_block": "-14",
+      "on_hit": "KND",
+      "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_165"
+      "id": "feng_170"
     },
     {
       "properties": [],
@@ -4309,15 +4439,15 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "15 [18]",
-      "speed": "20",
-      "on_block": "+8",
-      "on_hit": "KND",
-      "on_ch": "KND",
+      "speed": "15",
+      "on_block": "-13",
+      "on_hit": "LAUNCH",
+      "on_ch": "LAUNCH",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_166"
+      "id": "feng_171"
     },
     {
       "properties": [],
@@ -4336,14 +4466,14 @@
       "meter_gain": "-",
       "damage": "30 [36]",
       "speed": "20",
-      "on_block": "-14",
-      "on_hit": "+2",
+      "on_block": "+8",
+      "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_167"
+      "id": "feng_172"
     },
     {
       "properties": [],
@@ -4369,7 +4499,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_168"
+      "id": "feng_173"
     },
     {
       "properties": [],
@@ -4395,7 +4525,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_169"
+      "id": "feng_174"
     },
     {
       "properties": [],
@@ -4421,7 +4551,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_170"
+      "id": "feng_175"
     },
     {
       "properties": [],
@@ -4447,7 +4577,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_171"
+      "id": "feng_176"
     },
     {
       "properties": [],
@@ -4473,7 +4603,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_172"
+      "id": "feng_177"
     },
     {
       "properties": [],
@@ -4499,7 +4629,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_173"
+      "id": "feng_178"
     },
     {
       "properties": [],
@@ -4525,7 +4655,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_174"
+      "id": "feng_179"
     },
     {
       "properties": [],
@@ -4551,7 +4681,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_175"
+      "id": "feng_180"
     },
     {
       "properties": [],
@@ -4571,13 +4701,13 @@
       "damage": "7 [8], 9, 10",
       "speed": "10",
       "on_block": "-11",
-      "on_hit": "+3",
-      "on_ch": "+3",
+      "on_hit": "+5",
+      "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_176"
+      "id": "feng_181"
     },
     {
       "properties": [],
@@ -4598,12 +4728,12 @@
       "speed": "10",
       "on_block": "-13",
       "on_hit": "-2",
-      "on_ch": "-2",
+      "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_177"
+      "id": "feng_182"
     },
     {
       "properties": [],
@@ -4629,7 +4759,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_178"
+      "id": "feng_183"
     },
     {
       "properties": [],
@@ -4655,7 +4785,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_179"
+      "id": "feng_184"
     },
     {
       "properties": [],
@@ -4674,14 +4804,14 @@
       "meter_gain": "-",
       "damage": "27 [32]",
       "speed": "34",
-      "on_block": "-7",
+      "on_block": "-2",
       "on_hit": "STUN",
       "on_ch": "STUN",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_180"
+      "id": "feng_185"
     },
     {
       "properties": [],
@@ -4707,7 +4837,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_181"
+      "id": "feng_186"
     },
     {
       "properties": [],
@@ -4726,14 +4856,14 @@
       "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "15",
-      "on_block": "+1",
+      "on_block": "+3",
       "on_hit": "+9",
       "on_ch": "+9",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_182"
+      "id": "feng_187"
     },
     {
       "properties": [],
@@ -4759,7 +4889,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_183"
+      "id": "feng_188"
     },
     {
       "properties": [],
@@ -4785,7 +4915,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_184"
+      "id": "feng_189"
     },
     {
       "properties": [],
@@ -4811,7 +4941,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_185"
+      "id": "feng_190"
     },
     {
       "properties": [],
@@ -4837,7 +4967,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_186"
+      "id": "feng_191"
     },
     {
       "properties": [],
@@ -4856,14 +4986,14 @@
       "meter_gain": "-",
       "damage": "12 [14]",
       "speed": "12",
-      "on_block": "-1",
+      "on_block": "-3",
       "on_hit": "+14",
       "on_ch": "+14",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_187"
+      "id": "feng_192"
     },
     {
       "properties": [],
@@ -4889,7 +5019,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_188"
+      "id": "feng_193"
     },
     {
       "properties": [],
@@ -4915,7 +5045,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_189"
+      "id": "feng_194"
     },
     {
       "properties": [],
@@ -4941,7 +5071,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_190"
+      "id": "feng_195"
     },
     {
       "properties": [],
@@ -4967,7 +5097,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_191"
+      "id": "feng_196"
     },
     {
       "properties": [],
@@ -4993,7 +5123,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_192"
+      "id": "feng_197"
     },
     {
       "properties": [],
@@ -5019,7 +5149,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_193"
+      "id": "feng_198"
     },
     {
       "properties": [],
@@ -5045,7 +5175,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_194"
+      "id": "feng_199"
     },
     {
       "properties": [],
@@ -5071,7 +5201,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_195"
+      "id": "feng_200"
     },
     {
       "properties": [],
@@ -5097,7 +5227,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_196"
+      "id": "feng_201"
     },
     {
       "properties": [],
@@ -5123,11 +5253,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_197"
+      "id": "feng_202"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/DearEducatedCollardlizard.gif",
+      "preview_url": null,
       "move_name": null,
       "notation": "f, F+1+2*",
       "hit_level": "mid",
@@ -5140,16 +5270,16 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "28 [33]",
+      "damage": "25 [30]",
       "speed": "16",
-      "on_block": "+1",
-      "on_hit": "+23",
-      "on_ch": "+23",
+      "on_block": "+3",
+      "on_hit": "+14",
+      "on_ch": "+14",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_198"
+      "id": "feng_203"
     },
     {
       "properties": [],
@@ -5175,7 +5305,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_199"
+      "id": "feng_204"
     },
     {
       "properties": [],
@@ -5201,7 +5331,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_200"
+      "id": "feng_205"
     },
     {
       "properties": [],
@@ -5227,7 +5357,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_201"
+      "id": "feng_206"
     },
     {
       "properties": [],
@@ -5253,7 +5383,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_202"
+      "id": "feng_207"
     },
     {
       "properties": [],
@@ -5279,7 +5409,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_203"
+      "id": "feng_208"
     },
     {
       "properties": [],
@@ -5305,7 +5435,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_204"
+      "id": "feng_209"
     },
     {
       "properties": [],
@@ -5331,7 +5461,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_205"
+      "id": "feng_210"
     },
     {
       "properties": [],
@@ -5357,7 +5487,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_206"
+      "id": "feng_211"
     },
     {
       "properties": [],
@@ -5383,7 +5513,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_207"
+      "id": "feng_212"
     },
     {
       "properties": [],
@@ -5409,7 +5539,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_208"
+      "id": "feng_213"
     },
     {
       "properties": [],
@@ -5435,7 +5565,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_209"
+      "id": "feng_214"
     },
     {
       "properties": [],
@@ -5461,7 +5591,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_210"
+      "id": "feng_215"
     },
     {
       "properties": [],
@@ -5487,7 +5617,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_211"
+      "id": "feng_216"
     },
     {
       "properties": [],
@@ -5513,7 +5643,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_212"
+      "id": "feng_217"
     },
     {
       "properties": [],
@@ -5539,7 +5669,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_213"
+      "id": "feng_218"
     },
     {
       "properties": [],
@@ -5565,7 +5695,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_214"
+      "id": "feng_219"
     },
     {
       "properties": [],
@@ -5591,7 +5721,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_215"
+      "id": "feng_220"
     },
     {
       "properties": [],
@@ -5617,7 +5747,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_216"
+      "id": "feng_221"
     },
     {
       "properties": [],
@@ -5643,7 +5773,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_217"
+      "id": "feng_222"
     },
     {
       "properties": [],
@@ -5669,7 +5799,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_218"
+      "id": "feng_223"
     },
     {
       "properties": [],
@@ -5695,7 +5825,33 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "feng_219"
+      "id": "feng_224"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "Time with enemy punch... WS 1+2",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "20 [24]",
+      "speed": "23",
+      "on_block": "-",
+      "on_hit": "+16",
+      "on_ch": "+16",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "feng_225"
     }
   ]
 }

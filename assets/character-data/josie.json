@@ -1201,6 +1201,83 @@
     },
     {
       "properties": [],
+      "move_name": "Albay Ring",
+      "notation": "f+2, 3, 3",
+      "hit_level": "high, low, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "10 [12], 13, 30",
+      "speed": "12",
+      "on_block": "-16",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "josie_47"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(f+2), 3, 3",
+      "hit_level": "low, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "13 [15], 30",
+      "speed": "21",
+      "on_block": "-16",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "josie_48"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(f+2), (3), 3",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "30 [36]",
+      "speed": "28",
+      "on_block": "-16",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "josie_49"
+    },
+    {
+      "properties": [],
       "preview_url": "https://giant.gfycat.com/TiredCarefreeHalibut.gif",
       "move_name": "Subic Ring",
       "notation": "f+2, 3, 4",
@@ -1223,7 +1300,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_47"
+      "id": "josie_50"
     },
     {
       "properties": [],
@@ -1249,7 +1326,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_48"
+      "id": "josie_51"
     },
     {
       "properties": [],
@@ -1275,7 +1352,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_49"
+      "id": "josie_52"
     },
     {
       "properties": [],
@@ -1301,7 +1378,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_50"
+      "id": "josie_53"
     },
     {
       "properties": [],
@@ -1327,7 +1404,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_51"
+      "id": "josie_54"
     },
     {
       "properties": [],
@@ -1353,7 +1430,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_52"
+      "id": "josie_55"
     },
     {
       "properties": [],
@@ -1379,7 +1456,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_53"
+      "id": "josie_56"
     },
     {
       "properties": [],
@@ -1405,7 +1482,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_54"
+      "id": "josie_57"
     },
     {
       "properties": [],
@@ -1431,7 +1508,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_55"
+      "id": "josie_58"
     },
     {
       "properties": [],
@@ -1457,7 +1534,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_56"
+      "id": "josie_59"
     },
     {
       "properties": [],
@@ -1483,7 +1560,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_57"
+      "id": "josie_60"
     },
     {
       "properties": [],
@@ -1509,7 +1586,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_58"
+      "id": "josie_61"
     },
     {
       "properties": [],
@@ -1535,7 +1612,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_59"
+      "id": "josie_62"
     },
     {
       "properties": [],
@@ -1561,7 +1638,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_60"
+      "id": "josie_63"
     },
     {
       "properties": [],
@@ -1587,7 +1664,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_61"
+      "id": "josie_64"
     },
     {
       "properties": [],
@@ -1613,7 +1690,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_62"
+      "id": "josie_65"
     },
     {
       "properties": [],
@@ -1639,7 +1716,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_63"
+      "id": "josie_66"
     },
     {
       "properties": [],
@@ -1665,7 +1742,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_64"
+      "id": "josie_67"
     },
     {
       "properties": [],
@@ -1691,7 +1768,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_65"
+      "id": "josie_68"
     },
     {
       "properties": [],
@@ -1717,7 +1794,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_66"
+      "id": "josie_69"
     },
     {
       "properties": [],
@@ -1743,7 +1820,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_67"
+      "id": "josie_70"
     },
     {
       "properties": [],
@@ -1769,11 +1846,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_68"
+      "id": "josie_71"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ScrawnyImmediateBuffalo.gif",
+      "preview_url": "https://giant.gfycat.com/OrnateGlitteringJaguarundi.gif",
       "move_name": "Liver Blow to Feint Knee",
       "notation": "d/f+1, 4~4",
       "hit_level": "mid, mid",
@@ -1788,14 +1865,14 @@
       "meter_gain": "-",
       "damage": "14 [16], 20",
       "speed": "16",
-      "on_block": "-11",
-      "on_hit": "STUN",
+      "on_block": "-7",
+      "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_69"
+      "id": "josie_72"
     },
     {
       "properties": [],
@@ -1814,14 +1891,14 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "16",
-      "on_block": "-11",
-      "on_hit": "STUN",
+      "on_block": "-7",
+      "on_hit": "KND",
       "on_ch": "STUN",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_70"
+      "id": "josie_73"
     },
     {
       "properties": [],
@@ -1847,7 +1924,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_71"
+      "id": "josie_74"
     },
     {
       "properties": [],
@@ -1873,7 +1950,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_72"
+      "id": "josie_75"
     },
     {
       "properties": [],
@@ -1899,7 +1976,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_73"
+      "id": "josie_76"
     },
     {
       "properties": [],
@@ -1925,7 +2002,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_74"
+      "id": "josie_77"
     },
     {
       "properties": [],
@@ -1942,7 +2019,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "20 [24]",
+      "damage": "25 [30]",
       "speed": "20",
       "on_block": "-2",
       "on_hit": "+3 (OC)",
@@ -1951,7 +2028,33 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_75"
+      "id": "josie_78"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "d+2, D",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "25 [30]",
+      "speed": "20",
+      "on_block": "-2",
+      "on_hit": "+3 (OC)",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "josie_79"
     },
     {
       "properties": [],
@@ -1977,7 +2080,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_76"
+      "id": "josie_80"
     },
     {
       "properties": [],
@@ -2003,7 +2106,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_77"
+      "id": "josie_81"
     },
     {
       "properties": [],
@@ -2029,7 +2132,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_78"
+      "id": "josie_82"
     },
     {
       "properties": [],
@@ -2046,7 +2149,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "20 [24]",
+      "damage": "25 [30]",
       "speed": "20",
       "on_block": "-10",
       "on_hit": "KND",
@@ -2055,7 +2158,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_79"
+      "id": "josie_83"
     },
     {
       "properties": [],
@@ -2081,7 +2184,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_80"
+      "id": "josie_84"
     },
     {
       "properties": [],
@@ -2107,7 +2210,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_81"
+      "id": "josie_85"
     },
     {
       "properties": [],
@@ -2133,7 +2236,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_82"
+      "id": "josie_86"
     },
     {
       "properties": [],
@@ -2159,7 +2262,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_83"
+      "id": "josie_87"
     },
     {
       "properties": [],
@@ -2185,7 +2288,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_84"
+      "id": "josie_88"
     },
     {
       "properties": [],
@@ -2211,7 +2314,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_85"
+      "id": "josie_89"
     },
     {
       "properties": [],
@@ -2237,7 +2340,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_86"
+      "id": "josie_90"
     },
     {
       "properties": [],
@@ -2263,7 +2366,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_87"
+      "id": "josie_91"
     },
     {
       "properties": [],
@@ -2289,7 +2392,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_88"
+      "id": "josie_92"
     },
     {
       "properties": [],
@@ -2315,7 +2418,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_89"
+      "id": "josie_93"
     },
     {
       "properties": [],
@@ -2341,7 +2444,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_90"
+      "id": "josie_94"
     },
     {
       "properties": [],
@@ -2361,13 +2464,13 @@
       "damage": "10 [12], 12, 12",
       "speed": "11",
       "on_block": "-10",
-      "on_hit": "+1",
+      "on_hit": "+6",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_91"
+      "id": "josie_95"
     },
     {
       "properties": [],
@@ -2387,13 +2490,13 @@
       "damage": "12 [14], 12",
       "speed": "19",
       "on_block": "-10",
-      "on_hit": "+1",
+      "on_hit": "+6",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_92"
+      "id": "josie_96"
     },
     {
       "properties": [],
@@ -2413,13 +2516,13 @@
       "damage": "12 [14]",
       "speed": "22",
       "on_block": "-10",
-      "on_hit": "+1",
-      "on_ch": "+1",
+      "on_hit": "+6",
+      "on_ch": "+6",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_93"
+      "id": "josie_97"
     },
     {
       "properties": [],
@@ -2445,7 +2548,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_94"
+      "id": "josie_98"
     },
     {
       "properties": [],
@@ -2471,7 +2574,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_95"
+      "id": "josie_99"
     },
     {
       "properties": [],
@@ -2497,7 +2600,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_96"
+      "id": "josie_100"
     },
     {
       "properties": [],
@@ -2523,7 +2626,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_97"
+      "id": "josie_101"
     },
     {
       "properties": [],
@@ -2540,7 +2643,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "12",
+      "damage": "17 [20]",
       "speed": "14",
       "on_block": "+1",
       "on_hit": "+7",
@@ -2549,7 +2652,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_98"
+      "id": "josie_102"
     },
     {
       "properties": [],
@@ -2566,7 +2669,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "14, 12, 13",
+      "damage": "45",
       "speed": "14",
       "on_block": "+1",
       "on_hit": "-",
@@ -2575,7 +2678,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_99"
+      "id": "josie_103"
     },
     {
       "properties": [],
@@ -2601,7 +2704,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_100"
+      "id": "josie_104"
     },
     {
       "properties": [],
@@ -2627,7 +2730,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_101"
+      "id": "josie_105"
     },
     {
       "properties": [],
@@ -2653,7 +2756,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_102"
+      "id": "josie_106"
     },
     {
       "properties": [],
@@ -2679,7 +2782,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_103"
+      "id": "josie_107"
     },
     {
       "properties": [],
@@ -2705,7 +2808,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_104"
+      "id": "josie_108"
     },
     {
       "properties": [],
@@ -2731,7 +2834,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_105"
+      "id": "josie_109"
     },
     {
       "properties": [],
@@ -2757,7 +2860,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_106"
+      "id": "josie_110"
     },
     {
       "properties": [],
@@ -2783,7 +2886,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_107"
+      "id": "josie_111"
     },
     {
       "properties": [],
@@ -2809,7 +2912,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_108"
+      "id": "josie_112"
     },
     {
       "properties": [],
@@ -2835,11 +2938,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_109"
+      "id": "josie_113"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/BlondHideousDormouse.gif",
+      "preview_url": "https://giant.gfycat.com/LargeWealthyDassie.gif",
       "move_name": "Streamline to Feint Knee",
       "notation": "b+4, 3, d+4~4",
       "hit_level": "mid, mid, mid",
@@ -2855,13 +2958,13 @@
       "damage": "14 [16], 14, 20",
       "speed": "16",
       "on_block": "-11",
-      "on_hit": "STUN",
+      "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_110"
+      "id": "josie_114"
     },
     {
       "properties": [],
@@ -2881,13 +2984,13 @@
       "damage": "14 [16], 20",
       "speed": "25",
       "on_block": "-11",
-      "on_hit": "STUN",
+      "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_111"
+      "id": "josie_115"
     },
     {
       "properties": [],
@@ -2907,13 +3010,13 @@
       "damage": "20 [24]",
       "speed": "16",
       "on_block": "-11",
-      "on_hit": "STUN",
+      "on_hit": "KND",
       "on_ch": "STUN",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_112"
+      "id": "josie_116"
     },
     {
       "properties": [],
@@ -2939,7 +3042,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_113"
+      "id": "josie_117"
     },
     {
       "properties": [],
@@ -2965,7 +3068,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_114"
+      "id": "josie_118"
     },
     {
       "properties": [],
@@ -2991,7 +3094,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_115"
+      "id": "josie_119"
     },
     {
       "properties": [],
@@ -3017,7 +3120,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_116"
+      "id": "josie_120"
     },
     {
       "properties": [],
@@ -3043,7 +3146,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_117"
+      "id": "josie_121"
     },
     {
       "properties": [],
@@ -3069,7 +3172,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_118"
+      "id": "josie_122"
     },
     {
       "properties": [],
@@ -3095,7 +3198,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_119"
+      "id": "josie_123"
     },
     {
       "properties": [],
@@ -3121,7 +3224,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_120"
+      "id": "josie_124"
     },
     {
       "properties": [],
@@ -3147,7 +3250,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_121"
+      "id": "josie_125"
     },
     {
       "properties": [],
@@ -3173,7 +3276,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_122"
+      "id": "josie_126"
     },
     {
       "properties": [],
@@ -3199,7 +3302,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_123"
+      "id": "josie_127"
     },
     {
       "properties": [],
@@ -3225,7 +3328,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_124"
+      "id": "josie_128"
     },
     {
       "properties": [],
@@ -3251,7 +3354,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_125"
+      "id": "josie_129"
     },
     {
       "properties": [],
@@ -3277,7 +3380,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_126"
+      "id": "josie_130"
     },
     {
       "properties": [],
@@ -3303,7 +3406,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_127"
+      "id": "josie_131"
     },
     {
       "properties": [],
@@ -3329,7 +3432,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_128"
+      "id": "josie_132"
     },
     {
       "properties": [],
@@ -3355,7 +3458,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_129"
+      "id": "josie_133"
     },
     {
       "properties": [],
@@ -3381,7 +3484,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_130"
+      "id": "josie_134"
     },
     {
       "properties": [],
@@ -3407,7 +3510,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_131"
+      "id": "josie_135"
     },
     {
       "properties": [],
@@ -3433,7 +3536,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_132"
+      "id": "josie_136"
     },
     {
       "properties": [],
@@ -3459,7 +3562,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_133"
+      "id": "josie_137"
     },
     {
       "properties": [],
@@ -3485,7 +3588,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_134"
+      "id": "josie_138"
     },
     {
       "properties": [],
@@ -3511,7 +3614,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_135"
+      "id": "josie_139"
     },
     {
       "properties": [],
@@ -3537,7 +3640,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_136"
+      "id": "josie_140"
     },
     {
       "properties": [],
@@ -3563,7 +3666,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_137"
+      "id": "josie_141"
     },
     {
       "properties": [],
@@ -3589,7 +3692,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_138"
+      "id": "josie_142"
     },
     {
       "properties": [],
@@ -3615,7 +3718,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_139"
+      "id": "josie_143"
     },
     {
       "properties": [],
@@ -3641,7 +3744,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_140"
+      "id": "josie_144"
     },
     {
       "properties": [],
@@ -3667,7 +3770,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_141"
+      "id": "josie_145"
     },
     {
       "properties": [],
@@ -3693,7 +3796,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_142"
+      "id": "josie_146"
     },
     {
       "properties": [],
@@ -3719,7 +3822,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_143"
+      "id": "josie_147"
     },
     {
       "properties": [],
@@ -3740,12 +3843,38 @@
       "speed": "13",
       "on_block": "-20",
       "on_hit": "-9",
-      "on_ch": "-",
+      "on_ch": "-9",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_144"
+      "id": "josie_148"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/WellinformedOldfashionedHapuku.gif",
+      "move_name": "Liver Shot to Slide In",
+      "notation": "d/f+1, 2, F",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "14 [16]",
+      "speed": "16",
+      "on_block": "-16",
+      "on_hit": "-5",
+      "on_ch": "-5",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "josie_149"
     },
     {
       "properties": [],
@@ -3771,7 +3900,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_145"
+      "id": "josie_150"
     },
     {
       "properties": [],
@@ -3797,7 +3926,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_146"
+      "id": "josie_151"
     },
     {
       "properties": [],
@@ -3823,7 +3952,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_147"
+      "id": "josie_152"
     },
     {
       "properties": [],
@@ -3849,7 +3978,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_148"
+      "id": "josie_153"
     },
     {
       "properties": [],
@@ -3875,7 +4004,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_149"
+      "id": "josie_154"
     },
     {
       "properties": [],
@@ -3901,7 +4030,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_150"
+      "id": "josie_155"
     },
     {
       "properties": [],
@@ -3927,7 +4056,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_151"
+      "id": "josie_156"
     },
     {
       "properties": [],
@@ -3953,7 +4082,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_152"
+      "id": "josie_157"
     },
     {
       "properties": [],
@@ -3979,7 +4108,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_153"
+      "id": "josie_158"
     },
     {
       "properties": [],
@@ -4005,7 +4134,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_154"
+      "id": "josie_159"
     },
     {
       "properties": [],
@@ -4031,7 +4160,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_155"
+      "id": "josie_160"
     },
     {
       "properties": [],
@@ -4057,7 +4186,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_156"
+      "id": "josie_161"
     },
     {
       "properties": [],
@@ -4083,7 +4212,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_157"
+      "id": "josie_162"
     },
     {
       "properties": [],
@@ -4102,14 +4231,14 @@
       "meter_gain": "-",
       "damage": "7 [8], 8, 22",
       "speed": "10",
-      "on_block": "-14",
+      "on_block": "-",
       "on_hit": "-4",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_158"
+      "id": "josie_163"
     },
     {
       "properties": [],
@@ -4128,14 +4257,14 @@
       "meter_gain": "-",
       "damage": "8 [9], 22",
       "speed": "12",
-      "on_block": "-14",
+      "on_block": "-",
       "on_hit": "-4",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_159"
+      "id": "josie_164"
     },
     {
       "properties": [],
@@ -4154,14 +4283,14 @@
       "meter_gain": "-",
       "damage": "22 [26]",
       "speed": "15",
-      "on_block": "-14",
+      "on_block": "-",
       "on_hit": "-4",
       "on_ch": "LAUNCH",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_160"
+      "id": "josie_165"
     },
     {
       "properties": [],
@@ -4180,14 +4309,14 @@
       "meter_gain": "-",
       "damage": "8 [9], 22",
       "speed": "12",
-      "on_block": "-14",
+      "on_block": "-",
       "on_hit": "-4",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_161"
+      "id": "josie_166"
     },
     {
       "properties": [],
@@ -4206,14 +4335,14 @@
       "meter_gain": "-",
       "damage": "22 [26]",
       "speed": "15",
-      "on_block": "-14",
+      "on_block": "-",
       "on_hit": "-4",
       "on_ch": "LAUNCH",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_162"
+      "id": "josie_167"
     },
     {
       "properties": [],
@@ -4232,14 +4361,14 @@
       "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "14",
-      "on_block": "-14",
+      "on_block": "-",
       "on_hit": "-9",
       "on_ch": "-9",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_163"
+      "id": "josie_168"
     },
     {
       "properties": [],
@@ -4258,14 +4387,14 @@
       "meter_gain": "-",
       "damage": "11 [13], 15",
       "speed": "16",
-      "on_block": "-14",
+      "on_block": "-",
       "on_hit": "-4",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_164"
+      "id": "josie_169"
     },
     {
       "properties": [],
@@ -4284,14 +4413,14 @@
       "meter_gain": "-",
       "damage": "15 [18]",
       "speed": "20",
-      "on_block": "-14",
+      "on_block": "-",
       "on_hit": "-4",
       "on_ch": "LAUNCH",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_165"
+      "id": "josie_170"
     },
     {
       "properties": [],
@@ -4317,7 +4446,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_166"
+      "id": "josie_171"
     },
     {
       "properties": [],
@@ -4343,7 +4472,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_167"
+      "id": "josie_172"
     },
     {
       "properties": [],
@@ -4369,11 +4498,10 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_168"
+      "id": "josie_173"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ImperturbableSpecificAsianconstablebutterfly.gif",
       "move_name": "Side Strike Switch",
       "notation": "SWS 4",
       "hit_level": "mid",
@@ -4383,7 +4511,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
-      "environmental": "-",
+      "environmental": "WALL BOUND",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "23 [27]",
@@ -4395,7 +4523,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_169"
+      "id": "josie_174"
     },
     {
       "properties": [],
@@ -4413,15 +4541,15 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "30 [36]",
-      "speed": "26",
-      "on_block": "-12",
+      "speed": "22",
+      "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_170"
+      "id": "josie_175"
     },
     {
       "properties": [],
@@ -4447,7 +4575,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_171"
+      "id": "josie_176"
     },
     {
       "properties": [],
@@ -4473,7 +4601,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_172"
+      "id": "josie_177"
     },
     {
       "properties": [],
@@ -4499,7 +4627,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_173"
+      "id": "josie_178"
     },
     {
       "properties": [],
@@ -4525,7 +4653,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_174"
+      "id": "josie_179"
     },
     {
       "properties": [],
@@ -4551,7 +4679,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_175"
+      "id": "josie_180"
     },
     {
       "properties": [],
@@ -4577,7 +4705,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_176"
+      "id": "josie_181"
     },
     {
       "properties": [],
@@ -4603,7 +4731,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_177"
+      "id": "josie_182"
     },
     {
       "properties": [],
@@ -4629,7 +4757,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_178"
+      "id": "josie_183"
     },
     {
       "properties": [],
@@ -4655,7 +4783,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_179"
+      "id": "josie_184"
     },
     {
       "properties": [],
@@ -4681,7 +4809,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_180"
+      "id": "josie_185"
     },
     {
       "properties": [],
@@ -4707,7 +4835,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_181"
+      "id": "josie_186"
     },
     {
       "properties": [],
@@ -4733,7 +4861,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_182"
+      "id": "josie_187"
     },
     {
       "properties": [],
@@ -4759,7 +4887,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_183"
+      "id": "josie_188"
     },
     {
       "properties": [],
@@ -4785,7 +4913,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_184"
+      "id": "josie_189"
     },
     {
       "properties": [],
@@ -4811,7 +4939,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_185"
+      "id": "josie_190"
     },
     {
       "properties": [],
@@ -4837,7 +4965,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_186"
+      "id": "josie_191"
     },
     {
       "properties": [],
@@ -4863,7 +4991,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_187"
+      "id": "josie_192"
     },
     {
       "properties": [],
@@ -4889,7 +5017,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_188"
+      "id": "josie_193"
     },
     {
       "properties": [],
@@ -4915,7 +5043,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_189"
+      "id": "josie_194"
     },
     {
       "properties": [],
@@ -4941,7 +5069,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "josie_190"
+      "id": "josie_195"
     }
   ]
 }

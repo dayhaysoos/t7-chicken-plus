@@ -551,7 +551,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/OptimisticWebbedAsiandamselfly.gif",
+      "preview_url": "https://giant.gfycat.com/HelplessSplendidBlueshark.gif",
       "move_name": "Guillotine Crow Kick",
       "notation": "u+3+4",
       "hit_level": "mid, mid",
@@ -616,7 +616,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "20 [24]",
+      "damage": "25 [30]",
       "speed": "15",
       "on_block": "-16",
       "on_hit": "STUN",
@@ -1617,7 +1617,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ImperturbableAlarmingBaboon.gif",
+      "preview_url": "https://giant.gfycat.com/CrazySameIguana.gif",
       "move_name": "Autumn Leaves",
       "notation": "d/f+1, 4",
       "hit_level": "mid, mid",
@@ -1658,7 +1658,7 @@
       "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "17",
-      "on_block": "-14",
+      "on_block": "-12",
       "on_hit": "+4",
       "on_ch": "+4",
       "in_air": "-",
@@ -1786,7 +1786,7 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "10 [12]",
+      "damage": "12 [14]",
       "speed": "26",
       "on_block": "-11",
       "on_hit": "+4",
@@ -6140,7 +6140,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/AfraidDeadlyAndalusianhorse.gif",
+      "preview_url": null,
       "move_name": null,
       "notation": "KIN 2, 1+2*",
       "hit_level": "mid, mid",
@@ -6272,6 +6272,84 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
+      "notation": "KIN b+2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "15 [18]",
+      "speed": "15",
+      "on_block": "-9",
+      "on_hit": "+2",
+      "on_ch": "+2",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "yoshimitsu_242"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/PreciousCalculatingDoctorfish.gif",
+      "move_name": "Ikaruga",
+      "notation": "KIN b+2, 1",
+      "hit_level": "mid, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "15 [18], 19",
+      "speed": "15",
+      "on_block": "-12",
+      "on_hit": "LAUNCH",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "yoshimitsu_243"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "KIN (b+2), 1",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "19 [22]",
+      "speed": "23",
+      "on_block": "-12",
+      "on_hit": "LAUNCH",
+      "on_ch": "LAUNCH",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "yoshimitsu_244"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
       "notation": "3~4, U or U/F or U/B",
       "hit_level": "mid, mid",
       "range": "-",
@@ -6292,7 +6370,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_242"
+      "id": "yoshimitsu_245"
     },
     {
       "properties": [],
@@ -6318,7 +6396,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_243"
+      "id": "yoshimitsu_246"
     },
     {
       "properties": [],
@@ -6344,7 +6422,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_244"
+      "id": "yoshimitsu_247"
     },
     {
       "properties": [],
@@ -6370,7 +6448,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_245"
+      "id": "yoshimitsu_248"
     },
     {
       "properties": [],
@@ -6396,7 +6474,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_246"
+      "id": "yoshimitsu_249"
     },
     {
       "properties": [],
@@ -6422,7 +6500,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_247"
+      "id": "yoshimitsu_250"
     },
     {
       "properties": [],
@@ -6448,7 +6526,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_248"
+      "id": "yoshimitsu_251"
     },
     {
       "properties": [],
@@ -6474,7 +6552,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_249"
+      "id": "yoshimitsu_252"
     },
     {
       "properties": [],
@@ -6500,7 +6578,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_250"
+      "id": "yoshimitsu_253"
     },
     {
       "properties": [],
@@ -6526,7 +6604,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_251"
+      "id": "yoshimitsu_254"
     },
     {
       "properties": [],
@@ -6552,7 +6630,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_252"
+      "id": "yoshimitsu_255"
     },
     {
       "properties": [],
@@ -6578,7 +6656,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_253"
+      "id": "yoshimitsu_256"
     },
     {
       "properties": [],
@@ -6604,7 +6682,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_254"
+      "id": "yoshimitsu_257"
     },
     {
       "properties": [],
@@ -6630,7 +6708,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_255"
+      "id": "yoshimitsu_258"
     },
     {
       "properties": [],
@@ -6656,7 +6734,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_256"
+      "id": "yoshimitsu_259"
     },
     {
       "properties": [],
@@ -6682,7 +6760,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_257"
+      "id": "yoshimitsu_260"
     },
     {
       "properties": [],
@@ -6703,12 +6781,12 @@
       "speed": "19",
       "on_block": "-4",
       "on_hit": "+14",
-      "on_ch": "S!",
+      "on_ch": "STUN",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_258"
+      "id": "yoshimitsu_261"
     },
     {
       "properties": [],
@@ -6734,7 +6812,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_259"
+      "id": "yoshimitsu_262"
     },
     {
       "properties": [],
@@ -6760,7 +6838,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_260"
+      "id": "yoshimitsu_263"
     },
     {
       "properties": [],
@@ -6786,7 +6864,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_261"
+      "id": "yoshimitsu_264"
     },
     {
       "properties": [],
@@ -6812,7 +6890,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_262"
+      "id": "yoshimitsu_265"
     },
     {
       "properties": [],
@@ -6838,7 +6916,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_263"
+      "id": "yoshimitsu_266"
     },
     {
       "properties": [],
@@ -6864,7 +6942,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_264"
+      "id": "yoshimitsu_267"
     },
     {
       "properties": [],
@@ -6890,7 +6968,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_265"
+      "id": "yoshimitsu_268"
     },
     {
       "properties": [],
@@ -6916,7 +6994,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_266"
+      "id": "yoshimitsu_269"
     },
     {
       "properties": [],
@@ -6942,7 +7020,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_267"
+      "id": "yoshimitsu_270"
     },
     {
       "properties": [],
@@ -6968,7 +7046,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_268"
+      "id": "yoshimitsu_271"
     },
     {
       "properties": [],
@@ -6994,7 +7072,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_269"
+      "id": "yoshimitsu_272"
     },
     {
       "properties": [],
@@ -7020,7 +7098,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_270"
+      "id": "yoshimitsu_273"
     },
     {
       "properties": [],
@@ -7046,7 +7124,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_271"
+      "id": "yoshimitsu_274"
     },
     {
       "properties": [],
@@ -7072,7 +7150,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_272"
+      "id": "yoshimitsu_275"
     },
     {
       "properties": [],
@@ -7098,7 +7176,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_273"
+      "id": "yoshimitsu_276"
     },
     {
       "properties": [],
@@ -7124,7 +7202,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_274"
+      "id": "yoshimitsu_277"
     },
     {
       "properties": [],
@@ -7150,7 +7228,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_275"
+      "id": "yoshimitsu_278"
     },
     {
       "properties": [],
@@ -7176,7 +7254,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_276"
+      "id": "yoshimitsu_279"
     },
     {
       "properties": [],
@@ -7202,7 +7280,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_277"
+      "id": "yoshimitsu_280"
     },
     {
       "properties": [],
@@ -7228,7 +7306,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_278"
+      "id": "yoshimitsu_281"
     },
     {
       "properties": [],
@@ -7254,7 +7332,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_279"
+      "id": "yoshimitsu_282"
     },
     {
       "properties": [],
@@ -7280,7 +7358,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_280"
+      "id": "yoshimitsu_283"
     },
     {
       "properties": [],
@@ -7306,7 +7384,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_281"
+      "id": "yoshimitsu_284"
     },
     {
       "properties": [],
@@ -7332,7 +7410,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_282"
+      "id": "yoshimitsu_285"
     },
     {
       "properties": [],
@@ -7358,7 +7436,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_283"
+      "id": "yoshimitsu_286"
     },
     {
       "properties": [],
@@ -7384,7 +7462,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_284"
+      "id": "yoshimitsu_287"
     },
     {
       "properties": [],
@@ -7410,7 +7488,85 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_285"
+      "id": "yoshimitsu_288"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "NSS d/f+1+2",
+      "hit_level": "low",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high*",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "12 [14]",
+      "speed": "26",
+      "on_block": "-13",
+      "on_hit": "+4",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "yoshimitsu_289"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "NSS d/f+1+2, 2",
+      "hit_level": "low, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "12 [14], 20",
+      "speed": "26",
+      "on_block": "-13",
+      "on_hit": "0",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "yoshimitsu_290"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "NSS (d/f+1+2), 2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "20 [24]",
+      "speed": "25",
+      "on_block": "-13",
+      "on_hit": "0",
+      "on_ch": "+6",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "yoshimitsu_291"
     },
     {
       "properties": [],
@@ -7436,7 +7592,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_286"
+      "id": "yoshimitsu_292"
     },
     {
       "properties": [],
@@ -7462,7 +7618,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_287"
+      "id": "yoshimitsu_293"
     },
     {
       "properties": [],
@@ -7488,7 +7644,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_288"
+      "id": "yoshimitsu_294"
     },
     {
       "properties": [],
@@ -7514,7 +7670,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_289"
+      "id": "yoshimitsu_295"
     },
     {
       "properties": [],
@@ -7540,7 +7696,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_290"
+      "id": "yoshimitsu_296"
     },
     {
       "properties": [],
@@ -7566,7 +7722,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_291"
+      "id": "yoshimitsu_297"
     },
     {
       "properties": [],
@@ -7592,7 +7748,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_292"
+      "id": "yoshimitsu_298"
     },
     {
       "properties": [],
@@ -7618,7 +7774,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_293"
+      "id": "yoshimitsu_299"
     },
     {
       "properties": [],
@@ -7644,7 +7800,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_294"
+      "id": "yoshimitsu_300"
     },
     {
       "properties": [],
@@ -7670,7 +7826,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_295"
+      "id": "yoshimitsu_301"
     },
     {
       "properties": [],
@@ -7696,7 +7852,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_296"
+      "id": "yoshimitsu_302"
     },
     {
       "properties": [],
@@ -7721,7 +7877,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_297"
+      "id": "yoshimitsu_303"
     },
     {
       "properties": [],
@@ -7747,7 +7903,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_298"
+      "id": "yoshimitsu_304"
     },
     {
       "properties": [],
@@ -7773,7 +7929,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_299"
+      "id": "yoshimitsu_305"
     },
     {
       "properties": [],
@@ -7799,7 +7955,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_300"
+      "id": "yoshimitsu_306"
     },
     {
       "properties": [],
@@ -7825,7 +7981,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_301"
+      "id": "yoshimitsu_307"
     },
     {
       "properties": [],
@@ -7851,7 +8007,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_302"
+      "id": "yoshimitsu_308"
     },
     {
       "properties": [],
@@ -7877,7 +8033,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_303"
+      "id": "yoshimitsu_309"
     },
     {
       "properties": [],
@@ -7903,7 +8059,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_304"
+      "id": "yoshimitsu_310"
     },
     {
       "properties": [],
@@ -7929,7 +8085,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_305"
+      "id": "yoshimitsu_311"
     },
     {
       "properties": [],
@@ -7955,7 +8111,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_306"
+      "id": "yoshimitsu_312"
     },
     {
       "properties": [],
@@ -7981,7 +8137,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_307"
+      "id": "yoshimitsu_313"
     },
     {
       "properties": [],
@@ -8007,7 +8163,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_308"
+      "id": "yoshimitsu_314"
     },
     {
       "properties": [],
@@ -8033,7 +8189,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_309"
+      "id": "yoshimitsu_315"
     },
     {
       "properties": [],
@@ -8059,7 +8215,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_310"
+      "id": "yoshimitsu_316"
     },
     {
       "properties": [],
@@ -8085,7 +8241,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_311"
+      "id": "yoshimitsu_317"
     },
     {
       "properties": [],
@@ -8111,7 +8267,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_312"
+      "id": "yoshimitsu_318"
     },
     {
       "properties": [],
@@ -8137,7 +8293,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_313"
+      "id": "yoshimitsu_319"
     },
     {
       "properties": [],
@@ -8163,7 +8319,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_314"
+      "id": "yoshimitsu_320"
     },
     {
       "properties": [],
@@ -8189,7 +8345,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_315"
+      "id": "yoshimitsu_321"
     },
     {
       "properties": [],
@@ -8215,7 +8371,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_316"
+      "id": "yoshimitsu_322"
     },
     {
       "properties": [],
@@ -8241,7 +8397,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_317"
+      "id": "yoshimitsu_323"
     },
     {
       "properties": [],
@@ -8267,7 +8423,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_318"
+      "id": "yoshimitsu_324"
     },
     {
       "properties": [],
@@ -8293,7 +8449,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_319"
+      "id": "yoshimitsu_325"
     },
     {
       "properties": [],
@@ -8319,7 +8475,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_320"
+      "id": "yoshimitsu_326"
     },
     {
       "properties": [],
@@ -8345,7 +8501,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_321"
+      "id": "yoshimitsu_327"
     },
     {
       "properties": [],
@@ -8371,7 +8527,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_322"
+      "id": "yoshimitsu_328"
     },
     {
       "properties": [],
@@ -8397,7 +8553,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_323"
+      "id": "yoshimitsu_329"
     },
     {
       "properties": [],
@@ -8423,7 +8579,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_324"
+      "id": "yoshimitsu_330"
     },
     {
       "properties": [],
@@ -8449,7 +8605,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_325"
+      "id": "yoshimitsu_331"
     },
     {
       "properties": [],
@@ -8475,7 +8631,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_326"
+      "id": "yoshimitsu_332"
     },
     {
       "properties": [],
@@ -8501,7 +8657,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_327"
+      "id": "yoshimitsu_333"
     },
     {
       "properties": [],
@@ -8527,7 +8683,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_328"
+      "id": "yoshimitsu_334"
     },
     {
       "properties": [],
@@ -8553,7 +8709,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_329"
+      "id": "yoshimitsu_335"
     },
     {
       "properties": [],
@@ -8579,7 +8735,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_330"
+      "id": "yoshimitsu_336"
     },
     {
       "properties": [],
@@ -8605,7 +8761,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_331"
+      "id": "yoshimitsu_337"
     },
     {
       "properties": [],
@@ -8631,7 +8787,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_332"
+      "id": "yoshimitsu_338"
     },
     {
       "properties": [],
@@ -8657,7 +8813,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_333"
+      "id": "yoshimitsu_339"
     },
     {
       "properties": [],
@@ -8683,7 +8839,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_334"
+      "id": "yoshimitsu_340"
     },
     {
       "properties": [],
@@ -8709,7 +8865,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_335"
+      "id": "yoshimitsu_341"
     },
     {
       "properties": [],
@@ -8735,7 +8891,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_336"
+      "id": "yoshimitsu_342"
     },
     {
       "properties": [],
@@ -8761,7 +8917,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_337"
+      "id": "yoshimitsu_343"
     },
     {
       "properties": [],
@@ -8787,7 +8943,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_338"
+      "id": "yoshimitsu_344"
     },
     {
       "properties": [],
@@ -8813,7 +8969,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_339"
+      "id": "yoshimitsu_345"
     },
     {
       "properties": [],
@@ -8839,7 +8995,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_340"
+      "id": "yoshimitsu_346"
     },
     {
       "properties": [],
@@ -8865,7 +9021,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_341"
+      "id": "yoshimitsu_347"
     },
     {
       "properties": [],
@@ -8891,7 +9047,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_342"
+      "id": "yoshimitsu_348"
     },
     {
       "properties": [],
@@ -8917,7 +9073,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_343"
+      "id": "yoshimitsu_349"
     },
     {
       "properties": [],
@@ -8943,7 +9099,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_344"
+      "id": "yoshimitsu_350"
     },
     {
       "properties": [],
@@ -8969,7 +9125,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_345"
+      "id": "yoshimitsu_351"
     },
     {
       "properties": [],
@@ -8995,7 +9151,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_346"
+      "id": "yoshimitsu_352"
     },
     {
       "properties": [],
@@ -9021,7 +9177,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_347"
+      "id": "yoshimitsu_353"
     },
     {
       "properties": [],
@@ -9047,7 +9203,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_348"
+      "id": "yoshimitsu_354"
     },
     {
       "properties": [],
@@ -9073,7 +9229,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_349"
+      "id": "yoshimitsu_355"
     },
     {
       "properties": [],
@@ -9099,7 +9255,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_350"
+      "id": "yoshimitsu_356"
     },
     {
       "properties": [],
@@ -9125,7 +9281,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_351"
+      "id": "yoshimitsu_357"
     },
     {
       "properties": [],
@@ -9151,7 +9307,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_352"
+      "id": "yoshimitsu_358"
     },
     {
       "properties": [],
@@ -9177,7 +9333,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_353"
+      "id": "yoshimitsu_359"
     },
     {
       "properties": [],
@@ -9203,7 +9359,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_354"
+      "id": "yoshimitsu_360"
     },
     {
       "properties": [],
@@ -9229,7 +9385,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_355"
+      "id": "yoshimitsu_361"
     },
     {
       "properties": [],
@@ -9255,7 +9411,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_356"
+      "id": "yoshimitsu_362"
     },
     {
       "properties": [],
@@ -9281,7 +9437,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_357"
+      "id": "yoshimitsu_363"
     },
     {
       "properties": [],
@@ -9307,7 +9463,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_358"
+      "id": "yoshimitsu_364"
     },
     {
       "properties": [],
@@ -9333,7 +9489,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_359"
+      "id": "yoshimitsu_365"
     },
     {
       "properties": [],
@@ -9359,7 +9515,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_360"
+      "id": "yoshimitsu_366"
     },
     {
       "properties": [],
@@ -9385,7 +9541,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_361"
+      "id": "yoshimitsu_367"
     },
     {
       "properties": [],
@@ -9411,7 +9567,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_362"
+      "id": "yoshimitsu_368"
     },
     {
       "properties": [],
@@ -9437,7 +9593,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_363"
+      "id": "yoshimitsu_369"
     },
     {
       "properties": [],
@@ -9463,7 +9619,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_364"
+      "id": "yoshimitsu_370"
     },
     {
       "properties": [],
@@ -9489,7 +9645,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_365"
+      "id": "yoshimitsu_371"
     },
     {
       "properties": [],
@@ -9515,7 +9671,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_366"
+      "id": "yoshimitsu_372"
     },
     {
       "properties": [],
@@ -9541,7 +9697,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_367"
+      "id": "yoshimitsu_373"
     },
     {
       "properties": [],
@@ -9567,7 +9723,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_368"
+      "id": "yoshimitsu_374"
     },
     {
       "properties": [],
@@ -9593,7 +9749,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_369"
+      "id": "yoshimitsu_375"
     },
     {
       "properties": [],
@@ -9619,7 +9775,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_370"
+      "id": "yoshimitsu_376"
     },
     {
       "properties": [],
@@ -9645,7 +9801,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_371"
+      "id": "yoshimitsu_377"
     },
     {
       "properties": [],
@@ -9671,7 +9827,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_372"
+      "id": "yoshimitsu_378"
     },
     {
       "properties": [],
@@ -9697,7 +9853,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_373"
+      "id": "yoshimitsu_379"
     },
     {
       "properties": [],
@@ -9723,7 +9879,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_374"
+      "id": "yoshimitsu_380"
     },
     {
       "properties": [],
@@ -9749,7 +9905,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_375"
+      "id": "yoshimitsu_381"
     },
     {
       "properties": [],
@@ -9775,7 +9931,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_376"
+      "id": "yoshimitsu_382"
     },
     {
       "properties": [],
@@ -9801,7 +9957,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_377"
+      "id": "yoshimitsu_383"
     },
     {
       "properties": [],
@@ -9827,7 +9983,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_378"
+      "id": "yoshimitsu_384"
     },
     {
       "properties": [],
@@ -9853,7 +10009,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_379"
+      "id": "yoshimitsu_385"
     },
     {
       "properties": [],
@@ -9879,7 +10035,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "yoshimitsu_380"
+      "id": "yoshimitsu_386"
     }
   ]
 }

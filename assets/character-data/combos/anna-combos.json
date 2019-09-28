@@ -7,7 +7,7 @@
         "oki": "-"
       },
       {
-        "input": "qcf+1, 1, qcf+1, f+3, 2 (S!) qcf+3, 2, qcf+2, 1",
+        "input": "qcf+1, 1, qcf+1, f+3, 2 (S!) qcf+3, 2 or qcf+2, 1",
         "damage": 67,
         "oki": "-"
       },
@@ -22,7 +22,7 @@
         "oki": "-"
       },
       {
-        "input": "d/f+3,2~D/F 1, f+3, 2 (S!) qcf+3, 2, qcf+2, 1",
+        "input": "d/f+3, 2~D/F 1, f+3, 2 (S!) qcf+3, 2 or qcf+2, 1",
         "damage": 63,
         "oki": "-"
       }
@@ -39,7 +39,7 @@
         "oki": "-"
       },
       {
-        "input": "SSL , d+3, 4, 1",
+        "input": "SSL, d+3, 4, 1",
         "damage": 47,
         "oki": "-"
       },
@@ -61,13 +61,8 @@
     ],
     "u/f+4": [
       {
-        "input": "d/f+1, d/f+3, 2~D/F 1, f+3, 2 (S!) d/b+1 ~delay~ 4",
-        "damage": 73,
-        "oki": "-"
-      },
-      {
-        "input": "d/f+3, 2~D/F 1, f+3, 2 (S!) d/b+1 ~delay~ 4",
-        "damage": 72,
+        "input": "d/f+3, 2~D/F 1, f+3, 2 (S!) d/f+3, 1, 4",
+        "damage": 67,
         "oki": "-"
       },
       {
@@ -76,12 +71,22 @@
         "oki": "-"
       },
       {
-        "input": "d/f+3, 2~D/F 1, f+3, 2 (S!) d/f+3, 1, 4",
-        "damage": 67,
+        "input": "d/f+1, d/f+3, 2~D/F 1, f+3, 2 (S!) d/b+1 ~delay~ 4",
+        "damage": 65,
         "oki": "-"
       },
       {
-        "input": "d/f+3, 2~D/F 1, f+3, 2 (S!) qcf+3, 2 (or qcf+2, 1)",
+        "input": "d/f+3, 2~D/F 1, f+3, 2 (S!) d/b+1 ~delay~ 4",
+        "damage": 64,
+        "oki": "-"
+      },
+      {
+        "input": "d/f+3, 2~D/F 1, f+3, 2 (S!) qcf+2, 1",
+        "damage": 66,
+        "oki": "-"
+      },
+      {
+        "input": "d/f+3, 2~D/F 1, f+3, 2 (S!) qcf+3, 2",
         "damage": 66,
         "oki": "-"
       }
@@ -327,6 +332,18 @@
       {
         "input": "d/f+3, 2~D/F 1, f+3, 2 (S!) qcf+3, 2 (or qcf+2, 1)",
         "damage": 61,
+        "oki": "-"
+      }
+    ],
+    "(d/f+3), (3), (3), 1": [
+      {
+        "input": "d/f+3, 4",
+        "damage": 47,
+        "oki": "-"
+      },
+      {
+        "input": "d/f+3, 3, 3",
+        "damage": 41,
         "oki": "-"
       }
     ],
@@ -1452,6 +1469,7 @@
       },
       {
         "input": "f+3, 2 (S!) qcf+2, 1",
+        "damage": "-",
         "oki": "-"
       }
     ],
