@@ -2453,12 +2453,6 @@
     },
     {
       "properties": [],
-      "preview_url": null,
-      "move_name": "INTO MANTIS STANCE",
-      "id": "zafina_103"
-    },
-    {
-      "properties": [],
       "preview_url": "https://giant.gfycat.com/SilentFearfulArgali.gif",
       "move_name": "Mantis Stance",
       "notation": "d+3+4",
@@ -2479,7 +2473,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "zafina_104"
+      "id": "zafina_103"
     },
     {
       "properties": [],
@@ -2503,7 +2497,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1, 3, 1",
       "notes": "-",
-      "id": "zafina_105"
+      "id": "zafina_104"
     },
     {
       "properties": [],
@@ -2527,7 +2521,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "3, 1",
       "notes": "-",
-      "id": "zafina_106"
+      "id": "zafina_105"
     },
     {
       "properties": [],
@@ -2551,7 +2545,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_107"
+      "id": "zafina_106"
     },
     {
       "properties": [],
@@ -2575,7 +2569,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "2, 1",
       "notes": "-",
-      "id": "zafina_108"
+      "id": "zafina_107"
     },
     {
       "properties": [],
@@ -2599,7 +2593,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_109"
+      "id": "zafina_108"
     },
     {
       "properties": [],
@@ -2623,7 +2617,7 @@
       "in_air": "TAILSPIN",
       "active_frames": "1, 5",
       "notes": "-",
-      "id": "zafina_110"
+      "id": "zafina_109"
     },
     {
       "properties": [],
@@ -2647,7 +2641,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_111"
+      "id": "zafina_110"
     },
     {
       "properties": [],
@@ -2671,7 +2665,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_112"
+      "id": "zafina_111"
     },
     {
       "properties": [],
@@ -2695,7 +2689,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_113"
+      "id": "zafina_112"
     },
     {
       "properties": [],
@@ -2719,7 +2713,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_114"
+      "id": "zafina_113"
     },
     {
       "properties": [],
@@ -2743,7 +2737,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_115"
+      "id": "zafina_114"
     },
     {
       "properties": [],
@@ -2767,7 +2761,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_116"
+      "id": "zafina_115"
     },
     {
       "properties": [],
@@ -2791,7 +2785,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 1, 2",
       "notes": "-",
-      "id": "zafina_117"
+      "id": "zafina_116"
     },
     {
       "properties": [],
@@ -2815,7 +2809,7 @@
       "in_air": "FLOAT",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_118"
+      "id": "zafina_117"
     },
     {
       "properties": [],
@@ -2839,7 +2833,7 @@
       "in_air": "FLOAT",
       "active_frames": "3, 3",
       "notes": "-",
-      "id": "zafina_119"
+      "id": "zafina_118"
     },
     {
       "properties": [],
@@ -2863,7 +2857,7 @@
       "in_air": "FLOAT",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_120"
+      "id": "zafina_119"
     },
     {
       "properties": [],
@@ -2887,7 +2881,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_121"
+      "id": "zafina_120"
     },
     {
       "properties": [],
@@ -2911,7 +2905,7 @@
       "in_air": "FLOAT",
       "active_frames": "7",
       "notes": "-",
-      "id": "zafina_122"
+      "id": "zafina_121"
     },
     {
       "properties": [],
@@ -2935,7 +2929,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "zafina_123"
+      "id": "zafina_122"
     },
     {
       "properties": [],
@@ -2959,7 +2953,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_124"
+      "id": "zafina_123"
     },
     {
       "properties": [],
@@ -2983,7 +2977,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_125"
+      "id": "zafina_124"
     },
     {
       "properties": [],
@@ -3007,13 +3001,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_126"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN MANTIS STANCE",
-      "id": "zafina_127"
+      "id": "zafina_125"
     },
     {
       "properties": [],
@@ -3037,7 +3025,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_128"
+      "id": "zafina_126"
     },
     {
       "properties": [],
@@ -3061,7 +3049,7 @@
       "in_air": "FLOAT",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "zafina_129"
+      "id": "zafina_127"
     },
     {
       "properties": [],
@@ -3085,7 +3073,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_130"
+      "id": "zafina_128"
     },
     {
       "properties": [],
@@ -3109,7 +3097,7 @@
       "in_air": "S!",
       "active_frames": "2, 2, 2",
       "notes": "-",
-      "id": "zafina_131"
+      "id": "zafina_129"
     },
     {
       "properties": [],
@@ -3133,7 +3121,7 @@
       "in_air": "S!",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "zafina_132"
+      "id": "zafina_130"
     },
     {
       "properties": [],
@@ -3157,7 +3145,7 @@
       "in_air": "S!",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_133"
+      "id": "zafina_131"
     },
     {
       "properties": [],
@@ -3180,7 +3168,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_134"
+      "id": "zafina_132"
     },
     {
       "properties": [],
@@ -3203,7 +3191,7 @@
       "in_air": "FLOAT",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "zafina_135"
+      "id": "zafina_133"
     },
     {
       "properties": [],
@@ -3226,7 +3214,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_136"
+      "id": "zafina_134"
     },
     {
       "properties": [],
@@ -3250,7 +3238,7 @@
       "in_air": "FLOAT",
       "active_frames": "2, 2, 3",
       "notes": "-",
-      "id": "zafina_137"
+      "id": "zafina_135"
     },
     {
       "properties": [],
@@ -3274,7 +3262,7 @@
       "in_air": "FLOAT",
       "active_frames": "2, 3",
       "notes": "-",
-      "id": "zafina_138"
+      "id": "zafina_136"
     },
     {
       "properties": [],
@@ -3298,7 +3286,7 @@
       "in_air": "FLOAT",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_139"
+      "id": "zafina_137"
     },
     {
       "properties": [],
@@ -3322,7 +3310,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "2, 1",
       "notes": "-",
-      "id": "zafina_140"
+      "id": "zafina_138"
     },
     {
       "properties": [],
@@ -3346,7 +3334,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_141"
+      "id": "zafina_139"
     },
     {
       "properties": [],
@@ -3370,7 +3358,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "zafina_142"
+      "id": "zafina_140"
     },
     {
       "properties": [],
@@ -3394,7 +3382,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_143"
+      "id": "zafina_141"
     },
     {
       "properties": [],
@@ -3418,7 +3406,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_144"
+      "id": "zafina_142"
     },
     {
       "properties": [],
@@ -3442,7 +3430,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_145"
+      "id": "zafina_143"
     },
     {
       "properties": [],
@@ -3466,7 +3454,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "2, 1",
       "notes": "-",
-      "id": "zafina_146"
+      "id": "zafina_144"
     },
     {
       "properties": [],
@@ -3490,7 +3478,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_147"
+      "id": "zafina_145"
     },
     {
       "properties": [],
@@ -3514,7 +3502,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_148"
+      "id": "zafina_146"
     },
     {
       "properties": [],
@@ -3538,13 +3526,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_149"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "EXIT MANTIS STANCE",
-      "id": "zafina_150"
+      "id": "zafina_147"
     },
     {
       "properties": [],
@@ -3568,7 +3550,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_151"
+      "id": "zafina_148"
     },
     {
       "properties": [],
@@ -3592,7 +3574,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "2, 2, 2",
       "notes": "-",
-      "id": "zafina_152"
+      "id": "zafina_149"
     },
     {
       "properties": [],
@@ -3616,7 +3598,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "zafina_153"
+      "id": "zafina_150"
     },
     {
       "properties": [],
@@ -3640,7 +3622,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_154"
+      "id": "zafina_151"
     },
     {
       "properties": [],
@@ -3664,7 +3646,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_155"
+      "id": "zafina_152"
     },
     {
       "properties": [],
@@ -3688,7 +3670,7 @@
       "in_air": "S!",
       "active_frames": "2, 4",
       "notes": "-",
-      "id": "zafina_156"
+      "id": "zafina_153"
     },
     {
       "properties": [],
@@ -3712,7 +3694,7 @@
       "in_air": "S!",
       "active_frames": "4",
       "notes": "-",
-      "id": "zafina_157"
+      "id": "zafina_154"
     },
     {
       "properties": [],
@@ -3736,7 +3718,7 @@
       "in_air": "FLOAT",
       "active_frames": "8",
       "notes": "-",
-      "id": "zafina_158"
+      "id": "zafina_155"
     },
     {
       "properties": [],
@@ -3760,13 +3742,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_159"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO SCARECROW STANCE",
-      "id": "zafina_160"
+      "id": "zafina_156"
     },
     {
       "properties": [],
@@ -3790,7 +3766,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "zafina_161"
+      "id": "zafina_157"
     },
     {
       "properties": [],
@@ -3814,7 +3790,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 1, 1",
       "notes": "-",
-      "id": "zafina_162"
+      "id": "zafina_158"
     },
     {
       "properties": [],
@@ -3838,7 +3814,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "zafina_163"
+      "id": "zafina_159"
     },
     {
       "properties": [],
@@ -3862,7 +3838,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_164"
+      "id": "zafina_160"
     },
     {
       "properties": [],
@@ -3886,7 +3862,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "zafina_165"
+      "id": "zafina_161"
     },
     {
       "properties": [],
@@ -3910,7 +3886,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_166"
+      "id": "zafina_162"
     },
     {
       "properties": [],
@@ -3934,7 +3910,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_167"
+      "id": "zafina_163"
     },
     {
       "properties": [],
@@ -3958,7 +3934,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_168"
+      "id": "zafina_164"
     },
     {
       "properties": [],
@@ -3982,7 +3958,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "zafina_169"
+      "id": "zafina_165"
     },
     {
       "properties": [],
@@ -4006,7 +3982,7 @@
       "in_air": "S!",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_170"
+      "id": "zafina_166"
     },
     {
       "properties": [],
@@ -4030,7 +4006,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_171"
+      "id": "zafina_167"
     },
     {
       "properties": [],
@@ -4054,7 +4030,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_172"
+      "id": "zafina_168"
     },
     {
       "properties": [],
@@ -4078,7 +4054,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_173"
+      "id": "zafina_169"
     },
     {
       "properties": [],
@@ -4102,7 +4078,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "zafina_174"
+      "id": "zafina_170"
     },
     {
       "properties": [],
@@ -4126,13 +4102,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_175"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN SCARECROW STANCE",
-      "id": "zafina_176"
+      "id": "zafina_171"
     },
     {
       "properties": [],
@@ -4156,7 +4126,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_177"
+      "id": "zafina_172"
     },
     {
       "properties": [],
@@ -4180,7 +4150,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_178"
+      "id": "zafina_173"
     },
     {
       "properties": [],
@@ -4204,7 +4174,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_179"
+      "id": "zafina_174"
     },
     {
       "properties": [],
@@ -4228,7 +4198,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "zafina_180"
+      "id": "zafina_175"
     },
     {
       "properties": [],
@@ -4252,7 +4222,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_181"
+      "id": "zafina_176"
     },
     {
       "properties": [],
@@ -4276,7 +4246,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "zafina_182"
+      "id": "zafina_177"
     },
     {
       "properties": [],
@@ -4300,7 +4270,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_183"
+      "id": "zafina_178"
     },
     {
       "properties": [],
@@ -4324,7 +4294,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_184"
+      "id": "zafina_179"
     },
     {
       "properties": [],
@@ -4348,7 +4318,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_185"
+      "id": "zafina_180"
     },
     {
       "properties": [],
@@ -4372,7 +4342,7 @@
       "in_air": "S!",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "zafina_186"
+      "id": "zafina_181"
     },
     {
       "properties": [],
@@ -4396,7 +4366,7 @@
       "in_air": "S!",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_187"
+      "id": "zafina_182"
     },
     {
       "properties": [],
@@ -4420,7 +4390,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "zafina_188"
+      "id": "zafina_183"
     },
     {
       "properties": [],
@@ -4444,13 +4414,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_189"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "EXIT SCARECROW STANCE",
-      "id": "zafina_190"
+      "id": "zafina_184"
     },
     {
       "properties": [],
@@ -4474,7 +4438,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "zafina_191"
+      "id": "zafina_185"
     },
     {
       "properties": [],
@@ -4498,7 +4462,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_192"
+      "id": "zafina_186"
     },
     {
       "properties": [],
@@ -4522,7 +4486,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 1, 2",
       "notes": "-",
-      "id": "zafina_193"
+      "id": "zafina_187"
     },
     {
       "properties": [],
@@ -4546,7 +4510,7 @@
       "in_air": "FLOAT",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "zafina_194"
+      "id": "zafina_188"
     },
     {
       "properties": [],
@@ -4570,7 +4534,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_195"
+      "id": "zafina_189"
     },
     {
       "properties": [],
@@ -4594,7 +4558,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_196"
+      "id": "zafina_190"
     },
     {
       "properties": [],
@@ -4618,7 +4582,7 @@
       "in_air": "TAILSPIN",
       "active_frames": "2, 3",
       "notes": "-",
-      "id": "zafina_197"
+      "id": "zafina_191"
     },
     {
       "properties": [],
@@ -4642,7 +4606,7 @@
       "in_air": "FLOAT",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_198"
+      "id": "zafina_192"
     },
     {
       "properties": [],
@@ -4666,7 +4630,7 @@
       "in_air": "FLOAT",
       "active_frames": "3, 3",
       "notes": "-",
-      "id": "zafina_199"
+      "id": "zafina_193"
     },
     {
       "properties": [],
@@ -4690,7 +4654,7 @@
       "in_air": "FLOAT",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_200"
+      "id": "zafina_194"
     },
     {
       "properties": [],
@@ -4714,7 +4678,7 @@
       "in_air": "FLOAT",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_201"
+      "id": "zafina_195"
     },
     {
       "properties": [],
@@ -4738,13 +4702,7 @@
       "in_air": "FLOAT",
       "active_frames": "7",
       "notes": "-",
-      "id": "zafina_202"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "INTO TARANTULA STANCE",
-      "id": "zafina_203"
+      "id": "zafina_196"
     },
     {
       "properties": [],
@@ -4768,7 +4726,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "zafina_204"
+      "id": "zafina_197"
     },
     {
       "properties": [],
@@ -4792,7 +4750,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "zafina_205"
+      "id": "zafina_198"
     },
     {
       "properties": [],
@@ -4816,7 +4774,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_206"
+      "id": "zafina_199"
     },
     {
       "properties": [],
@@ -4840,7 +4798,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_207"
+      "id": "zafina_200"
     },
     {
       "properties": [],
@@ -4864,7 +4822,7 @@
       "in_air": "FLOAT",
       "active_frames": "17",
       "notes": "-",
-      "id": "zafina_208"
+      "id": "zafina_201"
     },
     {
       "properties": [],
@@ -4887,13 +4845,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_209"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "STAY IN TARANTULA STANCE",
-      "id": "zafina_210"
+      "id": "zafina_202"
     },
     {
       "properties": [],
@@ -4917,7 +4869,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_211"
+      "id": "zafina_203"
     },
     {
       "properties": [],
@@ -4941,13 +4893,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "2",
       "notes": "-",
-      "id": "zafina_212"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "EXIT TARANTULA STANCE",
-      "id": "zafina_213"
+      "id": "zafina_204"
     },
     {
       "properties": [],
@@ -4971,7 +4917,7 @@
       "in_air": "BACKFLIP",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_214"
+      "id": "zafina_205"
     },
     {
       "properties": [],
@@ -4995,7 +4941,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "1, 4",
       "notes": "-",
-      "id": "zafina_215"
+      "id": "zafina_206"
     },
     {
       "properties": [],
@@ -5019,7 +4965,7 @@
       "in_air": "FLOOR BREAK",
       "active_frames": "4",
       "notes": "-",
-      "id": "zafina_216"
+      "id": "zafina_207"
     },
     {
       "properties": [],
@@ -5043,13 +4989,7 @@
       "in_air": "S!",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "zafina_217"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "POWER CRUSHES",
-      "id": "zafina_218"
+      "id": "zafina_208"
     },
     {
       "properties": [],
@@ -5072,8 +5012,8 @@
       "on_ch": "-5 (OC)",
       "in_air": "FLOOR BREAK",
       "active_frames": "3",
-      "notes": "-",
-      "id": "zafina_219"
+      "notes": "PC active frame 8",
+      "id": "zafina_209"
     },
     {
       "properties": [],
@@ -5096,14 +5036,8 @@
       "on_ch": "KND",
       "in_air": "FLOOR BREAK",
       "active_frames": "1",
-      "notes": "-",
-      "id": "zafina_220"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "RAGE MOVES",
-      "id": "zafina_221"
+      "notes": "PC active frame 8",
+      "id": "zafina_210"
     },
     {
       "properties": [],
@@ -5126,8 +5060,8 @@
       "on_ch": "KND",
       "in_air": "ACTIVATE",
       "active_frames": "1",
-      "notes": "-",
-      "id": "zafina_222"
+      "notes": "PC active frame 8",
+      "id": "zafina_211"
     },
     {
       "properties": [],
@@ -5151,13 +5085,7 @@
       "in_air": "STUN",
       "active_frames": "2, 1",
       "notes": "-",
-      "id": "zafina_223"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "UNBLOCKABLE MOVES",
-      "id": "zafina_224"
+      "id": "zafina_212"
     },
     {
       "properties": [],
@@ -5181,13 +5109,7 @@
       "in_air": "FLOAT",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_225"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "THROWS",
-      "id": "zafina_226"
+      "id": "zafina_213"
     },
     {
       "properties": [],
@@ -5205,13 +5127,13 @@
       "meter_gain": "-",
       "damage": "35",
       "speed": "12",
-      "on_block": "-",
+      "on_block": "-4",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_227"
+      "id": "zafina_214"
     },
     {
       "properties": [],
@@ -5229,13 +5151,13 @@
       "meter_gain": "-",
       "damage": "35",
       "speed": "15",
-      "on_block": "-",
+      "on_block": "-4",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_228"
+      "id": "zafina_215"
     },
     {
       "properties": [],
@@ -5253,13 +5175,13 @@
       "meter_gain": "-",
       "damage": "40",
       "speed": "12",
-      "on_block": "-",
+      "on_block": "-3",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_229"
+      "id": "zafina_216"
     },
     {
       "properties": [],
@@ -5277,13 +5199,13 @@
       "meter_gain": "-",
       "damage": "40",
       "speed": "12",
-      "on_block": "-",
+      "on_block": "-3",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_230"
+      "id": "zafina_217"
     },
     {
       "properties": [],
@@ -5307,7 +5229,7 @@
       "in_air": "-",
       "active_frames": "3",
       "notes": "-",
-      "id": "zafina_231"
+      "id": "zafina_218"
     },
     {
       "properties": [],
@@ -5325,13 +5247,13 @@
       "meter_gain": "-",
       "damage": "40",
       "speed": "12",
-      "on_block": "-",
+      "on_block": "-6",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_232"
+      "id": "zafina_219"
     },
     {
       "properties": [],
@@ -5355,13 +5277,7 @@
       "in_air": "-",
       "active_frames": "1",
       "notes": "-",
-      "id": "zafina_233"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "DURING TACKLE",
-      "id": "zafina_234"
+      "id": "zafina_220"
     },
     {
       "properties": [],
@@ -5385,7 +5301,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "zafina_235"
+      "id": "zafina_221"
     },
     {
       "properties": [],
@@ -5409,7 +5325,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "zafina_236"
+      "id": "zafina_222"
     },
     {
       "properties": [],
@@ -5433,7 +5349,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "zafina_237"
+      "id": "zafina_223"
     },
     {
       "properties": [],
@@ -5457,13 +5373,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "zafina_238"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": "SPECIAL",
-      "id": "zafina_239"
+      "id": "zafina_224"
     },
     {
       "properties": [],
@@ -5486,8 +5396,8 @@
       "on_ch": "KND",
       "in_air": "-",
       "active_frames": "5, 2",
-      "notes": "-",
-      "id": "zafina_240"
+      "notes": "PC active 6-29f",
+      "id": "zafina_225"
     },
     {
       "properties": [],
@@ -5511,7 +5421,7 @@
       "in_air": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "zafina_241"
+      "id": "zafina_226"
     }
   ]
 }
