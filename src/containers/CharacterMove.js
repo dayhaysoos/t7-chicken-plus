@@ -112,6 +112,7 @@ class CharacterMove extends Component {
         const item = navigation.getParam('item');
 
         const { notation, move_name, name, id } = item;
+        console.log('ITEM', item)
 
         const selectedCharacterMoves = navigation.getParam('selectedCharacterMoves');
 
@@ -122,9 +123,9 @@ class CharacterMove extends Component {
         });
 
         firebase.analytics().logEvent('Screen_Character_Move', {
-            move_name,
+            move_name: move_name,
             notation: `${name} ${notation}`,
-            // character: name
+            character: name
         });
     }
 
