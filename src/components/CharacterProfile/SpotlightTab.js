@@ -100,7 +100,10 @@ const SpotlightTab = ({ playerData: { favorite_moves, name, bio, sponsor, twitch
         <SpotlightWrapper>
             <DetailText theme={theme}>Player Spotlight</DetailText>
             <Header>{name}</Header>
-            <H2>Sponsor: {sponsor}</H2>
+            {sponsor.length > 5 && (
+                <H2>Sponsor: {sponsor}</H2>
+            )}
+            
             <BioText>{bio}</BioText>
         </SpotlightWrapper>
         <SocialIconsWrapper>

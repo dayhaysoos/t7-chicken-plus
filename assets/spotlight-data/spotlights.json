@@ -1,6 +1,162 @@
 [
   {
     "favorite_moves": [
+      "1,3:3:3",
+      "f,f+3",
+      "d/f+1",
+      "b+4",
+      "f,f+4",
+      "d+3"
+    ],
+    "name": "KikiDeliver",
+    "character": "Lee",
+    "twitch": "https://www.twitch.tv/kikideliver",
+    "twitter": "https://twitter.com/Kikideliver_",
+    "instagram": "https://www.instagram.com/toryellen.jpg/",
+    "sponsor": "N/A",
+    "bio": "KikiDeliver is a streamer, competitor, and Lee loyalist (never Violet). Coming from Virginia, she started playing Tekken when Tekken 7 was released. She continues the grind to prove that Lee is a strong character, though he's not a popular choice. Having her major tournament debut at Summer Jam 2019, Kiki is starting to make more of a presence in the FGC and hopes to inspire more Lee players to come out :) Outside of Tekken, Kiki has many hobbies such as music, rhythm games, and Puyo Puyo Tetris!"
+  },
+  {
+    "favorite_moves": [
+      "f,f+1+2. d+2. f+2. d/f+2. d/b+1,1+2. d+3. d/b+1+2. u/f+4.",
+      "d/f+1",
+      "u/+4",
+      "b+1+2"
+    ],
+    "name": "Yung_P",
+    "character": "Noctis",
+    "twitch": "Twitch.tv/Yung_P",
+    "twitter": "Twitter.com/YungPTK",
+    "instagram": "NA.",
+    "sponsor": "NA.",
+    "bio": "Yung_P is from Northern California, and is a competitive Tekken player that spends the majority of his time streaming on Twitch. Once known for his high level Lucky Chloe, he made the switch over to Noctis. His main goal is to entertain and connect with his audience, yet also wants to improve his own gameplay in the process. If you would like learn more about Noctis, Yung_P's got you covered! "
+  },
+  {
+    "favorite_moves": [
+      "F,F+4,2",
+      "F,F+2",
+      "WS+2",
+      "b+2,3",
+      "(during jump) qcb+3",
+      "(during jump) qcb+4",
+      "(approach from behind) 1+3 (or 2+4)"
+    ],
+    "name": "YINCRESCENT",
+    "character": "Eliza",
+    "twitch": "twitch.tv/yincrescent ",
+    "twitter": "twitter.com/yincrescemt",
+    "instagram": "n/a",
+    "sponsor": "Unsponored Lol",
+    "bio": "While currently unsponsored, YINCRESCENT (or YINCROISSANT) has made his debut competitively during the console release of TEKKEN7. He resides in the state of Maryland, and lurks in the venue of XANADU Games ; Home to many other strong players such as LJR, Victim Of Ritual, Sayco, Wommy, Tae, and many more. Despite Yin's unusual fascination with Eliza he has made the mark of being one of the few Eliza mains who come to mind when she is mentioned. Yin's always looking to push himself to his limits and get better, and even has went as far as to provide content and info to players on Discord, Youtube and Twitch. His goal is to place more consistently and maybe one day win a major. Outside of TEKKEN, He LOVES racing games, is a phenomenal artist, and is currently developing a comic book series called \"SYSTEM.ZR0\". If successful, he wants to then have it turned into a fighting game, with his inspiration coming from not only just TEKKEN, but others great fighters such as SOULCALIBUR, and VIRTUA FIGHTER "
+  },
+  {
+    "favorite_moves": [
+      "f, n, d, d/f+1",
+      "NSS 2,1",
+      "1+4",
+      "NSS WS 2, 1, 2",
+      "BT d/f or d or d/b+1",
+      "d/f+1+2, 2",
+      "NSS u/b+!+2, 1",
+      "NSS f+1+2"
+    ],
+    "name": "Mazen",
+    "character": "Yoshimitsu",
+    "twitch": "https://www.twitch.tv/mazen9",
+    "twitter": "https://twitter.com/mazen__tk",
+    "instagram": "https://www.instagram.com/unmaker9/",
+    "sponsor": "Accelerate Gaming (AXL)",
+    "bio": "Mazen is a Yoshimitsu player from the midwest, who's fiercely dedicated to the character, playing as him since Tekken 1.  He strives to compete at a high level, showing the world what Yoshimitsu is capable of as well as trying to make it entertaining to watch in the process.  He's very passionate about improving his playstyle and wants to help others looking to dive into this convoluted and unique character.  He never shies away from those looking to learn how to get a handle on how to play Yoshimitsu, as well as those needing help on how to fight against him."
+  },
+  {
+    "favorite_moves": [
+      "D/f+1",
+      "Ff+4,3(DE 4,3)",
+      "U/f+4",
+      "D/b+4",
+      "F+1+2",
+      "D/b+2,1",
+      "1,1,1",
+      "D+2",
+      "FC D/f+2",
+      "SS+2",
+      "B+4",
+      "D/f+2,1"
+    ],
+    "name": "Lenell Dinkins",
+    "character": "Lars",
+    "twitch": "https://www.twitch.tv/ltrainlocomotive",
+    "twitter": "https://www.twitter.com/Ltrain_313",
+    "instagram": "https://www.instagram.com/ltrainthalocomotive/",
+    "bio": "One of the Midwest finest hailing from Detroit, Michigan. L-train is a Lars specialist who has been competing since the end of tekken 6/beginning of tag 2. He has placed in top 8s and top 16s and is hailed as Lars of America"
+  },
+  {
+    "favorite_moves": [
+      "Your fave moves",
+      "Try to match T7C+ inputs",
+      "1",
+      "D/F+1",
+      "D/B+4",
+      "U/F+3",
+      "BT f+3+4, 3+4, 3+4",
+      "4",
+      "FC+d/f+1",
+      "FC+d/f+2",
+      "SS+4",
+      "B+4"
+    ],
+    "name": "twitchShangles",
+    "character": "Lucky Chloe",
+    "twitch": "twitch.tv/shangles",
+    "twitter": "https://twitter.com/Shangleslol",
+    "instagram": "The whole instagram URL pls",
+    "sponsor": "EQNX",
+    "bio": "Shangles is a professional Tekken player who plays for Equinox Gaming (EQNX) from Northern California that has been playing Lucky Chloe since the start of Tekken 7. He has been playing 2D fighting games since the age of 6 in his arcade scene, while also excelling in other games at a high level. He continues to strive for his goal to grow, not only in his community, but throughout the US. He is known for his unique and unpredictable playstyle. He has made a name for himself by acquiring multiple upsets in matches against world renowned players and achieving multiple top 16 placements. If you would like to ask any questions or receive personal lessons with Shangles you can reach on him on twitch.tv/shangles or @Shangleslol on twitter."
+  },
+  {
+    "favorite_moves": [
+      "d/f+3",
+      "ff+4",
+      "d+4",
+      "qcf+3+4",
+      "f+3",
+      "d+3+4",
+      "b+1~f",
+      "ss+1+2",
+      "d/f+3+4",
+      "1,2,3",
+      "ss+3",
+      "bt+1+2",
+      "2,4",
+      "d/f+4",
+      "fc, d/f+1"
+    ],
+    "name": "KawaiiFaceMiles",
+    "character": "Lili",
+    "twitch": "http://twitch.tv/kawaiifacemiles",
+    "twitter": "http://twitter.com/kawaiifacemiles",
+    "instagram": "http://instagram.com/kawaiifacemiles",
+    "sponsor": "Sponsor here",
+    "bio": "KawaiiFaceMiles is a professional Tekken player that has grown and rose to stardom since her first event in 2015. She immediately fell in love with Tekken because of it's characters and has dubbed herself as the \"Waifu of the FGC.\" With extensive knowledge and high level play spanning across many female characters, she fights hard with mind games, hard reads, and creativity. Her style is contagious and her smile, infectious personality, and captivating presence will keep you craving for more. KFM has placed in a few majors most notably 1st place with Team Cuddle Core at ELeague Tekken Team Takedown as well as achieving many accomplishments such as becoming the first female partnered twitch streamer in the Tekken genre, Brand Ambassador for Victrix, securing partnerships with Papa Johns and AdvancedGG, and representing multiple teams during her competitive career. She always welcomes new players to the scene and isn't afraid to go out of her way to give advice and help cultivate newcomers as well as her community. With dreams of being a star, she will become your number 1 heartthrob. "
+  },
+  {
+    "favorite_moves": [
+      "Qcf+1, uf+1,3,3+4, FC df+2",
+      "Try to match T7C+ inputs",
+      "d/f+1",
+      "u/+4",
+      "b+1+2"
+    ],
+    "name": "Mr. Taxi",
+    "character": "Anna Willaims",
+    "twitch": "Twitch.tv/7CGMrTaxi",
+    "twitter": "https://twitter.com/VAMrTaxi",
+    "instagram": "https://instagram.com/chris.gravelle",
+    "sponsor": "7 Cities Gaming League",
+    "bio": "Mr. Taxi is a professional tekken player for 7 Cities Gaming League, he originates from Virginia, and is widely accepted as the Anna of America, if not the world. His hyper-aggressive Poke/CH/50/50 style in addition with his crazy okizeme setups have allowed him to place in top 8s since 2012 in the flashiest,most disrespectful, and gimmickies of ways. A true character specialist, Taxi enjoys playing for fun, and accidentally beats top players while doing so, all the while bopping his head to kpop, doja cat, and nightcore in tournament, as well as on his streams. A very opinionated player, with a unique style, Taxi just likes to show off."
+  },
+  {
+    "favorite_moves": [
       "Your fave moves",
       "Try to match T7C+ inputs",
       "1,1,2",
@@ -29,8 +185,6 @@
     "twitch": "https://www.twitch.tv/cutcc",
     "youtube": "https://www.youtube.com/cutcc",
     "twitter": "https://twitter.com/CuongLinhcc",
-    "instagram": "",
-    "sponsor": "Sponsor here",
     "bio": "Cutcc is a content creator from the Boston Tekken scene. His videos focus primarily on infographic style tutorials with an emphasis on brevity and clarity. As a passionate Marshall Law main since T2, he hopes to demonstrate that Law is a super solid character, has immense creative potential, and that he puts the \"Fun\" in Fundamental."
   },
   {
