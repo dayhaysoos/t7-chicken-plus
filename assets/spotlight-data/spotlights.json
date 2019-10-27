@@ -1,6 +1,44 @@
 [
   {
     "favorite_moves": [
+      "b+3+4",
+      "HAR 1",
+      "d+3, 3",
+      "u/f+3+4",
+      "4,4,4",
+      "b+1, F",
+      "d/b+4",
+      "d/f+4"
+    ],
+    "name": "ninjadogs",
+    "character": "Katarina",
+    "twitch": "https://www.twitch.tv/ninjadogs",
+    "twitter": "https://twitter.com/Ninjadogs",
+    "instagram": "https://www.instagram.com/ninjadogs_/",
+    "sponsor": "Yellow Pike Gaming",
+    "bio": "I am a professional esports player for team YPG(Yellow Pike Gaming). I am a Katarina player from Long Island, NY. I only started competing in tekken back in January of 2018, but I have been playing fighting games since middle school over in my local arcade playing MvC2 all the way till the arcade closed down back in 2016. What I look to do is always strive to be a better player than I was the last tournament, be that hype man cheering on a friend while they are playing, or that pocket coach when players are in need of matchup advice. Above all else, just having fun and enjoying what i love, all the while exploring new places and meeting new people along the way."
+  },
+  {
+    "favorite_moves": [
+      "df+2",
+      "d/f+1",
+      "f,f+1",
+      "f+2",
+      "d/f+4",
+      "d/b+1",
+      "u/f+2",
+      "f,f+4"
+    ],
+    "name": "iHai",
+    "character": "Jack-7",
+    "twitch": "https://twitch.tv/HaitakeKakashi",
+    "twitter": "https://twitter.com/HaitakeKakashi",
+    "instagram": "https://instagram.com/haitake_kakashi",
+    "sponsor": "N/A",
+    "bio": "Proudly representing the state of Michigan, iHai is a devoted Jack player who has dominated the local Tekken scene for most of his time since his move to the Wolverine State in 2005.  He is not only a competitor, but he is also a devoted teacher and mentor to the Tekken community, volunteering his time and efforts for the next generation of Tekken players. He leverages his stream as a valuable tool to instruct both Beginner and Intermediate level Tekken players on a weekly basis, taking on motivated students as close as MI, to as far as NY and TX, to even as far as Europe.  iHai also organizes monthly online tournaments and contests for the local community, often using his own tournament winnings to fund prizes for top placers, further demonstrating what it means \"to give back to the community\". In his spare time, iHai practices multiple characters for instructional purposes, helps run local tournaments, and commentates in both small and large state tournaments, such as Youmacon."
+  },
+  {
+    "favorite_moves": [
       "1,3:3:3",
       "f,f+3",
       "d/f+1",
@@ -109,7 +147,7 @@
     "character": "luckychloe",
     "twitch": "https://twitch.tv/shangles",
     "twitter": "https://twitter.com/Shangleslol",
-    "sponsor": "EQNX",
+    "sponsor": "Equinox",
     "bio": "Shangles is a professional Tekken player who plays for Equinox Gaming (EQNX) from Northern California that has been playing Lucky Chloe since the start of Tekken 7. He has been playing 2D fighting games since the age of 6 in his arcade scene, while also excelling in other games at a high level. He continues to strive for his goal to grow, not only in his community, but throughout the US. He is known for his unique and unpredictable playstyle. He has made a name for himself by acquiring multiple upsets in matches against world renowned players and achieving multiple top 16 placements. If you would like to ask any questions or receive personal lessons with Shangles you can reach on him on twitch.tv/shangles or @Shangleslol on twitter."
   },
   {

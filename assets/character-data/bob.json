@@ -19,14 +19,14 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "21 [25]",
-      "speed": "35",
-      "on_block": "+1",
+      "speed": "36",
+      "on_block": "+2",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
+      "notes": "air status 5f, invincibility 8 - 24f",
       "id": "bob_1"
     },
     {
@@ -66,7 +66,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -118,7 +118,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -196,7 +196,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -260,7 +260,7 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
+      "notes": "delayable 10f, combo can be delayed 7f from CH",
       "id": "bob_10"
     },
     {
@@ -274,7 +274,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -326,7 +326,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -390,7 +390,7 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
+      "notes": "can be delayed 11f, combo can be delayed 5f from CH",
       "id": "bob_15"
     },
     {
@@ -404,7 +404,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -456,7 +456,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -508,7 +508,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -586,7 +586,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -664,7 +664,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -742,13 +742,13 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "14 [16], 17",
       "speed": "18",
-      "on_block": "-10",
+      "on_block": "-10 (OC)",
       "on_hit": "+4 (OC)",
       "on_ch": "-",
       "in_air": "-",
@@ -774,7 +774,7 @@
       "meter_gain": "-",
       "damage": "17 [20]",
       "speed": "28",
-      "on_block": "-10",
+      "on_block": "-10 (OC)",
       "on_hit": "+4 (OC)",
       "on_ch": "KND",
       "in_air": "-",
@@ -820,7 +820,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -878,7 +878,7 @@
       "meter_gain": "-",
       "damage": "15 [18], 12, 14",
       "speed": "13",
-      "on_block": "-5",
+      "on_block": "-5 (OC)",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
@@ -904,7 +904,7 @@
       "meter_gain": "-",
       "damage": "12 [14], 14",
       "speed": "25",
-      "on_block": "-5",
+      "on_block": "-5 (OC)",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
@@ -930,7 +930,7 @@
       "meter_gain": "-",
       "damage": "14 [16]",
       "speed": "28",
-      "on_block": "-5",
+      "on_block": "-5 (OC)",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
@@ -941,7 +941,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/NiftySelfishEland.gif",
+      "preview_url": null,
       "move_name": null,
       "notation": "1+2",
       "hit_level": "mid",
@@ -956,9 +956,9 @@
       "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "19",
-      "on_block": "-13",
-      "on_hit": "0",
-      "on_ch": "0",
+      "on_block": "-13 (OC)",
+      "on_hit": "0 (OC)",
+      "on_ch": "0 (OC)",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -970,8 +970,8 @@
       "preview_url": null,
       "move_name": null,
       "notation": "1+2, B",
-      "hit_level": "mid",
-      "range": "1.5",
+      "hit_level": "-",
+      "range": "-",
       "pushback": "-",
       "tracking": "-",
       "crush": "-",
@@ -980,11 +980,11 @@
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
-      "damage": "18 [21]",
-      "speed": "19",
-      "on_block": "-36",
-      "on_hit": "-23",
-      "on_ch": "-23",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
@@ -993,7 +993,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/HarmfulOddballArctichare.gif",
+      "preview_url": "https://giant.gfycat.com/ValuableMagnificentJavalina.gif",
       "move_name": "Black Poêlé",
       "notation": "1+2, 1+2",
       "hit_level": "mid, mid",
@@ -1002,7 +1002,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -1014,7 +1014,7 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
+      "notes": "can be delayed 21f, combo can be delayed 20f",
       "id": "bob_39"
     },
     {
@@ -1045,6 +1045,58 @@
     },
     {
       "properties": [],
+      "preview_url": "https://giant.gfycat.com/SomeNeglectedCoelacanth.gif",
+      "move_name": "Egg Bound",
+      "notation": "u+1+2",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "TJ 9f",
+      "id": "bob_41"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/HeavyUltimateEmperorshrimp.gif",
+      "move_name": "Hatching Punch",
+      "notation": "u+1+2, 1",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "WALL BOUND",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "21 [25]",
+      "speed": "28",
+      "on_block": "-9",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_42"
+    },
+    {
+      "properties": [],
       "preview_url": "https://giant.gfycat.com/HilariousFantasticAzurewingedmagpie.gif",
       "move_name": "Strainer",
       "notation": "u+3+4",
@@ -1061,13 +1113,13 @@
       "damage": "20 [24]",
       "speed": "24",
       "on_block": "-4 (OC)",
-      "on_hit": "+6",
+      "on_hit": "+6 (OC)",
       "on_ch": "STUN",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_41"
+      "notes": "TJ 13f",
+      "id": "bob_43"
     },
     {
       "properties": [],
@@ -1093,7 +1145,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_42"
+      "id": "bob_44"
     },
     {
       "properties": [],
@@ -1118,8 +1170,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_43"
+      "notes": "TJ 9f",
+      "id": "bob_45"
     },
     {
       "properties": [],
@@ -1144,8 +1196,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_44"
+      "notes": "TJ 15f",
+      "id": "bob_46"
     },
     {
       "properties": [],
@@ -1158,20 +1210,20 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "14 [16], 18",
       "speed": "25",
       "on_block": "0",
-      "on_hit": "+4",
+      "on_hit": "+4 (OC)",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_45"
+      "id": "bob_47"
     },
     {
       "properties": [],
@@ -1191,13 +1243,13 @@
       "damage": "18 [21]",
       "speed": "18",
       "on_block": "0",
-      "on_hit": "+4",
+      "on_hit": "+4 (OC)",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_46"
+      "id": "bob_48"
     },
     {
       "properties": [],
@@ -1222,8 +1274,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_47"
+      "notes": "TJ 13f",
+      "id": "bob_49"
     },
     {
       "properties": [],
@@ -1236,7 +1288,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -1248,8 +1300,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_48"
+      "notes": "can be delayed by 15f, combo can be delayed by 15f",
+      "id": "bob_50"
     },
     {
       "properties": [],
@@ -1275,7 +1327,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_49"
+      "id": "bob_51"
     },
     {
       "properties": [],
@@ -1288,7 +1340,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -1300,8 +1352,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_50"
+      "notes": "can be delayed by 30f, combo can be delayed by 15f",
+      "id": "bob_52"
     },
     {
       "properties": [],
@@ -1327,7 +1379,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_51"
+      "id": "bob_53"
     },
     {
       "properties": [],
@@ -1353,7 +1405,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_52"
+      "id": "bob_54"
     },
     {
       "properties": [],
@@ -1379,7 +1431,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_53"
+      "id": "bob_55"
     },
     {
       "properties": [],
@@ -1405,7 +1457,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_54"
+      "id": "bob_56"
     },
     {
       "properties": [],
@@ -1418,7 +1470,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -1431,7 +1483,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_55"
+      "id": "bob_57"
     },
     {
       "properties": [],
@@ -1457,7 +1509,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_56"
+      "id": "bob_58"
     },
     {
       "properties": [],
@@ -1483,7 +1535,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_57"
+      "id": "bob_59"
     },
     {
       "properties": [],
@@ -1496,7 +1548,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -1508,8 +1560,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_58"
+      "notes": "can be delayed 10f, combo can be delayed 10f",
+      "id": "bob_60"
     },
     {
       "properties": [],
@@ -1535,7 +1587,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_59"
+      "id": "bob_61"
     },
     {
       "properties": [],
@@ -1554,14 +1606,14 @@
       "meter_gain": "-",
       "damage": "18 [21]",
       "speed": "21",
-      "on_block": "-4",
-      "on_hit": "0",
-      "on_ch": "+8",
+      "on_block": "-4 (OC)",
+      "on_hit": "0 (OC)",
+      "on_ch": "+8 (OC)",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_60"
+      "id": "bob_62"
     },
     {
       "properties": [],
@@ -1574,7 +1626,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -1586,8 +1638,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_61"
+      "notes": "can be delayed 7f",
+      "id": "bob_63"
     },
     {
       "properties": [],
@@ -1613,7 +1665,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_62"
+      "id": "bob_64"
     },
     {
       "properties": [],
@@ -1639,7 +1691,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_63"
+      "id": "bob_65"
     },
     {
       "properties": [],
@@ -1665,7 +1717,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_64"
+      "id": "bob_66"
     },
     {
       "properties": [],
@@ -1690,8 +1742,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_65"
+      "notes": "TJ 8f",
+      "id": "bob_67"
     },
     {
       "properties": [],
@@ -1716,8 +1768,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_66"
+      "notes": "TJ 14f",
+      "id": "bob_68"
     },
     {
       "properties": [],
@@ -1730,7 +1782,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -1743,7 +1795,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_67"
+      "id": "bob_69"
     },
     {
       "properties": [],
@@ -1768,8 +1820,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_68"
+      "notes": "TJ 16f",
+      "id": "bob_70"
     },
     {
       "properties": [],
@@ -1795,7 +1847,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_69"
+      "id": "bob_71"
     },
     {
       "properties": [],
@@ -1820,8 +1872,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_70"
+      "notes": "TJ 3f",
+      "id": "bob_72"
     },
     {
       "properties": [],
@@ -1846,320 +1898,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_71"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/AmbitiousWideeyedBlesbok.gif",
-      "move_name": "Langue Washer",
-      "notation": "f, n, d, d/f+1",
-      "hit_level": "high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "25 [30]",
-      "speed": "13",
-      "on_block": "-2",
-      "on_hit": "KND",
-      "on_ch": "S!",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_72"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/FrequentVariableCub.gif",
-      "move_name": "Spiral Rocky",
-      "notation": "f, n, d, d/f+2",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "24 [28]",
-      "speed": "16",
-      "on_block": "-23",
-      "on_hit": "LAUNCH",
-      "on_ch": "LAUNCH",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
+      "notes": "TJ 15f",
       "id": "bob_73"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "f, n, d, d/f+3",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "14 [16]",
-      "speed": "16",
-      "on_block": "-10",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_74"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/BarrenForkedAmericankestrel.gif",
-      "move_name": "Gambero Knee",
-      "notation": "f, n, d, d/f+3, 2",
-      "hit_level": "mid, high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "14 [16], 16",
-      "speed": "16",
-      "on_block": "-3",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_75"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "(f, n, d, d/f+3), 2",
-      "hit_level": "high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "low",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "30 [36]",
-      "speed": "23",
-      "on_block": "-3",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_76"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/WebbedSoftAmericanriverotter.gif",
-      "move_name": "Granchio Knee",
-      "notation": "f, n, d, d/f+3, 4",
-      "hit_level": "mid, mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "14 [16], 11",
-      "speed": "16",
-      "on_block": "-11",
-      "on_hit": "S!",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_77"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "(f, n, d, d/f+3), 4",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "low",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "17 [20]",
-      "speed": "32",
-      "on_block": "-11",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_78"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "f, n, d, d/f+4",
-      "hit_level": "low",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "16 [19]",
-      "speed": "18",
-      "on_block": "-28",
-      "on_hit": "-1",
-      "on_ch": "-1",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_79"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/DeterminedWarpedCatfish.gif",
-      "move_name": "Cutting Coppa",
-      "notation": "f, n, d, d/f+4, 1+2",
-      "hit_level": "low, mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "16 [19], 17",
-      "speed": "18",
-      "on_block": "-28",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_80"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "(f, n, d, d/f+4), 1+2",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "25 [30]",
-      "speed": "25",
-      "on_block": "-17",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_81"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/TintedVeneratedEuropeanfiresalamander.gif",
-      "move_name": "Granchi Canon",
-      "notation": "f, n, d, d/f+1+2",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "25 [30]",
-      "speed": "15",
-      "on_block": "-10",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_82"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "f, n, d, d/f+1+2*",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "35 [42]",
-      "speed": "10",
-      "on_block": "-7",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_83"
     },
     {
       "properties": [],
@@ -2185,7 +1925,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_84"
+      "id": "bob_74"
     },
     {
       "properties": [],
@@ -2198,7 +1938,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2210,8 +1950,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_85"
+      "notes": "can be delayed 11f, combo can be delayed 8f",
+      "id": "bob_75"
     },
     {
       "properties": [],
@@ -2237,7 +1977,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_86"
+      "id": "bob_76"
     },
     {
       "properties": [],
@@ -2250,7 +1990,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2263,7 +2003,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_87"
+      "id": "bob_77"
     },
     {
       "properties": [],
@@ -2289,7 +2029,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_88"
+      "id": "bob_78"
     },
     {
       "properties": [],
@@ -2315,7 +2055,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_89"
+      "id": "bob_79"
     },
     {
       "properties": [],
@@ -2341,7 +2081,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_90"
+      "id": "bob_80"
     },
     {
       "properties": [],
@@ -2354,7 +2094,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2367,7 +2107,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_91"
+      "id": "bob_81"
     },
     {
       "properties": [],
@@ -2393,7 +2133,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_92"
+      "id": "bob_82"
     },
     {
       "properties": [],
@@ -2413,13 +2153,13 @@
       "damage": "14 [16], 11, 20",
       "speed": "18",
       "on_block": "-10",
-      "on_hit": "+1 (OC)",
+      "on_hit": "+1",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_93"
+      "notes": "can be delayed 10f, combo can be delayed 10f from CH",
+      "id": "bob_83"
     },
     {
       "properties": [],
@@ -2432,20 +2172,20 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "11 [13], 20",
       "speed": "19",
       "on_block": "-10",
-      "on_hit": "+1 (OC)",
+      "on_hit": "+1",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_94"
+      "id": "bob_84"
     },
     {
       "properties": [],
@@ -2465,13 +2205,13 @@
       "damage": "20 [24]",
       "speed": "19",
       "on_block": "-10",
-      "on_hit": "+1 (OC)",
+      "on_hit": "+1",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_95"
+      "id": "bob_85"
     },
     {
       "properties": [],
@@ -2484,7 +2224,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2497,7 +2237,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_96"
+      "id": "bob_86"
     },
     {
       "properties": [],
@@ -2523,7 +2263,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_97"
+      "id": "bob_87"
     },
     {
       "properties": [],
@@ -2536,7 +2276,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2549,7 +2289,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_98"
+      "id": "bob_88"
     },
     {
       "properties": [],
@@ -2575,7 +2315,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_99"
+      "id": "bob_89"
     },
     {
       "properties": [],
@@ -2588,7 +2328,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2601,7 +2341,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_100"
+      "id": "bob_90"
     },
     {
       "properties": [],
@@ -2614,7 +2354,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2627,7 +2367,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_101"
+      "id": "bob_91"
     },
     {
       "properties": [],
@@ -2653,7 +2393,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_102"
+      "id": "bob_92"
     },
     {
       "properties": [],
@@ -2679,7 +2419,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_103"
+      "id": "bob_93"
     },
     {
       "properties": [],
@@ -2705,7 +2445,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_104"
+      "id": "bob_94"
     },
     {
       "properties": [],
@@ -2731,11 +2471,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_105"
+      "id": "bob_95"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/AlarmingDisastrousBordercollie.gif",
+      "preview_url": "https://giant.gfycat.com/PinkThunderousDiplodocus.gif",
       "move_name": "Runner Flip",
       "notation": "d/f+3+4, 4",
       "hit_level": "mid, mid, mid",
@@ -2757,7 +2497,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_106"
+      "id": "bob_96"
     },
     {
       "properties": [],
@@ -2778,12 +2518,12 @@
       "speed": "28",
       "on_block": "-4",
       "on_hit": "S!",
-      "on_ch": "S!",
+      "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_107"
+      "id": "bob_97"
     },
     {
       "properties": [],
@@ -2803,13 +2543,13 @@
       "damage": "23 [27]",
       "speed": "29",
       "on_block": "-4",
-      "on_hit": "S!",
+      "on_hit": "KND",
       "on_ch": "S!",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_108"
+      "id": "bob_98"
     },
     {
       "properties": [],
@@ -2829,13 +2569,13 @@
       "damage": "18 [21]",
       "speed": "18",
       "on_block": "-11",
-      "on_hit": "+5",
+      "on_hit": "+5 (OC)",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_109"
+      "id": "bob_99"
     },
     {
       "properties": [],
@@ -2861,7 +2601,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_110"
+      "id": "bob_100"
     },
     {
       "properties": [],
@@ -2874,7 +2614,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2887,7 +2627,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_111"
+      "id": "bob_101"
     },
     {
       "properties": [],
@@ -2913,7 +2653,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_112"
+      "id": "bob_102"
     },
     {
       "properties": [],
@@ -2939,7 +2679,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_113"
+      "id": "bob_103"
     },
     {
       "properties": [],
@@ -2952,7 +2692,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2965,7 +2705,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_114"
+      "id": "bob_104"
     },
     {
       "properties": [],
@@ -2991,7 +2731,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_115"
+      "id": "bob_105"
     },
     {
       "properties": [],
@@ -3016,8 +2756,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_116"
+      "notes": "can be delayed 12f, combo can be delayed 4f from 3rd hit",
+      "id": "bob_106"
     },
     {
       "properties": [],
@@ -3030,7 +2770,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3043,7 +2783,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_117"
+      "id": "bob_107"
     },
     {
       "properties": [],
@@ -3056,7 +2796,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3069,7 +2809,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_118"
+      "id": "bob_108"
     },
     {
       "properties": [],
@@ -3095,7 +2835,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_119"
+      "id": "bob_109"
     },
     {
       "properties": [],
@@ -3121,7 +2861,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_120"
+      "id": "bob_110"
     },
     {
       "properties": [],
@@ -3147,7 +2887,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_121"
+      "id": "bob_111"
     },
     {
       "properties": [],
@@ -3160,7 +2900,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3173,7 +2913,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_122"
+      "id": "bob_112"
     },
     {
       "properties": [],
@@ -3199,7 +2939,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_123"
+      "id": "bob_113"
     },
     {
       "properties": [],
@@ -3224,8 +2964,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_124"
+      "notes": "TC 6f",
+      "id": "bob_114"
     },
     {
       "properties": [],
@@ -3238,7 +2978,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3251,7 +2991,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_125"
+      "id": "bob_115"
     },
     {
       "properties": [],
@@ -3277,7 +3017,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_126"
+      "id": "bob_116"
     },
     {
       "properties": [],
@@ -3303,7 +3043,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_127"
+      "id": "bob_117"
     },
     {
       "properties": [],
@@ -3316,7 +3056,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3329,7 +3069,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_128"
+      "id": "bob_118"
     },
     {
       "properties": [],
@@ -3355,7 +3095,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_129"
+      "id": "bob_119"
     },
     {
       "properties": [],
@@ -3381,7 +3121,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_130"
+      "id": "bob_120"
     },
     {
       "properties": [],
@@ -3394,7 +3134,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3407,7 +3147,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_131"
+      "id": "bob_121"
     },
     {
       "properties": [],
@@ -3433,7 +3173,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_132"
+      "id": "bob_122"
     },
     {
       "properties": [],
@@ -3459,7 +3199,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_133"
+      "id": "bob_123"
     },
     {
       "properties": [],
@@ -3485,7 +3225,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_134"
+      "id": "bob_124"
     },
     {
       "properties": [],
@@ -3498,7 +3238,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3511,7 +3251,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_135"
+      "id": "bob_125"
     },
     {
       "properties": [],
@@ -3524,7 +3264,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3537,7 +3277,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_136"
+      "id": "bob_126"
     },
     {
       "properties": [],
@@ -3563,7 +3303,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_137"
+      "id": "bob_127"
     },
     {
       "properties": [],
@@ -3576,7 +3316,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3589,7 +3329,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_138"
+      "id": "bob_128"
     },
     {
       "properties": [],
@@ -3602,7 +3342,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3615,7 +3355,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_139"
+      "id": "bob_129"
     },
     {
       "properties": [],
@@ -3628,7 +3368,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3641,7 +3381,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_140"
+      "id": "bob_130"
     },
     {
       "properties": [],
@@ -3667,11 +3407,37 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_141"
+      "id": "bob_131"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ImmaculateIndolentHorse.gif",
+      "preview_url": null,
+      "move_name": null,
+      "notation": "d+1+2, 2, 1, D",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_132"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/ShrillPointlessFirebelliedtoad.gif",
       "move_name": "Duck Flip",
       "notation": "d+3+4",
       "hit_level": "mid, mid",
@@ -3693,7 +3459,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_142"
+      "id": "bob_133"
     },
     {
       "properties": [],
@@ -3719,7 +3485,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_143"
+      "id": "bob_134"
     },
     {
       "properties": [],
@@ -3745,7 +3511,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_144"
+      "id": "bob_135"
     },
     {
       "properties": [],
@@ -3770,8 +3536,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_145"
+      "notes": "TC 6f",
+      "id": "bob_136"
     },
     {
       "properties": [],
@@ -3784,7 +3550,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3797,7 +3563,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_146"
+      "id": "bob_137"
     },
     {
       "properties": [],
@@ -3823,7 +3589,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_147"
+      "id": "bob_138"
     },
     {
       "properties": [],
@@ -3849,7 +3615,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_148"
+      "id": "bob_139"
     },
     {
       "properties": [],
@@ -3862,7 +3628,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3875,7 +3641,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_149"
+      "id": "bob_140"
     },
     {
       "properties": [],
@@ -3901,7 +3667,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_150"
+      "id": "bob_141"
     },
     {
       "properties": [],
@@ -3927,7 +3693,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_151"
+      "id": "bob_142"
     },
     {
       "properties": [],
@@ -3953,7 +3719,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_152"
+      "id": "bob_143"
     },
     {
       "properties": [],
@@ -3966,7 +3732,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -3979,7 +3745,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_153"
+      "id": "bob_144"
     },
     {
       "properties": [],
@@ -4005,7 +3771,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_154"
+      "id": "bob_145"
     },
     {
       "properties": [],
@@ -4031,7 +3797,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_155"
+      "id": "bob_146"
     },
     {
       "properties": [],
@@ -4057,7 +3823,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_156"
+      "id": "bob_147"
     },
     {
       "properties": [],
@@ -4083,13 +3849,13 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_157"
+      "id": "bob_148"
     },
     {
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "(d/b+4), (4), (4), D",
+      "notation": "d/b+4, 4, 4, D",
       "hit_level": "-",
       "range": "-",
       "pushback": "-",
@@ -4109,7 +3875,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_158"
+      "id": "bob_149"
     },
     {
       "properties": [],
@@ -4135,7 +3901,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_159"
+      "id": "bob_150"
     },
     {
       "properties": [],
@@ -4161,7 +3927,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_160"
+      "id": "bob_151"
     },
     {
       "properties": [],
@@ -4174,20 +3940,20 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "10 [12], 18",
       "speed": "19",
       "on_block": "-31",
-      "on_hit": "+8",
-      "on_ch": "+8",
+      "on_hit": "+8 (OC)",
+      "on_ch": "+8 (OC)",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_161"
+      "id": "bob_152"
     },
     {
       "properties": [],
@@ -4207,13 +3973,13 @@
       "damage": "18 [21]",
       "speed": "9",
       "on_block": "-28",
-      "on_hit": "-9",
-      "on_ch": "-",
+      "on_hit": "-9 (OC)",
+      "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_162"
+      "id": "bob_153"
     },
     {
       "properties": [],
@@ -4233,13 +3999,13 @@
       "damage": "15 [18]",
       "speed": "17",
       "on_block": "-9",
-      "on_hit": "+4",
-      "on_ch": "+4",
+      "on_hit": "+4 (OC)",
+      "on_ch": "+4 (OC)",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_163"
+      "id": "bob_154"
     },
     {
       "properties": [],
@@ -4252,7 +4018,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -4265,7 +4031,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_164"
+      "id": "bob_155"
     },
     {
       "properties": [],
@@ -4291,7 +4057,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_165"
+      "id": "bob_156"
     },
     {
       "properties": [],
@@ -4317,7 +4083,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_166"
+      "id": "bob_157"
     },
     {
       "properties": [],
@@ -4343,7 +4109,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_167"
+      "id": "bob_158"
     },
     {
       "properties": [],
@@ -4356,7 +4122,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -4369,7 +4135,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_168"
+      "id": "bob_159"
     },
     {
       "properties": [],
@@ -4395,7 +4161,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_169"
+      "id": "bob_160"
     },
     {
       "properties": [],
@@ -4420,8 +4186,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_170"
+      "notes": "can be delayed 10f, combo can be delayed 8f from CH",
+      "id": "bob_161"
     },
     {
       "properties": [],
@@ -4434,7 +4200,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -4447,7 +4213,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_171"
+      "id": "bob_162"
     },
     {
       "properties": [],
@@ -4473,7 +4239,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_172"
+      "id": "bob_163"
     },
     {
       "properties": [],
@@ -4499,7 +4265,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_173"
+      "id": "bob_164"
     },
     {
       "properties": [],
@@ -4512,7 +4278,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -4525,7 +4291,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_174"
+      "id": "bob_165"
     },
     {
       "properties": [],
@@ -4538,7 +4304,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -4551,7 +4317,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_175"
+      "id": "bob_166"
     },
     {
       "properties": [],
@@ -4577,7 +4343,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_176"
+      "id": "bob_167"
     },
     {
       "properties": [],
@@ -4603,7 +4369,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_177"
+      "id": "bob_168"
     },
     {
       "properties": [],
@@ -4629,7 +4395,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_178"
+      "id": "bob_169"
     },
     {
       "properties": [],
@@ -4642,7 +4408,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -4655,7 +4421,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_179"
+      "id": "bob_170"
     },
     {
       "properties": [],
@@ -4681,7 +4447,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_180"
+      "id": "bob_171"
     },
     {
       "properties": [],
@@ -4694,7 +4460,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -4707,7 +4473,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_181"
+      "id": "bob_172"
     },
     {
       "properties": [],
@@ -4733,11 +4499,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_182"
+      "id": "bob_173"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/GrimShoddyAustraliancurlew.gif",
+      "preview_url": null,
       "move_name": null,
       "notation": "b+1+2",
       "hit_level": "mid",
@@ -4759,7 +4525,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_183"
+      "id": "bob_174"
     },
     {
       "properties": [],
@@ -4772,7 +4538,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -4784,8 +4550,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_184"
+      "notes": "can be delayed 10f, combo can be delayed 9f from CH",
+      "id": "bob_175"
     },
     {
       "properties": [],
@@ -4811,7 +4577,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_185"
+      "id": "bob_176"
     },
     {
       "properties": [],
@@ -4824,7 +4590,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -4836,8 +4602,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_186"
+      "notes": "can be delayed 20f, combo can be delayed 20f from CH",
+      "id": "bob_177"
     },
     {
       "properties": [],
@@ -4850,7 +4616,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -4863,7 +4629,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_187"
+      "id": "bob_178"
     },
     {
       "properties": [],
@@ -4889,7 +4655,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_188"
+      "id": "bob_179"
     },
     {
       "properties": [],
@@ -4908,14 +4674,14 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "26",
-      "on_block": "-4",
+      "on_block": "-4 (OC)",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_189"
+      "notes": "TJ 15f",
+      "id": "bob_180"
     },
     {
       "properties": [],
@@ -4941,7 +4707,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_190"
+      "id": "bob_181"
     },
     {
       "properties": [],
@@ -4959,7 +4725,7 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "25 [30[",
-      "speed": "15",
+      "speed": "57",
       "on_block": "-6",
       "on_hit": "KND",
       "on_ch": "KND",
@@ -4967,7 +4733,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_191"
+      "id": "bob_182"
     },
     {
       "properties": [],
@@ -4992,8 +4758,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_192"
+      "notes": "TJ 13f",
+      "id": "bob_183"
     },
     {
       "properties": [],
@@ -5019,7 +4785,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_193"
+      "id": "bob_184"
     },
     {
       "properties": [],
@@ -5045,7 +4811,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_194"
+      "id": "bob_185"
     },
     {
       "properties": [],
@@ -5071,7 +4837,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_195"
+      "id": "bob_186"
     },
     {
       "properties": [],
@@ -5097,7 +4863,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_196"
+      "id": "bob_187"
     },
     {
       "properties": [],
@@ -5123,7 +4889,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_197"
+      "id": "bob_188"
     },
     {
       "properties": [],
@@ -5149,7 +4915,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_198"
+      "id": "bob_189"
     },
     {
       "properties": [],
@@ -5175,7 +4941,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_199"
+      "id": "bob_190"
     },
     {
       "properties": [],
@@ -5201,7 +4967,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_200"
+      "id": "bob_191"
     },
     {
       "properties": [],
@@ -5214,7 +4980,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -5227,7 +4993,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_201"
+      "id": "bob_192"
     },
     {
       "properties": [],
@@ -5253,7 +5019,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_202"
+      "id": "bob_193"
     },
     {
       "properties": [],
@@ -5279,7 +5045,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_203"
+      "id": "bob_194"
     },
     {
       "properties": [],
@@ -5292,7 +5058,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -5305,7 +5071,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_204"
+      "id": "bob_195"
     },
     {
       "properties": [],
@@ -5331,7 +5097,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_205"
+      "id": "bob_196"
     },
     {
       "properties": [],
@@ -5344,7 +5110,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -5357,7 +5123,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_206"
+      "id": "bob_197"
     },
     {
       "properties": [],
@@ -5383,7 +5149,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_207"
+      "id": "bob_198"
     },
     {
       "properties": [],
@@ -5409,7 +5175,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_208"
+      "id": "bob_199"
     },
     {
       "properties": [],
@@ -5422,7 +5188,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -5435,7 +5201,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_209"
+      "id": "bob_200"
     },
     {
       "properties": [],
@@ -5461,7 +5227,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_210"
+      "id": "bob_201"
     },
     {
       "properties": [],
@@ -5480,14 +5246,14 @@
       "meter_gain": "-",
       "damage": "24 [28]",
       "speed": "15",
-      "on_block": "-5",
+      "on_block": "-5 (OC)",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_211"
+      "id": "bob_202"
     },
     {
       "properties": [],
@@ -5513,7 +5279,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_212"
+      "id": "bob_203"
     },
     {
       "properties": [],
@@ -5539,7 +5305,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_213"
+      "id": "bob_204"
     },
     {
       "properties": [],
@@ -5565,7 +5331,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_214"
+      "id": "bob_205"
     },
     {
       "properties": [],
@@ -5591,7 +5357,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_215"
+      "id": "bob_206"
     },
     {
       "properties": [],
@@ -5617,7 +5383,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_216"
+      "id": "bob_207"
     },
     {
       "properties": [],
@@ -5630,7 +5396,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -5642,8 +5408,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_217"
+      "notes": "can be delayed 11f, combo can be delayed 8f",
+      "id": "bob_208"
     },
     {
       "properties": [],
@@ -5669,7 +5435,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_218"
+      "id": "bob_209"
     },
     {
       "properties": [],
@@ -5682,7 +5448,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -5695,7 +5461,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_219"
+      "id": "bob_210"
     },
     {
       "properties": [],
@@ -5721,7 +5487,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_220"
+      "id": "bob_211"
     },
     {
       "properties": [],
@@ -5747,7 +5513,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_221"
+      "id": "bob_212"
     },
     {
       "properties": [],
@@ -5760,7 +5526,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -5772,8 +5538,8 @@
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_222"
+      "notes": "can be delayed 14f",
+      "id": "bob_213"
     },
     {
       "properties": [],
@@ -5799,7 +5565,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_223"
+      "id": "bob_214"
     },
     {
       "properties": [],
@@ -5812,20 +5578,20 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "10 [12], 20",
       "speed": "14",
-      "on_block": "-13",
+      "on_block": "-13 (OC)",
       "on_hit": "+5 (OC)",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
-      "notes": "-",
-      "id": "bob_224"
+      "notes": "can be delayed 14f",
+      "id": "bob_215"
     },
     {
       "properties": [],
@@ -5844,14 +5610,14 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "23",
-      "on_block": "-13",
+      "on_block": "-13 (OC)",
       "on_hit": "+5 (OC)",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_225"
+      "id": "bob_216"
     },
     {
       "properties": [],
@@ -5877,7 +5643,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_226"
+      "id": "bob_217"
     },
     {
       "properties": [],
@@ -5896,14 +5662,14 @@
       "meter_gain": "-",
       "damage": "17 [20], 28",
       "speed": "17",
-      "on_block": "-4",
+      "on_block": "-4 (OC)",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_227"
+      "id": "bob_218"
     },
     {
       "properties": [],
@@ -5922,14 +5688,14 @@
       "meter_gain": "-",
       "damage": "28 [33]",
       "speed": "33",
-      "on_block": "-4",
+      "on_block": "-4 (OC)",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "-",
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_228"
+      "id": "bob_219"
     },
     {
       "properties": [],
@@ -5955,11 +5721,11 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_229"
+      "id": "bob_220"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/LawfulUncomfortableAmmonite.gif",
+      "preview_url": "https://giant.gfycat.com/BigSeveralEider.gif",
       "move_name": "Rising Matzo",
       "notation": "WS 1+2",
       "hit_level": "mid",
@@ -5981,7 +5747,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_230"
+      "id": "bob_221"
     },
     {
       "properties": [],
@@ -6007,7 +5773,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_231"
+      "id": "bob_222"
     },
     {
       "properties": [],
@@ -6033,7 +5799,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_232"
+      "id": "bob_223"
     },
     {
       "properties": [],
@@ -6059,7 +5825,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_233"
+      "id": "bob_224"
     },
     {
       "properties": [],
@@ -6085,7 +5851,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_234"
+      "id": "bob_225"
     },
     {
       "properties": [],
@@ -6111,7 +5877,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_235"
+      "id": "bob_226"
     },
     {
       "properties": [],
@@ -6137,7 +5903,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_236"
+      "id": "bob_227"
     },
     {
       "properties": [],
@@ -6163,7 +5929,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_237"
+      "id": "bob_228"
     },
     {
       "properties": [],
@@ -6189,7 +5955,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_238"
+      "id": "bob_229"
     },
     {
       "properties": [],
@@ -6215,7 +5981,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_239"
+      "id": "bob_230"
     },
     {
       "properties": [],
@@ -6241,7 +6007,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_240"
+      "id": "bob_231"
     },
     {
       "properties": [],
@@ -6267,969 +6033,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_241"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/SomeNeglectedCoelacanth.gif",
-      "move_name": "Egg Bound",
-      "notation": "u+1+2",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "low",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "-",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "-",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_242"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/HeavyUltimateEmperorshrimp.gif",
-      "move_name": "Hatching Punch",
-      "notation": "u+1+2, 1",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "low",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "21 [25]",
-      "speed": "11",
-      "on_block": "-9",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_243"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/MajesticBelovedHagfish.gif",
-      "move_name": "Spinning Ball",
-      "notation": "f+3+4",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "-",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "-",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_244"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "1+2, F",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "18 [21]",
-      "speed": "19",
-      "on_block": "-19",
-      "on_hit": "-6",
-      "on_ch": "-6",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_245"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "u+1+2, F",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "low",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "-",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "-",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_246"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "u/f+1+2, F",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "15 [18]",
-      "speed": "16",
-      "on_block": "-26",
-      "on_hit": "-18",
-      "on_ch": "-18",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_247"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/FalseWeightyFrilledlizard.gif",
-      "move_name": "Rage Drive",
-      "notation": "(During Rage) f+2+3, F",
-      "hit_level": "mid, mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "low",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "39 [44]",
-      "speed": "26",
-      "on_block": "-8 (OC)",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_248"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/IncredibleDopeyAsianporcupine.gif",
-      "move_name": "Lyonnaise Break",
-      "notation": "BAL 1",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "17 [20]",
-      "speed": "18",
-      "on_block": "-9",
-      "on_hit": "+5",
-      "on_ch": "STUN",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_249"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/ShinySnoopyCow.gif",
-      "move_name": "Galette Slicer",
-      "notation": "BAL 2",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "21 [25]",
-      "speed": "23",
-      "on_block": "-11",
-      "on_hit": "+8",
-      "on_ch": "S!",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_250"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/WeightyWeeIbizanhound.gif",
-      "move_name": "Snail Kick",
-      "notation": "BAL 3",
-      "hit_level": "high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "30 [36]",
-      "speed": "20",
-      "on_block": "+8",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_251"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/TiredArcticAndalusianhorse.gif",
-      "move_name": null,
-      "notation": "BAL 3+4",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "28 [33]",
-      "speed": "29",
-      "on_block": "-18",
-      "on_hit": "-1",
-      "on_ch": "-1",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_252"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "BAL 3+4, B",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "28 [33]",
-      "speed": "29",
-      "on_block": "-18",
-      "on_hit": "-1",
-      "on_ch": "-1",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_253"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/LightSarcasticAegeancat.gif",
-      "move_name": "Stealing Home",
-      "notation": "BAL 4",
-      "hit_level": "low",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "14 [16]",
-      "speed": "23",
-      "on_block": "-24",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_254"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/NaughtyCrazyApisdorsatalaboriosa.gif",
-      "move_name": null,
-      "notation": "b+3+4",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "-",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "-",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_255"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "u+1+2, B",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "-",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "-",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_256"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "u/f+1+2, B",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "15 [18]",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "-",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_257"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/IllImpressiveJabiru.gif",
-      "move_name": "Giga Jacker",
-      "notation": "-",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "25 [30]",
-      "speed": "15",
-      "on_block": "-13",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_258"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/LinearNaturalBeauceron.gif",
-      "move_name": "Rage Art",
-      "notation": "(During Rage) d/f+1+2",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "55 [57]",
-      "speed": "20",
-      "on_block": "-22",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_259"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/FalseWeightyFrilledlizard.gif",
-      "move_name": "Rage Drive",
-      "notation": "(During Rage) f+2+3",
-      "hit_level": "mid, mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "low",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "39 [44]",
-      "speed": "26",
-      "on_block": "+2 (OC)",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_260"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "(During Rage) f+2+3 (second hit only)",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "mid, low",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "16 [19]",
-      "speed": "40",
-      "on_block": "+2 (OC)",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_261"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/AffectionateBitesizedHoki.gif",
-      "move_name": "Sucre Tile",
-      "notation": "1+2+3+4, 4",
-      "hit_level": "high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "42",
-      "speed": "17",
-      "on_block": "!",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_262"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/ThisHonoredBellsnake.gif",
-      "move_name": "Grater Langouste",
-      "notation": "b, B+3+4 (D/B to cancel)",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "low",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "60 [72]",
-      "speed": "72",
-      "on_block": "!",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_263"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/CommonFantasticCanvasback.gif",
-      "move_name": "Quick Langouste",
-      "notation": "b, B+2+3",
-      "hit_level": "high",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "low",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "32 [38]",
-      "speed": "48",
-      "on_block": "!",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_264"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/FarLimitedCaecilian.gif",
-      "move_name": "Quarter Deck",
-      "notation": "Approach enemy... 1+3",
-      "hit_level": "high",
-      "range": "1",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "35",
-      "speed": "12",
-      "on_block": "-3",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_265"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/HelpfulForkedCollardlizard.gif",
-      "move_name": "Cooler Shaker",
-      "notation": "Approach enemy... 2+4",
-      "hit_level": "high",
-      "range": "1",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "35",
-      "speed": "12",
-      "on_block": "-3",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_266"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/FarLimitedCaecilian.gif",
-      "move_name": "Quarter Deck",
-      "notation": "Approach enemy... f+1+3",
-      "hit_level": "high",
-      "range": "1.5",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "35",
-      "speed": "15",
-      "on_block": "-3",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_267"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/HelpfulForkedCollardlizard.gif",
-      "move_name": "Cooler Shaker",
-      "notation": "Approach enemy... f+2+4",
-      "hit_level": "high",
-      "range": "1.5",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "35",
-      "speed": "15",
-      "on_block": "-3",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_268"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/PaltryNextKomododragon.gif",
-      "move_name": "Flying Cask",
-      "notation": "Approach enemy... f, F+1+2",
-      "hit_level": "high",
-      "range": "1.5",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "30",
-      "speed": "12",
-      "on_block": "+3",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_269"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/DisloyalWatchfulGraysquirrel.gif",
-      "move_name": "Corkscrew",
-      "notation": "Approach from left side... 1+3 (or 2+4)",
-      "hit_level": "high",
-      "range": "1",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "40",
-      "speed": "12",
-      "on_block": "-3",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_270"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/MetallicClumsyHind.gif",
-      "move_name": "Eye Opener",
-      "notation": "Approach from right side... 1+3 (or 2+4)",
-      "hit_level": "high",
-      "range": "1",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "40",
-      "speed": "12",
-      "on_block": "-3",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_271"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/HugeWetBandicoot.gif",
-      "move_name": "Déglacer Throw",
-      "notation": "Approach from behind... 1+3 (or 2+4)",
-      "hit_level": "high",
-      "range": "1",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "50",
-      "speed": "12",
-      "on_block": "-",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_272"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/TenseLargeGalapagoshawk.gif",
-      "move_name": "Spinning Death",
-      "notation": "FC d/f, d, d/f+1+2",
-      "hit_level": "high",
-      "range": "1",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "30",
-      "speed": "11",
-      "on_block": "+3",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_273"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "WR f, f, F (Mid Screen)",
-      "hit_level": "mid",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "high",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "5",
-      "speed": "16",
-      "on_block": "-5 (BT)",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_274"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "(During Tackle) 1 (or 2)",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "5",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_275"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "(During Tackle) 1/2, 1/2",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "5, 5",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_276"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "(During Tackle) 1/2, 1/2, 1/2",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "5, 5, 5",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_277"
-    },
-    {
-      "properties": [],
-      "preview_url": null,
-      "move_name": null,
-      "notation": "(During Tackle) 1/2, 1/2, 1/2, 1/2",
-      "hit_level": "-",
-      "range": "-",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "-",
-      "natural": "-",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "5, 5, 5, 15",
-      "speed": "-",
-      "on_block": "-",
-      "on_hit": "KND",
-      "on_ch": "-",
-      "in_air": "-",
-      "on_whiff": "-",
-      "active_frames": "-",
-      "notes": "-",
-      "id": "bob_278"
+      "id": "bob_232"
     },
     {
       "properties": [],
@@ -7255,7 +6059,1229 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
+      "id": "bob_233"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/AmbitiousWideeyedBlesbok.gif",
+      "move_name": "Langue Washer",
+      "notation": "f, n, d, d/f+1",
+      "hit_level": "high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "25 [30]",
+      "speed": "13",
+      "on_block": "-2",
+      "on_hit": "KND",
+      "on_ch": "S!",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_234"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/FrequentVariableCub.gif",
+      "move_name": "Spiral Rocky",
+      "notation": "f, n, d, d/f+2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "24 [28]",
+      "speed": "16",
+      "on_block": "-23",
+      "on_hit": "LAUNCH",
+      "on_ch": "LAUNCH",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_235"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "f, n, d, d/f+3",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "14 [16]",
+      "speed": "16",
+      "on_block": "-10",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "TJ 14f",
+      "id": "bob_236"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/BarrenForkedAmericankestrel.gif",
+      "move_name": "Gambero Knee",
+      "notation": "f, n, d, d/f+3, 2",
+      "hit_level": "mid, high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "NC",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "14 [16], 16",
+      "speed": "16",
+      "on_block": "-3",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_237"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(f, n, d, d/f+3), 2",
+      "hit_level": "high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "30 [36]",
+      "speed": "23",
+      "on_block": "-3",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_238"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/WebbedSoftAmericanriverotter.gif",
+      "move_name": "Granchio Knee",
+      "notation": "f, n, d, d/f+3, 4",
+      "hit_level": "mid, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "NC",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "14 [16], 11",
+      "speed": "16",
+      "on_block": "-11",
+      "on_hit": "S!",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_239"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(f, n, d, d/f+3), 4",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "17 [20]",
+      "speed": "32",
+      "on_block": "-11",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_240"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "f, n, d, d/f+4",
+      "hit_level": "low",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "16 [19]",
+      "speed": "18",
+      "on_block": "-28",
+      "on_hit": "-1",
+      "on_ch": "-1",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_241"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/DeterminedWarpedCatfish.gif",
+      "move_name": "Cutting Coppa",
+      "notation": "f, n, d, d/f+4, 1+2",
+      "hit_level": "low, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "NC",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "16 [19], 17",
+      "speed": "18",
+      "on_block": "-28",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_242"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(f, n, d, d/f+4), 1+2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "25 [30]",
+      "speed": "25",
+      "on_block": "-17",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_243"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/TintedVeneratedEuropeanfiresalamander.gif",
+      "move_name": "Granchi Canon",
+      "notation": "f, n, d, d/f+1+2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "WALL BOUND",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "25 [30]",
+      "speed": "15",
+      "on_block": "-10",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_244"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "f, n, d, d/f+1+2*",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "WALL BOUND",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "35 [42]",
+      "speed": "24",
+      "on_block": "-7",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_245"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": "Spinning Ball",
+      "notation": "f+3+4",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "25",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-48",
+      "active_frames": "-",
+      "notes": "TC 8f",
+      "id": "bob_246"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "1+2, F",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_247"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "u+1+2, F",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_248"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "u/f+1+2, F",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_249"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/FalseWeightyFrilledlizard.gif",
+      "move_name": "Rage Drive",
+      "notation": "(During Rage) f+2+3, F",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "TJ 15f",
+      "id": "bob_250"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/IncredibleDopeyAsianporcupine.gif",
+      "move_name": "Lyonnaise Break",
+      "notation": "BAL 1",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "17 [20]",
+      "speed": "18",
+      "on_block": "-9",
+      "on_hit": "+5",
+      "on_ch": "STUN",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_251"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/ShinySnoopyCow.gif",
+      "move_name": "Galette Slicer",
+      "notation": "BAL 2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "21 [25]",
+      "speed": "23",
+      "on_block": "-11",
+      "on_hit": "+8",
+      "on_ch": "S!",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_252"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/WeightyWeeIbizanhound.gif",
+      "move_name": "Snail Kick",
+      "notation": "BAL 3",
+      "hit_level": "high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "30 [36]",
+      "speed": "20",
+      "on_block": "+8",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_253"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/TiredArcticAndalusianhorse.gif",
+      "move_name": null,
+      "notation": "BAL 3+4",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "28 [33]",
+      "speed": "29",
+      "on_block": "-18 (OC)",
+      "on_hit": "-1",
+      "on_ch": "-1",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "TJ 1f",
+      "id": "bob_254"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "BAL 3+4, B",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "28 [33]",
+      "speed": "29",
+      "on_block": "-18 (OC)",
+      "on_hit": "-1",
+      "on_ch": "-1",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_255"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/LightSarcasticAegeancat.gif",
+      "move_name": "Stealing Home",
+      "notation": "BAL 4",
+      "hit_level": "low",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "14 [16]",
+      "speed": "23",
+      "on_block": "-24",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_256"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/NaughtyCrazyApisdorsatalaboriosa.gif",
+      "move_name": null,
+      "notation": "b+3+4",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_257"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "u+1+2, B",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_258"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "u/f+1+2, B",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "-",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_259"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/IllImpressiveJabiru.gif",
+      "move_name": "Giga Jacker",
+      "notation": "f+1+2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "25 [30]",
+      "speed": "15",
+      "on_block": "-13",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "PC 8f",
+      "id": "bob_260"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/LinearNaturalBeauceron.gif",
+      "move_name": "Rage Art",
+      "notation": "(During Rage) d/f+1+2",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "55 [57]",
+      "speed": "20",
+      "on_block": "-22",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "PC 8f",
+      "id": "bob_261"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/FalseWeightyFrilledlizard.gif",
+      "move_name": "Rage Drive",
+      "notation": "(During Rage) f+2+3",
+      "hit_level": "mid, mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "39 [44]",
+      "speed": "26",
+      "on_block": "+2 (OC)",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "TJ 15f",
+      "id": "bob_262"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(During Rage) f+2+3 (second hit only)",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "mid, low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "16 [19]",
+      "speed": "40",
+      "on_block": "+2 (OC)",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "TJ 15f",
+      "id": "bob_263"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/AffectionateBitesizedHoki.gif",
+      "move_name": "Sucre Tile",
+      "notation": "1+2+3+4, 4",
+      "hit_level": "high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "42",
+      "speed": "73",
+      "on_block": "!",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_264"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/ThisHonoredBellsnake.gif",
+      "move_name": "Grater Langouste",
+      "notation": "b, B+3+4 (D/B to cancel)",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "60 [72]",
+      "speed": "72",
+      "on_block": "!",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "TJ 50f",
+      "id": "bob_265"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/CommonFantasticCanvasback.gif",
+      "move_name": "Quick Langouste",
+      "notation": "b, B+2+3",
+      "hit_level": "high",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "low",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "32 [38]",
+      "speed": "48",
+      "on_block": "!",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "TJ 19f",
+      "id": "bob_266"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/FarLimitedCaecilian.gif",
+      "move_name": "Quarter Deck",
+      "notation": "Approach enemy... 1+3",
+      "hit_level": "high",
+      "range": "1",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "35",
+      "speed": "12",
+      "on_block": "-3",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_267"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/HelpfulForkedCollardlizard.gif",
+      "move_name": "Cooler Shaker",
+      "notation": "Approach enemy... 2+4",
+      "hit_level": "high",
+      "range": "1",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "35",
+      "speed": "12",
+      "on_block": "-3",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_268"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/FarLimitedCaecilian.gif",
+      "move_name": "Quarter Deck",
+      "notation": "Approach enemy... f+1+3",
+      "hit_level": "high",
+      "range": "1.5",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "35",
+      "speed": "15",
+      "on_block": "-3",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_269"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/HelpfulForkedCollardlizard.gif",
+      "move_name": "Cooler Shaker",
+      "notation": "Approach enemy... f+2+4",
+      "hit_level": "high",
+      "range": "1.5",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "35",
+      "speed": "15",
+      "on_block": "-3",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_270"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/PaltryNextKomododragon.gif",
+      "move_name": "Flying Cask",
+      "notation": "Approach enemy... f, F+1+2",
+      "hit_level": "high",
+      "range": "1.5",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "30",
+      "speed": "12",
+      "on_block": "-6",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_271"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/DisloyalWatchfulGraysquirrel.gif",
+      "move_name": "Corkscrew",
+      "notation": "Approach from left side... 1+3 (or 2+4)",
+      "hit_level": "high",
+      "range": "1",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "40",
+      "speed": "12",
+      "on_block": "-3",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_272"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/MetallicClumsyHind.gif",
+      "move_name": "Eye Opener",
+      "notation": "Approach from right side... 1+3 (or 2+4)",
+      "hit_level": "high",
+      "range": "1",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "40",
+      "speed": "12",
+      "on_block": "-3",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_273"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/HugeWetBandicoot.gif",
+      "move_name": "Déglacer Throw",
+      "notation": "Approach from behind... 1+3 (or 2+4)",
+      "hit_level": "high",
+      "range": "1",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "50",
+      "speed": "12",
+      "on_block": "-",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_274"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/TenseLargeGalapagoshawk.gif",
+      "move_name": "Spinning Death",
+      "notation": "FC d/f, d, d/f+1+2",
+      "hit_level": "high",
+      "range": "1",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "30",
+      "speed": "11",
+      "on_block": "-6",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_275"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "WR f, f, F (Mid Screen)",
+      "hit_level": "mid",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "high",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "5",
+      "speed": "16",
+      "on_block": "-5 (BT)",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_276"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(During Tackle) 1 (or 2)",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "5",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_277"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(During Tackle) 1/2, 1/2",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "5, 5",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_278"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(During Tackle) 1/2, 1/2, 1/2",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "5, 5, 5",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
       "id": "bob_279"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "(During Tackle) 1/2, 1/2, 1/2, 1/2",
+      "hit_level": "-",
+      "range": "-",
+      "pushback": "-",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "5, 5, 5, 15",
+      "speed": "-",
+      "on_block": "-",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "bob_280"
     },
     {
       "properties": [],
@@ -7281,7 +7307,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "bob_280"
+      "id": "bob_281"
     }
   ]
 }

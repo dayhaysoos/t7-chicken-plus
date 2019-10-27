@@ -19,14 +19,14 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "21 [25]",
-      "speed": "23",
-      "on_block": "0",
+      "speed": "36",
+      "on_block": "0 (OC)",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "FLOAT",
       "on_whiff": "-29",
       "active_frames": "3",
-      "notes": "-",
+      "notes": "air status 5, invincibility 8 - 13f",
       "id": "claudio_1"
     },
     {
@@ -65,8 +65,8 @@
       "pushback": "0.5",
       "tracking": "-",
       "crush": "-",
-      "jail": "-",
-      "natural": "-",
+      "jail": "YES",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -75,7 +75,7 @@
       "on_block": "0",
       "on_hit": "+6",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-17",
       "active_frames": "1, 2",
       "notes": "-",
@@ -117,8 +117,8 @@
       "pushback": "1",
       "tracking": "SSL / SWR",
       "crush": "-",
-      "jail": "NO",
-      "natural": "NO",
+      "jail": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -195,7 +195,7 @@
       "pushback": "0.5",
       "tracking": "NONE, SSL",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
@@ -205,7 +205,7 @@
       "on_block": "-6",
       "on_hit": "+5",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-24",
       "active_frames": "1, 1",
       "notes": "-",
@@ -247,8 +247,8 @@
       "pushback": "0.25",
       "tracking": "NONE, SSL, SSL",
       "crush": "-",
-      "jail": "NO",
-      "natural": "NO",
+      "jail": "-",
+      "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
@@ -257,7 +257,7 @@
       "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "S!",
+      "in_air": "-",
       "on_whiff": "-37",
       "active_frames": "1, 1, 3",
       "notes": "-",
@@ -273,8 +273,8 @@
       "pushback": "0.25",
       "tracking": "SSL, SSL",
       "crush": "-",
-      "jail": "NO",
-      "natural": "NO",
+      "jail": "-",
+      "natural": "NCc",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
@@ -283,7 +283,7 @@
       "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "S!",
+      "in_air": "-",
       "on_whiff": "-37",
       "active_frames": "1, 3",
       "notes": "-",
@@ -353,7 +353,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
-      "environmental": "WALL BREAK (CH) / SPLAT (CH)",
+      "environmental": "[WALL BREAK / SPLAT]",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "15 [18]",
@@ -377,7 +377,7 @@
       "pushback": "1",
       "tracking": "SSL, HOMING",
       "crush": "low",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
@@ -387,10 +387,10 @@
       "on_block": "-5",
       "on_hit": "+3",
       "on_ch": "-",
-      "in_air": "S!",
+      "in_air": "-",
       "on_whiff": "-26",
       "active_frames": "1, 2",
-      "notes": "-",
+      "notes": "can be delayed 11f, combo can be delayed by 5f",
       "id": "claudio_15"
     },
     {
@@ -405,7 +405,7 @@
       "crush": "low",
       "jail": "-",
       "natural": "-",
-      "environmental": "WALL BREAK (CH) / SPLAT (CH)",
+      "environmental": "[WALL BREAK / SPLAT]",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "13 [15]",
@@ -421,7 +421,7 @@
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/CraftyTediousCaudata.gif",
+      "preview_url": null,
       "move_name": null,
       "notation": "1+2",
       "hit_level": "mid",
@@ -437,8 +437,8 @@
       "damage": "20 [24]",
       "speed": "17",
       "on_block": "-14",
-      "on_hit": "+2",
-      "on_ch": "+2",
+      "on_hit": "+2 (OC)",
+      "on_ch": "+2 (OC)",
       "in_air": "FLOOR BREAK",
       "on_whiff": "-37",
       "active_frames": "1",
@@ -494,7 +494,7 @@
       "in_air": "FLOAT",
       "on_whiff": "-38",
       "active_frames": "3",
-      "notes": "-",
+      "notes": "TJ 13f",
       "id": "claudio_19"
     },
     {
@@ -546,7 +546,7 @@
       "in_air": "FLOOR BREAK",
       "on_whiff": "-28",
       "active_frames": "3",
-      "notes": "-",
+      "notes": "TJ 9f",
       "id": "claudio_21"
     },
     {
@@ -572,7 +572,7 @@
       "in_air": "BACK FLIP",
       "on_whiff": "-35",
       "active_frames": "3",
-      "notes": "-",
+      "notes": "TJ 9f",
       "id": "claudio_22"
     },
     {
@@ -673,7 +673,7 @@
       "on_block": "-10",
       "on_hit": "+6 (OC)",
       "on_ch": "-",
-      "in_air": "FLOOR BREAK",
+      "in_air": "-",
       "on_whiff": "-32",
       "active_frames": "1, 2",
       "notes": "-",
@@ -715,7 +715,7 @@
       "pushback": "1",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NCc",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
@@ -725,10 +725,10 @@
       "on_block": "-18",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "FLOOR BREAK",
+      "in_air": "-",
       "on_whiff": "-36",
       "active_frames": "1, 2, 2",
-      "notes": "-",
+      "notes": "can be delayed",
       "id": "claudio_28"
     },
     {
@@ -751,7 +751,7 @@
       "on_block": "-18",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "FLOOR BREAK",
+      "in_air": "-",
       "on_whiff": "-36",
       "active_frames": "2, 2",
       "notes": "-",
@@ -799,14 +799,14 @@
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "27 [32]",
-      "speed": "16",
+      "speed": "18",
       "on_block": "-5",
       "on_hit": "+15",
       "on_ch": "S!",
       "in_air": "S!",
       "on_whiff": "-26",
       "active_frames": "2",
-      "notes": "-",
+      "notes": "TJ 9f",
       "id": "claudio_31"
     },
     {
@@ -827,7 +827,7 @@
       "damage": "23 [27]",
       "speed": "22",
       "on_block": "+4 (OC)",
-      "on_hit": "+4",
+      "on_hit": "+4 (OC)",
       "on_ch": "KND",
       "in_air": "FLOOR BREAK",
       "on_whiff": "-24",
@@ -878,13 +878,13 @@
       "meter_gain": "-",
       "damage": "10 [12], 20",
       "speed": "16",
-      "on_block": "-9",
+      "on_block": "-14",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-35",
       "active_frames": "1, 1",
-      "notes": "-",
+      "notes": "can be delayed, combo can be delayed by 11f",
       "id": "claudio_34"
     },
     {
@@ -904,7 +904,7 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "18",
-      "on_block": "-9",
+      "on_block": "-14",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "FLOAT",
@@ -943,7 +943,7 @@
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "f, F+2",
+      "notation": "f, F+2 (or FC d/f+2)",
       "hit_level": "mid",
       "range": "2",
       "pushback": "0.25",
@@ -969,15 +969,15 @@
       "properties": [],
       "preview_url": "https://giant.gfycat.com/DearestWhoppingCrayfish.gif",
       "move_name": "Bringer of Justice",
-      "notation": "f, F+2, 1+2",
+      "notation": "f, F+2, 1+2 (or FC d/f+2, 1+2)",
       "hit_level": "mid, mid",
       "range": "2",
       "pushback": "0.25",
       "tracking": "SSR, SSR",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
-      "environmental": "WALL BOUNCE",
+      "environmental": "WALL BOUND",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "14 [16], 20",
@@ -985,17 +985,17 @@
       "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-33",
       "active_frames": "3, 2",
-      "notes": "-",
+      "notes": "can be delayed, combo can be delayed 13f",
       "id": "claudio_38"
     },
     {
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "(f, F+2), 1+2",
+      "notation": "(f, F+2), 1+2 (or FC (d/f+2), 1+2)",
       "hit_level": "mid",
       "range": "1",
       "pushback": "0.5",
@@ -1003,7 +1003,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
-      "environmental": "WALL BOUNCE",
+      "environmental": "WALL BOUND",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "20 [24]",
@@ -1040,7 +1040,7 @@
       "in_air": "FLOAT",
       "on_whiff": "-27",
       "active_frames": "3",
-      "notes": "-",
+      "notes": "TJ 11f",
       "id": "claudio_40"
     },
     {
@@ -1079,7 +1079,7 @@
       "pushback": "0.5",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "WALL SPLAT",
       "cancelable": "-",
@@ -1089,7 +1089,7 @@
       "on_block": "-15",
       "on_hit": "LAUNCH",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-32",
       "active_frames": "2, 2",
       "notes": "-",
@@ -1139,7 +1139,7 @@
       "damage": "19 [22]",
       "speed": "14",
       "on_block": "-13",
-      "on_hit": "+2",
+      "on_hit": "+5",
       "on_ch": "STUN",
       "in_air": "FLOAT",
       "on_whiff": "-31",
@@ -1183,7 +1183,7 @@
       "pushback": "1.5",
       "tracking": "SSR, SSL / SSR",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
@@ -1193,10 +1193,10 @@
       "on_block": "-12",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "BACK FLIP",
+      "in_air": "-",
       "on_whiff": "-35",
       "active_frames": "1, 1",
-      "notes": "-",
+      "notes": "can be delayed 14f, combo can be delayed 14f",
       "id": "claudio_46"
     },
     {
@@ -1235,7 +1235,7 @@
       "pushback": "1",
       "tracking": "SSR, SSL",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
@@ -1245,10 +1245,10 @@
       "on_block": "-2",
       "on_hit": "+4",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-20",
       "active_frames": "1, 1",
-      "notes": "-",
+      "notes": "can be delayed 14f, combo can be delayed 14f",
       "id": "claudio_48"
     },
     {
@@ -1279,6 +1279,32 @@
     },
     {
       "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "d/f+4",
+      "hit_level": "mid",
+      "range": "1.75",
+      "pushback": "1.75",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "14 [16]",
+      "speed": "13",
+      "on_block": "-8",
+      "on_hit": "+3",
+      "on_ch": "+3",
+      "in_air": "FLOAT",
+      "on_whiff": "-26",
+      "active_frames": "1",
+      "notes": "-",
+      "id": "claudio_50"
+    },
+    {
+      "properties": [],
       "preview_url": "https://giant.gfycat.com/OfficialLividFrogmouth.gif",
       "move_name": "Axion",
       "notation": "d+1",
@@ -1301,11 +1327,11 @@
       "on_whiff": "-26",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_50"
+      "id": "claudio_51"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/AnguishedCoordinatedFlicker.gif",
+      "preview_url": "https://giant.gfycat.com/MatureMilkyAmericanwigeon.gif",
       "move_name": "Axion Burst",
       "notation": "d+1, 2",
       "hit_level": "mid, mid",
@@ -1313,21 +1339,21 @@
       "pushback": "1.5",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "YES",
       "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "16 [19], 23",
       "speed": "17",
-      "on_block": "+8",
+      "on_block": "-9",
       "on_hit": "+4",
       "on_ch": "-",
-      "in_air": "S!",
+      "in_air": "-",
       "on_whiff": "-29",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "claudio_51"
+      "id": "claudio_52"
     },
     {
       "properties": [],
@@ -1346,14 +1372,14 @@
       "meter_gain": "-",
       "damage": "23 [27]",
       "speed": "28",
-      "on_block": "+8",
+      "on_block": "-9",
       "on_hit": "+4",
       "on_ch": "+9",
       "in_air": "S!",
       "on_whiff": "-29",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_52"
+      "id": "claudio_53"
     },
     {
       "properties": [],
@@ -1373,13 +1399,13 @@
       "damage": "11 [13]",
       "speed": "20",
       "on_block": "-12",
-      "on_hit": "0",
-      "on_ch": "0",
+      "on_hit": "-1",
+      "on_ch": "-1",
       "in_air": "FLOAT",
       "on_whiff": "-30",
       "active_frames": "1",
-      "notes": "-",
-      "id": "claudio_53"
+      "notes": "TC 6f",
+      "id": "claudio_54"
     },
     {
       "properties": [],
@@ -1392,20 +1418,20 @@
       "tracking": "-",
       "crush": "-",
       "jail": "YES",
-      "natural": "NO",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "11 [13], 15",
       "speed": "20",
       "on_block": "-12",
-      "on_hit": "LAUNCH",
+      "on_hit": "0",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-29",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "claudio_54"
+      "id": "claudio_55"
     },
     {
       "properties": [],
@@ -1425,13 +1451,13 @@
       "damage": "15 [18]",
       "speed": "11",
       "on_block": "-12",
-      "on_hit": "LAUNCH",
-      "on_ch": "LAUNCH",
+      "on_hit": "0",
+      "on_ch": "0",
       "in_air": "FLOAT",
       "on_whiff": "-29",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_55"
+      "id": "claudio_56"
     },
     {
       "properties": [],
@@ -1457,7 +1483,7 @@
       "on_whiff": "-36",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_56"
+      "id": "claudio_57"
     },
     {
       "properties": [],
@@ -1482,8 +1508,8 @@
       "in_air": "FLOAT",
       "on_whiff": "-22",
       "active_frames": "1",
-      "notes": "-",
-      "id": "claudio_57"
+      "notes": "TC 4f",
+      "id": "claudio_58"
     },
     {
       "properties": [],
@@ -1495,8 +1521,8 @@
       "pushback": "0.5",
       "tracking": "-",
       "crush": "-",
-      "jail": "YES",
-      "natural": "NO",
+      "jail": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -1505,11 +1531,11 @@
       "on_block": "-13",
       "on_hit": "+3",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-31",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "claudio_58"
+      "id": "claudio_59"
     },
     {
       "properties": [],
@@ -1535,7 +1561,7 @@
       "on_whiff": "-31",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_59"
+      "id": "claudio_60"
     },
     {
       "properties": [],
@@ -1555,13 +1581,13 @@
       "damage": "23 [27]",
       "speed": "24",
       "on_block": "-15",
-      "on_hit": "+3",
+      "on_hit": "+3 (OC)",
       "on_ch": "LAUNCH",
       "in_air": "FLOAT",
       "on_whiff": "-34",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_60"
+      "id": "claudio_61"
     },
     {
       "properties": [],
@@ -1587,7 +1613,7 @@
       "on_whiff": "-31",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_61"
+      "id": "claudio_62"
     },
     {
       "properties": [],
@@ -1599,7 +1625,7 @@
       "pushback": "1",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
@@ -1609,11 +1635,11 @@
       "on_block": "-11",
       "on_hit": "0",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-31",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "claudio_62"
+      "id": "claudio_63"
     },
     {
       "properties": [],
@@ -1639,7 +1665,7 @@
       "on_whiff": "-31",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_63"
+      "id": "claudio_64"
     },
     {
       "properties": [],
@@ -1651,8 +1677,8 @@
       "pushback": "3",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
-      "natural": "NC",
+      "jail": "-",
+      "natural": "-",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -1665,7 +1691,7 @@
       "on_whiff": "-48",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "claudio_64"
+      "id": "claudio_65"
     },
     {
       "properties": [],
@@ -1691,7 +1717,7 @@
       "on_whiff": "-35",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_65"
+      "id": "claudio_66"
     },
     {
       "properties": [],
@@ -1717,7 +1743,7 @@
       "on_whiff": "-22",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_66"
+      "id": "claudio_67"
     },
     {
       "properties": [],
@@ -1729,7 +1755,7 @@
       "pushback": "1",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
@@ -1737,13 +1763,13 @@
       "damage": "16 [19], 21",
       "speed": "13",
       "on_block": "-12",
-      "on_hit": "+7",
+      "on_hit": "+7 (OC)",
       "on_ch": "-",
-      "in_air": "FLOOR BREAK",
+      "in_air": "-",
       "on_whiff": "-30",
       "active_frames": "1, 2",
       "notes": "-",
-      "id": "claudio_67"
+      "id": "claudio_68"
     },
     {
       "properties": [],
@@ -1763,13 +1789,13 @@
       "damage": "21 [25]",
       "speed": "24",
       "on_block": "-12",
-      "on_hit": "+7",
+      "on_hit": "+7 (OC)",
       "on_ch": "GROUND BOUNCE",
       "in_air": "FLOOR BREAK",
       "on_whiff": "-30",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_68"
+      "id": "claudio_69"
     },
     {
       "properties": [],
@@ -1795,7 +1821,7 @@
       "on_whiff": "-32",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_69"
+      "id": "claudio_70"
     },
     {
       "properties": [],
@@ -1807,7 +1833,7 @@
       "pushback": "1",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
@@ -1817,11 +1843,11 @@
       "on_block": "-8",
       "on_hit": "STUN",
       "on_ch": "-",
-      "in_air": "S!",
+      "in_air": "-",
       "on_whiff": "-28",
       "active_frames": "1, 2",
-      "notes": "-",
-      "id": "claudio_70"
+      "notes": "can be delayed 12f, combo can be delayed 10f",
+      "id": "claudio_71"
     },
     {
       "properties": [],
@@ -1847,7 +1873,7 @@
       "on_whiff": "-28",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_71"
+      "id": "claudio_72"
     },
     {
       "properties": [],
@@ -1859,7 +1885,7 @@
       "pushback": "0.25",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
@@ -1869,11 +1895,11 @@
       "on_block": "-12",
       "on_hit": "-4",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-32",
       "active_frames": "1, 2",
-      "notes": "-",
-      "id": "claudio_72"
+      "notes": "can be delayed 12f, combo can be delayed 8f",
+      "id": "claudio_73"
     },
     {
       "properties": [],
@@ -1899,7 +1925,7 @@
       "on_whiff": "-32",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_73"
+      "id": "claudio_74"
     },
     {
       "properties": [],
@@ -1911,21 +1937,21 @@
       "pushback": "0.75",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
-      "natural": "NO",
+      "jail": "-",
+      "natural": "-",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "10 [12], 14, 20",
       "speed": "17",
-      "on_block": "-1",
+      "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "FLOOR BREAK",
+      "in_air": "-",
       "on_whiff": "-32",
       "active_frames": "1, 2, 2",
       "notes": "-",
-      "id": "claudio_74"
+      "id": "claudio_75"
     },
     {
       "properties": [],
@@ -1937,21 +1963,21 @@
       "pushback": "0.5",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
-      "natural": "NO",
+      "jail": "-",
+      "natural": "NCc",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "14 [16], 20",
       "speed": "22",
-      "on_block": "-1",
+      "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "FLOOR BREAK",
+      "in_air": "-",
       "on_whiff": "-32",
       "active_frames": "2, 2",
       "notes": "-",
-      "id": "claudio_75"
+      "id": "claudio_76"
     },
     {
       "properties": [],
@@ -1970,14 +1996,14 @@
       "meter_gain": "-",
       "damage": "20 [24]",
       "speed": "31",
-      "on_block": "-1",
+      "on_block": "-13",
       "on_hit": "KND",
       "on_ch": "KND",
       "in_air": "FLOOR BREAK",
       "on_whiff": "-32",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_76"
+      "id": "claudio_77"
     },
     {
       "properties": [],
@@ -1991,7 +2017,7 @@
       "crush": "-",
       "jail": "-",
       "natural": "-",
-      "environmental": "WALL BOUNCE",
+      "environmental": "WALL BOUND",
       "cancelable": "-",
       "meter_gain": "-",
       "damage": "24 [28]",
@@ -2003,7 +2029,7 @@
       "on_whiff": "-34",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_77"
+      "id": "claudio_78"
     },
     {
       "properties": [],
@@ -2029,7 +2055,7 @@
       "on_whiff": "-26",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_78"
+      "id": "claudio_79"
     },
     {
       "properties": [],
@@ -2055,7 +2081,7 @@
       "on_whiff": "-26",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_79"
+      "id": "claudio_80"
     },
     {
       "properties": [],
@@ -2081,7 +2107,7 @@
       "on_whiff": "-23",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_80"
+      "id": "claudio_81"
     },
     {
       "properties": [],
@@ -2107,7 +2133,7 @@
       "on_whiff": "-32",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_81"
+      "id": "claudio_82"
     },
     {
       "properties": [],
@@ -2133,7 +2159,7 @@
       "on_whiff": "-33",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_82"
+      "id": "claudio_83"
     },
     {
       "properties": [],
@@ -2159,7 +2185,7 @@
       "on_whiff": "-29",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_83"
+      "id": "claudio_84"
     },
     {
       "properties": [],
@@ -2185,7 +2211,7 @@
       "on_whiff": "-35",
       "active_frames": "13",
       "notes": "-",
-      "id": "claudio_84"
+      "id": "claudio_85"
     },
     {
       "properties": [],
@@ -2211,7 +2237,7 @@
       "on_whiff": "-28",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_85"
+      "id": "claudio_86"
     },
     {
       "properties": [],
@@ -2237,7 +2263,7 @@
       "on_whiff": "-39",
       "active_frames": "17",
       "notes": "-",
-      "id": "claudio_86"
+      "id": "claudio_87"
     },
     {
       "properties": [],
@@ -2263,7 +2289,7 @@
       "on_whiff": "-40",
       "active_frames": "19",
       "notes": "-",
-      "id": "claudio_87"
+      "id": "claudio_88"
     },
     {
       "properties": [],
@@ -2283,13 +2309,13 @@
       "damage": "15 [18]",
       "speed": "12",
       "on_block": "-4",
-      "on_hit": "+8",
-      "on_ch": "+8",
+      "on_hit": "+7",
+      "on_ch": "+7",
       "in_air": "FLOAT",
       "on_whiff": "-21",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_88"
+      "id": "claudio_89"
     },
     {
       "properties": [],
@@ -2302,7 +2328,7 @@
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2311,11 +2337,11 @@
       "on_block": "-12",
       "on_hit": "+9",
       "on_ch": "-",
-      "in_air": "FLOAT",
+      "in_air": "-",
       "on_whiff": "-30",
       "active_frames": "2, 1",
       "notes": "-",
-      "id": "claudio_89"
+      "id": "claudio_90"
     },
     {
       "properties": [],
@@ -2341,7 +2367,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_90"
+      "id": "claudio_91"
     },
     {
       "properties": [],
@@ -2367,7 +2393,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_91"
+      "id": "claudio_92"
     },
     {
       "properties": [],
@@ -2393,7 +2419,7 @@
       "on_whiff": "-23",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_92"
+      "id": "claudio_93"
     },
     {
       "properties": [],
@@ -2405,8 +2431,8 @@
       "pushback": "-",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
-      "natural": "NO",
+      "jail": "-",
+      "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2419,7 +2445,7 @@
       "on_whiff": "-51",
       "active_frames": "-",
       "notes": "-",
-      "id": "claudio_93"
+      "id": "claudio_94"
     },
     {
       "properties": [],
@@ -2445,7 +2471,7 @@
       "on_whiff": "-29",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_94"
+      "id": "claudio_95"
     },
     {
       "properties": [],
@@ -2471,7 +2497,7 @@
       "on_whiff": "-29",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_95"
+      "id": "claudio_96"
     },
     {
       "properties": [],
@@ -2497,7 +2523,7 @@
       "on_whiff": "-36",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_96"
+      "id": "claudio_97"
     },
     {
       "properties": [],
@@ -2523,7 +2549,7 @@
       "on_whiff": "-39",
       "active_frames": "11",
       "notes": "-",
-      "id": "claudio_97"
+      "id": "claudio_98"
     },
     {
       "properties": [],
@@ -2549,7 +2575,7 @@
       "on_whiff": "-42",
       "active_frames": "6",
       "notes": "-",
-      "id": "claudio_98"
+      "id": "claudio_99"
     },
     {
       "properties": [],
@@ -2575,7 +2601,7 @@
       "on_whiff": "-35",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_99"
+      "id": "claudio_100"
     },
     {
       "properties": [],
@@ -2601,7 +2627,7 @@
       "on_whiff": "-37",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_100"
+      "id": "claudio_101"
     },
     {
       "properties": [],
@@ -2627,20 +2653,20 @@
       "on_whiff": "-13",
       "active_frames": "4",
       "notes": "-",
-      "id": "claudio_101"
+      "id": "claudio_102"
     },
     {
       "properties": [],
       "preview_url": "https://giant.gfycat.com/RawDarlingHornet.gif",
       "move_name": "Crimson Delta Edge to Starburst",
-      "notation": "1+2:1+2:f or b+2",
+      "notation": "1+2:1+2:f+2",
       "hit_level": "mid",
       "range": "2",
       "pushback": "1.5",
       "tracking": "-",
       "crush": "-",
       "jail": "-",
-      "natural": "-",
+      "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2653,7 +2679,33 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "-",
-      "id": "claudio_102"
+      "id": "claudio_103"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "1+2:1+2:b, f+2",
+      "hit_level": "mid",
+      "range": "2",
+      "pushback": "1.5",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "NC",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "20 [24], 20, 20",
+      "speed": "17",
+      "on_block": "-",
+      "on_hit": "-",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-",
+      "active_frames": "-",
+      "notes": "-",
+      "id": "claudio_104"
     },
     {
       "properties": [],
@@ -2675,11 +2727,11 @@
       "on_block": "-26",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "S!",
+      "in_air": "-",
       "on_whiff": "-45",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "claudio_103"
+      "id": "claudio_105"
     },
     {
       "properties": [],
@@ -2705,19 +2757,19 @@
       "on_whiff": "-45",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_104"
+      "id": "claudio_106"
     },
     {
       "properties": [],
       "preview_url": "https://giant.gfycat.com/AmusedInexperiencedCusimanse.gif",
       "move_name": "Dual Guns",
-      "notation": "f, F+2, 2",
+      "notation": "f, F+2, 2 (or FC d/f+2, 2)",
       "hit_level": "mid, high",
       "range": "2",
       "pushback": "0.25",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "-",
       "cancelable": "-",
@@ -2727,17 +2779,17 @@
       "on_block": "-2 (OC)",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "FLOOR BREAK",
+      "in_air": "-",
       "on_whiff": "-30",
       "active_frames": "3, 2",
-      "notes": "-",
-      "id": "claudio_105"
+      "notes": "can be delayed, combo can be delayed 15f",
+      "id": "claudio_107"
     },
     {
       "properties": [],
       "preview_url": null,
       "move_name": null,
-      "notation": "(f, F+2), 2",
+      "notation": "(f, F+2), 2 (or FC (d/f+2), 2)",
       "hit_level": "high",
       "range": "1",
       "pushback": "0.25",
@@ -2757,7 +2809,7 @@
       "on_whiff": "-30",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_106"
+      "id": "claudio_108"
     },
     {
       "properties": [],
@@ -2782,8 +2834,8 @@
       "in_air": "FLOAT",
       "on_whiff": "-27",
       "active_frames": "4",
-      "notes": "-",
-      "id": "claudio_107"
+      "notes": "TJ 3f",
+      "id": "claudio_109"
     },
     {
       "properties": [],
@@ -2809,7 +2861,7 @@
       "on_whiff": "-29",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_108"
+      "id": "claudio_110"
     },
     {
       "properties": [],
@@ -2821,7 +2873,7 @@
       "pushback": "1.5",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
+      "jail": "-",
       "natural": "NC",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
@@ -2831,11 +2883,11 @@
       "on_block": "-12",
       "on_hit": "KND",
       "on_ch": "-",
-      "in_air": "TAIL SPIN",
+      "in_air": "-",
       "on_whiff": "-36",
       "active_frames": "1, 1",
-      "notes": "-",
-      "id": "claudio_109"
+      "notes": "can be delayed 12f, combo can be delayed 11f",
+      "id": "claudio_111"
     },
     {
       "properties": [],
@@ -2861,7 +2913,7 @@
       "on_whiff": "-36",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_110"
+      "id": "claudio_112"
     },
     {
       "properties": [],
@@ -2887,7 +2939,267 @@
       "on_whiff": "-36",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_111"
+      "id": "claudio_113"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/MammothSilverAdder.gif",
+      "move_name": null,
+      "notation": "STB f+1+2, 1+2",
+      "hit_level": "mid, mid",
+      "range": "2",
+      "pushback": "0.25",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "YES",
+      "natural": "NC",
+      "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "10 [12], 20",
+      "speed": "16",
+      "on_block": "-9",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-35",
+      "active_frames": "1, 1",
+      "notes": "can be delayed, combo can be delayed by 11f",
+      "id": "claudio_114"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "STB (f+1+2), 1+2",
+      "hit_level": "mid",
+      "range": "1",
+      "pushback": "1.25",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "WALL BREAK / SPLAT",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "20 [24]",
+      "speed": "18",
+      "on_block": "-9",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "FLOAT",
+      "on_whiff": "-35",
+      "active_frames": "1",
+      "notes": "-",
+      "id": "claudio_115"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/MatureMilkyAmericanwigeon.gif",
+      "move_name": null,
+      "notation": "STB d+1, 2",
+      "hit_level": "mid, mid",
+      "range": "2.25",
+      "pushback": "1.5",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "NC",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "16 [19], 23",
+      "speed": "17",
+      "on_block": "+8",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-29",
+      "active_frames": "2, 2",
+      "notes": "-",
+      "id": "claudio_116"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "STB (d+1), 2",
+      "hit_level": "mid",
+      "range": "2",
+      "pushback": "1.5",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "23 [27]",
+      "speed": "28",
+      "on_block": "+8",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "S!",
+      "on_whiff": "-29",
+      "active_frames": "2",
+      "notes": "-",
+      "id": "claudio_117"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/UnacceptableKnobbyAfricanwildcat.gif",
+      "move_name": null,
+      "notation": "STB d+2, 2",
+      "hit_level": "low, low",
+      "range": "1.5",
+      "pushback": "0.5",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "YES",
+      "natural": "NCc",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "11 [13], 15",
+      "speed": "20",
+      "on_block": "-12",
+      "on_hit": "KND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-29",
+      "active_frames": "1, 2",
+      "notes": "-",
+      "id": "claudio_118"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "STB (d+2), 2",
+      "hit_level": "low",
+      "range": "0.25",
+      "pushback": "0.5",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "15 [18]",
+      "speed": "11",
+      "on_block": "-12",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "FLOAT",
+      "on_whiff": "-29",
+      "active_frames": "2",
+      "notes": "-",
+      "id": "claudio_119"
+    },
+    {
+      "properties": [],
+      "preview_url": "https://giant.gfycat.com/AmusedEmotionalGreatdane.gif",
+      "move_name": null,
+      "notation": "STB d/b+1+2",
+      "hit_level": "mid, mid",
+      "range": "2",
+      "pushback": "3",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "20 [24], 20",
+      "speed": "20",
+      "on_block": "KND",
+      "on_hit": "KND",
+      "on_ch": "KND",
+      "in_air": "FLOAT",
+      "on_whiff": "-48",
+      "active_frames": "1, 1",
+      "notes": "-",
+      "id": "claudio_120"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "STB b+4, 3, 2",
+      "hit_level": "mid, high, mid",
+      "range": "2.25",
+      "pushback": "0.75",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "10 [12], 14, 20",
+      "speed": "17",
+      "on_block": "-1",
+      "on_hit": "GROUND BOUND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-32",
+      "active_frames": "1, 2, 2",
+      "notes": "-",
+      "id": "claudio_121"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "STB (b+4), 3, 2",
+      "hit_level": "high, mid",
+      "range": "1.75",
+      "pushback": "0.5",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "NCc",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "14 [16], 20",
+      "speed": "22",
+      "on_block": "-1",
+      "on_hit": "GROUND BOUND",
+      "on_ch": "-",
+      "in_air": "-",
+      "on_whiff": "-32",
+      "active_frames": "2, 2",
+      "notes": "-",
+      "id": "claudio_122"
+    },
+    {
+      "properties": [],
+      "preview_url": null,
+      "move_name": null,
+      "notation": "STB (b+4), (3), 2",
+      "hit_level": "mid",
+      "range": "3",
+      "pushback": "0.5",
+      "tracking": "-",
+      "crush": "-",
+      "jail": "-",
+      "natural": "-",
+      "environmental": "-",
+      "cancelable": "-",
+      "meter_gain": "-",
+      "damage": "20 [24]",
+      "speed": "31",
+      "on_block": "-1",
+      "on_hit": "GROUND BOUND",
+      "on_ch": "GROUND BOUND",
+      "in_air": "FLOOR BREAK",
+      "on_whiff": "-32",
+      "active_frames": "2",
+      "notes": "-",
+      "id": "claudio_123"
     },
     {
       "properties": [],
@@ -2912,8 +3224,8 @@
       "in_air": "FLOOR BREAK",
       "on_whiff": "-33",
       "active_frames": "2",
-      "notes": "-",
-      "id": "claudio_112"
+      "notes": "PC 8f",
+      "id": "claudio_124"
     },
     {
       "properties": [],
@@ -2938,8 +3250,8 @@
       "in_air": "ACTIVATE",
       "on_whiff": "-45",
       "active_frames": "1",
-      "notes": "-",
-      "id": "claudio_113"
+      "notes": "PC 8f",
+      "id": "claudio_125"
     },
     {
       "properties": [],
@@ -2951,8 +3263,8 @@
       "pushback": "0",
       "tracking": "-",
       "crush": "-",
-      "jail": "NO",
-      "natural": "NO",
+      "jail": "-",
+      "natural": "-",
       "environmental": "WALL BREAK / SPLAT",
       "cancelable": "-",
       "meter_gain": "-",
@@ -2961,11 +3273,11 @@
       "on_block": "+7",
       "on_hit": "KND",
       "on_ch": "KND",
-      "in_air": "TAIL SPIN",
+      "in_air": "-",
       "on_whiff": "-17",
       "active_frames": "1, 1",
       "notes": "-",
-      "id": "claudio_114"
+      "id": "claudio_126"
     },
     {
       "properties": [],
@@ -2991,7 +3303,7 @@
       "on_whiff": "-17",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_115"
+      "id": "claudio_127"
     },
     {
       "properties": [],
@@ -3017,33 +3329,7 @@
       "on_whiff": "-49",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_116"
-    },
-    {
-      "properties": [],
-      "preview_url": "https://giant.gfycat.com/AmusedEmotionalGreatdane.gif",
-      "move_name": "Nova Burst",
-      "notation": "STB d/b+1+2",
-      "hit_level": "mid, mid",
-      "range": "2",
-      "pushback": "-",
-      "tracking": "-",
-      "crush": "-",
-      "jail": "NO",
-      "natural": "NC",
-      "environmental": "-",
-      "cancelable": "-",
-      "meter_gain": "-",
-      "damage": "20 [24], 20",
-      "speed": "20",
-      "on_block": "!",
-      "on_hit": "KND",
-      "on_ch": "KND",
-      "in_air": "FLOAT",
-      "on_whiff": "-48",
-      "active_frames": "1, 1",
-      "notes": "-",
-      "id": "claudio_117"
+      "id": "claudio_128"
     },
     {
       "properties": [],
@@ -3069,7 +3355,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "claudio_118"
+      "id": "claudio_129"
     },
     {
       "properties": [],
@@ -3095,7 +3381,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "claudio_119"
+      "id": "claudio_130"
     },
     {
       "properties": [],
@@ -3121,7 +3407,7 @@
       "on_whiff": "-32",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "claudio_120"
+      "id": "claudio_131"
     },
     {
       "properties": [],
@@ -3147,7 +3433,7 @@
       "on_whiff": "-32",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "claudio_121"
+      "id": "claudio_132"
     },
     {
       "properties": [],
@@ -3173,7 +3459,7 @@
       "on_whiff": "-26",
       "active_frames": "1",
       "notes": "1+2 BREAK",
-      "id": "claudio_122"
+      "id": "claudio_133"
     },
     {
       "properties": [],
@@ -3192,14 +3478,14 @@
       "meter_gain": "-",
       "damage": "40",
       "speed": "12",
-      "on_block": "-6",
+      "on_block": "-3",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "1 BREAK",
-      "id": "claudio_123"
+      "id": "claudio_134"
     },
     {
       "properties": [],
@@ -3218,14 +3504,14 @@
       "meter_gain": "-",
       "damage": "40",
       "speed": "12",
-      "on_block": "-6",
+      "on_block": "-3",
       "on_hit": "KND",
       "on_ch": "-",
       "in_air": "-",
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "2 BREAK",
-      "id": "claudio_124"
+      "id": "claudio_135"
     },
     {
       "properties": [],
@@ -3251,7 +3537,7 @@
       "on_whiff": "-24",
       "active_frames": "3",
       "notes": "-",
-      "id": "claudio_125"
+      "id": "claudio_136"
     },
     {
       "properties": [],
@@ -3277,7 +3563,7 @@
       "on_whiff": "-32",
       "active_frames": "1",
       "notes": "2 BREAK",
-      "id": "claudio_126"
+      "id": "claudio_137"
     },
     {
       "properties": [],
@@ -3303,7 +3589,7 @@
       "on_whiff": "-",
       "active_frames": "-",
       "notes": "1 BREAK",
-      "id": "claudio_127"
+      "id": "claudio_138"
     },
     {
       "properties": [],
@@ -3329,7 +3615,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1",
       "notes": "2 BREAK",
-      "id": "claudio_128"
+      "id": "claudio_139"
     },
     {
       "properties": [],
@@ -3355,7 +3641,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1, 1",
       "notes": "1 BREAK",
-      "id": "claudio_129"
+      "id": "claudio_140"
     },
     {
       "properties": [],
@@ -3381,7 +3667,7 @@
       "on_whiff": "-",
       "active_frames": "1, 1, 1, 1, 1",
       "notes": "2 BREAK",
-      "id": "claudio_130"
+      "id": "claudio_141"
     },
     {
       "properties": [],
@@ -3407,7 +3693,7 @@
       "on_whiff": "-30",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_131"
+      "id": "claudio_142"
     },
     {
       "properties": [],
@@ -3433,7 +3719,7 @@
       "on_whiff": "-23",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_132"
+      "id": "claudio_143"
     },
     {
       "properties": [],
@@ -3459,7 +3745,7 @@
       "on_whiff": "-26",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_133"
+      "id": "claudio_144"
     },
     {
       "properties": [],
@@ -3485,11 +3771,11 @@
       "on_whiff": "-33",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_134"
+      "id": "claudio_145"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/FamousWavyCrownofthornsstarfish.gif",
+      "preview_url": null,
       "move_name": null,
       "notation": "U/F, 2",
       "hit_level": "mid",
@@ -3511,11 +3797,11 @@
       "on_whiff": "-39",
       "active_frames": "3",
       "notes": "-",
-      "id": "claudio_135"
+      "id": "claudio_146"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ScarceFluffyFish.gif",
+      "preview_url": null,
       "move_name": null,
       "notation": "u/f, 3",
       "hit_level": "mid",
@@ -3537,7 +3823,7 @@
       "on_whiff": "-34",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_136"
+      "id": "claudio_147"
     },
     {
       "properties": [],
@@ -3563,11 +3849,11 @@
       "on_whiff": "-38",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_137"
+      "id": "claudio_148"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/ScarceFluffyFish.gif",
+      "preview_url": null,
       "move_name": null,
       "notation": "U/F, 3",
       "hit_level": "mid",
@@ -3589,7 +3875,7 @@
       "on_whiff": "-37",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_138"
+      "id": "claudio_149"
     },
     {
       "properties": [],
@@ -3615,7 +3901,7 @@
       "on_whiff": "-33",
       "active_frames": "1",
       "notes": "-",
-      "id": "claudio_139"
+      "id": "claudio_150"
     },
     {
       "properties": [],
@@ -3641,11 +3927,11 @@
       "on_whiff": "-27 (-29)",
       "active_frames": "3",
       "notes": "-",
-      "id": "claudio_140"
+      "id": "claudio_151"
     },
     {
       "properties": [],
-      "preview_url": "https://giant.gfycat.com/DirtyApprehensiveDuckbillcat.gif",
+      "preview_url": null,
       "move_name": null,
       "notation": "U/F, 4",
       "hit_level": "mid",
@@ -3667,7 +3953,7 @@
       "on_whiff": "-25",
       "active_frames": "2",
       "notes": "-",
-      "id": "claudio_141"
+      "id": "claudio_152"
     }
   ]
 }
