@@ -12,6 +12,7 @@ import * as characterActions from '../redux/actions/characterActions';
 
 import Button from '../common/Button';
 import AdBanner from '../components/AdBanner';
+import InputDisplay from '../common/InputDisplay'
 
 import { checkMoveProperty } from '../utils/CharacterMove';
 
@@ -76,6 +77,10 @@ const ModalText = styled.Text`
   font-size: 16;
 `;
 
+const InputContainer = styled.View`
+  padding-left: 20;
+`
+
 const mapStateToProps = ({ theme, characterData: { moveData, selectedCharacterMoves, selectedCharacterLabel, currentAttack } }) => ({
     theme,
     moveData,
@@ -112,7 +117,6 @@ class CharacterMove extends Component {
         const item = navigation.getParam('item');
 
         const { notation, move_name, name, id } = item;
-        console.log('ITEM', item)
 
         const selectedCharacterMoves = navigation.getParam('selectedCharacterMoves');
 
@@ -234,6 +238,9 @@ class CharacterMove extends Component {
                                 <PropertyText>
                                     {notation}
                                 </PropertyText>
+                                <InputContainer>
+                                    <InputDisplay notation={notation} />
+                                </InputContainer>
                             </NotationWrapper>
 
                             {/* <HeaderTitle>
