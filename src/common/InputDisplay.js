@@ -18,7 +18,7 @@ const InputImage = styled.Image`
 `;
 
 const InputMappings = ({ notation }) => {
-    inputs = notation.replace(/[{()}]/g, '').split(/(?<=[a-zA-Z])\+|[\s,]+/)
+    inputs = notation.replace(/[{()}]/g, '').split(/[a-zA-Z]\/+[1-9]\+|\+|[\s,]+/)
 
     return (
         inputs.map((input, index) => {
