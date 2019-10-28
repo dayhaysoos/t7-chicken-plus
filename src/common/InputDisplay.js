@@ -17,8 +17,39 @@ const InputImage = styled.Image`
   margin-right: 5;
 `;
 
+const formatInput = (notation) => {
+    let str = notation.replace(/[{()}]/g, '');
+
+    let inputs = [];
+
+    for (let i = 0; i < str.length; i++) {
+
+        let c = str[i];
+
+        if (c == " " || c == ",") {
+            inputs.push(str.slice(0, i));
+            str = str.substr(i + 1, str.length);
+            i = 0;
+        }
+
+
+        if (c == "+") {
+            if (!str.substr(i - 1, i + 2).match(/\d+\++\d/)) {
+                inputs.push(str.slice(0, i));
+                str = str.substr(i + 1, str.length);
+                i = 0;
+            }
+        }
+
+
+    }
+    inputs.push(str);
+
+    return inputs
+}
+
 const InputMappings = ({ notation }) => {
-    inputs = notation.replace(/[{()}]/g, '').split(/[a-zA-Z]\/+[1-9]\+|\+|[\s,]+/)
+    const inputs = formatInput(notation.replace(/[{()}]/g, ''))
 
     return (
         inputs.map((input, index) => {
