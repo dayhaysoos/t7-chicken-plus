@@ -23,7 +23,7 @@ const SocialIconsWrapper = styled.View`
 `;
 
 const TouchableSocial = styled.TouchableHighlight`
-  background-color: ${({bgColor}) => bgColor}
+  background-color: ${({ bgColor }) => bgColor}
   height: 40;
   width: 50;
   margin-left: 10;

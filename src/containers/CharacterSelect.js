@@ -118,7 +118,7 @@ class CharacterSelect extends Component {
         const { navigation, updateSelectedCharacterMoves, toggleCharacterStar, resetSearchBar } = this.props;
         const { favorite, label } = item;
         resetSearchBar();
-        updateSelectedCharacterMoves({label, favorite});
+        updateSelectedCharacterMoves({ label, favorite });
 
         navigation.navigate('CharacterProfile');
 
@@ -161,7 +161,7 @@ class CharacterSelect extends Component {
                         <View style={{ flex: 1, flexDirection: 'row' }} onLayout={this.onLayout} >
                             <FlatList
                                 indicatorStyle={'white'}
-                                getItemLayout={(searchedData, index) => ({length: 103, offset: 103 * index, index})}
+                                getItemLayout={(searchedData, index) => ({ length: 103, offset: 103 * index, index })}
                                 contentContainerStyle={{ flexDirection: 'column', justifyContent: 'center', alignItems: listView ? 'stretch' : 'center', paddingTop: 15 }}
                                 data={searchedData}
                                 numColumns={listView ? 1 : Math.floor(this.state.screenWidth / 85)} // should prolly be 1 : 4 I think

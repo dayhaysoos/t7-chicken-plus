@@ -71,7 +71,7 @@ class BottomMenuBar extends Component {
     renderNavButton = (navButtonFunction, icon, label) => (
         <MenuButton onPress={navButtonFunction ? navButtonFunction : null}>
             <MenuIconWrapper>
-                <FontAwesomeIcon size={36} color='#FF412C' style={{opacity: navButtonFunction ? 1 : 0.3}} icon={icon}/>
+                <FontAwesomeIcon size={36} color='#FF412C' style={{ opacity: navButtonFunction ? 1 : 0.3 }} icon={icon} />
             </MenuIconWrapper>
             <MenuLabelText>{label}</MenuLabelText>
         </MenuButton>
@@ -91,27 +91,27 @@ class BottomMenuBar extends Component {
     handleSearchBar = async () => {
         const { showSearch } = this.state;
 
-        if(!showSearch) {
+        if (!showSearch) {
             this.handleFade(0);
-            this.setState({showSearch: true});
+            this.setState({ showSearch: true });
         }
 
-        if(showSearch) {
+        if (showSearch) {
             this.handleFade(1);
             setTimeout(() => {
-                this.setState({showSearch: false});
+                this.setState({ showSearch: false });
             }, 500);
         }
     }
 
 
     confirmIsTrue = (isOnMoveTab, isCharacterSelectScreen) => {
-        if(isOnMoveTab === true || isCharacterSelectScreen === true) {
+        if (isOnMoveTab === true || isCharacterSelectScreen === true) {
             return true;
-        } else { 
+        } else {
             return false;
         }
-    } 
+    }
 
     render() {
         const {
@@ -168,7 +168,7 @@ class BottomMenuBar extends Component {
                     )}
 
 
-                    { this.confirmIsTrue(isOnMoveTab, isCharacterSelectScreen) && (
+                    {this.confirmIsTrue(isOnMoveTab, isCharacterSelectScreen) && (
                         <MenuButton onPress={toggleListView}>
                             <MenuIconWrapper>
                                 <FontAwesomeIcon size={36} color='#FF412C' icon={isListView ? 'th' : 'list'} />
@@ -176,9 +176,9 @@ class BottomMenuBar extends Component {
                             <MenuLabelText>Switch View</MenuLabelText>
                         </MenuButton>
                     )}
-                    
-                    
-                    { this.confirmIsTrue(isOnMoveTab, isCharacterSelectScreen) && (
+
+
+                    {this.confirmIsTrue(isOnMoveTab, isCharacterSelectScreen) && (
                         <MenuButton onPress={() => this.handleSearchBar()}>
                             <MenuIconWrapper>
                                 <FontAwesomeIcon size={36} color='#FF412C' icon={'search'} />
